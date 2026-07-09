@@ -8,7 +8,7 @@ Orama's shaders are written in the **[Slang](https://shader-slang.org/)** langua
 
 Orama shaders are made up of functions marked as stages using the **Shader** attribute.
 
-```C#
+```slang
 // This is a fragment shader. Fragment shaders run once per pixel.
 [Shader("fragment")]
 float4 Fragment(VertexOutput i) : SV_Target
