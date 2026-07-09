@@ -1,4 +1,8 @@
 - name: Introduction
   href: introduction.md
-- name: Getting Started
-  href: getting-started.md
+- name: Shaders
+  items:
+    - name: Intro to Shaders
+      href: shaders/intro.md
+    - name: Shader Authoring
+      href: shaders/authoring.md
