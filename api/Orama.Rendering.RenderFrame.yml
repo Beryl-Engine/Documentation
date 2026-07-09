@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.RenderFrame
+  commentId: T:Orama.Rendering.RenderFrame
+  id: RenderFrame
+  parent: Orama.Rendering
+  children:
+  - Orama.Rendering.RenderFrame.Projection
+  - Orama.Rendering.RenderFrame.View
+  langs:
+  - csharp
+  - vb
+  name: RenderFrame
+  nameWithType: RenderFrame
+  fullName: Orama.Rendering.RenderFrame
+  type: Struct
+  source:
+    remote:
+      path: Modules/Orama.Rendering/RenderFrame.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: RenderFrame
+    path: ../Orama/Modules/Orama.Rendering/RenderFrame.cs
+    startLine: 7
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: Contains information about the rendering frame.
+  example: []
+  syntax:
+    content: public readonly ref struct RenderFrame
+    content.vb: Public Structure RenderFrame
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Orama.Rendering.RenderFrame.View
+  commentId: P:Orama.Rendering.RenderFrame.View
+  id: View
+  parent: Orama.Rendering.RenderFrame
+  langs:
+  - csharp
+  - vb
+  name: View
+  nameWithType: RenderFrame.View
+  fullName: Orama.Rendering.RenderFrame.View
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/RenderFrame.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: View
+    path: ../Orama/Modules/Orama.Rendering/RenderFrame.cs
+    startLine: 9
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public Matrix4x4 View { get; init; }
+    parameters: []
+    return:
+      type: Orama.Math.Matrix4x4
+    content.vb: Public Property View As Matrix4x4
+  overload: Orama.Rendering.RenderFrame.View*
+- uid: Orama.Rendering.RenderFrame.Projection
+  commentId: P:Orama.Rendering.RenderFrame.Projection
+  id: Projection
+  parent: Orama.Rendering.RenderFrame
+  langs:
+  - csharp
+  - vb
+  name: Projection
+  nameWithType: RenderFrame.Projection
+  fullName: Orama.Rendering.RenderFrame.Projection
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/RenderFrame.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Projection
+    path: ../Orama/Modules/Orama.Rendering/RenderFrame.cs
+    startLine: 10
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public Matrix4x4 Projection { get; init; }
+    parameters: []
+    return:
+      type: Orama.Math.Matrix4x4
+    content.vb: Public Property Projection As Matrix4x4
+  overload: Orama.Rendering.RenderFrame.Projection*
+references:
+- uid: Orama.Rendering
+  commentId: N:Orama.Rendering
+  href: Orama.html
+  name: Orama.Rendering
+  nameWithType: Orama.Rendering
+  fullName: Orama.Rendering
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Rendering.RenderFrame.View*
+  commentId: Overload:Orama.Rendering.RenderFrame.View
+  href: Orama.Rendering.RenderFrame.html#Orama_Rendering_RenderFrame_View
+  name: View
+  nameWithType: RenderFrame.View
+  fullName: Orama.Rendering.RenderFrame.View
+- uid: Orama.Math.Matrix4x4
+  commentId: T:Orama.Math.Matrix4x4
+  parent: Orama.Math
+  href: Orama.Math.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Orama.Math.Matrix4x4
+- uid: Orama.Math
+  commentId: N:Orama.Math
+  href: Orama.html
+  name: Orama.Math
+  nameWithType: Orama.Math
+  fullName: Orama.Math
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+- uid: Orama.Rendering.RenderFrame.Projection*
+  commentId: Overload:Orama.Rendering.RenderFrame.Projection
+  href: Orama.Rendering.RenderFrame.html#Orama_Rendering_RenderFrame_Projection
+  name: Projection
+  nameWithType: RenderFrame.Projection
+  fullName: Orama.Rendering.RenderFrame.Projection

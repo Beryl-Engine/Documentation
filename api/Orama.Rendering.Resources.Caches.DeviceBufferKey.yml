@@ -1,0 +1,494 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.Resources.Caches.DeviceBufferKey
+  commentId: T:Orama.Rendering.Resources.Caches.DeviceBufferKey
+  id: DeviceBufferKey
+  parent: Orama.Rendering.Resources.Caches
+  children:
+  - Orama.Rendering.Resources.Caches.DeviceBufferKey.#ctor(System.UInt32,NeoVeldrid.BufferUsage)
+  - Orama.Rendering.Resources.Caches.DeviceBufferKey.ByteSize
+  - Orama.Rendering.Resources.Caches.DeviceBufferKey.Usage
+  langs:
+  - csharp
+  - vb
+  name: DeviceBufferKey
+  nameWithType: DeviceBufferKey
+  fullName: Orama.Rendering.Resources.Caches.DeviceBufferKey
+  type: Struct
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/DeviceBufferCache.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: DeviceBufferKey
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/DeviceBufferCache.cs
+    startLine: 11
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: 'public readonly record struct DeviceBufferKey : IEquatable<DeviceBufferKey>'
+    content.vb: Public Structure DeviceBufferKey Implements IEquatable(Of DeviceBufferKey)
+  implements:
+  - System.IEquatable{Orama.Rendering.Resources.Caches.DeviceBufferKey}
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Orama.Rendering.Resources.Caches.DeviceBufferKey.#ctor(System.UInt32,NeoVeldrid.BufferUsage)
+  commentId: M:Orama.Rendering.Resources.Caches.DeviceBufferKey.#ctor(System.UInt32,NeoVeldrid.BufferUsage)
+  id: '#ctor(System.UInt32,NeoVeldrid.BufferUsage)'
+  parent: Orama.Rendering.Resources.Caches.DeviceBufferKey
+  langs:
+  - csharp
+  - vb
+  name: DeviceBufferKey(uint, BufferUsage)
+  nameWithType: DeviceBufferKey.DeviceBufferKey(uint, BufferUsage)
+  fullName: Orama.Rendering.Resources.Caches.DeviceBufferKey.DeviceBufferKey(uint, NeoVeldrid.BufferUsage)
+  type: Constructor
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/DeviceBufferCache.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: .ctor
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/DeviceBufferCache.cs
+    startLine: 11
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: public DeviceBufferKey(uint ByteSize, BufferUsage Usage)
+    parameters:
+    - id: ByteSize
+      type: System.UInt32
+    - id: Usage
+      type: NeoVeldrid.BufferUsage
+    content.vb: Public Sub New(ByteSize As UInteger, Usage As BufferUsage)
+  overload: Orama.Rendering.Resources.Caches.DeviceBufferKey.#ctor*
+  nameWithType.vb: DeviceBufferKey.New(UInteger, BufferUsage)
+  fullName.vb: Orama.Rendering.Resources.Caches.DeviceBufferKey.New(UInteger, NeoVeldrid.BufferUsage)
+  name.vb: New(UInteger, BufferUsage)
+- uid: Orama.Rendering.Resources.Caches.DeviceBufferKey.ByteSize
+  commentId: P:Orama.Rendering.Resources.Caches.DeviceBufferKey.ByteSize
+  id: ByteSize
+  parent: Orama.Rendering.Resources.Caches.DeviceBufferKey
+  langs:
+  - csharp
+  - vb
+  name: ByteSize
+  nameWithType: DeviceBufferKey.ByteSize
+  fullName: Orama.Rendering.Resources.Caches.DeviceBufferKey.ByteSize
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/DeviceBufferCache.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ByteSize
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/DeviceBufferCache.cs
+    startLine: 11
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: public uint ByteSize { get; init; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ByteSize As UInteger
+  overload: Orama.Rendering.Resources.Caches.DeviceBufferKey.ByteSize*
+- uid: Orama.Rendering.Resources.Caches.DeviceBufferKey.Usage
+  commentId: P:Orama.Rendering.Resources.Caches.DeviceBufferKey.Usage
+  id: Usage
+  parent: Orama.Rendering.Resources.Caches.DeviceBufferKey
+  langs:
+  - csharp
+  - vb
+  name: Usage
+  nameWithType: DeviceBufferKey.Usage
+  fullName: Orama.Rendering.Resources.Caches.DeviceBufferKey.Usage
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/DeviceBufferCache.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Usage
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/DeviceBufferCache.cs
+    startLine: 11
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: public BufferUsage Usage { get; init; }
+    parameters: []
+    return:
+      type: NeoVeldrid.BufferUsage
+    content.vb: Public Property Usage As BufferUsage
+  overload: Orama.Rendering.Resources.Caches.DeviceBufferKey.Usage*
+references:
+- uid: Orama.Rendering.Resources.Caches
+  commentId: N:Orama.Rendering.Resources.Caches
+  href: Orama.html
+  name: Orama.Rendering.Resources.Caches
+  nameWithType: Orama.Rendering.Resources.Caches
+  fullName: Orama.Rendering.Resources.Caches
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
+- uid: System.IEquatable{Orama.Rendering.Resources.Caches.DeviceBufferKey}
+  commentId: T:System.IEquatable{Orama.Rendering.Resources.Caches.DeviceBufferKey}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<DeviceBufferKey>
+  nameWithType: IEquatable<DeviceBufferKey>
+  fullName: System.IEquatable<Orama.Rendering.Resources.Caches.DeviceBufferKey>
+  nameWithType.vb: IEquatable(Of DeviceBufferKey)
+  fullName.vb: System.IEquatable(Of Orama.Rendering.Resources.Caches.DeviceBufferKey)
+  name.vb: IEquatable(Of DeviceBufferKey)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Orama.Rendering.Resources.Caches.DeviceBufferKey
+    name: DeviceBufferKey
+    href: Orama.Rendering.Resources.Caches.DeviceBufferKey.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Orama.Rendering.Resources.Caches.DeviceBufferKey
+    name: DeviceBufferKey
+    href: Orama.Rendering.Resources.Caches.DeviceBufferKey.html
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Orama.Rendering.Resources.Caches.DeviceBufferKey.#ctor*
+  commentId: Overload:Orama.Rendering.Resources.Caches.DeviceBufferKey.#ctor
+  href: Orama.Rendering.Resources.Caches.DeviceBufferKey.html#Orama_Rendering_Resources_Caches_DeviceBufferKey__ctor_System_UInt32_NeoVeldrid_BufferUsage_
+  name: DeviceBufferKey
+  nameWithType: DeviceBufferKey.DeviceBufferKey
+  fullName: Orama.Rendering.Resources.Caches.DeviceBufferKey.DeviceBufferKey
+  nameWithType.vb: DeviceBufferKey.New
+  fullName.vb: Orama.Rendering.Resources.Caches.DeviceBufferKey.New
+  name.vb: New
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NeoVeldrid.BufferUsage
+  commentId: T:NeoVeldrid.BufferUsage
+  parent: NeoVeldrid
+  isExternal: true
+  name: BufferUsage
+  nameWithType: BufferUsage
+  fullName: NeoVeldrid.BufferUsage
+- uid: NeoVeldrid
+  commentId: N:NeoVeldrid
+  isExternal: true
+  name: NeoVeldrid
+  nameWithType: NeoVeldrid
+  fullName: NeoVeldrid
+- uid: Orama.Rendering.Resources.Caches.DeviceBufferKey.ByteSize*
+  commentId: Overload:Orama.Rendering.Resources.Caches.DeviceBufferKey.ByteSize
+  href: Orama.Rendering.Resources.Caches.DeviceBufferKey.html#Orama_Rendering_Resources_Caches_DeviceBufferKey_ByteSize
+  name: ByteSize
+  nameWithType: DeviceBufferKey.ByteSize
+  fullName: Orama.Rendering.Resources.Caches.DeviceBufferKey.ByteSize
+- uid: Orama.Rendering.Resources.Caches.DeviceBufferKey.Usage*
+  commentId: Overload:Orama.Rendering.Resources.Caches.DeviceBufferKey.Usage
+  href: Orama.Rendering.Resources.Caches.DeviceBufferKey.html#Orama_Rendering_Resources_Caches_DeviceBufferKey_Usage
+  name: Usage
+  nameWithType: DeviceBufferKey.Usage
+  fullName: Orama.Rendering.Resources.Caches.DeviceBufferKey.Usage

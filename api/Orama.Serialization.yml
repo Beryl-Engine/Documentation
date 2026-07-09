@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Serialization
+  commentId: N:Orama.Serialization
+  id: Orama.Serialization
+  children:
+  - Orama.Serialization.Serialization
+  - Orama.Serialization.SerializationType
+  langs:
+  - csharp
+  - vb
+  name: Orama.Serialization
+  nameWithType: Orama.Serialization
+  fullName: Orama.Serialization
+  type: Namespace
+  assemblies:
+  - Orama.Serialization
+references:
+- uid: Orama.Serialization.Serialization
+  commentId: T:Orama.Serialization.Serialization
+  href: Orama.Serialization.Serialization.html
+  name: Serialization
+  nameWithType: Serialization
+  fullName: Orama.Serialization.Serialization
+- uid: Orama.Serialization.SerializationType
+  commentId: T:Orama.Serialization.SerializationType
+  parent: Orama.Serialization
+  href: Orama.Serialization.SerializationType.html
+  name: SerializationType
+  nameWithType: SerializationType
+  fullName: Orama.Serialization.SerializationType
+- uid: Orama.Serialization
+  commentId: N:Orama.Serialization
+  href: Orama.html
+  name: Orama.Serialization
+  nameWithType: Orama.Serialization
+  fullName: Orama.Serialization
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Serialization
+    name: Serialization
+    href: Orama.Serialization.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Serialization
+    name: Serialization
+    href: Orama.Serialization.html

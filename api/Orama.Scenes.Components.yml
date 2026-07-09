@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Scenes.Components
+  commentId: N:Orama.Scenes.Components
+  id: Orama.Scenes.Components
+  children:
+  - Orama.Scenes.Components.Component
+  - Orama.Scenes.Components.Transform
+  langs:
+  - csharp
+  - vb
+  name: Orama.Scenes.Components
+  nameWithType: Orama.Scenes.Components
+  fullName: Orama.Scenes.Components
+  type: Namespace
+  assemblies:
+  - Orama.Scenes
+references:
+- uid: Orama.Scenes.Components.Component
+  commentId: T:Orama.Scenes.Components.Component
+  parent: Orama.Scenes.Components
+  href: Orama.Scenes.Components.Component.html
+  name: Component
+  nameWithType: Component
+  fullName: Orama.Scenes.Components.Component
+- uid: Orama.Scenes.Components.Transform
+  commentId: T:Orama.Scenes.Components.Transform
+  parent: Orama.Scenes.Components
+  href: Orama.Scenes.Components.Transform.html
+  name: Transform
+  nameWithType: Transform
+  fullName: Orama.Scenes.Components.Transform
+- uid: Orama.Scenes.Components
+  commentId: N:Orama.Scenes.Components
+  href: Orama.html
+  name: Orama.Scenes.Components
+  nameWithType: Orama.Scenes.Components
+  fullName: Orama.Scenes.Components
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Scenes
+    name: Scenes
+    href: Orama.Scenes.html
+  - name: .
+  - uid: Orama.Scenes.Components
+    name: Components
+    href: Orama.Scenes.Components.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Scenes
+    name: Scenes
+    href: Orama.Scenes.html
+  - name: .
+  - uid: Orama.Scenes.Components
+    name: Components
+    href: Orama.Scenes.Components.html

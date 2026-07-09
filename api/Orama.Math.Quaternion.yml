@@ -1,0 +1,1225 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Math.Quaternion
+  commentId: T:Orama.Math.Quaternion
+  id: Quaternion
+  parent: Orama.Math
+  children:
+  - Orama.Math.Quaternion.#ctor(System.Single,System.Single,System.Single,System.Single)
+  - Orama.Math.Quaternion.CreateFromAxisAngle(Orama.Math.Vector3,System.Single)
+  - Orama.Math.Quaternion.Equals(Orama.Math.Quaternion)
+  - Orama.Math.Quaternion.Equals(System.Object)
+  - Orama.Math.Quaternion.FromEulerAngles(Orama.Math.Vector3)
+  - Orama.Math.Quaternion.FromEulerAngles(System.Single,System.Single,System.Single)
+  - Orama.Math.Quaternion.GetHashCode
+  - Orama.Math.Quaternion.Identity
+  - Orama.Math.Quaternion.ToEulerAngles
+  - Orama.Math.Quaternion.ToString
+  - Orama.Math.Quaternion.W
+  - Orama.Math.Quaternion.X
+  - Orama.Math.Quaternion.Y
+  - Orama.Math.Quaternion.Z
+  - Orama.Math.Quaternion.op_Equality(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  - Orama.Math.Quaternion.op_Inequality(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  - Orama.Math.Quaternion.op_Multiply(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  - Orama.Math.Quaternion.op_UnaryNegation(Orama.Math.Quaternion)
+  langs:
+  - csharp
+  - vb
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Orama.Math.Quaternion
+  type: Struct
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Quaternion
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 6
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Represents a four-dimensional rotation.
+  example: []
+  syntax:
+    content: 'public struct Quaternion : IEquatable<Quaternion>'
+    content.vb: Public Structure Quaternion Implements IEquatable(Of Quaternion)
+  implements:
+  - System.IEquatable{Orama.Math.Quaternion}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Orama.Math.Quaternion.X
+  commentId: P:Orama.Math.Quaternion.X
+  id: X
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Quaternion.X
+  fullName: Orama.Math.Quaternion.X
+  type: Property
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: X
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 9
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: The X component of the <xref href="Orama.Math.Quaternion" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public float X { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property X As Single
+  overload: Orama.Math.Quaternion.X*
+- uid: Orama.Math.Quaternion.Y
+  commentId: P:Orama.Math.Quaternion.Y
+  id: Y
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Quaternion.Y
+  fullName: Orama.Math.Quaternion.Y
+  type: Property
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Y
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 12
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: The Y component of the <xref href="Orama.Math.Quaternion" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public float Y { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Y As Single
+  overload: Orama.Math.Quaternion.Y*
+- uid: Orama.Math.Quaternion.Z
+  commentId: P:Orama.Math.Quaternion.Z
+  id: Z
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: Quaternion.Z
+  fullName: Orama.Math.Quaternion.Z
+  type: Property
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Z
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 15
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: The Z component of the <xref href="Orama.Math.Quaternion" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public float Z { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Z As Single
+  overload: Orama.Math.Quaternion.Z*
+- uid: Orama.Math.Quaternion.W
+  commentId: P:Orama.Math.Quaternion.W
+  id: W
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: Quaternion.W
+  fullName: Orama.Math.Quaternion.W
+  type: Property
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: W
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 18
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: The W component of the <xref href="Orama.Math.Quaternion" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public float W { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property W As Single
+  overload: Orama.Math.Quaternion.W*
+- uid: Orama.Math.Quaternion.#ctor(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Orama.Math.Quaternion.#ctor(System.Single,System.Single,System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single,System.Single,System.Single)'
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Quaternion(float, float, float, float)
+  nameWithType: Quaternion.Quaternion(float, float, float, float)
+  fullName: Orama.Math.Quaternion.Quaternion(float, float, float, float)
+  type: Constructor
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: .ctor
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 21
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Creates a new instance of <xref href="Orama.Math.Quaternion" data-throw-if-not-resolved="false"></xref> with the specified components.
+  example: []
+  syntax:
+    content: public Quaternion(float x, float y, float z, float w)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    - id: w
+      type: System.Single
+    content.vb: Public Sub New(x As Single, y As Single, z As Single, w As Single)
+  overload: Orama.Math.Quaternion.#ctor*
+  nameWithType.vb: Quaternion.New(Single, Single, Single, Single)
+  fullName.vb: Orama.Math.Quaternion.New(Single, Single, Single, Single)
+  name.vb: New(Single, Single, Single, Single)
+- uid: Orama.Math.Quaternion.Identity
+  commentId: P:Orama.Math.Quaternion.Identity
+  id: Identity
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: Quaternion.Identity
+  fullName: Orama.Math.Quaternion.Identity
+  type: Property
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Identity
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 29
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  syntax:
+    content: public static Quaternion Identity { get; }
+    parameters: []
+    return:
+      type: Orama.Math.Quaternion
+    content.vb: Public Shared ReadOnly Property Identity As Quaternion
+  overload: Orama.Math.Quaternion.Identity*
+- uid: Orama.Math.Quaternion.CreateFromAxisAngle(Orama.Math.Vector3,System.Single)
+  commentId: M:Orama.Math.Quaternion.CreateFromAxisAngle(Orama.Math.Vector3,System.Single)
+  id: CreateFromAxisAngle(Orama.Math.Vector3,System.Single)
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: CreateFromAxisAngle(Vector3, float)
+  nameWithType: Quaternion.CreateFromAxisAngle(Vector3, float)
+  fullName: Orama.Math.Quaternion.CreateFromAxisAngle(Orama.Math.Vector3, float)
+  type: Method
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateFromAxisAngle
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 32
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Creates a <xref href="Orama.Math.Quaternion" data-throw-if-not-resolved="false"></xref> representing a rotation around an axis by an angle in radians.
+  example: []
+  syntax:
+    content: public static Quaternion CreateFromAxisAngle(Vector3 axis, float angle)
+    parameters:
+    - id: axis
+      type: Orama.Math.Vector3
+    - id: angle
+      type: System.Single
+    return:
+      type: Orama.Math.Quaternion
+    content.vb: Public Shared Function CreateFromAxisAngle(axis As Vector3, angle As Single) As Quaternion
+  overload: Orama.Math.Quaternion.CreateFromAxisAngle*
+  nameWithType.vb: Quaternion.CreateFromAxisAngle(Vector3, Single)
+  fullName.vb: Orama.Math.Quaternion.CreateFromAxisAngle(Orama.Math.Vector3, Single)
+  name.vb: CreateFromAxisAngle(Vector3, Single)
+- uid: Orama.Math.Quaternion.ToEulerAngles
+  commentId: M:Orama.Math.Quaternion.ToEulerAngles
+  id: ToEulerAngles
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: ToEulerAngles()
+  nameWithType: Quaternion.ToEulerAngles()
+  fullName: Orama.Math.Quaternion.ToEulerAngles()
+  type: Method
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ToEulerAngles
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 48
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Converts this <xref href="Orama.Math.Quaternion" data-throw-if-not-resolved="false"></xref> to Euler angles (pitch, yaw, roll) in radians.
+  example: []
+  syntax:
+    content: public Vector3 ToEulerAngles()
+    return:
+      type: Orama.Math.Vector3
+    content.vb: Public Function ToEulerAngles() As Vector3
+  overload: Orama.Math.Quaternion.ToEulerAngles*
+- uid: Orama.Math.Quaternion.FromEulerAngles(System.Single,System.Single,System.Single)
+  commentId: M:Orama.Math.Quaternion.FromEulerAngles(System.Single,System.Single,System.Single)
+  id: FromEulerAngles(System.Single,System.Single,System.Single)
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: FromEulerAngles(float, float, float)
+  nameWithType: Quaternion.FromEulerAngles(float, float, float)
+  fullName: Orama.Math.Quaternion.FromEulerAngles(float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: FromEulerAngles
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 73
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Creates a <xref href="Orama.Math.Quaternion" data-throw-if-not-resolved="false"></xref> from Euler angles (pitch, yaw, roll) in radians.
+  example: []
+  syntax:
+    content: public static Quaternion FromEulerAngles(float x, float y, float z)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    return:
+      type: Orama.Math.Quaternion
+    content.vb: Public Shared Function FromEulerAngles(x As Single, y As Single, z As Single) As Quaternion
+  overload: Orama.Math.Quaternion.FromEulerAngles*
+  nameWithType.vb: Quaternion.FromEulerAngles(Single, Single, Single)
+  fullName.vb: Orama.Math.Quaternion.FromEulerAngles(Single, Single, Single)
+  name.vb: FromEulerAngles(Single, Single, Single)
+- uid: Orama.Math.Quaternion.FromEulerAngles(Orama.Math.Vector3)
+  commentId: M:Orama.Math.Quaternion.FromEulerAngles(Orama.Math.Vector3)
+  id: FromEulerAngles(Orama.Math.Vector3)
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: FromEulerAngles(Vector3)
+  nameWithType: Quaternion.FromEulerAngles(Vector3)
+  fullName: Orama.Math.Quaternion.FromEulerAngles(Orama.Math.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: FromEulerAngles
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 91
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Creates a <xref href="Orama.Math.Quaternion" data-throw-if-not-resolved="false"></xref> from Euler angles (pitch, yaw, roll) in radians.
+  example: []
+  syntax:
+    content: public static Quaternion FromEulerAngles(Vector3 angles)
+    parameters:
+    - id: angles
+      type: Orama.Math.Vector3
+    return:
+      type: Orama.Math.Quaternion
+    content.vb: Public Shared Function FromEulerAngles(angles As Vector3) As Quaternion
+  overload: Orama.Math.Quaternion.FromEulerAngles*
+- uid: Orama.Math.Quaternion.op_Multiply(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  commentId: M:Orama.Math.Quaternion.op_Multiply(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  id: op_Multiply(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator *(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator *(Quaternion, Quaternion)
+  fullName: Orama.Math.Quaternion.operator *(Orama.Math.Quaternion, Orama.Math.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: op_Multiply
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 96
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Quaternion multiplication (combines rotations).
+  example: []
+  syntax:
+    content: public static Quaternion operator *(Quaternion a, Quaternion b)
+    parameters:
+    - id: a
+      type: Orama.Math.Quaternion
+    - id: b
+      type: Orama.Math.Quaternion
+    return:
+      type: Orama.Math.Quaternion
+    content.vb: Public Shared Operator *(a As Quaternion, b As Quaternion) As Quaternion
+  overload: Orama.Math.Quaternion.op_Multiply*
+  nameWithType.vb: Quaternion.*(Quaternion, Quaternion)
+  fullName.vb: Orama.Math.Quaternion.*(Orama.Math.Quaternion, Orama.Math.Quaternion)
+  name.vb: '*(Quaternion, Quaternion)'
+- uid: Orama.Math.Quaternion.op_UnaryNegation(Orama.Math.Quaternion)
+  commentId: M:Orama.Math.Quaternion.op_UnaryNegation(Orama.Math.Quaternion)
+  id: op_UnaryNegation(Orama.Math.Quaternion)
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator -(Quaternion)
+  nameWithType: Quaternion.operator -(Quaternion)
+  fullName: Orama.Math.Quaternion.operator -(Orama.Math.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: op_UnaryNegation
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 107
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Negates a quaternion.
+  example: []
+  syntax:
+    content: public static Quaternion operator -(Quaternion q)
+    parameters:
+    - id: q
+      type: Orama.Math.Quaternion
+    return:
+      type: Orama.Math.Quaternion
+    content.vb: Public Shared Operator -(q As Quaternion) As Quaternion
+  overload: Orama.Math.Quaternion.op_UnaryNegation*
+  nameWithType.vb: Quaternion.-(Quaternion)
+  fullName.vb: Orama.Math.Quaternion.-(Orama.Math.Quaternion)
+  name.vb: -(Quaternion)
+- uid: Orama.Math.Quaternion.op_Equality(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  commentId: M:Orama.Math.Quaternion.op_Equality(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  id: op_Equality(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator ==(Quaternion, Quaternion)
+  fullName: Orama.Math.Quaternion.operator ==(Orama.Math.Quaternion, Orama.Math.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: op_Equality
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 110
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Checks equality of two quaternions.
+  example: []
+  syntax:
+    content: public static bool operator ==(Quaternion a, Quaternion b)
+    parameters:
+    - id: a
+      type: Orama.Math.Quaternion
+    - id: b
+      type: Orama.Math.Quaternion
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As Quaternion, b As Quaternion) As Boolean
+  overload: Orama.Math.Quaternion.op_Equality*
+  nameWithType.vb: Quaternion.=(Quaternion, Quaternion)
+  fullName.vb: Orama.Math.Quaternion.=(Orama.Math.Quaternion, Orama.Math.Quaternion)
+  name.vb: =(Quaternion, Quaternion)
+- uid: Orama.Math.Quaternion.op_Inequality(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  commentId: M:Orama.Math.Quaternion.op_Inequality(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  id: op_Inequality(Orama.Math.Quaternion,Orama.Math.Quaternion)
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator !=(Quaternion, Quaternion)
+  fullName: Orama.Math.Quaternion.operator !=(Orama.Math.Quaternion, Orama.Math.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: op_Inequality
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 114
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Checks inequality of two quaternions.
+  example: []
+  syntax:
+    content: public static bool operator !=(Quaternion a, Quaternion b)
+    parameters:
+    - id: a
+      type: Orama.Math.Quaternion
+    - id: b
+      type: Orama.Math.Quaternion
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As Quaternion, b As Quaternion) As Boolean
+  overload: Orama.Math.Quaternion.op_Inequality*
+  nameWithType.vb: Quaternion.<>(Quaternion, Quaternion)
+  fullName.vb: Orama.Math.Quaternion.<>(Orama.Math.Quaternion, Orama.Math.Quaternion)
+  name.vb: <>(Quaternion, Quaternion)
+- uid: Orama.Math.Quaternion.Equals(System.Object)
+  commentId: M:Orama.Math.Quaternion.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Quaternion.Equals(object?)
+  fullName: Orama.Math.Quaternion.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Equals
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 119
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Orama.Math.Quaternion.Equals*
+  nameWithType.vb: Quaternion.Equals(Object)
+  fullName.vb: Orama.Math.Quaternion.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Orama.Math.Quaternion.GetHashCode
+  commentId: M:Orama.Math.Quaternion.GetHashCode
+  id: GetHashCode
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Quaternion.GetHashCode()
+  fullName: Orama.Math.Quaternion.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: GetHashCode
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 122
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Orama.Math.Quaternion.GetHashCode*
+- uid: Orama.Math.Quaternion.Equals(Orama.Math.Quaternion)
+  commentId: M:Orama.Math.Quaternion.Equals(Orama.Math.Quaternion)
+  id: Equals(Orama.Math.Quaternion)
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Equals(Quaternion)
+  nameWithType: Quaternion.Equals(Quaternion)
+  fullName: Orama.Math.Quaternion.Equals(Orama.Math.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Equals
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 125
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Checks equality of two quaternions.
+  example: []
+  syntax:
+    content: public bool Equals(Quaternion other)
+    parameters:
+    - id: other
+      type: Orama.Math.Quaternion
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As Quaternion) As Boolean
+  overload: Orama.Math.Quaternion.Equals*
+  implements:
+  - System.IEquatable{Orama.Math.Quaternion}.Equals(Orama.Math.Quaternion)
+- uid: Orama.Math.Quaternion.ToString
+  commentId: M:Orama.Math.Quaternion.ToString
+  id: ToString
+  parent: Orama.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Quaternion.ToString()
+  fullName: Orama.Math.Quaternion.ToString()
+  type: Method
+  source:
+    remote:
+      path: Orama.Math/Quaternion.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ToString
+    path: ../Orama/Orama.Math/Quaternion.cs
+    startLine: 128
+  assemblies:
+  - Orama.Math
+  namespace: Orama.Math
+  summary: Returns the fully qualified type name of this instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The fully qualified type name.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: Orama.Math.Quaternion.ToString*
+references:
+- uid: Orama.Math
+  commentId: N:Orama.Math
+  href: Orama.html
+  name: Orama.Math
+  nameWithType: Orama.Math
+  fullName: Orama.Math
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+- uid: System.IEquatable{Orama.Math.Quaternion}
+  commentId: T:System.IEquatable{Orama.Math.Quaternion}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Quaternion>
+  nameWithType: IEquatable<Quaternion>
+  fullName: System.IEquatable<Orama.Math.Quaternion>
+  nameWithType.vb: IEquatable(Of Quaternion)
+  fullName.vb: System.IEquatable(Of Orama.Math.Quaternion)
+  name.vb: IEquatable(Of Quaternion)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Orama.Math.Quaternion
+    name: Quaternion
+    href: Orama.Math.Quaternion.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Orama.Math.Quaternion
+    name: Quaternion
+    href: Orama.Math.Quaternion.html
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Orama.Math.Quaternion
+  commentId: T:Orama.Math.Quaternion
+  parent: Orama.Math
+  href: Orama.Math.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Orama.Math.Quaternion
+- uid: Orama.Math.Quaternion.X*
+  commentId: Overload:Orama.Math.Quaternion.X
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_X
+  name: X
+  nameWithType: Quaternion.X
+  fullName: Orama.Math.Quaternion.X
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Orama.Math.Quaternion.Y*
+  commentId: Overload:Orama.Math.Quaternion.Y
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_Y
+  name: Y
+  nameWithType: Quaternion.Y
+  fullName: Orama.Math.Quaternion.Y
+- uid: Orama.Math.Quaternion.Z*
+  commentId: Overload:Orama.Math.Quaternion.Z
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_Z
+  name: Z
+  nameWithType: Quaternion.Z
+  fullName: Orama.Math.Quaternion.Z
+- uid: Orama.Math.Quaternion.W*
+  commentId: Overload:Orama.Math.Quaternion.W
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_W
+  name: W
+  nameWithType: Quaternion.W
+  fullName: Orama.Math.Quaternion.W
+- uid: Orama.Math.Quaternion.#ctor*
+  commentId: Overload:Orama.Math.Quaternion.#ctor
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion__ctor_System_Single_System_Single_System_Single_System_Single_
+  name: Quaternion
+  nameWithType: Quaternion.Quaternion
+  fullName: Orama.Math.Quaternion.Quaternion
+  nameWithType.vb: Quaternion.New
+  fullName.vb: Orama.Math.Quaternion.New
+  name.vb: New
+- uid: Orama.Math.Quaternion.Identity*
+  commentId: Overload:Orama.Math.Quaternion.Identity
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_Identity
+  name: Identity
+  nameWithType: Quaternion.Identity
+  fullName: Orama.Math.Quaternion.Identity
+- uid: Orama.Math.Quaternion.CreateFromAxisAngle*
+  commentId: Overload:Orama.Math.Quaternion.CreateFromAxisAngle
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_CreateFromAxisAngle_Orama_Math_Vector3_System_Single_
+  name: CreateFromAxisAngle
+  nameWithType: Quaternion.CreateFromAxisAngle
+  fullName: Orama.Math.Quaternion.CreateFromAxisAngle
+- uid: Orama.Math.Vector3
+  commentId: T:Orama.Math.Vector3
+  parent: Orama.Math
+  href: Orama.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Orama.Math.Vector3
+- uid: Orama.Math.Quaternion.ToEulerAngles*
+  commentId: Overload:Orama.Math.Quaternion.ToEulerAngles
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_ToEulerAngles
+  name: ToEulerAngles
+  nameWithType: Quaternion.ToEulerAngles
+  fullName: Orama.Math.Quaternion.ToEulerAngles
+- uid: Orama.Math.Quaternion.FromEulerAngles*
+  commentId: Overload:Orama.Math.Quaternion.FromEulerAngles
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_FromEulerAngles_System_Single_System_Single_System_Single_
+  name: FromEulerAngles
+  nameWithType: Quaternion.FromEulerAngles
+  fullName: Orama.Math.Quaternion.FromEulerAngles
+- uid: Orama.Math.Quaternion.op_Multiply*
+  commentId: Overload:Orama.Math.Quaternion.op_Multiply
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_op_Multiply_Orama_Math_Quaternion_Orama_Math_Quaternion_
+  name: operator *
+  nameWithType: Quaternion.operator *
+  fullName: Orama.Math.Quaternion.operator *
+  nameWithType.vb: Quaternion.*
+  fullName.vb: Orama.Math.Quaternion.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Orama.Math.Quaternion.op_Multiply*
+    name: '*'
+    href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_op_Multiply_Orama_Math_Quaternion_Orama_Math_Quaternion_
+- uid: Orama.Math.Quaternion.op_UnaryNegation*
+  commentId: Overload:Orama.Math.Quaternion.op_UnaryNegation
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_op_UnaryNegation_Orama_Math_Quaternion_
+  name: operator -
+  nameWithType: Quaternion.operator -
+  fullName: Orama.Math.Quaternion.operator -
+  nameWithType.vb: Quaternion.-
+  fullName.vb: Orama.Math.Quaternion.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Orama.Math.Quaternion.op_UnaryNegation*
+    name: '-'
+    href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_op_UnaryNegation_Orama_Math_Quaternion_
+- uid: Orama.Math.Quaternion.op_Equality*
+  commentId: Overload:Orama.Math.Quaternion.op_Equality
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_op_Equality_Orama_Math_Quaternion_Orama_Math_Quaternion_
+  name: operator ==
+  nameWithType: Quaternion.operator ==
+  fullName: Orama.Math.Quaternion.operator ==
+  nameWithType.vb: Quaternion.=
+  fullName.vb: Orama.Math.Quaternion.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Orama.Math.Quaternion.op_Equality*
+    name: ==
+    href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_op_Equality_Orama_Math_Quaternion_Orama_Math_Quaternion_
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Orama.Math.Quaternion.op_Inequality*
+  commentId: Overload:Orama.Math.Quaternion.op_Inequality
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_op_Inequality_Orama_Math_Quaternion_Orama_Math_Quaternion_
+  name: operator !=
+  nameWithType: Quaternion.operator !=
+  fullName: Orama.Math.Quaternion.operator !=
+  nameWithType.vb: Quaternion.<>
+  fullName.vb: Orama.Math.Quaternion.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Orama.Math.Quaternion.op_Inequality*
+    name: '!='
+    href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_op_Inequality_Orama_Math_Quaternion_Orama_Math_Quaternion_
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Orama.Math.Quaternion.Equals*
+  commentId: Overload:Orama.Math.Quaternion.Equals
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_Equals_System_Object_
+  name: Equals
+  nameWithType: Quaternion.Equals
+  fullName: Orama.Math.Quaternion.Equals
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Orama.Math.Quaternion.GetHashCode*
+  commentId: Overload:Orama.Math.Quaternion.GetHashCode
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_GetHashCode
+  name: GetHashCode
+  nameWithType: Quaternion.GetHashCode
+  fullName: Orama.Math.Quaternion.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.IEquatable{Orama.Math.Quaternion}.Equals(Orama.Math.Quaternion)
+  commentId: M:System.IEquatable{Orama.Math.Quaternion}.Equals(Orama.Math.Quaternion)
+  parent: System.IEquatable{Orama.Math.Quaternion}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Quaternion)
+  nameWithType: IEquatable<Quaternion>.Equals(Quaternion)
+  fullName: System.IEquatable<Orama.Math.Quaternion>.Equals(Orama.Math.Quaternion)
+  nameWithType.vb: IEquatable(Of Quaternion).Equals(Quaternion)
+  fullName.vb: System.IEquatable(Of Orama.Math.Quaternion).Equals(Orama.Math.Quaternion)
+  spec.csharp:
+  - uid: System.IEquatable{Orama.Math.Quaternion}.Equals(Orama.Math.Quaternion)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Orama.Math.Quaternion
+    name: Quaternion
+    href: Orama.Math.Quaternion.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Orama.Math.Quaternion}.Equals(Orama.Math.Quaternion)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Orama.Math.Quaternion
+    name: Quaternion
+    href: Orama.Math.Quaternion.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: Orama.Math.Quaternion.ToString*
+  commentId: Overload:Orama.Math.Quaternion.ToString
+  href: Orama.Math.Quaternion.html#Orama_Math_Quaternion_ToString
+  name: ToString
+  nameWithType: Quaternion.ToString
+  fullName: Orama.Math.Quaternion.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

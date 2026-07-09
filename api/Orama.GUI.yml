@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.GUI
+  commentId: N:Orama.GUI
+  id: Orama.GUI
+  children:
+  - Orama.GUI.GUIModule
+  - Orama.GUI.PaintEngine
+  langs:
+  - csharp
+  - vb
+  name: Orama.GUI
+  nameWithType: Orama.GUI
+  fullName: Orama.GUI
+  type: Namespace
+  assemblies:
+  - Orama.GUI
+references:
+- uid: Orama.GUI.GUIModule
+  commentId: T:Orama.GUI.GUIModule
+  href: Orama.GUI.GUIModule.html
+  name: GUIModule
+  nameWithType: GUIModule
+  fullName: Orama.GUI.GUIModule
+- uid: Orama.GUI.PaintEngine
+  commentId: T:Orama.GUI.PaintEngine
+  parent: Orama.GUI
+  href: Orama.GUI.PaintEngine.html
+  name: PaintEngine
+  nameWithType: PaintEngine
+  fullName: Orama.GUI.PaintEngine
+- uid: Orama.GUI
+  commentId: N:Orama.GUI
+  href: Orama.html
+  name: Orama.GUI
+  nameWithType: Orama.GUI
+  fullName: Orama.GUI
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.GUI
+    name: GUI
+    href: Orama.GUI.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.GUI
+    name: GUI
+    href: Orama.GUI.html

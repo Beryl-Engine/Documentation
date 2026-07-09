@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.Resources.IFrameCountedResource
+  commentId: T:Orama.Rendering.Resources.IFrameCountedResource
+  id: IFrameCountedResource
+  parent: Orama.Rendering.Resources
+  children:
+  - Orama.Rendering.Resources.IFrameCountedResource.Disposed
+  - Orama.Rendering.Resources.IFrameCountedResource.ReleaseGPUResource
+  - Orama.Rendering.Resources.IFrameCountedResource.TryDispose(System.UInt64)
+  langs:
+  - csharp
+  - vb
+  name: IFrameCountedResource
+  nameWithType: IFrameCountedResource
+  fullName: Orama.Rendering.Resources.IFrameCountedResource
+  type: Interface
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IFrameCountedResource
+    path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
+    startLine: 6
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  syntax:
+    content: public interface IFrameCountedResource
+    content.vb: Public Interface IFrameCountedResource
+  derivedClasses:
+  - Orama.Rendering.Resources.FrameCountedResource`1
+- uid: Orama.Rendering.Resources.IFrameCountedResource.Disposed
+  commentId: E:Orama.Rendering.Resources.IFrameCountedResource.Disposed
+  id: Disposed
+  parent: Orama.Rendering.Resources.IFrameCountedResource
+  langs:
+  - csharp
+  - vb
+  name: Disposed
+  nameWithType: IFrameCountedResource.Disposed
+  fullName: Orama.Rendering.Resources.IFrameCountedResource.Disposed
+  type: Event
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Disposed
+    path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
+    startLine: 9
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  summary: Called when the resource is disposed.
+  example: []
+  syntax:
+    content: event Action? Disposed
+    return:
+      type: System.Action
+    content.vb: Event Disposed As Action
+- uid: Orama.Rendering.Resources.IFrameCountedResource.TryDispose(System.UInt64)
+  commentId: M:Orama.Rendering.Resources.IFrameCountedResource.TryDispose(System.UInt64)
+  id: TryDispose(System.UInt64)
+  parent: Orama.Rendering.Resources.IFrameCountedResource
+  langs:
+  - csharp
+  - vb
+  name: TryDispose(ulong)
+  nameWithType: IFrameCountedResource.TryDispose(ulong)
+  fullName: Orama.Rendering.Resources.IFrameCountedResource.TryDispose(ulong)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: TryDispose
+    path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
+    startLine: 14
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  summary: Tries to dispose the resource.
+  example: []
+  syntax:
+    content: bool TryDispose(ulong currentFrame)
+    parameters:
+    - id: currentFrame
+      type: System.UInt64
+      description: The current frame.
+    return:
+      type: System.Boolean
+      description: True if the resource was disposed.
+    content.vb: Function TryDispose(currentFrame As ULong) As Boolean
+  overload: Orama.Rendering.Resources.IFrameCountedResource.TryDispose*
+  nameWithType.vb: IFrameCountedResource.TryDispose(ULong)
+  fullName.vb: Orama.Rendering.Resources.IFrameCountedResource.TryDispose(ULong)
+  name.vb: TryDispose(ULong)
+- uid: Orama.Rendering.Resources.IFrameCountedResource.ReleaseGPUResource
+  commentId: M:Orama.Rendering.Resources.IFrameCountedResource.ReleaseGPUResource
+  id: ReleaseGPUResource
+  parent: Orama.Rendering.Resources.IFrameCountedResource
+  langs:
+  - csharp
+  - vb
+  name: ReleaseGPUResource()
+  nameWithType: IFrameCountedResource.ReleaseGPUResource()
+  fullName: Orama.Rendering.Resources.IFrameCountedResource.ReleaseGPUResource()
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ReleaseGPUResource
+    path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
+    startLine: 17
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  summary: Force releases the GPU resource.
+  example: []
+  syntax:
+    content: void ReleaseGPUResource()
+    content.vb: Sub ReleaseGPUResource()
+  overload: Orama.Rendering.Resources.IFrameCountedResource.ReleaseGPUResource*
+references:
+- uid: Orama.Rendering.Resources
+  commentId: N:Orama.Rendering.Resources
+  href: Orama.html
+  name: Orama.Rendering.Resources
+  nameWithType: Orama.Rendering.Resources
+  fullName: Orama.Rendering.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Rendering.Resources.IFrameCountedResource.TryDispose*
+  commentId: Overload:Orama.Rendering.Resources.IFrameCountedResource.TryDispose
+  href: Orama.Rendering.Resources.IFrameCountedResource.html#Orama_Rendering_Resources_IFrameCountedResource_TryDispose_System_UInt64_
+  name: TryDispose
+  nameWithType: IFrameCountedResource.TryDispose
+  fullName: Orama.Rendering.Resources.IFrameCountedResource.TryDispose
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Orama.Rendering.Resources.IFrameCountedResource.ReleaseGPUResource*
+  commentId: Overload:Orama.Rendering.Resources.IFrameCountedResource.ReleaseGPUResource
+  href: Orama.Rendering.Resources.IFrameCountedResource.html#Orama_Rendering_Resources_IFrameCountedResource_ReleaseGPUResource
+  name: ReleaseGPUResource
+  nameWithType: IFrameCountedResource.ReleaseGPUResource
+  fullName: Orama.Rendering.Resources.IFrameCountedResource.ReleaseGPUResource

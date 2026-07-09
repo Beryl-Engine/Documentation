@@ -1,0 +1,476 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Physics.RaycastResult
+  commentId: T:Orama.Physics.RaycastResult
+  id: RaycastResult
+  parent: Orama.Physics
+  children:
+  - Orama.Physics.RaycastResult.Body
+  - Orama.Physics.RaycastResult.Distance
+  - Orama.Physics.RaycastResult.HitPoint
+  - Orama.Physics.RaycastResult.Normal
+  langs:
+  - csharp
+  - vb
+  name: RaycastResult
+  nameWithType: RaycastResult
+  fullName: Orama.Physics.RaycastResult
+  type: Struct
+  source:
+    remote:
+      path: Modules/Orama.Physics/RaycastResult.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: RaycastResult
+    path: ../Orama/Modules/Orama.Physics/RaycastResult.cs
+    startLine: 7
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Information about a completed raycast.
+  example: []
+  syntax:
+    content: public readonly struct RaycastResult
+    content.vb: Public Structure RaycastResult
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Orama.Physics.RaycastResult.Body
+  commentId: P:Orama.Physics.RaycastResult.Body
+  id: Body
+  parent: Orama.Physics.RaycastResult
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: RaycastResult.Body
+  fullName: Orama.Physics.RaycastResult.Body
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/RaycastResult.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Body
+    path: ../Orama/Modules/Orama.Physics/RaycastResult.cs
+    startLine: 10
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: The body that was hit.
+  example: []
+  syntax:
+    content: public IPhysicsBody Body { get; init; }
+    parameters: []
+    return:
+      type: Orama.Physics.IPhysicsBody
+    content.vb: Public Property Body As IPhysicsBody
+  overload: Orama.Physics.RaycastResult.Body*
+- uid: Orama.Physics.RaycastResult.HitPoint
+  commentId: P:Orama.Physics.RaycastResult.HitPoint
+  id: HitPoint
+  parent: Orama.Physics.RaycastResult
+  langs:
+  - csharp
+  - vb
+  name: HitPoint
+  nameWithType: RaycastResult.HitPoint
+  fullName: Orama.Physics.RaycastResult.HitPoint
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/RaycastResult.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: HitPoint
+    path: ../Orama/Modules/Orama.Physics/RaycastResult.cs
+    startLine: 13
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: The hit point of the raycast in world-space.
+  example: []
+  syntax:
+    content: public Vector3 HitPoint { get; init; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector3
+    content.vb: Public Property HitPoint As Vector3
+  overload: Orama.Physics.RaycastResult.HitPoint*
+- uid: Orama.Physics.RaycastResult.Normal
+  commentId: P:Orama.Physics.RaycastResult.Normal
+  id: Normal
+  parent: Orama.Physics.RaycastResult
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: RaycastResult.Normal
+  fullName: Orama.Physics.RaycastResult.Normal
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/RaycastResult.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Normal
+    path: ../Orama/Modules/Orama.Physics/RaycastResult.cs
+    startLine: 16
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: The surface normal at the point of impact.
+  example: []
+  syntax:
+    content: public Vector3 Normal { get; init; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector3
+    content.vb: Public Property Normal As Vector3
+  overload: Orama.Physics.RaycastResult.Normal*
+- uid: Orama.Physics.RaycastResult.Distance
+  commentId: P:Orama.Physics.RaycastResult.Distance
+  id: Distance
+  parent: Orama.Physics.RaycastResult
+  langs:
+  - csharp
+  - vb
+  name: Distance
+  nameWithType: RaycastResult.Distance
+  fullName: Orama.Physics.RaycastResult.Distance
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/RaycastResult.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Distance
+    path: ../Orama/Modules/Orama.Physics/RaycastResult.cs
+    startLine: 19
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: The distance from the origin to the hit point.
+  example: []
+  syntax:
+    content: public float Distance { get; init; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Distance As Single
+  overload: Orama.Physics.RaycastResult.Distance*
+references:
+- uid: Orama.Physics
+  commentId: N:Orama.Physics
+  href: Orama.html
+  name: Orama.Physics
+  nameWithType: Orama.Physics
+  fullName: Orama.Physics
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Physics
+    name: Physics
+    href: Orama.Physics.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Physics
+    name: Physics
+    href: Orama.Physics.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Physics.RaycastResult.Body*
+  commentId: Overload:Orama.Physics.RaycastResult.Body
+  href: Orama.Physics.RaycastResult.html#Orama_Physics_RaycastResult_Body
+  name: Body
+  nameWithType: RaycastResult.Body
+  fullName: Orama.Physics.RaycastResult.Body
+- uid: Orama.Physics.IPhysicsBody
+  commentId: T:Orama.Physics.IPhysicsBody
+  parent: Orama.Physics
+  href: Orama.Physics.IPhysicsBody.html
+  name: IPhysicsBody
+  nameWithType: IPhysicsBody
+  fullName: Orama.Physics.IPhysicsBody
+- uid: Orama.Physics.RaycastResult.HitPoint*
+  commentId: Overload:Orama.Physics.RaycastResult.HitPoint
+  href: Orama.Physics.RaycastResult.html#Orama_Physics_RaycastResult_HitPoint
+  name: HitPoint
+  nameWithType: RaycastResult.HitPoint
+  fullName: Orama.Physics.RaycastResult.HitPoint
+- uid: Orama.Math.Vector3
+  commentId: T:Orama.Math.Vector3
+  parent: Orama.Math
+  href: Orama.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Orama.Math.Vector3
+- uid: Orama.Math
+  commentId: N:Orama.Math
+  href: Orama.html
+  name: Orama.Math
+  nameWithType: Orama.Math
+  fullName: Orama.Math
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+- uid: Orama.Physics.RaycastResult.Normal*
+  commentId: Overload:Orama.Physics.RaycastResult.Normal
+  href: Orama.Physics.RaycastResult.html#Orama_Physics_RaycastResult_Normal
+  name: Normal
+  nameWithType: RaycastResult.Normal
+  fullName: Orama.Physics.RaycastResult.Normal
+- uid: Orama.Physics.RaycastResult.Distance*
+  commentId: Overload:Orama.Physics.RaycastResult.Distance
+  href: Orama.Physics.RaycastResult.html#Orama_Physics_RaycastResult_Distance
+  name: Distance
+  nameWithType: RaycastResult.Distance
+  fullName: Orama.Physics.RaycastResult.Distance
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

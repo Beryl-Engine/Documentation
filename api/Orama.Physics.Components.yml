@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Physics.Components
+  commentId: N:Orama.Physics.Components
+  id: Orama.Physics.Components
+  children:
+  - Orama.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Orama.Physics.Components
+  nameWithType: Orama.Physics.Components
+  fullName: Orama.Physics.Components
+  type: Namespace
+  assemblies:
+  - Orama.Physics
+references:
+- uid: Orama.Physics.Components.RigidBody
+  commentId: T:Orama.Physics.Components.RigidBody
+  href: Orama.Physics.Components.RigidBody.html
+  name: RigidBody
+  nameWithType: RigidBody
+  fullName: Orama.Physics.Components.RigidBody

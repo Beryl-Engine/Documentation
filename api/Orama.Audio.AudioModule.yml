@@ -1,0 +1,1025 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Audio.AudioModule
+  commentId: T:Orama.Audio.AudioModule
+  id: AudioModule
+  parent: Orama.Audio
+  children:
+  - Orama.Audio.AudioModule.#ctor
+  - Orama.Audio.AudioModule.#ctor(Orama.Audio.IAudioContext)
+  - Orama.Audio.AudioModule.CreateListener
+  - Orama.Audio.AudioModule.CreateSource
+  - Orama.Audio.AudioModule.DestroyListener(Orama.Audio.IAudioListener)
+  - Orama.Audio.AudioModule.DestroySource(Orama.Audio.IAudioSource)
+  - Orama.Audio.AudioModule.Dispose
+  - Orama.Audio.AudioModule.Initialize
+  - Orama.Audio.AudioModule.SetDistanceModel(Orama.Audio.AudioDistanceModel)
+  - Orama.Audio.AudioModule.SetListener(Orama.Audio.IAudioListener)
+  - Orama.Audio.AudioModule.Update
+  langs:
+  - csharp
+  - vb
+  name: AudioModule
+  nameWithType: AudioModule
+  fullName: Orama.Audio.AudioModule
+  type: Class
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AudioModule
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 9
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Module responsible for handling audio.
+  example: []
+  syntax:
+    content: 'public class AudioModule : BaseModule, IDisposable, IAudioContext'
+    content.vb: Public Class AudioModule Inherits BaseModule Implements IDisposable, IAudioContext
+  inheritance:
+  - System.Object
+  - Orama.Common.BaseModule
+  implements:
+  - System.IDisposable
+  - Orama.Audio.IAudioContext
+  inheritedMembers:
+  - Orama.Common.BaseModule.IsInitialized
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Orama.Audio.AudioModule.CreateSource
+  commentId: M:Orama.Audio.AudioModule.CreateSource
+  id: CreateSource
+  parent: Orama.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: CreateSource()
+  nameWithType: AudioModule.CreateSource()
+  fullName: Orama.Audio.AudioModule.CreateSource()
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateSource
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 16
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Creates a new audio source and adds it to the context.
+  example: []
+  syntax:
+    content: public IAudioSource CreateSource()
+    return:
+      type: Orama.Audio.IAudioSource
+      description: The created audio source.
+    content.vb: Public Function CreateSource() As IAudioSource
+  overload: Orama.Audio.AudioModule.CreateSource*
+  implements:
+  - Orama.Audio.IAudioContext.CreateSource
+- uid: Orama.Audio.AudioModule.DestroySource(Orama.Audio.IAudioSource)
+  commentId: M:Orama.Audio.AudioModule.DestroySource(Orama.Audio.IAudioSource)
+  id: DestroySource(Orama.Audio.IAudioSource)
+  parent: Orama.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: DestroySource(IAudioSource)
+  nameWithType: AudioModule.DestroySource(IAudioSource)
+  fullName: Orama.Audio.AudioModule.DestroySource(Orama.Audio.IAudioSource)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: DestroySource
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 19
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Destroys an audio source and removes it from the context.
+  example: []
+  syntax:
+    content: public void DestroySource(IAudioSource source)
+    parameters:
+    - id: source
+      type: Orama.Audio.IAudioSource
+      description: The audio source to remove.
+    content.vb: Public Sub DestroySource(source As IAudioSource)
+  overload: Orama.Audio.AudioModule.DestroySource*
+  implements:
+  - Orama.Audio.IAudioContext.DestroySource(Orama.Audio.IAudioSource)
+- uid: Orama.Audio.AudioModule.CreateListener
+  commentId: M:Orama.Audio.AudioModule.CreateListener
+  id: CreateListener
+  parent: Orama.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: CreateListener()
+  nameWithType: AudioModule.CreateListener()
+  fullName: Orama.Audio.AudioModule.CreateListener()
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateListener
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 22
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Creates a new audio listener within the context.
+  example: []
+  syntax:
+    content: public IAudioListener CreateListener()
+    return:
+      type: Orama.Audio.IAudioListener
+      description: The created audio listener.
+    content.vb: Public Function CreateListener() As IAudioListener
+  overload: Orama.Audio.AudioModule.CreateListener*
+  implements:
+  - Orama.Audio.IAudioContext.CreateListener
+- uid: Orama.Audio.AudioModule.DestroyListener(Orama.Audio.IAudioListener)
+  commentId: M:Orama.Audio.AudioModule.DestroyListener(Orama.Audio.IAudioListener)
+  id: DestroyListener(Orama.Audio.IAudioListener)
+  parent: Orama.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: DestroyListener(IAudioListener)
+  nameWithType: AudioModule.DestroyListener(IAudioListener)
+  fullName: Orama.Audio.AudioModule.DestroyListener(Orama.Audio.IAudioListener)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: DestroyListener
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 25
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Destroys an audio listener and removes it from the context.
+  example: []
+  syntax:
+    content: public void DestroyListener(IAudioListener listener)
+    parameters:
+    - id: listener
+      type: Orama.Audio.IAudioListener
+      description: The audio listener to remove.
+    content.vb: Public Sub DestroyListener(listener As IAudioListener)
+  overload: Orama.Audio.AudioModule.DestroyListener*
+  implements:
+  - Orama.Audio.IAudioContext.DestroyListener(Orama.Audio.IAudioListener)
+- uid: Orama.Audio.AudioModule.SetListener(Orama.Audio.IAudioListener)
+  commentId: M:Orama.Audio.AudioModule.SetListener(Orama.Audio.IAudioListener)
+  id: SetListener(Orama.Audio.IAudioListener)
+  parent: Orama.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: SetListener(IAudioListener?)
+  nameWithType: AudioModule.SetListener(IAudioListener?)
+  fullName: Orama.Audio.AudioModule.SetListener(Orama.Audio.IAudioListener?)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: SetListener
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 28
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Sets the active audio listener for the context.
+  example: []
+  syntax:
+    content: public void SetListener(IAudioListener? listener)
+    parameters:
+    - id: listener
+      type: Orama.Audio.IAudioListener
+      description: The audio listener to make current.
+    content.vb: Public Sub SetListener(listener As IAudioListener)
+  overload: Orama.Audio.AudioModule.SetListener*
+  implements:
+  - Orama.Audio.IAudioContext.SetListener(Orama.Audio.IAudioListener)
+  nameWithType.vb: AudioModule.SetListener(IAudioListener)
+  fullName.vb: Orama.Audio.AudioModule.SetListener(Orama.Audio.IAudioListener)
+  name.vb: SetListener(IAudioListener)
+- uid: Orama.Audio.AudioModule.SetDistanceModel(Orama.Audio.AudioDistanceModel)
+  commentId: M:Orama.Audio.AudioModule.SetDistanceModel(Orama.Audio.AudioDistanceModel)
+  id: SetDistanceModel(Orama.Audio.AudioDistanceModel)
+  parent: Orama.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: SetDistanceModel(AudioDistanceModel)
+  nameWithType: AudioModule.SetDistanceModel(AudioDistanceModel)
+  fullName: Orama.Audio.AudioModule.SetDistanceModel(Orama.Audio.AudioDistanceModel)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: SetDistanceModel
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 31
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Sets the distance attenuation model used for spatial audio calculations.
+  example: []
+  syntax:
+    content: public void SetDistanceModel(AudioDistanceModel model)
+    parameters:
+    - id: model
+      type: Orama.Audio.AudioDistanceModel
+      description: The distance model to apply.
+    content.vb: Public Sub SetDistanceModel(model As AudioDistanceModel)
+  overload: Orama.Audio.AudioModule.SetDistanceModel*
+  implements:
+  - Orama.Audio.IAudioContext.SetDistanceModel(Orama.Audio.AudioDistanceModel)
+- uid: Orama.Audio.AudioModule.#ctor(Orama.Audio.IAudioContext)
+  commentId: M:Orama.Audio.AudioModule.#ctor(Orama.Audio.IAudioContext)
+  id: '#ctor(Orama.Audio.IAudioContext)'
+  parent: Orama.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: AudioModule(IAudioContext)
+  nameWithType: AudioModule.AudioModule(IAudioContext)
+  fullName: Orama.Audio.AudioModule.AudioModule(Orama.Audio.IAudioContext)
+  type: Constructor
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: .ctor
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 35
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Creates a new audio module with the given audio context.
+  example: []
+  syntax:
+    content: public AudioModule(IAudioContext context)
+    parameters:
+    - id: context
+      type: Orama.Audio.IAudioContext
+      description: The audio context to use.
+    content.vb: Public Sub New(context As IAudioContext)
+  overload: Orama.Audio.AudioModule.#ctor*
+  nameWithType.vb: AudioModule.New(IAudioContext)
+  fullName.vb: Orama.Audio.AudioModule.New(Orama.Audio.IAudioContext)
+  name.vb: New(IAudioContext)
+- uid: Orama.Audio.AudioModule.#ctor
+  commentId: M:Orama.Audio.AudioModule.#ctor
+  id: '#ctor'
+  parent: Orama.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: AudioModule()
+  nameWithType: AudioModule.AudioModule()
+  fullName: Orama.Audio.AudioModule.AudioModule()
+  type: Constructor
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: .ctor
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 38
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Creates a new audio module with the default audio context.
+  example: []
+  syntax:
+    content: public AudioModule()
+    content.vb: Public Sub New()
+  overload: Orama.Audio.AudioModule.#ctor*
+  nameWithType.vb: AudioModule.New()
+  fullName.vb: Orama.Audio.AudioModule.New()
+  name.vb: New()
+- uid: Orama.Audio.AudioModule.Initialize
+  commentId: M:Orama.Audio.AudioModule.Initialize
+  id: Initialize
+  parent: Orama.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: AudioModule.Initialize()
+  fullName: Orama.Audio.AudioModule.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Initialize
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 41
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Runs when <xref href="Orama.Common.ModuleManager.InitializeAll" data-throw-if-not-resolved="false"></xref> is called.
+  example: []
+  syntax:
+    content: public override void Initialize()
+    content.vb: Public Overrides Sub Initialize()
+  overridden: Orama.Common.BaseModule.Initialize
+  overload: Orama.Audio.AudioModule.Initialize*
+- uid: Orama.Audio.AudioModule.Dispose
+  commentId: M:Orama.Audio.AudioModule.Dispose
+  id: Dispose
+  parent: Orama.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AudioModule.Dispose()
+  fullName: Orama.Audio.AudioModule.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Dispose
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 47
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Runs when <xref href="Orama.Common.ModuleManager.DisposeAll" data-throw-if-not-resolved="false"></xref> is called.
+  remarks: The default implementation unregisters this <xref href="Orama.Common.BaseModule" data-throw-if-not-resolved="false"></xref> from <xref href="Orama.Common.ModuleManager" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose()
+  overridden: Orama.Common.BaseModule.Dispose
+  overload: Orama.Audio.AudioModule.Dispose*
+- uid: Orama.Audio.AudioModule.Update
+  commentId: M:Orama.Audio.AudioModule.Update
+  id: Update
+  parent: Orama.Audio.AudioModule
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: AudioModule.Update()
+  fullName: Orama.Audio.AudioModule.Update()
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Audio/AudioModule.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Update
+    path: ../Orama/Modules/Orama.Audio/AudioModule.cs
+    startLine: 54
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update()
+  overload: Orama.Audio.AudioModule.Update*
+references:
+- uid: Orama.Audio
+  commentId: N:Orama.Audio
+  href: Orama.html
+  name: Orama.Audio
+  nameWithType: Orama.Audio
+  fullName: Orama.Audio
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Orama.Common.BaseModule
+  commentId: T:Orama.Common.BaseModule
+  parent: Orama.Common
+  href: Orama.Common.BaseModule.html
+  name: BaseModule
+  nameWithType: BaseModule
+  fullName: Orama.Common.BaseModule
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Orama.Audio.IAudioContext
+  commentId: T:Orama.Audio.IAudioContext
+  parent: Orama.Audio
+  href: Orama.Audio.IAudioContext.html
+  name: IAudioContext
+  nameWithType: IAudioContext
+  fullName: Orama.Audio.IAudioContext
+- uid: Orama.Common.BaseModule.IsInitialized
+  commentId: P:Orama.Common.BaseModule.IsInitialized
+  parent: Orama.Common.BaseModule
+  href: Orama.Common.BaseModule.html#Orama_Common_BaseModule_IsInitialized
+  name: IsInitialized
+  nameWithType: BaseModule.IsInitialized
+  fullName: Orama.Common.BaseModule.IsInitialized
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Common
+  commentId: N:Orama.Common
+  href: Orama.html
+  name: Orama.Common
+  nameWithType: Orama.Common
+  fullName: Orama.Common
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+- uid: Orama.Audio.AudioModule.CreateSource*
+  commentId: Overload:Orama.Audio.AudioModule.CreateSource
+  href: Orama.Audio.AudioModule.html#Orama_Audio_AudioModule_CreateSource
+  name: CreateSource
+  nameWithType: AudioModule.CreateSource
+  fullName: Orama.Audio.AudioModule.CreateSource
+- uid: Orama.Audio.IAudioContext.CreateSource
+  commentId: M:Orama.Audio.IAudioContext.CreateSource
+  parent: Orama.Audio.IAudioContext
+  href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_CreateSource
+  name: CreateSource()
+  nameWithType: IAudioContext.CreateSource()
+  fullName: Orama.Audio.IAudioContext.CreateSource()
+  spec.csharp:
+  - uid: Orama.Audio.IAudioContext.CreateSource
+    name: CreateSource
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_CreateSource
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Orama.Audio.IAudioContext.CreateSource
+    name: CreateSource
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_CreateSource
+  - name: (
+  - name: )
+- uid: Orama.Audio.IAudioSource
+  commentId: T:Orama.Audio.IAudioSource
+  parent: Orama.Audio
+  href: Orama.Audio.IAudioSource.html
+  name: IAudioSource
+  nameWithType: IAudioSource
+  fullName: Orama.Audio.IAudioSource
+- uid: Orama.Audio.AudioModule.DestroySource*
+  commentId: Overload:Orama.Audio.AudioModule.DestroySource
+  href: Orama.Audio.AudioModule.html#Orama_Audio_AudioModule_DestroySource_Orama_Audio_IAudioSource_
+  name: DestroySource
+  nameWithType: AudioModule.DestroySource
+  fullName: Orama.Audio.AudioModule.DestroySource
+- uid: Orama.Audio.IAudioContext.DestroySource(Orama.Audio.IAudioSource)
+  commentId: M:Orama.Audio.IAudioContext.DestroySource(Orama.Audio.IAudioSource)
+  parent: Orama.Audio.IAudioContext
+  href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_DestroySource_Orama_Audio_IAudioSource_
+  name: DestroySource(IAudioSource)
+  nameWithType: IAudioContext.DestroySource(IAudioSource)
+  fullName: Orama.Audio.IAudioContext.DestroySource(Orama.Audio.IAudioSource)
+  spec.csharp:
+  - uid: Orama.Audio.IAudioContext.DestroySource(Orama.Audio.IAudioSource)
+    name: DestroySource
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_DestroySource_Orama_Audio_IAudioSource_
+  - name: (
+  - uid: Orama.Audio.IAudioSource
+    name: IAudioSource
+    href: Orama.Audio.IAudioSource.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Audio.IAudioContext.DestroySource(Orama.Audio.IAudioSource)
+    name: DestroySource
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_DestroySource_Orama_Audio_IAudioSource_
+  - name: (
+  - uid: Orama.Audio.IAudioSource
+    name: IAudioSource
+    href: Orama.Audio.IAudioSource.html
+  - name: )
+- uid: Orama.Audio.AudioModule.CreateListener*
+  commentId: Overload:Orama.Audio.AudioModule.CreateListener
+  href: Orama.Audio.AudioModule.html#Orama_Audio_AudioModule_CreateListener
+  name: CreateListener
+  nameWithType: AudioModule.CreateListener
+  fullName: Orama.Audio.AudioModule.CreateListener
+- uid: Orama.Audio.IAudioContext.CreateListener
+  commentId: M:Orama.Audio.IAudioContext.CreateListener
+  parent: Orama.Audio.IAudioContext
+  href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_CreateListener
+  name: CreateListener()
+  nameWithType: IAudioContext.CreateListener()
+  fullName: Orama.Audio.IAudioContext.CreateListener()
+  spec.csharp:
+  - uid: Orama.Audio.IAudioContext.CreateListener
+    name: CreateListener
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_CreateListener
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Orama.Audio.IAudioContext.CreateListener
+    name: CreateListener
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_CreateListener
+  - name: (
+  - name: )
+- uid: Orama.Audio.IAudioListener
+  commentId: T:Orama.Audio.IAudioListener
+  parent: Orama.Audio
+  href: Orama.Audio.IAudioListener.html
+  name: IAudioListener
+  nameWithType: IAudioListener
+  fullName: Orama.Audio.IAudioListener
+- uid: Orama.Audio.AudioModule.DestroyListener*
+  commentId: Overload:Orama.Audio.AudioModule.DestroyListener
+  href: Orama.Audio.AudioModule.html#Orama_Audio_AudioModule_DestroyListener_Orama_Audio_IAudioListener_
+  name: DestroyListener
+  nameWithType: AudioModule.DestroyListener
+  fullName: Orama.Audio.AudioModule.DestroyListener
+- uid: Orama.Audio.IAudioContext.DestroyListener(Orama.Audio.IAudioListener)
+  commentId: M:Orama.Audio.IAudioContext.DestroyListener(Orama.Audio.IAudioListener)
+  parent: Orama.Audio.IAudioContext
+  href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_DestroyListener_Orama_Audio_IAudioListener_
+  name: DestroyListener(IAudioListener)
+  nameWithType: IAudioContext.DestroyListener(IAudioListener)
+  fullName: Orama.Audio.IAudioContext.DestroyListener(Orama.Audio.IAudioListener)
+  spec.csharp:
+  - uid: Orama.Audio.IAudioContext.DestroyListener(Orama.Audio.IAudioListener)
+    name: DestroyListener
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_DestroyListener_Orama_Audio_IAudioListener_
+  - name: (
+  - uid: Orama.Audio.IAudioListener
+    name: IAudioListener
+    href: Orama.Audio.IAudioListener.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Audio.IAudioContext.DestroyListener(Orama.Audio.IAudioListener)
+    name: DestroyListener
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_DestroyListener_Orama_Audio_IAudioListener_
+  - name: (
+  - uid: Orama.Audio.IAudioListener
+    name: IAudioListener
+    href: Orama.Audio.IAudioListener.html
+  - name: )
+- uid: Orama.Audio.AudioModule.SetListener*
+  commentId: Overload:Orama.Audio.AudioModule.SetListener
+  href: Orama.Audio.AudioModule.html#Orama_Audio_AudioModule_SetListener_Orama_Audio_IAudioListener_
+  name: SetListener
+  nameWithType: AudioModule.SetListener
+  fullName: Orama.Audio.AudioModule.SetListener
+- uid: Orama.Audio.IAudioContext.SetListener(Orama.Audio.IAudioListener)
+  commentId: M:Orama.Audio.IAudioContext.SetListener(Orama.Audio.IAudioListener)
+  parent: Orama.Audio.IAudioContext
+  href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_SetListener_Orama_Audio_IAudioListener_
+  name: SetListener(IAudioListener)
+  nameWithType: IAudioContext.SetListener(IAudioListener)
+  fullName: Orama.Audio.IAudioContext.SetListener(Orama.Audio.IAudioListener)
+  spec.csharp:
+  - uid: Orama.Audio.IAudioContext.SetListener(Orama.Audio.IAudioListener)
+    name: SetListener
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_SetListener_Orama_Audio_IAudioListener_
+  - name: (
+  - uid: Orama.Audio.IAudioListener
+    name: IAudioListener
+    href: Orama.Audio.IAudioListener.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Audio.IAudioContext.SetListener(Orama.Audio.IAudioListener)
+    name: SetListener
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_SetListener_Orama_Audio_IAudioListener_
+  - name: (
+  - uid: Orama.Audio.IAudioListener
+    name: IAudioListener
+    href: Orama.Audio.IAudioListener.html
+  - name: )
+- uid: Orama.Audio.AudioModule.SetDistanceModel*
+  commentId: Overload:Orama.Audio.AudioModule.SetDistanceModel
+  href: Orama.Audio.AudioModule.html#Orama_Audio_AudioModule_SetDistanceModel_Orama_Audio_AudioDistanceModel_
+  name: SetDistanceModel
+  nameWithType: AudioModule.SetDistanceModel
+  fullName: Orama.Audio.AudioModule.SetDistanceModel
+- uid: Orama.Audio.IAudioContext.SetDistanceModel(Orama.Audio.AudioDistanceModel)
+  commentId: M:Orama.Audio.IAudioContext.SetDistanceModel(Orama.Audio.AudioDistanceModel)
+  parent: Orama.Audio.IAudioContext
+  href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_SetDistanceModel_Orama_Audio_AudioDistanceModel_
+  name: SetDistanceModel(AudioDistanceModel)
+  nameWithType: IAudioContext.SetDistanceModel(AudioDistanceModel)
+  fullName: Orama.Audio.IAudioContext.SetDistanceModel(Orama.Audio.AudioDistanceModel)
+  spec.csharp:
+  - uid: Orama.Audio.IAudioContext.SetDistanceModel(Orama.Audio.AudioDistanceModel)
+    name: SetDistanceModel
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_SetDistanceModel_Orama_Audio_AudioDistanceModel_
+  - name: (
+  - uid: Orama.Audio.AudioDistanceModel
+    name: AudioDistanceModel
+    href: Orama.Audio.AudioDistanceModel.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Audio.IAudioContext.SetDistanceModel(Orama.Audio.AudioDistanceModel)
+    name: SetDistanceModel
+    href: Orama.Audio.IAudioContext.html#Orama_Audio_IAudioContext_SetDistanceModel_Orama_Audio_AudioDistanceModel_
+  - name: (
+  - uid: Orama.Audio.AudioDistanceModel
+    name: AudioDistanceModel
+    href: Orama.Audio.AudioDistanceModel.html
+  - name: )
+- uid: Orama.Audio.AudioDistanceModel
+  commentId: T:Orama.Audio.AudioDistanceModel
+  parent: Orama.Audio
+  href: Orama.Audio.AudioDistanceModel.html
+  name: AudioDistanceModel
+  nameWithType: AudioDistanceModel
+  fullName: Orama.Audio.AudioDistanceModel
+- uid: Orama.Audio.AudioModule.#ctor*
+  commentId: Overload:Orama.Audio.AudioModule.#ctor
+  href: Orama.Audio.AudioModule.html#Orama_Audio_AudioModule__ctor_Orama_Audio_IAudioContext_
+  name: AudioModule
+  nameWithType: AudioModule.AudioModule
+  fullName: Orama.Audio.AudioModule.AudioModule
+  nameWithType.vb: AudioModule.New
+  fullName.vb: Orama.Audio.AudioModule.New
+  name.vb: New
+- uid: Orama.Common.ModuleManager.InitializeAll
+  commentId: M:Orama.Common.ModuleManager.InitializeAll
+  href: Orama.Common.ModuleManager.html#Orama_Common_ModuleManager_InitializeAll
+  name: InitializeAll()
+  nameWithType: ModuleManager.InitializeAll()
+  fullName: Orama.Common.ModuleManager.InitializeAll()
+  spec.csharp:
+  - uid: Orama.Common.ModuleManager.InitializeAll
+    name: InitializeAll
+    href: Orama.Common.ModuleManager.html#Orama_Common_ModuleManager_InitializeAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Orama.Common.ModuleManager.InitializeAll
+    name: InitializeAll
+    href: Orama.Common.ModuleManager.html#Orama_Common_ModuleManager_InitializeAll
+  - name: (
+  - name: )
+- uid: Orama.Common.BaseModule.Initialize
+  commentId: M:Orama.Common.BaseModule.Initialize
+  parent: Orama.Common.BaseModule
+  href: Orama.Common.BaseModule.html#Orama_Common_BaseModule_Initialize
+  name: Initialize()
+  nameWithType: BaseModule.Initialize()
+  fullName: Orama.Common.BaseModule.Initialize()
+  spec.csharp:
+  - uid: Orama.Common.BaseModule.Initialize
+    name: Initialize
+    href: Orama.Common.BaseModule.html#Orama_Common_BaseModule_Initialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Orama.Common.BaseModule.Initialize
+    name: Initialize
+    href: Orama.Common.BaseModule.html#Orama_Common_BaseModule_Initialize
+  - name: (
+  - name: )
+- uid: Orama.Audio.AudioModule.Initialize*
+  commentId: Overload:Orama.Audio.AudioModule.Initialize
+  href: Orama.Audio.AudioModule.html#Orama_Audio_AudioModule_Initialize
+  name: Initialize
+  nameWithType: AudioModule.Initialize
+  fullName: Orama.Audio.AudioModule.Initialize
+- uid: Orama.Common.ModuleManager.DisposeAll
+  commentId: M:Orama.Common.ModuleManager.DisposeAll
+  href: Orama.Common.ModuleManager.html#Orama_Common_ModuleManager_DisposeAll
+  name: DisposeAll()
+  nameWithType: ModuleManager.DisposeAll()
+  fullName: Orama.Common.ModuleManager.DisposeAll()
+  spec.csharp:
+  - uid: Orama.Common.ModuleManager.DisposeAll
+    name: DisposeAll
+    href: Orama.Common.ModuleManager.html#Orama_Common_ModuleManager_DisposeAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Orama.Common.ModuleManager.DisposeAll
+    name: DisposeAll
+    href: Orama.Common.ModuleManager.html#Orama_Common_ModuleManager_DisposeAll
+  - name: (
+  - name: )
+- uid: Orama.Common.ModuleManager
+  commentId: T:Orama.Common.ModuleManager
+  href: Orama.Common.ModuleManager.html
+  name: ModuleManager
+  nameWithType: ModuleManager
+  fullName: Orama.Common.ModuleManager
+- uid: Orama.Common.BaseModule.Dispose
+  commentId: M:Orama.Common.BaseModule.Dispose
+  parent: Orama.Common.BaseModule
+  href: Orama.Common.BaseModule.html#Orama_Common_BaseModule_Dispose
+  name: Dispose()
+  nameWithType: BaseModule.Dispose()
+  fullName: Orama.Common.BaseModule.Dispose()
+  spec.csharp:
+  - uid: Orama.Common.BaseModule.Dispose
+    name: Dispose
+    href: Orama.Common.BaseModule.html#Orama_Common_BaseModule_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Orama.Common.BaseModule.Dispose
+    name: Dispose
+    href: Orama.Common.BaseModule.html#Orama_Common_BaseModule_Dispose
+  - name: (
+  - name: )
+- uid: Orama.Audio.AudioModule.Dispose*
+  commentId: Overload:Orama.Audio.AudioModule.Dispose
+  href: Orama.Audio.AudioModule.html#Orama_Audio_AudioModule_Dispose
+  name: Dispose
+  nameWithType: AudioModule.Dispose
+  fullName: Orama.Audio.AudioModule.Dispose
+- uid: Orama.Audio.AudioModule.Update*
+  commentId: Overload:Orama.Audio.AudioModule.Update
+  href: Orama.Audio.AudioModule.html#Orama_Audio_AudioModule_Update
+  name: Update
+  nameWithType: AudioModule.Update
+  fullName: Orama.Audio.AudioModule.Update

@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.VirtualReality
+  commentId: N:Orama.VirtualReality
+  id: Orama.VirtualReality
+  children:
+  - Orama.VirtualReality.InputModuleExtensions
+  - Orama.VirtualReality.VirtualRealityController
+  - Orama.VirtualReality.VirtualRealityController.Button
+  - Orama.VirtualReality.VirtualRealityController.HandType
+  - Orama.VirtualReality.VirtualRealityDevice
+  - Orama.VirtualReality.VirtualRealityModule
+  langs:
+  - csharp
+  - vb
+  name: Orama.VirtualReality
+  nameWithType: Orama.VirtualReality
+  fullName: Orama.VirtualReality
+  type: Namespace
+  assemblies:
+  - Orama.VirtualReality
+references:
+- uid: Orama.VirtualReality.InputModuleExtensions
+  commentId: T:Orama.VirtualReality.InputModuleExtensions
+  href: Orama.VirtualReality.InputModuleExtensions.html
+  name: InputModuleExtensions
+  nameWithType: InputModuleExtensions
+  fullName: Orama.VirtualReality.InputModuleExtensions
+- uid: Orama.VirtualReality.VirtualRealityController
+  commentId: T:Orama.VirtualReality.VirtualRealityController
+  parent: Orama.VirtualReality
+  href: Orama.VirtualReality.VirtualRealityController.html
+  name: VirtualRealityController
+  nameWithType: VirtualRealityController
+  fullName: Orama.VirtualReality.VirtualRealityController
+- uid: Orama.VirtualReality.VirtualRealityController.Button
+  commentId: T:Orama.VirtualReality.VirtualRealityController.Button
+  parent: Orama.VirtualReality
+  href: Orama.VirtualReality.VirtualRealityController.html
+  name: VirtualRealityController.Button
+  nameWithType: VirtualRealityController.Button
+  fullName: Orama.VirtualReality.VirtualRealityController.Button
+  spec.csharp:
+  - uid: Orama.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Orama.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Orama.VirtualReality.VirtualRealityController.Button
+    name: Button
+    href: Orama.VirtualReality.VirtualRealityController.Button.html
+  spec.vb:
+  - uid: Orama.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Orama.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Orama.VirtualReality.VirtualRealityController.Button
+    name: Button
+    href: Orama.VirtualReality.VirtualRealityController.Button.html
+- uid: Orama.VirtualReality.VirtualRealityController.HandType
+  commentId: T:Orama.VirtualReality.VirtualRealityController.HandType
+  parent: Orama.VirtualReality
+  href: Orama.VirtualReality.VirtualRealityController.html
+  name: VirtualRealityController.HandType
+  nameWithType: VirtualRealityController.HandType
+  fullName: Orama.VirtualReality.VirtualRealityController.HandType
+  spec.csharp:
+  - uid: Orama.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Orama.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Orama.VirtualReality.VirtualRealityController.HandType
+    name: HandType
+    href: Orama.VirtualReality.VirtualRealityController.HandType.html
+  spec.vb:
+  - uid: Orama.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Orama.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Orama.VirtualReality.VirtualRealityController.HandType
+    name: HandType
+    href: Orama.VirtualReality.VirtualRealityController.HandType.html
+- uid: Orama.VirtualReality.VirtualRealityDevice
+  commentId: T:Orama.VirtualReality.VirtualRealityDevice
+  parent: Orama.VirtualReality
+  href: Orama.VirtualReality.VirtualRealityDevice.html
+  name: VirtualRealityDevice
+  nameWithType: VirtualRealityDevice
+  fullName: Orama.VirtualReality.VirtualRealityDevice
+- uid: Orama.VirtualReality.VirtualRealityModule
+  commentId: T:Orama.VirtualReality.VirtualRealityModule
+  href: Orama.VirtualReality.VirtualRealityModule.html
+  name: VirtualRealityModule
+  nameWithType: VirtualRealityModule
+  fullName: Orama.VirtualReality.VirtualRealityModule
+- uid: Orama.VirtualReality
+  commentId: N:Orama.VirtualReality
+  href: Orama.html
+  name: Orama.VirtualReality
+  nameWithType: Orama.VirtualReality
+  fullName: Orama.VirtualReality
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.VirtualReality
+    name: VirtualReality
+    href: Orama.VirtualReality.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.VirtualReality
+    name: VirtualReality
+    href: Orama.VirtualReality.html

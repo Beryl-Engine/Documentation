@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Input
+  commentId: N:Orama.Input
+  id: Orama.Input
+  children:
+  - Orama.Input.InputModule
+  langs:
+  - csharp
+  - vb
+  name: Orama.Input
+  nameWithType: Orama.Input
+  fullName: Orama.Input
+  type: Namespace
+  assemblies:
+  - Orama.Input
+references:
+- uid: Orama.Input.InputModule
+  commentId: T:Orama.Input.InputModule
+  href: Orama.Input.InputModule.html
+  name: InputModule
+  nameWithType: InputModule
+  fullName: Orama.Input.InputModule

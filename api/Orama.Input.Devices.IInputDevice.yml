@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Input.Devices.IInputDevice
+  commentId: T:Orama.Input.Devices.IInputDevice
+  id: IInputDevice
+  parent: Orama.Input.Devices
+  children:
+  - Orama.Input.Devices.IInputDevice.Update
+  langs:
+  - csharp
+  - vb
+  name: IInputDevice
+  nameWithType: IInputDevice
+  fullName: Orama.Input.Devices.IInputDevice
+  type: Interface
+  source:
+    remote:
+      path: Modules/Orama.Input/Devices/IInputDevice.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IInputDevice
+    path: ../Orama/Modules/Orama.Input/Devices/IInputDevice.cs
+    startLine: 6
+  assemblies:
+  - Orama.Input
+  namespace: Orama.Input.Devices
+  summary: Base interface for all Input Devices. (i.e., Controllers, Keyboards, etc.)
+  example: []
+  syntax:
+    content: public interface IInputDevice
+    content.vb: Public Interface IInputDevice
+  derivedClasses:
+  - Orama.Input.Devices.Gamepad
+  - Orama.Input.Devices.Keyboard
+  - Orama.Input.Devices.Mouse
+  - Orama.VirtualReality.VirtualRealityController
+- uid: Orama.Input.Devices.IInputDevice.Update
+  commentId: M:Orama.Input.Devices.IInputDevice.Update
+  id: Update
+  parent: Orama.Input.Devices.IInputDevice
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: IInputDevice.Update()
+  fullName: Orama.Input.Devices.IInputDevice.Update()
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Input/Devices/IInputDevice.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Update
+    path: ../Orama/Modules/Orama.Input/Devices/IInputDevice.cs
+    startLine: 9
+  assemblies:
+  - Orama.Input
+  namespace: Orama.Input.Devices
+  summary: Runs once per <xref href="Orama.Input.InputModule" data-throw-if-not-resolved="false"></xref> update.
+  example: []
+  syntax:
+    content: void Update()
+    content.vb: Sub Update()
+  overload: Orama.Input.Devices.IInputDevice.Update*
+references:
+- uid: Orama.Input.Devices
+  commentId: N:Orama.Input.Devices
+  href: Orama.html
+  name: Orama.Input.Devices
+  nameWithType: Orama.Input.Devices
+  fullName: Orama.Input.Devices
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Input
+    name: Input
+    href: Orama.Input.html
+  - name: .
+  - uid: Orama.Input.Devices
+    name: Devices
+    href: Orama.Input.Devices.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Input
+    name: Input
+    href: Orama.Input.html
+  - name: .
+  - uid: Orama.Input.Devices
+    name: Devices
+    href: Orama.Input.Devices.html
+- uid: Orama.Input.InputModule
+  commentId: T:Orama.Input.InputModule
+  href: Orama.Input.InputModule.html
+  name: InputModule
+  nameWithType: InputModule
+  fullName: Orama.Input.InputModule
+- uid: Orama.Input.Devices.IInputDevice.Update*
+  commentId: Overload:Orama.Input.Devices.IInputDevice.Update
+  href: Orama.Input.Devices.IInputDevice.html#Orama_Input_Devices_IInputDevice_Update
+  name: Update
+  nameWithType: IInputDevice.Update
+  fullName: Orama.Input.Devices.IInputDevice.Update

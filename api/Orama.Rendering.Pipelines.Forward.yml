@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.Pipelines.Forward
+  commentId: N:Orama.Rendering.Pipelines.Forward
+  id: Orama.Rendering.Pipelines.Forward
+  children:
+  - Orama.Rendering.Pipelines.Forward.ForwardRenderPipeline
+  - Orama.Rendering.Pipelines.Forward.OpaquePass
+  langs:
+  - csharp
+  - vb
+  name: Orama.Rendering.Pipelines.Forward
+  nameWithType: Orama.Rendering.Pipelines.Forward
+  fullName: Orama.Rendering.Pipelines.Forward
+  type: Namespace
+  assemblies:
+  - Orama.Rendering
+references:
+- uid: Orama.Rendering.Pipelines.Forward.ForwardRenderPipeline
+  commentId: T:Orama.Rendering.Pipelines.Forward.ForwardRenderPipeline
+  href: Orama.Rendering.Pipelines.Forward.ForwardRenderPipeline.html
+  name: ForwardRenderPipeline
+  nameWithType: ForwardRenderPipeline
+  fullName: Orama.Rendering.Pipelines.Forward.ForwardRenderPipeline
+- uid: Orama.Rendering.Pipelines.Forward.OpaquePass
+  commentId: T:Orama.Rendering.Pipelines.Forward.OpaquePass
+  href: Orama.Rendering.Pipelines.Forward.OpaquePass.html
+  name: OpaquePass
+  nameWithType: OpaquePass
+  fullName: Orama.Rendering.Pipelines.Forward.OpaquePass

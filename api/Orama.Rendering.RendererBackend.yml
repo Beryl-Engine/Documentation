@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.RendererBackend
+  commentId: T:Orama.Rendering.RendererBackend
+  id: RendererBackend
+  parent: Orama.Rendering
+  children:
+  - Orama.Rendering.RendererBackend.Direct3D11
+  - Orama.Rendering.RendererBackend.OpenGL
+  - Orama.Rendering.RendererBackend.Vulkan
+  langs:
+  - csharp
+  - vb
+  name: RendererBackend
+  nameWithType: RendererBackend
+  fullName: Orama.Rendering.RendererBackend
+  type: Enum
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Renderer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: RendererBackend
+    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    startLine: 8
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public enum RendererBackend
+    content.vb: Public Enum RendererBackend
+- uid: Orama.Rendering.RendererBackend.OpenGL
+  commentId: F:Orama.Rendering.RendererBackend.OpenGL
+  id: OpenGL
+  parent: Orama.Rendering.RendererBackend
+  langs:
+  - csharp
+  - vb
+  name: OpenGL
+  nameWithType: RendererBackend.OpenGL
+  fullName: Orama.Rendering.RendererBackend.OpenGL
+  type: Field
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Renderer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: OpenGL
+    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    startLine: 10
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: OpenGL = 0
+    return:
+      type: Orama.Rendering.RendererBackend
+- uid: Orama.Rendering.RendererBackend.Vulkan
+  commentId: F:Orama.Rendering.RendererBackend.Vulkan
+  id: Vulkan
+  parent: Orama.Rendering.RendererBackend
+  langs:
+  - csharp
+  - vb
+  name: Vulkan
+  nameWithType: RendererBackend.Vulkan
+  fullName: Orama.Rendering.RendererBackend.Vulkan
+  type: Field
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Renderer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Vulkan
+    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    startLine: 11
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: Vulkan = 1
+    return:
+      type: Orama.Rendering.RendererBackend
+- uid: Orama.Rendering.RendererBackend.Direct3D11
+  commentId: F:Orama.Rendering.RendererBackend.Direct3D11
+  id: Direct3D11
+  parent: Orama.Rendering.RendererBackend
+  langs:
+  - csharp
+  - vb
+  name: Direct3D11
+  nameWithType: RendererBackend.Direct3D11
+  fullName: Orama.Rendering.RendererBackend.Direct3D11
+  type: Field
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Renderer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Direct3D11
+    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    startLine: 12
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: Direct3D11 = 2
+    return:
+      type: Orama.Rendering.RendererBackend
+references:
+- uid: Orama.Rendering
+  commentId: N:Orama.Rendering
+  href: Orama.html
+  name: Orama.Rendering
+  nameWithType: Orama.Rendering
+  fullName: Orama.Rendering
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+- uid: Orama.Rendering.RendererBackend
+  commentId: T:Orama.Rendering.RendererBackend
+  parent: Orama.Rendering
+  href: Orama.Rendering.RendererBackend.html
+  name: RendererBackend
+  nameWithType: RendererBackend
+  fullName: Orama.Rendering.RendererBackend

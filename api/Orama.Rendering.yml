@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering
+  commentId: N:Orama.Rendering
+  id: Orama.Rendering
+  children:
+  - Orama.Rendering.CullingMode
+  - Orama.Rendering.GPUBuffer
+  - Orama.Rendering.IClientRenderable
+  - Orama.Rendering.RenderFrame
+  - Orama.Rendering.Renderer
+  - Orama.Rendering.RendererBackend
+  - Orama.Rendering.RendererOptions
+  - Orama.Rendering.RenderingModule
+  - Orama.Rendering.ShaderBaker
+  - Orama.Rendering.SlangCompilationResult
+  langs:
+  - csharp
+  - vb
+  name: Orama.Rendering
+  nameWithType: Orama.Rendering
+  fullName: Orama.Rendering
+  type: Namespace
+  assemblies:
+  - Orama.Rendering
+references:
+- uid: Orama.Rendering.GPUBuffer
+  commentId: T:Orama.Rendering.GPUBuffer
+  parent: Orama.Rendering
+  href: Orama.Rendering.GPUBuffer.html
+  name: GPUBuffer
+  nameWithType: GPUBuffer
+  fullName: Orama.Rendering.GPUBuffer
+- uid: Orama.Rendering.IClientRenderable
+  commentId: T:Orama.Rendering.IClientRenderable
+  parent: Orama.Rendering
+  href: Orama.Rendering.IClientRenderable.html
+  name: IClientRenderable
+  nameWithType: IClientRenderable
+  fullName: Orama.Rendering.IClientRenderable
+- uid: Orama.Rendering.RendererBackend
+  commentId: T:Orama.Rendering.RendererBackend
+  parent: Orama.Rendering
+  href: Orama.Rendering.RendererBackend.html
+  name: RendererBackend
+  nameWithType: RendererBackend
+  fullName: Orama.Rendering.RendererBackend
+- uid: Orama.Rendering.Renderer
+  commentId: T:Orama.Rendering.Renderer
+  href: Orama.Rendering.Renderer.html
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Orama.Rendering.Renderer
+- uid: Orama.Rendering.CullingMode
+  commentId: T:Orama.Rendering.CullingMode
+  parent: Orama.Rendering
+  href: Orama.Rendering.CullingMode.html
+  name: CullingMode
+  nameWithType: CullingMode
+  fullName: Orama.Rendering.CullingMode
+- uid: Orama.Rendering.RendererOptions
+  commentId: T:Orama.Rendering.RendererOptions
+  parent: Orama.Rendering
+  href: Orama.Rendering.RendererOptions.html
+  name: RendererOptions
+  nameWithType: RendererOptions
+  fullName: Orama.Rendering.RendererOptions
+- uid: Orama.Rendering.RenderFrame
+  commentId: T:Orama.Rendering.RenderFrame
+  parent: Orama.Rendering
+  href: Orama.Rendering.RenderFrame.html
+  name: RenderFrame
+  nameWithType: RenderFrame
+  fullName: Orama.Rendering.RenderFrame
+- uid: Orama.Rendering.RenderingModule
+  commentId: T:Orama.Rendering.RenderingModule
+  href: Orama.Rendering.RenderingModule.html
+  name: RenderingModule
+  nameWithType: RenderingModule
+  fullName: Orama.Rendering.RenderingModule
+- uid: Orama.Rendering.ShaderBaker
+  commentId: T:Orama.Rendering.ShaderBaker
+  href: Orama.Rendering.ShaderBaker.html
+  name: ShaderBaker
+  nameWithType: ShaderBaker
+  fullName: Orama.Rendering.ShaderBaker
+- uid: Orama.Rendering.SlangCompilationResult
+  commentId: T:Orama.Rendering.SlangCompilationResult
+  parent: Orama.Rendering
+  href: Orama.Rendering.SlangCompilationResult.html
+  name: SlangCompilationResult
+  nameWithType: SlangCompilationResult
+  fullName: Orama.Rendering.SlangCompilationResult
+- uid: Orama.Rendering
+  commentId: N:Orama.Rendering
+  href: Orama.html
+  name: Orama.Rendering
+  nameWithType: Orama.Rendering
+  fullName: Orama.Rendering
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html

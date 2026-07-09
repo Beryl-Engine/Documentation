@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.GUI.Widgets
+  commentId: N:Orama.GUI.Widgets
+  id: Orama.GUI.Widgets
+  children:
+  - Orama.GUI.Widgets.Widget
+  langs:
+  - csharp
+  - vb
+  name: Orama.GUI.Widgets
+  nameWithType: Orama.GUI.Widgets
+  fullName: Orama.GUI.Widgets
+  type: Namespace
+  assemblies:
+  - Orama.GUI
+references:
+- uid: Orama.GUI.Widgets.Widget
+  commentId: T:Orama.GUI.Widgets.Widget
+  parent: Orama.GUI.Widgets
+  href: Orama.GUI.Widgets.Widget.html
+  name: Widget
+  nameWithType: Widget
+  fullName: Orama.GUI.Widgets.Widget
+- uid: Orama.GUI.Widgets
+  commentId: N:Orama.GUI.Widgets
+  href: Orama.html
+  name: Orama.GUI.Widgets
+  nameWithType: Orama.GUI.Widgets
+  fullName: Orama.GUI.Widgets
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.GUI
+    name: GUI
+    href: Orama.GUI.html
+  - name: .
+  - uid: Orama.GUI.Widgets
+    name: Widgets
+    href: Orama.GUI.Widgets.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.GUI
+    name: GUI
+    href: Orama.GUI.html
+  - name: .
+  - uid: Orama.GUI.Widgets
+    name: Widgets
+    href: Orama.GUI.Widgets.html

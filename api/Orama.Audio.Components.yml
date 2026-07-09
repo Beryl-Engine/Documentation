@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Audio.Components
+  commentId: N:Orama.Audio.Components
+  id: Orama.Audio.Components
+  children:
+  - Orama.Audio.Components.AudioListener
+  - Orama.Audio.Components.AudioSource
+  langs:
+  - csharp
+  - vb
+  name: Orama.Audio.Components
+  nameWithType: Orama.Audio.Components
+  fullName: Orama.Audio.Components
+  type: Namespace
+  assemblies:
+  - Orama.Audio
+references:
+- uid: Orama.Audio.Components.AudioListener
+  commentId: T:Orama.Audio.Components.AudioListener
+  href: Orama.Audio.Components.AudioListener.html
+  name: AudioListener
+  nameWithType: AudioListener
+  fullName: Orama.Audio.Components.AudioListener
+- uid: Orama.Audio.Components.AudioSource
+  commentId: T:Orama.Audio.Components.AudioSource
+  href: Orama.Audio.Components.AudioSource.html
+  name: AudioSource
+  nameWithType: AudioSource
+  fullName: Orama.Audio.Components.AudioSource

@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Audio
+  commentId: N:Orama.Audio
+  id: Orama.Audio
+  children:
+  - Orama.Audio.AudioDistanceModel
+  - Orama.Audio.AudioModule
+  - Orama.Audio.AudioPhysics
+  - Orama.Audio.IAudioContext
+  - Orama.Audio.IAudioListener
+  - Orama.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Orama.Audio
+  nameWithType: Orama.Audio
+  fullName: Orama.Audio
+  type: Namespace
+  assemblies:
+  - Orama.Audio
+references:
+- uid: Orama.Audio.AudioModule
+  commentId: T:Orama.Audio.AudioModule
+  href: Orama.Audio.AudioModule.html
+  name: AudioModule
+  nameWithType: AudioModule
+  fullName: Orama.Audio.AudioModule
+- uid: Orama.Audio.AudioDistanceModel
+  commentId: T:Orama.Audio.AudioDistanceModel
+  parent: Orama.Audio
+  href: Orama.Audio.AudioDistanceModel.html
+  name: AudioDistanceModel
+  nameWithType: AudioDistanceModel
+  fullName: Orama.Audio.AudioDistanceModel
+- uid: Orama.Audio.AudioPhysics
+  commentId: T:Orama.Audio.AudioPhysics
+  href: Orama.Audio.AudioPhysics.html
+  name: AudioPhysics
+  nameWithType: AudioPhysics
+  fullName: Orama.Audio.AudioPhysics
+- uid: Orama.Audio.IAudioContext
+  commentId: T:Orama.Audio.IAudioContext
+  parent: Orama.Audio
+  href: Orama.Audio.IAudioContext.html
+  name: IAudioContext
+  nameWithType: IAudioContext
+  fullName: Orama.Audio.IAudioContext
+- uid: Orama.Audio.IAudioListener
+  commentId: T:Orama.Audio.IAudioListener
+  parent: Orama.Audio
+  href: Orama.Audio.IAudioListener.html
+  name: IAudioListener
+  nameWithType: IAudioListener
+  fullName: Orama.Audio.IAudioListener
+- uid: Orama.Audio.IAudioSource
+  commentId: T:Orama.Audio.IAudioSource
+  parent: Orama.Audio
+  href: Orama.Audio.IAudioSource.html
+  name: IAudioSource
+  nameWithType: IAudioSource
+  fullName: Orama.Audio.IAudioSource
+- uid: Orama.Audio
+  commentId: N:Orama.Audio
+  href: Orama.html
+  name: Orama.Audio
+  nameWithType: Orama.Audio
+  fullName: Orama.Audio
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html

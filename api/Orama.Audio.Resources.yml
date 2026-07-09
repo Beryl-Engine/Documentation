@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Audio.Resources
+  commentId: N:Orama.Audio.Resources
+  id: Orama.Audio.Resources
+  children:
+  - Orama.Audio.Resources.AudioClip
+  langs:
+  - csharp
+  - vb
+  name: Orama.Audio.Resources
+  nameWithType: Orama.Audio.Resources
+  fullName: Orama.Audio.Resources
+  type: Namespace
+  assemblies:
+  - Orama.Audio
+references:
+- uid: Orama.Audio.Resources.AudioClip
+  commentId: T:Orama.Audio.Resources.AudioClip
+  parent: Orama.Audio.Resources
+  href: Orama.Audio.Resources.AudioClip.html
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: Orama.Audio.Resources.AudioClip
+- uid: Orama.Audio.Resources
+  commentId: N:Orama.Audio.Resources
+  href: Orama.html
+  name: Orama.Audio.Resources
+  nameWithType: Orama.Audio.Resources
+  fullName: Orama.Audio.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  - name: .
+  - uid: Orama.Audio.Resources
+    name: Resources
+    href: Orama.Audio.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  - name: .
+  - uid: Orama.Audio.Resources
+    name: Resources
+    href: Orama.Audio.Resources.html

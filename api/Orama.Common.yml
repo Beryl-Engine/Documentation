@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Common
+  commentId: N:Orama.Common
+  id: Orama.Common
+  children:
+  - Orama.Common.Application
+  - Orama.Common.BaseModule
+  - Orama.Common.ModuleManager
+  - Orama.Common.Time
+  - Orama.Common.Window
+  langs:
+  - csharp
+  - vb
+  name: Orama.Common
+  nameWithType: Orama.Common
+  fullName: Orama.Common
+  type: Namespace
+  assemblies:
+  - Orama.Common
+references:
+- uid: Orama.Common.Application
+  commentId: T:Orama.Common.Application
+  href: Orama.Common.Application.html
+  name: Application
+  nameWithType: Application
+  fullName: Orama.Common.Application
+- uid: Orama.Common.BaseModule
+  commentId: T:Orama.Common.BaseModule
+  parent: Orama.Common
+  href: Orama.Common.BaseModule.html
+  name: BaseModule
+  nameWithType: BaseModule
+  fullName: Orama.Common.BaseModule
+- uid: Orama.Common.ModuleManager
+  commentId: T:Orama.Common.ModuleManager
+  href: Orama.Common.ModuleManager.html
+  name: ModuleManager
+  nameWithType: ModuleManager
+  fullName: Orama.Common.ModuleManager
+- uid: Orama.Common.Time
+  commentId: T:Orama.Common.Time
+  href: Orama.Common.Time.html
+  name: Time
+  nameWithType: Time
+  fullName: Orama.Common.Time
+- uid: Orama.Common.Window
+  commentId: T:Orama.Common.Window
+  parent: Orama.Common
+  href: Orama.Common.Window.html
+  name: Window
+  nameWithType: Window
+  fullName: Orama.Common.Window
+- uid: Orama.Common
+  commentId: N:Orama.Common
+  href: Orama.html
+  name: Orama.Common
+  nameWithType: Orama.Common
+  fullName: Orama.Common
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html

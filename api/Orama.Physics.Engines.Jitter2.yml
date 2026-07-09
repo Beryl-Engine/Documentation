@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Physics.Engines.Jitter2
+  commentId: N:Orama.Physics.Engines.Jitter2
+  id: Orama.Physics.Engines.Jitter2
+  children:
+  - Orama.Physics.Engines.Jitter2.Jitter2Body
+  - Orama.Physics.Engines.Jitter2.Jitter2World
+  langs:
+  - csharp
+  - vb
+  name: Orama.Physics.Engines.Jitter2
+  nameWithType: Orama.Physics.Engines.Jitter2
+  fullName: Orama.Physics.Engines.Jitter2
+  type: Namespace
+  assemblies:
+  - Orama.Physics
+references:
+- uid: Orama.Physics.Engines.Jitter2.Jitter2Body
+  commentId: T:Orama.Physics.Engines.Jitter2.Jitter2Body
+  href: Orama.Physics.Engines.Jitter2.Jitter2Body.html
+  name: Jitter2Body
+  nameWithType: Jitter2Body
+  fullName: Orama.Physics.Engines.Jitter2.Jitter2Body
+- uid: Orama.Physics.Engines.Jitter2.Jitter2World
+  commentId: T:Orama.Physics.Engines.Jitter2.Jitter2World
+  href: Orama.Physics.Engines.Jitter2.Jitter2World.html
+  name: Jitter2World
+  nameWithType: Jitter2World
+  fullName: Orama.Physics.Engines.Jitter2.Jitter2World

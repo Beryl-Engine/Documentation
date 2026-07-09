@@ -1,0 +1,493 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.Resources.Caches.ShaderKey
+  commentId: T:Orama.Rendering.Resources.Caches.ShaderKey
+  id: ShaderKey
+  parent: Orama.Rendering.Resources.Caches
+  children:
+  - Orama.Rendering.Resources.Caches.ShaderKey.#ctor(System.Byte[],System.Byte[])
+  - Orama.Rendering.Resources.Caches.ShaderKey.FragmentBytecode
+  - Orama.Rendering.Resources.Caches.ShaderKey.VertexBytecode
+  langs:
+  - csharp
+  - vb
+  name: ShaderKey
+  nameWithType: ShaderKey
+  fullName: Orama.Rendering.Resources.Caches.ShaderKey
+  type: Struct
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/PipelineCache.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ShaderKey
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/PipelineCache.cs
+    startLine: 56
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: 'public readonly record struct ShaderKey : IEquatable<ShaderKey>'
+    content.vb: Public Structure ShaderKey Implements IEquatable(Of ShaderKey)
+  implements:
+  - System.IEquatable{Orama.Rendering.Resources.Caches.ShaderKey}
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Orama.Rendering.Resources.Caches.ShaderKey.#ctor(System.Byte[],System.Byte[])
+  commentId: M:Orama.Rendering.Resources.Caches.ShaderKey.#ctor(System.Byte[],System.Byte[])
+  id: '#ctor(System.Byte[],System.Byte[])'
+  parent: Orama.Rendering.Resources.Caches.ShaderKey
+  langs:
+  - csharp
+  - vb
+  name: ShaderKey(byte[], byte[])
+  nameWithType: ShaderKey.ShaderKey(byte[], byte[])
+  fullName: Orama.Rendering.Resources.Caches.ShaderKey.ShaderKey(byte[], byte[])
+  type: Constructor
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/PipelineCache.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: .ctor
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/PipelineCache.cs
+    startLine: 56
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: public ShaderKey(byte[] VertexBytecode, byte[] FragmentBytecode)
+    parameters:
+    - id: VertexBytecode
+      type: System.Byte[]
+    - id: FragmentBytecode
+      type: System.Byte[]
+    content.vb: Public Sub New(VertexBytecode As Byte(), FragmentBytecode As Byte())
+  overload: Orama.Rendering.Resources.Caches.ShaderKey.#ctor*
+  nameWithType.vb: ShaderKey.New(Byte(), Byte())
+  fullName.vb: Orama.Rendering.Resources.Caches.ShaderKey.New(Byte(), Byte())
+  name.vb: New(Byte(), Byte())
+- uid: Orama.Rendering.Resources.Caches.ShaderKey.VertexBytecode
+  commentId: P:Orama.Rendering.Resources.Caches.ShaderKey.VertexBytecode
+  id: VertexBytecode
+  parent: Orama.Rendering.Resources.Caches.ShaderKey
+  langs:
+  - csharp
+  - vb
+  name: VertexBytecode
+  nameWithType: ShaderKey.VertexBytecode
+  fullName: Orama.Rendering.Resources.Caches.ShaderKey.VertexBytecode
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/PipelineCache.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: VertexBytecode
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/PipelineCache.cs
+    startLine: 56
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: public byte[] VertexBytecode { get; init; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property VertexBytecode As Byte()
+  overload: Orama.Rendering.Resources.Caches.ShaderKey.VertexBytecode*
+- uid: Orama.Rendering.Resources.Caches.ShaderKey.FragmentBytecode
+  commentId: P:Orama.Rendering.Resources.Caches.ShaderKey.FragmentBytecode
+  id: FragmentBytecode
+  parent: Orama.Rendering.Resources.Caches.ShaderKey
+  langs:
+  - csharp
+  - vb
+  name: FragmentBytecode
+  nameWithType: ShaderKey.FragmentBytecode
+  fullName: Orama.Rendering.Resources.Caches.ShaderKey.FragmentBytecode
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/PipelineCache.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: FragmentBytecode
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/PipelineCache.cs
+    startLine: 56
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: public byte[] FragmentBytecode { get; init; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property FragmentBytecode As Byte()
+  overload: Orama.Rendering.Resources.Caches.ShaderKey.FragmentBytecode*
+references:
+- uid: Orama.Rendering.Resources.Caches
+  commentId: N:Orama.Rendering.Resources.Caches
+  href: Orama.html
+  name: Orama.Rendering.Resources.Caches
+  nameWithType: Orama.Rendering.Resources.Caches
+  fullName: Orama.Rendering.Resources.Caches
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
+- uid: System.IEquatable{Orama.Rendering.Resources.Caches.ShaderKey}
+  commentId: T:System.IEquatable{Orama.Rendering.Resources.Caches.ShaderKey}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<ShaderKey>
+  nameWithType: IEquatable<ShaderKey>
+  fullName: System.IEquatable<Orama.Rendering.Resources.Caches.ShaderKey>
+  nameWithType.vb: IEquatable(Of ShaderKey)
+  fullName.vb: System.IEquatable(Of Orama.Rendering.Resources.Caches.ShaderKey)
+  name.vb: IEquatable(Of ShaderKey)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Orama.Rendering.Resources.Caches.ShaderKey
+    name: ShaderKey
+    href: Orama.Rendering.Resources.Caches.ShaderKey.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Orama.Rendering.Resources.Caches.ShaderKey
+    name: ShaderKey
+    href: Orama.Rendering.Resources.Caches.ShaderKey.html
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Orama.Rendering.Resources.Caches.ShaderKey.#ctor*
+  commentId: Overload:Orama.Rendering.Resources.Caches.ShaderKey.#ctor
+  href: Orama.Rendering.Resources.Caches.ShaderKey.html#Orama_Rendering_Resources_Caches_ShaderKey__ctor_System_Byte___System_Byte___
+  name: ShaderKey
+  nameWithType: ShaderKey.ShaderKey
+  fullName: Orama.Rendering.Resources.Caches.ShaderKey.ShaderKey
+  nameWithType.vb: ShaderKey.New
+  fullName.vb: Orama.Rendering.Resources.Caches.ShaderKey.New
+  name.vb: New
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ShaderKey.VertexBytecode*
+  commentId: Overload:Orama.Rendering.Resources.Caches.ShaderKey.VertexBytecode
+  href: Orama.Rendering.Resources.Caches.ShaderKey.html#Orama_Rendering_Resources_Caches_ShaderKey_VertexBytecode
+  name: VertexBytecode
+  nameWithType: ShaderKey.VertexBytecode
+  fullName: Orama.Rendering.Resources.Caches.ShaderKey.VertexBytecode
+- uid: Orama.Rendering.Resources.Caches.ShaderKey.FragmentBytecode*
+  commentId: Overload:Orama.Rendering.Resources.Caches.ShaderKey.FragmentBytecode
+  href: Orama.Rendering.Resources.Caches.ShaderKey.html#Orama_Rendering_Resources_Caches_ShaderKey_FragmentBytecode
+  name: FragmentBytecode
+  nameWithType: ShaderKey.FragmentBytecode
+  fullName: Orama.Rendering.Resources.Caches.ShaderKey.FragmentBytecode

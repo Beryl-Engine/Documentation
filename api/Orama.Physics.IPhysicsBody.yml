@@ -1,0 +1,885 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Physics.IPhysicsBody
+  commentId: T:Orama.Physics.IPhysicsBody
+  id: IPhysicsBody
+  parent: Orama.Physics
+  children:
+  - Orama.Physics.IPhysicsBody.AddBoxCollider(System.Single,System.Single,System.Single)
+  - Orama.Physics.IPhysicsBody.AddForce(Orama.Math.Vector3)
+  - Orama.Physics.IPhysicsBody.AddSphereCollider(System.Single)
+  - Orama.Physics.IPhysicsBody.AffectedByGravity
+  - Orama.Physics.IPhysicsBody.AngularVelocity
+  - Orama.Physics.IPhysicsBody.Damping
+  - Orama.Physics.IPhysicsBody.Friction
+  - Orama.Physics.IPhysicsBody.IsStatic
+  - Orama.Physics.IPhysicsBody.Mass
+  - Orama.Physics.IPhysicsBody.OnCollisionEnter
+  - Orama.Physics.IPhysicsBody.OnCollisionExit
+  - Orama.Physics.IPhysicsBody.Orientation
+  - Orama.Physics.IPhysicsBody.Owner
+  - Orama.Physics.IPhysicsBody.Position
+  - Orama.Physics.IPhysicsBody.RemoveCollider(System.Int32)
+  - Orama.Physics.IPhysicsBody.Restitution
+  - Orama.Physics.IPhysicsBody.Velocity
+  langs:
+  - csharp
+  - vb
+  name: IPhysicsBody
+  nameWithType: IPhysicsBody
+  fullName: Orama.Physics.IPhysicsBody
+  type: Interface
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IPhysicsBody
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 8
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Represents a physics body within the simulation.
+  example: []
+  syntax:
+    content: public interface IPhysicsBody
+    content.vb: Public Interface IPhysicsBody
+  derivedClasses:
+  - Orama.Physics.Engines.Jitter2.Jitter2Body
+- uid: Orama.Physics.IPhysicsBody.Owner
+  commentId: P:Orama.Physics.IPhysicsBody.Owner
+  id: Owner
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: IPhysicsBody.Owner
+  fullName: Orama.Physics.IPhysicsBody.Owner
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Owner
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 11
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: The <xref href="Orama.Scenes.Entities.Entity" data-throw-if-not-resolved="false"></xref> that owns the physics body or null if the body is not owned by an <xref href="Orama.Scenes.Entities.Entity" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: Entity? Owner { get; init; }
+    parameters: []
+    return:
+      type: Orama.Scenes.Entities.Entity
+    content.vb: Property Owner As Entity
+  overload: Orama.Physics.IPhysicsBody.Owner*
+- uid: Orama.Physics.IPhysicsBody.IsStatic
+  commentId: P:Orama.Physics.IPhysicsBody.IsStatic
+  id: IsStatic
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: IsStatic
+  nameWithType: IPhysicsBody.IsStatic
+  fullName: Orama.Physics.IPhysicsBody.IsStatic
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IsStatic
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 14
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Whether the physics body is static or dynamic.
+  example: []
+  syntax:
+    content: bool IsStatic { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsStatic As Boolean
+  overload: Orama.Physics.IPhysicsBody.IsStatic*
+- uid: Orama.Physics.IPhysicsBody.AffectedByGravity
+  commentId: P:Orama.Physics.IPhysicsBody.AffectedByGravity
+  id: AffectedByGravity
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: AffectedByGravity
+  nameWithType: IPhysicsBody.AffectedByGravity
+  fullName: Orama.Physics.IPhysicsBody.AffectedByGravity
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AffectedByGravity
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 17
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Whether the physics body is affected by gravity.
+  example: []
+  syntax:
+    content: bool AffectedByGravity { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property AffectedByGravity As Boolean
+  overload: Orama.Physics.IPhysicsBody.AffectedByGravity*
+- uid: Orama.Physics.IPhysicsBody.Mass
+  commentId: P:Orama.Physics.IPhysicsBody.Mass
+  id: Mass
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Mass
+  nameWithType: IPhysicsBody.Mass
+  fullName: Orama.Physics.IPhysicsBody.Mass
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Mass
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 20
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Mass of the physics body.
+  example: []
+  syntax:
+    content: float Mass { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property Mass As Single
+  overload: Orama.Physics.IPhysicsBody.Mass*
+- uid: Orama.Physics.IPhysicsBody.Friction
+  commentId: P:Orama.Physics.IPhysicsBody.Friction
+  id: Friction
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Friction
+  nameWithType: IPhysicsBody.Friction
+  fullName: Orama.Physics.IPhysicsBody.Friction
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Friction
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 23
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Friction of the physics body.
+  example: []
+  syntax:
+    content: float Friction { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property Friction As Single
+  overload: Orama.Physics.IPhysicsBody.Friction*
+- uid: Orama.Physics.IPhysicsBody.Restitution
+  commentId: P:Orama.Physics.IPhysicsBody.Restitution
+  id: Restitution
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Restitution
+  nameWithType: IPhysicsBody.Restitution
+  fullName: Orama.Physics.IPhysicsBody.Restitution
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Restitution
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 26
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Restitution of the physics body.
+  example: []
+  syntax:
+    content: float Restitution { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property Restitution As Single
+  overload: Orama.Physics.IPhysicsBody.Restitution*
+- uid: Orama.Physics.IPhysicsBody.Position
+  commentId: P:Orama.Physics.IPhysicsBody.Position
+  id: Position
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: IPhysicsBody.Position
+  fullName: Orama.Physics.IPhysicsBody.Position
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Position
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 29
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Position of the physics body.
+  example: []
+  syntax:
+    content: Vector3 Position { get; set; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector3
+    content.vb: Property Position As Vector3
+  overload: Orama.Physics.IPhysicsBody.Position*
+- uid: Orama.Physics.IPhysicsBody.Orientation
+  commentId: P:Orama.Physics.IPhysicsBody.Orientation
+  id: Orientation
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Orientation
+  nameWithType: IPhysicsBody.Orientation
+  fullName: Orama.Physics.IPhysicsBody.Orientation
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Orientation
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 32
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Orientation of the physics body.
+  example: []
+  syntax:
+    content: Quaternion Orientation { get; set; }
+    parameters: []
+    return:
+      type: Orama.Math.Quaternion
+    content.vb: Property Orientation As Quaternion
+  overload: Orama.Physics.IPhysicsBody.Orientation*
+- uid: Orama.Physics.IPhysicsBody.Velocity
+  commentId: P:Orama.Physics.IPhysicsBody.Velocity
+  id: Velocity
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Velocity
+  nameWithType: IPhysicsBody.Velocity
+  fullName: Orama.Physics.IPhysicsBody.Velocity
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Velocity
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 35
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Velocity of the physics body.
+  example: []
+  syntax:
+    content: Vector3 Velocity { get; set; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector3
+    content.vb: Property Velocity As Vector3
+  overload: Orama.Physics.IPhysicsBody.Velocity*
+- uid: Orama.Physics.IPhysicsBody.AngularVelocity
+  commentId: P:Orama.Physics.IPhysicsBody.AngularVelocity
+  id: AngularVelocity
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: AngularVelocity
+  nameWithType: IPhysicsBody.AngularVelocity
+  fullName: Orama.Physics.IPhysicsBody.AngularVelocity
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AngularVelocity
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 38
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Angular velocity of the physics body.
+  example: []
+  syntax:
+    content: Vector3 AngularVelocity { get; set; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector3
+    content.vb: Property AngularVelocity As Vector3
+  overload: Orama.Physics.IPhysicsBody.AngularVelocity*
+- uid: Orama.Physics.IPhysicsBody.Damping
+  commentId: P:Orama.Physics.IPhysicsBody.Damping
+  id: Damping
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Damping
+  nameWithType: IPhysicsBody.Damping
+  fullName: Orama.Physics.IPhysicsBody.Damping
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Damping
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 41
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Linear (X) and angular (Y) damping of the physics body.
+  example: []
+  syntax:
+    content: Vector2 Damping { get; set; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector2
+    content.vb: Property Damping As Vector2
+  overload: Orama.Physics.IPhysicsBody.Damping*
+- uid: Orama.Physics.IPhysicsBody.AddBoxCollider(System.Single,System.Single,System.Single)
+  commentId: M:Orama.Physics.IPhysicsBody.AddBoxCollider(System.Single,System.Single,System.Single)
+  id: AddBoxCollider(System.Single,System.Single,System.Single)
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: AddBoxCollider(float, float, float)
+  nameWithType: IPhysicsBody.AddBoxCollider(float, float, float)
+  fullName: Orama.Physics.IPhysicsBody.AddBoxCollider(float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AddBoxCollider
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 44
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Adds a box collider to the physics body.
+  example: []
+  syntax:
+    content: int AddBoxCollider(float width, float height, float depth)
+    parameters:
+    - id: width
+      type: System.Single
+    - id: height
+      type: System.Single
+    - id: depth
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Function AddBoxCollider(width As Single, height As Single, depth As Single) As Integer
+  overload: Orama.Physics.IPhysicsBody.AddBoxCollider*
+  nameWithType.vb: IPhysicsBody.AddBoxCollider(Single, Single, Single)
+  fullName.vb: Orama.Physics.IPhysicsBody.AddBoxCollider(Single, Single, Single)
+  name.vb: AddBoxCollider(Single, Single, Single)
+- uid: Orama.Physics.IPhysicsBody.AddSphereCollider(System.Single)
+  commentId: M:Orama.Physics.IPhysicsBody.AddSphereCollider(System.Single)
+  id: AddSphereCollider(System.Single)
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: AddSphereCollider(float)
+  nameWithType: IPhysicsBody.AddSphereCollider(float)
+  fullName: Orama.Physics.IPhysicsBody.AddSphereCollider(float)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AddSphereCollider
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 47
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Adds a sphere collider to the physics body.
+  example: []
+  syntax:
+    content: int AddSphereCollider(float radius)
+    parameters:
+    - id: radius
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Function AddSphereCollider(radius As Single) As Integer
+  overload: Orama.Physics.IPhysicsBody.AddSphereCollider*
+  nameWithType.vb: IPhysicsBody.AddSphereCollider(Single)
+  fullName.vb: Orama.Physics.IPhysicsBody.AddSphereCollider(Single)
+  name.vb: AddSphereCollider(Single)
+- uid: Orama.Physics.IPhysicsBody.RemoveCollider(System.Int32)
+  commentId: M:Orama.Physics.IPhysicsBody.RemoveCollider(System.Int32)
+  id: RemoveCollider(System.Int32)
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: RemoveCollider(int)
+  nameWithType: IPhysicsBody.RemoveCollider(int)
+  fullName: Orama.Physics.IPhysicsBody.RemoveCollider(int)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: RemoveCollider
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 51
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Removes a collider from the physics body.
+  example: []
+  syntax:
+    content: void RemoveCollider(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The id linked to the collider to detach from the body.
+    content.vb: Sub RemoveCollider(id As Integer)
+  overload: Orama.Physics.IPhysicsBody.RemoveCollider*
+  nameWithType.vb: IPhysicsBody.RemoveCollider(Integer)
+  fullName.vb: Orama.Physics.IPhysicsBody.RemoveCollider(Integer)
+  name.vb: RemoveCollider(Integer)
+- uid: Orama.Physics.IPhysicsBody.AddForce(Orama.Math.Vector3)
+  commentId: M:Orama.Physics.IPhysicsBody.AddForce(Orama.Math.Vector3)
+  id: AddForce(Orama.Math.Vector3)
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: AddForce(Vector3)
+  nameWithType: IPhysicsBody.AddForce(Vector3)
+  fullName: Orama.Physics.IPhysicsBody.AddForce(Orama.Math.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AddForce
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 55
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Applies a force to the physics body.
+  example: []
+  syntax:
+    content: void AddForce(Vector3 force)
+    parameters:
+    - id: force
+      type: Orama.Math.Vector3
+      description: The force to apply to the body.
+    content.vb: Sub AddForce(force As Vector3)
+  overload: Orama.Physics.IPhysicsBody.AddForce*
+- uid: Orama.Physics.IPhysicsBody.OnCollisionEnter
+  commentId: E:Orama.Physics.IPhysicsBody.OnCollisionEnter
+  id: OnCollisionEnter
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: OnCollisionEnter
+  nameWithType: IPhysicsBody.OnCollisionEnter
+  fullName: Orama.Physics.IPhysicsBody.OnCollisionEnter
+  type: Event
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: OnCollisionEnter
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 58
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Fires when this physics body collides with another.
+  example: []
+  syntax:
+    content: event Action<IPhysicsBody>? OnCollisionEnter
+    return:
+      type: System.Action{Orama.Physics.IPhysicsBody}
+    content.vb: Event OnCollisionEnter As Action(Of IPhysicsBody)
+- uid: Orama.Physics.IPhysicsBody.OnCollisionExit
+  commentId: E:Orama.Physics.IPhysicsBody.OnCollisionExit
+  id: OnCollisionExit
+  parent: Orama.Physics.IPhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: OnCollisionExit
+  nameWithType: IPhysicsBody.OnCollisionExit
+  fullName: Orama.Physics.IPhysicsBody.OnCollisionExit
+  type: Event
+  source:
+    remote:
+      path: Modules/Orama.Physics/IPhysicsBody.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: OnCollisionExit
+    path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
+    startLine: 61
+  assemblies:
+  - Orama.Physics
+  namespace: Orama.Physics
+  summary: Fires when this physics body stops colliding with another.
+  example: []
+  syntax:
+    content: event Action<IPhysicsBody>? OnCollisionExit
+    return:
+      type: System.Action{Orama.Physics.IPhysicsBody}
+    content.vb: Event OnCollisionExit As Action(Of IPhysicsBody)
+references:
+- uid: Orama.Physics
+  commentId: N:Orama.Physics
+  href: Orama.html
+  name: Orama.Physics
+  nameWithType: Orama.Physics
+  fullName: Orama.Physics
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Physics
+    name: Physics
+    href: Orama.Physics.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Physics
+    name: Physics
+    href: Orama.Physics.html
+- uid: Orama.Scenes.Entities.Entity
+  commentId: T:Orama.Scenes.Entities.Entity
+  parent: Orama.Scenes.Entities
+  href: Orama.Scenes.Entities.Entity.html
+  name: Entity
+  nameWithType: Entity
+  fullName: Orama.Scenes.Entities.Entity
+- uid: Orama.Physics.IPhysicsBody.Owner*
+  commentId: Overload:Orama.Physics.IPhysicsBody.Owner
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_Owner
+  name: Owner
+  nameWithType: IPhysicsBody.Owner
+  fullName: Orama.Physics.IPhysicsBody.Owner
+- uid: Orama.Scenes.Entities
+  commentId: N:Orama.Scenes.Entities
+  href: Orama.html
+  name: Orama.Scenes.Entities
+  nameWithType: Orama.Scenes.Entities
+  fullName: Orama.Scenes.Entities
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Scenes
+    name: Scenes
+    href: Orama.Scenes.html
+  - name: .
+  - uid: Orama.Scenes.Entities
+    name: Entities
+    href: Orama.Scenes.Entities.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Scenes
+    name: Scenes
+    href: Orama.Scenes.html
+  - name: .
+  - uid: Orama.Scenes.Entities
+    name: Entities
+    href: Orama.Scenes.Entities.html
+- uid: Orama.Physics.IPhysicsBody.IsStatic*
+  commentId: Overload:Orama.Physics.IPhysicsBody.IsStatic
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_IsStatic
+  name: IsStatic
+  nameWithType: IPhysicsBody.IsStatic
+  fullName: Orama.Physics.IPhysicsBody.IsStatic
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Physics.IPhysicsBody.AffectedByGravity*
+  commentId: Overload:Orama.Physics.IPhysicsBody.AffectedByGravity
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_AffectedByGravity
+  name: AffectedByGravity
+  nameWithType: IPhysicsBody.AffectedByGravity
+  fullName: Orama.Physics.IPhysicsBody.AffectedByGravity
+- uid: Orama.Physics.IPhysicsBody.Mass*
+  commentId: Overload:Orama.Physics.IPhysicsBody.Mass
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_Mass
+  name: Mass
+  nameWithType: IPhysicsBody.Mass
+  fullName: Orama.Physics.IPhysicsBody.Mass
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Orama.Physics.IPhysicsBody.Friction*
+  commentId: Overload:Orama.Physics.IPhysicsBody.Friction
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_Friction
+  name: Friction
+  nameWithType: IPhysicsBody.Friction
+  fullName: Orama.Physics.IPhysicsBody.Friction
+- uid: Orama.Physics.IPhysicsBody.Restitution*
+  commentId: Overload:Orama.Physics.IPhysicsBody.Restitution
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_Restitution
+  name: Restitution
+  nameWithType: IPhysicsBody.Restitution
+  fullName: Orama.Physics.IPhysicsBody.Restitution
+- uid: Orama.Physics.IPhysicsBody.Position*
+  commentId: Overload:Orama.Physics.IPhysicsBody.Position
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_Position
+  name: Position
+  nameWithType: IPhysicsBody.Position
+  fullName: Orama.Physics.IPhysicsBody.Position
+- uid: Orama.Math.Vector3
+  commentId: T:Orama.Math.Vector3
+  parent: Orama.Math
+  href: Orama.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Orama.Math.Vector3
+- uid: Orama.Math
+  commentId: N:Orama.Math
+  href: Orama.html
+  name: Orama.Math
+  nameWithType: Orama.Math
+  fullName: Orama.Math
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+- uid: Orama.Physics.IPhysicsBody.Orientation*
+  commentId: Overload:Orama.Physics.IPhysicsBody.Orientation
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_Orientation
+  name: Orientation
+  nameWithType: IPhysicsBody.Orientation
+  fullName: Orama.Physics.IPhysicsBody.Orientation
+- uid: Orama.Math.Quaternion
+  commentId: T:Orama.Math.Quaternion
+  parent: Orama.Math
+  href: Orama.Math.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Orama.Math.Quaternion
+- uid: Orama.Physics.IPhysicsBody.Velocity*
+  commentId: Overload:Orama.Physics.IPhysicsBody.Velocity
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_Velocity
+  name: Velocity
+  nameWithType: IPhysicsBody.Velocity
+  fullName: Orama.Physics.IPhysicsBody.Velocity
+- uid: Orama.Physics.IPhysicsBody.AngularVelocity*
+  commentId: Overload:Orama.Physics.IPhysicsBody.AngularVelocity
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_AngularVelocity
+  name: AngularVelocity
+  nameWithType: IPhysicsBody.AngularVelocity
+  fullName: Orama.Physics.IPhysicsBody.AngularVelocity
+- uid: Orama.Physics.IPhysicsBody.Damping*
+  commentId: Overload:Orama.Physics.IPhysicsBody.Damping
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_Damping
+  name: Damping
+  nameWithType: IPhysicsBody.Damping
+  fullName: Orama.Physics.IPhysicsBody.Damping
+- uid: Orama.Math.Vector2
+  commentId: T:Orama.Math.Vector2
+  parent: Orama.Math
+  href: Orama.Math.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Orama.Math.Vector2
+- uid: Orama.Physics.IPhysicsBody.AddBoxCollider*
+  commentId: Overload:Orama.Physics.IPhysicsBody.AddBoxCollider
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_AddBoxCollider_System_Single_System_Single_System_Single_
+  name: AddBoxCollider
+  nameWithType: IPhysicsBody.AddBoxCollider
+  fullName: Orama.Physics.IPhysicsBody.AddBoxCollider
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Orama.Physics.IPhysicsBody.AddSphereCollider*
+  commentId: Overload:Orama.Physics.IPhysicsBody.AddSphereCollider
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_AddSphereCollider_System_Single_
+  name: AddSphereCollider
+  nameWithType: IPhysicsBody.AddSphereCollider
+  fullName: Orama.Physics.IPhysicsBody.AddSphereCollider
+- uid: Orama.Physics.IPhysicsBody.RemoveCollider*
+  commentId: Overload:Orama.Physics.IPhysicsBody.RemoveCollider
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_RemoveCollider_System_Int32_
+  name: RemoveCollider
+  nameWithType: IPhysicsBody.RemoveCollider
+  fullName: Orama.Physics.IPhysicsBody.RemoveCollider
+- uid: Orama.Physics.IPhysicsBody.AddForce*
+  commentId: Overload:Orama.Physics.IPhysicsBody.AddForce
+  href: Orama.Physics.IPhysicsBody.html#Orama_Physics_IPhysicsBody_AddForce_Orama_Math_Vector3_
+  name: AddForce
+  nameWithType: IPhysicsBody.AddForce
+  fullName: Orama.Physics.IPhysicsBody.AddForce
+- uid: System.Action{Orama.Physics.IPhysicsBody}
+  commentId: T:System.Action{Orama.Physics.IPhysicsBody}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IPhysicsBody>
+  nameWithType: Action<IPhysicsBody>
+  fullName: System.Action<Orama.Physics.IPhysicsBody>
+  nameWithType.vb: Action(Of IPhysicsBody)
+  fullName.vb: System.Action(Of Orama.Physics.IPhysicsBody)
+  name.vb: Action(Of IPhysicsBody)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: Orama.Physics.IPhysicsBody
+    name: IPhysicsBody
+    href: Orama.Physics.IPhysicsBody.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Orama.Physics.IPhysicsBody
+    name: IPhysicsBody
+    href: Orama.Physics.IPhysicsBody.html
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

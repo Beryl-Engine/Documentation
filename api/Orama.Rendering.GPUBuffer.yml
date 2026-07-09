@@ -1,0 +1,866 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.GPUBuffer
+  commentId: T:Orama.Rendering.GPUBuffer
+  id: GPUBuffer
+  parent: Orama.Rendering
+  children:
+  - Orama.Rendering.GPUBuffer.#ctor
+  - Orama.Rendering.GPUBuffer.AddBytes(System.ReadOnlySpan{System.Byte})
+  - Orama.Rendering.GPUBuffer.AddFloat(System.Single)
+  - Orama.Rendering.GPUBuffer.AddFloat2(System.Single,System.Single)
+  - Orama.Rendering.GPUBuffer.AddFloat3(System.Single,System.Single,System.Single)
+  - Orama.Rendering.GPUBuffer.AddFloat4(System.Single,System.Single,System.Single,System.Single)
+  - Orama.Rendering.GPUBuffer.AddMatrix4x4(Orama.Math.Matrix4x4)
+  - Orama.Rendering.GPUBuffer.AddStruct``1(``0)
+  - Orama.Rendering.GPUBuffer.DEFAULT_SIZE
+  - Orama.Rendering.GPUBuffer.Data
+  - Orama.Rendering.GPUBuffer.Reset
+  langs:
+  - csharp
+  - vb
+  name: GPUBuffer
+  nameWithType: GPUBuffer
+  fullName: Orama.Rendering.GPUBuffer
+  type: Struct
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: GPUBuffer
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 9
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: Buffer that assembles data in a format readable by a <xref href="Orama.Rendering.Device.CommandBuffer" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public struct GPUBuffer
+    content.vb: Public Structure GPUBuffer
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Orama.Rendering.GPUBuffer.DEFAULT_SIZE
+  commentId: F:Orama.Rendering.GPUBuffer.DEFAULT_SIZE
+  id: DEFAULT_SIZE
+  parent: Orama.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: DEFAULT_SIZE
+  nameWithType: GPUBuffer.DEFAULT_SIZE
+  fullName: Orama.Rendering.GPUBuffer.DEFAULT_SIZE
+  type: Field
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: DEFAULT_SIZE
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 12
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: The initial size of the internal buffer.
+  example: []
+  syntax:
+    content: public const int DEFAULT_SIZE = 256
+    return:
+      type: System.Int32
+    content.vb: Public Const DEFAULT_SIZE As Integer = 256
+- uid: Orama.Rendering.GPUBuffer.Data
+  commentId: P:Orama.Rendering.GPUBuffer.Data
+  id: Data
+  parent: Orama.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: GPUBuffer.Data
+  fullName: Orama.Rendering.GPUBuffer.Data
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Data
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 15
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: Raw data of the buffer.
+  example: []
+  syntax:
+    content: public ReadOnlySpan<byte> Data { get; }
+    parameters: []
+    return:
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Public ReadOnly Property Data As ReadOnlySpan(Of Byte)
+  overload: Orama.Rendering.GPUBuffer.Data*
+- uid: Orama.Rendering.GPUBuffer.#ctor
+  commentId: M:Orama.Rendering.GPUBuffer.#ctor
+  id: '#ctor'
+  parent: Orama.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: GPUBuffer()
+  nameWithType: GPUBuffer.GPUBuffer()
+  fullName: Orama.Rendering.GPUBuffer.GPUBuffer()
+  type: Constructor
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: .ctor
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 20
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public GPUBuffer()
+    content.vb: Public Sub New()
+  overload: Orama.Rendering.GPUBuffer.#ctor*
+  nameWithType.vb: GPUBuffer.New()
+  fullName.vb: Orama.Rendering.GPUBuffer.New()
+  name.vb: New()
+- uid: Orama.Rendering.GPUBuffer.AddFloat(System.Single)
+  commentId: M:Orama.Rendering.GPUBuffer.AddFloat(System.Single)
+  id: AddFloat(System.Single)
+  parent: Orama.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddFloat(float)
+  nameWithType: GPUBuffer.AddFloat(float)
+  fullName: Orama.Rendering.GPUBuffer.AddFloat(float)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AddFloat
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 22
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public void AddFloat(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub AddFloat(value As Single)
+  overload: Orama.Rendering.GPUBuffer.AddFloat*
+  nameWithType.vb: GPUBuffer.AddFloat(Single)
+  fullName.vb: Orama.Rendering.GPUBuffer.AddFloat(Single)
+  name.vb: AddFloat(Single)
+- uid: Orama.Rendering.GPUBuffer.AddFloat2(System.Single,System.Single)
+  commentId: M:Orama.Rendering.GPUBuffer.AddFloat2(System.Single,System.Single)
+  id: AddFloat2(System.Single,System.Single)
+  parent: Orama.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddFloat2(float, float)
+  nameWithType: GPUBuffer.AddFloat2(float, float)
+  fullName: Orama.Rendering.GPUBuffer.AddFloat2(float, float)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AddFloat2
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 33
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public void AddFloat2(float x, float y)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: Public Sub AddFloat2(x As Single, y As Single)
+  overload: Orama.Rendering.GPUBuffer.AddFloat2*
+  nameWithType.vb: GPUBuffer.AddFloat2(Single, Single)
+  fullName.vb: Orama.Rendering.GPUBuffer.AddFloat2(Single, Single)
+  name.vb: AddFloat2(Single, Single)
+- uid: Orama.Rendering.GPUBuffer.AddFloat3(System.Single,System.Single,System.Single)
+  commentId: M:Orama.Rendering.GPUBuffer.AddFloat3(System.Single,System.Single,System.Single)
+  id: AddFloat3(System.Single,System.Single,System.Single)
+  parent: Orama.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddFloat3(float, float, float)
+  nameWithType: GPUBuffer.AddFloat3(float, float, float)
+  fullName: Orama.Rendering.GPUBuffer.AddFloat3(float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AddFloat3
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 39
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public void AddFloat3(float x, float y, float z)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: Public Sub AddFloat3(x As Single, y As Single, z As Single)
+  overload: Orama.Rendering.GPUBuffer.AddFloat3*
+  nameWithType.vb: GPUBuffer.AddFloat3(Single, Single, Single)
+  fullName.vb: Orama.Rendering.GPUBuffer.AddFloat3(Single, Single, Single)
+  name.vb: AddFloat3(Single, Single, Single)
+- uid: Orama.Rendering.GPUBuffer.AddFloat4(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Orama.Rendering.GPUBuffer.AddFloat4(System.Single,System.Single,System.Single,System.Single)
+  id: AddFloat4(System.Single,System.Single,System.Single,System.Single)
+  parent: Orama.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddFloat4(float, float, float, float)
+  nameWithType: GPUBuffer.AddFloat4(float, float, float, float)
+  fullName: Orama.Rendering.GPUBuffer.AddFloat4(float, float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AddFloat4
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 46
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public void AddFloat4(float x, float y, float z, float w)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    - id: w
+      type: System.Single
+    content.vb: Public Sub AddFloat4(x As Single, y As Single, z As Single, w As Single)
+  overload: Orama.Rendering.GPUBuffer.AddFloat4*
+  nameWithType.vb: GPUBuffer.AddFloat4(Single, Single, Single, Single)
+  fullName.vb: Orama.Rendering.GPUBuffer.AddFloat4(Single, Single, Single, Single)
+  name.vb: AddFloat4(Single, Single, Single, Single)
+- uid: Orama.Rendering.GPUBuffer.AddMatrix4x4(Orama.Math.Matrix4x4)
+  commentId: M:Orama.Rendering.GPUBuffer.AddMatrix4x4(Orama.Math.Matrix4x4)
+  id: AddMatrix4x4(Orama.Math.Matrix4x4)
+  parent: Orama.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddMatrix4x4(Matrix4x4)
+  nameWithType: GPUBuffer.AddMatrix4x4(Matrix4x4)
+  fullName: Orama.Rendering.GPUBuffer.AddMatrix4x4(Orama.Math.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AddMatrix4x4
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 54
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public void AddMatrix4x4(Matrix4x4 m)
+    parameters:
+    - id: m
+      type: Orama.Math.Matrix4x4
+    content.vb: Public Sub AddMatrix4x4(m As Matrix4x4)
+  overload: Orama.Rendering.GPUBuffer.AddMatrix4x4*
+- uid: Orama.Rendering.GPUBuffer.AddBytes(System.ReadOnlySpan{System.Byte})
+  commentId: M:Orama.Rendering.GPUBuffer.AddBytes(System.ReadOnlySpan{System.Byte})
+  id: AddBytes(System.ReadOnlySpan{System.Byte})
+  parent: Orama.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddBytes(ReadOnlySpan<byte>)
+  nameWithType: GPUBuffer.AddBytes(ReadOnlySpan<byte>)
+  fullName: Orama.Rendering.GPUBuffer.AddBytes(System.ReadOnlySpan<byte>)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AddBytes
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 63
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: Adds raw bytes directly to the buffer (e.g. for structs via MemoryMarshal).
+  example: []
+  syntax:
+    content: public void AddBytes(ReadOnlySpan<byte> bytes)
+    parameters:
+    - id: bytes
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Public Sub AddBytes(bytes As ReadOnlySpan(Of Byte))
+  overload: Orama.Rendering.GPUBuffer.AddBytes*
+  nameWithType.vb: GPUBuffer.AddBytes(ReadOnlySpan(Of Byte))
+  fullName.vb: Orama.Rendering.GPUBuffer.AddBytes(System.ReadOnlySpan(Of Byte))
+  name.vb: AddBytes(ReadOnlySpan(Of Byte))
+- uid: Orama.Rendering.GPUBuffer.AddStruct``1(``0)
+  commentId: M:Orama.Rendering.GPUBuffer.AddStruct``1(``0)
+  id: AddStruct``1(``0)
+  parent: Orama.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddStruct<T>(T)
+  nameWithType: GPUBuffer.AddStruct<T>(T)
+  fullName: Orama.Rendering.GPUBuffer.AddStruct<T>(T)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AddStruct
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 71
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: Adds a blittable struct as raw bytes, respecting its natural alignment.
+  example: []
+  syntax:
+    content: 'public void AddStruct<T>(T value) where T : unmanaged'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub AddStruct(Of T As Structure)(value As T)
+  overload: Orama.Rendering.GPUBuffer.AddStruct*
+  nameWithType.vb: GPUBuffer.AddStruct(Of T)(T)
+  fullName.vb: Orama.Rendering.GPUBuffer.AddStruct(Of T)(T)
+  name.vb: AddStruct(Of T)(T)
+- uid: Orama.Rendering.GPUBuffer.Reset
+  commentId: M:Orama.Rendering.GPUBuffer.Reset
+  id: Reset
+  parent: Orama.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: GPUBuffer.Reset()
+  fullName: Orama.Rendering.GPUBuffer.Reset()
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/GPUBuffer.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Reset
+    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    startLine: 80
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset()
+  overload: Orama.Rendering.GPUBuffer.Reset*
+references:
+- uid: Orama.Rendering.Device.CommandBuffer
+  commentId: T:Orama.Rendering.Device.CommandBuffer
+  parent: Orama.Rendering.Device
+  href: Orama.Rendering.Device.CommandBuffer.html
+  name: CommandBuffer
+  nameWithType: CommandBuffer
+  fullName: Orama.Rendering.Device.CommandBuffer
+- uid: Orama.Rendering
+  commentId: N:Orama.Rendering
+  href: Orama.html
+  name: Orama.Rendering
+  nameWithType: Orama.Rendering
+  fullName: Orama.Rendering
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Orama.Rendering.Device
+  commentId: N:Orama.Rendering.Device
+  href: Orama.html
+  name: Orama.Rendering.Device
+  nameWithType: Orama.Rendering.Device
+  fullName: Orama.Rendering.Device
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Device
+    name: Device
+    href: Orama.Rendering.Device.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Device
+    name: Device
+    href: Orama.Rendering.Device.html
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Orama.Rendering.GPUBuffer.Data*
+  commentId: Overload:Orama.Rendering.GPUBuffer.Data
+  href: Orama.Rendering.GPUBuffer.html#Orama_Rendering_GPUBuffer_Data
+  name: Data
+  nameWithType: GPUBuffer.Data
+  fullName: Orama.Rendering.GPUBuffer.Data
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Orama.Rendering.GPUBuffer.#ctor*
+  commentId: Overload:Orama.Rendering.GPUBuffer.#ctor
+  href: Orama.Rendering.GPUBuffer.html#Orama_Rendering_GPUBuffer__ctor
+  name: GPUBuffer
+  nameWithType: GPUBuffer.GPUBuffer
+  fullName: Orama.Rendering.GPUBuffer.GPUBuffer
+  nameWithType.vb: GPUBuffer.New
+  fullName.vb: Orama.Rendering.GPUBuffer.New
+  name.vb: New
+- uid: Orama.Rendering.GPUBuffer.AddFloat*
+  commentId: Overload:Orama.Rendering.GPUBuffer.AddFloat
+  href: Orama.Rendering.GPUBuffer.html#Orama_Rendering_GPUBuffer_AddFloat_System_Single_
+  name: AddFloat
+  nameWithType: GPUBuffer.AddFloat
+  fullName: Orama.Rendering.GPUBuffer.AddFloat
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Orama.Rendering.GPUBuffer.AddFloat2*
+  commentId: Overload:Orama.Rendering.GPUBuffer.AddFloat2
+  href: Orama.Rendering.GPUBuffer.html#Orama_Rendering_GPUBuffer_AddFloat2_System_Single_System_Single_
+  name: AddFloat2
+  nameWithType: GPUBuffer.AddFloat2
+  fullName: Orama.Rendering.GPUBuffer.AddFloat2
+- uid: Orama.Rendering.GPUBuffer.AddFloat3*
+  commentId: Overload:Orama.Rendering.GPUBuffer.AddFloat3
+  href: Orama.Rendering.GPUBuffer.html#Orama_Rendering_GPUBuffer_AddFloat3_System_Single_System_Single_System_Single_
+  name: AddFloat3
+  nameWithType: GPUBuffer.AddFloat3
+  fullName: Orama.Rendering.GPUBuffer.AddFloat3
+- uid: Orama.Rendering.GPUBuffer.AddFloat4*
+  commentId: Overload:Orama.Rendering.GPUBuffer.AddFloat4
+  href: Orama.Rendering.GPUBuffer.html#Orama_Rendering_GPUBuffer_AddFloat4_System_Single_System_Single_System_Single_System_Single_
+  name: AddFloat4
+  nameWithType: GPUBuffer.AddFloat4
+  fullName: Orama.Rendering.GPUBuffer.AddFloat4
+- uid: Orama.Rendering.GPUBuffer.AddMatrix4x4*
+  commentId: Overload:Orama.Rendering.GPUBuffer.AddMatrix4x4
+  href: Orama.Rendering.GPUBuffer.html#Orama_Rendering_GPUBuffer_AddMatrix4x4_Orama_Math_Matrix4x4_
+  name: AddMatrix4x4
+  nameWithType: GPUBuffer.AddMatrix4x4
+  fullName: Orama.Rendering.GPUBuffer.AddMatrix4x4
+- uid: Orama.Math.Matrix4x4
+  commentId: T:Orama.Math.Matrix4x4
+  parent: Orama.Math
+  href: Orama.Math.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Orama.Math.Matrix4x4
+- uid: Orama.Math
+  commentId: N:Orama.Math
+  href: Orama.html
+  name: Orama.Math
+  nameWithType: Orama.Math
+  fullName: Orama.Math
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+- uid: Orama.Rendering.GPUBuffer.AddBytes*
+  commentId: Overload:Orama.Rendering.GPUBuffer.AddBytes
+  href: Orama.Rendering.GPUBuffer.html#Orama_Rendering_GPUBuffer_AddBytes_System_ReadOnlySpan_System_Byte__
+  name: AddBytes
+  nameWithType: GPUBuffer.AddBytes
+  fullName: Orama.Rendering.GPUBuffer.AddBytes
+- uid: Orama.Rendering.GPUBuffer.AddStruct*
+  commentId: Overload:Orama.Rendering.GPUBuffer.AddStruct
+  href: Orama.Rendering.GPUBuffer.html#Orama_Rendering_GPUBuffer_AddStruct__1___0_
+  name: AddStruct
+  nameWithType: GPUBuffer.AddStruct
+  fullName: Orama.Rendering.GPUBuffer.AddStruct
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Orama.Rendering.GPUBuffer.Reset*
+  commentId: Overload:Orama.Rendering.GPUBuffer.Reset
+  href: Orama.Rendering.GPUBuffer.html#Orama_Rendering_GPUBuffer_Reset
+  name: Reset
+  nameWithType: GPUBuffer.Reset
+  fullName: Orama.Rendering.GPUBuffer.Reset

@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Physics
+  commentId: N:Orama.Physics
+  id: Orama.Physics
+  children:
+  - Orama.Physics.IPhysicsBody
+  - Orama.Physics.IPhysicsWorld
+  - Orama.Physics.PhysicsModule
+  - Orama.Physics.RaycastResult
+  langs:
+  - csharp
+  - vb
+  name: Orama.Physics
+  nameWithType: Orama.Physics
+  fullName: Orama.Physics
+  type: Namespace
+  assemblies:
+  - Orama.Physics
+references:
+- uid: Orama.Physics.IPhysicsBody
+  commentId: T:Orama.Physics.IPhysicsBody
+  parent: Orama.Physics
+  href: Orama.Physics.IPhysicsBody.html
+  name: IPhysicsBody
+  nameWithType: IPhysicsBody
+  fullName: Orama.Physics.IPhysicsBody
+- uid: Orama.Physics.IPhysicsWorld
+  commentId: T:Orama.Physics.IPhysicsWorld
+  parent: Orama.Physics
+  href: Orama.Physics.IPhysicsWorld.html
+  name: IPhysicsWorld
+  nameWithType: IPhysicsWorld
+  fullName: Orama.Physics.IPhysicsWorld
+- uid: Orama.Physics.PhysicsModule
+  commentId: T:Orama.Physics.PhysicsModule
+  href: Orama.Physics.PhysicsModule.html
+  name: PhysicsModule
+  nameWithType: PhysicsModule
+  fullName: Orama.Physics.PhysicsModule
+- uid: Orama.Physics.RaycastResult
+  commentId: T:Orama.Physics.RaycastResult
+  parent: Orama.Physics
+  href: Orama.Physics.RaycastResult.html
+  name: RaycastResult
+  nameWithType: RaycastResult
+  fullName: Orama.Physics.RaycastResult
+- uid: Orama.Physics
+  commentId: N:Orama.Physics
+  href: Orama.html
+  name: Orama.Physics
+  nameWithType: Orama.Physics
+  fullName: Orama.Physics
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Physics
+    name: Physics
+    href: Orama.Physics.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Physics
+    name: Physics
+    href: Orama.Physics.html

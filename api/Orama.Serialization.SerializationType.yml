@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Serialization.SerializationType
+  commentId: T:Orama.Serialization.SerializationType
+  id: SerializationType
+  parent: Orama.Serialization
+  children:
+  - Orama.Serialization.SerializationType.Binary
+  - Orama.Serialization.SerializationType.JSON
+  - Orama.Serialization.SerializationType.YAML
+  langs:
+  - csharp
+  - vb
+  name: SerializationType
+  nameWithType: SerializationType
+  fullName: Orama.Serialization.SerializationType
+  type: Enum
+  source:
+    remote:
+      path: Orama.Serialization/SerializationType.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: SerializationType
+    path: ../Orama/Orama.Serialization/SerializationType.cs
+    startLine: 6
+  assemblies:
+  - Orama.Serialization
+  namespace: Orama.Serialization
+  summary: The serialization backend type.
+  example: []
+  syntax:
+    content: 'public enum SerializationType : byte'
+    content.vb: Public Enum SerializationType As Byte
+- uid: Orama.Serialization.SerializationType.YAML
+  commentId: F:Orama.Serialization.SerializationType.YAML
+  id: YAML
+  parent: Orama.Serialization.SerializationType
+  langs:
+  - csharp
+  - vb
+  name: YAML
+  nameWithType: SerializationType.YAML
+  fullName: Orama.Serialization.SerializationType.YAML
+  type: Field
+  source:
+    remote:
+      path: Orama.Serialization/SerializationType.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: YAML
+    path: ../Orama/Orama.Serialization/SerializationType.cs
+    startLine: 8
+  assemblies:
+  - Orama.Serialization
+  namespace: Orama.Serialization
+  syntax:
+    content: YAML = 0
+    return:
+      type: Orama.Serialization.SerializationType
+- uid: Orama.Serialization.SerializationType.JSON
+  commentId: F:Orama.Serialization.SerializationType.JSON
+  id: JSON
+  parent: Orama.Serialization.SerializationType
+  langs:
+  - csharp
+  - vb
+  name: JSON
+  nameWithType: SerializationType.JSON
+  fullName: Orama.Serialization.SerializationType.JSON
+  type: Field
+  source:
+    remote:
+      path: Orama.Serialization/SerializationType.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: JSON
+    path: ../Orama/Orama.Serialization/SerializationType.cs
+    startLine: 9
+  assemblies:
+  - Orama.Serialization
+  namespace: Orama.Serialization
+  syntax:
+    content: JSON = 1
+    return:
+      type: Orama.Serialization.SerializationType
+- uid: Orama.Serialization.SerializationType.Binary
+  commentId: F:Orama.Serialization.SerializationType.Binary
+  id: Binary
+  parent: Orama.Serialization.SerializationType
+  langs:
+  - csharp
+  - vb
+  name: Binary
+  nameWithType: SerializationType.Binary
+  fullName: Orama.Serialization.SerializationType.Binary
+  type: Field
+  source:
+    remote:
+      path: Orama.Serialization/SerializationType.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Binary
+    path: ../Orama/Orama.Serialization/SerializationType.cs
+    startLine: 10
+  assemblies:
+  - Orama.Serialization
+  namespace: Orama.Serialization
+  syntax:
+    content: Binary = 2
+    return:
+      type: Orama.Serialization.SerializationType
+references:
+- uid: Orama.Serialization
+  commentId: N:Orama.Serialization
+  href: Orama.html
+  name: Orama.Serialization
+  nameWithType: Orama.Serialization
+  fullName: Orama.Serialization
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Serialization
+    name: Serialization
+    href: Orama.Serialization.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Serialization
+    name: Serialization
+    href: Orama.Serialization.html
+- uid: Orama.Serialization.SerializationType
+  commentId: T:Orama.Serialization.SerializationType
+  parent: Orama.Serialization
+  href: Orama.Serialization.SerializationType.html
+  name: SerializationType
+  nameWithType: SerializationType
+  fullName: Orama.Serialization.SerializationType

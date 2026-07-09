@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Audio.IAudioListener
+  commentId: T:Orama.Audio.IAudioListener
+  id: IAudioListener
+  parent: Orama.Audio
+  children:
+  - Orama.Audio.IAudioListener.Forward
+  - Orama.Audio.IAudioListener.Gain
+  - Orama.Audio.IAudioListener.Position
+  - Orama.Audio.IAudioListener.Up
+  - Orama.Audio.IAudioListener.Update
+  langs:
+  - csharp
+  - vb
+  name: IAudioListener
+  nameWithType: IAudioListener
+  fullName: Orama.Audio.IAudioListener
+  type: Interface
+  source:
+    remote:
+      path: Modules/Orama.Audio/IAudioListener.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IAudioListener
+    path: ../Orama/Modules/Orama.Audio/IAudioListener.cs
+    startLine: 7
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: Represents an audio listener within the audio context.
+  example: []
+  syntax:
+    content: public interface IAudioListener
+    content.vb: Public Interface IAudioListener
+  derivedClasses:
+  - Orama.Audio.Engines.OpenAL.OpenALListener
+- uid: Orama.Audio.IAudioListener.Position
+  commentId: P:Orama.Audio.IAudioListener.Position
+  id: Position
+  parent: Orama.Audio.IAudioListener
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: IAudioListener.Position
+  fullName: Orama.Audio.IAudioListener.Position
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Audio/IAudioListener.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Position
+    path: ../Orama/Modules/Orama.Audio/IAudioListener.cs
+    startLine: 10
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: The world-space position of the listener.
+  example: []
+  syntax:
+    content: Vector3 Position { get; set; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector3
+    content.vb: Property Position As Vector3
+  overload: Orama.Audio.IAudioListener.Position*
+- uid: Orama.Audio.IAudioListener.Forward
+  commentId: P:Orama.Audio.IAudioListener.Forward
+  id: Forward
+  parent: Orama.Audio.IAudioListener
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: IAudioListener.Forward
+  fullName: Orama.Audio.IAudioListener.Forward
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Audio/IAudioListener.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Forward
+    path: ../Orama/Modules/Orama.Audio/IAudioListener.cs
+    startLine: 13
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: The forward orientation vector of the listener.
+  example: []
+  syntax:
+    content: Vector3 Forward { get; set; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector3
+    content.vb: Property Forward As Vector3
+  overload: Orama.Audio.IAudioListener.Forward*
+- uid: Orama.Audio.IAudioListener.Up
+  commentId: P:Orama.Audio.IAudioListener.Up
+  id: Up
+  parent: Orama.Audio.IAudioListener
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: IAudioListener.Up
+  fullName: Orama.Audio.IAudioListener.Up
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Audio/IAudioListener.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Up
+    path: ../Orama/Modules/Orama.Audio/IAudioListener.cs
+    startLine: 16
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: The up orientation vector of the listener.
+  example: []
+  syntax:
+    content: Vector3 Up { get; set; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector3
+    content.vb: Property Up As Vector3
+  overload: Orama.Audio.IAudioListener.Up*
+- uid: Orama.Audio.IAudioListener.Gain
+  commentId: P:Orama.Audio.IAudioListener.Gain
+  id: Gain
+  parent: Orama.Audio.IAudioListener
+  langs:
+  - csharp
+  - vb
+  name: Gain
+  nameWithType: IAudioListener.Gain
+  fullName: Orama.Audio.IAudioListener.Gain
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Audio/IAudioListener.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Gain
+    path: ../Orama/Modules/Orama.Audio/IAudioListener.cs
+    startLine: 19
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  summary: The master gain/volume multiplier of the listener.
+  example: []
+  syntax:
+    content: float Gain { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property Gain As Single
+  overload: Orama.Audio.IAudioListener.Gain*
+- uid: Orama.Audio.IAudioListener.Update
+  commentId: M:Orama.Audio.IAudioListener.Update
+  id: Update
+  parent: Orama.Audio.IAudioListener
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: IAudioListener.Update()
+  fullName: Orama.Audio.IAudioListener.Update()
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Audio/IAudioListener.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Update
+    path: ../Orama/Modules/Orama.Audio/IAudioListener.cs
+    startLine: 21
+  assemblies:
+  - Orama.Audio
+  namespace: Orama.Audio
+  syntax:
+    content: void Update()
+    content.vb: Sub Update()
+  overload: Orama.Audio.IAudioListener.Update*
+references:
+- uid: Orama.Audio
+  commentId: N:Orama.Audio
+  href: Orama.html
+  name: Orama.Audio
+  nameWithType: Orama.Audio
+  fullName: Orama.Audio
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+- uid: Orama.Audio.IAudioListener.Position*
+  commentId: Overload:Orama.Audio.IAudioListener.Position
+  href: Orama.Audio.IAudioListener.html#Orama_Audio_IAudioListener_Position
+  name: Position
+  nameWithType: IAudioListener.Position
+  fullName: Orama.Audio.IAudioListener.Position
+- uid: Orama.Math.Vector3
+  commentId: T:Orama.Math.Vector3
+  parent: Orama.Math
+  href: Orama.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Orama.Math.Vector3
+- uid: Orama.Math
+  commentId: N:Orama.Math
+  href: Orama.html
+  name: Orama.Math
+  nameWithType: Orama.Math
+  fullName: Orama.Math
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+- uid: Orama.Audio.IAudioListener.Forward*
+  commentId: Overload:Orama.Audio.IAudioListener.Forward
+  href: Orama.Audio.IAudioListener.html#Orama_Audio_IAudioListener_Forward
+  name: Forward
+  nameWithType: IAudioListener.Forward
+  fullName: Orama.Audio.IAudioListener.Forward
+- uid: Orama.Audio.IAudioListener.Up*
+  commentId: Overload:Orama.Audio.IAudioListener.Up
+  href: Orama.Audio.IAudioListener.html#Orama_Audio_IAudioListener_Up
+  name: Up
+  nameWithType: IAudioListener.Up
+  fullName: Orama.Audio.IAudioListener.Up
+- uid: Orama.Audio.IAudioListener.Gain*
+  commentId: Overload:Orama.Audio.IAudioListener.Gain
+  href: Orama.Audio.IAudioListener.html#Orama_Audio_IAudioListener_Gain
+  name: Gain
+  nameWithType: IAudioListener.Gain
+  fullName: Orama.Audio.IAudioListener.Gain
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Audio.IAudioListener.Update*
+  commentId: Overload:Orama.Audio.IAudioListener.Update
+  href: Orama.Audio.IAudioListener.html#Orama_Audio_IAudioListener_Update
+  name: Update
+  nameWithType: IAudioListener.Update
+  fullName: Orama.Audio.IAudioListener.Update

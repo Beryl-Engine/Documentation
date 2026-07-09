@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Common.Utility
+  commentId: N:Orama.Common.Utility
+  id: Orama.Common.Utility
+  children:
+  - Orama.Common.Utility.EngineConsole
+  - Orama.Common.Utility.EnginePaths
+  langs:
+  - csharp
+  - vb
+  name: Orama.Common.Utility
+  nameWithType: Orama.Common.Utility
+  fullName: Orama.Common.Utility
+  type: Namespace
+  assemblies:
+  - Orama.Common
+references:
+- uid: Orama.Common.Utility.EngineConsole
+  commentId: T:Orama.Common.Utility.EngineConsole
+  href: Orama.Common.Utility.EngineConsole.html
+  name: EngineConsole
+  nameWithType: EngineConsole
+  fullName: Orama.Common.Utility.EngineConsole
+- uid: Orama.Common.Utility.EnginePaths
+  commentId: T:Orama.Common.Utility.EnginePaths
+  href: Orama.Common.Utility.EnginePaths.html
+  name: EnginePaths
+  nameWithType: EnginePaths
+  fullName: Orama.Common.Utility.EnginePaths

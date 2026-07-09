@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.Entities
+  commentId: N:Orama.Rendering.Entities
+  id: Orama.Rendering.Entities
+  children:
+  - Orama.Rendering.Entities.FlyController
+  langs:
+  - csharp
+  - vb
+  name: Orama.Rendering.Entities
+  nameWithType: Orama.Rendering.Entities
+  fullName: Orama.Rendering.Entities
+  type: Namespace
+  assemblies:
+  - Orama.Rendering
+references:
+- uid: Orama.Rendering.Entities.FlyController
+  commentId: T:Orama.Rendering.Entities.FlyController
+  href: Orama.Rendering.Entities.FlyController.html
+  name: FlyController
+  nameWithType: FlyController
+  fullName: Orama.Rendering.Entities.FlyController

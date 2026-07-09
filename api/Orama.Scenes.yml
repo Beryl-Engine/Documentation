@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Scenes
+  commentId: N:Orama.Scenes
+  id: Orama.Scenes
+  children:
+  - Orama.Scenes.SceneModule
+  langs:
+  - csharp
+  - vb
+  name: Orama.Scenes
+  nameWithType: Orama.Scenes
+  fullName: Orama.Scenes
+  type: Namespace
+  assemblies:
+  - Orama.Scenes
+references:
+- uid: Orama.Scenes.SceneModule
+  commentId: T:Orama.Scenes.SceneModule
+  href: Orama.Scenes.SceneModule.html
+  name: SceneModule
+  nameWithType: SceneModule
+  fullName: Orama.Scenes.SceneModule

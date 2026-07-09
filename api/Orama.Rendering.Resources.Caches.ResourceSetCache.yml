@@ -1,0 +1,578 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.Resources.Caches.ResourceSetCache
+  commentId: T:Orama.Rendering.Resources.Caches.ResourceSetCache
+  id: ResourceSetCache
+  parent: Orama.Rendering.Resources.Caches
+  children:
+  - Orama.Rendering.Resources.Caches.ResourceSetCache.Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  langs:
+  - csharp
+  - vb
+  name: ResourceSetCache
+  nameWithType: ResourceSetCache
+  fullName: Orama.Rendering.Resources.Caches.ResourceSetCache
+  type: Class
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/ResourceSetCache.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ResourceSetCache
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceSetCache.cs
+    startLine: 4
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: 'public sealed class ResourceSetCache : ResourceCache<ResourceSetCache, ResourceSetKey, ResourceSet>'
+    content.vb: Public NotInheritable Class ResourceSetCache Inherits ResourceCache(Of ResourceSetCache, ResourceSetKey, ResourceSet)
+  inheritance:
+  - System.Object
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}
+  inheritedMembers:
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.Instance
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.Cache
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Orama.Rendering.Resources.Caches.ResourceSetCache.Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceSetCache.Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  id: Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  parent: Orama.Rendering.Resources.Caches.ResourceSetCache
+  langs:
+  - csharp
+  - vb
+  name: Create(ResourceSetKey)
+  nameWithType: ResourceSetCache.Create(ResourceSetKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceSetCache.Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/ResourceSetCache.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Create
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceSetCache.cs
+    startLine: 7
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  summary: Creates a new <xref href="NeoVeldrid.ResourceSet" data-throw-if-not-resolved="false"></xref> for the given key.
+  example: []
+  syntax:
+    content: protected override ResourceSet Create(ResourceSetKey key)
+    parameters:
+    - id: key
+      type: Orama.Rendering.Resources.Caches.ResourceSetKey
+    return:
+      type: NeoVeldrid.ResourceSet
+    content.vb: Protected Overrides Function Create(key As ResourceSetKey) As ResourceSet
+  overridden: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  overload: Orama.Rendering.Resources.Caches.ResourceSetCache.Create*
+references:
+- uid: Orama.Rendering.Resources.Caches
+  commentId: N:Orama.Rendering.Resources.Caches
+  href: Orama.html
+  name: Orama.Rendering.Resources.Caches
+  nameWithType: Orama.Rendering.Resources.Caches
+  fullName: Orama.Rendering.Resources.Caches
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}
+  commentId: T:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}
+  parent: Orama.Rendering.Resources.Caches
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  name: ResourceCache<ResourceSetCache, ResourceSetKey, ResourceSet>
+  nameWithType: ResourceCache<ResourceSetCache, ResourceSetKey, ResourceSet>
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceSetCache, Orama.Rendering.Resources.Caches.ResourceSetKey, NeoVeldrid.ResourceSet>
+  nameWithType.vb: ResourceCache(Of ResourceSetCache, ResourceSetKey, ResourceSet)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceSetCache, Orama.Rendering.Resources.Caches.ResourceSetKey, NeoVeldrid.ResourceSet)
+  name.vb: ResourceCache(Of ResourceSetCache, ResourceSetKey, ResourceSet)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: <
+  - uid: Orama.Rendering.Resources.Caches.ResourceSetCache
+    name: ResourceSetCache
+    href: Orama.Rendering.Resources.Caches.ResourceSetCache.html
+  - name: ','
+  - name: " "
+  - uid: Orama.Rendering.Resources.Caches.ResourceSetKey
+    name: ResourceSetKey
+    href: Orama.Rendering.Resources.Caches.ResourceSetKey.html
+  - name: ','
+  - name: " "
+  - uid: NeoVeldrid.ResourceSet
+    name: ResourceSet
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Orama.Rendering.Resources.Caches.ResourceSetCache
+    name: ResourceSetCache
+    href: Orama.Rendering.Resources.Caches.ResourceSetCache.html
+  - name: ','
+  - name: " "
+  - uid: Orama.Rendering.Resources.Caches.ResourceSetKey
+    name: ResourceSetKey
+    href: Orama.Rendering.Resources.Caches.ResourceSetKey.html
+  - name: ','
+  - name: " "
+  - uid: NeoVeldrid.ResourceSet
+    name: ResourceSet
+    isExternal: true
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.Instance
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.Instance
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Instance
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Instance
+  name: Instance
+  nameWithType: ResourceCache<ResourceSetCache, ResourceSetKey, ResourceSet>.Instance
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceSetCache, Orama.Rendering.Resources.Caches.ResourceSetKey, NeoVeldrid.ResourceSet>.Instance
+  nameWithType.vb: ResourceCache(Of ResourceSetCache, ResourceSetKey, ResourceSet).Instance
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceSetCache, Orama.Rendering.Resources.Caches.ResourceSetKey, NeoVeldrid.ResourceSet).Instance
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.Cache
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.Cache
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Cache
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Cache
+  name: Cache
+  nameWithType: ResourceCache<ResourceSetCache, ResourceSetKey, ResourceSet>.Cache
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceSetCache, Orama.Rendering.Resources.Caches.ResourceSetKey, NeoVeldrid.ResourceSet>.Cache
+  nameWithType.vb: ResourceCache(Of ResourceSetCache, ResourceSetKey, ResourceSet).Cache
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceSetCache, Orama.Rendering.Resources.Caches.ResourceSetKey, NeoVeldrid.ResourceSet).Cache
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  name: GetOrCreate(ResourceSetKey)
+  nameWithType: ResourceCache<ResourceSetCache, ResourceSetKey, ResourceSet>.GetOrCreate(ResourceSetKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceSetCache, Orama.Rendering.Resources.Caches.ResourceSetKey, NeoVeldrid.ResourceSet>.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  nameWithType.vb: ResourceCache(Of ResourceSetCache, ResourceSetKey, ResourceSet).GetOrCreate(ResourceSetKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceSetCache, Orama.Rendering.Resources.Caches.ResourceSetKey, NeoVeldrid.ResourceSet).GetOrCreate(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceSetKey)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - uid: Orama.Rendering.Resources.Caches.ResourceSetKey
+    name: ResourceSetKey
+    href: Orama.Rendering.Resources.Caches.ResourceSetKey.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceSetKey)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - uid: Orama.Rendering.Resources.Caches.ResourceSetKey
+    name: ResourceSetKey
+    href: Orama.Rendering.Resources.Caches.ResourceSetKey.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+  commentId: T:Orama.Rendering.Resources.Caches.ResourceCache`3
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  name: ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource)
+  name.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: <
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: '>'
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Instance
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache`3.Instance
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Instance
+  name: Instance
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Instance
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Instance
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Instance
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Instance
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Cache
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache`3.Cache
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Cache
+  name: Cache
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Cache
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Cache
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  name: GetOrCreate(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.GetOrCreate(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.GetOrCreate(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: NeoVeldrid.ResourceSet
+  commentId: T:NeoVeldrid.ResourceSet
+  parent: NeoVeldrid
+  isExternal: true
+  name: ResourceSet
+  nameWithType: ResourceSet
+  fullName: NeoVeldrid.ResourceSet
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  name: Create(ResourceSetKey)
+  nameWithType: ResourceCache<ResourceSetCache, ResourceSetKey, ResourceSet>.Create(ResourceSetKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceSetCache, Orama.Rendering.Resources.Caches.ResourceSetKey, NeoVeldrid.ResourceSet>.Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  nameWithType.vb: ResourceCache(Of ResourceSetCache, ResourceSetKey, ResourceSet).Create(ResourceSetKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceSetCache, Orama.Rendering.Resources.Caches.ResourceSetKey, NeoVeldrid.ResourceSet).Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - uid: Orama.Rendering.Resources.Caches.ResourceSetKey
+    name: ResourceSetKey
+    href: Orama.Rendering.Resources.Caches.ResourceSetKey.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceSetCache,Orama.Rendering.Resources.Caches.ResourceSetKey,NeoVeldrid.ResourceSet}.Create(Orama.Rendering.Resources.Caches.ResourceSetKey)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - uid: Orama.Rendering.Resources.Caches.ResourceSetKey
+    name: ResourceSetKey
+    href: Orama.Rendering.Resources.Caches.ResourceSetKey.html
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceSetCache.Create*
+  commentId: Overload:Orama.Rendering.Resources.Caches.ResourceSetCache.Create
+  href: Orama.Rendering.Resources.Caches.ResourceSetCache.html#Orama_Rendering_Resources_Caches_ResourceSetCache_Create_Orama_Rendering_Resources_Caches_ResourceSetKey_
+  name: Create
+  nameWithType: ResourceSetCache.Create
+  fullName: Orama.Rendering.Resources.Caches.ResourceSetCache.Create
+- uid: Orama.Rendering.Resources.Caches.ResourceSetKey
+  commentId: T:Orama.Rendering.Resources.Caches.ResourceSetKey
+  parent: Orama.Rendering.Resources.Caches
+  href: Orama.Rendering.Resources.Caches.ResourceSetKey.html
+  name: ResourceSetKey
+  nameWithType: ResourceSetKey
+  fullName: Orama.Rendering.Resources.Caches.ResourceSetKey
+- uid: NeoVeldrid
+  commentId: N:NeoVeldrid
+  isExternal: true
+  name: NeoVeldrid
+  nameWithType: NeoVeldrid
+  fullName: NeoVeldrid
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  name: Create(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Create(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Create(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Create(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Create(TKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - name: TKey
+  - name: )

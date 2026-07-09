@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.Pipelines
+  commentId: N:Orama.Rendering.Pipelines
+  id: Orama.Rendering.Pipelines
+  children:
+  - Orama.Rendering.Pipelines.RenderPass
+  - Orama.Rendering.Pipelines.RenderPipeline
+  langs:
+  - csharp
+  - vb
+  name: Orama.Rendering.Pipelines
+  nameWithType: Orama.Rendering.Pipelines
+  fullName: Orama.Rendering.Pipelines
+  type: Namespace
+  assemblies:
+  - Orama.Rendering
+references:
+- uid: Orama.Rendering.Pipelines.RenderPass
+  commentId: T:Orama.Rendering.Pipelines.RenderPass
+  parent: Orama.Rendering.Pipelines
+  href: Orama.Rendering.Pipelines.RenderPass.html
+  name: RenderPass
+  nameWithType: RenderPass
+  fullName: Orama.Rendering.Pipelines.RenderPass
+- uid: Orama.Rendering.Pipelines.RenderPipeline
+  commentId: T:Orama.Rendering.Pipelines.RenderPipeline
+  parent: Orama.Rendering.Pipelines
+  href: Orama.Rendering.Pipelines.RenderPipeline.html
+  name: RenderPipeline
+  nameWithType: RenderPipeline
+  fullName: Orama.Rendering.Pipelines.RenderPipeline
+- uid: Orama.Rendering.Pipelines
+  commentId: N:Orama.Rendering.Pipelines
+  href: Orama.html
+  name: Orama.Rendering.Pipelines
+  nameWithType: Orama.Rendering.Pipelines
+  fullName: Orama.Rendering.Pipelines
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Pipelines
+    name: Pipelines
+    href: Orama.Rendering.Pipelines.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Pipelines
+    name: Pipelines
+    href: Orama.Rendering.Pipelines.html

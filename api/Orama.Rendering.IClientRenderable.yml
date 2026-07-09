@@ -1,0 +1,402 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.IClientRenderable
+  commentId: T:Orama.Rendering.IClientRenderable
+  id: IClientRenderable
+  parent: Orama.Rendering
+  children:
+  - Orama.Rendering.IClientRenderable.Indices
+  - Orama.Rendering.IClientRenderable.Material
+  - Orama.Rendering.IClientRenderable.Normals
+  - Orama.Rendering.IClientRenderable.Transform
+  - Orama.Rendering.IClientRenderable.UVs
+  - Orama.Rendering.IClientRenderable.Vertices
+  langs:
+  - csharp
+  - vb
+  name: IClientRenderable
+  nameWithType: IClientRenderable
+  fullName: Orama.Rendering.IClientRenderable
+  type: Interface
+  source:
+    remote:
+      path: Modules/Orama.Rendering/IClientRenderable.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IClientRenderable
+    path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
+    startLine: 9
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: A Renderable object.
+  example: []
+  syntax:
+    content: public interface IClientRenderable
+    content.vb: Public Interface IClientRenderable
+  derivedClasses:
+  - Orama.Rendering.Components.MeshRenderer
+- uid: Orama.Rendering.IClientRenderable.Transform
+  commentId: P:Orama.Rendering.IClientRenderable.Transform
+  id: Transform
+  parent: Orama.Rendering.IClientRenderable
+  langs:
+  - csharp
+  - vb
+  name: Transform
+  nameWithType: IClientRenderable.Transform
+  fullName: Orama.Rendering.IClientRenderable.Transform
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/IClientRenderable.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Transform
+    path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
+    startLine: 11
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: Matrix4x4 Transform { get; }
+    parameters: []
+    return:
+      type: Orama.Math.Matrix4x4
+    content.vb: ReadOnly Property Transform As Matrix4x4
+  overload: Orama.Rendering.IClientRenderable.Transform*
+- uid: Orama.Rendering.IClientRenderable.Vertices
+  commentId: P:Orama.Rendering.IClientRenderable.Vertices
+  id: Vertices
+  parent: Orama.Rendering.IClientRenderable
+  langs:
+  - csharp
+  - vb
+  name: Vertices
+  nameWithType: IClientRenderable.Vertices
+  fullName: Orama.Rendering.IClientRenderable.Vertices
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/IClientRenderable.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Vertices
+    path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
+    startLine: 12
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: Vector3[] Vertices { get; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector3[]
+    content.vb: ReadOnly Property Vertices As Vector3()
+  overload: Orama.Rendering.IClientRenderable.Vertices*
+- uid: Orama.Rendering.IClientRenderable.Normals
+  commentId: P:Orama.Rendering.IClientRenderable.Normals
+  id: Normals
+  parent: Orama.Rendering.IClientRenderable
+  langs:
+  - csharp
+  - vb
+  name: Normals
+  nameWithType: IClientRenderable.Normals
+  fullName: Orama.Rendering.IClientRenderable.Normals
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/IClientRenderable.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Normals
+    path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
+    startLine: 13
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: Vector3[] Normals { get; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector3[]
+    content.vb: ReadOnly Property Normals As Vector3()
+  overload: Orama.Rendering.IClientRenderable.Normals*
+- uid: Orama.Rendering.IClientRenderable.UVs
+  commentId: P:Orama.Rendering.IClientRenderable.UVs
+  id: UVs
+  parent: Orama.Rendering.IClientRenderable
+  langs:
+  - csharp
+  - vb
+  name: UVs
+  nameWithType: IClientRenderable.UVs
+  fullName: Orama.Rendering.IClientRenderable.UVs
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/IClientRenderable.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: UVs
+    path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
+    startLine: 14
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: Vector2[] UVs { get; }
+    parameters: []
+    return:
+      type: Orama.Math.Vector2[]
+    content.vb: ReadOnly Property UVs As Vector2()
+  overload: Orama.Rendering.IClientRenderable.UVs*
+- uid: Orama.Rendering.IClientRenderable.Indices
+  commentId: P:Orama.Rendering.IClientRenderable.Indices
+  id: Indices
+  parent: Orama.Rendering.IClientRenderable
+  langs:
+  - csharp
+  - vb
+  name: Indices
+  nameWithType: IClientRenderable.Indices
+  fullName: Orama.Rendering.IClientRenderable.Indices
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/IClientRenderable.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Indices
+    path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
+    startLine: 15
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: uint[] Indices { get; }
+    parameters: []
+    return:
+      type: System.UInt32[]
+    content.vb: ReadOnly Property Indices As UInteger()
+  overload: Orama.Rendering.IClientRenderable.Indices*
+- uid: Orama.Rendering.IClientRenderable.Material
+  commentId: P:Orama.Rendering.IClientRenderable.Material
+  id: Material
+  parent: Orama.Rendering.IClientRenderable
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: IClientRenderable.Material
+  fullName: Orama.Rendering.IClientRenderable.Material
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/IClientRenderable.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Material
+    path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
+    startLine: 16
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: Material Material { get; }
+    parameters: []
+    return:
+      type: Orama.Rendering.Resources.Material
+    content.vb: ReadOnly Property Material As Material
+  overload: Orama.Rendering.IClientRenderable.Material*
+references:
+- uid: Orama.Rendering
+  commentId: N:Orama.Rendering
+  href: Orama.html
+  name: Orama.Rendering
+  nameWithType: Orama.Rendering
+  fullName: Orama.Rendering
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+- uid: Orama.Rendering.IClientRenderable.Transform*
+  commentId: Overload:Orama.Rendering.IClientRenderable.Transform
+  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_Transform
+  name: Transform
+  nameWithType: IClientRenderable.Transform
+  fullName: Orama.Rendering.IClientRenderable.Transform
+- uid: Orama.Math.Matrix4x4
+  commentId: T:Orama.Math.Matrix4x4
+  parent: Orama.Math
+  href: Orama.Math.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Orama.Math.Matrix4x4
+- uid: Orama.Math
+  commentId: N:Orama.Math
+  href: Orama.html
+  name: Orama.Math
+  nameWithType: Orama.Math
+  fullName: Orama.Math
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+- uid: Orama.Rendering.IClientRenderable.Vertices*
+  commentId: Overload:Orama.Rendering.IClientRenderable.Vertices
+  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_Vertices
+  name: Vertices
+  nameWithType: IClientRenderable.Vertices
+  fullName: Orama.Rendering.IClientRenderable.Vertices
+- uid: Orama.Math.Vector3[]
+  isExternal: true
+  href: Orama.Math.Vector3.html
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: Orama.Math.Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: Orama.Math.Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: Orama.Math.Vector3
+    name: Vector3
+    href: Orama.Math.Vector3.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Orama.Math.Vector3
+    name: Vector3
+    href: Orama.Math.Vector3.html
+  - name: (
+  - name: )
+- uid: Orama.Rendering.IClientRenderable.Normals*
+  commentId: Overload:Orama.Rendering.IClientRenderable.Normals
+  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_Normals
+  name: Normals
+  nameWithType: IClientRenderable.Normals
+  fullName: Orama.Rendering.IClientRenderable.Normals
+- uid: Orama.Rendering.IClientRenderable.UVs*
+  commentId: Overload:Orama.Rendering.IClientRenderable.UVs
+  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_UVs
+  name: UVs
+  nameWithType: IClientRenderable.UVs
+  fullName: Orama.Rendering.IClientRenderable.UVs
+- uid: Orama.Math.Vector2[]
+  isExternal: true
+  href: Orama.Math.Vector2.html
+  name: Vector2[]
+  nameWithType: Vector2[]
+  fullName: Orama.Math.Vector2[]
+  nameWithType.vb: Vector2()
+  fullName.vb: Orama.Math.Vector2()
+  name.vb: Vector2()
+  spec.csharp:
+  - uid: Orama.Math.Vector2
+    name: Vector2
+    href: Orama.Math.Vector2.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Orama.Math.Vector2
+    name: Vector2
+    href: Orama.Math.Vector2.html
+  - name: (
+  - name: )
+- uid: Orama.Rendering.IClientRenderable.Indices*
+  commentId: Overload:Orama.Rendering.IClientRenderable.Indices
+  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_Indices
+  name: Indices
+  nameWithType: IClientRenderable.Indices
+  fullName: Orama.Rendering.IClientRenderable.Indices
+- uid: System.UInt32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint[]
+  nameWithType: uint[]
+  fullName: uint[]
+  nameWithType.vb: UInteger()
+  fullName.vb: UInteger()
+  name.vb: UInteger()
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: (
+  - name: )
+- uid: Orama.Rendering.IClientRenderable.Material*
+  commentId: Overload:Orama.Rendering.IClientRenderable.Material
+  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_Material
+  name: Material
+  nameWithType: IClientRenderable.Material
+  fullName: Orama.Rendering.IClientRenderable.Material
+- uid: Orama.Rendering.Resources.Material
+  commentId: T:Orama.Rendering.Resources.Material
+  parent: Orama.Rendering.Resources
+  href: Orama.Rendering.Resources.Material.html
+  name: Material
+  nameWithType: Material
+  fullName: Orama.Rendering.Resources.Material
+- uid: Orama.Rendering.Resources
+  commentId: N:Orama.Rendering.Resources
+  href: Orama.html
+  name: Orama.Rendering.Resources
+  nameWithType: Orama.Rendering.Resources
+  fullName: Orama.Rendering.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html

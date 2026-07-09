@@ -1,0 +1,600 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.Resources.RenderItem
+  commentId: T:Orama.Rendering.Resources.RenderItem
+  id: RenderItem
+  parent: Orama.Rendering.Resources
+  children:
+  - Orama.Rendering.Resources.RenderItem.#ctor(NeoVeldrid.DeviceBuffer,NeoVeldrid.DeviceBuffer,System.UInt32,NeoVeldrid.Pipeline)
+  - Orama.Rendering.Resources.RenderItem.Dispose
+  - Orama.Rendering.Resources.RenderItem.IndexBuffer
+  - Orama.Rendering.Resources.RenderItem.IndexCount
+  - Orama.Rendering.Resources.RenderItem.Pipeline
+  - Orama.Rendering.Resources.RenderItem.VertexBuffer
+  langs:
+  - csharp
+  - vb
+  name: RenderItem
+  nameWithType: RenderItem
+  fullName: Orama.Rendering.Resources.RenderItem
+  type: Class
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/RenderItem.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: RenderItem
+    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    startLine: 9
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  summary: Low-Level representation of a rendered object.
+  example: []
+  syntax:
+    content: 'public class RenderItem : IDisposable'
+    content.vb: Public Class RenderItem Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Orama.Rendering.Resources.RenderItem.VertexBuffer
+  commentId: P:Orama.Rendering.Resources.RenderItem.VertexBuffer
+  id: VertexBuffer
+  parent: Orama.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: VertexBuffer
+  nameWithType: RenderItem.VertexBuffer
+  fullName: Orama.Rendering.Resources.RenderItem.VertexBuffer
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/RenderItem.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: VertexBuffer
+    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    startLine: 11
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  syntax:
+    content: public DeviceBuffer VertexBuffer { get; }
+    parameters: []
+    return:
+      type: NeoVeldrid.DeviceBuffer
+    content.vb: Public ReadOnly Property VertexBuffer As DeviceBuffer
+  overload: Orama.Rendering.Resources.RenderItem.VertexBuffer*
+- uid: Orama.Rendering.Resources.RenderItem.IndexBuffer
+  commentId: P:Orama.Rendering.Resources.RenderItem.IndexBuffer
+  id: IndexBuffer
+  parent: Orama.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: IndexBuffer
+  nameWithType: RenderItem.IndexBuffer
+  fullName: Orama.Rendering.Resources.RenderItem.IndexBuffer
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/RenderItem.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IndexBuffer
+    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    startLine: 12
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  syntax:
+    content: public DeviceBuffer IndexBuffer { get; }
+    parameters: []
+    return:
+      type: NeoVeldrid.DeviceBuffer
+    content.vb: Public ReadOnly Property IndexBuffer As DeviceBuffer
+  overload: Orama.Rendering.Resources.RenderItem.IndexBuffer*
+- uid: Orama.Rendering.Resources.RenderItem.IndexCount
+  commentId: P:Orama.Rendering.Resources.RenderItem.IndexCount
+  id: IndexCount
+  parent: Orama.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: IndexCount
+  nameWithType: RenderItem.IndexCount
+  fullName: Orama.Rendering.Resources.RenderItem.IndexCount
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/RenderItem.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IndexCount
+    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    startLine: 13
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  syntax:
+    content: public uint IndexCount { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property IndexCount As UInteger
+  overload: Orama.Rendering.Resources.RenderItem.IndexCount*
+- uid: Orama.Rendering.Resources.RenderItem.Pipeline
+  commentId: P:Orama.Rendering.Resources.RenderItem.Pipeline
+  id: Pipeline
+  parent: Orama.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: Pipeline
+  nameWithType: RenderItem.Pipeline
+  fullName: Orama.Rendering.Resources.RenderItem.Pipeline
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/RenderItem.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Pipeline
+    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    startLine: 14
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  syntax:
+    content: public Pipeline Pipeline { get; }
+    parameters: []
+    return:
+      type: NeoVeldrid.Pipeline
+    content.vb: Public ReadOnly Property Pipeline As Pipeline
+  overload: Orama.Rendering.Resources.RenderItem.Pipeline*
+- uid: Orama.Rendering.Resources.RenderItem.#ctor(NeoVeldrid.DeviceBuffer,NeoVeldrid.DeviceBuffer,System.UInt32,NeoVeldrid.Pipeline)
+  commentId: M:Orama.Rendering.Resources.RenderItem.#ctor(NeoVeldrid.DeviceBuffer,NeoVeldrid.DeviceBuffer,System.UInt32,NeoVeldrid.Pipeline)
+  id: '#ctor(NeoVeldrid.DeviceBuffer,NeoVeldrid.DeviceBuffer,System.UInt32,NeoVeldrid.Pipeline)'
+  parent: Orama.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: RenderItem(DeviceBuffer, DeviceBuffer, uint, Pipeline)
+  nameWithType: RenderItem.RenderItem(DeviceBuffer, DeviceBuffer, uint, Pipeline)
+  fullName: Orama.Rendering.Resources.RenderItem.RenderItem(NeoVeldrid.DeviceBuffer, NeoVeldrid.DeviceBuffer, uint, NeoVeldrid.Pipeline)
+  type: Constructor
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/RenderItem.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: .ctor
+    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    startLine: 16
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  syntax:
+    content: public RenderItem(DeviceBuffer vertexBuffer, DeviceBuffer indexBuffer, uint indexCount, Pipeline pipeline)
+    parameters:
+    - id: vertexBuffer
+      type: NeoVeldrid.DeviceBuffer
+    - id: indexBuffer
+      type: NeoVeldrid.DeviceBuffer
+    - id: indexCount
+      type: System.UInt32
+    - id: pipeline
+      type: NeoVeldrid.Pipeline
+    content.vb: Public Sub New(vertexBuffer As DeviceBuffer, indexBuffer As DeviceBuffer, indexCount As UInteger, pipeline As Pipeline)
+  overload: Orama.Rendering.Resources.RenderItem.#ctor*
+  nameWithType.vb: RenderItem.New(DeviceBuffer, DeviceBuffer, UInteger, Pipeline)
+  fullName.vb: Orama.Rendering.Resources.RenderItem.New(NeoVeldrid.DeviceBuffer, NeoVeldrid.DeviceBuffer, UInteger, NeoVeldrid.Pipeline)
+  name.vb: New(DeviceBuffer, DeviceBuffer, UInteger, Pipeline)
+- uid: Orama.Rendering.Resources.RenderItem.Dispose
+  commentId: M:Orama.Rendering.Resources.RenderItem.Dispose
+  id: Dispose
+  parent: Orama.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: RenderItem.Dispose()
+  fullName: Orama.Rendering.Resources.RenderItem.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/RenderItem.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Dispose
+    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    startLine: 25
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Orama.Rendering.Resources.RenderItem.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: Orama.Rendering.Resources
+  commentId: N:Orama.Rendering.Resources
+  href: Orama.html
+  name: Orama.Rendering.Resources
+  nameWithType: Orama.Rendering.Resources
+  fullName: Orama.Rendering.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Rendering.Resources.RenderItem.VertexBuffer*
+  commentId: Overload:Orama.Rendering.Resources.RenderItem.VertexBuffer
+  href: Orama.Rendering.Resources.RenderItem.html#Orama_Rendering_Resources_RenderItem_VertexBuffer
+  name: VertexBuffer
+  nameWithType: RenderItem.VertexBuffer
+  fullName: Orama.Rendering.Resources.RenderItem.VertexBuffer
+- uid: NeoVeldrid.DeviceBuffer
+  commentId: T:NeoVeldrid.DeviceBuffer
+  parent: NeoVeldrid
+  isExternal: true
+  name: DeviceBuffer
+  nameWithType: DeviceBuffer
+  fullName: NeoVeldrid.DeviceBuffer
+- uid: NeoVeldrid
+  commentId: N:NeoVeldrid
+  isExternal: true
+  name: NeoVeldrid
+  nameWithType: NeoVeldrid
+  fullName: NeoVeldrid
+- uid: Orama.Rendering.Resources.RenderItem.IndexBuffer*
+  commentId: Overload:Orama.Rendering.Resources.RenderItem.IndexBuffer
+  href: Orama.Rendering.Resources.RenderItem.html#Orama_Rendering_Resources_RenderItem_IndexBuffer
+  name: IndexBuffer
+  nameWithType: RenderItem.IndexBuffer
+  fullName: Orama.Rendering.Resources.RenderItem.IndexBuffer
+- uid: Orama.Rendering.Resources.RenderItem.IndexCount*
+  commentId: Overload:Orama.Rendering.Resources.RenderItem.IndexCount
+  href: Orama.Rendering.Resources.RenderItem.html#Orama_Rendering_Resources_RenderItem_IndexCount
+  name: IndexCount
+  nameWithType: RenderItem.IndexCount
+  fullName: Orama.Rendering.Resources.RenderItem.IndexCount
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Orama.Rendering.Resources.RenderItem.Pipeline*
+  commentId: Overload:Orama.Rendering.Resources.RenderItem.Pipeline
+  href: Orama.Rendering.Resources.RenderItem.html#Orama_Rendering_Resources_RenderItem_Pipeline
+  name: Pipeline
+  nameWithType: RenderItem.Pipeline
+  fullName: Orama.Rendering.Resources.RenderItem.Pipeline
+- uid: NeoVeldrid.Pipeline
+  commentId: T:NeoVeldrid.Pipeline
+  parent: NeoVeldrid
+  isExternal: true
+  name: Pipeline
+  nameWithType: Pipeline
+  fullName: NeoVeldrid.Pipeline
+- uid: Orama.Rendering.Resources.RenderItem.#ctor*
+  commentId: Overload:Orama.Rendering.Resources.RenderItem.#ctor
+  href: Orama.Rendering.Resources.RenderItem.html#Orama_Rendering_Resources_RenderItem__ctor_NeoVeldrid_DeviceBuffer_NeoVeldrid_DeviceBuffer_System_UInt32_NeoVeldrid_Pipeline_
+  name: RenderItem
+  nameWithType: RenderItem.RenderItem
+  fullName: Orama.Rendering.Resources.RenderItem.RenderItem
+  nameWithType.vb: RenderItem.New
+  fullName.vb: Orama.Rendering.Resources.RenderItem.New
+  name.vb: New
+- uid: Orama.Rendering.Resources.RenderItem.Dispose*
+  commentId: Overload:Orama.Rendering.Resources.RenderItem.Dispose
+  href: Orama.Rendering.Resources.RenderItem.html#Orama_Rendering_Resources_RenderItem_Dispose
+  name: Dispose
+  nameWithType: RenderItem.Dispose
+  fullName: Orama.Rendering.Resources.RenderItem.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.VirtualReality.VirtualRealityController.Button
+  commentId: T:Orama.VirtualReality.VirtualRealityController.Button
+  id: VirtualRealityController.Button
+  parent: Orama.VirtualReality
+  children:
+  - Orama.VirtualReality.VirtualRealityController.Button.ActionDown
+  - Orama.VirtualReality.VirtualRealityController.Button.ActionUp
+  - Orama.VirtualReality.VirtualRealityController.Button.System
+  langs:
+  - csharp
+  - vb
+  name: VirtualRealityController.Button
+  nameWithType: VirtualRealityController.Button
+  fullName: Orama.VirtualReality.VirtualRealityController.Button
+  type: Enum
+  source:
+    remote:
+      path: Modules/Orama.VirtualReality/VirtualRealityController.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Button
+    path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
+    startLine: 13
+  assemblies:
+  - Orama.VirtualReality
+  namespace: Orama.VirtualReality
+  summary: Represents a Virtual Reality controller button.
+  example: []
+  syntax:
+    content: public enum VirtualRealityController.Button
+    content.vb: Public Enum VirtualRealityController.Button
+- uid: Orama.VirtualReality.VirtualRealityController.Button.ActionUp
+  commentId: F:Orama.VirtualReality.VirtualRealityController.Button.ActionUp
+  id: ActionUp
+  parent: Orama.VirtualReality.VirtualRealityController.Button
+  langs:
+  - csharp
+  - vb
+  name: ActionUp
+  nameWithType: VirtualRealityController.Button.ActionUp
+  fullName: Orama.VirtualReality.VirtualRealityController.Button.ActionUp
+  type: Field
+  source:
+    remote:
+      path: Modules/Orama.VirtualReality/VirtualRealityController.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ActionUp
+    path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
+    startLine: 15
+  assemblies:
+  - Orama.VirtualReality
+  namespace: Orama.VirtualReality
+  syntax:
+    content: ActionUp = 0
+    return:
+      type: Orama.VirtualReality.VirtualRealityController.Button
+- uid: Orama.VirtualReality.VirtualRealityController.Button.ActionDown
+  commentId: F:Orama.VirtualReality.VirtualRealityController.Button.ActionDown
+  id: ActionDown
+  parent: Orama.VirtualReality.VirtualRealityController.Button
+  langs:
+  - csharp
+  - vb
+  name: ActionDown
+  nameWithType: VirtualRealityController.Button.ActionDown
+  fullName: Orama.VirtualReality.VirtualRealityController.Button.ActionDown
+  type: Field
+  source:
+    remote:
+      path: Modules/Orama.VirtualReality/VirtualRealityController.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ActionDown
+    path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
+    startLine: 16
+  assemblies:
+  - Orama.VirtualReality
+  namespace: Orama.VirtualReality
+  syntax:
+    content: ActionDown = 1
+    return:
+      type: Orama.VirtualReality.VirtualRealityController.Button
+- uid: Orama.VirtualReality.VirtualRealityController.Button.System
+  commentId: F:Orama.VirtualReality.VirtualRealityController.Button.System
+  id: System
+  parent: Orama.VirtualReality.VirtualRealityController.Button
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: VirtualRealityController.Button.System
+  fullName: Orama.VirtualReality.VirtualRealityController.Button.System
+  type: Field
+  source:
+    remote:
+      path: Modules/Orama.VirtualReality/VirtualRealityController.cs
+      branch: slang-port
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: System
+    path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
+    startLine: 19
+  assemblies:
+  - Orama.VirtualReality
+  namespace: Orama.VirtualReality
+  summary: Controllers system button. (i.e., the menu button)
+  example: []
+  syntax:
+    content: System = 2
+    return:
+      type: Orama.VirtualReality.VirtualRealityController.Button
+references:
+- uid: Orama.VirtualReality
+  commentId: N:Orama.VirtualReality
+  href: Orama.html
+  name: Orama.VirtualReality
+  nameWithType: Orama.VirtualReality
+  fullName: Orama.VirtualReality
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.VirtualReality
+    name: VirtualReality
+    href: Orama.VirtualReality.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.VirtualReality
+    name: VirtualReality
+    href: Orama.VirtualReality.html
+- uid: Orama.VirtualReality.VirtualRealityController.Button
+  commentId: T:Orama.VirtualReality.VirtualRealityController.Button
+  parent: Orama.VirtualReality
+  href: Orama.VirtualReality.VirtualRealityController.html
+  name: VirtualRealityController.Button
+  nameWithType: VirtualRealityController.Button
+  fullName: Orama.VirtualReality.VirtualRealityController.Button
+  spec.csharp:
+  - uid: Orama.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Orama.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Orama.VirtualReality.VirtualRealityController.Button
+    name: Button
+    href: Orama.VirtualReality.VirtualRealityController.Button.html
+  spec.vb:
+  - uid: Orama.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Orama.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Orama.VirtualReality.VirtualRealityController.Button
+    name: Button
+    href: Orama.VirtualReality.VirtualRealityController.Button.html
