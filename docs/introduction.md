@@ -7,5 +7,4 @@ Welcome to the documentation/wiki for the **[Orama Game Engine](https://github.c
 ## About The Documentation
 This documentation is open-source and contributor ran. You can find the source code at [Orama-Engine/Documentation](https://github.com/Orama-Engine/Documentation) or click the `Edit This Page` button in the page footer to instantly get sent to the associated GitHub file.
 
----
 **Have a question that isn't answered here?** Check out the [FAQ](faq.md).

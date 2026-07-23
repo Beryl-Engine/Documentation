@@ -1,4 +1,14 @@
 export default {
+  start: () => {
+    // Very hacky way to append <hr>s underneath h1s. Someone who knows what they're doing should make this better!
+    const h1s = document.querySelectorAll('article h1');
+    
+    h1s.forEach(h1 => {
+      const hr = document.createElement('hr');
+      h1.parentNode.insertBefore(hr, h1.nextSibling);
+    });
+  },
+
   configureHljs: (hljs) => {
     const slangGrammar = (hljs) => {
       const GENERIC_TYPES =

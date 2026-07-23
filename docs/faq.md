@@ -1,5 +1,5 @@
 > [!WIP]
-> This page is actively being worked on. If you have a question you'd think would fit here, [Open an Issue](https://github.com/Orama-Engine/Documentation/issues).
+> This page is actively being worked on. If you have a question you'd think would fit here, [Open an Issue](https://github.com/Orama-Engine/Documentation/issues)!
 
 # Frequently Asked Questions (FAQ)
 
