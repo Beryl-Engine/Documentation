@@ -2,14 +2,18 @@
 items:
 - uid: Orama.Audio
   commentId: N:Orama.Audio
-  id: Orama.Audio
+  id: Audio
+  parent: Orama
   children:
   - Orama.Audio.AudioDistanceModel
   - Orama.Audio.AudioModule
   - Orama.Audio.AudioPhysics
+  - Orama.Audio.Components
+  - Orama.Audio.Engines.OpenAL
   - Orama.Audio.IAudioContext
   - Orama.Audio.IAudioListener
   - Orama.Audio.IAudioSource
+  - Orama.Audio.Resources
   langs:
   - csharp
   - vb
@@ -20,12 +24,66 @@ items:
   assemblies:
   - Orama.Audio
 references:
-- uid: Orama.Audio.AudioModule
-  commentId: T:Orama.Audio.AudioModule
-  href: Orama.Audio.AudioModule.html
-  name: AudioModule
-  nameWithType: AudioModule
-  fullName: Orama.Audio.AudioModule
+- uid: Orama.Audio.Components
+  commentId: N:Orama.Audio.Components
+  href: Orama.html
+  name: Orama.Audio.Components
+  nameWithType: Orama.Audio.Components
+  fullName: Orama.Audio.Components
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  - name: .
+  - uid: Orama.Audio.Components
+    name: Components
+    href: Orama.Audio.Components.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  - name: .
+  - uid: Orama.Audio.Components
+    name: Components
+    href: Orama.Audio.Components.html
+- uid: Orama.Audio.Resources
+  commentId: N:Orama.Audio.Resources
+  href: Orama.html
+  name: Orama.Audio.Resources
+  nameWithType: Orama.Audio.Resources
+  fullName: Orama.Audio.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  - name: .
+  - uid: Orama.Audio.Resources
+    name: Resources
+    href: Orama.Audio.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  - name: .
+  - uid: Orama.Audio.Resources
+    name: Resources
+    href: Orama.Audio.Resources.html
 - uid: Orama.Audio.AudioDistanceModel
   commentId: T:Orama.Audio.AudioDistanceModel
   parent: Orama.Audio
@@ -33,6 +91,12 @@ references:
   name: AudioDistanceModel
   nameWithType: AudioDistanceModel
   fullName: Orama.Audio.AudioDistanceModel
+- uid: Orama.Audio.AudioModule
+  commentId: T:Orama.Audio.AudioModule
+  href: Orama.Audio.AudioModule.html
+  name: AudioModule
+  nameWithType: AudioModule
+  fullName: Orama.Audio.AudioModule
 - uid: Orama.Audio.AudioPhysics
   commentId: T:Orama.Audio.AudioPhysics
   href: Orama.Audio.AudioPhysics.html
@@ -60,6 +124,44 @@ references:
   name: IAudioSource
   nameWithType: IAudioSource
   fullName: Orama.Audio.IAudioSource
+- uid: Orama.Audio.Engines.OpenAL
+  commentId: N:Orama.Audio.Engines.OpenAL
+  href: Orama.html
+  name: Orama.Audio.Engines.OpenAL
+  nameWithType: Orama.Audio.Engines.OpenAL
+  fullName: Orama.Audio.Engines.OpenAL
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  - name: .
+  - uid: Orama.Audio.Engines
+    name: Engines
+    href: Orama.Audio.Engines.html
+  - name: .
+  - uid: Orama.Audio.Engines.OpenAL
+    name: OpenAL
+    href: Orama.Audio.Engines.OpenAL.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  - name: .
+  - uid: Orama.Audio.Engines
+    name: Engines
+    href: Orama.Audio.Engines.html
+  - name: .
+  - uid: Orama.Audio.Engines.OpenAL
+    name: OpenAL
+    href: Orama.Audio.Engines.OpenAL.html
 - uid: Orama.Audio
   commentId: N:Orama.Audio
   href: Orama.html

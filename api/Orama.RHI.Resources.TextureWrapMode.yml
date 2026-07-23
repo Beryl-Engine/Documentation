@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.Resources.TextureWrapMode
+  commentId: T:Orama.RHI.Resources.TextureWrapMode
+  id: TextureWrapMode
+  parent: Orama.RHI.Resources
+  children:
+  - Orama.RHI.Resources.TextureWrapMode.Clamp
+  - Orama.RHI.Resources.TextureWrapMode.Repeat
+  langs:
+  - csharp
+  - vb
+  name: TextureWrapMode
+  nameWithType: TextureWrapMode
+  fullName: Orama.RHI.Resources.TextureWrapMode
+  type: Enum
+  source:
+    remote:
+      path: Orama.RHI/Resources/TextureTypes.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: TextureWrapMode
+    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    startLine: 26
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  summary: Texture wrap mode.
+  example: []
+  syntax:
+    content: public enum TextureWrapMode
+    content.vb: Public Enum TextureWrapMode
+- uid: Orama.RHI.Resources.TextureWrapMode.Repeat
+  commentId: F:Orama.RHI.Resources.TextureWrapMode.Repeat
+  id: Repeat
+  parent: Orama.RHI.Resources.TextureWrapMode
+  langs:
+  - csharp
+  - vb
+  name: Repeat
+  nameWithType: TextureWrapMode.Repeat
+  fullName: Orama.RHI.Resources.TextureWrapMode.Repeat
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/TextureTypes.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Repeat
+    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    startLine: 28
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: Repeat = 0
+    return:
+      type: Orama.RHI.Resources.TextureWrapMode
+- uid: Orama.RHI.Resources.TextureWrapMode.Clamp
+  commentId: F:Orama.RHI.Resources.TextureWrapMode.Clamp
+  id: Clamp
+  parent: Orama.RHI.Resources.TextureWrapMode
+  langs:
+  - csharp
+  - vb
+  name: Clamp
+  nameWithType: TextureWrapMode.Clamp
+  fullName: Orama.RHI.Resources.TextureWrapMode.Clamp
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/TextureTypes.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Clamp
+    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    startLine: 29
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: Clamp = 1
+    return:
+      type: Orama.RHI.Resources.TextureWrapMode
+references:
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: Orama.RHI.Resources.TextureWrapMode
+  commentId: T:Orama.RHI.Resources.TextureWrapMode
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.TextureWrapMode.html
+  name: TextureWrapMode
+  nameWithType: TextureWrapMode
+  fullName: Orama.RHI.Resources.TextureWrapMode

@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.Resources.ShaderParameter.ParamType
+  commentId: T:Orama.RHI.Resources.ShaderParameter.ParamType
+  id: ShaderParameter.ParamType
+  parent: Orama.RHI.Resources
+  children:
+  - Orama.RHI.Resources.ShaderParameter.ParamType.Float
+  - Orama.RHI.Resources.ShaderParameter.ParamType.Int
+  - Orama.RHI.Resources.ShaderParameter.ParamType.Matrix
+  - Orama.RHI.Resources.ShaderParameter.ParamType.SampledTexture2D
+  - Orama.RHI.Resources.ShaderParameter.ParamType.Vector
+  langs:
+  - csharp
+  - vb
+  name: ShaderParameter.ParamType
+  nameWithType: ShaderParameter.ParamType
+  fullName: Orama.RHI.Resources.ShaderParameter.ParamType
+  type: Enum
+  source:
+    remote:
+      path: Orama.RHI/Resources/ShaderReflection.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ParamType
+    path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
+    startLine: 13
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  summary: The type of the parameter.
+  example: []
+  syntax:
+    content: public enum ShaderParameter.ParamType
+    content.vb: Public Enum ShaderParameter.ParamType
+- uid: Orama.RHI.Resources.ShaderParameter.ParamType.Int
+  commentId: F:Orama.RHI.Resources.ShaderParameter.ParamType.Int
+  id: Int
+  parent: Orama.RHI.Resources.ShaderParameter.ParamType
+  langs:
+  - csharp
+  - vb
+  name: Int
+  nameWithType: ShaderParameter.ParamType.Int
+  fullName: Orama.RHI.Resources.ShaderParameter.ParamType.Int
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ShaderReflection.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Int
+    path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
+    startLine: 15
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: Int = 0
+    return:
+      type: Orama.RHI.Resources.ShaderParameter.ParamType
+- uid: Orama.RHI.Resources.ShaderParameter.ParamType.Float
+  commentId: F:Orama.RHI.Resources.ShaderParameter.ParamType.Float
+  id: Float
+  parent: Orama.RHI.Resources.ShaderParameter.ParamType
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: ShaderParameter.ParamType.Float
+  fullName: Orama.RHI.Resources.ShaderParameter.ParamType.Float
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ShaderReflection.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Float
+    path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
+    startLine: 16
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: Float = 1
+    return:
+      type: Orama.RHI.Resources.ShaderParameter.ParamType
+- uid: Orama.RHI.Resources.ShaderParameter.ParamType.Matrix
+  commentId: F:Orama.RHI.Resources.ShaderParameter.ParamType.Matrix
+  id: Matrix
+  parent: Orama.RHI.Resources.ShaderParameter.ParamType
+  langs:
+  - csharp
+  - vb
+  name: Matrix
+  nameWithType: ShaderParameter.ParamType.Matrix
+  fullName: Orama.RHI.Resources.ShaderParameter.ParamType.Matrix
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ShaderReflection.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Matrix
+    path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
+    startLine: 17
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: Matrix = 2
+    return:
+      type: Orama.RHI.Resources.ShaderParameter.ParamType
+- uid: Orama.RHI.Resources.ShaderParameter.ParamType.Vector
+  commentId: F:Orama.RHI.Resources.ShaderParameter.ParamType.Vector
+  id: Vector
+  parent: Orama.RHI.Resources.ShaderParameter.ParamType
+  langs:
+  - csharp
+  - vb
+  name: Vector
+  nameWithType: ShaderParameter.ParamType.Vector
+  fullName: Orama.RHI.Resources.ShaderParameter.ParamType.Vector
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ShaderReflection.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Vector
+    path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
+    startLine: 18
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: Vector = 3
+    return:
+      type: Orama.RHI.Resources.ShaderParameter.ParamType
+- uid: Orama.RHI.Resources.ShaderParameter.ParamType.SampledTexture2D
+  commentId: F:Orama.RHI.Resources.ShaderParameter.ParamType.SampledTexture2D
+  id: SampledTexture2D
+  parent: Orama.RHI.Resources.ShaderParameter.ParamType
+  langs:
+  - csharp
+  - vb
+  name: SampledTexture2D
+  nameWithType: ShaderParameter.ParamType.SampledTexture2D
+  fullName: Orama.RHI.Resources.ShaderParameter.ParamType.SampledTexture2D
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ShaderReflection.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: SampledTexture2D
+    path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
+    startLine: 19
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: SampledTexture2D = 4
+    return:
+      type: Orama.RHI.Resources.ShaderParameter.ParamType
+references:
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: Orama.RHI.Resources.ShaderParameter.ParamType
+  commentId: T:Orama.RHI.Resources.ShaderParameter.ParamType
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.ShaderParameter.html
+  name: ShaderParameter.ParamType
+  nameWithType: ShaderParameter.ParamType
+  fullName: Orama.RHI.Resources.ShaderParameter.ParamType
+  spec.csharp:
+  - uid: Orama.RHI.Resources.ShaderParameter
+    name: ShaderParameter
+    href: Orama.RHI.Resources.ShaderParameter.html
+  - name: .
+  - uid: Orama.RHI.Resources.ShaderParameter.ParamType
+    name: ParamType
+    href: Orama.RHI.Resources.ShaderParameter.ParamType.html
+  spec.vb:
+  - uid: Orama.RHI.Resources.ShaderParameter
+    name: ShaderParameter
+    href: Orama.RHI.Resources.ShaderParameter.html
+  - name: .
+  - uid: Orama.RHI.Resources.ShaderParameter.ParamType
+    name: ParamType
+    href: Orama.RHI.Resources.ShaderParameter.ParamType.html

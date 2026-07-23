@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.Resources.IResourceSet
+  commentId: T:Orama.RHI.Resources.IResourceSet
+  id: IResourceSet
+  parent: Orama.RHI.Resources
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IResourceSet
+  nameWithType: IResourceSet
+  fullName: Orama.RHI.Resources.IResourceSet
+  type: Interface
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceInterfaces.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IResourceSet
+    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    startLine: 47
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  summary: Bound resources matching an <xref href="Orama.RHI.Resources.IResourceLayout" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public interface IResourceSet : IGPUResource, IDisposable'
+    content.vb: Public Interface IResourceSet Inherits IGPUResource, IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+references:
+- uid: Orama.RHI.Resources.IResourceLayout
+  commentId: T:Orama.RHI.Resources.IResourceLayout
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.IResourceLayout.html
+  name: IResourceLayout
+  nameWithType: IResourceLayout
+  fullName: Orama.RHI.Resources.IResourceLayout
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

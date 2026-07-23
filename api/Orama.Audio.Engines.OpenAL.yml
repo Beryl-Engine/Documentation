@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Audio.Engines.OpenAL
   commentId: N:Orama.Audio.Engines.OpenAL
-  id: Orama.Audio.Engines.OpenAL
+  id: Engines.OpenAL
+  parent: Orama.Audio
   children:
   - Orama.Audio.Engines.OpenAL.OpenALContext
   - Orama.Audio.Engines.OpenAL.OpenALListener

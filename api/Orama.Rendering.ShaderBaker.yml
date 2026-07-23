@@ -16,15 +16,15 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ShaderBaker
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
-    startLine: 8
+    startLine: 10
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
-  summary: Bakes Slang shaders to SPIRV.
+  summary: Handles baking Slang module source code into a <xref href="Orama.Rendering.SlangCompilationResult" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: public static class ShaderBaker
@@ -53,31 +53,40 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: SlangToSpirV
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
-    startLine: 44
+    startLine: 48
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
   summary: Compiles Slang source to SPIRV.
   example: []
   syntax:
-    content: public static SlangCompilationResult SlangToSpirV(string source, string name)
+    content: public static SlangCompilationResult SlangToSpirV(string source, string moduleName)
     parameters:
     - id: source
       type: System.String
-    - id: name
+      description: The string slang source code.
+    - id: moduleName
       type: System.String
+      description: The name of the Slang module. This is used for importing this compilation into other modules.
     return:
       type: Orama.Rendering.SlangCompilationResult
-    content.vb: Public Shared Function SlangToSpirV(source As String, name As String) As SlangCompilationResult
+    content.vb: Public Shared Function SlangToSpirV(source As String, moduleName As String) As SlangCompilationResult
   overload: Orama.Rendering.ShaderBaker.SlangToSpirV*
   nameWithType.vb: ShaderBaker.SlangToSpirV(String, String)
   fullName.vb: Orama.Rendering.ShaderBaker.SlangToSpirV(String, String)
   name.vb: SlangToSpirV(String, String)
 references:
+- uid: Orama.Rendering.SlangCompilationResult
+  commentId: T:Orama.Rendering.SlangCompilationResult
+  parent: Orama.Rendering
+  href: Orama.Rendering.SlangCompilationResult.html
+  name: SlangCompilationResult
+  nameWithType: SlangCompilationResult
+  fullName: Orama.Rendering.SlangCompilationResult
 - uid: Orama.Rendering
   commentId: N:Orama.Rendering
   href: Orama.html
@@ -354,10 +363,3 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: Orama.Rendering.SlangCompilationResult
-  commentId: T:Orama.Rendering.SlangCompilationResult
-  parent: Orama.Rendering
-  href: Orama.Rendering.SlangCompilationResult.html
-  name: SlangCompilationResult
-  nameWithType: SlangCompilationResult
-  fullName: Orama.Rendering.SlangCompilationResult

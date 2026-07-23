@@ -1,500 +1,632 @@
 ### YamlMime:TableOfContent
 items:
-- uid: Orama.Assemblies
-  name: Orama.Assemblies
+- uid: Orama
+  name: Orama
   type: Namespace
   items:
-  - uid: Orama.Assemblies.AssemblyModule
-    name: AssemblyModule
-    type: Class
-  - uid: Orama.Assemblies.OnAssemblyLoadAttribute
-    name: OnAssemblyLoadAttribute
-    type: Class
-  - uid: Orama.Assemblies.OramaAssembly
-    name: OramaAssembly
-    type: Class
-  - uid: Orama.Assemblies.Reflection
-    name: Reflection
-    type: Class
-- uid: Orama.Audio
-  name: Orama.Audio
-  type: Namespace
-  items:
-  - uid: Orama.Audio.AudioDistanceModel
-    name: AudioDistanceModel
-    type: Enum
-  - uid: Orama.Audio.AudioModule
-    name: AudioModule
-    type: Class
-  - uid: Orama.Audio.AudioPhysics
-    name: AudioPhysics
-    type: Class
-  - uid: Orama.Audio.IAudioContext
-    name: IAudioContext
-    type: Interface
-  - uid: Orama.Audio.IAudioListener
-    name: IAudioListener
-    type: Interface
-  - uid: Orama.Audio.IAudioSource
-    name: IAudioSource
-    type: Interface
-- uid: Orama.Audio.Components
-  name: Orama.Audio.Components
-  type: Namespace
-  items:
-  - uid: Orama.Audio.Components.AudioListener
-    name: AudioListener
-    type: Class
-  - uid: Orama.Audio.Components.AudioSource
-    name: AudioSource
-    type: Class
-- uid: Orama.Audio.Engines.OpenAL
-  name: Orama.Audio.Engines.OpenAL
-  type: Namespace
-  items:
-  - uid: Orama.Audio.Engines.OpenAL.OpenALContext
-    name: OpenALContext
-    type: Class
-  - uid: Orama.Audio.Engines.OpenAL.OpenALListener
-    name: OpenALListener
-    type: Class
-  - uid: Orama.Audio.Engines.OpenAL.OpenALSource
-    name: OpenALSource
-    type: Class
-- uid: Orama.Audio.Resources
-  name: Orama.Audio.Resources
-  type: Namespace
-  items:
-  - uid: Orama.Audio.Resources.AudioClip
-    name: AudioClip
-    type: Class
-- uid: Orama.Common
-  name: Orama.Common
-  type: Namespace
-  items:
-  - uid: Orama.Common.Application
-    name: Application
-    type: Class
-  - uid: Orama.Common.BaseModule
-    name: BaseModule
-    type: Class
-  - uid: Orama.Common.ModuleManager
-    name: ModuleManager
-    type: Class
-  - uid: Orama.Common.Time
-    name: Time
-    type: Class
-  - uid: Orama.Common.Window
-    name: Window
-    type: Class
-- uid: Orama.Common.Resources
-  name: Orama.Common.Resources
-  type: Namespace
-  items:
-  - uid: Orama.Common.Resources.IResourceProvider
-    name: IResourceProvider
-    type: Interface
-- uid: Orama.Common.Resources.DefaultProvider
-  name: Orama.Common.Resources.DefaultProvider
-  type: Namespace
-  items:
-  - uid: Orama.Common.Resources.DefaultProvider.ResourceLoaderAttribute
-    name: ResourceLoaderAttribute
-    type: Class
-  - uid: Orama.Common.Resources.DefaultProvider.ResourceLoader`1
-    name: ResourceLoader<T>
-    type: Class
-- uid: Orama.Common.Utility
-  name: Orama.Common.Utility
-  type: Namespace
-  items:
-  - uid: Orama.Common.Utility.EngineConsole
-    name: EngineConsole
-    type: Class
-  - uid: Orama.Common.Utility.EnginePaths
-    name: EnginePaths
-    type: Class
-- uid: Orama.GUI
-  name: Orama.GUI
-  type: Namespace
-  items:
-  - uid: Orama.GUI.GUIModule
-    name: GUIModule
-    type: Class
-  - uid: Orama.GUI.PaintEngine
-    name: PaintEngine
-    type: Class
-- uid: Orama.GUI.Widgets
-  name: Orama.GUI.Widgets
-  type: Namespace
-  items:
-  - uid: Orama.GUI.Widgets.Widget
-    name: Widget
-    type: Class
-- uid: Orama.Input
-  name: Orama.Input
-  type: Namespace
-  items:
-  - uid: Orama.Input.InputModule
-    name: InputModule
-    type: Class
-- uid: Orama.Input.Devices
-  name: Orama.Input.Devices
-  type: Namespace
-  items:
-  - uid: Orama.Input.Devices.Gamepad
-    name: Gamepad
-    type: Class
-  - uid: Orama.Input.Devices.Gamepad.Button
-    name: Gamepad.Button
-    type: Enum
-  - uid: Orama.Input.Devices.Gamepad.Trigger
-    name: Gamepad.Trigger
-    type: Enum
-  - uid: Orama.Input.Devices.IInputDevice
-    name: IInputDevice
-    type: Interface
-  - uid: Orama.Input.Devices.Keyboard
-    name: Keyboard
-    type: Class
-  - uid: Orama.Input.Devices.Keyboard.Key
-    name: Keyboard.Key
-    type: Enum
-  - uid: Orama.Input.Devices.Mouse
-    name: Mouse
-    type: Class
-  - uid: Orama.Input.Devices.Mouse.Button
-    name: Mouse.Button
-    type: Enum
-- uid: Orama.Math
-  name: Orama.Math
-  type: Namespace
-  items:
-  - uid: Orama.Math.Color
-    name: Color
-    type: Struct
-  - uid: Orama.Math.Math
+  - uid: Orama.Assemblies
+    name: Assemblies
+    type: Namespace
+    items:
+    - uid: Orama.Assemblies.AssemblyModule
+      name: AssemblyModule
+      type: Class
+    - uid: Orama.Assemblies.OnAssemblyLoadAttribute
+      name: OnAssemblyLoadAttribute
+      type: Class
+    - uid: Orama.Assemblies.OramaAssembly
+      name: OramaAssembly
+      type: Class
+    - uid: Orama.Assemblies.Reflection
+      name: Reflection
+      type: Class
+  - uid: Orama.Audio
+    name: Audio
+    type: Namespace
+    items:
+    - uid: Orama.Audio.Components
+      name: Components
+      type: Namespace
+      items:
+      - uid: Orama.Audio.Components.AudioListener
+        name: AudioListener
+        type: Class
+      - uid: Orama.Audio.Components.AudioSource
+        name: AudioSource
+        type: Class
+    - uid: Orama.Audio.Engines.OpenAL
+      name: Engines.OpenAL
+      type: Namespace
+      items:
+      - uid: Orama.Audio.Engines.OpenAL.OpenALContext
+        name: OpenALContext
+        type: Class
+      - uid: Orama.Audio.Engines.OpenAL.OpenALListener
+        name: OpenALListener
+        type: Class
+      - uid: Orama.Audio.Engines.OpenAL.OpenALSource
+        name: OpenALSource
+        type: Class
+    - uid: Orama.Audio.Resources
+      name: Resources
+      type: Namespace
+      items:
+      - uid: Orama.Audio.Resources.AudioClip
+        name: AudioClip
+        type: Class
+    - uid: Orama.Audio.AudioDistanceModel
+      name: AudioDistanceModel
+      type: Enum
+    - uid: Orama.Audio.AudioModule
+      name: AudioModule
+      type: Class
+    - uid: Orama.Audio.AudioPhysics
+      name: AudioPhysics
+      type: Class
+    - uid: Orama.Audio.IAudioContext
+      name: IAudioContext
+      type: Interface
+    - uid: Orama.Audio.IAudioListener
+      name: IAudioListener
+      type: Interface
+    - uid: Orama.Audio.IAudioSource
+      name: IAudioSource
+      type: Interface
+  - uid: Orama.Common
+    name: Common
+    type: Namespace
+    items:
+    - uid: Orama.Common.Datatypes
+      name: Datatypes
+      type: Namespace
+      items:
+      - uid: Orama.Common.Datatypes.ObjectPool`2
+        name: ObjectPool<TSingletonOwner, TObject>
+        type: Class
+      - uid: Orama.Common.Datatypes.PooledObject`2
+        name: PooledObject<TObject, TPool>
+        type: Struct
+    - uid: Orama.Common.Resources
+      name: Resources
+      type: Namespace
+      items:
+      - uid: Orama.Common.Resources.DefaultProvider
+        name: DefaultProvider
+        type: Namespace
+        items:
+        - uid: Orama.Common.Resources.DefaultProvider.ResourceLoaderAttribute
+          name: ResourceLoaderAttribute
+          type: Class
+        - uid: Orama.Common.Resources.DefaultProvider.ResourceLoader`1
+          name: ResourceLoader<T>
+          type: Class
+      - uid: Orama.Common.Resources.IResourceProvider
+        name: IResourceProvider
+        type: Interface
+    - uid: Orama.Common.Standard
+      name: Standard
+      type: Namespace
+      items:
+      - uid: Orama.Common.Standard.IAlwaysHashable
+        name: IAlwaysHashable
+        type: Interface
+      - uid: Orama.Common.Standard.RentedArray`1
+        name: RentedArray<T>
+        type: Struct
+    - uid: Orama.Common.Utility
+      name: Utility
+      type: Namespace
+      items:
+      - uid: Orama.Common.Utility.EnginePaths
+        name: EnginePaths
+        type: Class
+      - uid: Orama.Common.Utility.OramaConsole
+        name: OramaConsole
+        type: Class
+    - uid: Orama.Common.Application
+      name: Application
+      type: Class
+    - uid: Orama.Common.BaseModule
+      name: BaseModule
+      type: Class
+    - uid: Orama.Common.InitializeAfterAttribute
+      name: InitializeAfterAttribute
+      type: Class
+    - uid: Orama.Common.ModuleManager
+      name: ModuleManager
+      type: Class
+    - uid: Orama.Common.Time
+      name: Time
+      type: Class
+    - uid: Orama.Common.Window
+      name: Window
+      type: Class
+  - uid: Orama.GUI
+    name: GUI
+    type: Namespace
+    items:
+    - uid: Orama.GUI.Widgets
+      name: Widgets
+      type: Namespace
+      items:
+      - uid: Orama.GUI.Widgets.Widget
+        name: Widget
+        type: Class
+    - uid: Orama.GUI.GUIModule
+      name: GUIModule
+      type: Class
+    - uid: Orama.GUI.PaintEngine
+      name: PaintEngine
+      type: Class
+  - uid: Orama.Input
+    name: Input
+    type: Namespace
+    items:
+    - uid: Orama.Input.Devices
+      name: Devices
+      type: Namespace
+      items:
+      - uid: Orama.Input.Devices.Gamepad
+        name: Gamepad
+        type: Class
+      - uid: Orama.Input.Devices.Gamepad.Button
+        name: Gamepad.Button
+        type: Enum
+      - uid: Orama.Input.Devices.Gamepad.Trigger
+        name: Gamepad.Trigger
+        type: Enum
+      - uid: Orama.Input.Devices.IInputDevice
+        name: IInputDevice
+        type: Interface
+      - uid: Orama.Input.Devices.Keyboard
+        name: Keyboard
+        type: Class
+      - uid: Orama.Input.Devices.Keyboard.Key
+        name: Keyboard.Key
+        type: Enum
+      - uid: Orama.Input.Devices.Mouse
+        name: Mouse
+        type: Class
+      - uid: Orama.Input.Devices.Mouse.Button
+        name: Mouse.Button
+        type: Enum
+    - uid: Orama.Input.InputModule
+      name: InputModule
+      type: Class
+  - uid: Orama.Math
     name: Math
-    type: Class
-  - uid: Orama.Math.MathFEx
-    name: MathFEx
-    type: Class
-  - uid: Orama.Math.Matrix4x4
-    name: Matrix4x4
-    type: Struct
-  - uid: Orama.Math.Quaternion
-    name: Quaternion
-    type: Struct
-  - uid: Orama.Math.Rect
-    name: Rect
-    type: Struct
-  - uid: Orama.Math.Vector2
-    name: Vector2
-    type: Struct
-  - uid: Orama.Math.Vector2I
-    name: Vector2I
-    type: Struct
-  - uid: Orama.Math.Vector3
-    name: Vector3
-    type: Struct
-  - uid: Orama.Math.Vector4
-    name: Vector4
-    type: Struct
-- uid: Orama.Physics
-  name: Orama.Physics
-  type: Namespace
-  items:
-  - uid: Orama.Physics.IPhysicsBody
-    name: IPhysicsBody
-    type: Interface
-  - uid: Orama.Physics.IPhysicsWorld
-    name: IPhysicsWorld
-    type: Interface
-  - uid: Orama.Physics.PhysicsModule
-    name: PhysicsModule
-    type: Class
-  - uid: Orama.Physics.RaycastResult
-    name: RaycastResult
-    type: Struct
-- uid: Orama.Physics.Components
-  name: Orama.Physics.Components
-  type: Namespace
-  items:
-  - uid: Orama.Physics.Components.RigidBody
-    name: RigidBody
-    type: Class
-- uid: Orama.Physics.Components.Colliders
-  name: Orama.Physics.Components.Colliders
-  type: Namespace
-  items:
-  - uid: Orama.Physics.Components.Colliders.BoxCollider
-    name: BoxCollider
-    type: Class
-  - uid: Orama.Physics.Components.Colliders.Collider
-    name: Collider
-    type: Class
-  - uid: Orama.Physics.Components.Colliders.SphereCollider
-    name: SphereCollider
-    type: Class
-- uid: Orama.Physics.Engines.Jitter2
-  name: Orama.Physics.Engines.Jitter2
-  type: Namespace
-  items:
-  - uid: Orama.Physics.Engines.Jitter2.Jitter2Body
-    name: Jitter2Body
-    type: Class
-  - uid: Orama.Physics.Engines.Jitter2.Jitter2World
-    name: Jitter2World
-    type: Class
-- uid: Orama.Rendering
-  name: Orama.Rendering
-  type: Namespace
-  items:
-  - uid: Orama.Rendering.CullingMode
-    name: CullingMode
-    type: Enum
-  - uid: Orama.Rendering.GPUBuffer
-    name: GPUBuffer
-    type: Struct
-  - uid: Orama.Rendering.IClientRenderable
-    name: IClientRenderable
-    type: Interface
-  - uid: Orama.Rendering.RenderFrame
-    name: RenderFrame
-    type: Struct
-  - uid: Orama.Rendering.Renderer
-    name: Renderer
-    type: Class
-  - uid: Orama.Rendering.RendererBackend
-    name: RendererBackend
-    type: Enum
-  - uid: Orama.Rendering.RendererOptions
-    name: RendererOptions
-    type: Struct
-  - uid: Orama.Rendering.RenderingModule
-    name: RenderingModule
-    type: Class
-  - uid: Orama.Rendering.ShaderBaker
-    name: ShaderBaker
-    type: Class
-  - uid: Orama.Rendering.SlangCompilationResult
-    name: SlangCompilationResult
-    type: Struct
-- uid: Orama.Rendering.Components
-  name: Orama.Rendering.Components
-  type: Namespace
-  items:
-  - uid: Orama.Rendering.Components.Camera
-    name: Camera
-    type: Class
-  - uid: Orama.Rendering.Components.MeshRenderer
-    name: MeshRenderer
-    type: Class
-- uid: Orama.Rendering.Device
-  name: Orama.Rendering.Device
-  type: Namespace
-  items:
-  - uid: Orama.Rendering.Device.CommandBuffer
-    name: CommandBuffer
-    type: Class
-  - uid: Orama.Rendering.Device.CommandBufferPool
-    name: CommandBufferPool
-    type: Class
-- uid: Orama.Rendering.Entities
-  name: Orama.Rendering.Entities
-  type: Namespace
-  items:
-  - uid: Orama.Rendering.Entities.FlyController
-    name: FlyController
-    type: Class
-- uid: Orama.Rendering.Pipelines
-  name: Orama.Rendering.Pipelines
-  type: Namespace
-  items:
-  - uid: Orama.Rendering.Pipelines.RenderPass
-    name: RenderPass
-    type: Class
-  - uid: Orama.Rendering.Pipelines.RenderPipeline
-    name: RenderPipeline
-    type: Class
-- uid: Orama.Rendering.Pipelines.Forward
-  name: Orama.Rendering.Pipelines.Forward
-  type: Namespace
-  items:
-  - uid: Orama.Rendering.Pipelines.Forward.ForwardRenderPipeline
-    name: ForwardRenderPipeline
-    type: Class
-  - uid: Orama.Rendering.Pipelines.Forward.OpaquePass
-    name: OpaquePass
-    type: Class
-- uid: Orama.Rendering.Resources
-  name: Orama.Rendering.Resources
-  type: Namespace
-  items:
-  - uid: Orama.Rendering.Resources.FrameCountedResource`1
-    name: FrameCountedResource<T>
-    type: Class
-  - uid: Orama.Rendering.Resources.IFrameCountedResource
-    name: IFrameCountedResource
-    type: Interface
-  - uid: Orama.Rendering.Resources.Material
-    name: Material
-    type: Class
-  - uid: Orama.Rendering.Resources.Mesh
-    name: Mesh
-    type: Class
-  - uid: Orama.Rendering.Resources.RenderItem
-    name: RenderItem
-    type: Class
-  - uid: Orama.Rendering.Resources.Shader
-    name: Shader
-    type: Class
-  - uid: Orama.Rendering.Resources.ShaderParameter
-    name: ShaderParameter
-    type: Class
-  - uid: Orama.Rendering.Resources.ShaderParameter.ParamType
-    name: ShaderParameter.ParamType
-    type: Enum
-  - uid: Orama.Rendering.Resources.Texture
-    name: Texture
-    type: Class
-  - uid: Orama.Rendering.Resources.TextureFormat
-    name: TextureFormat
-    type: Enum
-- uid: Orama.Rendering.Resources.Caches
-  name: Orama.Rendering.Resources.Caches
-  type: Namespace
-  items:
-  - uid: Orama.Rendering.Resources.Caches.DeviceBufferCache
-    name: DeviceBufferCache
-    type: Class
-  - uid: Orama.Rendering.Resources.Caches.DeviceBufferKey
-    name: DeviceBufferKey
-    type: Struct
-  - uid: Orama.Rendering.Resources.Caches.PipelineCache
-    name: PipelineCache
-    type: Class
-  - uid: Orama.Rendering.Resources.Caches.PipelineKey
-    name: PipelineKey
-    type: Struct
-  - uid: Orama.Rendering.Resources.Caches.RenderItemCache
-    name: RenderItemCache
-    type: Class
-  - uid: Orama.Rendering.Resources.Caches.RenderItemKey
-    name: RenderItemKey
-    type: Struct
-  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
-    name: ResourceCache<TSingletonOwner, TKey, TResource>
-    type: Class
-  - uid: Orama.Rendering.Resources.Caches.ResourceLayoutCache
-    name: ResourceLayoutCache
-    type: Class
-  - uid: Orama.Rendering.Resources.Caches.ResourceLayoutKey
-    name: ResourceLayoutKey
-    type: Struct
-  - uid: Orama.Rendering.Resources.Caches.ResourceSetCache
-    name: ResourceSetCache
-    type: Class
-  - uid: Orama.Rendering.Resources.Caches.ResourceSetKey
-    name: ResourceSetKey
-    type: Struct
-  - uid: Orama.Rendering.Resources.Caches.ShaderKey
-    name: ShaderKey
-    type: Struct
-- uid: Orama.Rendering.Veldrid
-  name: Orama.Rendering.Veldrid
-  type: Namespace
-  items:
-  - uid: Orama.Rendering.Veldrid.VeldridDevice
-    name: VeldridDevice
-    type: Class
-- uid: Orama.Scenes
-  name: Orama.Scenes
-  type: Namespace
-  items:
-  - uid: Orama.Scenes.SceneModule
-    name: SceneModule
-    type: Class
-- uid: Orama.Scenes.Components
-  name: Orama.Scenes.Components
-  type: Namespace
-  items:
-  - uid: Orama.Scenes.Components.Component
-    name: Component
-    type: Class
-  - uid: Orama.Scenes.Components.Transform
-    name: Transform
-    type: Class
-- uid: Orama.Scenes.Entities
-  name: Orama.Scenes.Entities
-  type: Namespace
-  items:
-  - uid: Orama.Scenes.Entities.Entity
-    name: Entity
-    type: Class
-  - uid: Orama.Scenes.Entities.EntityAttribute
-    name: EntityAttribute
-    type: Class
-  - uid: Orama.Scenes.Entities.EntityRegistry
-    name: EntityRegistry
-    type: Class
-  - uid: Orama.Scenes.Entities.ImplicitComponent
-    name: ImplicitComponent
-    type: Class
-- uid: Orama.Scenes.Resources
-  name: Orama.Scenes.Resources
-  type: Namespace
-  items:
-  - uid: Orama.Scenes.Resources.Scene
-    name: Scene
-    type: Class
-- uid: Orama.Serialization
-  name: Orama.Serialization
-  type: Namespace
-  items:
-  - uid: Orama.Serialization.Serialization
+    type: Namespace
+    items:
+    - uid: Orama.Math.Color
+      name: Color
+      type: Struct
+    - uid: Orama.Math.Math
+      name: Math
+      type: Class
+    - uid: Orama.Math.Matrix4x4
+      name: Matrix4x4
+      type: Struct
+    - uid: Orama.Math.Quaternion
+      name: Quaternion
+      type: Struct
+    - uid: Orama.Math.Rect
+      name: Rect
+      type: Struct
+    - uid: Orama.Math.Vector2
+      name: Vector2
+      type: Struct
+    - uid: Orama.Math.Vector2I
+      name: Vector2I
+      type: Struct
+    - uid: Orama.Math.Vector3
+      name: Vector3
+      type: Struct
+    - uid: Orama.Math.Vector4
+      name: Vector4
+      type: Struct
+  - uid: Orama.Physics
+    name: Physics
+    type: Namespace
+    items:
+    - uid: Orama.Physics.Components
+      name: Components
+      type: Namespace
+      items:
+      - uid: Orama.Physics.Components.Colliders
+        name: Colliders
+        type: Namespace
+        items:
+        - uid: Orama.Physics.Components.Colliders.BoxCollider
+          name: BoxCollider
+          type: Class
+        - uid: Orama.Physics.Components.Colliders.Collider
+          name: Collider
+          type: Class
+        - uid: Orama.Physics.Components.Colliders.SphereCollider
+          name: SphereCollider
+          type: Class
+      - uid: Orama.Physics.Components.RigidBody
+        name: RigidBody
+        type: Class
+    - uid: Orama.Physics.Engines.Jitter2
+      name: Engines.Jitter2
+      type: Namespace
+      items:
+      - uid: Orama.Physics.Engines.Jitter2.Jitter2Body
+        name: Jitter2Body
+        type: Class
+      - uid: Orama.Physics.Engines.Jitter2.Jitter2World
+        name: Jitter2World
+        type: Class
+    - uid: Orama.Physics.IPhysicsBody
+      name: IPhysicsBody
+      type: Interface
+    - uid: Orama.Physics.IPhysicsWorld
+      name: IPhysicsWorld
+      type: Interface
+    - uid: Orama.Physics.PhysicsModule
+      name: PhysicsModule
+      type: Class
+    - uid: Orama.Physics.RaycastResult
+      name: RaycastResult
+      type: Struct
+  - uid: Orama.RHI
+    name: RHI
+    type: Namespace
+    items:
+    - uid: Orama.RHI.Resources
+      name: Resources
+      type: Namespace
+      items:
+      - uid: Orama.RHI.Resources.BufferDescriptor
+        name: BufferDescriptor
+        type: Struct
+      - uid: Orama.RHI.Resources.BufferUsage
+        name: BufferUsage
+        type: Enum
+      - uid: Orama.RHI.Resources.ConstantBufferDescriptor
+        name: ConstantBufferDescriptor
+        type: Struct
+      - uid: Orama.RHI.Resources.IBindableResource
+        name: IBindableResource
+        type: Interface
+      - uid: Orama.RHI.Resources.IBuffer
+        name: IBuffer
+        type: Interface
+      - uid: Orama.RHI.Resources.IFramebuffer
+        name: IFramebuffer
+        type: Interface
+      - uid: Orama.RHI.Resources.IGPUResource
+        name: IGPUResource
+        type: Interface
+      - uid: Orama.RHI.Resources.IPipeline
+        name: IPipeline
+        type: Interface
+      - uid: Orama.RHI.Resources.IResourceLayout
+        name: IResourceLayout
+        type: Interface
+      - uid: Orama.RHI.Resources.IResourceSet
+        name: IResourceSet
+        type: Interface
+      - uid: Orama.RHI.Resources.ISampler
+        name: ISampler
+        type: Interface
+      - uid: Orama.RHI.Resources.IShader
+        name: IShader
+        type: Interface
+      - uid: Orama.RHI.Resources.ITexture
+        name: ITexture
+        type: Interface
+      - uid: Orama.RHI.Resources.ITextureView
+        name: ITextureView
+        type: Interface
+      - uid: Orama.RHI.Resources.PipelineDescriptor
+        name: PipelineDescriptor
+        type: Struct
+      - uid: Orama.RHI.Resources.ResourceDescriptor
+        name: ResourceDescriptor
+        type: Struct
+      - uid: Orama.RHI.Resources.ResourceKind
+        name: ResourceKind
+        type: Enum
+      - uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+        name: ResourceLayoutDescriptor
+        type: Struct
+      - uid: Orama.RHI.Resources.ResourceLayoutElementDescription
+        name: ResourceLayoutElementDescription
+        type: Struct
+      - uid: Orama.RHI.Resources.Sampler
+        name: Sampler
+        type: Struct
+      - uid: Orama.RHI.Resources.SamplerDescriptor
+        name: SamplerDescriptor
+        type: Struct
+      - uid: Orama.RHI.Resources.SamplerFilter
+        name: SamplerFilter
+        type: Enum
+      - uid: Orama.RHI.Resources.ShaderDescriptor
+        name: ShaderDescriptor
+        type: Struct
+      - uid: Orama.RHI.Resources.ShaderParameter
+        name: ShaderParameter
+        type: Class
+      - uid: Orama.RHI.Resources.ShaderParameter.ParamType
+        name: ShaderParameter.ParamType
+        type: Enum
+      - uid: Orama.RHI.Resources.ShaderResource
+        name: ShaderResource
+        type: Class
+      - uid: Orama.RHI.Resources.ShaderResourceGroup
+        name: ShaderResourceGroup
+        type: Struct
+      - uid: Orama.RHI.Resources.ShaderStages
+        name: ShaderStages
+        type: Enum
+      - uid: Orama.RHI.Resources.TextureDescriptor
+        name: TextureDescriptor
+        type: Struct
+      - uid: Orama.RHI.Resources.TextureFormat
+        name: TextureFormat
+        type: Enum
+      - uid: Orama.RHI.Resources.TextureViewDescriptor
+        name: TextureViewDescriptor
+        type: Struct
+      - uid: Orama.RHI.Resources.TextureWrapMode
+        name: TextureWrapMode
+        type: Enum
+    - uid: Orama.RHI.CullingMode
+      name: CullingMode
+      type: Enum
+    - uid: Orama.RHI.GraphicsDeviceFactory
+      name: GraphicsDeviceFactory
+      type: Class
+    - uid: Orama.RHI.ICommandBuffer
+      name: ICommandBuffer
+      type: Interface
+    - uid: Orama.RHI.IGraphicsDevice
+      name: IGraphicsDevice
+      type: Interface
+    - uid: Orama.RHI.IResourceFactory
+      name: IResourceFactory
+      type: Interface
+    - uid: Orama.RHI.RendererBackend
+      name: RendererBackend
+      type: Enum
+    - uid: Orama.RHI.VulkanInfo
+      name: VulkanInfo
+      type: Struct
+  - uid: Orama.Rendering
+    name: Rendering
+    type: Namespace
+    items:
+    - uid: Orama.Rendering.Components
+      name: Components
+      type: Namespace
+      items:
+      - uid: Orama.Rendering.Components.Camera
+        name: Camera
+        type: Class
+      - uid: Orama.Rendering.Components.MeshRenderer
+        name: MeshRenderer
+        type: Class
+    - uid: Orama.Rendering.Entities
+      name: Entities
+      type: Namespace
+      items:
+      - uid: Orama.Rendering.Entities.DebugEntity
+        name: DebugEntity
+        type: Class
+      - uid: Orama.Rendering.Entities.FlyController
+        name: FlyController
+        type: Class
+    - uid: Orama.Rendering.Pipelines
+      name: Pipelines
+      type: Namespace
+      items:
+      - uid: Orama.Rendering.Pipelines.Forward
+        name: Forward
+        type: Namespace
+        items:
+        - uid: Orama.Rendering.Pipelines.Forward.ForwardRenderPipeline
+          name: ForwardRenderPipeline
+          type: Class
+        - uid: Orama.Rendering.Pipelines.Forward.OpaquePass
+          name: OpaquePass
+          type: Class
+      - uid: Orama.Rendering.Pipelines.RenderPass
+        name: RenderPass
+        type: Class
+      - uid: Orama.Rendering.Pipelines.RenderPipeline
+        name: RenderPipeline
+        type: Class
+    - uid: Orama.Rendering.Resources
+      name: Resources
+      type: Namespace
+      items:
+      - uid: Orama.Rendering.Resources.Caches
+        name: Caches
+        type: Namespace
+        items:
+        - uid: Orama.Rendering.Resources.Caches.ConstantBufferCache
+          name: ConstantBufferCache
+          type: Class
+        - uid: Orama.Rendering.Resources.Caches.PipelineCache
+          name: PipelineCache
+          type: Class
+        - uid: Orama.Rendering.Resources.Caches.RenderItemCache
+          name: RenderItemCache
+          type: Class
+        - uid: Orama.Rendering.Resources.Caches.RenderItemKey
+          name: RenderItemKey
+          type: Struct
+        - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+          name: ResourceCache<TSingletonOwner, TKey, TResource>
+          type: Class
+        - uid: Orama.Rendering.Resources.Caches.ResourceLayoutCache
+          name: ResourceLayoutCache
+          type: Class
+        - uid: Orama.Rendering.Resources.Caches.ResourceSetCache
+          name: ResourceSetCache
+          type: Class
+        - uid: Orama.Rendering.Resources.Caches.SamplerCache
+          name: SamplerCache
+          type: Class
+        - uid: Orama.Rendering.Resources.Caches.TextureCache
+          name: TextureCache
+          type: Class
+        - uid: Orama.Rendering.Resources.Caches.TextureViewCache
+          name: TextureViewCache
+          type: Class
+      - uid: Orama.Rendering.Resources.FrameCountedResource`1
+        name: FrameCountedResource<T>
+        type: Class
+      - uid: Orama.Rendering.Resources.IFrameCountedResource
+        name: IFrameCountedResource
+        type: Interface
+      - uid: Orama.Rendering.Resources.Material
+        name: Material
+        type: Class
+      - uid: Orama.Rendering.Resources.Mesh
+        name: Mesh
+        type: Class
+      - uid: Orama.Rendering.Resources.RenderItem
+        name: RenderItem
+        type: Class
+      - uid: Orama.Rendering.Resources.Shader
+        name: Shader
+        type: Class
+      - uid: Orama.Rendering.Resources.Texture
+        name: Texture
+        type: Class
+    - uid: Orama.Rendering.CommandBufferExtensions
+      name: CommandBufferExtensions
+      type: Class
+    - uid: Orama.Rendering.CommandBufferPool
+      name: CommandBufferPool
+      type: Class
+    - uid: Orama.Rendering.GPUBuffer
+      name: GPUBuffer
+      type: Class
+    - uid: Orama.Rendering.GPUBuffer.AlignmentFormat
+      name: GPUBuffer.AlignmentFormat
+      type: Enum
+    - uid: Orama.Rendering.GPUBufferPool
+      name: GPUBufferPool
+      type: Class
+    - uid: Orama.Rendering.IClientRenderable
+      name: IClientRenderable
+      type: Interface
+    - uid: Orama.Rendering.IShaderDefaultsProvider
+      name: IShaderDefaultsProvider
+      type: Interface
+    - uid: Orama.Rendering.RenderFrame
+      name: RenderFrame
+      type: Struct
+    - uid: Orama.Rendering.Renderer
+      name: Renderer
+      type: Class
+    - uid: Orama.Rendering.RendererOptions
+      name: RendererOptions
+      type: Struct
+    - uid: Orama.Rendering.RenderingModule
+      name: RenderingModule
+      type: Class
+    - uid: Orama.Rendering.ShaderBaker
+      name: ShaderBaker
+      type: Class
+    - uid: Orama.Rendering.ShaderDefaultsProvider
+      name: ShaderDefaultsProvider
+      type: Class
+    - uid: Orama.Rendering.SlangCompilationResult
+      name: SlangCompilationResult
+      type: Struct
+  - uid: Orama.Scenes
+    name: Scenes
+    type: Namespace
+    items:
+    - uid: Orama.Scenes.Components
+      name: Components
+      type: Namespace
+      items:
+      - uid: Orama.Scenes.Components.Component
+        name: Component
+        type: Class
+      - uid: Orama.Scenes.Components.Transform
+        name: Transform
+        type: Class
+    - uid: Orama.Scenes.Entities
+      name: Entities
+      type: Namespace
+      items:
+      - uid: Orama.Scenes.Entities.Entity
+        name: Entity
+        type: Class
+      - uid: Orama.Scenes.Entities.EntityAttribute
+        name: EntityAttribute
+        type: Class
+      - uid: Orama.Scenes.Entities.EntityRegistry
+        name: EntityRegistry
+        type: Class
+      - uid: Orama.Scenes.Entities.ImplicitComponent
+        name: ImplicitComponent
+        type: Class
+    - uid: Orama.Scenes.Resources
+      name: Resources
+      type: Namespace
+      items:
+      - uid: Orama.Scenes.Resources.Scene
+        name: Scene
+        type: Class
+    - uid: Orama.Scenes.SceneModule
+      name: SceneModule
+      type: Class
+  - uid: Orama.Serialization
     name: Serialization
-    type: Class
-  - uid: Orama.Serialization.SerializationType
-    name: SerializationType
-    type: Enum
-- uid: Orama.Serialization.Attributes
-  name: Orama.Serialization.Attributes
-  type: Namespace
-  items:
-  - uid: Orama.Serialization.Attributes.AlwaysSerializeAttribute
-    name: AlwaysSerializeAttribute
-    type: Class
-  - uid: Orama.Serialization.Attributes.DontSerializeAttribute
-    name: DontSerializeAttribute
-    type: Class
-- uid: Orama.Serialization.Conversion
-  name: Orama.Serialization.Conversion
-  type: Namespace
-  items:
-  - uid: Orama.Serialization.Conversion.StringConverterAttribute
-    name: StringConverterAttribute
-    type: Class
-- uid: Orama.VirtualReality
-  name: Orama.VirtualReality
-  type: Namespace
-  items:
-  - uid: Orama.VirtualReality.InputModuleExtensions
-    name: InputModuleExtensions
-    type: Class
-  - uid: Orama.VirtualReality.VirtualRealityController
-    name: VirtualRealityController
-    type: Class
-  - uid: Orama.VirtualReality.VirtualRealityController.Button
-    name: VirtualRealityController.Button
-    type: Enum
-  - uid: Orama.VirtualReality.VirtualRealityController.HandType
-    name: VirtualRealityController.HandType
-    type: Enum
-  - uid: Orama.VirtualReality.VirtualRealityDevice
-    name: VirtualRealityDevice
-    type: Class
-  - uid: Orama.VirtualReality.VirtualRealityModule
-    name: VirtualRealityModule
-    type: Class
+    type: Namespace
+    items:
+    - uid: Orama.Serialization.Attributes
+      name: Attributes
+      type: Namespace
+      items:
+      - uid: Orama.Serialization.Attributes.AlwaysSerializeAttribute
+        name: AlwaysSerializeAttribute
+        type: Class
+      - uid: Orama.Serialization.Attributes.DontSerializeAttribute
+        name: DontSerializeAttribute
+        type: Class
+    - uid: Orama.Serialization.Conversion
+      name: Conversion
+      type: Namespace
+      items:
+      - uid: Orama.Serialization.Conversion.StringConverterAttribute
+        name: StringConverterAttribute
+        type: Class
+    - uid: Orama.Serialization.Serialization
+      name: Serialization
+      type: Class
+    - uid: Orama.Serialization.SerializationType
+      name: SerializationType
+      type: Enum
+  - uid: Orama.VirtualReality
+    name: VirtualReality
+    type: Namespace
+    items:
+    - uid: Orama.VirtualReality.InputModuleExtensions
+      name: InputModuleExtensions
+      type: Class
+    - uid: Orama.VirtualReality.VirtualRealityController
+      name: VirtualRealityController
+      type: Class
+    - uid: Orama.VirtualReality.VirtualRealityController.Button
+      name: VirtualRealityController.Button
+      type: Enum
+    - uid: Orama.VirtualReality.VirtualRealityController.HandType
+      name: VirtualRealityController.HandType
+      type: Enum
+    - uid: Orama.VirtualReality.VirtualRealityDevice
+      name: VirtualRealityDevice
+      type: Class
+    - uid: Orama.VirtualReality.VirtualRealityModule
+      name: VirtualRealityModule
+      type: Class
 memberLayout: SamePage

@@ -5,7 +5,7 @@ items:
   id: ResourceLayoutCache
   parent: Orama.Rendering.Resources.Caches
   children:
-  - Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
+  - Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
   langs:
   - csharp
   - vb
@@ -16,63 +16,64 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/ResourceLayoutCache.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceLayoutCache
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceLayoutCache.cs
-    startLine: 5
+    startLine: 7
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources.Caches
   syntax:
-    content: 'public sealed class ResourceLayoutCache : ResourceCache<ResourceLayoutCache, ResourceLayoutKey, ResourceLayout>'
-    content.vb: Public NotInheritable Class ResourceLayoutCache Inherits ResourceCache(Of ResourceLayoutCache, ResourceLayoutKey, ResourceLayout)
+    content: 'public sealed class ResourceLayoutCache : ResourceCache<ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout>'
+    content.vb: Public NotInheritable Class ResourceLayoutCache Inherits ResourceCache(Of ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout)
   inheritance:
   - System.Object
-  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}
   inheritedMembers:
-  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.Instance
-  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.Cache
-  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Instance
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Cache
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.GetOrCreate(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Get(Orama.RHI.Resources.ResourceLayoutDescriptor)
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
-  commentId: M:Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
-  id: Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
+- uid: Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  id: Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
   parent: Orama.Rendering.Resources.Caches.ResourceLayoutCache
   langs:
   - csharp
   - vb
-  name: Create(ResourceLayoutKey)
-  nameWithType: ResourceLayoutCache.Create(ResourceLayoutKey)
-  fullName: Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
+  name: Create(ResourceLayoutDescriptor)
+  nameWithType: ResourceLayoutCache.Create(ResourceLayoutDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
   type: Method
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/ResourceLayoutCache.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Create
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceLayoutCache.cs
-    startLine: 8
+    startLine: 10
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources.Caches
-  summary: Creates a new <xref href="NeoVeldrid.ResourceLayout" data-throw-if-not-resolved="false"></xref> for the given key.
+  summary: Creates a new <xref href="Orama.RHI.Resources.IResourceLayout" data-throw-if-not-resolved="false"></xref> for the given key.
   example: []
   syntax:
-    content: protected override ResourceLayout Create(ResourceLayoutKey key)
+    content: protected override IResourceLayout Create(ResourceLayoutDescriptor key)
     parameters:
     - id: key
-      type: Orama.Rendering.Resources.Caches.ResourceLayoutKey
+      type: Orama.RHI.Resources.ResourceLayoutDescriptor
     return:
-      type: NeoVeldrid.ResourceLayout
-    content.vb: Protected Overrides Function Create(key As ResourceLayoutKey) As ResourceLayout
-  overridden: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
+      type: Orama.RHI.Resources.IResourceLayout
+    content.vb: Protected Overrides Function Create(key As ResourceLayoutDescriptor) As IResourceLayout
+  overridden: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
   overload: Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create*
 references:
 - uid: Orama.Rendering.Resources.Caches
@@ -124,17 +125,17 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}
-  commentId: T:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}
+  commentId: T:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}
   parent: Orama.Rendering.Resources.Caches
   definition: Orama.Rendering.Resources.Caches.ResourceCache`3
   href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
-  name: ResourceCache<ResourceLayoutCache, ResourceLayoutKey, ResourceLayout>
-  nameWithType: ResourceCache<ResourceLayoutCache, ResourceLayoutKey, ResourceLayout>
-  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.Rendering.Resources.Caches.ResourceLayoutKey, NeoVeldrid.ResourceLayout>
-  nameWithType.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutKey, ResourceLayout)
-  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.Rendering.Resources.Caches.ResourceLayoutKey, NeoVeldrid.ResourceLayout)
-  name.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutKey, ResourceLayout)
+  name: ResourceCache<ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout>
+  nameWithType: ResourceCache<ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout>
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout>
+  nameWithType.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout)
+  name.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout)
   spec.csharp:
   - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
     name: ResourceCache
@@ -145,14 +146,14 @@ references:
     href: Orama.Rendering.Resources.Caches.ResourceLayoutCache.html
   - name: ','
   - name: " "
-  - uid: Orama.Rendering.Resources.Caches.ResourceLayoutKey
-    name: ResourceLayoutKey
-    href: Orama.Rendering.Resources.Caches.ResourceLayoutKey.html
+  - uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+    name: ResourceLayoutDescriptor
+    href: Orama.RHI.Resources.ResourceLayoutDescriptor.html
   - name: ','
   - name: " "
-  - uid: NeoVeldrid.ResourceLayout
-    name: ResourceLayout
-    isExternal: true
+  - uid: Orama.RHI.Resources.IResourceLayout
+    name: IResourceLayout
+    href: Orama.RHI.Resources.IResourceLayout.html
   - name: '>'
   spec.vb:
   - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
@@ -166,62 +167,90 @@ references:
     href: Orama.Rendering.Resources.Caches.ResourceLayoutCache.html
   - name: ','
   - name: " "
-  - uid: Orama.Rendering.Resources.Caches.ResourceLayoutKey
-    name: ResourceLayoutKey
-    href: Orama.Rendering.Resources.Caches.ResourceLayoutKey.html
+  - uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+    name: ResourceLayoutDescriptor
+    href: Orama.RHI.Resources.ResourceLayoutDescriptor.html
   - name: ','
   - name: " "
-  - uid: NeoVeldrid.ResourceLayout
-    name: ResourceLayout
-    isExternal: true
+  - uid: Orama.RHI.Resources.IResourceLayout
+    name: IResourceLayout
+    href: Orama.RHI.Resources.IResourceLayout.html
   - name: )
-- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.Instance
-  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.Instance
-  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Instance
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Instance
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}
   definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Instance
   href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Instance
   name: Instance
-  nameWithType: ResourceCache<ResourceLayoutCache, ResourceLayoutKey, ResourceLayout>.Instance
-  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.Rendering.Resources.Caches.ResourceLayoutKey, NeoVeldrid.ResourceLayout>.Instance
-  nameWithType.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutKey, ResourceLayout).Instance
-  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.Rendering.Resources.Caches.ResourceLayoutKey, NeoVeldrid.ResourceLayout).Instance
-- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.Cache
-  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.Cache
-  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}
+  nameWithType: ResourceCache<ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout>.Instance
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout>.Instance
+  nameWithType.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout).Instance
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout).Instance
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Cache
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Cache
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}
   definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Cache
   href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Cache
   name: Cache
-  nameWithType: ResourceCache<ResourceLayoutCache, ResourceLayoutKey, ResourceLayout>.Cache
-  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.Rendering.Resources.Caches.ResourceLayoutKey, NeoVeldrid.ResourceLayout>.Cache
-  nameWithType.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutKey, ResourceLayout).Cache
-  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.Rendering.Resources.Caches.ResourceLayoutKey, NeoVeldrid.ResourceLayout).Cache
-- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
-  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
-  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}
+  nameWithType: ResourceCache<ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout>.Cache
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout>.Cache
+  nameWithType.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout).Cache
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout).Cache
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.GetOrCreate(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.GetOrCreate(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}
   definition: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
   href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
-  name: GetOrCreate(ResourceLayoutKey)
-  nameWithType: ResourceCache<ResourceLayoutCache, ResourceLayoutKey, ResourceLayout>.GetOrCreate(ResourceLayoutKey)
-  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.Rendering.Resources.Caches.ResourceLayoutKey, NeoVeldrid.ResourceLayout>.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
-  nameWithType.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutKey, ResourceLayout).GetOrCreate(ResourceLayoutKey)
-  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.Rendering.Resources.Caches.ResourceLayoutKey, NeoVeldrid.ResourceLayout).GetOrCreate(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
+  name: GetOrCreate(ResourceLayoutDescriptor)
+  nameWithType: ResourceCache<ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout>.GetOrCreate(ResourceLayoutDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout>.GetOrCreate(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  nameWithType.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout).GetOrCreate(ResourceLayoutDescriptor)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout).GetOrCreate(Orama.RHI.Resources.ResourceLayoutDescriptor)
   spec.csharp:
-  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.GetOrCreate(Orama.RHI.Resources.ResourceLayoutDescriptor)
     name: GetOrCreate
     href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
   - name: (
-  - uid: Orama.Rendering.Resources.Caches.ResourceLayoutKey
-    name: ResourceLayoutKey
-    href: Orama.Rendering.Resources.Caches.ResourceLayoutKey.html
+  - uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+    name: ResourceLayoutDescriptor
+    href: Orama.RHI.Resources.ResourceLayoutDescriptor.html
   - name: )
   spec.vb:
-  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.GetOrCreate(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.GetOrCreate(Orama.RHI.Resources.ResourceLayoutDescriptor)
     name: GetOrCreate
     href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
   - name: (
-  - uid: Orama.Rendering.Resources.Caches.ResourceLayoutKey
-    name: ResourceLayoutKey
-    href: Orama.Rendering.Resources.Caches.ResourceLayoutKey.html
+  - uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+    name: ResourceLayoutDescriptor
+    href: Orama.RHI.Resources.ResourceLayoutDescriptor.html
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Get(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Get(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(ResourceLayoutDescriptor)
+  nameWithType: ResourceCache<ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout>.Get(ResourceLayoutDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout>.Get(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  nameWithType.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout).Get(ResourceLayoutDescriptor)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout).Get(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Get(Orama.RHI.Resources.ResourceLayoutDescriptor)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+    name: ResourceLayoutDescriptor
+    href: Orama.RHI.Resources.ResourceLayoutDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Get(Orama.RHI.Resources.ResourceLayoutDescriptor)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+    name: ResourceLayoutDescriptor
+    href: Orama.RHI.Resources.ResourceLayoutDescriptor.html
   - name: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
@@ -500,60 +529,106 @@ references:
   - name: (
   - name: TKey
   - name: )
-- uid: NeoVeldrid.ResourceLayout
-  commentId: T:NeoVeldrid.ResourceLayout
-  parent: NeoVeldrid
-  isExternal: true
-  name: ResourceLayout
-  nameWithType: ResourceLayout
-  fullName: NeoVeldrid.ResourceLayout
-- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
-  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
-  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}
-  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
-  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
-  name: Create(ResourceLayoutKey)
-  nameWithType: ResourceCache<ResourceLayoutCache, ResourceLayoutKey, ResourceLayout>.Create(ResourceLayoutKey)
-  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.Rendering.Resources.Caches.ResourceLayoutKey, NeoVeldrid.ResourceLayout>.Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
-  nameWithType.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutKey, ResourceLayout).Create(ResourceLayoutKey)
-  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.Rendering.Resources.Caches.ResourceLayoutKey, NeoVeldrid.ResourceLayout).Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
   spec.csharp:
-  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
-    name: Create
-    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
   - name: (
-  - uid: Orama.Rendering.Resources.Caches.ResourceLayoutKey
-    name: ResourceLayoutKey
-    href: Orama.Rendering.Resources.Caches.ResourceLayoutKey.html
+  - name: TKey
   - name: )
   spec.vb:
-  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.Rendering.Resources.Caches.ResourceLayoutKey,NeoVeldrid.ResourceLayout}.Create(Orama.Rendering.Resources.Caches.ResourceLayoutKey)
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Orama.RHI.Resources.IResourceLayout
+  commentId: T:Orama.RHI.Resources.IResourceLayout
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.IResourceLayout.html
+  name: IResourceLayout
+  nameWithType: IResourceLayout
+  fullName: Orama.RHI.Resources.IResourceLayout
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  name: Create(ResourceLayoutDescriptor)
+  nameWithType: ResourceCache<ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout>.Create(ResourceLayoutDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout>.Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  nameWithType.vb: ResourceCache(Of ResourceLayoutCache, ResourceLayoutDescriptor, IResourceLayout).Create(ResourceLayoutDescriptor)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ResourceLayoutCache, Orama.RHI.Resources.ResourceLayoutDescriptor, Orama.RHI.Resources.IResourceLayout).Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
     name: Create
     href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
   - name: (
-  - uid: Orama.Rendering.Resources.Caches.ResourceLayoutKey
-    name: ResourceLayoutKey
-    href: Orama.Rendering.Resources.Caches.ResourceLayoutKey.html
+  - uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+    name: ResourceLayoutDescriptor
+    href: Orama.RHI.Resources.ResourceLayoutDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ResourceLayoutCache,Orama.RHI.Resources.ResourceLayoutDescriptor,Orama.RHI.Resources.IResourceLayout}.Create(Orama.RHI.Resources.ResourceLayoutDescriptor)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+    name: ResourceLayoutDescriptor
+    href: Orama.RHI.Resources.ResourceLayoutDescriptor.html
   - name: )
 - uid: Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create*
   commentId: Overload:Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create
-  href: Orama.Rendering.Resources.Caches.ResourceLayoutCache.html#Orama_Rendering_Resources_Caches_ResourceLayoutCache_Create_Orama_Rendering_Resources_Caches_ResourceLayoutKey_
+  href: Orama.Rendering.Resources.Caches.ResourceLayoutCache.html#Orama_Rendering_Resources_Caches_ResourceLayoutCache_Create_Orama_RHI_Resources_ResourceLayoutDescriptor_
   name: Create
   nameWithType: ResourceLayoutCache.Create
   fullName: Orama.Rendering.Resources.Caches.ResourceLayoutCache.Create
-- uid: Orama.Rendering.Resources.Caches.ResourceLayoutKey
-  commentId: T:Orama.Rendering.Resources.Caches.ResourceLayoutKey
-  parent: Orama.Rendering.Resources.Caches
-  href: Orama.Rendering.Resources.Caches.ResourceLayoutKey.html
-  name: ResourceLayoutKey
-  nameWithType: ResourceLayoutKey
-  fullName: Orama.Rendering.Resources.Caches.ResourceLayoutKey
-- uid: NeoVeldrid
-  commentId: N:NeoVeldrid
-  isExternal: true
-  name: NeoVeldrid
-  nameWithType: NeoVeldrid
-  fullName: NeoVeldrid
+- uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+  commentId: T:Orama.RHI.Resources.ResourceLayoutDescriptor
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.ResourceLayoutDescriptor.html
+  name: ResourceLayoutDescriptor
+  nameWithType: ResourceLayoutDescriptor
+  fullName: Orama.RHI.Resources.ResourceLayoutDescriptor
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
 - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
   commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
   href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_

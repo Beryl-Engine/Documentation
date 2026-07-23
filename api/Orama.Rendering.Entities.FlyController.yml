@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Entities/FlyController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: FlyController
     path: ../Orama/Modules/Orama.Rendering/Entities/FlyController.cs
-    startLine: 11
+    startLine: 13
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Entities
@@ -76,11 +76,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Entities/FlyController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Camera
     path: ../Orama/Modules/Orama.Rendering/Entities/FlyController.cs
-    startLine: 14
+    startLine: 16
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Entities
@@ -105,11 +105,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Entities/FlyController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Rendering/Entities/FlyController.cs
-    startLine: 24
+    startLine: 26
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Entities

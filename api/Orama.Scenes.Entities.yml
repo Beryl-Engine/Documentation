@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Scenes.Entities
   commentId: N:Orama.Scenes.Entities
-  id: Orama.Scenes.Entities
+  id: Entities
+  parent: Orama.Scenes
   children:
   - Orama.Scenes.Entities.Entity
   - Orama.Scenes.Entities.EntityAttribute
@@ -32,18 +33,18 @@ references:
   name: EntityAttribute
   nameWithType: EntityAttribute
   fullName: Orama.Scenes.Entities.EntityAttribute
-- uid: Orama.Scenes.Entities.ImplicitComponent
-  commentId: T:Orama.Scenes.Entities.ImplicitComponent
-  href: Orama.Scenes.Entities.ImplicitComponent.html
-  name: ImplicitComponent
-  nameWithType: ImplicitComponent
-  fullName: Orama.Scenes.Entities.ImplicitComponent
 - uid: Orama.Scenes.Entities.EntityRegistry
   commentId: T:Orama.Scenes.Entities.EntityRegistry
   href: Orama.Scenes.Entities.EntityRegistry.html
   name: EntityRegistry
   nameWithType: EntityRegistry
   fullName: Orama.Scenes.Entities.EntityRegistry
+- uid: Orama.Scenes.Entities.ImplicitComponent
+  commentId: T:Orama.Scenes.Entities.ImplicitComponent
+  href: Orama.Scenes.Entities.ImplicitComponent.html
+  name: ImplicitComponent
+  nameWithType: ImplicitComponent
+  fullName: Orama.Scenes.Entities.ImplicitComponent
 - uid: Orama.Scenes.Entities
   commentId: N:Orama.Scenes.Entities
   href: Orama.html

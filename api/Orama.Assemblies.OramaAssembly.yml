@@ -6,6 +6,7 @@ items:
   parent: Orama.Assemblies
   children:
   - Orama.Assemblies.OramaAssembly.Assembly
+  - Orama.Assemblies.OramaAssembly.AssemblyLoadDelegates
   - Orama.Assemblies.OramaAssembly.Path
   - Orama.Assemblies.OramaAssembly.ToString
   - Orama.Assemblies.OramaAssembly.TryUnload
@@ -23,11 +24,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: OramaAssembly
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -58,11 +59,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Path
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -89,11 +90,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Assembly
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -120,11 +121,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Unloaded
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
-    startLine: 20
+    startLine: 23
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -149,11 +150,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Types
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
-    startLine: 24
+    startLine: 27
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -167,6 +168,38 @@ items:
       type: System.Type[]
     content.vb: Public ReadOnly Property Types As Type()
   overload: Orama.Assemblies.OramaAssembly.Types*
+- uid: Orama.Assemblies.OramaAssembly.AssemblyLoadDelegates
+  commentId: P:Orama.Assemblies.OramaAssembly.AssemblyLoadDelegates
+  id: AssemblyLoadDelegates
+  parent: Orama.Assemblies.OramaAssembly
+  langs:
+  - csharp
+  - vb
+  name: AssemblyLoadDelegates
+  nameWithType: OramaAssembly.AssemblyLoadDelegates
+  fullName: Orama.Assemblies.OramaAssembly.AssemblyLoadDelegates
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Assemblies/OramaAssembly.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: AssemblyLoadDelegates
+    path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
+    startLine: 41
+  assemblies:
+  - Orama.Assemblies
+  namespace: Orama.Assemblies
+  summary: All static methods in the <xref href="Orama.Assemblies.OramaAssembly" data-throw-if-not-resolved="false"></xref> marked with <xref href="Orama.Assemblies.OnAssemblyLoadAttribute" data-throw-if-not-resolved="false"></xref>.
+  remarks: This is a cached property.
+  example: []
+  syntax:
+    content: public Action[] AssemblyLoadDelegates { get; }
+    parameters: []
+    return:
+      type: System.Action[]
+    content.vb: Public ReadOnly Property AssemblyLoadDelegates As Action()
+  overload: Orama.Assemblies.OramaAssembly.AssemblyLoadDelegates*
 - uid: Orama.Assemblies.OramaAssembly.TryUnload
   commentId: M:Orama.Assemblies.OramaAssembly.TryUnload
   id: TryUnload
@@ -181,11 +214,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: TryUnload
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
-    startLine: 46
+    startLine: 83
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -212,11 +245,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ToString
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
-    startLine: 57
+    startLine: 94
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -244,11 +277,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Implicit
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
-    startLine: 59
+    startLine: 96
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -278,11 +311,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Implicit
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
-    startLine: 60
+    startLine: 97
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -671,6 +704,41 @@ references:
     name: Type
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: (
+  - name: )
+- uid: Orama.Assemblies.OnAssemblyLoadAttribute
+  commentId: T:Orama.Assemblies.OnAssemblyLoadAttribute
+  href: Orama.Assemblies.OnAssemblyLoadAttribute.html
+  name: OnAssemblyLoadAttribute
+  nameWithType: OnAssemblyLoadAttribute
+  fullName: Orama.Assemblies.OnAssemblyLoadAttribute
+- uid: Orama.Assemblies.OramaAssembly.AssemblyLoadDelegates*
+  commentId: Overload:Orama.Assemblies.OramaAssembly.AssemblyLoadDelegates
+  href: Orama.Assemblies.OramaAssembly.html#Orama_Assemblies_OramaAssembly_AssemblyLoadDelegates
+  name: AssemblyLoadDelegates
+  nameWithType: OramaAssembly.AssemblyLoadDelegates
+  fullName: Orama.Assemblies.OramaAssembly.AssemblyLoadDelegates
+- uid: System.Action[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action[]
+  nameWithType: Action[]
+  fullName: System.Action[]
+  nameWithType.vb: Action()
+  fullName.vb: System.Action()
+  name.vb: Action()
+  spec.csharp:
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
   - name: (
   - name: )
 - uid: Orama.Assemblies.OramaAssembly.TryUnload*

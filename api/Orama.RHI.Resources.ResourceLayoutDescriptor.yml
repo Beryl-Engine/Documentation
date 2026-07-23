@@ -1,0 +1,560 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+  commentId: T:Orama.RHI.Resources.ResourceLayoutDescriptor
+  id: ResourceLayoutDescriptor
+  parent: Orama.RHI.Resources
+  children:
+  - Orama.RHI.Resources.ResourceLayoutDescriptor.#ctor(System.ReadOnlySpan{Orama.RHI.Resources.ResourceLayoutElementDescription})
+  - Orama.RHI.Resources.ResourceLayoutDescriptor.Elements
+  - Orama.RHI.Resources.ResourceLayoutDescriptor.GetHashCode
+  - Orama.RHI.Resources.ResourceLayoutDescriptor.Hash
+  langs:
+  - csharp
+  - vb
+  name: ResourceLayoutDescriptor
+  nameWithType: ResourceLayoutDescriptor
+  fullName: Orama.RHI.Resources.ResourceLayoutDescriptor
+  type: Struct
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ResourceLayoutDescriptor
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 116
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: 'public readonly ref struct ResourceLayoutDescriptor : IAlwaysHashable'
+    content.vb: Public Structure ResourceLayoutDescriptor Implements IAlwaysHashable
+  implements:
+  - Orama.Common.Standard.IAlwaysHashable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Orama.RHI.Resources.ResourceLayoutDescriptor.#ctor(System.ReadOnlySpan{Orama.RHI.Resources.ResourceLayoutElementDescription})
+  commentId: M:Orama.RHI.Resources.ResourceLayoutDescriptor.#ctor(System.ReadOnlySpan{Orama.RHI.Resources.ResourceLayoutElementDescription})
+  id: '#ctor(System.ReadOnlySpan{Orama.RHI.Resources.ResourceLayoutElementDescription})'
+  parent: Orama.RHI.Resources.ResourceLayoutDescriptor
+  langs:
+  - csharp
+  - vb
+  name: ResourceLayoutDescriptor(ReadOnlySpan<ResourceLayoutElementDescription>)
+  nameWithType: ResourceLayoutDescriptor.ResourceLayoutDescriptor(ReadOnlySpan<ResourceLayoutElementDescription>)
+  fullName: Orama.RHI.Resources.ResourceLayoutDescriptor.ResourceLayoutDescriptor(System.ReadOnlySpan<Orama.RHI.Resources.ResourceLayoutElementDescription>)
+  type: Constructor
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: .ctor
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 116
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: public ResourceLayoutDescriptor(ReadOnlySpan<ResourceLayoutElementDescription> elements)
+    parameters:
+    - id: elements
+      type: System.ReadOnlySpan{Orama.RHI.Resources.ResourceLayoutElementDescription}
+    content.vb: Public Sub New(elements As ReadOnlySpan(Of ResourceLayoutElementDescription))
+  overload: Orama.RHI.Resources.ResourceLayoutDescriptor.#ctor*
+  nameWithType.vb: ResourceLayoutDescriptor.New(ReadOnlySpan(Of ResourceLayoutElementDescription))
+  fullName.vb: Orama.RHI.Resources.ResourceLayoutDescriptor.New(System.ReadOnlySpan(Of Orama.RHI.Resources.ResourceLayoutElementDescription))
+  name.vb: New(ReadOnlySpan(Of ResourceLayoutElementDescription))
+- uid: Orama.RHI.Resources.ResourceLayoutDescriptor.Elements
+  commentId: F:Orama.RHI.Resources.ResourceLayoutDescriptor.Elements
+  id: Elements
+  parent: Orama.RHI.Resources.ResourceLayoutDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Elements
+  nameWithType: ResourceLayoutDescriptor.Elements
+  fullName: Orama.RHI.Resources.ResourceLayoutDescriptor.Elements
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Elements
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 118
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: public readonly ReadOnlySpan<ResourceLayoutElementDescription> Elements
+    return:
+      type: System.ReadOnlySpan{Orama.RHI.Resources.ResourceLayoutElementDescription}
+    content.vb: Public ReadOnly Elements As ReadOnlySpan(Of ResourceLayoutElementDescription)
+- uid: Orama.RHI.Resources.ResourceLayoutDescriptor.Hash
+  commentId: P:Orama.RHI.Resources.ResourceLayoutDescriptor.Hash
+  id: Hash
+  parent: Orama.RHI.Resources.ResourceLayoutDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: ResourceLayoutDescriptor.Hash
+  fullName: Orama.RHI.Resources.ResourceLayoutDescriptor.Hash
+  type: Property
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Hash
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 121
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  example: []
+  syntax:
+    content: public int Hash { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Hash As Integer
+  overload: Orama.RHI.Resources.ResourceLayoutDescriptor.Hash*
+- uid: Orama.RHI.Resources.ResourceLayoutDescriptor.GetHashCode
+  commentId: M:Orama.RHI.Resources.ResourceLayoutDescriptor.GetHashCode
+  id: GetHashCode
+  parent: Orama.RHI.Resources.ResourceLayoutDescriptor
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ResourceLayoutDescriptor.GetHashCode()
+  fullName: Orama.RHI.Resources.ResourceLayoutDescriptor.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: GetHashCode
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 124
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Orama.RHI.Resources.ResourceLayoutDescriptor.GetHashCode*
+  implements:
+  - Orama.Common.Standard.IAlwaysHashable.GetHashCode
+references:
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: Orama.Common.Standard.IAlwaysHashable
+  commentId: T:Orama.Common.Standard.IAlwaysHashable
+  parent: Orama.Common.Standard
+  href: Orama.Common.Standard.IAlwaysHashable.html
+  name: IAlwaysHashable
+  nameWithType: IAlwaysHashable
+  fullName: Orama.Common.Standard.IAlwaysHashable
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Orama.Common.Standard
+  commentId: N:Orama.Common.Standard
+  href: Orama.html
+  name: Orama.Common.Standard
+  nameWithType: Orama.Common.Standard
+  fullName: Orama.Common.Standard
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Standard
+    name: Standard
+    href: Orama.Common.Standard.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Standard
+    name: Standard
+    href: Orama.Common.Standard.html
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.RHI.Resources.ResourceLayoutDescriptor.#ctor*
+  commentId: Overload:Orama.RHI.Resources.ResourceLayoutDescriptor.#ctor
+  href: Orama.RHI.Resources.ResourceLayoutDescriptor.html#Orama_RHI_Resources_ResourceLayoutDescriptor__ctor_System_ReadOnlySpan_Orama_RHI_Resources_ResourceLayoutElementDescription__
+  name: ResourceLayoutDescriptor
+  nameWithType: ResourceLayoutDescriptor.ResourceLayoutDescriptor
+  fullName: Orama.RHI.Resources.ResourceLayoutDescriptor.ResourceLayoutDescriptor
+  nameWithType.vb: ResourceLayoutDescriptor.New
+  fullName.vb: Orama.RHI.Resources.ResourceLayoutDescriptor.New
+  name.vb: New
+- uid: System.ReadOnlySpan{Orama.RHI.Resources.ResourceLayoutElementDescription}
+  commentId: T:System.ReadOnlySpan{Orama.RHI.Resources.ResourceLayoutElementDescription}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<ResourceLayoutElementDescription>
+  nameWithType: ReadOnlySpan<ResourceLayoutElementDescription>
+  fullName: System.ReadOnlySpan<Orama.RHI.Resources.ResourceLayoutElementDescription>
+  nameWithType.vb: ReadOnlySpan(Of ResourceLayoutElementDescription)
+  fullName.vb: System.ReadOnlySpan(Of Orama.RHI.Resources.ResourceLayoutElementDescription)
+  name.vb: ReadOnlySpan(Of ResourceLayoutElementDescription)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: Orama.RHI.Resources.ResourceLayoutElementDescription
+    name: ResourceLayoutElementDescription
+    href: Orama.RHI.Resources.ResourceLayoutElementDescription.html
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Orama.RHI.Resources.ResourceLayoutElementDescription
+    name: ResourceLayoutElementDescription
+    href: Orama.RHI.Resources.ResourceLayoutElementDescription.html
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Orama.RHI.Resources.ResourceLayoutDescriptor.Hash*
+  commentId: Overload:Orama.RHI.Resources.ResourceLayoutDescriptor.Hash
+  href: Orama.RHI.Resources.ResourceLayoutDescriptor.html#Orama_RHI_Resources_ResourceLayoutDescriptor_Hash
+  name: Hash
+  nameWithType: ResourceLayoutDescriptor.Hash
+  fullName: Orama.RHI.Resources.ResourceLayoutDescriptor.Hash
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Orama.RHI.Resources.ResourceLayoutDescriptor.GetHashCode*
+  commentId: Overload:Orama.RHI.Resources.ResourceLayoutDescriptor.GetHashCode
+  href: Orama.RHI.Resources.ResourceLayoutDescriptor.html#Orama_RHI_Resources_ResourceLayoutDescriptor_GetHashCode
+  name: GetHashCode
+  nameWithType: ResourceLayoutDescriptor.GetHashCode
+  fullName: Orama.RHI.Resources.ResourceLayoutDescriptor.GetHashCode
+- uid: Orama.Common.Standard.IAlwaysHashable.GetHashCode
+  commentId: M:Orama.Common.Standard.IAlwaysHashable.GetHashCode
+  parent: Orama.Common.Standard.IAlwaysHashable
+  href: Orama.Common.Standard.IAlwaysHashable.html#Orama_Common_Standard_IAlwaysHashable_GetHashCode
+  name: GetHashCode()
+  nameWithType: IAlwaysHashable.GetHashCode()
+  fullName: Orama.Common.Standard.IAlwaysHashable.GetHashCode()
+  spec.csharp:
+  - uid: Orama.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Orama.Common.Standard.IAlwaysHashable.html#Orama_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Orama.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Orama.Common.Standard.IAlwaysHashable.html#Orama_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )

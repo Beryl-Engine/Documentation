@@ -16,11 +16,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/Forward/ForwardRenderPipeline.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ForwardRenderPipeline
     path: ../Orama/Modules/Orama.Rendering/Pipelines/Forward/ForwardRenderPipeline.cs
-    startLine: 3
+    startLine: 5
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines.Forward
@@ -53,11 +53,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/Forward/ForwardRenderPipeline.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Passes
     path: ../Orama/Modules/Orama.Rendering/Pipelines/Forward/ForwardRenderPipeline.cs
-    startLine: 6
+    startLine: 8
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines.Forward

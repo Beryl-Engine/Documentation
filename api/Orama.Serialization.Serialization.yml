@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: Orama.Serialization/Serialization.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Serialization
     path: ../Orama/Orama.Serialization/Serialization.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - Orama.Serialization
   namespace: Orama.Serialization
@@ -53,11 +53,11 @@ items:
   source:
     remote:
       path: Orama.Serialization/Serialization.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: DefaultType
     path: ../Orama/Orama.Serialization/Serialization.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - Orama.Serialization
   namespace: Orama.Serialization
@@ -82,11 +82,11 @@ items:
   source:
     remote:
       path: Orama.Serialization/Serialization.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Serialize
     path: ../Orama/Orama.Serialization/Serialization.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Orama.Serialization
   namespace: Orama.Serialization
@@ -122,18 +122,18 @@ items:
   source:
     remote:
       path: Orama.Serialization/Serialization.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Deserialize
     path: ../Orama/Orama.Serialization/Serialization.cs
-    startLine: 26
+    startLine: 30
   assemblies:
   - Orama.Serialization
   namespace: Orama.Serialization
   summary: Deserializes a byte array to an object.
   example: []
   syntax:
-    content: 'public static T Deserialize<T>(byte[] data, SerializationType type = SerializationType.YAML) where T : new()'
+    content: 'public static T? Deserialize<T>(byte[] data, SerializationType type = SerializationType.YAML) where T : new()'
     parameters:
     - id: data
       type: System.Byte[]
@@ -143,6 +143,7 @@ items:
     - id: T
     return:
       type: '{T}'
+      description: The deserialized <code class="typeparamref">T</code> or <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if deserialization failed.
     content.vb: Public Shared Function Deserialize(Of T As New)(data As Byte(), type As SerializationType = SerializationType.YAML) As T
   overload: Orama.Serialization.Serialization.Deserialize*
   nameWithType.vb: Serialization.Deserialize(Of T)(Byte(), SerializationType)

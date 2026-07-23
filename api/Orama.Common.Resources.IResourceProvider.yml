@@ -16,11 +16,11 @@ items:
   source:
     remote:
       path: Orama.Common/Resources/IResourceProvider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IResourceProvider
     path: ../Orama/Orama.Common/Resources/IResourceProvider.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Orama.Common
   namespace: Orama.Common.Resources
@@ -43,11 +43,11 @@ items:
   source:
     remote:
       path: Orama.Common/Resources/IResourceProvider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetResource
     path: ../Orama/Orama.Common/Resources/IResourceProvider.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Orama.Common
   namespace: Orama.Common.Resources

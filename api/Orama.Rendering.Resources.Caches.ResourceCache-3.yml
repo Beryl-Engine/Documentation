@@ -7,7 +7,9 @@ items:
   children:
   - Orama.Rendering.Resources.Caches.ResourceCache`3.Cache
   - Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  - Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
   - Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  - Orama.Rendering.Resources.Caches.ResourceCache`3.InitializeNewCacheEntry(`1)
   - Orama.Rendering.Resources.Caches.ResourceCache`3.Instance
   langs:
   - csharp
@@ -19,33 +21,36 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceCache
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-    startLine: 7
+    startLine: 12
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources.Caches
   summary: Base class for resource caches.
   example: []
   syntax:
-    content: 'public abstract class ResourceCache<TSingletonOwner, TKey, TResource> where TSingletonOwner : ResourceCache<TSingletonOwner, TKey, TResource>, new() where TKey : notnull where TResource : IDisposable'
+    content: 'public abstract class ResourceCache<TSingletonOwner, TKey, TResource> where TSingletonOwner : new() where TKey : IAlwaysHashable, allows ref struct where TResource : IDisposable'
     typeParameters:
     - id: TSingletonOwner
     - id: TKey
       description: The type of the key.
     - id: TResource
       description: The type of the resource.
-    content.vb: Public MustInherit Class ResourceCache(Of TSingletonOwner As {ResourceCache(Of TSingletonOwner, TKey, TResource), New}, TKey, TResource As IDisposable)
+    content.vb: Public MustInherit Class ResourceCache(Of TSingletonOwner As New, TKey As IAlwaysHashable, TResource As IDisposable)
   inheritance:
   - System.Object
   derivedClasses:
-  - Orama.Rendering.Resources.Caches.DeviceBufferCache
+  - Orama.Rendering.Resources.Caches.ConstantBufferCache
   - Orama.Rendering.Resources.Caches.PipelineCache
   - Orama.Rendering.Resources.Caches.RenderItemCache
   - Orama.Rendering.Resources.Caches.ResourceLayoutCache
   - Orama.Rendering.Resources.Caches.ResourceSetCache
+  - Orama.Rendering.Resources.Caches.SamplerCache
+  - Orama.Rendering.Resources.Caches.TextureCache
+  - Orama.Rendering.Resources.Caches.TextureViewCache
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -71,11 +76,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Instance
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-    startLine: 10
+    startLine: 15
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources.Caches
@@ -104,20 +109,20 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Cache
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-    startLine: 12
+    startLine: 17
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources.Caches
   syntax:
-    content: public Dictionary<TKey, FrameCountedResource<TResource>> Cache { get; }
+    content: public Dictionary<int, FrameCountedResource<TResource>> Cache { get; }
     parameters: []
     return:
-      type: System.Collections.Generic.Dictionary{{TKey},Orama.Rendering.Resources.FrameCountedResource{{TResource}}}
-    content.vb: Public ReadOnly Property Cache As Dictionary(Of TKey, FrameCountedResource(Of TResource))
+      type: System.Collections.Generic.Dictionary{System.Int32,Orama.Rendering.Resources.FrameCountedResource{{TResource}}}
+    content.vb: Public ReadOnly Property Cache As Dictionary(Of Integer, FrameCountedResource(Of TResource))
   overload: Orama.Rendering.Resources.Caches.ResourceCache`3.Cache*
   nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
   fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
@@ -135,11 +140,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Create
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-    startLine: 15
+    startLine: 20
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources.Caches
@@ -170,11 +175,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetOrCreate
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-    startLine: 18
+    startLine: 23
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources.Caches
@@ -191,6 +196,74 @@ items:
   overload: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate*
   nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
   fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  id: Get(`1)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache`3
+  langs:
+  - csharp
+  - vb
+  name: Get(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Get
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
+    startLine: 38
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  summary: Gets a <code class="typeparamref">TResource</code> for the given key.
+  example: []
+  syntax:
+    content: public FrameCountedResource<TResource>? Get(TKey key)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    return:
+      type: Orama.Rendering.Resources.FrameCountedResource{{TResource}}
+    content.vb: Public Function [Get](key As TKey) As FrameCountedResource(Of TResource)
+  overload: Orama.Rendering.Resources.Caches.ResourceCache`3.Get*
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.InitializeNewCacheEntry(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.InitializeNewCacheEntry(`1)
+  id: InitializeNewCacheEntry(`1)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache`3
+  langs:
+  - csharp
+  - vb
+  name: InitializeNewCacheEntry(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.InitializeNewCacheEntry(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.InitializeNewCacheEntry(TKey)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: InitializeNewCacheEntry
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
+    startLine: 50
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: protected FrameCountedResource<TResource> InitializeNewCacheEntry(TKey key)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    return:
+      type: Orama.Rendering.Resources.FrameCountedResource{{TResource}}
+    content.vb: Protected Function InitializeNewCacheEntry(key As TKey) As FrameCountedResource(Of TResource)
+  overload: Orama.Rendering.Resources.Caches.ResourceCache`3.InitializeNewCacheEntry*
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).InitializeNewCacheEntry(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).InitializeNewCacheEntry(TKey)
 references:
 - uid: Orama.Rendering.Resources.Caches
   commentId: N:Orama.Rendering.Resources.Caches
@@ -482,7 +555,6 @@ references:
   nameWithType: TSingletonOwner
   fullName: TSingletonOwner
 - uid: TSingletonOwner
-  commentId: '!:TSingletonOwner'
   name: TSingletonOwner
   nameWithType: TSingletonOwner
   fullName: TSingletonOwner
@@ -494,24 +566,27 @@ references:
   fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Cache
   nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
   fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
-- uid: System.Collections.Generic.Dictionary{{TKey},Orama.Rendering.Resources.FrameCountedResource{{TResource}}}
-  commentId: T:System.Collections.Generic.Dictionary{`1,Orama.Rendering.Resources.FrameCountedResource{`2}}
+- uid: System.Collections.Generic.Dictionary{System.Int32,Orama.Rendering.Resources.FrameCountedResource{{TResource}}}
+  commentId: T:System.Collections.Generic.Dictionary{System.Int32,Orama.Rendering.Resources.FrameCountedResource{`2}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.Dictionary`2
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, FrameCountedResource<TResource>>
-  nameWithType: Dictionary<TKey, FrameCountedResource<TResource>>
-  fullName: System.Collections.Generic.Dictionary<TKey, Orama.Rendering.Resources.FrameCountedResource<TResource>>
-  nameWithType.vb: Dictionary(Of TKey, FrameCountedResource(Of TResource))
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, Orama.Rendering.Resources.FrameCountedResource(Of TResource))
-  name.vb: Dictionary(Of TKey, FrameCountedResource(Of TResource))
+  name: Dictionary<int, FrameCountedResource<TResource>>
+  nameWithType: Dictionary<int, FrameCountedResource<TResource>>
+  fullName: System.Collections.Generic.Dictionary<int, Orama.Rendering.Resources.FrameCountedResource<TResource>>
+  nameWithType.vb: Dictionary(Of Integer, FrameCountedResource(Of TResource))
+  fullName.vb: System.Collections.Generic.Dictionary(Of Integer, Orama.Rendering.Resources.FrameCountedResource(Of TResource))
+  name.vb: Dictionary(Of Integer, FrameCountedResource(Of TResource))
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ','
   - name: " "
   - uid: Orama.Rendering.Resources.FrameCountedResource`1
@@ -529,7 +604,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - name: TKey
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ','
   - name: " "
   - uid: Orama.Rendering.Resources.FrameCountedResource`1
@@ -731,3 +809,19 @@ references:
   - uid: Orama.Rendering.Resources
     name: Resources
     href: Orama.Rendering.Resources.html
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get*
+  commentId: Overload:Orama.Rendering.Resources.Caches.ResourceCache`3.Get
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Get
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Get
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Get
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Get
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.InitializeNewCacheEntry*
+  commentId: Overload:Orama.Rendering.Resources.Caches.ResourceCache`3.InitializeNewCacheEntry
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_InitializeNewCacheEntry__1_
+  name: InitializeNewCacheEntry
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.InitializeNewCacheEntry
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.InitializeNewCacheEntry
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).InitializeNewCacheEntry
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).InitializeNewCacheEntry

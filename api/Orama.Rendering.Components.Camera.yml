@@ -25,11 +25,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Camera
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
-    startLine: 7
+    startLine: 9
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Components
@@ -66,11 +66,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: FOV
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
-    startLine: 10
+    startLine: 12
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Components
@@ -97,11 +97,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AspectRatio
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
-    startLine: 13
+    startLine: 15
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Components
@@ -128,11 +128,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ZNear
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
-    startLine: 16
+    startLine: 18
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Components
@@ -159,11 +159,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ZFar
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
-    startLine: 19
+    startLine: 21
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Components
@@ -190,11 +190,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Target
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
-    startLine: 22
+    startLine: 24
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Components
@@ -221,11 +221,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Main
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
-    startLine: 25
+    startLine: 27
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Components
@@ -252,11 +252,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ViewMatrix
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
-    startLine: 28
+    startLine: 30
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Components
@@ -283,11 +283,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ProjectionMatrix
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
-    startLine: 41
+    startLine: 37
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Components
@@ -314,11 +314,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: OrthographicMatrix
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
-    startLine: 60
+    startLine: 56
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Components
@@ -345,11 +345,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
-    startLine: 84
+    startLine: 80
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Components

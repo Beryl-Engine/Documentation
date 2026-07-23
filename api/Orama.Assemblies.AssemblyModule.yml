@@ -19,11 +19,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/AssemblyModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AssemblyModule
     path: ../Orama/Modules/Orama.Assemblies/AssemblyModule.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -60,11 +60,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/AssemblyModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Assemblies/AssemblyModule.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -90,11 +90,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/AssemblyModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.Assemblies/AssemblyModule.cs
-    startLine: 20
+    startLine: 23
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -119,11 +119,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/AssemblyModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: LoadFromPath
     path: ../Orama/Modules/Orama.Assemblies/AssemblyModule.cs
-    startLine: 27
+    startLine: 30
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -155,11 +155,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/AssemblyModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: UnloadAll
     path: ../Orama/Modules/Orama.Assemblies/AssemblyModule.cs
-    startLine: 44
+    startLine: 47
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies

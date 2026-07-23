@@ -46,11 +46,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Vector4
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 6
+    startLine: 8
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -79,11 +79,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: X
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 9
+    startLine: 11
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -110,11 +110,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Y
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 12
+    startLine: 14
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -141,11 +141,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Z
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 15
+    startLine: 17
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -172,11 +172,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: W
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 18
+    startLine: 20
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -203,11 +203,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Length
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 21
+    startLine: 23
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -234,11 +234,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 24
+    startLine: 26
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -274,11 +274,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Zero
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 33
+    startLine: 35
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -305,11 +305,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: One
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 36
+    startLine: 38
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -336,11 +336,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: UnitX
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 39
+    startLine: 41
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -367,11 +367,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: UnitY
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 42
+    startLine: 44
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -398,11 +398,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: UnitZ
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 45
+    startLine: 47
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -429,11 +429,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: UnitW
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 48
+    startLine: 50
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -460,11 +460,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dot
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 51
+    startLine: 53
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -495,11 +495,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Normalize
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 54
+    startLine: 56
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -528,11 +528,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Transform
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 57
+    startLine: 59
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -563,11 +563,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dot
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 80
+    startLine: 82
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -596,11 +596,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Normalize
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 83
+    startLine: 85
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -626,11 +626,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 86
+    startLine: 88
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -665,11 +665,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 95
+    startLine: 97
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -700,11 +700,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 98
+    startLine: 100
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -732,11 +732,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ToString
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 101
+    startLine: 103
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -764,11 +764,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Implicit
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 105
+    startLine: 107
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -798,11 +798,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Implicit
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 106
+    startLine: 108
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -832,11 +832,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Addition
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 111
+    startLine: 113
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -868,11 +868,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Subtraction
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 114
+    startLine: 116
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -904,11 +904,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_UnaryNegation
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 117
+    startLine: 119
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -938,11 +938,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 120
+    startLine: 122
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -974,11 +974,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 123
+    startLine: 125
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1010,11 +1010,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Division
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 126
+    startLine: 128
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1046,11 +1046,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Equality
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 129
+    startLine: 131
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1082,11 +1082,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Inequality
     path: ../Orama/Orama.Math/Vectors/Vector4.cs
-    startLine: 132
+    startLine: 134
   assemblies:
   - Orama.Math
   namespace: Orama.Math

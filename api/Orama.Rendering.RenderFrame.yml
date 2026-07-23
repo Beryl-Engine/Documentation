@@ -5,7 +5,9 @@ items:
   id: RenderFrame
   parent: Orama.Rendering
   children:
+  - Orama.Rendering.RenderFrame.CameraBuffer
   - Orama.Rendering.RenderFrame.Projection
+  - Orama.Rendering.RenderFrame.Renderables
   - Orama.Rendering.RenderFrame.View
   langs:
   - csharp
@@ -17,11 +19,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RenderFrame.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RenderFrame
     path: ../Orama/Modules/Orama.Rendering/RenderFrame.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -51,11 +53,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RenderFrame.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: View
     path: ../Orama/Modules/Orama.Rendering/RenderFrame.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -80,11 +82,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RenderFrame.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Projection
     path: ../Orama/Modules/Orama.Rendering/RenderFrame.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -95,6 +97,64 @@ items:
       type: Orama.Math.Matrix4x4
     content.vb: Public Property Projection As Matrix4x4
   overload: Orama.Rendering.RenderFrame.Projection*
+- uid: Orama.Rendering.RenderFrame.CameraBuffer
+  commentId: P:Orama.Rendering.RenderFrame.CameraBuffer
+  id: CameraBuffer
+  parent: Orama.Rendering.RenderFrame
+  langs:
+  - csharp
+  - vb
+  name: CameraBuffer
+  nameWithType: RenderFrame.CameraBuffer
+  fullName: Orama.Rendering.RenderFrame.CameraBuffer
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/RenderFrame.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CameraBuffer
+    path: ../Orama/Modules/Orama.Rendering/RenderFrame.cs
+    startLine: 14
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public ReadOnlySpan<byte> CameraBuffer { get; init; }
+    parameters: []
+    return:
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Public Property CameraBuffer As ReadOnlySpan(Of Byte)
+  overload: Orama.Rendering.RenderFrame.CameraBuffer*
+- uid: Orama.Rendering.RenderFrame.Renderables
+  commentId: P:Orama.Rendering.RenderFrame.Renderables
+  id: Renderables
+  parent: Orama.Rendering.RenderFrame
+  langs:
+  - csharp
+  - vb
+  name: Renderables
+  nameWithType: RenderFrame.Renderables
+  fullName: Orama.Rendering.RenderFrame.Renderables
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/RenderFrame.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Renderables
+    path: ../Orama/Modules/Orama.Rendering/RenderFrame.cs
+    startLine: 15
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  syntax:
+    content: public ReadOnlySpan<IClientRenderable> Renderables { get; init; }
+    parameters: []
+    return:
+      type: System.ReadOnlySpan{Orama.Rendering.IClientRenderable}
+    content.vb: Public Property Renderables As ReadOnlySpan(Of IClientRenderable)
+  overload: Orama.Rendering.RenderFrame.Renderables*
 references:
 - uid: Orama.Rendering
   commentId: N:Orama.Rendering
@@ -376,3 +436,111 @@ references:
   name: Projection
   nameWithType: RenderFrame.Projection
   fullName: Orama.Rendering.RenderFrame.Projection
+- uid: Orama.Rendering.RenderFrame.CameraBuffer*
+  commentId: Overload:Orama.Rendering.RenderFrame.CameraBuffer
+  href: Orama.Rendering.RenderFrame.html#Orama_Rendering_RenderFrame_CameraBuffer
+  name: CameraBuffer
+  nameWithType: RenderFrame.CameraBuffer
+  fullName: Orama.Rendering.RenderFrame.CameraBuffer
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Orama.Rendering.RenderFrame.Renderables*
+  commentId: Overload:Orama.Rendering.RenderFrame.Renderables
+  href: Orama.Rendering.RenderFrame.html#Orama_Rendering_RenderFrame_Renderables
+  name: Renderables
+  nameWithType: RenderFrame.Renderables
+  fullName: Orama.Rendering.RenderFrame.Renderables
+- uid: System.ReadOnlySpan{Orama.Rendering.IClientRenderable}
+  commentId: T:System.ReadOnlySpan{Orama.Rendering.IClientRenderable}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<IClientRenderable>
+  nameWithType: ReadOnlySpan<IClientRenderable>
+  fullName: System.ReadOnlySpan<Orama.Rendering.IClientRenderable>
+  nameWithType.vb: ReadOnlySpan(Of IClientRenderable)
+  fullName.vb: System.ReadOnlySpan(Of Orama.Rendering.IClientRenderable)
+  name.vb: ReadOnlySpan(Of IClientRenderable)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: Orama.Rendering.IClientRenderable
+    name: IClientRenderable
+    href: Orama.Rendering.IClientRenderable.html
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Orama.Rendering.IClientRenderable
+    name: IClientRenderable
+    href: Orama.Rendering.IClientRenderable.html
+  - name: )

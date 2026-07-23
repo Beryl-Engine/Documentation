@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Scenes.Components
   commentId: N:Orama.Scenes.Components
-  id: Orama.Scenes.Components
+  id: Components
+  parent: Orama.Scenes
   children:
   - Orama.Scenes.Components.Component
   - Orama.Scenes.Components.Transform

@@ -2,12 +2,18 @@
 items:
 - uid: Orama.Common
   commentId: N:Orama.Common
-  id: Orama.Common
+  id: Common
+  parent: Orama
   children:
   - Orama.Common.Application
   - Orama.Common.BaseModule
+  - Orama.Common.Datatypes
+  - Orama.Common.InitializeAfterAttribute
   - Orama.Common.ModuleManager
+  - Orama.Common.Resources
+  - Orama.Common.Standard
   - Orama.Common.Time
+  - Orama.Common.Utility
   - Orama.Common.Window
   langs:
   - csharp
@@ -19,6 +25,126 @@ items:
   assemblies:
   - Orama.Common
 references:
+- uid: Orama.Common.Datatypes
+  commentId: N:Orama.Common.Datatypes
+  href: Orama.html
+  name: Orama.Common.Datatypes
+  nameWithType: Orama.Common.Datatypes
+  fullName: Orama.Common.Datatypes
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Datatypes
+    name: Datatypes
+    href: Orama.Common.Datatypes.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Datatypes
+    name: Datatypes
+    href: Orama.Common.Datatypes.html
+- uid: Orama.Common.Resources
+  commentId: N:Orama.Common.Resources
+  href: Orama.html
+  name: Orama.Common.Resources
+  nameWithType: Orama.Common.Resources
+  fullName: Orama.Common.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Resources
+    name: Resources
+    href: Orama.Common.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Resources
+    name: Resources
+    href: Orama.Common.Resources.html
+- uid: Orama.Common.Standard
+  commentId: N:Orama.Common.Standard
+  href: Orama.html
+  name: Orama.Common.Standard
+  nameWithType: Orama.Common.Standard
+  fullName: Orama.Common.Standard
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Standard
+    name: Standard
+    href: Orama.Common.Standard.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Standard
+    name: Standard
+    href: Orama.Common.Standard.html
+- uid: Orama.Common.Utility
+  commentId: N:Orama.Common.Utility
+  href: Orama.html
+  name: Orama.Common.Utility
+  nameWithType: Orama.Common.Utility
+  fullName: Orama.Common.Utility
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Utility
+    name: Utility
+    href: Orama.Common.Utility.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Utility
+    name: Utility
+    href: Orama.Common.Utility.html
 - uid: Orama.Common.Application
   commentId: T:Orama.Common.Application
   href: Orama.Common.Application.html
@@ -32,6 +158,13 @@ references:
   name: BaseModule
   nameWithType: BaseModule
   fullName: Orama.Common.BaseModule
+- uid: Orama.Common.InitializeAfterAttribute
+  commentId: T:Orama.Common.InitializeAfterAttribute
+  parent: Orama.Common
+  href: Orama.Common.InitializeAfterAttribute.html
+  name: InitializeAfterAttribute
+  nameWithType: InitializeAfterAttribute
+  fullName: Orama.Common.InitializeAfterAttribute
 - uid: Orama.Common.ModuleManager
   commentId: T:Orama.Common.ModuleManager
   href: Orama.Common.ModuleManager.html

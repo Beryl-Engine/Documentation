@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/EntityAttributes.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: EntityAttribute
     path: ../Orama/Modules/Orama.Scenes/Entities/EntityAttributes.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -102,11 +102,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/EntityAttributes.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Name
     path: ../Orama/Modules/Orama.Scenes/Entities/EntityAttributes.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -133,11 +133,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/EntityAttributes.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Scenes/Entities/EntityAttributes.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities

@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AudioClip
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
-    startLine: 2
+    startLine: 5
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio.Resources
@@ -55,11 +55,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Data
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio.Resources
@@ -84,11 +84,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: SampleRate
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio.Resources
@@ -113,11 +113,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Channels
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio.Resources
@@ -142,11 +142,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: BitsPerSample
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio.Resources
@@ -171,11 +171,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio.Resources

@@ -6,6 +6,7 @@ items:
   parent: Orama.Common
   children:
   - Orama.Common.ModuleManager.DisposeAll
+  - Orama.Common.ModuleManager.GetModule(System.Type)
   - Orama.Common.ModuleManager.GetModule``1
   - Orama.Common.ModuleManager.InitializeAll
   - Orama.Common.ModuleManager.Modules
@@ -20,11 +21,11 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ModuleManager
     path: ../Orama/Orama.Common/ModuleManager.cs
-    startLine: 7
+    startLine: 12
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -57,11 +58,11 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Modules
     path: ../Orama/Orama.Common/ModuleManager.cs
-    startLine: 10
+    startLine: 15
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -88,11 +89,11 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RegisterModule
     path: ../Orama/Orama.Common/ModuleManager.cs
-    startLine: 16
+    startLine: 21
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -124,11 +125,11 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetModule
     path: ../Orama/Orama.Common/ModuleManager.cs
-    startLine: 25
+    startLine: 30
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -146,6 +147,40 @@ items:
   nameWithType.vb: ModuleManager.GetModule(Of T)()
   fullName.vb: Orama.Common.ModuleManager.GetModule(Of T)()
   name.vb: GetModule(Of T)()
+- uid: Orama.Common.ModuleManager.GetModule(System.Type)
+  commentId: M:Orama.Common.ModuleManager.GetModule(System.Type)
+  id: GetModule(System.Type)
+  parent: Orama.Common.ModuleManager
+  langs:
+  - csharp
+  - vb
+  name: GetModule(Type)
+  nameWithType: ModuleManager.GetModule(Type)
+  fullName: Orama.Common.ModuleManager.GetModule(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Orama.Common/ModuleManager.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: GetModule
+    path: ../Orama/Orama.Common/ModuleManager.cs
+    startLine: 34
+  assemblies:
+  - Orama.Common
+  namespace: Orama.Common
+  summary: Gets a registered <xref href="Orama.Common.BaseModule" data-throw-if-not-resolved="false"></xref> of type <code class="paramref">type</code>.
+  example: []
+  syntax:
+    content: public static BaseModule? GetModule(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: Orama.Common.BaseModule
+      description: The registered <xref href="Orama.Common.BaseModule" data-throw-if-not-resolved="false"></xref> instance or null if not found.
+    content.vb: Public Shared Function GetModule(type As Type) As BaseModule
+  overload: Orama.Common.ModuleManager.GetModule*
 - uid: Orama.Common.ModuleManager.InitializeAll
   commentId: M:Orama.Common.ModuleManager.InitializeAll
   id: InitializeAll
@@ -160,11 +195,11 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: InitializeAll
     path: ../Orama/Orama.Common/ModuleManager.cs
-    startLine: 37
+    startLine: 46
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -188,11 +223,11 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: DisposeAll
     path: ../Orama/Orama.Common/ModuleManager.cs
-    startLine: 49
+    startLine: 83
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -632,6 +667,14 @@ references:
   name: GetModule
   nameWithType: ModuleManager.GetModule
   fullName: Orama.Common.ModuleManager.GetModule
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
 - uid: Orama.Common.ModuleManager.InitializeAll*
   commentId: Overload:Orama.Common.ModuleManager.InitializeAll
   href: Orama.Common.ModuleManager.html#Orama_Common_ModuleManager_InitializeAll

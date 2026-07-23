@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Mouse.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Mouse
     path: ../Orama/Modules/Orama.Input/Devices/Mouse.cs
-    startLine: 5
+    startLine: 9
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -56,11 +56,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Mouse.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CursorLocked
     path: ../Orama/Modules/Orama.Input/Devices/Mouse.cs
-    startLine: 32
+    startLine: 36
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -87,11 +87,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Mouse.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: MouseDelta
     path: ../Orama/Modules/Orama.Input/Devices/Mouse.cs
-    startLine: 39
+    startLine: 42
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -118,11 +118,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Mouse.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Input/Devices/Mouse.cs
-    startLine: 42
+    startLine: 45
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -150,11 +150,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Mouse.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsButtonDown
     path: ../Orama/Modules/Orama.Input/Devices/Mouse.cs
-    startLine: 45
+    startLine: 48
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -183,11 +183,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Mouse.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Input/Devices/Mouse.cs
-    startLine: 48
+    startLine: 51
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices

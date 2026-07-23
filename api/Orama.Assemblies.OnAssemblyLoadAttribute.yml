@@ -16,11 +16,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OnAssemblyLoadAttribute.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnAssemblyLoadAttribute
     path: ../Orama/Modules/Orama.Assemblies/OnAssemblyLoadAttribute.cs
-    startLine: 7
+    startLine: 8
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies
@@ -101,11 +101,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OnAssemblyLoadAttribute.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RunOnAssembly
     path: ../Orama/Modules/Orama.Assemblies/OnAssemblyLoadAttribute.cs
-    startLine: 10
+    startLine: 11
   assemblies:
   - Orama.Assemblies
   namespace: Orama.Assemblies

@@ -28,11 +28,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Entity
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 11
+    startLine: 15
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -44,6 +44,7 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
+  - Orama.Rendering.Entities.DebugEntity
   - Orama.Rendering.Entities.FlyController
   inheritedMembers:
   - System.Object.Equals(System.Object)
@@ -67,11 +68,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Enabled
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 14
+    startLine: 18
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -98,11 +99,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Name
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 27
+    startLine: 31
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -129,11 +130,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Transform
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 30
+    startLine: 34
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -160,11 +161,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Components
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 33
+    startLine: 37
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -191,11 +192,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 39
+    startLine: 43
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -222,11 +223,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Start
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 77
+    startLine: 81
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -251,11 +252,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 88
+    startLine: 92
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -280,11 +281,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 98
+    startLine: 102
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -308,11 +309,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddComponent
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 117
+    startLine: 122
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -341,11 +342,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetComponent
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 126
+    startLine: 131
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -376,11 +377,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddComponent
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 129
+    startLine: 134
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -411,11 +412,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetOrAddComponent
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 132
+    startLine: 137
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities
@@ -446,11 +447,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RemoveComponent
     path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
-    startLine: 135
+    startLine: 140
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities

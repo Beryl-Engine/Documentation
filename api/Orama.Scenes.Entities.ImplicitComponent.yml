@@ -15,11 +15,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/EntityAttributes.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ImplicitComponent
     path: ../Orama/Modules/Orama.Scenes/Entities/EntityAttributes.cs
-    startLine: 23
+    startLine: 26
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Entities

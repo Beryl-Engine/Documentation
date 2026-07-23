@@ -55,11 +55,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Matrix4x4
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -89,11 +89,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M11
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -118,11 +118,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M12
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -147,11 +147,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M13
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 13
+    startLine: 16
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -176,11 +176,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M14
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -205,11 +205,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M21
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 16
+    startLine: 19
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -234,11 +234,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M22
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -263,11 +263,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M23
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 18
+    startLine: 21
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -292,11 +292,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M24
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 19
+    startLine: 22
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -321,11 +321,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M31
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 21
+    startLine: 24
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -350,11 +350,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M32
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 22
+    startLine: 25
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -379,11 +379,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M33
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 23
+    startLine: 26
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -408,11 +408,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M34
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 24
+    startLine: 27
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -437,11 +437,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M41
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 26
+    startLine: 29
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -466,11 +466,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M42
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 27
+    startLine: 30
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -495,11 +495,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M43
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 28
+    startLine: 31
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -524,11 +524,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: M44
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 29
+    startLine: 32
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -553,11 +553,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 33
+    startLine: 36
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -617,11 +617,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Identity
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 46
+    startLine: 61
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -648,11 +648,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsIdentity
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 52
+    startLine: 67
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -679,11 +679,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateTRS
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 62
+    startLine: 77
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -716,11 +716,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateTranslation
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 71
+    startLine: 86
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -749,11 +749,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateTranslation
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 82
+    startLine: 94
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -789,11 +789,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateScale
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 93
+    startLine: 102
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -822,11 +822,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateScale
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 104
+    startLine: 110
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -862,11 +862,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateRotationX
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 115
+    startLine: 118
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -898,11 +898,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateRotationY
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 129
+    startLine: 132
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -934,11 +934,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateRotationZ
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 143
+    startLine: 146
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -970,11 +970,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateFromEuler
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 157
+    startLine: 160
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1003,11 +1003,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateFromQuaternion
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 166
+    startLine: 169
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1036,11 +1036,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: LookAt
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 187
+    startLine: 190
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1073,11 +1073,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Transpose
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 209
+    startLine: 212
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1103,7 +1103,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Determinant
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1133,7 +1133,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Invert
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1163,7 +1163,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Transform
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1196,11 +1196,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 248
+    startLine: 245
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1241,11 +1241,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 251
+    startLine: 248
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1278,11 +1278,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 261
+    startLine: 254
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1310,11 +1310,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 289
+    startLine: 282
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1346,11 +1346,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Explicit
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 318
+    startLine: 311
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -1380,11 +1380,11 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Explicit
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
-    startLine: 326
+    startLine: 319
   assemblies:
   - Orama.Math
   namespace: Orama.Math

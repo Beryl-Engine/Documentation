@@ -2,18 +2,17 @@
 items:
 - uid: Orama.Rendering.Resources
   commentId: N:Orama.Rendering.Resources
-  id: Orama.Rendering.Resources
+  id: Resources
+  parent: Orama.Rendering
   children:
+  - Orama.Rendering.Resources.Caches
   - Orama.Rendering.Resources.FrameCountedResource`1
   - Orama.Rendering.Resources.IFrameCountedResource
   - Orama.Rendering.Resources.Material
   - Orama.Rendering.Resources.Mesh
   - Orama.Rendering.Resources.RenderItem
   - Orama.Rendering.Resources.Shader
-  - Orama.Rendering.Resources.ShaderParameter
-  - Orama.Rendering.Resources.ShaderParameter.ParamType
   - Orama.Rendering.Resources.Texture
-  - Orama.Rendering.Resources.TextureFormat
   langs:
   - csharp
   - vb
@@ -24,13 +23,44 @@ items:
   assemblies:
   - Orama.Rendering
 references:
-- uid: Orama.Rendering.Resources.IFrameCountedResource
-  commentId: T:Orama.Rendering.Resources.IFrameCountedResource
-  parent: Orama.Rendering.Resources
-  href: Orama.Rendering.Resources.IFrameCountedResource.html
-  name: IFrameCountedResource
-  nameWithType: IFrameCountedResource
-  fullName: Orama.Rendering.Resources.IFrameCountedResource
+- uid: Orama.Rendering.Resources.Caches
+  commentId: N:Orama.Rendering.Resources.Caches
+  href: Orama.html
+  name: Orama.Rendering.Resources.Caches
+  nameWithType: Orama.Rendering.Resources.Caches
+  fullName: Orama.Rendering.Resources.Caches
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
 - uid: Orama.Rendering.Resources.FrameCountedResource`1
   commentId: T:Orama.Rendering.Resources.FrameCountedResource`1
   href: Orama.Rendering.Resources.FrameCountedResource-1.html
@@ -56,6 +86,13 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: Orama.Rendering.Resources.IFrameCountedResource
+  commentId: T:Orama.Rendering.Resources.IFrameCountedResource
+  parent: Orama.Rendering.Resources
+  href: Orama.Rendering.Resources.IFrameCountedResource.html
+  name: IFrameCountedResource
+  nameWithType: IFrameCountedResource
+  fullName: Orama.Rendering.Resources.IFrameCountedResource
 - uid: Orama.Rendering.Resources.Material
   commentId: T:Orama.Rendering.Resources.Material
   parent: Orama.Rendering.Resources
@@ -77,35 +114,6 @@ references:
   name: RenderItem
   nameWithType: RenderItem
   fullName: Orama.Rendering.Resources.RenderItem
-- uid: Orama.Rendering.Resources.ShaderParameter
-  commentId: T:Orama.Rendering.Resources.ShaderParameter
-  href: Orama.Rendering.Resources.ShaderParameter.html
-  name: ShaderParameter
-  nameWithType: ShaderParameter
-  fullName: Orama.Rendering.Resources.ShaderParameter
-- uid: Orama.Rendering.Resources.ShaderParameter.ParamType
-  commentId: T:Orama.Rendering.Resources.ShaderParameter.ParamType
-  parent: Orama.Rendering.Resources
-  href: Orama.Rendering.Resources.ShaderParameter.html
-  name: ShaderParameter.ParamType
-  nameWithType: ShaderParameter.ParamType
-  fullName: Orama.Rendering.Resources.ShaderParameter.ParamType
-  spec.csharp:
-  - uid: Orama.Rendering.Resources.ShaderParameter
-    name: ShaderParameter
-    href: Orama.Rendering.Resources.ShaderParameter.html
-  - name: .
-  - uid: Orama.Rendering.Resources.ShaderParameter.ParamType
-    name: ParamType
-    href: Orama.Rendering.Resources.ShaderParameter.ParamType.html
-  spec.vb:
-  - uid: Orama.Rendering.Resources.ShaderParameter
-    name: ShaderParameter
-    href: Orama.Rendering.Resources.ShaderParameter.html
-  - name: .
-  - uid: Orama.Rendering.Resources.ShaderParameter.ParamType
-    name: ParamType
-    href: Orama.Rendering.Resources.ShaderParameter.ParamType.html
 - uid: Orama.Rendering.Resources.Shader
   commentId: T:Orama.Rendering.Resources.Shader
   parent: Orama.Rendering.Resources
@@ -113,13 +121,6 @@ references:
   name: Shader
   nameWithType: Shader
   fullName: Orama.Rendering.Resources.Shader
-- uid: Orama.Rendering.Resources.TextureFormat
-  commentId: T:Orama.Rendering.Resources.TextureFormat
-  parent: Orama.Rendering.Resources
-  href: Orama.Rendering.Resources.TextureFormat.html
-  name: TextureFormat
-  nameWithType: TextureFormat
-  fullName: Orama.Rendering.Resources.TextureFormat
 - uid: Orama.Rendering.Resources.Texture
   commentId: T:Orama.Rendering.Resources.Texture
   parent: Orama.Rendering.Resources

@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: HandType
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
-    startLine: 22
+    startLine: 24
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -42,11 +42,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Left
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
-    startLine: 24
+    startLine: 26
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -68,11 +68,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Right
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
-    startLine: 25
+    startLine: 27
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality

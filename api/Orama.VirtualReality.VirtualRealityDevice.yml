@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: VirtualRealityDevice
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-    startLine: 10
+    startLine: 12
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -56,11 +56,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Name
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-    startLine: 12
+    startLine: 14
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -85,11 +85,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-    startLine: 14
+    startLine: 16
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -111,11 +111,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-    startLine: 15
+    startLine: 17
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality

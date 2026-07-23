@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Physics.Engines.Jitter2
   commentId: N:Orama.Physics.Engines.Jitter2
-  id: Orama.Physics.Engines.Jitter2
+  id: Engines.Jitter2
+  parent: Orama.Physics
   children:
   - Orama.Physics.Engines.Jitter2.Jitter2Body
   - Orama.Physics.Engines.Jitter2.Jitter2World

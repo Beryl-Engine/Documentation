@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/RenderPipeline.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RenderPipeline
     path: ../Orama/Modules/Orama.Rendering/Pipelines/RenderPipeline.cs
-    startLine: 6
+    startLine: 8
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines
@@ -56,11 +56,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/RenderPipeline.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Passes
     path: ../Orama/Modules/Orama.Rendering/Pipelines/RenderPipeline.cs
-    startLine: 9
+    startLine: 11
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines
@@ -87,11 +87,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/RenderPipeline.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Render
     path: ../Orama/Modules/Orama.Rendering/Pipelines/RenderPipeline.cs
-    startLine: 12
+    startLine: 14
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines

@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Mesh
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
-    startLine: 9
+    startLine: 13
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -57,11 +57,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Material
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
-    startLine: 12
+    startLine: 16
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -88,11 +88,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Vertices
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
-    startLine: 14
+    startLine: 18
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -117,11 +117,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Indices
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
-    startLine: 15
+    startLine: 19
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -146,11 +146,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Normals
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
-    startLine: 16
+    startLine: 20
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -175,11 +175,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: UVs
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
-    startLine: 17
+    startLine: 21
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources

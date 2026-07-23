@@ -19,11 +19,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Gamepad
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -55,11 +55,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 53
+    startLine: 56
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -87,11 +87,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsButtonPressed
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 56
+    startLine: 59
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -120,11 +120,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetTrigger
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 68
+    startLine: 73
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -153,11 +153,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 83
+    startLine: 88
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices

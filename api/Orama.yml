@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama
+  id: Orama
+  children:
+  - Orama.Assemblies
+  - Orama.Audio
+  - Orama.Common
+  - Orama.GUI
+  - Orama.Input
+  - Orama.Math
+  - Orama.Physics
+  - Orama.RHI
+  - Orama.Rendering
+  - Orama.Scenes
+  - Orama.Serialization
+  - Orama.VirtualReality
+  langs:
+  - csharp
+  - vb
+  name: Orama
+  type: Namespace
+references:
+- uid: Orama.Assemblies
+  commentId: N:Orama.Assemblies
+  href: Orama.html
+  name: Orama.Assemblies
+  nameWithType: Orama.Assemblies
+  fullName: Orama.Assemblies
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Assemblies
+    name: Assemblies
+    href: Orama.Assemblies.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Assemblies
+    name: Assemblies
+    href: Orama.Assemblies.html
+- uid: Orama.Audio
+  commentId: N:Orama.Audio
+  href: Orama.html
+  name: Orama.Audio
+  nameWithType: Orama.Audio
+  fullName: Orama.Audio
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Audio
+    name: Audio
+    href: Orama.Audio.html
+- uid: Orama.Common
+  commentId: N:Orama.Common
+  href: Orama.html
+  name: Orama.Common
+  nameWithType: Orama.Common
+  fullName: Orama.Common
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+- uid: Orama.GUI
+  commentId: N:Orama.GUI
+  href: Orama.html
+  name: Orama.GUI
+  nameWithType: Orama.GUI
+  fullName: Orama.GUI
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.GUI
+    name: GUI
+    href: Orama.GUI.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.GUI
+    name: GUI
+    href: Orama.GUI.html
+- uid: Orama.Input
+  commentId: N:Orama.Input
+  href: Orama.html
+  name: Orama.Input
+  nameWithType: Orama.Input
+  fullName: Orama.Input
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Input
+    name: Input
+    href: Orama.Input.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Input
+    name: Input
+    href: Orama.Input.html
+- uid: Orama.Math
+  commentId: N:Orama.Math
+  href: Orama.html
+  name: Orama.Math
+  nameWithType: Orama.Math
+  fullName: Orama.Math
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+- uid: Orama.Physics
+  commentId: N:Orama.Physics
+  href: Orama.html
+  name: Orama.Physics
+  nameWithType: Orama.Physics
+  fullName: Orama.Physics
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Physics
+    name: Physics
+    href: Orama.Physics.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Physics
+    name: Physics
+    href: Orama.Physics.html
+- uid: Orama.RHI
+  commentId: N:Orama.RHI
+  href: Orama.html
+  name: Orama.RHI
+  nameWithType: Orama.RHI
+  fullName: Orama.RHI
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+- uid: Orama.Rendering
+  commentId: N:Orama.Rendering
+  href: Orama.html
+  name: Orama.Rendering
+  nameWithType: Orama.Rendering
+  fullName: Orama.Rendering
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+- uid: Orama.Scenes
+  commentId: N:Orama.Scenes
+  href: Orama.html
+  name: Orama.Scenes
+  nameWithType: Orama.Scenes
+  fullName: Orama.Scenes
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Scenes
+    name: Scenes
+    href: Orama.Scenes.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Scenes
+    name: Scenes
+    href: Orama.Scenes.html
+- uid: Orama.Serialization
+  commentId: N:Orama.Serialization
+  href: Orama.html
+  name: Orama.Serialization
+  nameWithType: Orama.Serialization
+  fullName: Orama.Serialization
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Serialization
+    name: Serialization
+    href: Orama.Serialization.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Serialization
+    name: Serialization
+    href: Orama.Serialization.html
+- uid: Orama.VirtualReality
+  commentId: N:Orama.VirtualReality
+  href: Orama.html
+  name: Orama.VirtualReality
+  nameWithType: Orama.VirtualReality
+  fullName: Orama.VirtualReality
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.VirtualReality
+    name: VirtualReality
+    href: Orama.VirtualReality.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.VirtualReality
+    name: VirtualReality
+    href: Orama.VirtualReality.html

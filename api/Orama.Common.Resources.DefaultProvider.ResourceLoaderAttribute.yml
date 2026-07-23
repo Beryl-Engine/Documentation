@@ -15,11 +15,11 @@ items:
   source:
     remote:
       path: Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceLoaderAttribute
     path: ../Orama/Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
-    startLine: 39
+    startLine: 41
   assemblies:
   - Orama.Common
   namespace: Orama.Common.Resources.DefaultProvider

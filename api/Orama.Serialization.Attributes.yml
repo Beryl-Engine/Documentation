@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Serialization.Attributes
   commentId: N:Orama.Serialization.Attributes
-  id: Orama.Serialization.Attributes
+  id: Attributes
+  parent: Orama.Serialization
   children:
   - Orama.Serialization.Attributes.AlwaysSerializeAttribute
   - Orama.Serialization.Attributes.DontSerializeAttribute

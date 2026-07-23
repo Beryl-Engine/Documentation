@@ -2,8 +2,10 @@
 items:
 - uid: Orama.Rendering.Entities
   commentId: N:Orama.Rendering.Entities
-  id: Orama.Rendering.Entities
+  id: Entities
+  parent: Orama.Rendering
   children:
+  - Orama.Rendering.Entities.DebugEntity
   - Orama.Rendering.Entities.FlyController
   langs:
   - csharp
@@ -15,6 +17,12 @@ items:
   assemblies:
   - Orama.Rendering
 references:
+- uid: Orama.Rendering.Entities.DebugEntity
+  commentId: T:Orama.Rendering.Entities.DebugEntity
+  href: Orama.Rendering.Entities.DebugEntity.html
+  name: DebugEntity
+  nameWithType: DebugEntity
+  fullName: Orama.Rendering.Entities.DebugEntity
 - uid: Orama.Rendering.Entities.FlyController
   commentId: T:Orama.Rendering.Entities.FlyController
   href: Orama.Rendering.Entities.FlyController.html

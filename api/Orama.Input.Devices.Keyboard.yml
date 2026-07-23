@@ -7,6 +7,8 @@ items:
   children:
   - Orama.Input.Devices.Keyboard.#ctor(Silk.NET.Input.IKeyboard)
   - Orama.Input.Devices.Keyboard.IsKeyDown(Orama.Input.Devices.Keyboard.Key)
+  - Orama.Input.Devices.Keyboard.IsKeyPressed(Orama.Input.Devices.Keyboard.Key)
+  - Orama.Input.Devices.Keyboard.IsKeyReleased(Orama.Input.Devices.Keyboard.Key)
   - Orama.Input.Devices.Keyboard.Update
   langs:
   - csharp
@@ -18,11 +20,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Keyboard.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Keyboard
     path: ../Orama/Modules/Orama.Input/Devices/Keyboard.cs
-    startLine: 5
+    startLine: 7
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -54,11 +56,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Keyboard.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Input/Devices/Keyboard.cs
-    startLine: 61
+    startLine: 65
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -86,11 +88,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Keyboard.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsKeyDown
     path: ../Orama/Modules/Orama.Input/Devices/Keyboard.cs
-    startLine: 64
+    startLine: 77
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -105,6 +107,72 @@ items:
       type: System.Boolean
     content.vb: Public Function IsKeyDown(key As Keyboard.Key) As Boolean
   overload: Orama.Input.Devices.Keyboard.IsKeyDown*
+- uid: Orama.Input.Devices.Keyboard.IsKeyPressed(Orama.Input.Devices.Keyboard.Key)
+  commentId: M:Orama.Input.Devices.Keyboard.IsKeyPressed(Orama.Input.Devices.Keyboard.Key)
+  id: IsKeyPressed(Orama.Input.Devices.Keyboard.Key)
+  parent: Orama.Input.Devices.Keyboard
+  langs:
+  - csharp
+  - vb
+  name: IsKeyPressed(Key)
+  nameWithType: Keyboard.IsKeyPressed(Keyboard.Key)
+  fullName: Orama.Input.Devices.Keyboard.IsKeyPressed(Orama.Input.Devices.Keyboard.Key)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Input/Devices/Keyboard.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IsKeyPressed
+    path: ../Orama/Modules/Orama.Input/Devices/Keyboard.cs
+    startLine: 80
+  assemblies:
+  - Orama.Input
+  namespace: Orama.Input.Devices
+  summary: Checks if the given <xref href="Orama.Input.Devices.Keyboard.Key" data-throw-if-not-resolved="false"></xref> was pressed this frame.
+  example: []
+  syntax:
+    content: public bool IsKeyPressed(Keyboard.Key key)
+    parameters:
+    - id: key
+      type: Orama.Input.Devices.Keyboard.Key
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsKeyPressed(key As Keyboard.Key) As Boolean
+  overload: Orama.Input.Devices.Keyboard.IsKeyPressed*
+- uid: Orama.Input.Devices.Keyboard.IsKeyReleased(Orama.Input.Devices.Keyboard.Key)
+  commentId: M:Orama.Input.Devices.Keyboard.IsKeyReleased(Orama.Input.Devices.Keyboard.Key)
+  id: IsKeyReleased(Orama.Input.Devices.Keyboard.Key)
+  parent: Orama.Input.Devices.Keyboard
+  langs:
+  - csharp
+  - vb
+  name: IsKeyReleased(Key)
+  nameWithType: Keyboard.IsKeyReleased(Keyboard.Key)
+  fullName: Orama.Input.Devices.Keyboard.IsKeyReleased(Orama.Input.Devices.Keyboard.Key)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Input/Devices/Keyboard.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IsKeyReleased
+    path: ../Orama/Modules/Orama.Input/Devices/Keyboard.cs
+    startLine: 83
+  assemblies:
+  - Orama.Input
+  namespace: Orama.Input.Devices
+  summary: Checks if the given <xref href="Orama.Input.Devices.Keyboard.Key" data-throw-if-not-resolved="false"></xref> was released this frame.
+  example: []
+  syntax:
+    content: public bool IsKeyReleased(Keyboard.Key key)
+    parameters:
+    - id: key
+      type: Orama.Input.Devices.Keyboard.Key
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsKeyReleased(key As Keyboard.Key) As Boolean
+  overload: Orama.Input.Devices.Keyboard.IsKeyReleased*
 - uid: Orama.Input.Devices.Keyboard.Update
   commentId: M:Orama.Input.Devices.Keyboard.Update
   id: Update
@@ -119,11 +187,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Keyboard.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Input/Devices/Keyboard.cs
-    startLine: 67
+    startLine: 86
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -472,6 +540,18 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: Orama.Input.Devices.Keyboard.IsKeyPressed*
+  commentId: Overload:Orama.Input.Devices.Keyboard.IsKeyPressed
+  href: Orama.Input.Devices.Keyboard.html#Orama_Input_Devices_Keyboard_IsKeyPressed_Orama_Input_Devices_Keyboard_Key_
+  name: IsKeyPressed
+  nameWithType: Keyboard.IsKeyPressed
+  fullName: Orama.Input.Devices.Keyboard.IsKeyPressed
+- uid: Orama.Input.Devices.Keyboard.IsKeyReleased*
+  commentId: Overload:Orama.Input.Devices.Keyboard.IsKeyReleased
+  href: Orama.Input.Devices.Keyboard.html#Orama_Input_Devices_Keyboard_IsKeyReleased_Orama_Input_Devices_Keyboard_Key_
+  name: IsKeyReleased
+  nameWithType: Keyboard.IsKeyReleased
+  fullName: Orama.Input.Devices.Keyboard.IsKeyReleased
 - uid: Orama.Input.InputModule
   commentId: T:Orama.Input.InputModule
   href: Orama.Input.InputModule.html

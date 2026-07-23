@@ -2,8 +2,10 @@
 items:
 - uid: Orama.Input
   commentId: N:Orama.Input
-  id: Orama.Input
+  id: Input
+  parent: Orama
   children:
+  - Orama.Input.Devices
   - Orama.Input.InputModule
   langs:
   - csharp
@@ -15,6 +17,36 @@ items:
   assemblies:
   - Orama.Input
 references:
+- uid: Orama.Input.Devices
+  commentId: N:Orama.Input.Devices
+  href: Orama.html
+  name: Orama.Input.Devices
+  nameWithType: Orama.Input.Devices
+  fullName: Orama.Input.Devices
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Input
+    name: Input
+    href: Orama.Input.html
+  - name: .
+  - uid: Orama.Input.Devices
+    name: Devices
+    href: Orama.Input.Devices.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Input
+    name: Input
+    href: Orama.Input.html
+  - name: .
+  - uid: Orama.Input.Devices
+    name: Devices
+    href: Orama.Input.Devices.html
 - uid: Orama.Input.InputModule
   commentId: T:Orama.Input.InputModule
   href: Orama.Input.InputModule.html

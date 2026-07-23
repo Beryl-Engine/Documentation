@@ -32,11 +32,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IPhysicsBody
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -61,11 +61,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Owner
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -92,11 +92,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsStatic
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -123,11 +123,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AffectedByGravity
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -154,11 +154,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Mass
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 20
+    startLine: 23
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -185,11 +185,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Friction
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 23
+    startLine: 26
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -216,11 +216,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Restitution
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 26
+    startLine: 29
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -247,11 +247,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Position
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 29
+    startLine: 32
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -278,11 +278,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Orientation
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 32
+    startLine: 35
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -309,11 +309,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Velocity
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 35
+    startLine: 38
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -340,11 +340,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AngularVelocity
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 38
+    startLine: 41
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -371,11 +371,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Damping
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 41
+    startLine: 44
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -402,11 +402,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddBoxCollider
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 44
+    startLine: 47
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -442,11 +442,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddSphereCollider
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 47
+    startLine: 50
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -478,11 +478,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RemoveCollider
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 51
+    startLine: 54
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -513,11 +513,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddForce
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 55
+    startLine: 58
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -545,11 +545,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnCollisionEnter
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 58
+    startLine: 61
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics
@@ -574,11 +574,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/IPhysicsBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnCollisionExit
     path: ../Orama/Modules/Orama.Physics/IPhysicsBody.cs
-    startLine: 61
+    startLine: 64
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics

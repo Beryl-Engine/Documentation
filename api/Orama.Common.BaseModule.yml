@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: Orama.Common/BaseModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: BaseModule
     path: ../Orama/Orama.Common/BaseModule.cs
-    startLine: 2
+    startLine: 5
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -64,11 +64,11 @@ items:
   source:
     remote:
       path: Orama.Common/BaseModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsInitialized
     path: ../Orama/Orama.Common/BaseModule.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -95,11 +95,11 @@ items:
   source:
     remote:
       path: Orama.Common/BaseModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Orama.Common/BaseModule.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -123,11 +123,11 @@ items:
   source:
     remote:
       path: Orama.Common/BaseModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Orama.Common/BaseModule.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - Orama.Common
   namespace: Orama.Common

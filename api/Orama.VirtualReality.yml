@@ -2,7 +2,8 @@
 items:
 - uid: Orama.VirtualReality
   commentId: N:Orama.VirtualReality
-  id: Orama.VirtualReality
+  id: VirtualReality
+  parent: Orama
   children:
   - Orama.VirtualReality.InputModuleExtensions
   - Orama.VirtualReality.VirtualRealityController

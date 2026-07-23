@@ -5,11 +5,13 @@ items:
   id: Texture
   parent: Orama.Rendering.Resources
   children:
-  - Orama.Rendering.Resources.Texture.#ctor(System.Int32,System.Int32,Orama.Rendering.Resources.TextureFormat,System.Byte[])
+  - Orama.Rendering.Resources.Texture.#ctor(System.Int32,System.Int32,Orama.RHI.Resources.TextureFormat,System.Byte[],Orama.RHI.Resources.Sampler)
   - Orama.Rendering.Resources.Texture.Clear(System.Byte,System.Byte,System.Byte,System.Byte)
   - Orama.Rendering.Resources.Texture.Data
+  - Orama.Rendering.Resources.Texture.Format
   - Orama.Rendering.Resources.Texture.GetData
   - Orama.Rendering.Resources.Texture.Height
+  - Orama.Rendering.Resources.Texture.Sampler
   - Orama.Rendering.Resources.Texture.SetData(System.Byte[])
   - Orama.Rendering.Resources.Texture.Width
   langs:
@@ -22,15 +24,15 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Texture
     path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
-  summary: Represents a texture used in a material.
+  summary: Represents an image used in a material.
   example: []
   syntax:
     content: public class Texture
@@ -45,6 +47,35 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
+- uid: Orama.Rendering.Resources.Texture.Format
+  commentId: P:Orama.Rendering.Resources.Texture.Format
+  id: Format
+  parent: Orama.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: Texture.Format
+  fullName: Orama.Rendering.Resources.Texture.Format
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Texture.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Format
+    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    startLine: 15
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  syntax:
+    content: public TextureFormat Format { get; }
+    parameters: []
+    return:
+      type: Orama.RHI.Resources.TextureFormat
+    content.vb: Public ReadOnly Property Format As TextureFormat
+  overload: Orama.Rendering.Resources.Texture.Format*
 - uid: Orama.Rendering.Resources.Texture.Width
   commentId: P:Orama.Rendering.Resources.Texture.Width
   id: Width
@@ -59,11 +90,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Width
     path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -88,11 +119,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Height
     path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
-    startLine: 15
+    startLine: 18
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -117,11 +148,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Data
     path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -132,32 +163,63 @@ items:
       type: System.Byte[]
     content.vb: Public Property Data As Byte()
   overload: Orama.Rendering.Resources.Texture.Data*
-- uid: Orama.Rendering.Resources.Texture.#ctor(System.Int32,System.Int32,Orama.Rendering.Resources.TextureFormat,System.Byte[])
-  commentId: M:Orama.Rendering.Resources.Texture.#ctor(System.Int32,System.Int32,Orama.Rendering.Resources.TextureFormat,System.Byte[])
-  id: '#ctor(System.Int32,System.Int32,Orama.Rendering.Resources.TextureFormat,System.Byte[])'
+- uid: Orama.Rendering.Resources.Texture.Sampler
+  commentId: P:Orama.Rendering.Resources.Texture.Sampler
+  id: Sampler
   parent: Orama.Rendering.Resources.Texture
   langs:
   - csharp
   - vb
-  name: Texture(int, int, TextureFormat, byte[]?)
-  nameWithType: Texture.Texture(int, int, TextureFormat, byte[]?)
-  fullName: Orama.Rendering.Resources.Texture.Texture(int, int, Orama.Rendering.Resources.TextureFormat, byte[]?)
+  name: Sampler
+  nameWithType: Texture.Sampler
+  fullName: Orama.Rendering.Resources.Texture.Sampler
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Texture.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Sampler
+    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    startLine: 23
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  summary: Sampler settings used when sampling this <xref href="Orama.Rendering.Resources.Texture" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Sampler Sampler { get; }
+    parameters: []
+    return:
+      type: Orama.RHI.Resources.Sampler
+    content.vb: Public ReadOnly Property Sampler As Sampler
+  overload: Orama.Rendering.Resources.Texture.Sampler*
+- uid: Orama.Rendering.Resources.Texture.#ctor(System.Int32,System.Int32,Orama.RHI.Resources.TextureFormat,System.Byte[],Orama.RHI.Resources.Sampler)
+  commentId: M:Orama.Rendering.Resources.Texture.#ctor(System.Int32,System.Int32,Orama.RHI.Resources.TextureFormat,System.Byte[],Orama.RHI.Resources.Sampler)
+  id: '#ctor(System.Int32,System.Int32,Orama.RHI.Resources.TextureFormat,System.Byte[],Orama.RHI.Resources.Sampler)'
+  parent: Orama.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: Texture(int, int, TextureFormat, byte[]?, Sampler)
+  nameWithType: Texture.Texture(int, int, TextureFormat, byte[]?, Sampler)
+  fullName: Orama.Rendering.Resources.Texture.Texture(int, int, Orama.RHI.Resources.TextureFormat, byte[]?, Orama.RHI.Resources.Sampler)
   type: Constructor
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
-    startLine: 24
+    startLine: 30
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
   summary: Creates a new <xref href="Orama.Rendering.Resources.Texture" data-throw-if-not-resolved="false"></xref> with optional pixel data.
   example: []
   syntax:
-    content: public Texture(int width, int height, TextureFormat format, byte[]? initialData = null)
+    content: public Texture(int width, int height, TextureFormat format, byte[]? initialData = null, Sampler sampler = default)
     parameters:
     - id: width
       type: System.Int32
@@ -166,16 +228,18 @@ items:
       type: System.Int32
       description: Texture height in pixels.
     - id: format
-      type: Orama.Rendering.Resources.TextureFormat
+      type: Orama.RHI.Resources.TextureFormat
       description: Pixel format.
     - id: initialData
       type: System.Byte[]
       description: Optional initial pixel data.
-    content.vb: Public Sub New(width As Integer, height As Integer, format As TextureFormat, initialData As Byte() = Nothing)
+    - id: sampler
+      type: Orama.RHI.Resources.Sampler
+    content.vb: Public Sub New(width As Integer, height As Integer, format As TextureFormat, initialData As Byte() = Nothing, sampler As Sampler = Nothing)
   overload: Orama.Rendering.Resources.Texture.#ctor*
-  nameWithType.vb: Texture.New(Integer, Integer, TextureFormat, Byte())
-  fullName.vb: Orama.Rendering.Resources.Texture.New(Integer, Integer, Orama.Rendering.Resources.TextureFormat, Byte())
-  name.vb: New(Integer, Integer, TextureFormat, Byte())
+  nameWithType.vb: Texture.New(Integer, Integer, TextureFormat, Byte(), Sampler)
+  fullName.vb: Orama.Rendering.Resources.Texture.New(Integer, Integer, Orama.RHI.Resources.TextureFormat, Byte(), Orama.RHI.Resources.Sampler)
+  name.vb: New(Integer, Integer, TextureFormat, Byte(), Sampler)
 - uid: Orama.Rendering.Resources.Texture.SetData(System.Byte[])
   commentId: M:Orama.Rendering.Resources.Texture.SetData(System.Byte[])
   id: SetData(System.Byte[])
@@ -190,11 +254,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: SetData
     path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
-    startLine: 33
+    startLine: 42
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -225,11 +289,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetData
     path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
-    startLine: 42
+    startLine: 51
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -255,11 +319,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Clear
     path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
-    startLine: 50
+    startLine: 59
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -549,6 +613,49 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Orama.Rendering.Resources.Texture.Format*
+  commentId: Overload:Orama.Rendering.Resources.Texture.Format
+  href: Orama.Rendering.Resources.Texture.html#Orama_Rendering_Resources_Texture_Format
+  name: Format
+  nameWithType: Texture.Format
+  fullName: Orama.Rendering.Resources.Texture.Format
+- uid: Orama.RHI.Resources.TextureFormat
+  commentId: T:Orama.RHI.Resources.TextureFormat
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.TextureFormat.html
+  name: TextureFormat
+  nameWithType: TextureFormat
+  fullName: Orama.RHI.Resources.TextureFormat
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
 - uid: Orama.Rendering.Resources.Texture.Width*
   commentId: Overload:Orama.Rendering.Resources.Texture.Width
   href: Orama.Rendering.Resources.Texture.html#Orama_Rendering_Resources_Texture_Width
@@ -608,22 +715,28 @@ references:
   name: Texture
   nameWithType: Texture
   fullName: Orama.Rendering.Resources.Texture
+- uid: Orama.Rendering.Resources.Texture.Sampler*
+  commentId: Overload:Orama.Rendering.Resources.Texture.Sampler
+  href: Orama.Rendering.Resources.Texture.html#Orama_Rendering_Resources_Texture_Sampler
+  name: Sampler
+  nameWithType: Texture.Sampler
+  fullName: Orama.Rendering.Resources.Texture.Sampler
+- uid: Orama.RHI.Resources.Sampler
+  commentId: T:Orama.RHI.Resources.Sampler
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.Sampler.html
+  name: Sampler
+  nameWithType: Sampler
+  fullName: Orama.RHI.Resources.Sampler
 - uid: Orama.Rendering.Resources.Texture.#ctor*
   commentId: Overload:Orama.Rendering.Resources.Texture.#ctor
-  href: Orama.Rendering.Resources.Texture.html#Orama_Rendering_Resources_Texture__ctor_System_Int32_System_Int32_Orama_Rendering_Resources_TextureFormat_System_Byte___
+  href: Orama.Rendering.Resources.Texture.html#Orama_Rendering_Resources_Texture__ctor_System_Int32_System_Int32_Orama_RHI_Resources_TextureFormat_System_Byte___Orama_RHI_Resources_Sampler_
   name: Texture
   nameWithType: Texture.Texture
   fullName: Orama.Rendering.Resources.Texture.Texture
   nameWithType.vb: Texture.New
   fullName.vb: Orama.Rendering.Resources.Texture.New
   name.vb: New
-- uid: Orama.Rendering.Resources.TextureFormat
-  commentId: T:Orama.Rendering.Resources.TextureFormat
-  parent: Orama.Rendering.Resources
-  href: Orama.Rendering.Resources.TextureFormat.html
-  name: TextureFormat
-  nameWithType: TextureFormat
-  fullName: Orama.Rendering.Resources.TextureFormat
 - uid: Orama.Rendering.Resources.Texture.SetData*
   commentId: Overload:Orama.Rendering.Resources.Texture.SetData
   href: Orama.Rendering.Resources.Texture.html#Orama_Rendering_Resources_Texture_SetData_System_Byte___

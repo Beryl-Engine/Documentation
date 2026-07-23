@@ -5,7 +5,7 @@ items:
   id: OpaquePass
   parent: Orama.Rendering.Pipelines.Forward
   children:
-  - Orama.Rendering.Pipelines.Forward.OpaquePass.Render(Orama.Rendering.RenderFrame@)
+  - Orama.Rendering.Pipelines.Forward.OpaquePass.Render(Orama.Rendering.RenderFrame@,Orama.RHI.ICommandBuffer)
   langs:
   - csharp
   - vb
@@ -16,11 +16,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/Forward/OpaquePass.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: OpaquePass
     path: ../Orama/Modules/Orama.Rendering/Pipelines/Forward/OpaquePass.cs
-    startLine: 10
+    startLine: 12
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines.Forward
@@ -33,6 +33,9 @@ items:
   - System.Object
   - Orama.Rendering.Pipelines.RenderPass
   inheritedMembers:
+  - Orama.Rendering.Pipelines.RenderPass.Pipeline
+  - Orama.Rendering.Pipelines.RenderPass.Execute(Orama.Rendering.RenderFrame@)
+  - Orama.Rendering.Pipelines.RenderPass.TargetBuffer
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -40,40 +43,44 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Orama.Rendering.Pipelines.Forward.OpaquePass.Render(Orama.Rendering.RenderFrame@)
-  commentId: M:Orama.Rendering.Pipelines.Forward.OpaquePass.Render(Orama.Rendering.RenderFrame@)
-  id: Render(Orama.Rendering.RenderFrame@)
+- uid: Orama.Rendering.Pipelines.Forward.OpaquePass.Render(Orama.Rendering.RenderFrame@,Orama.RHI.ICommandBuffer)
+  commentId: M:Orama.Rendering.Pipelines.Forward.OpaquePass.Render(Orama.Rendering.RenderFrame@,Orama.RHI.ICommandBuffer)
+  id: Render(Orama.Rendering.RenderFrame@,Orama.RHI.ICommandBuffer)
   parent: Orama.Rendering.Pipelines.Forward.OpaquePass
   langs:
   - csharp
   - vb
-  name: Render(in RenderFrame)
-  nameWithType: OpaquePass.Render(in RenderFrame)
-  fullName: Orama.Rendering.Pipelines.Forward.OpaquePass.Render(in Orama.Rendering.RenderFrame)
+  name: Render(in RenderFrame, ICommandBuffer)
+  nameWithType: OpaquePass.Render(in RenderFrame, ICommandBuffer)
+  fullName: Orama.Rendering.Pipelines.Forward.OpaquePass.Render(in Orama.Rendering.RenderFrame, Orama.RHI.ICommandBuffer)
   type: Method
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/Forward/OpaquePass.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Render
     path: ../Orama/Modules/Orama.Rendering/Pipelines/Forward/OpaquePass.cs
-    startLine: 13
+    startLine: 15
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines.Forward
+  summary: Performs rendering operations.
+  remarks: This method is called by <xref href="Orama.Rendering.Pipelines.RenderPass.Execute(Orama.Rendering.RenderFrame%40)" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public override void Render(in RenderFrame frame)
+    content: public override void Render(in RenderFrame frame, ICommandBuffer buffer)
     parameters:
     - id: frame
       type: Orama.Rendering.RenderFrame
-    content.vb: Public Overrides Sub Render(frame As RenderFrame)
-  overridden: Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame@)
+    - id: buffer
+      type: Orama.RHI.ICommandBuffer
+    content.vb: Public Overrides Sub Render(frame As RenderFrame, buffer As ICommandBuffer)
+  overridden: Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame@,Orama.RHI.ICommandBuffer)
   overload: Orama.Rendering.Pipelines.Forward.OpaquePass.Render*
-  nameWithType.vb: OpaquePass.Render(RenderFrame)
-  fullName.vb: Orama.Rendering.Pipelines.Forward.OpaquePass.Render(Orama.Rendering.RenderFrame)
-  name.vb: Render(RenderFrame)
+  nameWithType.vb: OpaquePass.Render(RenderFrame, ICommandBuffer)
+  fullName.vb: Orama.Rendering.Pipelines.Forward.OpaquePass.Render(Orama.Rendering.RenderFrame, Orama.RHI.ICommandBuffer)
+  name.vb: Render(RenderFrame, ICommandBuffer)
 references:
 - uid: Orama.Rendering.Pipelines.Forward
   commentId: N:Orama.Rendering.Pipelines.Forward
@@ -131,6 +138,50 @@ references:
   name: RenderPass
   nameWithType: RenderPass
   fullName: Orama.Rendering.Pipelines.RenderPass
+- uid: Orama.Rendering.Pipelines.RenderPass.Pipeline
+  commentId: P:Orama.Rendering.Pipelines.RenderPass.Pipeline
+  parent: Orama.Rendering.Pipelines.RenderPass
+  href: Orama.Rendering.Pipelines.RenderPass.html#Orama_Rendering_Pipelines_RenderPass_Pipeline
+  name: Pipeline
+  nameWithType: RenderPass.Pipeline
+  fullName: Orama.Rendering.Pipelines.RenderPass.Pipeline
+- uid: Orama.Rendering.Pipelines.RenderPass.Execute(Orama.Rendering.RenderFrame@)
+  commentId: M:Orama.Rendering.Pipelines.RenderPass.Execute(Orama.Rendering.RenderFrame@)
+  parent: Orama.Rendering.Pipelines.RenderPass
+  href: Orama.Rendering.Pipelines.RenderPass.html#Orama_Rendering_Pipelines_RenderPass_Execute_Orama_Rendering_RenderFrame__
+  name: Execute(in RenderFrame)
+  nameWithType: RenderPass.Execute(in RenderFrame)
+  fullName: Orama.Rendering.Pipelines.RenderPass.Execute(in Orama.Rendering.RenderFrame)
+  nameWithType.vb: RenderPass.Execute(RenderFrame)
+  fullName.vb: Orama.Rendering.Pipelines.RenderPass.Execute(Orama.Rendering.RenderFrame)
+  name.vb: Execute(RenderFrame)
+  spec.csharp:
+  - uid: Orama.Rendering.Pipelines.RenderPass.Execute(Orama.Rendering.RenderFrame@)
+    name: Execute
+    href: Orama.Rendering.Pipelines.RenderPass.html#Orama_Rendering_Pipelines_RenderPass_Execute_Orama_Rendering_RenderFrame__
+  - name: (
+  - name: in
+  - name: " "
+  - uid: Orama.Rendering.RenderFrame
+    name: RenderFrame
+    href: Orama.Rendering.RenderFrame.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Pipelines.RenderPass.Execute(Orama.Rendering.RenderFrame@)
+    name: Execute
+    href: Orama.Rendering.Pipelines.RenderPass.html#Orama_Rendering_Pipelines_RenderPass_Execute_Orama_Rendering_RenderFrame__
+  - name: (
+  - uid: Orama.Rendering.RenderFrame
+    name: RenderFrame
+    href: Orama.Rendering.RenderFrame.html
+  - name: )
+- uid: Orama.Rendering.Pipelines.RenderPass.TargetBuffer
+  commentId: P:Orama.Rendering.Pipelines.RenderPass.TargetBuffer
+  parent: Orama.Rendering.Pipelines.RenderPass
+  href: Orama.Rendering.Pipelines.RenderPass.html#Orama_Rendering_Pipelines_RenderPass_TargetBuffer
+  name: TargetBuffer
+  nameWithType: RenderPass.TargetBuffer
+  fullName: Orama.Rendering.Pipelines.RenderPass.TargetBuffer
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -387,39 +438,49 @@ references:
   - uid: Orama.Rendering.Pipelines
     name: Pipelines
     href: Orama.Rendering.Pipelines.html
-- uid: Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame@)
-  commentId: M:Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame@)
+- uid: Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame@,Orama.RHI.ICommandBuffer)
+  commentId: M:Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame@,Orama.RHI.ICommandBuffer)
   parent: Orama.Rendering.Pipelines.RenderPass
-  href: Orama.Rendering.Pipelines.RenderPass.html#Orama_Rendering_Pipelines_RenderPass_Render_Orama_Rendering_RenderFrame__
-  name: Render(in RenderFrame)
-  nameWithType: RenderPass.Render(in RenderFrame)
-  fullName: Orama.Rendering.Pipelines.RenderPass.Render(in Orama.Rendering.RenderFrame)
-  nameWithType.vb: RenderPass.Render(RenderFrame)
-  fullName.vb: Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame)
-  name.vb: Render(RenderFrame)
+  href: Orama.Rendering.Pipelines.RenderPass.html#Orama_Rendering_Pipelines_RenderPass_Render_Orama_Rendering_RenderFrame__Orama_RHI_ICommandBuffer_
+  name: Render(in RenderFrame, ICommandBuffer)
+  nameWithType: RenderPass.Render(in RenderFrame, ICommandBuffer)
+  fullName: Orama.Rendering.Pipelines.RenderPass.Render(in Orama.Rendering.RenderFrame, Orama.RHI.ICommandBuffer)
+  nameWithType.vb: RenderPass.Render(RenderFrame, ICommandBuffer)
+  fullName.vb: Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame, Orama.RHI.ICommandBuffer)
+  name.vb: Render(RenderFrame, ICommandBuffer)
   spec.csharp:
-  - uid: Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame@)
+  - uid: Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame@,Orama.RHI.ICommandBuffer)
     name: Render
-    href: Orama.Rendering.Pipelines.RenderPass.html#Orama_Rendering_Pipelines_RenderPass_Render_Orama_Rendering_RenderFrame__
+    href: Orama.Rendering.Pipelines.RenderPass.html#Orama_Rendering_Pipelines_RenderPass_Render_Orama_Rendering_RenderFrame__Orama_RHI_ICommandBuffer_
   - name: (
   - name: in
   - name: " "
   - uid: Orama.Rendering.RenderFrame
     name: RenderFrame
     href: Orama.Rendering.RenderFrame.html
+  - name: ','
+  - name: " "
+  - uid: Orama.RHI.ICommandBuffer
+    name: ICommandBuffer
+    href: Orama.RHI.ICommandBuffer.html
   - name: )
   spec.vb:
-  - uid: Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame@)
+  - uid: Orama.Rendering.Pipelines.RenderPass.Render(Orama.Rendering.RenderFrame@,Orama.RHI.ICommandBuffer)
     name: Render
-    href: Orama.Rendering.Pipelines.RenderPass.html#Orama_Rendering_Pipelines_RenderPass_Render_Orama_Rendering_RenderFrame__
+    href: Orama.Rendering.Pipelines.RenderPass.html#Orama_Rendering_Pipelines_RenderPass_Render_Orama_Rendering_RenderFrame__Orama_RHI_ICommandBuffer_
   - name: (
   - uid: Orama.Rendering.RenderFrame
     name: RenderFrame
     href: Orama.Rendering.RenderFrame.html
+  - name: ','
+  - name: " "
+  - uid: Orama.RHI.ICommandBuffer
+    name: ICommandBuffer
+    href: Orama.RHI.ICommandBuffer.html
   - name: )
 - uid: Orama.Rendering.Pipelines.Forward.OpaquePass.Render*
   commentId: Overload:Orama.Rendering.Pipelines.Forward.OpaquePass.Render
-  href: Orama.Rendering.Pipelines.Forward.OpaquePass.html#Orama_Rendering_Pipelines_Forward_OpaquePass_Render_Orama_Rendering_RenderFrame__
+  href: Orama.Rendering.Pipelines.Forward.OpaquePass.html#Orama_Rendering_Pipelines_Forward_OpaquePass_Render_Orama_Rendering_RenderFrame__Orama_RHI_ICommandBuffer_
   name: Render
   nameWithType: OpaquePass.Render
   fullName: Orama.Rendering.Pipelines.Forward.OpaquePass.Render
@@ -430,6 +491,13 @@ references:
   name: RenderFrame
   nameWithType: RenderFrame
   fullName: Orama.Rendering.RenderFrame
+- uid: Orama.RHI.ICommandBuffer
+  commentId: T:Orama.RHI.ICommandBuffer
+  parent: Orama.RHI
+  href: Orama.RHI.ICommandBuffer.html
+  name: ICommandBuffer
+  nameWithType: ICommandBuffer
+  fullName: Orama.RHI.ICommandBuffer
 - uid: Orama.Rendering
   commentId: N:Orama.Rendering
   href: Orama.html
@@ -452,3 +520,25 @@ references:
   - uid: Orama.Rendering
     name: Rendering
     href: Orama.Rendering.html
+- uid: Orama.RHI
+  commentId: N:Orama.RHI
+  href: Orama.html
+  name: Orama.RHI
+  nameWithType: Orama.RHI
+  fullName: Orama.RHI
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html

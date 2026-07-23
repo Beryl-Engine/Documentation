@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Serialization.Conversion
   commentId: N:Orama.Serialization.Conversion
-  id: Orama.Serialization.Conversion
+  id: Conversion
+  parent: Orama.Serialization
   children:
   - Orama.Serialization.Conversion.StringConverterAttribute
   langs:

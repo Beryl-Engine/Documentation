@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.Resources.ShaderStages
+  commentId: T:Orama.RHI.Resources.ShaderStages
+  id: ShaderStages
+  parent: Orama.RHI.Resources
+  children:
+  - Orama.RHI.Resources.ShaderStages.Fragment
+  - Orama.RHI.Resources.ShaderStages.Vertex
+  langs:
+  - csharp
+  - vb
+  name: ShaderStages
+  nameWithType: ShaderStages
+  fullName: Orama.RHI.Resources.ShaderStages
+  type: Enum
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceInterfaces.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ShaderStages
+    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    startLine: 82
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  summary: All stages of a shader.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ShaderStages : byte
+    content.vb: >-
+      <Flags>
+
+      Public Enum ShaderStages As Byte
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Orama.RHI.Resources.ShaderStages.Vertex
+  commentId: F:Orama.RHI.Resources.ShaderStages.Vertex
+  id: Vertex
+  parent: Orama.RHI.Resources.ShaderStages
+  langs:
+  - csharp
+  - vb
+  name: Vertex
+  nameWithType: ShaderStages.Vertex
+  fullName: Orama.RHI.Resources.ShaderStages.Vertex
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceInterfaces.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Vertex
+    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    startLine: 85
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: Vertex = 1
+    return:
+      type: Orama.RHI.Resources.ShaderStages
+- uid: Orama.RHI.Resources.ShaderStages.Fragment
+  commentId: F:Orama.RHI.Resources.ShaderStages.Fragment
+  id: Fragment
+  parent: Orama.RHI.Resources.ShaderStages
+  langs:
+  - csharp
+  - vb
+  name: Fragment
+  nameWithType: ShaderStages.Fragment
+  fullName: Orama.RHI.Resources.ShaderStages.Fragment
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceInterfaces.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Fragment
+    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    startLine: 86
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: Fragment = 2
+    return:
+      type: Orama.RHI.Resources.ShaderStages
+references:
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: Orama.RHI.Resources.ShaderStages
+  commentId: T:Orama.RHI.Resources.ShaderStages
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.ShaderStages.html
+  name: ShaderStages
+  nameWithType: ShaderStages
+  fullName: Orama.RHI.Resources.ShaderStages

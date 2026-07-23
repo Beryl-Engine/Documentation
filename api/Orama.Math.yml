@@ -2,11 +2,11 @@
 items:
 - uid: Orama.Math
   commentId: N:Orama.Math
-  id: Orama.Math
+  id: Math
+  parent: Orama
   children:
   - Orama.Math.Color
   - Orama.Math.Math
-  - Orama.Math.MathFEx
   - Orama.Math.Matrix4x4
   - Orama.Math.Quaternion
   - Orama.Math.Rect
@@ -37,12 +37,6 @@ references:
   name: Math
   nameWithType: Math
   fullName: Orama.Math.Math
-- uid: Orama.Math.MathFEx
-  commentId: T:Orama.Math.MathFEx
-  href: Orama.Math.MathFEx.html
-  name: MathFEx
-  nameWithType: MathFEx
-  fullName: Orama.Math.MathFEx
 - uid: Orama.Math.Matrix4x4
   commentId: T:Orama.Math.Matrix4x4
   parent: Orama.Math

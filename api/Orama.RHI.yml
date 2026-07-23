@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI
+  commentId: N:Orama.RHI
+  id: RHI
+  parent: Orama
+  children:
+  - Orama.RHI.CullingMode
+  - Orama.RHI.GraphicsDeviceFactory
+  - Orama.RHI.ICommandBuffer
+  - Orama.RHI.IGraphicsDevice
+  - Orama.RHI.IResourceFactory
+  - Orama.RHI.RendererBackend
+  - Orama.RHI.Resources
+  - Orama.RHI.VulkanInfo
+  langs:
+  - csharp
+  - vb
+  name: Orama.RHI
+  nameWithType: Orama.RHI
+  fullName: Orama.RHI
+  type: Namespace
+  assemblies:
+  - Orama.RHI
+references:
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: Orama.RHI.CullingMode
+  commentId: T:Orama.RHI.CullingMode
+  parent: Orama.RHI
+  href: Orama.RHI.CullingMode.html
+  name: CullingMode
+  nameWithType: CullingMode
+  fullName: Orama.RHI.CullingMode
+- uid: Orama.RHI.GraphicsDeviceFactory
+  commentId: T:Orama.RHI.GraphicsDeviceFactory
+  href: Orama.RHI.GraphicsDeviceFactory.html
+  name: GraphicsDeviceFactory
+  nameWithType: GraphicsDeviceFactory
+  fullName: Orama.RHI.GraphicsDeviceFactory
+- uid: Orama.RHI.ICommandBuffer
+  commentId: T:Orama.RHI.ICommandBuffer
+  parent: Orama.RHI
+  href: Orama.RHI.ICommandBuffer.html
+  name: ICommandBuffer
+  nameWithType: ICommandBuffer
+  fullName: Orama.RHI.ICommandBuffer
+- uid: Orama.RHI.IGraphicsDevice
+  commentId: T:Orama.RHI.IGraphicsDevice
+  parent: Orama.RHI
+  href: Orama.RHI.IGraphicsDevice.html
+  name: IGraphicsDevice
+  nameWithType: IGraphicsDevice
+  fullName: Orama.RHI.IGraphicsDevice
+- uid: Orama.RHI.IResourceFactory
+  commentId: T:Orama.RHI.IResourceFactory
+  parent: Orama.RHI
+  href: Orama.RHI.IResourceFactory.html
+  name: IResourceFactory
+  nameWithType: IResourceFactory
+  fullName: Orama.RHI.IResourceFactory
+- uid: Orama.RHI.RendererBackend
+  commentId: T:Orama.RHI.RendererBackend
+  parent: Orama.RHI
+  href: Orama.RHI.RendererBackend.html
+  name: RendererBackend
+  nameWithType: RendererBackend
+  fullName: Orama.RHI.RendererBackend
+- uid: Orama.RHI.VulkanInfo
+  commentId: T:Orama.RHI.VulkanInfo
+  href: Orama.RHI.VulkanInfo.html
+  name: VulkanInfo
+  nameWithType: VulkanInfo
+  fullName: Orama.RHI.VulkanInfo
+- uid: Orama.RHI
+  commentId: N:Orama.RHI
+  href: Orama.html
+  name: Orama.RHI
+  nameWithType: Orama.RHI
+  fullName: Orama.RHI
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html

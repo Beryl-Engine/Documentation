@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Physics.Components.Colliders
   commentId: N:Orama.Physics.Components.Colliders
-  id: Orama.Physics.Components.Colliders
+  id: Colliders
+  parent: Orama.Physics.Components
   children:
   - Orama.Physics.Components.Colliders.BoxCollider
   - Orama.Physics.Components.Colliders.Collider

@@ -5,7 +5,7 @@ items:
   id: RenderItem
   parent: Orama.Rendering.Resources
   children:
-  - Orama.Rendering.Resources.RenderItem.#ctor(NeoVeldrid.DeviceBuffer,NeoVeldrid.DeviceBuffer,System.UInt32,NeoVeldrid.Pipeline)
+  - Orama.Rendering.Resources.RenderItem.#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.RHI.Resources.IPipeline)
   - Orama.Rendering.Resources.RenderItem.Dispose
   - Orama.Rendering.Resources.RenderItem.IndexBuffer
   - Orama.Rendering.Resources.RenderItem.IndexCount
@@ -21,19 +21,19 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RenderItem
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
-    startLine: 9
+    startLine: 10
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
   summary: Low-Level representation of a rendered object.
   example: []
   syntax:
-    content: 'public class RenderItem : IDisposable'
-    content.vb: Public Class RenderItem Implements IDisposable
+    content: 'public sealed class RenderItem : IDisposable'
+    content.vb: Public NotInheritable Class RenderItem Implements IDisposable
   inheritance:
   - System.Object
   implements:
@@ -43,7 +43,6 @@ items:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
   - System.Object.GetType
-  - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
 - uid: Orama.Rendering.Resources.RenderItem.VertexBuffer
@@ -60,20 +59,20 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: VertexBuffer
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
-    startLine: 11
+    startLine: 12
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
   syntax:
-    content: public DeviceBuffer VertexBuffer { get; }
+    content: public IBuffer VertexBuffer { get; }
     parameters: []
     return:
-      type: NeoVeldrid.DeviceBuffer
-    content.vb: Public ReadOnly Property VertexBuffer As DeviceBuffer
+      type: Orama.RHI.Resources.IBuffer
+    content.vb: Public ReadOnly Property VertexBuffer As IBuffer
   overload: Orama.Rendering.Resources.RenderItem.VertexBuffer*
 - uid: Orama.Rendering.Resources.RenderItem.IndexBuffer
   commentId: P:Orama.Rendering.Resources.RenderItem.IndexBuffer
@@ -89,20 +88,20 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IndexBuffer
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
   syntax:
-    content: public DeviceBuffer IndexBuffer { get; }
+    content: public IBuffer IndexBuffer { get; }
     parameters: []
     return:
-      type: NeoVeldrid.DeviceBuffer
-    content.vb: Public ReadOnly Property IndexBuffer As DeviceBuffer
+      type: Orama.RHI.Resources.IBuffer
+    content.vb: Public ReadOnly Property IndexBuffer As IBuffer
   overload: Orama.Rendering.Resources.RenderItem.IndexBuffer*
 - uid: Orama.Rendering.Resources.RenderItem.IndexCount
   commentId: P:Orama.Rendering.Resources.RenderItem.IndexCount
@@ -118,11 +117,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IndexCount
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -147,59 +146,59 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Pipeline
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
   syntax:
-    content: public Pipeline Pipeline { get; }
+    content: public IPipeline Pipeline { get; }
     parameters: []
     return:
-      type: NeoVeldrid.Pipeline
-    content.vb: Public ReadOnly Property Pipeline As Pipeline
+      type: Orama.RHI.Resources.IPipeline
+    content.vb: Public ReadOnly Property Pipeline As IPipeline
   overload: Orama.Rendering.Resources.RenderItem.Pipeline*
-- uid: Orama.Rendering.Resources.RenderItem.#ctor(NeoVeldrid.DeviceBuffer,NeoVeldrid.DeviceBuffer,System.UInt32,NeoVeldrid.Pipeline)
-  commentId: M:Orama.Rendering.Resources.RenderItem.#ctor(NeoVeldrid.DeviceBuffer,NeoVeldrid.DeviceBuffer,System.UInt32,NeoVeldrid.Pipeline)
-  id: '#ctor(NeoVeldrid.DeviceBuffer,NeoVeldrid.DeviceBuffer,System.UInt32,NeoVeldrid.Pipeline)'
+- uid: Orama.Rendering.Resources.RenderItem.#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.RHI.Resources.IPipeline)
+  commentId: M:Orama.Rendering.Resources.RenderItem.#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.RHI.Resources.IPipeline)
+  id: '#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.RHI.Resources.IPipeline)'
   parent: Orama.Rendering.Resources.RenderItem
   langs:
   - csharp
   - vb
-  name: RenderItem(DeviceBuffer, DeviceBuffer, uint, Pipeline)
-  nameWithType: RenderItem.RenderItem(DeviceBuffer, DeviceBuffer, uint, Pipeline)
-  fullName: Orama.Rendering.Resources.RenderItem.RenderItem(NeoVeldrid.DeviceBuffer, NeoVeldrid.DeviceBuffer, uint, NeoVeldrid.Pipeline)
+  name: RenderItem(IBuffer, IBuffer, uint, IPipeline)
+  nameWithType: RenderItem.RenderItem(IBuffer, IBuffer, uint, IPipeline)
+  fullName: Orama.Rendering.Resources.RenderItem.RenderItem(Orama.RHI.Resources.IBuffer, Orama.RHI.Resources.IBuffer, uint, Orama.RHI.Resources.IPipeline)
   type: Constructor
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
-    startLine: 16
+    startLine: 17
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
   syntax:
-    content: public RenderItem(DeviceBuffer vertexBuffer, DeviceBuffer indexBuffer, uint indexCount, Pipeline pipeline)
+    content: public RenderItem(IBuffer vertexBuffer, IBuffer indexBuffer, uint indexCount, IPipeline pipeline)
     parameters:
     - id: vertexBuffer
-      type: NeoVeldrid.DeviceBuffer
+      type: Orama.RHI.Resources.IBuffer
     - id: indexBuffer
-      type: NeoVeldrid.DeviceBuffer
+      type: Orama.RHI.Resources.IBuffer
     - id: indexCount
       type: System.UInt32
     - id: pipeline
-      type: NeoVeldrid.Pipeline
-    content.vb: Public Sub New(vertexBuffer As DeviceBuffer, indexBuffer As DeviceBuffer, indexCount As UInteger, pipeline As Pipeline)
+      type: Orama.RHI.Resources.IPipeline
+    content.vb: Public Sub New(vertexBuffer As IBuffer, indexBuffer As IBuffer, indexCount As UInteger, pipeline As IPipeline)
   overload: Orama.Rendering.Resources.RenderItem.#ctor*
-  nameWithType.vb: RenderItem.New(DeviceBuffer, DeviceBuffer, UInteger, Pipeline)
-  fullName.vb: Orama.Rendering.Resources.RenderItem.New(NeoVeldrid.DeviceBuffer, NeoVeldrid.DeviceBuffer, UInteger, NeoVeldrid.Pipeline)
-  name.vb: New(DeviceBuffer, DeviceBuffer, UInteger, Pipeline)
+  nameWithType.vb: RenderItem.New(IBuffer, IBuffer, UInteger, IPipeline)
+  fullName.vb: Orama.Rendering.Resources.RenderItem.New(Orama.RHI.Resources.IBuffer, Orama.RHI.Resources.IBuffer, UInteger, Orama.RHI.Resources.IPipeline)
+  name.vb: New(IBuffer, IBuffer, UInteger, IPipeline)
 - uid: Orama.Rendering.Resources.RenderItem.Dispose
   commentId: M:Orama.Rendering.Resources.RenderItem.Dispose
   id: Dispose
@@ -214,11 +213,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
-    startLine: 25
+    startLine: 26
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -406,30 +405,6 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
   - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
@@ -512,19 +487,43 @@ references:
   name: VertexBuffer
   nameWithType: RenderItem.VertexBuffer
   fullName: Orama.Rendering.Resources.RenderItem.VertexBuffer
-- uid: NeoVeldrid.DeviceBuffer
-  commentId: T:NeoVeldrid.DeviceBuffer
-  parent: NeoVeldrid
-  isExternal: true
-  name: DeviceBuffer
-  nameWithType: DeviceBuffer
-  fullName: NeoVeldrid.DeviceBuffer
-- uid: NeoVeldrid
-  commentId: N:NeoVeldrid
-  isExternal: true
-  name: NeoVeldrid
-  nameWithType: NeoVeldrid
-  fullName: NeoVeldrid
+- uid: Orama.RHI.Resources.IBuffer
+  commentId: T:Orama.RHI.Resources.IBuffer
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.IBuffer.html
+  name: IBuffer
+  nameWithType: IBuffer
+  fullName: Orama.RHI.Resources.IBuffer
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
 - uid: Orama.Rendering.Resources.RenderItem.IndexBuffer*
   commentId: Overload:Orama.Rendering.Resources.RenderItem.IndexBuffer
   href: Orama.Rendering.Resources.RenderItem.html#Orama_Rendering_Resources_RenderItem_IndexBuffer
@@ -554,16 +553,16 @@ references:
   name: Pipeline
   nameWithType: RenderItem.Pipeline
   fullName: Orama.Rendering.Resources.RenderItem.Pipeline
-- uid: NeoVeldrid.Pipeline
-  commentId: T:NeoVeldrid.Pipeline
-  parent: NeoVeldrid
-  isExternal: true
-  name: Pipeline
-  nameWithType: Pipeline
-  fullName: NeoVeldrid.Pipeline
+- uid: Orama.RHI.Resources.IPipeline
+  commentId: T:Orama.RHI.Resources.IPipeline
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.IPipeline.html
+  name: IPipeline
+  nameWithType: IPipeline
+  fullName: Orama.RHI.Resources.IPipeline
 - uid: Orama.Rendering.Resources.RenderItem.#ctor*
   commentId: Overload:Orama.Rendering.Resources.RenderItem.#ctor
-  href: Orama.Rendering.Resources.RenderItem.html#Orama_Rendering_Resources_RenderItem__ctor_NeoVeldrid_DeviceBuffer_NeoVeldrid_DeviceBuffer_System_UInt32_NeoVeldrid_Pipeline_
+  href: Orama.Rendering.Resources.RenderItem.html#Orama_Rendering_Resources_RenderItem__ctor_Orama_RHI_Resources_IBuffer_Orama_RHI_Resources_IBuffer_System_UInt32_Orama_RHI_Resources_IPipeline_
   name: RenderItem
   nameWithType: RenderItem.RenderItem
   fullName: Orama.Rendering.Resources.RenderItem.RenderItem

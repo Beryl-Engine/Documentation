@@ -30,11 +30,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IAudioSource
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -59,11 +59,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Volume
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -90,11 +90,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Pitch
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -121,11 +121,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Loop
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -152,11 +152,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsPlaying
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 20
+    startLine: 23
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -183,11 +183,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Obstruction
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 23
+    startLine: 26
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -214,11 +214,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Occlusion
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 26
+    startLine: 29
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -245,11 +245,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Obstructed
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 29
+    startLine: 32
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -276,11 +276,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: MinDistance
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 32
+    startLine: 35
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -307,11 +307,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: MaxDistance
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 35
+    startLine: 38
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -338,11 +338,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RolloffFactor
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 38
+    startLine: 41
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -369,11 +369,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: SetClip
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 42
+    startLine: 45
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -401,11 +401,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Play
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 45
+    startLine: 48
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -429,11 +429,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Stop
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 48
+    startLine: 51
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -457,11 +457,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 51
+    startLine: 54
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio
@@ -485,11 +485,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/IAudioSource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
-    startLine: 53
+    startLine: 56
   assemblies:
   - Orama.Audio
   namespace: Orama.Audio

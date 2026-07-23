@@ -2,8 +2,11 @@
 items:
 - uid: Orama.Serialization
   commentId: N:Orama.Serialization
-  id: Orama.Serialization
+  id: Serialization
+  parent: Orama
   children:
+  - Orama.Serialization.Attributes
+  - Orama.Serialization.Conversion
   - Orama.Serialization.Serialization
   - Orama.Serialization.SerializationType
   langs:
@@ -16,6 +19,66 @@ items:
   assemblies:
   - Orama.Serialization
 references:
+- uid: Orama.Serialization.Attributes
+  commentId: N:Orama.Serialization.Attributes
+  href: Orama.html
+  name: Orama.Serialization.Attributes
+  nameWithType: Orama.Serialization.Attributes
+  fullName: Orama.Serialization.Attributes
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Serialization
+    name: Serialization
+    href: Orama.Serialization.html
+  - name: .
+  - uid: Orama.Serialization.Attributes
+    name: Attributes
+    href: Orama.Serialization.Attributes.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Serialization
+    name: Serialization
+    href: Orama.Serialization.html
+  - name: .
+  - uid: Orama.Serialization.Attributes
+    name: Attributes
+    href: Orama.Serialization.Attributes.html
+- uid: Orama.Serialization.Conversion
+  commentId: N:Orama.Serialization.Conversion
+  href: Orama.html
+  name: Orama.Serialization.Conversion
+  nameWithType: Orama.Serialization.Conversion
+  fullName: Orama.Serialization.Conversion
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Serialization
+    name: Serialization
+    href: Orama.Serialization.html
+  - name: .
+  - uid: Orama.Serialization.Conversion
+    name: Conversion
+    href: Orama.Serialization.Conversion.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Serialization
+    name: Serialization
+    href: Orama.Serialization.html
+  - name: .
+  - uid: Orama.Serialization.Conversion
+    name: Conversion
+    href: Orama.Serialization.Conversion.html
 - uid: Orama.Serialization.Serialization
   commentId: T:Orama.Serialization.Serialization
   href: Orama.Serialization.Serialization.html

@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: Orama.Serialization/Conversion/StringConverter.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: StringConverterAttribute
     path: ../Orama/Orama.Serialization/Conversion/StringConverter.cs
-    startLine: 8
+    startLine: 12
   assemblies:
   - Orama.Serialization
   namespace: Orama.Serialization.Conversion
@@ -103,11 +103,11 @@ items:
   source:
     remote:
       path: Orama.Serialization/Conversion/StringConverter.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Type
     path: ../Orama/Orama.Serialization/Conversion/StringConverter.cs
-    startLine: 14
+    startLine: 18
   assemblies:
   - Orama.Serialization
   namespace: Orama.Serialization.Conversion
@@ -134,11 +134,11 @@ items:
   source:
     remote:
       path: Orama.Serialization/Conversion/StringConverter.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Serialization/Conversion/StringConverter.cs
-    startLine: 17
+    startLine: 21
   assemblies:
   - Orama.Serialization
   namespace: Orama.Serialization.Conversion
@@ -168,11 +168,11 @@ items:
   source:
     remote:
       path: Orama.Serialization/Conversion/StringConverter.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetConverter
     path: ../Orama/Orama.Serialization/Conversion/StringConverter.cs
-    startLine: 20
+    startLine: 24
   assemblies:
   - Orama.Serialization
   namespace: Orama.Serialization.Conversion

@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceLoader
     path: ../Orama/Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
-    startLine: 8
+    startLine: 10
   assemblies:
   - Orama.Common
   namespace: Orama.Common.Resources.DefaultProvider
@@ -59,11 +59,11 @@ items:
   source:
     remote:
       path: Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: LoadResource
     path: ../Orama/Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
-    startLine: 14
+    startLine: 16
   assemblies:
   - Orama.Common
   namespace: Orama.Common.Resources.DefaultProvider
@@ -100,11 +100,11 @@ items:
   source:
     remote:
       path: Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetResourceLoader
     path: ../Orama/Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
-    startLine: 18
+    startLine: 20
   assemblies:
   - Orama.Common
   namespace: Orama.Common.Resources.DefaultProvider

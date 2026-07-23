@@ -16,11 +16,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RenderItemCache
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-    startLine: 6
+    startLine: 10
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources.Caches
@@ -34,6 +34,7 @@ items:
   - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.RenderItemCache,Orama.Rendering.Resources.Caches.RenderItemKey,Orama.Rendering.Resources.RenderItem}.Instance
   - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.RenderItemCache,Orama.Rendering.Resources.Caches.RenderItemKey,Orama.Rendering.Resources.RenderItem}.Cache
   - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.RenderItemCache,Orama.Rendering.Resources.Caches.RenderItemKey,Orama.Rendering.Resources.RenderItem}.GetOrCreate(Orama.Rendering.Resources.Caches.RenderItemKey)
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.RenderItemCache,Orama.Rendering.Resources.Caches.RenderItemKey,Orama.Rendering.Resources.RenderItem}.Get(Orama.Rendering.Resources.Caches.RenderItemKey)
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -54,11 +55,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Create
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-    startLine: 9
+    startLine: 13
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources.Caches
@@ -218,6 +219,34 @@ references:
   - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.RenderItemCache,Orama.Rendering.Resources.Caches.RenderItemKey,Orama.Rendering.Resources.RenderItem}.GetOrCreate(Orama.Rendering.Resources.Caches.RenderItemKey)
     name: GetOrCreate
     href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - uid: Orama.Rendering.Resources.Caches.RenderItemKey
+    name: RenderItemKey
+    href: Orama.Rendering.Resources.Caches.RenderItemKey.html
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.RenderItemCache,Orama.Rendering.Resources.Caches.RenderItemKey,Orama.Rendering.Resources.RenderItem}.Get(Orama.Rendering.Resources.Caches.RenderItemKey)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.RenderItemCache,Orama.Rendering.Resources.Caches.RenderItemKey,Orama.Rendering.Resources.RenderItem}.Get(Orama.Rendering.Resources.Caches.RenderItemKey)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.RenderItemCache,Orama.Rendering.Resources.Caches.RenderItemKey,Orama.Rendering.Resources.RenderItem}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(RenderItemKey)
+  nameWithType: ResourceCache<RenderItemCache, RenderItemKey, RenderItem>.Get(RenderItemKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.RenderItemCache, Orama.Rendering.Resources.Caches.RenderItemKey, Orama.Rendering.Resources.RenderItem>.Get(Orama.Rendering.Resources.Caches.RenderItemKey)
+  nameWithType.vb: ResourceCache(Of RenderItemCache, RenderItemKey, RenderItem).Get(RenderItemKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.RenderItemCache, Orama.Rendering.Resources.Caches.RenderItemKey, Orama.Rendering.Resources.RenderItem).Get(Orama.Rendering.Resources.Caches.RenderItemKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.RenderItemCache,Orama.Rendering.Resources.Caches.RenderItemKey,Orama.Rendering.Resources.RenderItem}.Get(Orama.Rendering.Resources.Caches.RenderItemKey)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - uid: Orama.Rendering.Resources.Caches.RenderItemKey
+    name: RenderItemKey
+    href: Orama.Rendering.Resources.Caches.RenderItemKey.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.RenderItemCache,Orama.Rendering.Resources.Caches.RenderItemKey,Orama.Rendering.Resources.RenderItem}.Get(Orama.Rendering.Resources.Caches.RenderItemKey)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
   - name: (
   - uid: Orama.Rendering.Resources.Caches.RenderItemKey
     name: RenderItemKey
@@ -497,6 +526,28 @@ references:
   - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
     name: GetOrCreate
     href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
   - name: (
   - name: TKey
   - name: )

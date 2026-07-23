@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.Resources.ITexture
+  commentId: T:Orama.RHI.Resources.ITexture
+  id: ITexture
+  parent: Orama.RHI.Resources
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ITexture
+  nameWithType: ITexture
+  fullName: Orama.RHI.Resources.ITexture
+  type: Interface
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceInterfaces.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ITexture
+    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    startLine: 27
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  summary: A GPU texture.
+  example: []
+  syntax:
+    content: 'public interface ITexture : IBindableResource, IGPUResource, IDisposable'
+    content.vb: Public Interface ITexture Inherits IBindableResource, IGPUResource, IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+references:
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

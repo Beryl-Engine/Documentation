@@ -15,11 +15,11 @@ items:
   source:
     remote:
       path: Orama.Serialization/Attributes/AlwaysSerializeAttribute.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AlwaysSerializeAttribute
     path: ../Orama/Orama.Serialization/Attributes/AlwaysSerializeAttribute.cs
-    startLine: 6
+    startLine: 8
   assemblies:
   - Orama.Serialization
   namespace: Orama.Serialization.Attributes

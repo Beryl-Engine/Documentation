@@ -6,7 +6,9 @@ items:
   parent: Orama.Rendering
   children:
   - Orama.Rendering.SlangCompilationResult.FragmentBytes
+  - Orama.Rendering.SlangCompilationResult.Resources
   - Orama.Rendering.SlangCompilationResult.ShaderAttributes
+  - Orama.Rendering.SlangCompilationResult.ShaderParameters
   - Orama.Rendering.SlangCompilationResult.VertexBytes
   langs:
   - csharp
@@ -18,14 +20,16 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: SlangCompilationResult
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
-    startLine: 123
+    startLine: 168
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
+  summary: Result of a Slang compilation.
+  example: []
   syntax:
     content: public readonly ref struct SlangCompilationResult
     content.vb: Public Structure SlangCompilationResult
@@ -50,20 +54,22 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: VertexBytes
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
-    startLine: 125
+    startLine: 171
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
+  summary: SPIRV Vertex bytes.
+  example: []
   syntax:
-    content: public byte[] VertexBytes { get; init; }
+    content: public ReadOnlySpan<byte> VertexBytes { get; init; }
     parameters: []
     return:
-      type: System.Byte[]
-    content.vb: Public Property VertexBytes As Byte()
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Public Property VertexBytes As ReadOnlySpan(Of Byte)
   overload: Orama.Rendering.SlangCompilationResult.VertexBytes*
 - uid: Orama.Rendering.SlangCompilationResult.FragmentBytes
   commentId: P:Orama.Rendering.SlangCompilationResult.FragmentBytes
@@ -79,20 +85,22 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: FragmentBytes
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
-    startLine: 126
+    startLine: 174
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
+  summary: SPIRV Fragment bytes.
+  example: []
   syntax:
-    content: public byte[] FragmentBytes { get; init; }
+    content: public ReadOnlySpan<byte> FragmentBytes { get; init; }
     parameters: []
     return:
-      type: System.Byte[]
-    content.vb: Public Property FragmentBytes As Byte()
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Public Property FragmentBytes As ReadOnlySpan(Of Byte)
   overload: Orama.Rendering.SlangCompilationResult.FragmentBytes*
 - uid: Orama.Rendering.SlangCompilationResult.ShaderAttributes
   commentId: P:Orama.Rendering.SlangCompilationResult.ShaderAttributes
@@ -108,14 +116,23 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ShaderAttributes
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
-    startLine: 128
+    startLine: 185
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
+  summary: All attributes inside of a <code>SHADER_ATTRIBUTES()</code> block.
+  example:
+  - >-
+    The following is Slang source that defines a <code>ShaderPass</code> Shader Attribute:
+
+
+    <pre><code class="lang-csharp">SHADER_ATTRIBUTES(
+        [ShaderPass("Opaque")]
+    )</code></pre>
   syntax:
     content: public List<AttributeReflection> ShaderAttributes { get; init; }
     parameters: []
@@ -123,6 +140,68 @@ items:
       type: System.Collections.Generic.List{SlangShaderSharp.AttributeReflection}
     content.vb: Public Property ShaderAttributes As List(Of AttributeReflection)
   overload: Orama.Rendering.SlangCompilationResult.ShaderAttributes*
+- uid: Orama.Rendering.SlangCompilationResult.ShaderParameters
+  commentId: P:Orama.Rendering.SlangCompilationResult.ShaderParameters
+  id: ShaderParameters
+  parent: Orama.Rendering.SlangCompilationResult
+  langs:
+  - csharp
+  - vb
+  name: ShaderParameters
+  nameWithType: SlangCompilationResult.ShaderParameters
+  fullName: Orama.Rendering.SlangCompilationResult.ShaderParameters
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/ShaderBaker.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ShaderParameters
+    path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
+    startLine: 188
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: All parameters inside of a <code>SHADER_PARAMETERS()</code> block.
+  example: []
+  syntax:
+    content: public List<VariableReflection> ShaderParameters { get; init; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SlangShaderSharp.VariableReflection}
+    content.vb: Public Property ShaderParameters As List(Of VariableReflection)
+  overload: Orama.Rendering.SlangCompilationResult.ShaderParameters*
+- uid: Orama.Rendering.SlangCompilationResult.Resources
+  commentId: P:Orama.Rendering.SlangCompilationResult.Resources
+  id: Resources
+  parent: Orama.Rendering.SlangCompilationResult
+  langs:
+  - csharp
+  - vb
+  name: Resources
+  nameWithType: SlangCompilationResult.Resources
+  fullName: Orama.Rendering.SlangCompilationResult.Resources
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/ShaderBaker.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Resources
+    path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
+    startLine: 191
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: All resources this shader requests.
+  example: []
+  syntax:
+    content: public List<VariableLayoutReflection> Resources { get; init; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SlangShaderSharp.VariableLayoutReflection}
+    content.vb: Public Property Resources As List(Of VariableLayoutReflection)
+  overload: Orama.Rendering.SlangCompilationResult.Resources*
 references:
 - uid: Orama.Rendering
   commentId: N:Orama.Rendering
@@ -369,28 +448,68 @@ references:
   name: VertexBytes
   nameWithType: SlangCompilationResult.VertexBytes
   fullName: Orama.Rendering.SlangCompilationResult.VertexBytes
-- uid: System.Byte[]
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.byte
-  name: byte[]
-  nameWithType: byte[]
-  fullName: byte[]
-  nameWithType.vb: Byte()
-  fullName.vb: Byte()
-  name.vb: Byte()
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
   spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
   - uid: System.Byte
     name: byte
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
+  - name: '>'
   spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Byte
     name: Byte
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
   - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
 - uid: Orama.Rendering.SlangCompilationResult.FragmentBytes*
   commentId: Overload:Orama.Rendering.SlangCompilationResult.FragmentBytes
@@ -502,3 +621,81 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Orama.Rendering.SlangCompilationResult.ShaderParameters*
+  commentId: Overload:Orama.Rendering.SlangCompilationResult.ShaderParameters
+  href: Orama.Rendering.SlangCompilationResult.html#Orama_Rendering_SlangCompilationResult_ShaderParameters
+  name: ShaderParameters
+  nameWithType: SlangCompilationResult.ShaderParameters
+  fullName: Orama.Rendering.SlangCompilationResult.ShaderParameters
+- uid: System.Collections.Generic.List{SlangShaderSharp.VariableReflection}
+  commentId: T:System.Collections.Generic.List{SlangShaderSharp.VariableReflection}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<VariableReflection>
+  nameWithType: List<VariableReflection>
+  fullName: System.Collections.Generic.List<SlangShaderSharp.VariableReflection>
+  nameWithType.vb: List(Of VariableReflection)
+  fullName.vb: System.Collections.Generic.List(Of SlangShaderSharp.VariableReflection)
+  name.vb: List(Of VariableReflection)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SlangShaderSharp.VariableReflection
+    name: VariableReflection
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SlangShaderSharp.VariableReflection
+    name: VariableReflection
+    isExternal: true
+  - name: )
+- uid: Orama.Rendering.SlangCompilationResult.Resources*
+  commentId: Overload:Orama.Rendering.SlangCompilationResult.Resources
+  href: Orama.Rendering.SlangCompilationResult.html#Orama_Rendering_SlangCompilationResult_Resources
+  name: Resources
+  nameWithType: SlangCompilationResult.Resources
+  fullName: Orama.Rendering.SlangCompilationResult.Resources
+- uid: System.Collections.Generic.List{SlangShaderSharp.VariableLayoutReflection}
+  commentId: T:System.Collections.Generic.List{SlangShaderSharp.VariableLayoutReflection}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<VariableLayoutReflection>
+  nameWithType: List<VariableLayoutReflection>
+  fullName: System.Collections.Generic.List<SlangShaderSharp.VariableLayoutReflection>
+  nameWithType.vb: List(Of VariableLayoutReflection)
+  fullName.vb: System.Collections.Generic.List(Of SlangShaderSharp.VariableLayoutReflection)
+  name.vb: List(Of VariableLayoutReflection)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SlangShaderSharp.VariableLayoutReflection
+    name: VariableLayoutReflection
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SlangShaderSharp.VariableLayoutReflection
+    name: VariableLayoutReflection
+    isExternal: true
+  - name: )

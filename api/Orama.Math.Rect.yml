@@ -21,11 +21,11 @@ items:
   source:
     remote:
       path: Orama.Math/Rect.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Rect
     path: ../Orama/Orama.Math/Rect.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -55,11 +55,11 @@ items:
   source:
     remote:
       path: Orama.Math/Rect.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Position
     path: ../Orama/Orama.Math/Rect.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -86,11 +86,11 @@ items:
   source:
     remote:
       path: Orama.Math/Rect.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Size
     path: ../Orama/Orama.Math/Rect.cs
-    startLine: 13
+    startLine: 16
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -117,11 +117,11 @@ items:
   source:
     remote:
       path: Orama.Math/Rect.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Math/Rect.cs
-    startLine: 16
+    startLine: 19
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -148,11 +148,11 @@ items:
   source:
     remote:
       path: Orama.Math/Rect.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Math/Rect.cs
-    startLine: 19
+    startLine: 22
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -184,11 +184,11 @@ items:
   source:
     remote:
       path: Orama.Math/Rect.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Math/Rect.cs
-    startLine: 22
+    startLine: 25
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -224,11 +224,11 @@ items:
   source:
     remote:
       path: Orama.Math/Rect.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Contains
     path: ../Orama/Orama.Math/Rect.cs
-    startLine: 29
+    startLine: 32
   assemblies:
   - Orama.Math
   namespace: Orama.Math

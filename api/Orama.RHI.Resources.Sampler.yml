@@ -1,0 +1,446 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.Resources.Sampler
+  commentId: T:Orama.RHI.Resources.Sampler
+  id: Sampler
+  parent: Orama.RHI.Resources
+  children:
+  - Orama.RHI.Resources.Sampler.#ctor
+  - Orama.RHI.Resources.Sampler.Filter
+  - Orama.RHI.Resources.Sampler.WrapU
+  - Orama.RHI.Resources.Sampler.WrapV
+  langs:
+  - csharp
+  - vb
+  name: Sampler
+  nameWithType: Sampler
+  fullName: Orama.RHI.Resources.Sampler
+  type: Struct
+  source:
+    remote:
+      path: Orama.RHI/Resources/TextureTypes.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Sampler
+    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    startLine: 35
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  summary: Describes sampler state for texture sampling.
+  example: []
+  syntax:
+    content: public struct Sampler
+    content.vb: Public Structure Sampler
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Orama.RHI.Resources.Sampler.Filter
+  commentId: P:Orama.RHI.Resources.Sampler.Filter
+  id: Filter
+  parent: Orama.RHI.Resources.Sampler
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: Sampler.Filter
+  fullName: Orama.RHI.Resources.Sampler.Filter
+  type: Property
+  source:
+    remote:
+      path: Orama.RHI/Resources/TextureTypes.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Filter
+    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    startLine: 37
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: public SamplerFilter Filter { readonly get; set; }
+    parameters: []
+    return:
+      type: Orama.RHI.Resources.SamplerFilter
+    content.vb: Public Property Filter As SamplerFilter
+  overload: Orama.RHI.Resources.Sampler.Filter*
+- uid: Orama.RHI.Resources.Sampler.WrapU
+  commentId: P:Orama.RHI.Resources.Sampler.WrapU
+  id: WrapU
+  parent: Orama.RHI.Resources.Sampler
+  langs:
+  - csharp
+  - vb
+  name: WrapU
+  nameWithType: Sampler.WrapU
+  fullName: Orama.RHI.Resources.Sampler.WrapU
+  type: Property
+  source:
+    remote:
+      path: Orama.RHI/Resources/TextureTypes.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: WrapU
+    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    startLine: 38
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: public TextureWrapMode WrapU { readonly get; set; }
+    parameters: []
+    return:
+      type: Orama.RHI.Resources.TextureWrapMode
+    content.vb: Public Property WrapU As TextureWrapMode
+  overload: Orama.RHI.Resources.Sampler.WrapU*
+- uid: Orama.RHI.Resources.Sampler.WrapV
+  commentId: P:Orama.RHI.Resources.Sampler.WrapV
+  id: WrapV
+  parent: Orama.RHI.Resources.Sampler
+  langs:
+  - csharp
+  - vb
+  name: WrapV
+  nameWithType: Sampler.WrapV
+  fullName: Orama.RHI.Resources.Sampler.WrapV
+  type: Property
+  source:
+    remote:
+      path: Orama.RHI/Resources/TextureTypes.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: WrapV
+    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    startLine: 39
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: public TextureWrapMode WrapV { readonly get; set; }
+    parameters: []
+    return:
+      type: Orama.RHI.Resources.TextureWrapMode
+    content.vb: Public Property WrapV As TextureWrapMode
+  overload: Orama.RHI.Resources.Sampler.WrapV*
+- uid: Orama.RHI.Resources.Sampler.#ctor
+  commentId: M:Orama.RHI.Resources.Sampler.#ctor
+  id: '#ctor'
+  parent: Orama.RHI.Resources.Sampler
+  langs:
+  - csharp
+  - vb
+  name: Sampler()
+  nameWithType: Sampler.Sampler()
+  fullName: Orama.RHI.Resources.Sampler.Sampler()
+  type: Constructor
+  source:
+    remote:
+      path: Orama.RHI/Resources/TextureTypes.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: .ctor
+    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    startLine: 41
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: public Sampler()
+    content.vb: Public Sub New()
+  overload: Orama.RHI.Resources.Sampler.#ctor*
+  nameWithType.vb: Sampler.New()
+  fullName.vb: Orama.RHI.Resources.Sampler.New()
+  name.vb: New()
+references:
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.RHI.Resources.Sampler.Filter*
+  commentId: Overload:Orama.RHI.Resources.Sampler.Filter
+  href: Orama.RHI.Resources.Sampler.html#Orama_RHI_Resources_Sampler_Filter
+  name: Filter
+  nameWithType: Sampler.Filter
+  fullName: Orama.RHI.Resources.Sampler.Filter
+- uid: Orama.RHI.Resources.SamplerFilter
+  commentId: T:Orama.RHI.Resources.SamplerFilter
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.SamplerFilter.html
+  name: SamplerFilter
+  nameWithType: SamplerFilter
+  fullName: Orama.RHI.Resources.SamplerFilter
+- uid: Orama.RHI.Resources.Sampler.WrapU*
+  commentId: Overload:Orama.RHI.Resources.Sampler.WrapU
+  href: Orama.RHI.Resources.Sampler.html#Orama_RHI_Resources_Sampler_WrapU
+  name: WrapU
+  nameWithType: Sampler.WrapU
+  fullName: Orama.RHI.Resources.Sampler.WrapU
+- uid: Orama.RHI.Resources.TextureWrapMode
+  commentId: T:Orama.RHI.Resources.TextureWrapMode
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.TextureWrapMode.html
+  name: TextureWrapMode
+  nameWithType: TextureWrapMode
+  fullName: Orama.RHI.Resources.TextureWrapMode
+- uid: Orama.RHI.Resources.Sampler.WrapV*
+  commentId: Overload:Orama.RHI.Resources.Sampler.WrapV
+  href: Orama.RHI.Resources.Sampler.html#Orama_RHI_Resources_Sampler_WrapV
+  name: WrapV
+  nameWithType: Sampler.WrapV
+  fullName: Orama.RHI.Resources.Sampler.WrapV
+- uid: Orama.RHI.Resources.Sampler.#ctor*
+  commentId: Overload:Orama.RHI.Resources.Sampler.#ctor
+  href: Orama.RHI.Resources.Sampler.html#Orama_RHI_Resources_Sampler__ctor
+  name: Sampler
+  nameWithType: Sampler.Sampler
+  fullName: Orama.RHI.Resources.Sampler.Sampler
+  nameWithType.vb: Sampler.New
+  fullName.vb: Orama.RHI.Resources.Sampler.New
+  name.vb: New

@@ -19,17 +19,23 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: VirtualRealityModule
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityModule.cs
-    startLine: 6
+    startLine: 10
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
   syntax:
-    content: 'public class VirtualRealityModule : BaseModule, IDisposable'
-    content.vb: Public Class VirtualRealityModule Inherits BaseModule Implements IDisposable
+    content: >-
+      [InitializeAfter(new Type[] { typeof(RenderingModule) })]
+
+      public class VirtualRealityModule : BaseModule, IDisposable
+    content.vb: >-
+      <InitializeAfter(New Type() { GetType(RenderingModule) })>
+
+      Public Class VirtualRealityModule Inherits BaseModule Implements IDisposable
   inheritance:
   - System.Object
   - Orama.Common.BaseModule
@@ -58,11 +64,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Device
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityModule.cs
-    startLine: 9
+    startLine: 14
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -89,11 +95,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityModule.cs
-    startLine: 12
+    startLine: 17
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -118,11 +124,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityModule.cs
-    startLine: 29
+    startLine: 35
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -148,11 +154,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityModule.cs
-    startLine: 36
+    startLine: 42
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality

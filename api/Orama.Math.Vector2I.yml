@@ -37,11 +37,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Vector2I
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 6
+    startLine: 8
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -70,11 +70,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: X
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 9
+    startLine: 11
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -101,11 +101,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Y
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 12
+    startLine: 14
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -132,11 +132,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Length
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 15
+    startLine: 17
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -163,11 +163,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 18
+    startLine: 20
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -199,11 +199,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Zero
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 25
+    startLine: 27
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -230,11 +230,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: One
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 28
+    startLine: 30
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -261,11 +261,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Up
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 31
+    startLine: 33
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -292,11 +292,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: UnitX
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 34
+    startLine: 36
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -323,11 +323,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: UnitY
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 37
+    startLine: 39
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -354,11 +354,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dot
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 40
+    startLine: 42
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -389,11 +389,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dot
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 43
+    startLine: 45
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -422,11 +422,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 46
+    startLine: 48
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -461,11 +461,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 55
+    startLine: 57
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -496,11 +496,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 58
+    startLine: 60
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -528,11 +528,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ToString
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 61
+    startLine: 63
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -560,11 +560,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Addition
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 64
+    startLine: 66
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -596,11 +596,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Subtraction
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 67
+    startLine: 69
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -632,11 +632,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_UnaryNegation
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 70
+    startLine: 72
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -666,11 +666,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 73
+    startLine: 75
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -702,11 +702,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 76
+    startLine: 78
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -738,11 +738,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Equality
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 79
+    startLine: 81
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -774,11 +774,11 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Inequality
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
-    startLine: 82
+    startLine: 84
   assemblies:
   - Orama.Math
   namespace: Orama.Math

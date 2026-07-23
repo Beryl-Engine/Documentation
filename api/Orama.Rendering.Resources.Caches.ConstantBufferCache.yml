@@ -1,0 +1,653 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.Resources.Caches.ConstantBufferCache
+  commentId: T:Orama.Rendering.Resources.Caches.ConstantBufferCache
+  id: ConstantBufferCache
+  parent: Orama.Rendering.Resources.Caches
+  children:
+  - Orama.Rendering.Resources.Caches.ConstantBufferCache.Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+  langs:
+  - csharp
+  - vb
+  name: ConstantBufferCache
+  nameWithType: ConstantBufferCache
+  fullName: Orama.Rendering.Resources.Caches.ConstantBufferCache
+  type: Class
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/ConstantBufferCache.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ConstantBufferCache
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ConstantBufferCache.cs
+    startLine: 8
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: 'public sealed class ConstantBufferCache : ResourceCache<ConstantBufferCache, ConstantBufferDescriptor, IBuffer>'
+    content.vb: Public NotInheritable Class ConstantBufferCache Inherits ResourceCache(Of ConstantBufferCache, ConstantBufferDescriptor, IBuffer)
+  inheritance:
+  - System.Object
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}
+  inheritedMembers:
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Instance
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Cache
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.GetOrCreate(Orama.RHI.Resources.ConstantBufferDescriptor)
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Get(Orama.RHI.Resources.ConstantBufferDescriptor)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Orama.Rendering.Resources.Caches.ConstantBufferCache.Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.ConstantBufferCache.Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+  id: Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+  parent: Orama.Rendering.Resources.Caches.ConstantBufferCache
+  langs:
+  - csharp
+  - vb
+  name: Create(ConstantBufferDescriptor)
+  nameWithType: ConstantBufferCache.Create(ConstantBufferDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.ConstantBufferCache.Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/ConstantBufferCache.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Create
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ConstantBufferCache.cs
+    startLine: 11
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  summary: Creates a new <xref href="Orama.RHI.Resources.IBuffer" data-throw-if-not-resolved="false"></xref> for the given key.
+  example: []
+  syntax:
+    content: protected override IBuffer Create(ConstantBufferDescriptor key)
+    parameters:
+    - id: key
+      type: Orama.RHI.Resources.ConstantBufferDescriptor
+    return:
+      type: Orama.RHI.Resources.IBuffer
+    content.vb: Protected Overrides Function Create(key As ConstantBufferDescriptor) As IBuffer
+  overridden: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+  overload: Orama.Rendering.Resources.Caches.ConstantBufferCache.Create*
+references:
+- uid: Orama.Rendering.Resources.Caches
+  commentId: N:Orama.Rendering.Resources.Caches
+  href: Orama.html
+  name: Orama.Rendering.Resources.Caches
+  nameWithType: Orama.Rendering.Resources.Caches
+  fullName: Orama.Rendering.Resources.Caches
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}
+  commentId: T:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}
+  parent: Orama.Rendering.Resources.Caches
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  name: ResourceCache<ConstantBufferCache, ConstantBufferDescriptor, IBuffer>
+  nameWithType: ResourceCache<ConstantBufferCache, ConstantBufferDescriptor, IBuffer>
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer>
+  nameWithType.vb: ResourceCache(Of ConstantBufferCache, ConstantBufferDescriptor, IBuffer)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer)
+  name.vb: ResourceCache(Of ConstantBufferCache, ConstantBufferDescriptor, IBuffer)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: <
+  - uid: Orama.Rendering.Resources.Caches.ConstantBufferCache
+    name: ConstantBufferCache
+    href: Orama.Rendering.Resources.Caches.ConstantBufferCache.html
+  - name: ','
+  - name: " "
+  - uid: Orama.RHI.Resources.ConstantBufferDescriptor
+    name: ConstantBufferDescriptor
+    href: Orama.RHI.Resources.ConstantBufferDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: Orama.RHI.Resources.IBuffer
+    name: IBuffer
+    href: Orama.RHI.Resources.IBuffer.html
+  - name: '>'
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Orama.Rendering.Resources.Caches.ConstantBufferCache
+    name: ConstantBufferCache
+    href: Orama.Rendering.Resources.Caches.ConstantBufferCache.html
+  - name: ','
+  - name: " "
+  - uid: Orama.RHI.Resources.ConstantBufferDescriptor
+    name: ConstantBufferDescriptor
+    href: Orama.RHI.Resources.ConstantBufferDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: Orama.RHI.Resources.IBuffer
+    name: IBuffer
+    href: Orama.RHI.Resources.IBuffer.html
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Instance
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Instance
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Instance
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Instance
+  name: Instance
+  nameWithType: ResourceCache<ConstantBufferCache, ConstantBufferDescriptor, IBuffer>.Instance
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer>.Instance
+  nameWithType.vb: ResourceCache(Of ConstantBufferCache, ConstantBufferDescriptor, IBuffer).Instance
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer).Instance
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Cache
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Cache
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Cache
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Cache
+  name: Cache
+  nameWithType: ResourceCache<ConstantBufferCache, ConstantBufferDescriptor, IBuffer>.Cache
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer>.Cache
+  nameWithType.vb: ResourceCache(Of ConstantBufferCache, ConstantBufferDescriptor, IBuffer).Cache
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer).Cache
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.GetOrCreate(Orama.RHI.Resources.ConstantBufferDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.GetOrCreate(Orama.RHI.Resources.ConstantBufferDescriptor)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  name: GetOrCreate(ConstantBufferDescriptor)
+  nameWithType: ResourceCache<ConstantBufferCache, ConstantBufferDescriptor, IBuffer>.GetOrCreate(ConstantBufferDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer>.GetOrCreate(Orama.RHI.Resources.ConstantBufferDescriptor)
+  nameWithType.vb: ResourceCache(Of ConstantBufferCache, ConstantBufferDescriptor, IBuffer).GetOrCreate(ConstantBufferDescriptor)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer).GetOrCreate(Orama.RHI.Resources.ConstantBufferDescriptor)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.GetOrCreate(Orama.RHI.Resources.ConstantBufferDescriptor)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - uid: Orama.RHI.Resources.ConstantBufferDescriptor
+    name: ConstantBufferDescriptor
+    href: Orama.RHI.Resources.ConstantBufferDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.GetOrCreate(Orama.RHI.Resources.ConstantBufferDescriptor)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - uid: Orama.RHI.Resources.ConstantBufferDescriptor
+    name: ConstantBufferDescriptor
+    href: Orama.RHI.Resources.ConstantBufferDescriptor.html
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Get(Orama.RHI.Resources.ConstantBufferDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Get(Orama.RHI.Resources.ConstantBufferDescriptor)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(ConstantBufferDescriptor)
+  nameWithType: ResourceCache<ConstantBufferCache, ConstantBufferDescriptor, IBuffer>.Get(ConstantBufferDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer>.Get(Orama.RHI.Resources.ConstantBufferDescriptor)
+  nameWithType.vb: ResourceCache(Of ConstantBufferCache, ConstantBufferDescriptor, IBuffer).Get(ConstantBufferDescriptor)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer).Get(Orama.RHI.Resources.ConstantBufferDescriptor)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Get(Orama.RHI.Resources.ConstantBufferDescriptor)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - uid: Orama.RHI.Resources.ConstantBufferDescriptor
+    name: ConstantBufferDescriptor
+    href: Orama.RHI.Resources.ConstantBufferDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Get(Orama.RHI.Resources.ConstantBufferDescriptor)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - uid: Orama.RHI.Resources.ConstantBufferDescriptor
+    name: ConstantBufferDescriptor
+    href: Orama.RHI.Resources.ConstantBufferDescriptor.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+  commentId: T:Orama.Rendering.Resources.Caches.ResourceCache`3
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  name: ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource)
+  name.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: <
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: '>'
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Instance
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache`3.Instance
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Instance
+  name: Instance
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Instance
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Instance
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Instance
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Instance
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Cache
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache`3.Cache
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Cache
+  name: Cache
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Cache
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Cache
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  name: GetOrCreate(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.GetOrCreate(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.GetOrCreate(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Orama.RHI.Resources.IBuffer
+  commentId: T:Orama.RHI.Resources.IBuffer
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.IBuffer.html
+  name: IBuffer
+  nameWithType: IBuffer
+  fullName: Orama.RHI.Resources.IBuffer
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  name: Create(ConstantBufferDescriptor)
+  nameWithType: ResourceCache<ConstantBufferCache, ConstantBufferDescriptor, IBuffer>.Create(ConstantBufferDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer>.Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+  nameWithType.vb: ResourceCache(Of ConstantBufferCache, ConstantBufferDescriptor, IBuffer).Create(ConstantBufferDescriptor)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.ConstantBufferCache, Orama.RHI.Resources.ConstantBufferDescriptor, Orama.RHI.Resources.IBuffer).Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - uid: Orama.RHI.Resources.ConstantBufferDescriptor
+    name: ConstantBufferDescriptor
+    href: Orama.RHI.Resources.ConstantBufferDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.ConstantBufferCache,Orama.RHI.Resources.ConstantBufferDescriptor,Orama.RHI.Resources.IBuffer}.Create(Orama.RHI.Resources.ConstantBufferDescriptor)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - uid: Orama.RHI.Resources.ConstantBufferDescriptor
+    name: ConstantBufferDescriptor
+    href: Orama.RHI.Resources.ConstantBufferDescriptor.html
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ConstantBufferCache.Create*
+  commentId: Overload:Orama.Rendering.Resources.Caches.ConstantBufferCache.Create
+  href: Orama.Rendering.Resources.Caches.ConstantBufferCache.html#Orama_Rendering_Resources_Caches_ConstantBufferCache_Create_Orama_RHI_Resources_ConstantBufferDescriptor_
+  name: Create
+  nameWithType: ConstantBufferCache.Create
+  fullName: Orama.Rendering.Resources.Caches.ConstantBufferCache.Create
+- uid: Orama.RHI.Resources.ConstantBufferDescriptor
+  commentId: T:Orama.RHI.Resources.ConstantBufferDescriptor
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.ConstantBufferDescriptor.html
+  name: ConstantBufferDescriptor
+  nameWithType: ConstantBufferDescriptor
+  fullName: Orama.RHI.Resources.ConstantBufferDescriptor
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  name: Create(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Create(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Create(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Create(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Create(TKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - name: TKey
+  - name: )

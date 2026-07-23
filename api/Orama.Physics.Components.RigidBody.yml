@@ -34,11 +34,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RigidBody
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -74,11 +74,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsStatic
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 15
+    startLine: 18
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -104,11 +104,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AffectedByGravity
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 22
+    startLine: 25
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -134,11 +134,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Mass
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 29
+    startLine: 32
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -164,11 +164,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Friction
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 36
+    startLine: 39
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -194,11 +194,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Restitution
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 43
+    startLine: 46
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -224,11 +224,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Position
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 50
+    startLine: 53
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -254,11 +254,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Orientation
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 57
+    startLine: 60
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -284,11 +284,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Velocity
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 64
+    startLine: 67
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -314,11 +314,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AngularVelocity
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 71
+    startLine: 74
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -344,11 +344,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Damping
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 78
+    startLine: 81
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -374,11 +374,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Start
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 85
+    startLine: 88
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -403,11 +403,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 95
+    startLine: 98
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -432,11 +432,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 105
+    startLine: 108
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -461,11 +461,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddBoxCollider
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 115
+    startLine: 118
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -500,11 +500,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddSphereCollider
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 129
+    startLine: 132
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -535,11 +535,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RemoveCollider
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 143
+    startLine: 146
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -568,11 +568,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddForce
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 146
+    startLine: 149
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -598,11 +598,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnCollisionEnter
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 149
+    startLine: 152
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components
@@ -626,11 +626,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnCollisionExit
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
-    startLine: 156
+    startLine: 159
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components

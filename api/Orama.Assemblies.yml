@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Assemblies
   commentId: N:Orama.Assemblies
-  id: Orama.Assemblies
+  id: Assemblies
+  parent: Orama
   children:
   - Orama.Assemblies.AssemblyModule
   - Orama.Assemblies.OnAssemblyLoadAttribute

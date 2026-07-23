@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Component
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Components
@@ -65,11 +65,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Enabled
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Components
@@ -96,11 +96,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Entity
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Components
@@ -127,11 +127,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Start
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
-    startLine: 18
+    startLine: 21
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Components
@@ -155,11 +155,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
-    startLine: 21
+    startLine: 24
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Components
@@ -183,11 +183,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
-    startLine: 24
+    startLine: 27
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes.Components

@@ -7,6 +7,7 @@ items:
   children:
   - Orama.Rendering.Resources.IFrameCountedResource.Disposed
   - Orama.Rendering.Resources.IFrameCountedResource.ReleaseGPUResource
+  - Orama.Rendering.Resources.IFrameCountedResource.Touch
   - Orama.Rendering.Resources.IFrameCountedResource.TryDispose(System.UInt64)
   langs:
   - csharp
@@ -18,11 +19,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IFrameCountedResource
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-    startLine: 6
+    startLine: 7
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -45,11 +46,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Disposed
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-    startLine: 9
+    startLine: 10
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -74,11 +75,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: TryDispose
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -112,11 +113,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ReleaseGPUResource
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-    startLine: 17
+    startLine: 18
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -126,6 +127,34 @@ items:
     content: void ReleaseGPUResource()
     content.vb: Sub ReleaseGPUResource()
   overload: Orama.Rendering.Resources.IFrameCountedResource.ReleaseGPUResource*
+- uid: Orama.Rendering.Resources.IFrameCountedResource.Touch
+  commentId: M:Orama.Rendering.Resources.IFrameCountedResource.Touch
+  id: Touch
+  parent: Orama.Rendering.Resources.IFrameCountedResource
+  langs:
+  - csharp
+  - vb
+  name: Touch()
+  nameWithType: IFrameCountedResource.Touch()
+  fullName: Orama.Rendering.Resources.IFrameCountedResource.Touch()
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Touch
+    path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
+    startLine: 21
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  summary: Force marks the resource as being used this frame.
+  example: []
+  syntax:
+    content: void Touch()
+    content.vb: Sub Touch()
+  overload: Orama.Rendering.Resources.IFrameCountedResource.Touch*
 references:
 - uid: Orama.Rendering.Resources
   commentId: N:Orama.Rendering.Resources
@@ -206,3 +235,9 @@ references:
   name: ReleaseGPUResource
   nameWithType: IFrameCountedResource.ReleaseGPUResource
   fullName: Orama.Rendering.Resources.IFrameCountedResource.ReleaseGPUResource
+- uid: Orama.Rendering.Resources.IFrameCountedResource.Touch*
+  commentId: Overload:Orama.Rendering.Resources.IFrameCountedResource.Touch
+  href: Orama.Rendering.Resources.IFrameCountedResource.html#Orama_Rendering_Resources_IFrameCountedResource_Touch
+  name: Touch
+  nameWithType: IFrameCountedResource.Touch
+  fullName: Orama.Rendering.Resources.IFrameCountedResource.Touch

@@ -2,20 +2,19 @@
 items:
 - uid: Orama.Rendering.Resources.Caches
   commentId: N:Orama.Rendering.Resources.Caches
-  id: Orama.Rendering.Resources.Caches
+  id: Caches
+  parent: Orama.Rendering.Resources
   children:
-  - Orama.Rendering.Resources.Caches.DeviceBufferCache
-  - Orama.Rendering.Resources.Caches.DeviceBufferKey
+  - Orama.Rendering.Resources.Caches.ConstantBufferCache
   - Orama.Rendering.Resources.Caches.PipelineCache
-  - Orama.Rendering.Resources.Caches.PipelineKey
   - Orama.Rendering.Resources.Caches.RenderItemCache
   - Orama.Rendering.Resources.Caches.RenderItemKey
   - Orama.Rendering.Resources.Caches.ResourceCache`3
   - Orama.Rendering.Resources.Caches.ResourceLayoutCache
-  - Orama.Rendering.Resources.Caches.ResourceLayoutKey
   - Orama.Rendering.Resources.Caches.ResourceSetCache
-  - Orama.Rendering.Resources.Caches.ResourceSetKey
-  - Orama.Rendering.Resources.Caches.ShaderKey
+  - Orama.Rendering.Resources.Caches.SamplerCache
+  - Orama.Rendering.Resources.Caches.TextureCache
+  - Orama.Rendering.Resources.Caches.TextureViewCache
   langs:
   - csharp
   - vb
@@ -26,39 +25,18 @@ items:
   assemblies:
   - Orama.Rendering
 references:
-- uid: Orama.Rendering.Resources.Caches.DeviceBufferCache
-  commentId: T:Orama.Rendering.Resources.Caches.DeviceBufferCache
-  href: Orama.Rendering.Resources.Caches.DeviceBufferCache.html
-  name: DeviceBufferCache
-  nameWithType: DeviceBufferCache
-  fullName: Orama.Rendering.Resources.Caches.DeviceBufferCache
-- uid: Orama.Rendering.Resources.Caches.DeviceBufferKey
-  commentId: T:Orama.Rendering.Resources.Caches.DeviceBufferKey
-  parent: Orama.Rendering.Resources.Caches
-  href: Orama.Rendering.Resources.Caches.DeviceBufferKey.html
-  name: DeviceBufferKey
-  nameWithType: DeviceBufferKey
-  fullName: Orama.Rendering.Resources.Caches.DeviceBufferKey
+- uid: Orama.Rendering.Resources.Caches.ConstantBufferCache
+  commentId: T:Orama.Rendering.Resources.Caches.ConstantBufferCache
+  href: Orama.Rendering.Resources.Caches.ConstantBufferCache.html
+  name: ConstantBufferCache
+  nameWithType: ConstantBufferCache
+  fullName: Orama.Rendering.Resources.Caches.ConstantBufferCache
 - uid: Orama.Rendering.Resources.Caches.PipelineCache
   commentId: T:Orama.Rendering.Resources.Caches.PipelineCache
   href: Orama.Rendering.Resources.Caches.PipelineCache.html
   name: PipelineCache
   nameWithType: PipelineCache
   fullName: Orama.Rendering.Resources.Caches.PipelineCache
-- uid: Orama.Rendering.Resources.Caches.PipelineKey
-  commentId: T:Orama.Rendering.Resources.Caches.PipelineKey
-  parent: Orama.Rendering.Resources.Caches
-  href: Orama.Rendering.Resources.Caches.PipelineKey.html
-  name: PipelineKey
-  nameWithType: PipelineKey
-  fullName: Orama.Rendering.Resources.Caches.PipelineKey
-- uid: Orama.Rendering.Resources.Caches.ShaderKey
-  commentId: T:Orama.Rendering.Resources.Caches.ShaderKey
-  parent: Orama.Rendering.Resources.Caches
-  href: Orama.Rendering.Resources.Caches.ShaderKey.html
-  name: ShaderKey
-  nameWithType: ShaderKey
-  fullName: Orama.Rendering.Resources.Caches.ShaderKey
 - uid: Orama.Rendering.Resources.Caches.RenderItemCache
   commentId: T:Orama.Rendering.Resources.Caches.RenderItemCache
   href: Orama.Rendering.Resources.Caches.RenderItemCache.html
@@ -115,26 +93,30 @@ references:
   name: ResourceLayoutCache
   nameWithType: ResourceLayoutCache
   fullName: Orama.Rendering.Resources.Caches.ResourceLayoutCache
-- uid: Orama.Rendering.Resources.Caches.ResourceLayoutKey
-  commentId: T:Orama.Rendering.Resources.Caches.ResourceLayoutKey
-  parent: Orama.Rendering.Resources.Caches
-  href: Orama.Rendering.Resources.Caches.ResourceLayoutKey.html
-  name: ResourceLayoutKey
-  nameWithType: ResourceLayoutKey
-  fullName: Orama.Rendering.Resources.Caches.ResourceLayoutKey
 - uid: Orama.Rendering.Resources.Caches.ResourceSetCache
   commentId: T:Orama.Rendering.Resources.Caches.ResourceSetCache
   href: Orama.Rendering.Resources.Caches.ResourceSetCache.html
   name: ResourceSetCache
   nameWithType: ResourceSetCache
   fullName: Orama.Rendering.Resources.Caches.ResourceSetCache
-- uid: Orama.Rendering.Resources.Caches.ResourceSetKey
-  commentId: T:Orama.Rendering.Resources.Caches.ResourceSetKey
-  parent: Orama.Rendering.Resources.Caches
-  href: Orama.Rendering.Resources.Caches.ResourceSetKey.html
-  name: ResourceSetKey
-  nameWithType: ResourceSetKey
-  fullName: Orama.Rendering.Resources.Caches.ResourceSetKey
+- uid: Orama.Rendering.Resources.Caches.SamplerCache
+  commentId: T:Orama.Rendering.Resources.Caches.SamplerCache
+  href: Orama.Rendering.Resources.Caches.SamplerCache.html
+  name: SamplerCache
+  nameWithType: SamplerCache
+  fullName: Orama.Rendering.Resources.Caches.SamplerCache
+- uid: Orama.Rendering.Resources.Caches.TextureCache
+  commentId: T:Orama.Rendering.Resources.Caches.TextureCache
+  href: Orama.Rendering.Resources.Caches.TextureCache.html
+  name: TextureCache
+  nameWithType: TextureCache
+  fullName: Orama.Rendering.Resources.Caches.TextureCache
+- uid: Orama.Rendering.Resources.Caches.TextureViewCache
+  commentId: T:Orama.Rendering.Resources.Caches.TextureViewCache
+  href: Orama.Rendering.Resources.Caches.TextureViewCache.html
+  name: TextureViewCache
+  nameWithType: TextureViewCache
+  fullName: Orama.Rendering.Resources.Caches.TextureViewCache
 - uid: Orama.Rendering.Resources.Caches
   commentId: N:Orama.Rendering.Resources.Caches
   href: Orama.html

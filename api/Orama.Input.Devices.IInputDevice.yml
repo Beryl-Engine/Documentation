@@ -16,11 +16,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/IInputDevice.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IInputDevice
     path: ../Orama/Modules/Orama.Input/Devices/IInputDevice.cs
-    startLine: 6
+    startLine: 8
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -48,11 +48,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/IInputDevice.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Input/Devices/IInputDevice.cs
-    startLine: 9
+    startLine: 11
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices

@@ -2,10 +2,11 @@
 items:
 - uid: Orama.Common.Utility
   commentId: N:Orama.Common.Utility
-  id: Orama.Common.Utility
+  id: Utility
+  parent: Orama.Common
   children:
-  - Orama.Common.Utility.EngineConsole
   - Orama.Common.Utility.EnginePaths
+  - Orama.Common.Utility.OramaConsole
   langs:
   - csharp
   - vb
@@ -16,15 +17,15 @@ items:
   assemblies:
   - Orama.Common
 references:
-- uid: Orama.Common.Utility.EngineConsole
-  commentId: T:Orama.Common.Utility.EngineConsole
-  href: Orama.Common.Utility.EngineConsole.html
-  name: EngineConsole
-  nameWithType: EngineConsole
-  fullName: Orama.Common.Utility.EngineConsole
 - uid: Orama.Common.Utility.EnginePaths
   commentId: T:Orama.Common.Utility.EnginePaths
   href: Orama.Common.Utility.EnginePaths.html
   name: EnginePaths
   nameWithType: EnginePaths
   fullName: Orama.Common.Utility.EnginePaths
+- uid: Orama.Common.Utility.OramaConsole
+  commentId: T:Orama.Common.Utility.OramaConsole
+  href: Orama.Common.Utility.OramaConsole.html
+  name: OramaConsole
+  nameWithType: OramaConsole
+  fullName: Orama.Common.Utility.OramaConsole

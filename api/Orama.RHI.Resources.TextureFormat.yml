@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.Resources.TextureFormat
+  commentId: T:Orama.RHI.Resources.TextureFormat
+  id: TextureFormat
+  parent: Orama.RHI.Resources
+  children:
+  - Orama.RHI.Resources.TextureFormat.RGB8
+  - Orama.RHI.Resources.TextureFormat.RGBA8
+  langs:
+  - csharp
+  - vb
+  name: TextureFormat
+  nameWithType: TextureFormat
+  fullName: Orama.RHI.Resources.TextureFormat
+  type: Enum
+  source:
+    remote:
+      path: Orama.RHI/Resources/TextureTypes.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: TextureFormat
+    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    startLine: 8
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  summary: Texture pixel format.
+  example: []
+  syntax:
+    content: public enum TextureFormat
+    content.vb: Public Enum TextureFormat
+- uid: Orama.RHI.Resources.TextureFormat.RGBA8
+  commentId: F:Orama.RHI.Resources.TextureFormat.RGBA8
+  id: RGBA8
+  parent: Orama.RHI.Resources.TextureFormat
+  langs:
+  - csharp
+  - vb
+  name: RGBA8
+  nameWithType: TextureFormat.RGBA8
+  fullName: Orama.RHI.Resources.TextureFormat.RGBA8
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/TextureTypes.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: RGBA8
+    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    startLine: 10
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: RGBA8 = 0
+    return:
+      type: Orama.RHI.Resources.TextureFormat
+- uid: Orama.RHI.Resources.TextureFormat.RGB8
+  commentId: F:Orama.RHI.Resources.TextureFormat.RGB8
+  id: RGB8
+  parent: Orama.RHI.Resources.TextureFormat
+  langs:
+  - csharp
+  - vb
+  name: RGB8
+  nameWithType: TextureFormat.RGB8
+  fullName: Orama.RHI.Resources.TextureFormat.RGB8
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/TextureTypes.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: RGB8
+    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    startLine: 11
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: RGB8 = 1
+    return:
+      type: Orama.RHI.Resources.TextureFormat
+references:
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: Orama.RHI.Resources.TextureFormat
+  commentId: T:Orama.RHI.Resources.TextureFormat
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.TextureFormat.html
+  name: TextureFormat
+  nameWithType: TextureFormat
+  fullName: Orama.RHI.Resources.TextureFormat

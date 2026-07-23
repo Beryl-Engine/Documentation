@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: Orama.Common/Time.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Time
     path: ../Orama/Orama.Common/Time.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -55,11 +55,11 @@ items:
   source:
     remote:
       path: Orama.Common/Time.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: FixedDelta
     path: ../Orama/Orama.Common/Time.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -86,11 +86,11 @@ items:
   source:
     remote:
       path: Orama.Common/Time.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Delta
     path: ../Orama/Orama.Common/Time.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -117,11 +117,11 @@ items:
   source:
     remote:
       path: Orama.Common/Time.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: PreciseDelta
     path: ../Orama/Orama.Common/Time.cs
-    startLine: 15
+    startLine: 18
   assemblies:
   - Orama.Common
   namespace: Orama.Common

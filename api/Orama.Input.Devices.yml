@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Input.Devices
   commentId: N:Orama.Input.Devices
-  id: Orama.Input.Devices
+  id: Devices
+  parent: Orama.Input
   children:
   - Orama.Input.Devices.Gamepad
   - Orama.Input.Devices.Gamepad.Button

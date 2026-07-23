@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Trigger
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 26
+    startLine: 29
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -44,11 +44,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Left
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 28
+    startLine: 31
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -70,11 +70,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Right
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 29
+    startLine: 32
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices

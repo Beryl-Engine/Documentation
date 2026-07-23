@@ -1,0 +1,633 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.Resources.TextureDescriptor
+  commentId: T:Orama.RHI.Resources.TextureDescriptor
+  id: TextureDescriptor
+  parent: Orama.RHI.Resources
+  children:
+  - Orama.RHI.Resources.TextureDescriptor.#ctor(System.UInt32,System.UInt32,Orama.RHI.Resources.TextureFormat,System.ReadOnlySpan{System.Byte})
+  - Orama.RHI.Resources.TextureDescriptor.Data
+  - Orama.RHI.Resources.TextureDescriptor.Format
+  - Orama.RHI.Resources.TextureDescriptor.GetHashCode
+  - Orama.RHI.Resources.TextureDescriptor.Height
+  - Orama.RHI.Resources.TextureDescriptor.Width
+  langs:
+  - csharp
+  - vb
+  name: TextureDescriptor
+  nameWithType: TextureDescriptor
+  fullName: Orama.RHI.Resources.TextureDescriptor
+  type: Struct
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: TextureDescriptor
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 69
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: 'public readonly ref struct TextureDescriptor : IAlwaysHashable'
+    content.vb: Public Structure TextureDescriptor Implements IAlwaysHashable
+  implements:
+  - Orama.Common.Standard.IAlwaysHashable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Orama.RHI.Resources.TextureDescriptor.#ctor(System.UInt32,System.UInt32,Orama.RHI.Resources.TextureFormat,System.ReadOnlySpan{System.Byte})
+  commentId: M:Orama.RHI.Resources.TextureDescriptor.#ctor(System.UInt32,System.UInt32,Orama.RHI.Resources.TextureFormat,System.ReadOnlySpan{System.Byte})
+  id: '#ctor(System.UInt32,System.UInt32,Orama.RHI.Resources.TextureFormat,System.ReadOnlySpan{System.Byte})'
+  parent: Orama.RHI.Resources.TextureDescriptor
+  langs:
+  - csharp
+  - vb
+  name: TextureDescriptor(uint, uint, TextureFormat, ReadOnlySpan<byte>)
+  nameWithType: TextureDescriptor.TextureDescriptor(uint, uint, TextureFormat, ReadOnlySpan<byte>)
+  fullName: Orama.RHI.Resources.TextureDescriptor.TextureDescriptor(uint, uint, Orama.RHI.Resources.TextureFormat, System.ReadOnlySpan<byte>)
+  type: Constructor
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: .ctor
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 69
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: public TextureDescriptor(uint width, uint height, TextureFormat format, ReadOnlySpan<byte> data)
+    parameters:
+    - id: width
+      type: System.UInt32
+    - id: height
+      type: System.UInt32
+    - id: format
+      type: Orama.RHI.Resources.TextureFormat
+    - id: data
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Public Sub New(width As UInteger, height As UInteger, format As TextureFormat, data As ReadOnlySpan(Of Byte))
+  overload: Orama.RHI.Resources.TextureDescriptor.#ctor*
+  nameWithType.vb: TextureDescriptor.New(UInteger, UInteger, TextureFormat, ReadOnlySpan(Of Byte))
+  fullName.vb: Orama.RHI.Resources.TextureDescriptor.New(UInteger, UInteger, Orama.RHI.Resources.TextureFormat, System.ReadOnlySpan(Of Byte))
+  name.vb: New(UInteger, UInteger, TextureFormat, ReadOnlySpan(Of Byte))
+- uid: Orama.RHI.Resources.TextureDescriptor.Width
+  commentId: F:Orama.RHI.Resources.TextureDescriptor.Width
+  id: Width
+  parent: Orama.RHI.Resources.TextureDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: TextureDescriptor.Width
+  fullName: Orama.RHI.Resources.TextureDescriptor.Width
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Width
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 71
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: public readonly uint Width
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Width As UInteger
+- uid: Orama.RHI.Resources.TextureDescriptor.Height
+  commentId: F:Orama.RHI.Resources.TextureDescriptor.Height
+  id: Height
+  parent: Orama.RHI.Resources.TextureDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: TextureDescriptor.Height
+  fullName: Orama.RHI.Resources.TextureDescriptor.Height
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Height
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 72
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: public readonly uint Height
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Height As UInteger
+- uid: Orama.RHI.Resources.TextureDescriptor.Format
+  commentId: F:Orama.RHI.Resources.TextureDescriptor.Format
+  id: Format
+  parent: Orama.RHI.Resources.TextureDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: TextureDescriptor.Format
+  fullName: Orama.RHI.Resources.TextureDescriptor.Format
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Format
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 73
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: public readonly TextureFormat Format
+    return:
+      type: Orama.RHI.Resources.TextureFormat
+    content.vb: Public ReadOnly Format As TextureFormat
+- uid: Orama.RHI.Resources.TextureDescriptor.Data
+  commentId: F:Orama.RHI.Resources.TextureDescriptor.Data
+  id: Data
+  parent: Orama.RHI.Resources.TextureDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: TextureDescriptor.Data
+  fullName: Orama.RHI.Resources.TextureDescriptor.Data
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Data
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 74
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: public readonly ReadOnlySpan<byte> Data
+    return:
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Public ReadOnly Data As ReadOnlySpan(Of Byte)
+- uid: Orama.RHI.Resources.TextureDescriptor.GetHashCode
+  commentId: M:Orama.RHI.Resources.TextureDescriptor.GetHashCode
+  id: GetHashCode
+  parent: Orama.RHI.Resources.TextureDescriptor
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: TextureDescriptor.GetHashCode()
+  fullName: Orama.RHI.Resources.TextureDescriptor.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceDescriptors.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: GetHashCode
+    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    startLine: 77
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Orama.RHI.Resources.TextureDescriptor.GetHashCode*
+  implements:
+  - Orama.Common.Standard.IAlwaysHashable.GetHashCode
+references:
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: Orama.Common.Standard.IAlwaysHashable
+  commentId: T:Orama.Common.Standard.IAlwaysHashable
+  parent: Orama.Common.Standard
+  href: Orama.Common.Standard.IAlwaysHashable.html
+  name: IAlwaysHashable
+  nameWithType: IAlwaysHashable
+  fullName: Orama.Common.Standard.IAlwaysHashable
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Orama.Common.Standard
+  commentId: N:Orama.Common.Standard
+  href: Orama.html
+  name: Orama.Common.Standard
+  nameWithType: Orama.Common.Standard
+  fullName: Orama.Common.Standard
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Standard
+    name: Standard
+    href: Orama.Common.Standard.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Standard
+    name: Standard
+    href: Orama.Common.Standard.html
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.RHI.Resources.TextureDescriptor.#ctor*
+  commentId: Overload:Orama.RHI.Resources.TextureDescriptor.#ctor
+  href: Orama.RHI.Resources.TextureDescriptor.html#Orama_RHI_Resources_TextureDescriptor__ctor_System_UInt32_System_UInt32_Orama_RHI_Resources_TextureFormat_System_ReadOnlySpan_System_Byte__
+  name: TextureDescriptor
+  nameWithType: TextureDescriptor.TextureDescriptor
+  fullName: Orama.RHI.Resources.TextureDescriptor.TextureDescriptor
+  nameWithType.vb: TextureDescriptor.New
+  fullName.vb: Orama.RHI.Resources.TextureDescriptor.New
+  name.vb: New
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Orama.RHI.Resources.TextureFormat
+  commentId: T:Orama.RHI.Resources.TextureFormat
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.TextureFormat.html
+  name: TextureFormat
+  nameWithType: TextureFormat
+  fullName: Orama.RHI.Resources.TextureFormat
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Orama.RHI.Resources.TextureDescriptor.GetHashCode*
+  commentId: Overload:Orama.RHI.Resources.TextureDescriptor.GetHashCode
+  href: Orama.RHI.Resources.TextureDescriptor.html#Orama_RHI_Resources_TextureDescriptor_GetHashCode
+  name: GetHashCode
+  nameWithType: TextureDescriptor.GetHashCode
+  fullName: Orama.RHI.Resources.TextureDescriptor.GetHashCode
+- uid: Orama.Common.Standard.IAlwaysHashable.GetHashCode
+  commentId: M:Orama.Common.Standard.IAlwaysHashable.GetHashCode
+  parent: Orama.Common.Standard.IAlwaysHashable
+  href: Orama.Common.Standard.IAlwaysHashable.html#Orama_Common_Standard_IAlwaysHashable_GetHashCode
+  name: GetHashCode()
+  nameWithType: IAlwaysHashable.GetHashCode()
+  fullName: Orama.Common.Standard.IAlwaysHashable.GetHashCode()
+  spec.csharp:
+  - uid: Orama.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Orama.Common.Standard.IAlwaysHashable.html#Orama_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Orama.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Orama.Common.Standard.IAlwaysHashable.html#Orama_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

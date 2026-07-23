@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.Resources.BufferUsage
+  commentId: T:Orama.RHI.Resources.BufferUsage
+  id: BufferUsage
+  parent: Orama.RHI.Resources
+  children:
+  - Orama.RHI.Resources.BufferUsage.Dynamic
+  - Orama.RHI.Resources.BufferUsage.IndexBuffer
+  - Orama.RHI.Resources.BufferUsage.UniformBuffer
+  - Orama.RHI.Resources.BufferUsage.VertexBuffer
+  langs:
+  - csharp
+  - vb
+  name: BufferUsage
+  nameWithType: BufferUsage
+  fullName: Orama.RHI.Resources.BufferUsage
+  type: Enum
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceInterfaces.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: BufferUsage
+    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    startLine: 62
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  summary: Supported GPU buffer usages.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum BufferUsage : byte
+    content.vb: >-
+      <Flags>
+
+      Public Enum BufferUsage As Byte
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Orama.RHI.Resources.BufferUsage.VertexBuffer
+  commentId: F:Orama.RHI.Resources.BufferUsage.VertexBuffer
+  id: VertexBuffer
+  parent: Orama.RHI.Resources.BufferUsage
+  langs:
+  - csharp
+  - vb
+  name: VertexBuffer
+  nameWithType: BufferUsage.VertexBuffer
+  fullName: Orama.RHI.Resources.BufferUsage.VertexBuffer
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceInterfaces.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: VertexBuffer
+    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    startLine: 65
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: VertexBuffer = 1
+    return:
+      type: Orama.RHI.Resources.BufferUsage
+- uid: Orama.RHI.Resources.BufferUsage.IndexBuffer
+  commentId: F:Orama.RHI.Resources.BufferUsage.IndexBuffer
+  id: IndexBuffer
+  parent: Orama.RHI.Resources.BufferUsage
+  langs:
+  - csharp
+  - vb
+  name: IndexBuffer
+  nameWithType: BufferUsage.IndexBuffer
+  fullName: Orama.RHI.Resources.BufferUsage.IndexBuffer
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceInterfaces.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IndexBuffer
+    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    startLine: 66
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: IndexBuffer = 2
+    return:
+      type: Orama.RHI.Resources.BufferUsage
+- uid: Orama.RHI.Resources.BufferUsage.UniformBuffer
+  commentId: F:Orama.RHI.Resources.BufferUsage.UniformBuffer
+  id: UniformBuffer
+  parent: Orama.RHI.Resources.BufferUsage
+  langs:
+  - csharp
+  - vb
+  name: UniformBuffer
+  nameWithType: BufferUsage.UniformBuffer
+  fullName: Orama.RHI.Resources.BufferUsage.UniformBuffer
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceInterfaces.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: UniformBuffer
+    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    startLine: 67
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: UniformBuffer = 4
+    return:
+      type: Orama.RHI.Resources.BufferUsage
+- uid: Orama.RHI.Resources.BufferUsage.Dynamic
+  commentId: F:Orama.RHI.Resources.BufferUsage.Dynamic
+  id: Dynamic
+  parent: Orama.RHI.Resources.BufferUsage
+  langs:
+  - csharp
+  - vb
+  name: Dynamic
+  nameWithType: BufferUsage.Dynamic
+  fullName: Orama.RHI.Resources.BufferUsage.Dynamic
+  type: Field
+  source:
+    remote:
+      path: Orama.RHI/Resources/ResourceInterfaces.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Dynamic
+    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    startLine: 68
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI.Resources
+  syntax:
+    content: Dynamic = 8
+    return:
+      type: Orama.RHI.Resources.BufferUsage
+references:
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: Orama.RHI.Resources.BufferUsage
+  commentId: T:Orama.RHI.Resources.BufferUsage
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.BufferUsage.html
+  name: BufferUsage
+  nameWithType: BufferUsage
+  fullName: Orama.RHI.Resources.BufferUsage

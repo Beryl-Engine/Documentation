@@ -25,11 +25,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Button
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -52,11 +52,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: LeftShoulder
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -78,11 +78,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RightShoulder
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -104,11 +104,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: DPadUp
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 13
+    startLine: 16
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -130,11 +130,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: DPadDown
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -156,11 +156,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: DPadLeft
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 15
+    startLine: 18
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -182,11 +182,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: DPadRight
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 16
+    startLine: 19
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -208,11 +208,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ActionDown
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -234,11 +234,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ActionRight
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 18
+    startLine: 21
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -260,11 +260,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ActionLeft
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 19
+    startLine: 22
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -286,11 +286,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ActionUp
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
-    startLine: 20
+    startLine: 23
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices

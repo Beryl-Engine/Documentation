@@ -23,11 +23,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: InputModule
     path: ../Orama/Modules/Orama.Input/InputModule.cs
-    startLine: 9
+    startLine: 13
   assemblies:
   - Orama.Input
   namespace: Orama.Input
@@ -64,11 +64,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Devices
     path: ../Orama/Modules/Orama.Input/InputModule.cs
-    startLine: 12
+    startLine: 16
   assemblies:
   - Orama.Input
   namespace: Orama.Input
@@ -95,11 +95,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: PrimaryKeyboard
     path: ../Orama/Modules/Orama.Input/InputModule.cs
-    startLine: 15
+    startLine: 19
   assemblies:
   - Orama.Input
   namespace: Orama.Input
@@ -126,11 +126,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: PrimaryMouse
     path: ../Orama/Modules/Orama.Input/InputModule.cs
-    startLine: 18
+    startLine: 22
   assemblies:
   - Orama.Input
   namespace: Orama.Input
@@ -157,11 +157,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: PrimaryGamepad
     path: ../Orama/Modules/Orama.Input/InputModule.cs
-    startLine: 21
+    startLine: 25
   assemblies:
   - Orama.Input
   namespace: Orama.Input
@@ -188,11 +188,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddDevice
     path: ../Orama/Modules/Orama.Input/InputModule.cs
-    startLine: 27
+    startLine: 31
   assemblies:
   - Orama.Input
   namespace: Orama.Input
@@ -217,11 +217,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.Input/InputModule.cs
-    startLine: 30
+    startLine: 34
   assemblies:
   - Orama.Input
   namespace: Orama.Input
@@ -246,11 +246,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Input/InputModule.cs
-    startLine: 51
+    startLine: 55
   assemblies:
   - Orama.Input
   namespace: Orama.Input
@@ -276,11 +276,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Input/InputModule.cs
-    startLine: 60
+    startLine: 64
   assemblies:
   - Orama.Input
   namespace: Orama.Input

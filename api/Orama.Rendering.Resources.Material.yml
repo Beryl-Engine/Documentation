@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Material
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
-    startLine: 10
+    startLine: 11
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -60,11 +60,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Shader
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -91,11 +91,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Default
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
-    startLine: 16
+    startLine: 17
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -122,11 +122,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
-    startLine: 21
+    startLine: 22
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -156,11 +156,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: SetProperty
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
-    startLine: 39
+    startLine: 40
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -194,11 +194,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetProperty
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
-    startLine: 48
+    startLine: 49
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources

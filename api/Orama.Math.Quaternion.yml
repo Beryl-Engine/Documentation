@@ -33,11 +33,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Quaternion
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 6
+    startLine: 8
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -66,11 +66,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: X
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 9
+    startLine: 11
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -97,11 +97,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Y
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 12
+    startLine: 14
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -128,11 +128,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Z
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 15
+    startLine: 17
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -159,11 +159,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: W
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 18
+    startLine: 20
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -190,11 +190,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 21
+    startLine: 23
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -230,11 +230,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Identity
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 29
+    startLine: 31
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -259,11 +259,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateFromAxisAngle
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 32
+    startLine: 34
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -297,11 +297,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ToEulerAngles
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 48
+    startLine: 50
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -327,11 +327,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: FromEulerAngles
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 73
+    startLine: 75
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -367,11 +367,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: FromEulerAngles
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 91
+    startLine: 93
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -400,11 +400,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 96
+    startLine: 98
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -438,11 +438,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_UnaryNegation
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 107
+    startLine: 109
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -474,11 +474,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Equality
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 110
+    startLine: 112
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -512,11 +512,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Inequality
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 114
+    startLine: 116
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -550,11 +550,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 119
+    startLine: 121
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -589,11 +589,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 122
+    startLine: 124
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -621,11 +621,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 125
+    startLine: 127
   assemblies:
   - Orama.Math
   namespace: Orama.Math
@@ -656,11 +656,11 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: ToString
     path: ../Orama/Orama.Math/Quaternion.cs
-    startLine: 128
+    startLine: 130
   assemblies:
   - Orama.Math
   namespace: Orama.Math

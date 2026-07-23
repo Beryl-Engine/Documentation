@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.IShaderDefaultsProvider
+  commentId: T:Orama.Rendering.IShaderDefaultsProvider
+  id: IShaderDefaultsProvider
+  parent: Orama.Rendering
+  children:
+  - Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer(Orama.Rendering.Components.Camera)
+  - Orama.Rendering.IShaderDefaultsProvider.GetObjectBuffer(Orama.Math.Matrix4x4)
+  langs:
+  - csharp
+  - vb
+  name: IShaderDefaultsProvider
+  nameWithType: IShaderDefaultsProvider
+  fullName: Orama.Rendering.IShaderDefaultsProvider
+  type: Interface
+  source:
+    remote:
+      path: Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IShaderDefaultsProvider
+    path: ../Orama/Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+    startLine: 12
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: Interface for providing values for default <xref href="Orama.Rendering.Resources.Shader" data-throw-if-not-resolved="false"></xref> parameter blocks.
+  example: []
+  syntax:
+    content: public interface IShaderDefaultsProvider
+    content.vb: Public Interface IShaderDefaultsProvider
+  derivedClasses:
+  - Orama.Rendering.ShaderDefaultsProvider
+- uid: Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer(Orama.Rendering.Components.Camera)
+  commentId: M:Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer(Orama.Rendering.Components.Camera)
+  id: GetCameraBuffer(Orama.Rendering.Components.Camera)
+  parent: Orama.Rendering.IShaderDefaultsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetCameraBuffer(Camera)
+  nameWithType: IShaderDefaultsProvider.GetCameraBuffer(Camera)
+  fullName: Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer(Orama.Rendering.Components.Camera)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: GetCameraBuffer
+    path: ../Orama/Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+    startLine: 15
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with data from <code class="paramref">camera</code> formatted for uploading via ICommandBuffer.SetConstantBuffer(string, ReadOnlySpan&lt;byte&gt;).
+  example: []
+  syntax:
+    content: ReadOnlySpan<byte> GetCameraBuffer(Camera camera)
+    parameters:
+    - id: camera
+      type: Orama.Rendering.Components.Camera
+    return:
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Function GetCameraBuffer(camera As Camera) As ReadOnlySpan(Of Byte)
+  overload: Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer*
+- uid: Orama.Rendering.IShaderDefaultsProvider.GetObjectBuffer(Orama.Math.Matrix4x4)
+  commentId: M:Orama.Rendering.IShaderDefaultsProvider.GetObjectBuffer(Orama.Math.Matrix4x4)
+  id: GetObjectBuffer(Orama.Math.Matrix4x4)
+  parent: Orama.Rendering.IShaderDefaultsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetObjectBuffer(Matrix4x4)
+  nameWithType: IShaderDefaultsProvider.GetObjectBuffer(Matrix4x4)
+  fullName: Orama.Rendering.IShaderDefaultsProvider.GetObjectBuffer(Orama.Math.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: GetObjectBuffer
+    path: ../Orama/Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+    startLine: 18
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with the given object data formatted for uploading via ICommandBuffer.SetConstantBuffer(string, ReadOnlySpan&lt;byte&gt;).
+  example: []
+  syntax:
+    content: ReadOnlySpan<byte> GetObjectBuffer(Matrix4x4 transform)
+    parameters:
+    - id: transform
+      type: Orama.Math.Matrix4x4
+    return:
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Function GetObjectBuffer(transform As Matrix4x4) As ReadOnlySpan(Of Byte)
+  overload: Orama.Rendering.IShaderDefaultsProvider.GetObjectBuffer*
+references:
+- uid: Orama.Rendering.Resources.Shader
+  commentId: T:Orama.Rendering.Resources.Shader
+  parent: Orama.Rendering.Resources
+  href: Orama.Rendering.Resources.Shader.html
+  name: Shader
+  nameWithType: Shader
+  fullName: Orama.Rendering.Resources.Shader
+- uid: Orama.Rendering
+  commentId: N:Orama.Rendering
+  href: Orama.html
+  name: Orama.Rendering
+  nameWithType: Orama.Rendering
+  fullName: Orama.Rendering
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+- uid: Orama.Rendering.Resources
+  commentId: N:Orama.Rendering.Resources
+  href: Orama.html
+  name: Orama.Rendering.Resources
+  nameWithType: Orama.Rendering.Resources
+  fullName: Orama.Rendering.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer*
+  commentId: Overload:Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer
+  href: Orama.Rendering.IShaderDefaultsProvider.html#Orama_Rendering_IShaderDefaultsProvider_GetCameraBuffer_Orama_Rendering_Components_Camera_
+  name: GetCameraBuffer
+  nameWithType: IShaderDefaultsProvider.GetCameraBuffer
+  fullName: Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer
+- uid: Orama.Rendering.Components.Camera
+  commentId: T:Orama.Rendering.Components.Camera
+  parent: Orama.Rendering.Components
+  href: Orama.Rendering.Components.Camera.html
+  name: Camera
+  nameWithType: Camera
+  fullName: Orama.Rendering.Components.Camera
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: Orama.Rendering.Components
+  commentId: N:Orama.Rendering.Components
+  href: Orama.html
+  name: Orama.Rendering.Components
+  nameWithType: Orama.Rendering.Components
+  fullName: Orama.Rendering.Components
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Components
+    name: Components
+    href: Orama.Rendering.Components.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Components
+    name: Components
+    href: Orama.Rendering.Components.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Rendering.IShaderDefaultsProvider.GetObjectBuffer*
+  commentId: Overload:Orama.Rendering.IShaderDefaultsProvider.GetObjectBuffer
+  href: Orama.Rendering.IShaderDefaultsProvider.html#Orama_Rendering_IShaderDefaultsProvider_GetObjectBuffer_Orama_Math_Matrix4x4_
+  name: GetObjectBuffer
+  nameWithType: IShaderDefaultsProvider.GetObjectBuffer
+  fullName: Orama.Rendering.IShaderDefaultsProvider.GetObjectBuffer
+- uid: Orama.Math.Matrix4x4
+  commentId: T:Orama.Math.Matrix4x4
+  parent: Orama.Math
+  href: Orama.Math.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Orama.Math.Matrix4x4
+- uid: Orama.Math
+  commentId: N:Orama.Math
+  href: Orama.html
+  name: Orama.Math
+  nameWithType: Orama.Math
+  fullName: Orama.Math
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html

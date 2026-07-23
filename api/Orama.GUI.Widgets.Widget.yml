@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/Widgets/Widget.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Widget
     path: ../Orama/Modules/Orama.GUI/Widgets/Widget.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - Orama.GUI
   namespace: Orama.GUI.Widgets
@@ -55,11 +55,11 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/Widgets/Widget.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Rect
     path: ../Orama/Modules/Orama.GUI/Widgets/Widget.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Orama.GUI
   namespace: Orama.GUI.Widgets
@@ -84,11 +84,11 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/Widgets/Widget.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.GUI/Widgets/Widget.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Orama.GUI
   namespace: Orama.GUI.Widgets
@@ -110,11 +110,11 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/Widgets/Widget.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Draw
     path: ../Orama/Modules/Orama.GUI/Widgets/Widget.cs
-    startLine: 16
+    startLine: 19
   assemblies:
   - Orama.GUI
   namespace: Orama.GUI.Widgets

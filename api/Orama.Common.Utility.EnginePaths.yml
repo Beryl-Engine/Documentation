@@ -16,11 +16,11 @@ items:
   source:
     remote:
       path: Orama.Common/Utility/EnginePaths.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: EnginePaths
     path: ../Orama/Orama.Common/Utility/EnginePaths.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - Orama.Common
   namespace: Orama.Common.Utility
@@ -53,11 +53,11 @@ items:
   source:
     remote:
       path: Orama.Common/Utility/EnginePaths.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: EngineDirectory
     path: ../Orama/Orama.Common/Utility/EnginePaths.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Orama.Common
   namespace: Orama.Common.Utility

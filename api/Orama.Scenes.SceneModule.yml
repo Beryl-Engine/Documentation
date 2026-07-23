@@ -19,11 +19,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/SceneModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: SceneModule
     path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes
@@ -60,11 +60,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/SceneModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: CurrentScene
     path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes
@@ -91,11 +91,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/SceneModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
-    startLine: 15
+    startLine: 18
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes
@@ -120,11 +120,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/SceneModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
-    startLine: 25
+    startLine: 28
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes
@@ -150,11 +150,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/SceneModule.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
-    startLine: 32
+    startLine: 35
   assemblies:
   - Orama.Scenes
   namespace: Orama.Scenes

@@ -20,11 +20,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: VirtualRealityController
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
-    startLine: 8
+    startLine: 10
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -59,11 +59,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Handness
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
-    startLine: 29
+    startLine: 31
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -90,11 +90,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: TriggerPressedAmount
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
-    startLine: 32
+    startLine: 34
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -121,11 +121,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: GripPressedAmount
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
-    startLine: 35
+    startLine: 37
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -152,11 +152,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsButtonPressed
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
-    startLine: 38
+    startLine: 40
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
@@ -185,11 +185,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
-    startLine: 41
+    startLine: 43
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality

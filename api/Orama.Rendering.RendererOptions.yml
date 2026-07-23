@@ -16,11 +16,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RendererOptions.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: RendererOptions
     path: ../Orama/Modules/Orama.Rendering/RendererOptions.cs
-    startLine: 10
+    startLine: 7
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -48,11 +48,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RendererOptions.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Culling
     path: ../Orama/Modules/Orama.Rendering/RendererOptions.cs
-    startLine: 13
+    startLine: 10
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -62,7 +62,7 @@ items:
     content: public CullingMode Culling { readonly get; set; }
     parameters: []
     return:
-      type: Orama.Rendering.CullingMode
+      type: Orama.RHI.CullingMode
     content.vb: Public Property Culling As CullingMode
   overload: Orama.Rendering.RendererOptions.Culling*
 references:
@@ -311,10 +311,32 @@ references:
   name: Culling
   nameWithType: RendererOptions.Culling
   fullName: Orama.Rendering.RendererOptions.Culling
-- uid: Orama.Rendering.CullingMode
-  commentId: T:Orama.Rendering.CullingMode
-  parent: Orama.Rendering
-  href: Orama.Rendering.CullingMode.html
+- uid: Orama.RHI.CullingMode
+  commentId: T:Orama.RHI.CullingMode
+  parent: Orama.RHI
+  href: Orama.RHI.CullingMode.html
   name: CullingMode
   nameWithType: CullingMode
-  fullName: Orama.Rendering.CullingMode
+  fullName: Orama.RHI.CullingMode
+- uid: Orama.RHI
+  commentId: N:Orama.RHI
+  href: Orama.html
+  name: Orama.RHI
+  nameWithType: Orama.RHI
+  fullName: Orama.RHI
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html

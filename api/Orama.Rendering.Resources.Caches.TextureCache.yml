@@ -1,0 +1,653 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Rendering.Resources.Caches.TextureCache
+  commentId: T:Orama.Rendering.Resources.Caches.TextureCache
+  id: TextureCache
+  parent: Orama.Rendering.Resources.Caches
+  children:
+  - Orama.Rendering.Resources.Caches.TextureCache.Create(Orama.RHI.Resources.TextureDescriptor)
+  langs:
+  - csharp
+  - vb
+  name: TextureCache
+  nameWithType: TextureCache
+  fullName: Orama.Rendering.Resources.Caches.TextureCache
+  type: Class
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/TextureCache.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: TextureCache
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/TextureCache.cs
+    startLine: 7
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  syntax:
+    content: 'public sealed class TextureCache : ResourceCache<TextureCache, TextureDescriptor, ITexture>'
+    content.vb: Public NotInheritable Class TextureCache Inherits ResourceCache(Of TextureCache, TextureDescriptor, ITexture)
+  inheritance:
+  - System.Object
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}
+  inheritedMembers:
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Instance
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Cache
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.GetOrCreate(Orama.RHI.Resources.TextureDescriptor)
+  - Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Get(Orama.RHI.Resources.TextureDescriptor)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Orama.Rendering.Resources.Caches.TextureCache.Create(Orama.RHI.Resources.TextureDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.TextureCache.Create(Orama.RHI.Resources.TextureDescriptor)
+  id: Create(Orama.RHI.Resources.TextureDescriptor)
+  parent: Orama.Rendering.Resources.Caches.TextureCache
+  langs:
+  - csharp
+  - vb
+  name: Create(TextureDescriptor)
+  nameWithType: TextureCache.Create(TextureDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.TextureCache.Create(Orama.RHI.Resources.TextureDescriptor)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Caches/TextureCache.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Create
+    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/TextureCache.cs
+    startLine: 10
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources.Caches
+  summary: Creates a new <xref href="Orama.RHI.Resources.ITexture" data-throw-if-not-resolved="false"></xref> for the given key.
+  example: []
+  syntax:
+    content: protected override ITexture Create(TextureDescriptor key)
+    parameters:
+    - id: key
+      type: Orama.RHI.Resources.TextureDescriptor
+    return:
+      type: Orama.RHI.Resources.ITexture
+    content.vb: Protected Overrides Function Create(key As TextureDescriptor) As ITexture
+  overridden: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Create(Orama.RHI.Resources.TextureDescriptor)
+  overload: Orama.Rendering.Resources.Caches.TextureCache.Create*
+references:
+- uid: Orama.Rendering.Resources.Caches
+  commentId: N:Orama.Rendering.Resources.Caches
+  href: Orama.html
+  name: Orama.Rendering.Resources.Caches
+  nameWithType: Orama.Rendering.Resources.Caches
+  fullName: Orama.Rendering.Resources.Caches
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  - name: .
+  - uid: Orama.Rendering.Resources
+    name: Resources
+    href: Orama.Rendering.Resources.html
+  - name: .
+  - uid: Orama.Rendering.Resources.Caches
+    name: Caches
+    href: Orama.Rendering.Resources.Caches.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}
+  commentId: T:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}
+  parent: Orama.Rendering.Resources.Caches
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  name: ResourceCache<TextureCache, TextureDescriptor, ITexture>
+  nameWithType: ResourceCache<TextureCache, TextureDescriptor, ITexture>
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture>
+  nameWithType.vb: ResourceCache(Of TextureCache, TextureDescriptor, ITexture)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture)
+  name.vb: ResourceCache(Of TextureCache, TextureDescriptor, ITexture)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: <
+  - uid: Orama.Rendering.Resources.Caches.TextureCache
+    name: TextureCache
+    href: Orama.Rendering.Resources.Caches.TextureCache.html
+  - name: ','
+  - name: " "
+  - uid: Orama.RHI.Resources.TextureDescriptor
+    name: TextureDescriptor
+    href: Orama.RHI.Resources.TextureDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: Orama.RHI.Resources.ITexture
+    name: ITexture
+    href: Orama.RHI.Resources.ITexture.html
+  - name: '>'
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Orama.Rendering.Resources.Caches.TextureCache
+    name: TextureCache
+    href: Orama.Rendering.Resources.Caches.TextureCache.html
+  - name: ','
+  - name: " "
+  - uid: Orama.RHI.Resources.TextureDescriptor
+    name: TextureDescriptor
+    href: Orama.RHI.Resources.TextureDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: Orama.RHI.Resources.ITexture
+    name: ITexture
+    href: Orama.RHI.Resources.ITexture.html
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Instance
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Instance
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Instance
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Instance
+  name: Instance
+  nameWithType: ResourceCache<TextureCache, TextureDescriptor, ITexture>.Instance
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture>.Instance
+  nameWithType.vb: ResourceCache(Of TextureCache, TextureDescriptor, ITexture).Instance
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture).Instance
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Cache
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Cache
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Cache
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Cache
+  name: Cache
+  nameWithType: ResourceCache<TextureCache, TextureDescriptor, ITexture>.Cache
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture>.Cache
+  nameWithType.vb: ResourceCache(Of TextureCache, TextureDescriptor, ITexture).Cache
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture).Cache
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.GetOrCreate(Orama.RHI.Resources.TextureDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.GetOrCreate(Orama.RHI.Resources.TextureDescriptor)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  name: GetOrCreate(TextureDescriptor)
+  nameWithType: ResourceCache<TextureCache, TextureDescriptor, ITexture>.GetOrCreate(TextureDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture>.GetOrCreate(Orama.RHI.Resources.TextureDescriptor)
+  nameWithType.vb: ResourceCache(Of TextureCache, TextureDescriptor, ITexture).GetOrCreate(TextureDescriptor)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture).GetOrCreate(Orama.RHI.Resources.TextureDescriptor)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.GetOrCreate(Orama.RHI.Resources.TextureDescriptor)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - uid: Orama.RHI.Resources.TextureDescriptor
+    name: TextureDescriptor
+    href: Orama.RHI.Resources.TextureDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.GetOrCreate(Orama.RHI.Resources.TextureDescriptor)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - uid: Orama.RHI.Resources.TextureDescriptor
+    name: TextureDescriptor
+    href: Orama.RHI.Resources.TextureDescriptor.html
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Get(Orama.RHI.Resources.TextureDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Get(Orama.RHI.Resources.TextureDescriptor)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(TextureDescriptor)
+  nameWithType: ResourceCache<TextureCache, TextureDescriptor, ITexture>.Get(TextureDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture>.Get(Orama.RHI.Resources.TextureDescriptor)
+  nameWithType.vb: ResourceCache(Of TextureCache, TextureDescriptor, ITexture).Get(TextureDescriptor)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture).Get(Orama.RHI.Resources.TextureDescriptor)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Get(Orama.RHI.Resources.TextureDescriptor)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - uid: Orama.RHI.Resources.TextureDescriptor
+    name: TextureDescriptor
+    href: Orama.RHI.Resources.TextureDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Get(Orama.RHI.Resources.TextureDescriptor)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - uid: Orama.RHI.Resources.TextureDescriptor
+    name: TextureDescriptor
+    href: Orama.RHI.Resources.TextureDescriptor.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+  commentId: T:Orama.Rendering.Resources.Caches.ResourceCache`3
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  name: ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource)
+  name.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: <
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: '>'
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Instance
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache`3.Instance
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Instance
+  name: Instance
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Instance
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Instance
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Instance
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Instance
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Cache
+  commentId: P:Orama.Rendering.Resources.Caches.ResourceCache`3.Cache
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Cache
+  name: Cache
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Cache
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Cache
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  name: GetOrCreate(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.GetOrCreate(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.GetOrCreate(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+    name: GetOrCreate
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Orama.RHI.Resources.ITexture
+  commentId: T:Orama.RHI.Resources.ITexture
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.ITexture.html
+  name: ITexture
+  nameWithType: ITexture
+  fullName: Orama.RHI.Resources.ITexture
+- uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Create(Orama.RHI.Resources.TextureDescriptor)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Create(Orama.RHI.Resources.TextureDescriptor)
+  parent: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}
+  definition: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  name: Create(TextureDescriptor)
+  nameWithType: ResourceCache<TextureCache, TextureDescriptor, ITexture>.Create(TextureDescriptor)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture>.Create(Orama.RHI.Resources.TextureDescriptor)
+  nameWithType.vb: ResourceCache(Of TextureCache, TextureDescriptor, ITexture).Create(TextureDescriptor)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of Orama.Rendering.Resources.Caches.TextureCache, Orama.RHI.Resources.TextureDescriptor, Orama.RHI.Resources.ITexture).Create(Orama.RHI.Resources.TextureDescriptor)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Create(Orama.RHI.Resources.TextureDescriptor)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - uid: Orama.RHI.Resources.TextureDescriptor
+    name: TextureDescriptor
+    href: Orama.RHI.Resources.TextureDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache{Orama.Rendering.Resources.Caches.TextureCache,Orama.RHI.Resources.TextureDescriptor,Orama.RHI.Resources.ITexture}.Create(Orama.RHI.Resources.TextureDescriptor)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - uid: Orama.RHI.Resources.TextureDescriptor
+    name: TextureDescriptor
+    href: Orama.RHI.Resources.TextureDescriptor.html
+  - name: )
+- uid: Orama.Rendering.Resources.Caches.TextureCache.Create*
+  commentId: Overload:Orama.Rendering.Resources.Caches.TextureCache.Create
+  href: Orama.Rendering.Resources.Caches.TextureCache.html#Orama_Rendering_Resources_Caches_TextureCache_Create_Orama_RHI_Resources_TextureDescriptor_
+  name: Create
+  nameWithType: TextureCache.Create
+  fullName: Orama.Rendering.Resources.Caches.TextureCache.Create
+- uid: Orama.RHI.Resources.TextureDescriptor
+  commentId: T:Orama.RHI.Resources.TextureDescriptor
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.TextureDescriptor.html
+  name: TextureDescriptor
+  nameWithType: TextureDescriptor
+  fullName: Orama.RHI.Resources.TextureDescriptor
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  commentId: M:Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  name: Create(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Create(TKey)
+  fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Create(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Create(TKey)
+  fullName.vb: Orama.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Create(TKey)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Orama.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+    name: Create
+    href: Orama.Rendering.Resources.Caches.ResourceCache-3.html#Orama_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - name: TKey
+  - name: )

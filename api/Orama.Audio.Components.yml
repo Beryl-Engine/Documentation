@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Audio.Components
   commentId: N:Orama.Audio.Components
-  id: Orama.Audio.Components
+  id: Components
+  parent: Orama.Audio
   children:
   - Orama.Audio.Components.AudioListener
   - Orama.Audio.Components.AudioSource

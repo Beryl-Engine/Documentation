@@ -22,11 +22,11 @@ items:
   source:
     remote:
       path: Orama.Common/Window.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Window
     path: ../Orama/Orama.Common/Window.cs
-    startLine: 8
+    startLine: 12
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -59,11 +59,11 @@ items:
   source:
     remote:
       path: Orama.Common/Window.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: InternalWindow
     path: ../Orama/Orama.Common/Window.cs
-    startLine: 11
+    startLine: 15
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -90,11 +90,11 @@ items:
   source:
     remote:
       path: Orama.Common/Window.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Size
     path: ../Orama/Orama.Common/Window.cs
-    startLine: 14
+    startLine: 18
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -121,11 +121,11 @@ items:
   source:
     remote:
       path: Orama.Common/Window.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Position
     path: ../Orama/Orama.Common/Window.cs
-    startLine: 17
+    startLine: 21
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -152,11 +152,11 @@ items:
   source:
     remote:
       path: Orama.Common/Window.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: FramesPerSecond
     path: ../Orama/Orama.Common/Window.cs
-    startLine: 20
+    startLine: 24
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -183,11 +183,11 @@ items:
   source:
     remote:
       path: Orama.Common/Window.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Title
     path: ../Orama/Orama.Common/Window.cs
-    startLine: 23
+    startLine: 27
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -214,11 +214,11 @@ items:
   source:
     remote:
       path: Orama.Common/Window.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Common/Window.cs
-    startLine: 26
+    startLine: 30
   assemblies:
   - Orama.Common
   namespace: Orama.Common
@@ -245,11 +245,11 @@ items:
   source:
     remote:
       path: Orama.Common/Window.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Run
     path: ../Orama/Orama.Common/Window.cs
-    startLine: 39
+    startLine: 43
   assemblies:
   - Orama.Common
   namespace: Orama.Common

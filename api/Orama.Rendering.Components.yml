@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Rendering.Components
   commentId: N:Orama.Rendering.Components
-  id: Orama.Rendering.Components
+  id: Components
+  parent: Orama.Rendering
   children:
   - Orama.Rendering.Components.Camera
   - Orama.Rendering.Components.MeshRenderer
@@ -25,6 +26,7 @@ references:
   fullName: Orama.Rendering.Components.Camera
 - uid: Orama.Rendering.Components.MeshRenderer
   commentId: T:Orama.Rendering.Components.MeshRenderer
+  parent: Orama.Rendering.Components
   href: Orama.Rendering.Components.MeshRenderer.html
   name: MeshRenderer
   nameWithType: MeshRenderer

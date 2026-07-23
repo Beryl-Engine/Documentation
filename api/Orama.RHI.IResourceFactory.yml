@@ -1,0 +1,566 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.IResourceFactory
+  commentId: T:Orama.RHI.IResourceFactory
+  id: IResourceFactory
+  parent: Orama.RHI
+  children:
+  - Orama.RHI.IResourceFactory.CreateBuffer(Orama.RHI.Resources.BufferDescriptor)
+  - Orama.RHI.IResourceFactory.CreateCommandBuffer
+  - Orama.RHI.IResourceFactory.CreateGraphicsPipeline(Orama.RHI.Resources.PipelineDescriptor)
+  - Orama.RHI.IResourceFactory.CreateResourceLayout(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  - Orama.RHI.IResourceFactory.CreateResourceSet(Orama.RHI.Resources.ResourceDescriptor)
+  - Orama.RHI.IResourceFactory.CreateSampler(Orama.RHI.Resources.SamplerDescriptor)
+  - Orama.RHI.IResourceFactory.CreateShader(Orama.RHI.Resources.ShaderDescriptor)
+  - Orama.RHI.IResourceFactory.CreateTexture(Orama.RHI.Resources.TextureDescriptor)
+  - Orama.RHI.IResourceFactory.CreateTextureView(Orama.RHI.Resources.TextureViewDescriptor)
+  langs:
+  - csharp
+  - vb
+  name: IResourceFactory
+  nameWithType: IResourceFactory
+  fullName: Orama.RHI.IResourceFactory
+  type: Interface
+  source:
+    remote:
+      path: Orama.RHI/IResourceFactory.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IResourceFactory
+    path: ../Orama/Orama.RHI/IResourceFactory.cs
+    startLine: 10
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI
+  summary: Defines how an <xref href="Orama.RHI.IGraphicsDevice" data-throw-if-not-resolved="false"></xref> creates GPU resources.
+  example: []
+  syntax:
+    content: public interface IResourceFactory
+    content.vb: Public Interface IResourceFactory
+- uid: Orama.RHI.IResourceFactory.CreateCommandBuffer
+  commentId: M:Orama.RHI.IResourceFactory.CreateCommandBuffer
+  id: CreateCommandBuffer
+  parent: Orama.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateCommandBuffer()
+  nameWithType: IResourceFactory.CreateCommandBuffer()
+  fullName: Orama.RHI.IResourceFactory.CreateCommandBuffer()
+  type: Method
+  source:
+    remote:
+      path: Orama.RHI/IResourceFactory.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateCommandBuffer
+    path: ../Orama/Orama.RHI/IResourceFactory.cs
+    startLine: 13
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI
+  summary: Creates a new <xref href="Orama.RHI.ICommandBuffer" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: ICommandBuffer CreateCommandBuffer()
+    return:
+      type: Orama.RHI.ICommandBuffer
+    content.vb: Function CreateCommandBuffer() As ICommandBuffer
+  overload: Orama.RHI.IResourceFactory.CreateCommandBuffer*
+- uid: Orama.RHI.IResourceFactory.CreateShader(Orama.RHI.Resources.ShaderDescriptor)
+  commentId: M:Orama.RHI.IResourceFactory.CreateShader(Orama.RHI.Resources.ShaderDescriptor)
+  id: CreateShader(Orama.RHI.Resources.ShaderDescriptor)
+  parent: Orama.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateShader(ShaderDescriptor)
+  nameWithType: IResourceFactory.CreateShader(ShaderDescriptor)
+  fullName: Orama.RHI.IResourceFactory.CreateShader(Orama.RHI.Resources.ShaderDescriptor)
+  type: Method
+  source:
+    remote:
+      path: Orama.RHI/IResourceFactory.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateShader
+    path: ../Orama/Orama.RHI/IResourceFactory.cs
+    startLine: 16
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI
+  summary: Creates a new <xref href="Orama.RHI.Resources.IShader" data-throw-if-not-resolved="false"></xref> using the given <xref href="Orama.RHI.Resources.ShaderDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: IShader CreateShader(ShaderDescriptor key)
+    parameters:
+    - id: key
+      type: Orama.RHI.Resources.ShaderDescriptor
+    return:
+      type: Orama.RHI.Resources.IShader
+    content.vb: Function CreateShader(key As ShaderDescriptor) As IShader
+  overload: Orama.RHI.IResourceFactory.CreateShader*
+- uid: Orama.RHI.IResourceFactory.CreateBuffer(Orama.RHI.Resources.BufferDescriptor)
+  commentId: M:Orama.RHI.IResourceFactory.CreateBuffer(Orama.RHI.Resources.BufferDescriptor)
+  id: CreateBuffer(Orama.RHI.Resources.BufferDescriptor)
+  parent: Orama.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateBuffer(BufferDescriptor)
+  nameWithType: IResourceFactory.CreateBuffer(BufferDescriptor)
+  fullName: Orama.RHI.IResourceFactory.CreateBuffer(Orama.RHI.Resources.BufferDescriptor)
+  type: Method
+  source:
+    remote:
+      path: Orama.RHI/IResourceFactory.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateBuffer
+    path: ../Orama/Orama.RHI/IResourceFactory.cs
+    startLine: 19
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI
+  summary: Creates a new <xref href="Orama.RHI.Resources.IBuffer" data-throw-if-not-resolved="false"></xref> using the given <xref href="Orama.RHI.Resources.BufferDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: IBuffer CreateBuffer(BufferDescriptor key)
+    parameters:
+    - id: key
+      type: Orama.RHI.Resources.BufferDescriptor
+    return:
+      type: Orama.RHI.Resources.IBuffer
+    content.vb: Function CreateBuffer(key As BufferDescriptor) As IBuffer
+  overload: Orama.RHI.IResourceFactory.CreateBuffer*
+- uid: Orama.RHI.IResourceFactory.CreateTexture(Orama.RHI.Resources.TextureDescriptor)
+  commentId: M:Orama.RHI.IResourceFactory.CreateTexture(Orama.RHI.Resources.TextureDescriptor)
+  id: CreateTexture(Orama.RHI.Resources.TextureDescriptor)
+  parent: Orama.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateTexture(TextureDescriptor)
+  nameWithType: IResourceFactory.CreateTexture(TextureDescriptor)
+  fullName: Orama.RHI.IResourceFactory.CreateTexture(Orama.RHI.Resources.TextureDescriptor)
+  type: Method
+  source:
+    remote:
+      path: Orama.RHI/IResourceFactory.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateTexture
+    path: ../Orama/Orama.RHI/IResourceFactory.cs
+    startLine: 22
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI
+  summary: Creates a new <xref href="Orama.RHI.Resources.ITexture" data-throw-if-not-resolved="false"></xref> using the given <xref href="Orama.RHI.Resources.TextureDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: ITexture CreateTexture(TextureDescriptor key)
+    parameters:
+    - id: key
+      type: Orama.RHI.Resources.TextureDescriptor
+    return:
+      type: Orama.RHI.Resources.ITexture
+    content.vb: Function CreateTexture(key As TextureDescriptor) As ITexture
+  overload: Orama.RHI.IResourceFactory.CreateTexture*
+- uid: Orama.RHI.IResourceFactory.CreateTextureView(Orama.RHI.Resources.TextureViewDescriptor)
+  commentId: M:Orama.RHI.IResourceFactory.CreateTextureView(Orama.RHI.Resources.TextureViewDescriptor)
+  id: CreateTextureView(Orama.RHI.Resources.TextureViewDescriptor)
+  parent: Orama.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateTextureView(TextureViewDescriptor)
+  nameWithType: IResourceFactory.CreateTextureView(TextureViewDescriptor)
+  fullName: Orama.RHI.IResourceFactory.CreateTextureView(Orama.RHI.Resources.TextureViewDescriptor)
+  type: Method
+  source:
+    remote:
+      path: Orama.RHI/IResourceFactory.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateTextureView
+    path: ../Orama/Orama.RHI/IResourceFactory.cs
+    startLine: 25
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI
+  summary: Creates a new <xref href="Orama.RHI.Resources.ITextureView" data-throw-if-not-resolved="false"></xref> using the given <xref href="Orama.RHI.Resources.TextureViewDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: ITextureView CreateTextureView(TextureViewDescriptor key)
+    parameters:
+    - id: key
+      type: Orama.RHI.Resources.TextureViewDescriptor
+    return:
+      type: Orama.RHI.Resources.ITextureView
+    content.vb: Function CreateTextureView(key As TextureViewDescriptor) As ITextureView
+  overload: Orama.RHI.IResourceFactory.CreateTextureView*
+- uid: Orama.RHI.IResourceFactory.CreateSampler(Orama.RHI.Resources.SamplerDescriptor)
+  commentId: M:Orama.RHI.IResourceFactory.CreateSampler(Orama.RHI.Resources.SamplerDescriptor)
+  id: CreateSampler(Orama.RHI.Resources.SamplerDescriptor)
+  parent: Orama.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateSampler(SamplerDescriptor)
+  nameWithType: IResourceFactory.CreateSampler(SamplerDescriptor)
+  fullName: Orama.RHI.IResourceFactory.CreateSampler(Orama.RHI.Resources.SamplerDescriptor)
+  type: Method
+  source:
+    remote:
+      path: Orama.RHI/IResourceFactory.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateSampler
+    path: ../Orama/Orama.RHI/IResourceFactory.cs
+    startLine: 28
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI
+  summary: Creates a new <xref href="Orama.RHI.Resources.ISampler" data-throw-if-not-resolved="false"></xref> using the given <xref href="Orama.RHI.Resources.SamplerDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: ISampler CreateSampler(SamplerDescriptor key)
+    parameters:
+    - id: key
+      type: Orama.RHI.Resources.SamplerDescriptor
+    return:
+      type: Orama.RHI.Resources.ISampler
+    content.vb: Function CreateSampler(key As SamplerDescriptor) As ISampler
+  overload: Orama.RHI.IResourceFactory.CreateSampler*
+- uid: Orama.RHI.IResourceFactory.CreateResourceLayout(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  commentId: M:Orama.RHI.IResourceFactory.CreateResourceLayout(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  id: CreateResourceLayout(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  parent: Orama.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateResourceLayout(ResourceLayoutDescriptor)
+  nameWithType: IResourceFactory.CreateResourceLayout(ResourceLayoutDescriptor)
+  fullName: Orama.RHI.IResourceFactory.CreateResourceLayout(Orama.RHI.Resources.ResourceLayoutDescriptor)
+  type: Method
+  source:
+    remote:
+      path: Orama.RHI/IResourceFactory.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateResourceLayout
+    path: ../Orama/Orama.RHI/IResourceFactory.cs
+    startLine: 31
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI
+  summary: Creates a new <xref href="Orama.RHI.Resources.IResourceLayout" data-throw-if-not-resolved="false"></xref> using the given <xref href="Orama.RHI.Resources.ResourceLayoutDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: IResourceLayout CreateResourceLayout(ResourceLayoutDescriptor key)
+    parameters:
+    - id: key
+      type: Orama.RHI.Resources.ResourceLayoutDescriptor
+    return:
+      type: Orama.RHI.Resources.IResourceLayout
+    content.vb: Function CreateResourceLayout(key As ResourceLayoutDescriptor) As IResourceLayout
+  overload: Orama.RHI.IResourceFactory.CreateResourceLayout*
+- uid: Orama.RHI.IResourceFactory.CreateResourceSet(Orama.RHI.Resources.ResourceDescriptor)
+  commentId: M:Orama.RHI.IResourceFactory.CreateResourceSet(Orama.RHI.Resources.ResourceDescriptor)
+  id: CreateResourceSet(Orama.RHI.Resources.ResourceDescriptor)
+  parent: Orama.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateResourceSet(ResourceDescriptor)
+  nameWithType: IResourceFactory.CreateResourceSet(ResourceDescriptor)
+  fullName: Orama.RHI.IResourceFactory.CreateResourceSet(Orama.RHI.Resources.ResourceDescriptor)
+  type: Method
+  source:
+    remote:
+      path: Orama.RHI/IResourceFactory.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateResourceSet
+    path: ../Orama/Orama.RHI/IResourceFactory.cs
+    startLine: 34
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI
+  summary: Creates a new <xref href="Orama.RHI.Resources.IResourceSet" data-throw-if-not-resolved="false"></xref> using the given <xref href="Orama.RHI.Resources.ResourceDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: IResourceSet CreateResourceSet(ResourceDescriptor key)
+    parameters:
+    - id: key
+      type: Orama.RHI.Resources.ResourceDescriptor
+    return:
+      type: Orama.RHI.Resources.IResourceSet
+    content.vb: Function CreateResourceSet(key As ResourceDescriptor) As IResourceSet
+  overload: Orama.RHI.IResourceFactory.CreateResourceSet*
+- uid: Orama.RHI.IResourceFactory.CreateGraphicsPipeline(Orama.RHI.Resources.PipelineDescriptor)
+  commentId: M:Orama.RHI.IResourceFactory.CreateGraphicsPipeline(Orama.RHI.Resources.PipelineDescriptor)
+  id: CreateGraphicsPipeline(Orama.RHI.Resources.PipelineDescriptor)
+  parent: Orama.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateGraphicsPipeline(PipelineDescriptor)
+  nameWithType: IResourceFactory.CreateGraphicsPipeline(PipelineDescriptor)
+  fullName: Orama.RHI.IResourceFactory.CreateGraphicsPipeline(Orama.RHI.Resources.PipelineDescriptor)
+  type: Method
+  source:
+    remote:
+      path: Orama.RHI/IResourceFactory.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: CreateGraphicsPipeline
+    path: ../Orama/Orama.RHI/IResourceFactory.cs
+    startLine: 37
+  assemblies:
+  - Orama.RHI
+  namespace: Orama.RHI
+  summary: Creates a new <xref href="Orama.RHI.Resources.IPipeline" data-throw-if-not-resolved="false"></xref> using the given <xref href="Orama.RHI.Resources.PipelineDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: IPipeline CreateGraphicsPipeline(PipelineDescriptor key)
+    parameters:
+    - id: key
+      type: Orama.RHI.Resources.PipelineDescriptor
+    return:
+      type: Orama.RHI.Resources.IPipeline
+    content.vb: Function CreateGraphicsPipeline(key As PipelineDescriptor) As IPipeline
+  overload: Orama.RHI.IResourceFactory.CreateGraphicsPipeline*
+references:
+- uid: Orama.RHI.IGraphicsDevice
+  commentId: T:Orama.RHI.IGraphicsDevice
+  parent: Orama.RHI
+  href: Orama.RHI.IGraphicsDevice.html
+  name: IGraphicsDevice
+  nameWithType: IGraphicsDevice
+  fullName: Orama.RHI.IGraphicsDevice
+- uid: Orama.RHI
+  commentId: N:Orama.RHI
+  href: Orama.html
+  name: Orama.RHI
+  nameWithType: Orama.RHI
+  fullName: Orama.RHI
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+- uid: Orama.RHI.ICommandBuffer
+  commentId: T:Orama.RHI.ICommandBuffer
+  parent: Orama.RHI
+  href: Orama.RHI.ICommandBuffer.html
+  name: ICommandBuffer
+  nameWithType: ICommandBuffer
+  fullName: Orama.RHI.ICommandBuffer
+- uid: Orama.RHI.IResourceFactory.CreateCommandBuffer*
+  commentId: Overload:Orama.RHI.IResourceFactory.CreateCommandBuffer
+  href: Orama.RHI.IResourceFactory.html#Orama_RHI_IResourceFactory_CreateCommandBuffer
+  name: CreateCommandBuffer
+  nameWithType: IResourceFactory.CreateCommandBuffer
+  fullName: Orama.RHI.IResourceFactory.CreateCommandBuffer
+- uid: Orama.RHI.Resources.IShader
+  commentId: T:Orama.RHI.Resources.IShader
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.IShader.html
+  name: IShader
+  nameWithType: IShader
+  fullName: Orama.RHI.Resources.IShader
+- uid: Orama.RHI.Resources.ShaderDescriptor
+  commentId: T:Orama.RHI.Resources.ShaderDescriptor
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.ShaderDescriptor.html
+  name: ShaderDescriptor
+  nameWithType: ShaderDescriptor
+  fullName: Orama.RHI.Resources.ShaderDescriptor
+- uid: Orama.RHI.IResourceFactory.CreateShader*
+  commentId: Overload:Orama.RHI.IResourceFactory.CreateShader
+  href: Orama.RHI.IResourceFactory.html#Orama_RHI_IResourceFactory_CreateShader_Orama_RHI_Resources_ShaderDescriptor_
+  name: CreateShader
+  nameWithType: IResourceFactory.CreateShader
+  fullName: Orama.RHI.IResourceFactory.CreateShader
+- uid: Orama.RHI.Resources
+  commentId: N:Orama.RHI.Resources
+  href: Orama.html
+  name: Orama.RHI.Resources
+  nameWithType: Orama.RHI.Resources
+  fullName: Orama.RHI.Resources
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.Resources
+    name: Resources
+    href: Orama.RHI.Resources.html
+- uid: Orama.RHI.Resources.IBuffer
+  commentId: T:Orama.RHI.Resources.IBuffer
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.IBuffer.html
+  name: IBuffer
+  nameWithType: IBuffer
+  fullName: Orama.RHI.Resources.IBuffer
+- uid: Orama.RHI.Resources.BufferDescriptor
+  commentId: T:Orama.RHI.Resources.BufferDescriptor
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.BufferDescriptor.html
+  name: BufferDescriptor
+  nameWithType: BufferDescriptor
+  fullName: Orama.RHI.Resources.BufferDescriptor
+- uid: Orama.RHI.IResourceFactory.CreateBuffer*
+  commentId: Overload:Orama.RHI.IResourceFactory.CreateBuffer
+  href: Orama.RHI.IResourceFactory.html#Orama_RHI_IResourceFactory_CreateBuffer_Orama_RHI_Resources_BufferDescriptor_
+  name: CreateBuffer
+  nameWithType: IResourceFactory.CreateBuffer
+  fullName: Orama.RHI.IResourceFactory.CreateBuffer
+- uid: Orama.RHI.Resources.ITexture
+  commentId: T:Orama.RHI.Resources.ITexture
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.ITexture.html
+  name: ITexture
+  nameWithType: ITexture
+  fullName: Orama.RHI.Resources.ITexture
+- uid: Orama.RHI.Resources.TextureDescriptor
+  commentId: T:Orama.RHI.Resources.TextureDescriptor
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.TextureDescriptor.html
+  name: TextureDescriptor
+  nameWithType: TextureDescriptor
+  fullName: Orama.RHI.Resources.TextureDescriptor
+- uid: Orama.RHI.IResourceFactory.CreateTexture*
+  commentId: Overload:Orama.RHI.IResourceFactory.CreateTexture
+  href: Orama.RHI.IResourceFactory.html#Orama_RHI_IResourceFactory_CreateTexture_Orama_RHI_Resources_TextureDescriptor_
+  name: CreateTexture
+  nameWithType: IResourceFactory.CreateTexture
+  fullName: Orama.RHI.IResourceFactory.CreateTexture
+- uid: Orama.RHI.Resources.ITextureView
+  commentId: T:Orama.RHI.Resources.ITextureView
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.ITextureView.html
+  name: ITextureView
+  nameWithType: ITextureView
+  fullName: Orama.RHI.Resources.ITextureView
+- uid: Orama.RHI.Resources.TextureViewDescriptor
+  commentId: T:Orama.RHI.Resources.TextureViewDescriptor
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.TextureViewDescriptor.html
+  name: TextureViewDescriptor
+  nameWithType: TextureViewDescriptor
+  fullName: Orama.RHI.Resources.TextureViewDescriptor
+- uid: Orama.RHI.IResourceFactory.CreateTextureView*
+  commentId: Overload:Orama.RHI.IResourceFactory.CreateTextureView
+  href: Orama.RHI.IResourceFactory.html#Orama_RHI_IResourceFactory_CreateTextureView_Orama_RHI_Resources_TextureViewDescriptor_
+  name: CreateTextureView
+  nameWithType: IResourceFactory.CreateTextureView
+  fullName: Orama.RHI.IResourceFactory.CreateTextureView
+- uid: Orama.RHI.Resources.ISampler
+  commentId: T:Orama.RHI.Resources.ISampler
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.ISampler.html
+  name: ISampler
+  nameWithType: ISampler
+  fullName: Orama.RHI.Resources.ISampler
+- uid: Orama.RHI.Resources.SamplerDescriptor
+  commentId: T:Orama.RHI.Resources.SamplerDescriptor
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.SamplerDescriptor.html
+  name: SamplerDescriptor
+  nameWithType: SamplerDescriptor
+  fullName: Orama.RHI.Resources.SamplerDescriptor
+- uid: Orama.RHI.IResourceFactory.CreateSampler*
+  commentId: Overload:Orama.RHI.IResourceFactory.CreateSampler
+  href: Orama.RHI.IResourceFactory.html#Orama_RHI_IResourceFactory_CreateSampler_Orama_RHI_Resources_SamplerDescriptor_
+  name: CreateSampler
+  nameWithType: IResourceFactory.CreateSampler
+  fullName: Orama.RHI.IResourceFactory.CreateSampler
+- uid: Orama.RHI.Resources.IResourceLayout
+  commentId: T:Orama.RHI.Resources.IResourceLayout
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.IResourceLayout.html
+  name: IResourceLayout
+  nameWithType: IResourceLayout
+  fullName: Orama.RHI.Resources.IResourceLayout
+- uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+  commentId: T:Orama.RHI.Resources.ResourceLayoutDescriptor
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.ResourceLayoutDescriptor.html
+  name: ResourceLayoutDescriptor
+  nameWithType: ResourceLayoutDescriptor
+  fullName: Orama.RHI.Resources.ResourceLayoutDescriptor
+- uid: Orama.RHI.IResourceFactory.CreateResourceLayout*
+  commentId: Overload:Orama.RHI.IResourceFactory.CreateResourceLayout
+  href: Orama.RHI.IResourceFactory.html#Orama_RHI_IResourceFactory_CreateResourceLayout_Orama_RHI_Resources_ResourceLayoutDescriptor_
+  name: CreateResourceLayout
+  nameWithType: IResourceFactory.CreateResourceLayout
+  fullName: Orama.RHI.IResourceFactory.CreateResourceLayout
+- uid: Orama.RHI.Resources.IResourceSet
+  commentId: T:Orama.RHI.Resources.IResourceSet
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.IResourceSet.html
+  name: IResourceSet
+  nameWithType: IResourceSet
+  fullName: Orama.RHI.Resources.IResourceSet
+- uid: Orama.RHI.Resources.ResourceDescriptor
+  commentId: T:Orama.RHI.Resources.ResourceDescriptor
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.ResourceDescriptor.html
+  name: ResourceDescriptor
+  nameWithType: ResourceDescriptor
+  fullName: Orama.RHI.Resources.ResourceDescriptor
+- uid: Orama.RHI.IResourceFactory.CreateResourceSet*
+  commentId: Overload:Orama.RHI.IResourceFactory.CreateResourceSet
+  href: Orama.RHI.IResourceFactory.html#Orama_RHI_IResourceFactory_CreateResourceSet_Orama_RHI_Resources_ResourceDescriptor_
+  name: CreateResourceSet
+  nameWithType: IResourceFactory.CreateResourceSet
+  fullName: Orama.RHI.IResourceFactory.CreateResourceSet
+- uid: Orama.RHI.Resources.IPipeline
+  commentId: T:Orama.RHI.Resources.IPipeline
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.IPipeline.html
+  name: IPipeline
+  nameWithType: IPipeline
+  fullName: Orama.RHI.Resources.IPipeline
+- uid: Orama.RHI.Resources.PipelineDescriptor
+  commentId: T:Orama.RHI.Resources.PipelineDescriptor
+  parent: Orama.RHI.Resources
+  href: Orama.RHI.Resources.PipelineDescriptor.html
+  name: PipelineDescriptor
+  nameWithType: PipelineDescriptor
+  fullName: Orama.RHI.Resources.PipelineDescriptor
+- uid: Orama.RHI.IResourceFactory.CreateGraphicsPipeline*
+  commentId: Overload:Orama.RHI.IResourceFactory.CreateGraphicsPipeline
+  href: Orama.RHI.IResourceFactory.html#Orama_RHI_IResourceFactory_CreateGraphicsPipeline_Orama_RHI_Resources_PipelineDescriptor_
+  name: CreateGraphicsPipeline
+  nameWithType: IResourceFactory.CreateGraphicsPipeline
+  fullName: Orama.RHI.IResourceFactory.CreateGraphicsPipeline

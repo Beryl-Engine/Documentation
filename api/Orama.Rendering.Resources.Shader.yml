@@ -6,9 +6,11 @@ items:
   parent: Orama.Rendering.Resources
   children:
   - Orama.Rendering.Resources.Shader.#ctor(System.String,System.String)
+  - Orama.Rendering.Resources.Shader.DefaultsProvider
   - Orama.Rendering.Resources.Shader.Name
-  - Orama.Rendering.Resources.Shader.Parameters
   - Orama.Rendering.Resources.Shader.Pass
+  - Orama.Rendering.Resources.Shader.ResourceGroups
+  - Orama.Rendering.Resources.Shader.Resources
   - Orama.Rendering.Resources.Shader.Source
   langs:
   - csharp
@@ -20,11 +22,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Shader.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Shader
     path: ../Orama/Modules/Orama.Rendering/Resources/Shader.cs
-    startLine: 31
+    startLine: 14
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -55,11 +57,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Shader.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Pass
     path: ../Orama/Modules/Orama.Rendering/Resources/Shader.cs
-    startLine: 34
+    startLine: 17
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -86,11 +88,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Shader.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Name
     path: ../Orama/Modules/Orama.Rendering/Resources/Shader.cs
-    startLine: 37
+    startLine: 20
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -117,15 +119,16 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Shader.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Source
     path: ../Orama/Modules/Orama.Rendering/Resources/Shader.cs
-    startLine: 40
+    startLine: 24
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
-  summary: The shader's raw ShaderLang source.
+  summary: The shader's raw Slang source.
+  remarks: Setting this value will recompile the shader and is a heavy operation.
   example: []
   syntax:
     content: public string Source { get; set; }
@@ -134,37 +137,100 @@ items:
       type: System.String
     content.vb: Public Property Source As String
   overload: Orama.Rendering.Resources.Shader.Source*
-- uid: Orama.Rendering.Resources.Shader.Parameters
-  commentId: P:Orama.Rendering.Resources.Shader.Parameters
-  id: Parameters
+- uid: Orama.Rendering.Resources.Shader.DefaultsProvider
+  commentId: P:Orama.Rendering.Resources.Shader.DefaultsProvider
+  id: DefaultsProvider
   parent: Orama.Rendering.Resources.Shader
   langs:
   - csharp
   - vb
-  name: Parameters
-  nameWithType: Shader.Parameters
-  fullName: Orama.Rendering.Resources.Shader.Parameters
+  name: DefaultsProvider
+  nameWithType: Shader.DefaultsProvider
+  fullName: Orama.Rendering.Resources.Shader.DefaultsProvider
   type: Property
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Shader.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
-    id: Parameters
+    id: DefaultsProvider
     path: ../Orama/Modules/Orama.Rendering/Resources/Shader.cs
-    startLine: 64
+    startLine: 144
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
-  summary: The shader's parameter definitions.
+  summary: The <xref href="Orama.Rendering.IShaderDefaultsProvider" data-throw-if-not-resolved="false"></xref> used by shaders.
+  remarks: Defaults to <xref href="Orama.Rendering.ShaderDefaultsProvider" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public IReadOnlyList<ShaderParameter> Parameters { get; }
+    content: public static IShaderDefaultsProvider DefaultsProvider { get; }
     parameters: []
     return:
-      type: System.Collections.Generic.IReadOnlyList{Orama.Rendering.Resources.ShaderParameter}
-    content.vb: Public ReadOnly Property Parameters As IReadOnlyList(Of ShaderParameter)
-  overload: Orama.Rendering.Resources.Shader.Parameters*
+      type: Orama.Rendering.IShaderDefaultsProvider
+    content.vb: Public Shared ReadOnly Property DefaultsProvider As IShaderDefaultsProvider
+  overload: Orama.Rendering.Resources.Shader.DefaultsProvider*
+- uid: Orama.Rendering.Resources.Shader.Resources
+  commentId: P:Orama.Rendering.Resources.Shader.Resources
+  id: Resources
+  parent: Orama.Rendering.Resources.Shader
+  langs:
+  - csharp
+  - vb
+  name: Resources
+  nameWithType: Shader.Resources
+  fullName: Orama.Rendering.Resources.Shader.Resources
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Shader.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: Resources
+    path: ../Orama/Modules/Orama.Rendering/Resources/Shader.cs
+    startLine: 147
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  summary: The shader's resource definitions.
+  example: []
+  syntax:
+    content: public ImmutableArray<ShaderResource> Resources { get; }
+    parameters: []
+    return:
+      type: System.Collections.Immutable.ImmutableArray{Orama.RHI.Resources.ShaderResource}
+    content.vb: Public Property Resources As ImmutableArray(Of ShaderResource)
+  overload: Orama.Rendering.Resources.Shader.Resources*
+- uid: Orama.Rendering.Resources.Shader.ResourceGroups
+  commentId: P:Orama.Rendering.Resources.Shader.ResourceGroups
+  id: ResourceGroups
+  parent: Orama.Rendering.Resources.Shader
+  langs:
+  - csharp
+  - vb
+  name: ResourceGroups
+  nameWithType: Shader.ResourceGroups
+  fullName: Orama.Rendering.Resources.Shader.ResourceGroups
+  type: Property
+  source:
+    remote:
+      path: Modules/Orama.Rendering/Resources/Shader.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: ResourceGroups
+    path: ../Orama/Modules/Orama.Rendering/Resources/Shader.cs
+    startLine: 150
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering.Resources
+  summary: The shader's resource definitions, grouped by set.
+  example: []
+  syntax:
+    content: public ImmutableArray<ShaderResourceGroup> ResourceGroups { get; }
+    parameters: []
+    return:
+      type: System.Collections.Immutable.ImmutableArray{Orama.RHI.Resources.ShaderResourceGroup}
+    content.vb: Public Property ResourceGroups As ImmutableArray(Of ShaderResourceGroup)
+  overload: Orama.Rendering.Resources.Shader.ResourceGroups*
 - uid: Orama.Rendering.Resources.Shader.#ctor(System.String,System.String)
   commentId: M:Orama.Rendering.Resources.Shader.#ctor(System.String,System.String)
   id: '#ctor(System.String,System.String)'
@@ -179,11 +245,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Shader.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Rendering/Resources/Shader.cs
-    startLine: 69
+    startLine: 164
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
@@ -498,80 +564,121 @@ references:
   name: Source
   nameWithType: Shader.Source
   fullName: Orama.Rendering.Resources.Shader.Source
-- uid: Orama.Rendering.Resources.Shader.Parameters*
-  commentId: Overload:Orama.Rendering.Resources.Shader.Parameters
-  href: Orama.Rendering.Resources.Shader.html#Orama_Rendering_Resources_Shader_Parameters
-  name: Parameters
-  nameWithType: Shader.Parameters
-  fullName: Orama.Rendering.Resources.Shader.Parameters
-- uid: System.Collections.Generic.IReadOnlyList{Orama.Rendering.Resources.ShaderParameter}
-  commentId: T:System.Collections.Generic.IReadOnlyList{Orama.Rendering.Resources.ShaderParameter}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IReadOnlyList`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  name: IReadOnlyList<ShaderParameter>
-  nameWithType: IReadOnlyList<ShaderParameter>
-  fullName: System.Collections.Generic.IReadOnlyList<Orama.Rendering.Resources.ShaderParameter>
-  nameWithType.vb: IReadOnlyList(Of ShaderParameter)
-  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Orama.Rendering.Resources.ShaderParameter)
-  name.vb: IReadOnlyList(Of ShaderParameter)
+- uid: Orama.Rendering.IShaderDefaultsProvider
+  commentId: T:Orama.Rendering.IShaderDefaultsProvider
+  parent: Orama.Rendering
+  href: Orama.Rendering.IShaderDefaultsProvider.html
+  name: IShaderDefaultsProvider
+  nameWithType: IShaderDefaultsProvider
+  fullName: Orama.Rendering.IShaderDefaultsProvider
+- uid: Orama.Rendering.ShaderDefaultsProvider
+  commentId: T:Orama.Rendering.ShaderDefaultsProvider
+  href: Orama.Rendering.ShaderDefaultsProvider.html
+  name: ShaderDefaultsProvider
+  nameWithType: ShaderDefaultsProvider
+  fullName: Orama.Rendering.ShaderDefaultsProvider
+- uid: Orama.Rendering.Resources.Shader.DefaultsProvider*
+  commentId: Overload:Orama.Rendering.Resources.Shader.DefaultsProvider
+  href: Orama.Rendering.Resources.Shader.html#Orama_Rendering_Resources_Shader_DefaultsProvider
+  name: DefaultsProvider
+  nameWithType: Shader.DefaultsProvider
+  fullName: Orama.Rendering.Resources.Shader.DefaultsProvider
+- uid: Orama.Rendering
+  commentId: N:Orama.Rendering
+  href: Orama.html
+  name: Orama.Rendering
+  nameWithType: Orama.Rendering
+  fullName: Orama.Rendering
   spec.csharp:
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+- uid: Orama.Rendering.Resources.Shader.Resources*
+  commentId: Overload:Orama.Rendering.Resources.Shader.Resources
+  href: Orama.Rendering.Resources.Shader.html#Orama_Rendering_Resources_Shader_Resources
+  name: Resources
+  nameWithType: Shader.Resources
+  fullName: Orama.Rendering.Resources.Shader.Resources
+- uid: System.Collections.Immutable.ImmutableArray{Orama.RHI.Resources.ShaderResource}
+  commentId: T:System.Collections.Immutable.ImmutableArray{Orama.RHI.Resources.ShaderResource}
+  parent: System.Collections.Immutable
+  definition: System.Collections.Immutable.ImmutableArray`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  name: ImmutableArray<ShaderResource>
+  nameWithType: ImmutableArray<ShaderResource>
+  fullName: System.Collections.Immutable.ImmutableArray<Orama.RHI.Resources.ShaderResource>
+  nameWithType.vb: ImmutableArray(Of ShaderResource)
+  fullName.vb: System.Collections.Immutable.ImmutableArray(Of Orama.RHI.Resources.ShaderResource)
+  name.vb: ImmutableArray(Of ShaderResource)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: <
-  - uid: Orama.Rendering.Resources.ShaderParameter
-    name: ShaderParameter
-    href: Orama.Rendering.Resources.ShaderParameter.html
+  - uid: Orama.RHI.Resources.ShaderResource
+    name: ShaderResource
+    href: Orama.RHI.Resources.ShaderResource.html
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: (
   - name: Of
   - name: " "
-  - uid: Orama.Rendering.Resources.ShaderParameter
-    name: ShaderParameter
-    href: Orama.Rendering.Resources.ShaderParameter.html
+  - uid: Orama.RHI.Resources.ShaderResource
+    name: ShaderResource
+    href: Orama.RHI.Resources.ShaderResource.html
   - name: )
-- uid: System.Collections.Generic.IReadOnlyList`1
-  commentId: T:System.Collections.Generic.IReadOnlyList`1
+- uid: System.Collections.Immutable.ImmutableArray`1
+  commentId: T:System.Collections.Immutable.ImmutableArray`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  name: IReadOnlyList<T>
-  nameWithType: IReadOnlyList<T>
-  fullName: System.Collections.Generic.IReadOnlyList<T>
-  nameWithType.vb: IReadOnlyList(Of T)
-  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
-  name.vb: IReadOnlyList(Of T)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  name: ImmutableArray<T>
+  nameWithType: ImmutableArray<T>
+  fullName: System.Collections.Immutable.ImmutableArray<T>
+  nameWithType.vb: ImmutableArray(Of T)
+  fullName.vb: System.Collections.Immutable.ImmutableArray(Of T)
+  name.vb: ImmutableArray(Of T)
   spec.csharp:
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: <
   - name: T
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
   - name: (
   - name: Of
   - name: " "
   - name: T
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
+- uid: System.Collections.Immutable
+  commentId: N:System.Collections.Immutable
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
+  name: System.Collections.Immutable
+  nameWithType: System.Collections.Immutable
+  fullName: System.Collections.Immutable
   spec.csharp:
   - uid: System
     name: System
@@ -583,10 +690,10 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
-  - uid: System.Collections.Generic
-    name: Generic
+  - uid: System.Collections.Immutable
+    name: Immutable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
   spec.vb:
   - uid: System
     name: System
@@ -598,10 +705,49 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
-  - uid: System.Collections.Generic
-    name: Generic
+  - uid: System.Collections.Immutable
+    name: Immutable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
+- uid: Orama.Rendering.Resources.Shader.ResourceGroups*
+  commentId: Overload:Orama.Rendering.Resources.Shader.ResourceGroups
+  href: Orama.Rendering.Resources.Shader.html#Orama_Rendering_Resources_Shader_ResourceGroups
+  name: ResourceGroups
+  nameWithType: Shader.ResourceGroups
+  fullName: Orama.Rendering.Resources.Shader.ResourceGroups
+- uid: System.Collections.Immutable.ImmutableArray{Orama.RHI.Resources.ShaderResourceGroup}
+  commentId: T:System.Collections.Immutable.ImmutableArray{Orama.RHI.Resources.ShaderResourceGroup}
+  parent: System.Collections.Immutable
+  definition: System.Collections.Immutable.ImmutableArray`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  name: ImmutableArray<ShaderResourceGroup>
+  nameWithType: ImmutableArray<ShaderResourceGroup>
+  fullName: System.Collections.Immutable.ImmutableArray<Orama.RHI.Resources.ShaderResourceGroup>
+  nameWithType.vb: ImmutableArray(Of ShaderResourceGroup)
+  fullName.vb: System.Collections.Immutable.ImmutableArray(Of Orama.RHI.Resources.ShaderResourceGroup)
+  name.vb: ImmutableArray(Of ShaderResourceGroup)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: <
+  - uid: Orama.RHI.Resources.ShaderResourceGroup
+    name: ShaderResourceGroup
+    href: Orama.RHI.Resources.ShaderResourceGroup.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableArray`1
+    name: ImmutableArray
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablearray-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Orama.RHI.Resources.ShaderResourceGroup
+    name: ShaderResourceGroup
+    href: Orama.RHI.Resources.ShaderResourceGroup.html
+  - name: )
 - uid: Orama.Rendering.Resources.Shader
   commentId: T:Orama.Rendering.Resources.Shader
   parent: Orama.Rendering.Resources

@@ -6,13 +6,13 @@ items:
   parent: Orama.Rendering
   children:
   - Orama.Rendering.Renderer.Backend
+  - Orama.Rendering.Renderer.Device
   - Orama.Rendering.Renderer.Dispose
-  - Orama.Rendering.Renderer.Initialize(Silk.NET.Windowing.IWindow,System.Nullable{Orama.Rendering.RendererBackend},Orama.Rendering.RendererOptions)
+  - Orama.Rendering.Renderer.Initialize(Silk.NET.Windowing.IWindow,System.Nullable{Orama.RHI.RendererBackend},Orama.Rendering.RendererOptions)
   - Orama.Rendering.Renderer.Options
   - Orama.Rendering.Renderer.Present
-  - Orama.Rendering.Renderer.Resize(System.Int32,System.Int32)
-  - Orama.Rendering.Renderer.SubmitCommandBuffer(Orama.Rendering.Device.CommandBuffer)
-  - Orama.Rendering.Renderer.Veldrid
+  - Orama.Rendering.Renderer.Resize(System.UInt32,System.UInt32)
+  - Orama.Rendering.Renderer.SubmitCommandBuffer(Orama.RHI.ICommandBuffer)
   langs:
   - csharp
   - vb
@@ -23,11 +23,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Renderer
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
-    startLine: 15
+    startLine: 11
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -58,11 +58,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Options
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
-    startLine: 18
+    startLine: 14
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -89,11 +89,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Backend
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
-    startLine: 21
+    startLine: 17
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -103,59 +103,59 @@ items:
     content: public static RendererBackend Backend { get; }
     parameters: []
     return:
-      type: Orama.Rendering.RendererBackend
+      type: Orama.RHI.RendererBackend
     content.vb: Public Shared Property Backend As RendererBackend
   overload: Orama.Rendering.Renderer.Backend*
-- uid: Orama.Rendering.Renderer.Veldrid
-  commentId: P:Orama.Rendering.Renderer.Veldrid
-  id: Veldrid
+- uid: Orama.Rendering.Renderer.Device
+  commentId: P:Orama.Rendering.Renderer.Device
+  id: Device
   parent: Orama.Rendering.Renderer
   langs:
   - csharp
   - vb
-  name: Veldrid
-  nameWithType: Renderer.Veldrid
-  fullName: Orama.Rendering.Renderer.Veldrid
+  name: Device
+  nameWithType: Renderer.Device
+  fullName: Orama.Rendering.Renderer.Device
   type: Property
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
-    id: Veldrid
+    id: Device
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
-    startLine: 24
+    startLine: 20
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
-  summary: The lower-level <xref href="Orama.Rendering.Veldrid.VeldridDevice" data-throw-if-not-resolved="false"></xref>.
+  summary: The lower-level <xref href="Orama.RHI.IGraphicsDevice" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
-    content: public static VeldridDevice Veldrid { get; }
+    content: public static IGraphicsDevice Device { get; }
     parameters: []
     return:
-      type: Orama.Rendering.Veldrid.VeldridDevice
-    content.vb: Public Shared Property Veldrid As VeldridDevice
-  overload: Orama.Rendering.Renderer.Veldrid*
-- uid: Orama.Rendering.Renderer.Initialize(Silk.NET.Windowing.IWindow,System.Nullable{Orama.Rendering.RendererBackend},Orama.Rendering.RendererOptions)
-  commentId: M:Orama.Rendering.Renderer.Initialize(Silk.NET.Windowing.IWindow,System.Nullable{Orama.Rendering.RendererBackend},Orama.Rendering.RendererOptions)
-  id: Initialize(Silk.NET.Windowing.IWindow,System.Nullable{Orama.Rendering.RendererBackend},Orama.Rendering.RendererOptions)
+      type: Orama.RHI.IGraphicsDevice
+    content.vb: Public Shared Property Device As IGraphicsDevice
+  overload: Orama.Rendering.Renderer.Device*
+- uid: Orama.Rendering.Renderer.Initialize(Silk.NET.Windowing.IWindow,System.Nullable{Orama.RHI.RendererBackend},Orama.Rendering.RendererOptions)
+  commentId: M:Orama.Rendering.Renderer.Initialize(Silk.NET.Windowing.IWindow,System.Nullable{Orama.RHI.RendererBackend},Orama.Rendering.RendererOptions)
+  id: Initialize(Silk.NET.Windowing.IWindow,System.Nullable{Orama.RHI.RendererBackend},Orama.Rendering.RendererOptions)
   parent: Orama.Rendering.Renderer
   langs:
   - csharp
   - vb
   name: Initialize(IWindow, RendererBackend?, RendererOptions)
   nameWithType: Renderer.Initialize(IWindow, RendererBackend?, RendererOptions)
-  fullName: Orama.Rendering.Renderer.Initialize(Silk.NET.Windowing.IWindow, Orama.Rendering.RendererBackend?, Orama.Rendering.RendererOptions)
+  fullName: Orama.Rendering.Renderer.Initialize(Silk.NET.Windowing.IWindow, Orama.RHI.RendererBackend?, Orama.Rendering.RendererOptions)
   type: Method
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
-    startLine: 29
+    startLine: 25
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -168,7 +168,7 @@ items:
       type: Silk.NET.Windowing.IWindow
       description: The window to initialize the backend for.
     - id: backend
-      type: System.Nullable{Orama.Rendering.RendererBackend}
+      type: System.Nullable{Orama.RHI.RendererBackend}
       description: The backend to initialize.
     - id: options
       type: Orama.Rendering.RendererOptions
@@ -188,11 +188,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Present
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
-    startLine: 52
+    startLine: 45
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -202,73 +202,73 @@ items:
     content: public static void Present()
     content.vb: Public Shared Sub Present()
   overload: Orama.Rendering.Renderer.Present*
-- uid: Orama.Rendering.Renderer.SubmitCommandBuffer(Orama.Rendering.Device.CommandBuffer)
-  commentId: M:Orama.Rendering.Renderer.SubmitCommandBuffer(Orama.Rendering.Device.CommandBuffer)
-  id: SubmitCommandBuffer(Orama.Rendering.Device.CommandBuffer)
+- uid: Orama.Rendering.Renderer.SubmitCommandBuffer(Orama.RHI.ICommandBuffer)
+  commentId: M:Orama.Rendering.Renderer.SubmitCommandBuffer(Orama.RHI.ICommandBuffer)
+  id: SubmitCommandBuffer(Orama.RHI.ICommandBuffer)
   parent: Orama.Rendering.Renderer
   langs:
   - csharp
   - vb
-  name: SubmitCommandBuffer(CommandBuffer)
-  nameWithType: Renderer.SubmitCommandBuffer(CommandBuffer)
-  fullName: Orama.Rendering.Renderer.SubmitCommandBuffer(Orama.Rendering.Device.CommandBuffer)
+  name: SubmitCommandBuffer(ICommandBuffer)
+  nameWithType: Renderer.SubmitCommandBuffer(ICommandBuffer)
+  fullName: Orama.Rendering.Renderer.SubmitCommandBuffer(Orama.RHI.ICommandBuffer)
   type: Method
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: SubmitCommandBuffer
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
-    startLine: 61
+    startLine: 54
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
-  summary: Submits the given <xref href="Orama.Rendering.Device.CommandBuffer" data-throw-if-not-resolved="false"></xref> to be ran.
+  summary: Submits the given CommandBuffer to be ran.
   example: []
   syntax:
-    content: public static void SubmitCommandBuffer(CommandBuffer commandBuffer)
+    content: public static void SubmitCommandBuffer(ICommandBuffer commandBuffer)
     parameters:
     - id: commandBuffer
-      type: Orama.Rendering.Device.CommandBuffer
-    content.vb: Public Shared Sub SubmitCommandBuffer(commandBuffer As CommandBuffer)
+      type: Orama.RHI.ICommandBuffer
+    content.vb: Public Shared Sub SubmitCommandBuffer(commandBuffer As ICommandBuffer)
   overload: Orama.Rendering.Renderer.SubmitCommandBuffer*
-- uid: Orama.Rendering.Renderer.Resize(System.Int32,System.Int32)
-  commentId: M:Orama.Rendering.Renderer.Resize(System.Int32,System.Int32)
-  id: Resize(System.Int32,System.Int32)
+- uid: Orama.Rendering.Renderer.Resize(System.UInt32,System.UInt32)
+  commentId: M:Orama.Rendering.Renderer.Resize(System.UInt32,System.UInt32)
+  id: Resize(System.UInt32,System.UInt32)
   parent: Orama.Rendering.Renderer
   langs:
   - csharp
   - vb
-  name: Resize(int, int)
-  nameWithType: Renderer.Resize(int, int)
-  fullName: Orama.Rendering.Renderer.Resize(int, int)
+  name: Resize(uint, uint)
+  nameWithType: Renderer.Resize(uint, uint)
+  fullName: Orama.Rendering.Renderer.Resize(uint, uint)
   type: Method
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Resize
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
-    startLine: 64
+    startLine: 57
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
   summary: Resizes the renderer.
   example: []
   syntax:
-    content: public static void Resize(int width, int height)
+    content: public static void Resize(uint width, uint height)
     parameters:
     - id: width
-      type: System.Int32
+      type: System.UInt32
     - id: height
-      type: System.Int32
-    content.vb: Public Shared Sub Resize(width As Integer, height As Integer)
+      type: System.UInt32
+    content.vb: Public Shared Sub Resize(width As UInteger, height As UInteger)
   overload: Orama.Rendering.Renderer.Resize*
-  nameWithType.vb: Renderer.Resize(Integer, Integer)
-  fullName.vb: Orama.Rendering.Renderer.Resize(Integer, Integer)
-  name.vb: Resize(Integer, Integer)
+  nameWithType.vb: Renderer.Resize(UInteger, UInteger)
+  fullName.vb: Orama.Rendering.Renderer.Resize(UInteger, UInteger)
+  name.vb: Resize(UInteger, UInteger)
 - uid: Orama.Rendering.Renderer.Dispose
   commentId: M:Orama.Rendering.Renderer.Dispose
   id: Dispose
@@ -283,11 +283,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
-    startLine: 67
+    startLine: 60
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -576,59 +576,51 @@ references:
   name: Backend
   nameWithType: Renderer.Backend
   fullName: Orama.Rendering.Renderer.Backend
-- uid: Orama.Rendering.RendererBackend
-  commentId: T:Orama.Rendering.RendererBackend
-  parent: Orama.Rendering
-  href: Orama.Rendering.RendererBackend.html
+- uid: Orama.RHI.RendererBackend
+  commentId: T:Orama.RHI.RendererBackend
+  parent: Orama.RHI
+  href: Orama.RHI.RendererBackend.html
   name: RendererBackend
   nameWithType: RendererBackend
-  fullName: Orama.Rendering.RendererBackend
-- uid: Orama.Rendering.Veldrid.VeldridDevice
-  commentId: T:Orama.Rendering.Veldrid.VeldridDevice
-  parent: Orama.Rendering.Veldrid
-  href: Orama.Rendering.Veldrid.VeldridDevice.html
-  name: VeldridDevice
-  nameWithType: VeldridDevice
-  fullName: Orama.Rendering.Veldrid.VeldridDevice
-- uid: Orama.Rendering.Renderer.Veldrid*
-  commentId: Overload:Orama.Rendering.Renderer.Veldrid
-  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_Veldrid
-  name: Veldrid
-  nameWithType: Renderer.Veldrid
-  fullName: Orama.Rendering.Renderer.Veldrid
-- uid: Orama.Rendering.Veldrid
-  commentId: N:Orama.Rendering.Veldrid
+  fullName: Orama.RHI.RendererBackend
+- uid: Orama.RHI
+  commentId: N:Orama.RHI
   href: Orama.html
-  name: Orama.Rendering.Veldrid
-  nameWithType: Orama.Rendering.Veldrid
-  fullName: Orama.Rendering.Veldrid
+  name: Orama.RHI
+  nameWithType: Orama.RHI
+  fullName: Orama.RHI
   spec.csharp:
   - uid: Orama
     name: Orama
     href: Orama.html
   - name: .
-  - uid: Orama.Rendering
-    name: Rendering
-    href: Orama.Rendering.html
-  - name: .
-  - uid: Orama.Rendering.Veldrid
-    name: Veldrid
-    href: Orama.Rendering.Veldrid.html
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
   spec.vb:
   - uid: Orama
     name: Orama
     href: Orama.html
   - name: .
-  - uid: Orama.Rendering
-    name: Rendering
-    href: Orama.Rendering.html
-  - name: .
-  - uid: Orama.Rendering.Veldrid
-    name: Veldrid
-    href: Orama.Rendering.Veldrid.html
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+- uid: Orama.RHI.IGraphicsDevice
+  commentId: T:Orama.RHI.IGraphicsDevice
+  parent: Orama.RHI
+  href: Orama.RHI.IGraphicsDevice.html
+  name: IGraphicsDevice
+  nameWithType: IGraphicsDevice
+  fullName: Orama.RHI.IGraphicsDevice
+- uid: Orama.Rendering.Renderer.Device*
+  commentId: Overload:Orama.Rendering.Renderer.Device
+  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_Device
+  name: Device
+  nameWithType: Renderer.Device
+  fullName: Orama.Rendering.Renderer.Device
 - uid: Orama.Rendering.Renderer.Initialize*
   commentId: Overload:Orama.Rendering.Renderer.Initialize
-  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_Initialize_Silk_NET_Windowing_IWindow_System_Nullable_Orama_Rendering_RendererBackend__Orama_Rendering_RendererOptions_
+  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_Initialize_Silk_NET_Windowing_IWindow_System_Nullable_Orama_RHI_RendererBackend__Orama_Rendering_RendererOptions_
   name: Initialize
   nameWithType: Renderer.Initialize
   fullName: Orama.Rendering.Renderer.Initialize
@@ -639,23 +631,23 @@ references:
   name: IWindow
   nameWithType: IWindow
   fullName: Silk.NET.Windowing.IWindow
-- uid: System.Nullable{Orama.Rendering.RendererBackend}
-  commentId: T:System.Nullable{Orama.Rendering.RendererBackend}
+- uid: System.Nullable{Orama.RHI.RendererBackend}
+  commentId: T:System.Nullable{Orama.RHI.RendererBackend}
   parent: System
   definition: System.Nullable`1
-  href: Orama.Rendering.RendererBackend.html
+  href: Orama.RHI.RendererBackend.html
   name: RendererBackend?
   nameWithType: RendererBackend?
-  fullName: Orama.Rendering.RendererBackend?
+  fullName: Orama.RHI.RendererBackend?
   spec.csharp:
-  - uid: Orama.Rendering.RendererBackend
+  - uid: Orama.RHI.RendererBackend
     name: RendererBackend
-    href: Orama.Rendering.RendererBackend.html
+    href: Orama.RHI.RendererBackend.html
   - name: '?'
   spec.vb:
-  - uid: Orama.Rendering.RendererBackend
+  - uid: Orama.RHI.RendererBackend
     name: RendererBackend
-    href: Orama.Rendering.RendererBackend.html
+    href: Orama.RHI.RendererBackend.html
   - name: '?'
 - uid: Silk.NET.Windowing
   commentId: N:Silk.NET.Windowing
@@ -721,66 +713,36 @@ references:
   name: Present
   nameWithType: Renderer.Present
   fullName: Orama.Rendering.Renderer.Present
-- uid: Orama.Rendering.Device.CommandBuffer
-  commentId: T:Orama.Rendering.Device.CommandBuffer
-  parent: Orama.Rendering.Device
-  href: Orama.Rendering.Device.CommandBuffer.html
-  name: CommandBuffer
-  nameWithType: CommandBuffer
-  fullName: Orama.Rendering.Device.CommandBuffer
 - uid: Orama.Rendering.Renderer.SubmitCommandBuffer*
   commentId: Overload:Orama.Rendering.Renderer.SubmitCommandBuffer
-  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_SubmitCommandBuffer_Orama_Rendering_Device_CommandBuffer_
+  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_SubmitCommandBuffer_Orama_RHI_ICommandBuffer_
   name: SubmitCommandBuffer
   nameWithType: Renderer.SubmitCommandBuffer
   fullName: Orama.Rendering.Renderer.SubmitCommandBuffer
-- uid: Orama.Rendering.Device
-  commentId: N:Orama.Rendering.Device
-  href: Orama.html
-  name: Orama.Rendering.Device
-  nameWithType: Orama.Rendering.Device
-  fullName: Orama.Rendering.Device
-  spec.csharp:
-  - uid: Orama
-    name: Orama
-    href: Orama.html
-  - name: .
-  - uid: Orama.Rendering
-    name: Rendering
-    href: Orama.Rendering.html
-  - name: .
-  - uid: Orama.Rendering.Device
-    name: Device
-    href: Orama.Rendering.Device.html
-  spec.vb:
-  - uid: Orama
-    name: Orama
-    href: Orama.html
-  - name: .
-  - uid: Orama.Rendering
-    name: Rendering
-    href: Orama.Rendering.html
-  - name: .
-  - uid: Orama.Rendering.Device
-    name: Device
-    href: Orama.Rendering.Device.html
+- uid: Orama.RHI.ICommandBuffer
+  commentId: T:Orama.RHI.ICommandBuffer
+  parent: Orama.RHI
+  href: Orama.RHI.ICommandBuffer.html
+  name: ICommandBuffer
+  nameWithType: ICommandBuffer
+  fullName: Orama.RHI.ICommandBuffer
 - uid: Orama.Rendering.Renderer.Resize*
   commentId: Overload:Orama.Rendering.Renderer.Resize
-  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_Resize_System_Int32_System_Int32_
+  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_Resize_System_UInt32_System_UInt32_
   name: Resize
   nameWithType: Renderer.Resize
   fullName: Orama.Rendering.Renderer.Resize
-- uid: System.Int32
-  commentId: T:System.Int32
+- uid: System.UInt32
+  commentId: T:System.UInt32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
 - uid: Orama.Rendering.Renderer.Dispose*
   commentId: Overload:Orama.Rendering.Renderer.Dispose
   href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_Dispose

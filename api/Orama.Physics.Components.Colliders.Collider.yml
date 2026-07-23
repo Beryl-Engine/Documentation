@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/Collider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Collider
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/Collider.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components.Colliders
@@ -60,11 +60,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/Collider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: shapeId
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/Collider.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components.Colliders
@@ -87,11 +87,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/Collider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/Collider.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components.Colliders

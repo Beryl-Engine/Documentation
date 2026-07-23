@@ -15,11 +15,11 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/InputModuleExtensions.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: InputModuleExtensions
     path: ../Orama/Modules/Orama.VirtualReality/InputModuleExtensions.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality

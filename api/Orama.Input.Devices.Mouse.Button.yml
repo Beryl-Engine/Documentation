@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Mouse.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Button
     path: ../Orama/Modules/Orama.Input/Devices/Mouse.cs
-    startLine: 10
+    startLine: 14
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -45,11 +45,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Mouse.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Left
     path: ../Orama/Modules/Orama.Input/Devices/Mouse.cs
-    startLine: 12
+    startLine: 16
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -71,11 +71,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Mouse.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Right
     path: ../Orama/Modules/Orama.Input/Devices/Mouse.cs
-    startLine: 13
+    startLine: 17
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices
@@ -97,11 +97,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Mouse.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Middle
     path: ../Orama/Modules/Orama.Input/Devices/Mouse.cs
-    startLine: 14
+    startLine: 18
   assemblies:
   - Orama.Input
   namespace: Orama.Input.Devices

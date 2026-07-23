@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Scenes.Resources
   commentId: N:Orama.Scenes.Resources
-  id: Orama.Scenes.Resources
+  id: Resources
+  parent: Orama.Scenes
   children:
   - Orama.Scenes.Resources.Scene
   langs:

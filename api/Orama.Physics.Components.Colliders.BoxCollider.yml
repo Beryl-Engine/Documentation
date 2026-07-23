@@ -21,11 +21,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: BoxCollider
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components.Colliders
@@ -63,11 +63,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Width
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components.Colliders
@@ -92,11 +92,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Height
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components.Colliders
@@ -121,11 +121,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Depth
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components.Colliders
@@ -150,11 +150,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components.Colliders
@@ -186,11 +186,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components.Colliders
@@ -218,11 +218,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: slang-port
+      branch: main
       repo: https://github.com/Orama-Engine/Orama.git
     id: Start
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - Orama.Physics
   namespace: Orama.Physics.Components.Colliders

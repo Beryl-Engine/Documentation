@@ -2,7 +2,8 @@
 items:
 - uid: Orama.GUI.Widgets
   commentId: N:Orama.GUI.Widgets
-  id: Orama.GUI.Widgets
+  id: Widgets
+  parent: Orama.GUI
   children:
   - Orama.GUI.Widgets.Widget
   langs:

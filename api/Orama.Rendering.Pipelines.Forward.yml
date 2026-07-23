@@ -2,7 +2,8 @@
 items:
 - uid: Orama.Rendering.Pipelines.Forward
   commentId: N:Orama.Rendering.Pipelines.Forward
-  id: Orama.Rendering.Pipelines.Forward
+  id: Forward
+  parent: Orama.Rendering.Pipelines
   children:
   - Orama.Rendering.Pipelines.Forward.ForwardRenderPipeline
   - Orama.Rendering.Pipelines.Forward.OpaquePass

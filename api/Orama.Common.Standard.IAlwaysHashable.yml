@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.Common.Standard.IAlwaysHashable
+  commentId: T:Orama.Common.Standard.IAlwaysHashable
+  id: IAlwaysHashable
+  parent: Orama.Common.Standard
+  children:
+  - Orama.Common.Standard.IAlwaysHashable.GetHashCode
+  langs:
+  - csharp
+  - vb
+  name: IAlwaysHashable
+  nameWithType: IAlwaysHashable
+  fullName: Orama.Common.Standard.IAlwaysHashable
+  type: Interface
+  source:
+    remote:
+      path: Orama.Common/Standard/IAlwaysHashable.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: IAlwaysHashable
+    path: ../Orama/Orama.Common/Standard/IAlwaysHashable.cs
+    startLine: 11
+  assemblies:
+  - Orama.Common
+  namespace: Orama.Common.Standard
+  summary: Defines a type that always has an implementation of <xref href="Orama.Common.Standard.IAlwaysHashable.GetHashCode" data-throw-if-not-resolved="false"></xref> or <xref href="System.Object.GetHashCode" data-throw-if-not-resolved="false"></xref>.
+  remarks: This interface is useful for implementing non-boxing hash functions. For instance, it is the only type constraint that can be used to get the hash code of a <code>ref struct</code> without throwing <xref href="System.Object" data-throw-if-not-resolved="false"></xref> boxing errors.
+  example: []
+  syntax:
+    content: public interface IAlwaysHashable
+    content.vb: Public Interface IAlwaysHashable
+  derivedClasses:
+  - Orama.RHI.Resources.BufferDescriptor
+  - Orama.RHI.Resources.ConstantBufferDescriptor
+  - Orama.RHI.Resources.PipelineDescriptor
+  - Orama.RHI.Resources.ResourceDescriptor
+  - Orama.RHI.Resources.ResourceLayoutDescriptor
+  - Orama.RHI.Resources.SamplerDescriptor
+  - Orama.RHI.Resources.ShaderDescriptor
+  - Orama.RHI.Resources.TextureDescriptor
+  - Orama.RHI.Resources.TextureViewDescriptor
+  - Orama.Rendering.Resources.Caches.RenderItemKey
+- uid: Orama.Common.Standard.IAlwaysHashable.GetHashCode
+  commentId: M:Orama.Common.Standard.IAlwaysHashable.GetHashCode
+  id: GetHashCode
+  parent: Orama.Common.Standard.IAlwaysHashable
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: IAlwaysHashable.GetHashCode()
+  fullName: Orama.Common.Standard.IAlwaysHashable.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Orama.Common/Standard/IAlwaysHashable.cs
+      branch: main
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: GetHashCode
+    path: ../Orama/Orama.Common/Standard/IAlwaysHashable.cs
+    startLine: 13
+  assemblies:
+  - Orama.Common
+  namespace: Orama.Common.Standard
+  syntax:
+    content: int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Function GetHashCode() As Integer
+  overload: Orama.Common.Standard.IAlwaysHashable.GetHashCode*
+references:
+- uid: Orama.Common.Standard.IAlwaysHashable.GetHashCode
+  commentId: M:Orama.Common.Standard.IAlwaysHashable.GetHashCode
+  parent: Orama.Common.Standard.IAlwaysHashable
+  href: Orama.Common.Standard.IAlwaysHashable.html#Orama_Common_Standard_IAlwaysHashable_GetHashCode
+  name: GetHashCode()
+  nameWithType: IAlwaysHashable.GetHashCode()
+  fullName: Orama.Common.Standard.IAlwaysHashable.GetHashCode()
+  spec.csharp:
+  - uid: Orama.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Orama.Common.Standard.IAlwaysHashable.html#Orama_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Orama.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Orama.Common.Standard.IAlwaysHashable.html#Orama_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Orama.Common.Standard
+  commentId: N:Orama.Common.Standard
+  href: Orama.html
+  name: Orama.Common.Standard
+  nameWithType: Orama.Common.Standard
+  fullName: Orama.Common.Standard
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Standard
+    name: Standard
+    href: Orama.Common.Standard.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Common
+    name: Common
+    href: Orama.Common.html
+  - name: .
+  - uid: Orama.Common.Standard
+    name: Standard
+    href: Orama.Common.Standard.html
+- uid: Orama.Common.Standard.IAlwaysHashable
+  commentId: T:Orama.Common.Standard.IAlwaysHashable
+  parent: Orama.Common.Standard
+  href: Orama.Common.Standard.IAlwaysHashable.html
+  name: IAlwaysHashable
+  nameWithType: IAlwaysHashable
+  fullName: Orama.Common.Standard.IAlwaysHashable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Orama.Common.Standard.IAlwaysHashable.GetHashCode*
+  commentId: Overload:Orama.Common.Standard.IAlwaysHashable.GetHashCode
+  href: Orama.Common.Standard.IAlwaysHashable.html#Orama_Common_Standard_IAlwaysHashable_GetHashCode
+  name: GetHashCode
+  nameWithType: IAlwaysHashable.GetHashCode
+  fullName: Orama.Common.Standard.IAlwaysHashable.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
