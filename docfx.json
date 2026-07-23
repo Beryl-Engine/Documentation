@@ -43,6 +43,11 @@
       "_appTitle": "Orama Documentation",
       "_enableSearch": true,
       "pdf": false
+    },
+    "markdownEngineProperties": {
+      "alerts": {
+        "WIP": "alert alert-wip"
+      }
     }
   }
 }

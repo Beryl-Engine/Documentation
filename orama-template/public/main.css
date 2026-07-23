@@ -14,3 +14,18 @@ article a.xref::after, .content a.xref::after {
     display: inline-block;
     text-decoration: none !important;
 }
+
+/* WIP Alert */
+.alert-wip {
+    --bs-alert-color: var(--bs-info-text-emphasis);
+    --bs-alert-bg: var(--bs-info-bg-subtle);
+    --bs-alert-border-color: var(--bs-info-border-subtle);
+    --bs-alert-link-color: var(--bs-info-text-emphasis);
+}
+
+.alert-wip h5::before {
+    font-family: "bootstrap-icons";
+    content: "\F2D2";
+    margin-right: 0.5rem;
+    display: inline-block;
+}
