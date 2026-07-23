@@ -224,7 +224,7 @@ items:
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
-  summary: Submits the given CommandBuffer to be ran.
+  summary: Submits the given <xref href="Orama.RHI.ICommandBuffer" data-throw-if-not-resolved="false"></xref> to be ran.
   example: []
   syntax:
     content: public static void SubmitCommandBuffer(ICommandBuffer commandBuffer)
@@ -713,12 +713,6 @@ references:
   name: Present
   nameWithType: Renderer.Present
   fullName: Orama.Rendering.Renderer.Present
-- uid: Orama.Rendering.Renderer.SubmitCommandBuffer*
-  commentId: Overload:Orama.Rendering.Renderer.SubmitCommandBuffer
-  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_SubmitCommandBuffer_Orama_RHI_ICommandBuffer_
-  name: SubmitCommandBuffer
-  nameWithType: Renderer.SubmitCommandBuffer
-  fullName: Orama.Rendering.Renderer.SubmitCommandBuffer
 - uid: Orama.RHI.ICommandBuffer
   commentId: T:Orama.RHI.ICommandBuffer
   parent: Orama.RHI
@@ -726,6 +720,12 @@ references:
   name: ICommandBuffer
   nameWithType: ICommandBuffer
   fullName: Orama.RHI.ICommandBuffer
+- uid: Orama.Rendering.Renderer.SubmitCommandBuffer*
+  commentId: Overload:Orama.Rendering.Renderer.SubmitCommandBuffer
+  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_SubmitCommandBuffer_Orama_RHI_ICommandBuffer_
+  name: SubmitCommandBuffer
+  nameWithType: Renderer.SubmitCommandBuffer
+  fullName: Orama.Rendering.Renderer.SubmitCommandBuffer
 - uid: Orama.Rendering.Renderer.Resize*
   commentId: Overload:Orama.Rendering.Renderer.Resize
   href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_Resize_System_UInt32_System_UInt32_
