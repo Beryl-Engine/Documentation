@@ -3,7 +3,7 @@
 `git clone --recurse-submodules https://github.com/Orama-Engine/Documentation.git`
 
 ## Update submodules to latest commit
-`git submodule update --init --recursive`
+`git submodule update --remote --merge`
 
 ## Preview DocFX
 `docfx docfx.json --serve`
