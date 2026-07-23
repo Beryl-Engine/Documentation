@@ -2,3 +2,15 @@
 {
     font-weight: bold !important;
 }
+
+/* Following a C# API reference, add a little icon to show it leads to api reference */
+article a.xref::after, .content a.xref::after {
+    font-family: "bootstrap-icons";
+    content: "\F741"; 
+    
+    font-size: 0.6em;
+    margin-left: 0.2em;
+    
+    display: inline-block;
+    text-decoration: none !important;
+}
