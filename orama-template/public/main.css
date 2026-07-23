@@ -4,7 +4,7 @@
 }
 
 /* Following a C# API reference, add a little icon to show it leads to api reference */
-article a.xref::after, .content a.xref::after {
+article a.xref:not(.external)::after, .content a.xref:not(.external)::after {
     font-family: "bootstrap-icons";
     content: "\F741"; 
     
