@@ -2,6 +2,10 @@
   href: introduction.md
 - name: FAQ
   href: faq.md
+- name: Entity System
+  items:
+    - name: Entities & Components
+      href: entity-system/entities-and-components.md
 - name: Shaders
   items:
     - name: Intro to Shaders
