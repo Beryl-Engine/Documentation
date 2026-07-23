@@ -15,6 +15,6 @@ Orama was made to fill a specific niche that existing engines could only partial
 
 - **WYSIWYG Asset Pipeline.** In many engines, there's a project build step that turns raw assets like `.png` and `.obj` into unreadable, hard to parse, hard to create, binary equivalents. Orama drops this in favour for a KISS approach of simply storing raw assets in the game files and using <xref:Orama.Common.Resources.DefaultProvider.ResourceLoader%601> classes to define how to load them into memory. This allows for advanced asset use-cases, such as <xref:Orama.Common.Resources.DefaultProvider.ResourceLoader%601> implementations that load assets from a third-party game. *Don't like that approach? You can easily write your own asset pipeline by inheriting from <xref:Orama.Common.Resources.IResourceProvider>.*
 
-- **Moddable By Nature.** Features like the asset pipeline and C# scripting allows Orama projects to have extremely moddable assets and code.
+- **Code Only.** Whilst the Orama editor is actively being worked on, Orama aims to keep any future engine-editor divide clear so you never have to depend on an editor to make full games. The editor will be a tool, not a necessity.
 
 - **First-Class Virtual Reality Support.** One of the perks of being a modern engine is having the ability to integrate support for new technologies from the start, Orama took advantage of this with Virtual Reality support. VR has been made to feel like a core part of the engine rather than a hacked-together plugin.
