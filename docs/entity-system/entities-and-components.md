@@ -48,3 +48,5 @@ public class Box : Entity
 	}
 }
 ```
+> [!TIP]
+> Mark properties or fields with `[ImplicitComponent]` to automatically attach and instantiate components on the `Entity` when it's created, eliminating the need to manually add necessary components.
