@@ -1,5 +1,7 @@
 - name: Introduction
   href: introduction.md
+- name: Key Concepts
+  href: key-concepts.md
 - name: FAQ
   href: faq.md
 - name: Entity System
