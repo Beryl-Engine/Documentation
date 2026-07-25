@@ -21,6 +21,12 @@ article h2, article h3, article h4, article h5, article h6 {
     font-weight: 600 !important;
 }
 
+/* Header link icon */
+.anchorjs-link::after {
+    font-family: 'bootstrap-icons' !important;
+    content: "\F470" !important;
+}
+
 /* Following a C# API reference, add a little icon to show it leads to api reference */
 article a.xref:not(.external)::after, .content a.xref:not(.external)::after {
     font-family: "bootstrap-icons";
