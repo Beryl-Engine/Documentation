@@ -16,7 +16,7 @@ article h2, article h3, article h4, article h5, article h6 {
 }
 
 p code {
-    padding: 2px 6px;
+    padding: 1px 6px;
     border: 1px solid var(--bs-border-color);
     white-space: nowrap;
 }
