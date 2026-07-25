@@ -16,7 +16,7 @@ Orama was made to fill a specific niche that existing engines could only partial
 
 - **Plug and Play Modules.** Orama builds its subsystems around **Modules**, isolated systems like `Orama.Physics` or `Orama.Rendering` that hook into the engine's lifecycle. Modules are entirely optional and can be arbitrarily turned on or off. Does your project not need physics? Disable the `Orama.Physics` module to avoid 100% of any unnecessary overhead.
 
-- **Code Only.** Whilst the Orama editor is actively being worked on, Orama aims to keep any future engine-editor divide clear so you never have to depend on an editor to make full games. The editor will be a tool, not a necessity.
+- **Code Only.** Whilst the Orama editor is actively being worked on, Orama aims to keep any future engine-editor divide clear so you never have to depend on an editor to make full games. The editor will remain a tool instead of a requirement.
 
 ## Why not C++?
 C++ has been the dominant language in engine creation for decades, so why is Orama using C#? This is a complicated topic as there's many factors that influenced Orama to go with C# but it can generally be summed up into 4 main points.

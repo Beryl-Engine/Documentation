@@ -15,7 +15,7 @@ A Free & Open Source Game Engine built for lovers of modern C#.
     GitHub
   </a>
 
-  <a class="btn btn-secondary" href="~/docs/introduction.md" role="button">
+  <a class="btn btn-secondary" href="~/docs/introduction/introduction.md" role="button">
     <i class="bi bi-book-fill"></i>
     Docs
   </a>

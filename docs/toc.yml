@@ -1,19 +1,23 @@
 - name: Introduction
-  href: introduction.md
-- name: Key Concepts
-  href: key-concepts.md
-- name: FAQ
-  href: faq.md
-- name: Entity System
   items:
-    - name: Entities & Components
-      href: entity-system/entities-and-components.md
-- name: Shaders
+    - name: Introduction
+      href: introduction/introduction.md
+    - name: Key Concepts
+      href: introduction/key-concepts.md
+    - name: FAQ
+      href: introduction/faq.md
+- name: Manual
   items:
-    - name: Intro to Shaders
-      href: shaders/intro.md
-    - name: Shader Authoring
-      href: shaders/authoring.md
+    - name: Entity System
+      items:
+      - name: Entities & Components
+        href: manual/entity-system/entities-and-components.md
+    - name: Shaders
+      items:
+        - name: Intro to Shaders
+          href: manual/shaders/intro.md
+        - name: Shader Authoring
+          href: manual/shaders/authoring.md
 - name: Contributing
   items:
     - name: Getting Involved
