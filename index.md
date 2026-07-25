@@ -6,7 +6,7 @@ _layout: landing
 
 <h1><b>Orama Engine</b></h1>
 <p class="hero-subtitle">
-A Free & Open Source game engine built for lovers of modern C#.
+A Free & Open Source Game Engine built for lovers of modern C#.
 </p>
 
 <div class="hero-actions">
