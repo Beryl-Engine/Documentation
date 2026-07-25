@@ -6,6 +6,10 @@
       href: introduction/key-concepts.md
     - name: FAQ
       href: introduction/faq.md
+- name: Getting Started
+  items:
+    - name: For Unity Developers
+      href: getting-started/for-unity-devs.md
 - name: Manual
   items:
     - name: Entity System
