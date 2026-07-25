@@ -49,7 +49,7 @@ article a.xref:not(.external)::after, .content a.xref:not(.external)::after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: none;
 
     text-align: center;
     min-height: 80vh;

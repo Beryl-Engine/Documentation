@@ -14,11 +14,9 @@ Orama was made to fill a specific niche that existing engines could only partial
 
 - **Free and Open-Source Forever.** Users own everything they create with absolutely no cost. Plus, you can look through Orama's source code, report bugs, suggest features, or submit changes through the engine's [GitHub](https://github.com/Orama-Engine/Orama).
 
-- **Plug and Play Modules.** Orama builds its subsystems around **Modules**, isolated systems like `Orama.Physics` or `Orama.Rendering` that hook into the engine's lifecycle. Modules are entirely optional and can be arbitrarily turned on or off. Does your project not need physics? Disable the `Orama.Physics` module to avoid any unnecessary overhead.
+- **Plug and Play Modules.** Orama builds its subsystems around **Modules**, isolated systems like `Orama.Physics` or `Orama.Rendering` that hook into the engine's lifecycle. Modules are entirely optional and can be arbitrarily turned on or off. Does your project not need physics? Disable the `Orama.Physics` module to avoid 100% of any unnecessary overhead.
 
 - **Code Only.** Whilst the Orama editor is actively being worked on, Orama aims to keep any future engine-editor divide clear so you never have to depend on an editor to make full games. The editor will be a tool, not a necessity.
-
-- **First-Class Virtual Reality Support.** One of the perks of being a modern engine is having the ability to integrate support for new technologies from the start, Orama took advantage of this with Virtual Reality support. VR has been made to feel like a core part of the engine rather than a hacked-together plugin.
 
 ## Why not C++?
 C++ has been the dominant language in engine creation for decades, so why is Orama using C#? This is a complicated topic as there's many factors that influenced Orama to go with C# but it can generally be summed up into 4 main points.
