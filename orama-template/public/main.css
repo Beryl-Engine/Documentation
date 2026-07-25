@@ -29,3 +29,68 @@ article a.xref:not(.external)::after, .content a.xref:not(.external)::after {
     margin-right: 0.5rem;
     display: inline-block;
 }
+/* HOME PAGE */
+/* We should find some way to move this out of main.css */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    min-height: 80vh;
+
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 6rem 1rem;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero-subtitle {
+    font-size: 1.4rem;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-actions .btn {
+    --bs-btn-font-weight: 800;
+    --bs-btn-border-width: 2px;
+
+    padding: 0.85rem 1.75rem;
+    font-size: 1.05rem;
+    min-width: 140px;
+}
+
+.btn i {
+    
+}
+
+.btn-github {
+    --bs-btn-bg: #24292f;
+    --bs-btn-border-color: rgba(255, 255, 255, 0.15);
+    --bs-btn-color: #ffffff;
+    
+    --bs-btn-hover-bg: #2f363d;
+    --bs-btn-hover-border-color: rgba(255, 255, 255, 0.2);
+    --bs-btn-hover-color: #ffffff;
+
+    --bs-btn-active-bg: #444d56;
+    --bs-btn-focus-shadow-rgb: 36, 41, 47;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 4rem;
+}

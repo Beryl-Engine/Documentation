@@ -1,5 +1,9 @@
 export default {
   start: () => {
+      if (document.querySelector('.hero')) {
+        return;
+      }
+
     // Very hacky way to append <hr>s underneath h1s. Someone who knows what they're doing should make this better!
     const h1s = document.querySelectorAll('article h1');
     
