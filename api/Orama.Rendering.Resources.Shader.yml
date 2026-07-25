@@ -249,22 +249,20 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Rendering/Resources/Shader.cs
-    startLine: 166
+    startLine: 164
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
-  summary: Initializes a new instance of the <xref href="Orama.Rendering.Resources.Shader" data-throw-if-not-resolved="false"></xref> class.
+  summary: Initializes a new <xref href="Orama.Rendering.Resources.Shader" data-throw-if-not-resolved="false"></xref> from the specified ShaderLang source.
   example: []
   syntax:
-    content: public Shader(string source, string name = "None")
+    content: public Shader(string shaderLangSource, string name = "None")
     parameters:
-    - id: source
+    - id: shaderLangSource
       type: System.String
-      description: The slang source code.
     - id: name
       type: System.String
-      description: The name of the shader. This is used to import this shader into other shaders.
-    content.vb: Public Sub New(source As String, name As String = "None")
+    content.vb: Public Sub New(shaderLangSource As String, name As String = "None")
   overload: Orama.Rendering.Resources.Shader.#ctor*
   nameWithType.vb: Shader.New(String, String)
   fullName.vb: Orama.Rendering.Resources.Shader.New(String, String)

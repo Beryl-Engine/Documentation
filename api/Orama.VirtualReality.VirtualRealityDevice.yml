@@ -27,7 +27,7 @@ items:
   - Orama.VirtualReality
   namespace: Orama.VirtualReality
   summary: Base class for all Virtual Reality devices.
-  remarks: "\"Virtual Reality Device\" is defined as any device that provides 3D input and visualization for a world to the user.\r\nEach implementation of <xref href=\"Orama.VirtualReality.VirtualRealityDevice\" data-throw-if-not-resolved=\"false\"></xref> is required to add their own <xref href=\"Orama.VirtualReality.VirtualRealityController\" data-throw-if-not-resolved=\"false\"></xref>s to the Input system."
+  remarks: "\"Virtual Reality Device\" is defined as any device that provides 3D input and visualization for a world to the user.\nEach implementation of <xref href=\"Orama.VirtualReality.VirtualRealityDevice\" data-throw-if-not-resolved=\"false\"></xref> is required to add their own <xref href=\"Orama.VirtualReality.VirtualRealityController\" data-throw-if-not-resolved=\"false\"></xref>s to the Input system."
   example: []
   syntax:
     content: public abstract class VirtualRealityDevice

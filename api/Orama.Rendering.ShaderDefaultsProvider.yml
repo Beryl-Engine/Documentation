@@ -62,7 +62,7 @@ items:
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
-  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with data from <code class="paramref">camera</code> formatted for uploading via <xref href="Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer%2cSystem.UInt32%2cSystem.ReadOnlySpan%7bSystem.Byte%7d)" data-throw-if-not-resolved="false"></xref>.
+  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with data from <code class="paramref">camera</code> formatted for uploading via ICommandBuffer.SetConstantBuffer(string, ReadOnlySpan&lt;byte&gt;).
   example: []
   syntax:
     content: public ReadOnlySpan<byte> GetCameraBuffer(Camera camera)
@@ -97,7 +97,7 @@ items:
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
-  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with the given object data formatted for uploading via <xref href="Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer%2cSystem.UInt32%2cSystem.ReadOnlySpan%7bSystem.Byte%7d)" data-throw-if-not-resolved="false"></xref>.
+  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with the given object data formatted for uploading via ICommandBuffer.SetConstantBuffer(string, ReadOnlySpan&lt;byte&gt;).
   example: []
   syntax:
     content: public ReadOnlySpan<byte> GetObjectBuffer(Matrix4x4 transform)
@@ -404,72 +404,6 @@ references:
   - name: Of
   - name: " "
   - name: T
-  - name: )
-- uid: Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
-  commentId: M:Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
-  isExternal: true
-  href: Orama.RHI.ICommandBuffer.html#Orama_RHI_ICommandBuffer_UpdateBuffer_Orama_RHI_Resources_IBuffer_System_UInt32_System_ReadOnlySpan_System_Byte__
-  name: UpdateBuffer(IBuffer, uint, ReadOnlySpan<byte>)
-  nameWithType: ICommandBuffer.UpdateBuffer(IBuffer, uint, ReadOnlySpan<byte>)
-  fullName: Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer, uint, System.ReadOnlySpan<byte>)
-  nameWithType.vb: ICommandBuffer.UpdateBuffer(IBuffer, UInteger, ReadOnlySpan(Of Byte))
-  fullName.vb: Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer, UInteger, System.ReadOnlySpan(Of Byte))
-  name.vb: UpdateBuffer(IBuffer, UInteger, ReadOnlySpan(Of Byte))
-  spec.csharp:
-  - uid: Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
-    name: UpdateBuffer
-    href: Orama.RHI.ICommandBuffer.html#Orama_RHI_ICommandBuffer_UpdateBuffer_Orama_RHI_Resources_IBuffer_System_UInt32_System_ReadOnlySpan_System_Byte__
-  - name: (
-  - uid: Orama.RHI.Resources.IBuffer
-    name: IBuffer
-    href: Orama.RHI.Resources.IBuffer.html
-  - name: ','
-  - name: " "
-  - uid: System.UInt32
-    name: uint
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.uint32
-  - name: ','
-  - name: " "
-  - uid: System.ReadOnlySpan`1
-    name: ReadOnlySpan
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
-  - name: <
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
-    name: UpdateBuffer
-    href: Orama.RHI.ICommandBuffer.html#Orama_RHI_ICommandBuffer_UpdateBuffer_Orama_RHI_Resources_IBuffer_System_UInt32_System_ReadOnlySpan_System_Byte__
-  - name: (
-  - uid: Orama.RHI.Resources.IBuffer
-    name: IBuffer
-    href: Orama.RHI.Resources.IBuffer.html
-  - name: ','
-  - name: " "
-  - uid: System.UInt32
-    name: UInteger
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.uint32
-  - name: ','
-  - name: " "
-  - uid: System.ReadOnlySpan`1
-    name: ReadOnlySpan
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: )
   - name: )
 - uid: Orama.Rendering.ShaderDefaultsProvider.GetCameraBuffer*
   commentId: Overload:Orama.Rendering.ShaderDefaultsProvider.GetCameraBuffer

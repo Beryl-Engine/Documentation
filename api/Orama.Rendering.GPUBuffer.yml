@@ -31,11 +31,11 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: GPUBuffer
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 14
+    startLine: 13
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
-  summary: Buffer that assembles data in a format readable by an <xref href="Orama.RHI.IGraphicsDevice" data-throw-if-not-resolved="false"></xref>.
+  summary: Buffer that assembles data in a format readable by a CommandBuffer.
   example: []
   syntax:
     content: public sealed class GPUBuffer
@@ -67,7 +67,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: DEFAULT_SIZE
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 26
+    startLine: 25
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -96,7 +96,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: Data
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 29
+    startLine: 28
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -127,7 +127,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: Alignment
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 48
+    startLine: 47
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -159,7 +159,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddMaterialParameters
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 54
+    startLine: 53
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -190,7 +190,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddInt
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 97
+    startLine: 96
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -222,7 +222,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddFloat
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 108
+    startLine: 107
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -254,7 +254,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddFloat2
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 119
+    startLine: 118
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -288,7 +288,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddFloat3
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 128
+    startLine: 127
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -324,7 +324,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddFloat4
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 138
+    startLine: 137
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -362,7 +362,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddMatrix4x4
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 149
+    startLine: 148
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -391,7 +391,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddBytes
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 158
+    startLine: 157
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -425,7 +425,7 @@ items:
       repo: https://github.com/Orama-Engine/Orama.git
     id: Reset
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 166
+    startLine: 165
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -436,13 +436,6 @@ items:
     content.vb: Public Sub Reset()
   overload: Orama.Rendering.GPUBuffer.Reset*
 references:
-- uid: Orama.RHI.IGraphicsDevice
-  commentId: T:Orama.RHI.IGraphicsDevice
-  parent: Orama.RHI
-  href: Orama.RHI.IGraphicsDevice.html
-  name: IGraphicsDevice
-  nameWithType: IGraphicsDevice
-  fullName: Orama.RHI.IGraphicsDevice
 - uid: Orama.Rendering
   commentId: N:Orama.Rendering
   href: Orama.html
@@ -671,28 +664,6 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
-- uid: Orama.RHI
-  commentId: N:Orama.RHI
-  href: Orama.html
-  name: Orama.RHI
-  nameWithType: Orama.RHI
-  fullName: Orama.RHI
-  spec.csharp:
-  - uid: Orama
-    name: Orama
-    href: Orama.html
-  - name: .
-  - uid: Orama.RHI
-    name: RHI
-    href: Orama.RHI.html
-  spec.vb:
-  - uid: Orama
-    name: Orama
-    href: Orama.html
-  - name: .
-  - uid: Orama.RHI
-    name: RHI
-    href: Orama.RHI.html
 - uid: System
   commentId: N:System
   isExternal: true
