@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/IAlwaysHashable.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IAlwaysHashable
     path: ../Orama/Orama.Common/Standard/IAlwaysHashable.cs
@@ -32,7 +32,7 @@ items:
     content.vb: Public Interface IAlwaysHashable
   derivedClasses:
   - Orama.RHI.Resources.BufferDescriptor
-  - Orama.RHI.Resources.ConstantBufferDescriptor
+  - Orama.RHI.Resources.NamedBufferDescriptor
   - Orama.RHI.Resources.PipelineDescriptor
   - Orama.RHI.Resources.ResourceDescriptor
   - Orama.RHI.Resources.ResourceLayoutDescriptor
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/IAlwaysHashable.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Orama.Common/Standard/IAlwaysHashable.cs

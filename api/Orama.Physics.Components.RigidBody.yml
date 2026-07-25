@@ -34,7 +34,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RigidBody
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsStatic
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AffectedByGravity
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -134,7 +134,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Mass
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -164,7 +164,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Friction
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -194,7 +194,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Restitution
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -224,7 +224,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Position
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -254,7 +254,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Orientation
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -284,7 +284,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Velocity
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -314,7 +314,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AngularVelocity
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -344,7 +344,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Damping
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -374,7 +374,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Start
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -403,7 +403,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -432,7 +432,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -461,7 +461,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddBoxCollider
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -500,7 +500,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddSphereCollider
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -535,7 +535,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RemoveCollider
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -568,7 +568,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddForce
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -598,7 +598,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnCollisionEnter
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
@@ -626,7 +626,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnCollisionExit
     path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs

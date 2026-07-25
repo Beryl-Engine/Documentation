@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ObjectPool
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs
@@ -69,7 +69,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: MaxPoolSize
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Shared
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateObject
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs
@@ -167,7 +167,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ResetObject
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs
@@ -200,7 +200,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Rent
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs
@@ -233,7 +233,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RentAuto
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs
@@ -266,7 +266,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Return
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs

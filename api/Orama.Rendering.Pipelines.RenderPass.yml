@@ -19,11 +19,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/RenderPass.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RenderPass
     path: ../Orama/Modules/Orama.Rendering/Pipelines/RenderPass.cs
-    startLine: 12
+    startLine: 11
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines
@@ -58,11 +58,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/RenderPass.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Pipeline
     path: ../Orama/Modules/Orama.Rendering/Pipelines/RenderPass.cs
-    startLine: 15
+    startLine: 14
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines
@@ -89,11 +89,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/RenderPass.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Execute
     path: ../Orama/Modules/Orama.Rendering/Pipelines/RenderPass.cs
-    startLine: 18
+    startLine: 17
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines
@@ -123,11 +123,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/RenderPass.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Render
     path: ../Orama/Modules/Orama.Rendering/Pipelines/RenderPass.cs
-    startLine: 34
+    startLine: 33
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines
@@ -160,11 +160,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/RenderPass.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: TargetBuffer
     path: ../Orama/Modules/Orama.Rendering/Pipelines/RenderPass.cs
-    startLine: 37
+    startLine: 36
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines

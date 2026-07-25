@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: Orama.Serialization/Attributes/AlwaysSerializeAttribute.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AlwaysSerializeAttribute
     path: ../Orama/Orama.Serialization/Attributes/AlwaysSerializeAttribute.cs

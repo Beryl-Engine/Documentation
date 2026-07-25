@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/Collider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Collider
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/Collider.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/Collider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: shapeId
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/Collider.cs
@@ -87,7 +87,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/Collider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/Collider.cs

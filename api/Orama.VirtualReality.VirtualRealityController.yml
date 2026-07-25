@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: VirtualRealityController
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Handness
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
@@ -90,7 +90,7 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: TriggerPressedAmount
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
@@ -121,7 +121,7 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GripPressedAmount
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
@@ -152,7 +152,7 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsButtonPressed
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs
@@ -185,7 +185,7 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityController.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityController.cs

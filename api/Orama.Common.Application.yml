@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: Orama.Common/Application.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Application
     path: ../Orama/Orama.Common/Application.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: Orama.Common/Application.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnStart
     path: ../Orama/Orama.Common/Application.cs
@@ -89,7 +89,7 @@ items:
   source:
     remote:
       path: Orama.Common/Application.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnExit
     path: ../Orama/Orama.Common/Application.cs
@@ -118,7 +118,7 @@ items:
   source:
     remote:
       path: Orama.Common/Application.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnUpdate
     path: ../Orama/Orama.Common/Application.cs
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: Orama.Common/Application.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnRender
     path: ../Orama/Orama.Common/Application.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: Orama.Common/Application.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnResize
     path: ../Orama/Orama.Common/Application.cs
@@ -205,7 +205,7 @@ items:
   source:
     remote:
       path: Orama.Common/Application.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceProvider
     path: ../Orama/Orama.Common/Application.cs
@@ -236,7 +236,7 @@ items:
   source:
     remote:
       path: Orama.Common/Application.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Window
     path: ../Orama/Orama.Common/Application.cs
@@ -267,7 +267,7 @@ items:
   source:
     remote:
       path: Orama.Common/Application.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Orama.Common/Application.cs

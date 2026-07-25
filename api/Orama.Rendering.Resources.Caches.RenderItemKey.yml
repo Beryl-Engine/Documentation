@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RenderItemKey
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: VertexPositions
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
@@ -122,7 +122,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: VertexNormals
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
@@ -149,7 +149,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: VertexUVs
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Indices
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
@@ -203,7 +203,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Pipeline
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
@@ -230,7 +230,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs

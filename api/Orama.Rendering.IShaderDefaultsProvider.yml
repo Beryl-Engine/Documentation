@@ -6,6 +6,7 @@ items:
   parent: Orama.Rendering
   children:
   - Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer(Orama.Rendering.Components.Camera)
+  - Orama.Rendering.IShaderDefaultsProvider.GetMaterialBuffer(Orama.Rendering.Resources.Material)
   - Orama.Rendering.IShaderDefaultsProvider.GetObjectBuffer(Orama.Math.Matrix4x4)
   langs:
   - csharp
@@ -17,11 +18,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/IShaderDefaultsProvider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IShaderDefaultsProvider
     path: ../Orama/Modules/Orama.Rendering/IShaderDefaultsProvider.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -46,15 +47,15 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/IShaderDefaultsProvider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetCameraBuffer
     path: ../Orama/Modules/Orama.Rendering/IShaderDefaultsProvider.cs
-    startLine: 15
+    startLine: 16
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
-  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with data from <code class="paramref">camera</code> formatted for uploading via ICommandBuffer.SetConstantBuffer(string, ReadOnlySpan&lt;byte&gt;).
+  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with data from <code class="paramref">camera</code> formatted for uploading via <xref href="Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer%2cSystem.UInt32%2cSystem.ReadOnlySpan%7bSystem.Byte%7d)" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: ReadOnlySpan<byte> GetCameraBuffer(Camera camera)
@@ -79,15 +80,15 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/IShaderDefaultsProvider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetObjectBuffer
     path: ../Orama/Modules/Orama.Rendering/IShaderDefaultsProvider.cs
-    startLine: 18
+    startLine: 19
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
-  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with the given object data formatted for uploading via ICommandBuffer.SetConstantBuffer(string, ReadOnlySpan&lt;byte&gt;).
+  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with data from <code class="paramref">transform</code> formatted for uploading via <xref href="Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer%2cSystem.UInt32%2cSystem.ReadOnlySpan%7bSystem.Byte%7d)" data-throw-if-not-resolved="false"></xref>.
   example: []
   syntax:
     content: ReadOnlySpan<byte> GetObjectBuffer(Matrix4x4 transform)
@@ -98,6 +99,39 @@ items:
       type: System.ReadOnlySpan{System.Byte}
     content.vb: Function GetObjectBuffer(transform As Matrix4x4) As ReadOnlySpan(Of Byte)
   overload: Orama.Rendering.IShaderDefaultsProvider.GetObjectBuffer*
+- uid: Orama.Rendering.IShaderDefaultsProvider.GetMaterialBuffer(Orama.Rendering.Resources.Material)
+  commentId: M:Orama.Rendering.IShaderDefaultsProvider.GetMaterialBuffer(Orama.Rendering.Resources.Material)
+  id: GetMaterialBuffer(Orama.Rendering.Resources.Material)
+  parent: Orama.Rendering.IShaderDefaultsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialBuffer(Material)
+  nameWithType: IShaderDefaultsProvider.GetMaterialBuffer(Material)
+  fullName: Orama.Rendering.IShaderDefaultsProvider.GetMaterialBuffer(Orama.Rendering.Resources.Material)
+  type: Method
+  source:
+    remote:
+      path: Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+      branch: vulkan
+      repo: https://github.com/Orama-Engine/Orama.git
+    id: GetMaterialBuffer
+    path: ../Orama/Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+    startLine: 22
+  assemblies:
+  - Orama.Rendering
+  namespace: Orama.Rendering
+  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with <code class="paramref">material</code> parameter data formatted for uploading via <xref href="Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer%2cSystem.UInt32%2cSystem.ReadOnlySpan%7bSystem.Byte%7d)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: ReadOnlySpan<byte> GetMaterialBuffer(Material material)
+    parameters:
+    - id: material
+      type: Orama.Rendering.Resources.Material
+    return:
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Function GetMaterialBuffer(material As Material) As ReadOnlySpan(Of Byte)
+  overload: Orama.Rendering.IShaderDefaultsProvider.GetMaterialBuffer*
 references:
 - uid: Orama.Rendering.Resources.Shader
   commentId: T:Orama.Rendering.Resources.Shader
@@ -185,6 +219,72 @@ references:
   - name: Of
   - name: " "
   - name: T
+  - name: )
+- uid: Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+  commentId: M:Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+  isExternal: true
+  href: Orama.RHI.ICommandBuffer.html#Orama_RHI_ICommandBuffer_UpdateBuffer_Orama_RHI_Resources_IBuffer_System_UInt32_System_ReadOnlySpan_System_Byte__
+  name: UpdateBuffer(IBuffer, uint, ReadOnlySpan<byte>)
+  nameWithType: ICommandBuffer.UpdateBuffer(IBuffer, uint, ReadOnlySpan<byte>)
+  fullName: Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer, uint, System.ReadOnlySpan<byte>)
+  nameWithType.vb: ICommandBuffer.UpdateBuffer(IBuffer, UInteger, ReadOnlySpan(Of Byte))
+  fullName.vb: Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer, UInteger, System.ReadOnlySpan(Of Byte))
+  name.vb: UpdateBuffer(IBuffer, UInteger, ReadOnlySpan(Of Byte))
+  spec.csharp:
+  - uid: Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+    name: UpdateBuffer
+    href: Orama.RHI.ICommandBuffer.html#Orama_RHI_ICommandBuffer_UpdateBuffer_Orama_RHI_Resources_IBuffer_System_UInt32_System_ReadOnlySpan_System_Byte__
+  - name: (
+  - uid: Orama.RHI.Resources.IBuffer
+    name: IBuffer
+    href: Orama.RHI.Resources.IBuffer.html
+  - name: ','
+  - name: " "
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: ','
+  - name: " "
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+    name: UpdateBuffer
+    href: Orama.RHI.ICommandBuffer.html#Orama_RHI_ICommandBuffer_UpdateBuffer_Orama_RHI_Resources_IBuffer_System_UInt32_System_ReadOnlySpan_System_Byte__
+  - name: (
+  - uid: Orama.RHI.Resources.IBuffer
+    name: IBuffer
+    href: Orama.RHI.Resources.IBuffer.html
+  - name: ','
+  - name: " "
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: ','
+  - name: " "
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
   - name: )
 - uid: Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer*
   commentId: Overload:Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer
@@ -306,3 +406,16 @@ references:
   - uid: Orama.Math
     name: Math
     href: Orama.Math.html
+- uid: Orama.Rendering.IShaderDefaultsProvider.GetMaterialBuffer*
+  commentId: Overload:Orama.Rendering.IShaderDefaultsProvider.GetMaterialBuffer
+  href: Orama.Rendering.IShaderDefaultsProvider.html#Orama_Rendering_IShaderDefaultsProvider_GetMaterialBuffer_Orama_Rendering_Resources_Material_
+  name: GetMaterialBuffer
+  nameWithType: IShaderDefaultsProvider.GetMaterialBuffer
+  fullName: Orama.Rendering.IShaderDefaultsProvider.GetMaterialBuffer
+- uid: Orama.Rendering.Resources.Material
+  commentId: T:Orama.Rendering.Resources.Material
+  parent: Orama.Rendering.Resources
+  href: Orama.Rendering.Resources.Material.html
+  name: Material
+  nameWithType: Material
+  fullName: Orama.Rendering.Resources.Material

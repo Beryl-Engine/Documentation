@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/EntityAttributes.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: EntityAttribute
     path: ../Orama/Modules/Orama.Scenes/Entities/EntityAttributes.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/EntityAttributes.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Name
     path: ../Orama/Modules/Orama.Scenes/Entities/EntityAttributes.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Entities/EntityAttributes.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Scenes/Entities/EntityAttributes.cs

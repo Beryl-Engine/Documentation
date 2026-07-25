@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Orama.Common/Utility/EnginePaths.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: EnginePaths
     path: ../Orama/Orama.Common/Utility/EnginePaths.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: Orama.Common/Utility/EnginePaths.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: EngineDirectory
     path: ../Orama/Orama.Common/Utility/EnginePaths.cs

@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: FrameCountedResource
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: FrameDisposalBuffer
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Resource
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Disposed
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
@@ -200,7 +200,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: TryDispose
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
@@ -240,7 +240,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ReleaseGPUResource
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs
@@ -272,7 +272,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/FrameCountedResource.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Touch
     path: ../Orama/Modules/Orama.Rendering/Resources/FrameCountedResource.cs

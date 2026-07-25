@@ -16,11 +16,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/Forward/OpaquePass.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OpaquePass
     path: ../Orama/Modules/Orama.Rendering/Pipelines/Forward/OpaquePass.cs
-    startLine: 12
+    startLine: 11
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines.Forward
@@ -57,11 +57,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/Forward/OpaquePass.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Render
     path: ../Orama/Modules/Orama.Rendering/Pipelines/Forward/OpaquePass.cs
-    startLine: 15
+    startLine: 14
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Pipelines.Forward

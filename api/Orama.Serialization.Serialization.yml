@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: Orama.Serialization/Serialization.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Serialization
     path: ../Orama/Orama.Serialization/Serialization.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: Orama.Serialization/Serialization.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: DefaultType
     path: ../Orama/Orama.Serialization/Serialization.cs
@@ -82,7 +82,7 @@ items:
   source:
     remote:
       path: Orama.Serialization/Serialization.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Serialize
     path: ../Orama/Orama.Serialization/Serialization.cs
@@ -122,7 +122,7 @@ items:
   source:
     remote:
       path: Orama.Serialization/Serialization.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Deserialize
     path: ../Orama/Orama.Serialization/Serialization.cs

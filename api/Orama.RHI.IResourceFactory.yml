@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IResourceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IResourceFactory
     path: ../Orama/Orama.RHI/IResourceFactory.cs
@@ -51,7 +51,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IResourceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateCommandBuffer
     path: ../Orama/Orama.RHI/IResourceFactory.cs
@@ -81,7 +81,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IResourceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateShader
     path: ../Orama/Orama.RHI/IResourceFactory.cs
@@ -114,7 +114,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IResourceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateBuffer
     path: ../Orama/Orama.RHI/IResourceFactory.cs
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IResourceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateTexture
     path: ../Orama/Orama.RHI/IResourceFactory.cs
@@ -180,7 +180,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IResourceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateTextureView
     path: ../Orama/Orama.RHI/IResourceFactory.cs
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IResourceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateSampler
     path: ../Orama/Orama.RHI/IResourceFactory.cs
@@ -246,7 +246,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IResourceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateResourceLayout
     path: ../Orama/Orama.RHI/IResourceFactory.cs
@@ -279,7 +279,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IResourceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateResourceSet
     path: ../Orama/Orama.RHI/IResourceFactory.cs
@@ -312,7 +312,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IResourceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateGraphicsPipeline
     path: ../Orama/Orama.RHI/IResourceFactory.cs

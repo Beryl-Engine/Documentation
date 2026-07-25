@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: PooledObject
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Object
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs
@@ -92,7 +92,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs
@@ -124,7 +124,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs
@@ -156,7 +156,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/ObjectPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Implicit
     path: ../Orama/Orama.Common/Standard/ObjectPool.cs

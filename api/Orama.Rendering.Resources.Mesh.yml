@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Mesh
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
@@ -31,10 +31,12 @@ items:
   summary: A Collection of vertices, indices, normals and UVs that form a renderable object.
   example: []
   syntax:
-    content: public class Mesh
-    content.vb: Public Class Mesh
+    content: 'public class Mesh : IClientRenderable'
+    content.vb: Public Class Mesh Implements IClientRenderable
   inheritance:
   - System.Object
+  implements:
+  - Orama.Rendering.IClientRenderable
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -57,7 +59,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Material
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
@@ -74,6 +76,8 @@ items:
       type: Orama.Rendering.Resources.Material
     content.vb: Public Property Material As Material
   overload: Orama.Rendering.Resources.Mesh.Material*
+  implements:
+  - Orama.Rendering.IClientRenderable.Material
 - uid: Orama.Rendering.Resources.Mesh.Vertices
   commentId: P:Orama.Rendering.Resources.Mesh.Vertices
   id: Vertices
@@ -88,7 +92,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Vertices
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
@@ -96,6 +100,7 @@ items:
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
+  example: []
   syntax:
     content: public Vector3[] Vertices { get; set; }
     parameters: []
@@ -103,6 +108,8 @@ items:
       type: Orama.Math.Vector3[]
     content.vb: Public Property Vertices As Vector3()
   overload: Orama.Rendering.Resources.Mesh.Vertices*
+  implements:
+  - Orama.Rendering.IClientRenderable.Vertices
 - uid: Orama.Rendering.Resources.Mesh.Indices
   commentId: P:Orama.Rendering.Resources.Mesh.Indices
   id: Indices
@@ -117,7 +124,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Indices
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
@@ -125,6 +132,7 @@ items:
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
+  example: []
   syntax:
     content: public uint[] Indices { get; set; }
     parameters: []
@@ -132,6 +140,8 @@ items:
       type: System.UInt32[]
     content.vb: Public Property Indices As UInteger()
   overload: Orama.Rendering.Resources.Mesh.Indices*
+  implements:
+  - Orama.Rendering.IClientRenderable.Indices
 - uid: Orama.Rendering.Resources.Mesh.Normals
   commentId: P:Orama.Rendering.Resources.Mesh.Normals
   id: Normals
@@ -146,7 +156,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Normals
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
@@ -154,6 +164,7 @@ items:
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
+  example: []
   syntax:
     content: public Vector3[] Normals { get; set; }
     parameters: []
@@ -161,6 +172,8 @@ items:
       type: Orama.Math.Vector3[]
     content.vb: Public Property Normals As Vector3()
   overload: Orama.Rendering.Resources.Mesh.Normals*
+  implements:
+  - Orama.Rendering.IClientRenderable.Normals
 - uid: Orama.Rendering.Resources.Mesh.UVs
   commentId: P:Orama.Rendering.Resources.Mesh.UVs
   id: UVs
@@ -175,7 +188,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Mesh.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: UVs
     path: ../Orama/Modules/Orama.Rendering/Resources/Mesh.cs
@@ -183,6 +196,7 @@ items:
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
+  example: []
   syntax:
     content: public Vector2[] UVs { get; set; }
     parameters: []
@@ -190,6 +204,8 @@ items:
       type: Orama.Math.Vector2[]
     content.vb: Public Property UVs As Vector2()
   overload: Orama.Rendering.Resources.Mesh.UVs*
+  implements:
+  - Orama.Rendering.IClientRenderable.UVs
 references:
 - uid: Orama.Rendering.Resources
   commentId: N:Orama.Rendering.Resources
@@ -232,6 +248,13 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: Orama.Rendering.IClientRenderable
+  commentId: T:Orama.Rendering.IClientRenderable
+  parent: Orama.Rendering
+  href: Orama.Rendering.IClientRenderable.html
+  name: IClientRenderable
+  nameWithType: IClientRenderable
+  fullName: Orama.Rendering.IClientRenderable
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -458,12 +481,41 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Orama.Rendering
+  commentId: N:Orama.Rendering
+  href: Orama.html
+  name: Orama.Rendering
+  nameWithType: Orama.Rendering
+  fullName: Orama.Rendering
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Rendering
+    name: Rendering
+    href: Orama.Rendering.html
 - uid: Orama.Rendering.Resources.Mesh.Material*
   commentId: Overload:Orama.Rendering.Resources.Mesh.Material
   href: Orama.Rendering.Resources.Mesh.html#Orama_Rendering_Resources_Mesh_Material
   name: Material
   nameWithType: Mesh.Material
   fullName: Orama.Rendering.Resources.Mesh.Material
+- uid: Orama.Rendering.IClientRenderable.Material
+  commentId: P:Orama.Rendering.IClientRenderable.Material
+  parent: Orama.Rendering.IClientRenderable
+  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_Material
+  name: Material
+  nameWithType: IClientRenderable.Material
+  fullName: Orama.Rendering.IClientRenderable.Material
 - uid: Orama.Rendering.Resources.Material
   commentId: T:Orama.Rendering.Resources.Material
   parent: Orama.Rendering.Resources
@@ -477,6 +529,13 @@ references:
   name: Vertices
   nameWithType: Mesh.Vertices
   fullName: Orama.Rendering.Resources.Mesh.Vertices
+- uid: Orama.Rendering.IClientRenderable.Vertices
+  commentId: P:Orama.Rendering.IClientRenderable.Vertices
+  parent: Orama.Rendering.IClientRenderable
+  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_Vertices
+  name: Vertices
+  nameWithType: IClientRenderable.Vertices
+  fullName: Orama.Rendering.IClientRenderable.Vertices
 - uid: Orama.Math.Vector3[]
   isExternal: true
   href: Orama.Math.Vector3.html
@@ -504,6 +563,13 @@ references:
   name: Indices
   nameWithType: Mesh.Indices
   fullName: Orama.Rendering.Resources.Mesh.Indices
+- uid: Orama.Rendering.IClientRenderable.Indices
+  commentId: P:Orama.Rendering.IClientRenderable.Indices
+  parent: Orama.Rendering.IClientRenderable
+  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_Indices
+  name: Indices
+  nameWithType: IClientRenderable.Indices
+  fullName: Orama.Rendering.IClientRenderable.Indices
 - uid: System.UInt32[]
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.uint32
@@ -533,12 +599,26 @@ references:
   name: Normals
   nameWithType: Mesh.Normals
   fullName: Orama.Rendering.Resources.Mesh.Normals
+- uid: Orama.Rendering.IClientRenderable.Normals
+  commentId: P:Orama.Rendering.IClientRenderable.Normals
+  parent: Orama.Rendering.IClientRenderable
+  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_Normals
+  name: Normals
+  nameWithType: IClientRenderable.Normals
+  fullName: Orama.Rendering.IClientRenderable.Normals
 - uid: Orama.Rendering.Resources.Mesh.UVs*
   commentId: Overload:Orama.Rendering.Resources.Mesh.UVs
   href: Orama.Rendering.Resources.Mesh.html#Orama_Rendering_Resources_Mesh_UVs
   name: UVs
   nameWithType: Mesh.UVs
   fullName: Orama.Rendering.Resources.Mesh.UVs
+- uid: Orama.Rendering.IClientRenderable.UVs
+  commentId: P:Orama.Rendering.IClientRenderable.UVs
+  parent: Orama.Rendering.IClientRenderable
+  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_UVs
+  name: UVs
+  nameWithType: IClientRenderable.UVs
+  fullName: Orama.Rendering.IClientRenderable.UVs
 - uid: Orama.Math.Vector2[]
   isExternal: true
   href: Orama.Math.Vector2.html

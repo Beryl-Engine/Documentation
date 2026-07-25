@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/TextureTypes.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SamplerFilter
     path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
@@ -44,7 +44,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/TextureTypes.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Nearest
     path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/TextureTypes.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Linear
     path: ../Orama/Orama.RHI/Resources/TextureTypes.cs

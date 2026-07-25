@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: InputModule
     path: ../Orama/Modules/Orama.Input/InputModule.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Devices
     path: ../Orama/Modules/Orama.Input/InputModule.cs
@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: PrimaryKeyboard
     path: ../Orama/Modules/Orama.Input/InputModule.cs
@@ -126,7 +126,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: PrimaryMouse
     path: ../Orama/Modules/Orama.Input/InputModule.cs
@@ -157,7 +157,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: PrimaryGamepad
     path: ../Orama/Modules/Orama.Input/InputModule.cs
@@ -188,7 +188,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AddDevice
     path: ../Orama/Modules/Orama.Input/InputModule.cs
@@ -217,7 +217,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.Input/InputModule.cs
@@ -246,7 +246,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Input/InputModule.cs
@@ -276,7 +276,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/InputModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Input/InputModule.cs

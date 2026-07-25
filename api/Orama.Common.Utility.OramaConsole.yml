@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: Orama.Common/Utility/OramaConsole.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OramaConsole
     path: ../Orama/Orama.Common/Utility/OramaConsole.cs
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: Orama.Common/Utility/OramaConsole.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: StackLog
     path: ../Orama/Orama.Common/Utility/OramaConsole.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: Orama.Common/Utility/OramaConsole.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Exception
     path: ../Orama/Orama.Common/Utility/OramaConsole.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: Orama.Common/Utility/OramaConsole.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Log
     path: ../Orama/Orama.Common/Utility/OramaConsole.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: Orama.Common/Utility/OramaConsole.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Warning
     path: ../Orama/Orama.Common/Utility/OramaConsole.cs

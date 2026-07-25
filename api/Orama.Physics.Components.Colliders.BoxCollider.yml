@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: BoxCollider
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Width
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
@@ -92,7 +92,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Height
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
@@ -121,7 +121,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Depth
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
@@ -186,7 +186,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
@@ -218,7 +218,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Components/Colliders/BoxCollider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Start
     path: ../Orama/Modules/Orama.Physics/Components/Colliders/BoxCollider.cs

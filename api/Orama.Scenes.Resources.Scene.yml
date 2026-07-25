@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Resources/Scene.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Scene
     path: ../Orama/Modules/Orama.Scenes/Resources/Scene.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Resources/Scene.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Entities
     path: ../Orama/Modules/Orama.Scenes/Resources/Scene.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Resources/Scene.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: StartAll
     path: ../Orama/Modules/Orama.Scenes/Resources/Scene.cs

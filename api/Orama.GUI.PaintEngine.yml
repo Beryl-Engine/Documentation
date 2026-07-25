@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/PaintEngine.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: PaintEngine
     path: ../Orama/Modules/Orama.GUI/PaintEngine.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/PaintEngine.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: DrawRect
     path: ../Orama/Modules/Orama.GUI/PaintEngine.cs

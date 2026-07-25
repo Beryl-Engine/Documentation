@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: BufferUsage
     path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
@@ -56,7 +56,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: VertexBuffer
     path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
@@ -82,7 +82,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IndexBuffer
     path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: UniformBuffer
     path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
@@ -134,7 +134,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dynamic
     path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs

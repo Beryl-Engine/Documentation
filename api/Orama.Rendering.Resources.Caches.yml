@@ -5,7 +5,7 @@ items:
   id: Caches
   parent: Orama.Rendering.Resources
   children:
-  - Orama.Rendering.Resources.Caches.ConstantBufferCache
+  - Orama.Rendering.Resources.Caches.NamedBufferCache
   - Orama.Rendering.Resources.Caches.PipelineCache
   - Orama.Rendering.Resources.Caches.RenderItemCache
   - Orama.Rendering.Resources.Caches.RenderItemKey
@@ -25,12 +25,12 @@ items:
   assemblies:
   - Orama.Rendering
 references:
-- uid: Orama.Rendering.Resources.Caches.ConstantBufferCache
-  commentId: T:Orama.Rendering.Resources.Caches.ConstantBufferCache
-  href: Orama.Rendering.Resources.Caches.ConstantBufferCache.html
-  name: ConstantBufferCache
-  nameWithType: ConstantBufferCache
-  fullName: Orama.Rendering.Resources.Caches.ConstantBufferCache
+- uid: Orama.Rendering.Resources.Caches.NamedBufferCache
+  commentId: T:Orama.Rendering.Resources.Caches.NamedBufferCache
+  href: Orama.Rendering.Resources.Caches.NamedBufferCache.html
+  name: NamedBufferCache
+  nameWithType: NamedBufferCache
+  fullName: Orama.Rendering.Resources.Caches.NamedBufferCache
 - uid: Orama.Rendering.Resources.Caches.PipelineCache
   commentId: T:Orama.Rendering.Resources.Caches.PipelineCache
   href: Orama.Rendering.Resources.Caches.PipelineCache.html

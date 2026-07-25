@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Camera
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: FOV
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AspectRatio
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
@@ -128,7 +128,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ZNear
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
@@ -159,7 +159,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ZFar
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
@@ -190,7 +190,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Target
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
@@ -221,7 +221,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Main
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
@@ -252,7 +252,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ViewMatrix
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
@@ -283,7 +283,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ProjectionMatrix
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
@@ -314,7 +314,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OrthographicMatrix
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
@@ -345,7 +345,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs

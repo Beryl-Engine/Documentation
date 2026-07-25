@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: TextureViewDescriptor
     path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
-    startLine: 92
+    startLine: 111
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI.Resources
@@ -51,11 +51,11 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
-    startLine: 92
+    startLine: 111
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI.Resources
@@ -83,11 +83,11 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Texture
     path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
-    startLine: 94
+    startLine: 113
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI.Resources
@@ -110,11 +110,11 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
-    startLine: 97
+    startLine: 116
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI.Resources

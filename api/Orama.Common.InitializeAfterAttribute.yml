@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: Orama.Common/InitializeAfterAttribute.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: InitializeAfterAttribute
     path: ../Orama/Orama.Common/InitializeAfterAttribute.cs
@@ -107,7 +107,7 @@ items:
   source:
     remote:
       path: Orama.Common/InitializeAfterAttribute.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Types
     path: ../Orama/Orama.Common/InitializeAfterAttribute.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: Orama.Common/InitializeAfterAttribute.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Common/InitializeAfterAttribute.cs

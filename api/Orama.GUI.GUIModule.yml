@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/GUIModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GUIModule
     path: ../Orama/Modules/Orama.GUI/GUIModule.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/GUIModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: PaintEngine
     path: ../Orama/Modules/Orama.GUI/GUIModule.cs
@@ -90,7 +90,7 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/GUIModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RootWidget
     path: ../Orama/Modules/Orama.GUI/GUIModule.cs
@@ -119,7 +119,7 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/GUIModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.GUI/GUIModule.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/GUIModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.GUI/GUIModule.cs
@@ -178,7 +178,7 @@ items:
   source:
     remote:
       path: Modules/Orama.GUI/GUIModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.GUI/GUIModule.cs

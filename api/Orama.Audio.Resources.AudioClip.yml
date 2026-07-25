@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AudioClip
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Data
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
@@ -84,7 +84,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SampleRate
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Channels
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: BitsPerSample
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs

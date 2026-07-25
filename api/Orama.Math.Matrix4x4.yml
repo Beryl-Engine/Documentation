@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Matrix4x4
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -89,7 +89,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M11
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -118,7 +118,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M12
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M13
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M14
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -205,7 +205,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M21
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -234,7 +234,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M22
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -263,7 +263,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M23
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -292,7 +292,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M24
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -321,7 +321,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M31
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -350,7 +350,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M32
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -379,7 +379,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M33
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -408,7 +408,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M34
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -437,7 +437,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M41
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -466,7 +466,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M42
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -495,7 +495,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M43
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -524,7 +524,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: M44
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -553,7 +553,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -617,7 +617,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Identity
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -648,7 +648,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsIdentity
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -679,7 +679,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateTRS
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -716,7 +716,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateTranslation
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -749,7 +749,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateTranslation
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -789,7 +789,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateScale
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -822,7 +822,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateScale
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -862,7 +862,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateRotationX
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -898,7 +898,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateRotationY
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -934,7 +934,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateRotationZ
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -970,7 +970,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateFromEuler
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1003,7 +1003,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateFromQuaternion
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1036,7 +1036,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: LookAt
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1073,7 +1073,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Transpose
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1103,7 +1103,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Determinant
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1133,7 +1133,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Invert
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1163,7 +1163,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Transform
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1196,7 +1196,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1241,7 +1241,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1278,7 +1278,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1310,7 +1310,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1346,7 +1346,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Explicit
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
@@ -1380,7 +1380,7 @@ items:
   source:
     remote:
       path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Explicit
     path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs

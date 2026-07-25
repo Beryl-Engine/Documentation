@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: VirtualRealityModule
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityModule.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Device
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityModule.cs
@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityModule.cs
@@ -124,7 +124,7 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityModule.cs
@@ -154,7 +154,7 @@ items:
   source:
     remote:
       path: Modules/Orama.VirtualReality/VirtualRealityModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityModule.cs

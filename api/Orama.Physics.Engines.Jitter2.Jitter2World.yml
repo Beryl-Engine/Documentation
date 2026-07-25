@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Jitter2World
     path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SubstepCount
     path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
@@ -124,7 +124,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateBody
     path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
@@ -163,7 +163,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: DestroyBody
     path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
@@ -197,7 +197,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Step
     path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
@@ -234,7 +234,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: TryRaycast
     path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs

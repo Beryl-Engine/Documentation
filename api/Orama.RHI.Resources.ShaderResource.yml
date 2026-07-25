@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ShaderResource
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
@@ -58,7 +58,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Name
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
@@ -87,7 +87,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Kind
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
@@ -116,7 +116,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Binding
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Set
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SizeInBytes
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
@@ -203,7 +203,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Parameters
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
@@ -232,7 +232,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs

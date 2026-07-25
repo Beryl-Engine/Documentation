@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceLoader
     path: ../Orama/Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: LoadResource
     path: ../Orama/Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: Orama.Common/Resources/DefaultProvider/ResourceLoader.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetResourceLoader
     path: ../Orama/Orama.Common/Resources/DefaultProvider/ResourceLoader.cs

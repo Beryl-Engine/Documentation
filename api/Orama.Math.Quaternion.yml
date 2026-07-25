@@ -33,7 +33,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Quaternion
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: X
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -97,7 +97,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Y
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -128,7 +128,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Z
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -159,7 +159,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: W
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -190,7 +190,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -230,7 +230,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Identity
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -259,7 +259,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateFromAxisAngle
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -297,7 +297,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ToEulerAngles
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -327,7 +327,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: FromEulerAngles
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -367,7 +367,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: FromEulerAngles
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -400,7 +400,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -438,7 +438,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_UnaryNegation
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -474,7 +474,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Equality
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -512,7 +512,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Inequality
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -550,7 +550,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -589,7 +589,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -621,7 +621,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Quaternion.cs
@@ -656,7 +656,7 @@ items:
   source:
     remote:
       path: Orama.Math/Quaternion.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ToString
     path: ../Orama/Orama.Math/Quaternion.cs

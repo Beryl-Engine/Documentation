@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ICommandBuffer
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -56,7 +56,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Begin
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -84,7 +84,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: End
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -112,7 +112,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SetFrameBuffer
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -143,7 +143,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CurrentFramebuffer
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -174,7 +174,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SetPipeline
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -205,7 +205,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SetVertexBuffer
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -241,7 +241,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SetIndexBuffer
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -272,7 +272,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SetGraphicsResourceSet
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -308,7 +308,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: UpdateBuffer
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -346,7 +346,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: DrawIndexed
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -380,7 +380,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ClearDepth
     path: ../Orama/Orama.RHI/ICommandBuffer.cs
@@ -414,7 +414,7 @@ items:
   source:
     remote:
       path: Orama.RHI/ICommandBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ClearColor
     path: ../Orama/Orama.RHI/ICommandBuffer.cs

@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Orama.Common/Resources/IResourceProvider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IResourceProvider
     path: ../Orama/Orama.Common/Resources/IResourceProvider.cs
@@ -43,7 +43,7 @@ items:
   source:
     remote:
       path: Orama.Common/Resources/IResourceProvider.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetResource
     path: ../Orama/Orama.Common/Resources/IResourceProvider.cs

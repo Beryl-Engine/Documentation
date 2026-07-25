@@ -1,3 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+article h1 {
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: 600 !important;
+}
+
+article h2, article h3, article h4, article h5, article h6 {
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: 500 !important;
+}
+
 .navbar-nav .nav-link
 {
     font-weight: bold !important;
@@ -63,16 +76,11 @@ article a.xref:not(.external)::after, .content a.xref:not(.external)::after {
 }
 
 .hero-actions .btn {
-    --bs-btn-font-weight: 800;
     --bs-btn-border-width: 2px;
 
     padding: 0.85rem 1.75rem;
     font-size: 1.05rem;
     min-width: 140px;
-}
-
-.btn i {
-    
 }
 
 .btn-github {

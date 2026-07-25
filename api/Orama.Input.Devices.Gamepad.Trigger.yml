@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Trigger
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
@@ -44,7 +44,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Left
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/Gamepad.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Right
     path: ../Orama/Modules/Orama.Input/Devices/Gamepad.cs

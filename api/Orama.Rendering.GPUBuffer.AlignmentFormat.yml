@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AlignmentFormat
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 15
+    startLine: 16
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -42,11 +42,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: std140
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 18
+    startLine: 19
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -70,11 +70,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: std430
     path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
-    startLine: 21
+    startLine: 22
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering

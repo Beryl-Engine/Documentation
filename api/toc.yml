@@ -284,9 +284,6 @@ items:
       - uid: Orama.RHI.Resources.BufferUsage
         name: BufferUsage
         type: Enum
-      - uid: Orama.RHI.Resources.ConstantBufferDescriptor
-        name: ConstantBufferDescriptor
-        type: Struct
       - uid: Orama.RHI.Resources.IBindableResource
         name: IBindableResource
         type: Interface
@@ -320,6 +317,9 @@ items:
       - uid: Orama.RHI.Resources.ITextureView
         name: ITextureView
         type: Interface
+      - uid: Orama.RHI.Resources.NamedBufferDescriptor
+        name: NamedBufferDescriptor
+        type: Struct
       - uid: Orama.RHI.Resources.PipelineDescriptor
         name: PipelineDescriptor
         type: Struct
@@ -374,8 +374,21 @@ items:
       - uid: Orama.RHI.Resources.TextureWrapMode
         name: TextureWrapMode
         type: Enum
+    - uid: Orama.RHI.VulkanBackend
+      name: VulkanBackend
+      type: Namespace
+      items:
+      - uid: Orama.RHI.VulkanBackend.VulkanException
+        name: VulkanException
+        type: Class
+      - uid: Orama.RHI.VulkanBackend.VulkanExtensions
+        name: VulkanExtensions
+        type: Class
     - uid: Orama.RHI.CullingMode
       name: CullingMode
+      type: Enum
+    - uid: Orama.RHI.DeviceFeatures
+      name: DeviceFeatures
       type: Enum
     - uid: Orama.RHI.GraphicsDeviceFactory
       name: GraphicsDeviceFactory
@@ -447,8 +460,8 @@ items:
         name: Caches
         type: Namespace
         items:
-        - uid: Orama.Rendering.Resources.Caches.ConstantBufferCache
-          name: ConstantBufferCache
+        - uid: Orama.Rendering.Resources.Caches.NamedBufferCache
+          name: NamedBufferCache
           type: Class
         - uid: Orama.Rendering.Resources.Caches.PipelineCache
           name: PipelineCache
@@ -567,8 +580,8 @@ items:
       - uid: Orama.Scenes.Entities.EntityRegistry
         name: EntityRegistry
         type: Class
-      - uid: Orama.Scenes.Entities.ImplicitComponent
-        name: ImplicitComponent
+      - uid: Orama.Scenes.Entities.ImplicitComponentAttribute
+        name: ImplicitComponentAttribute
         type: Class
     - uid: Orama.Scenes.Resources
       name: Resources

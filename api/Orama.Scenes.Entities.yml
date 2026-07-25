@@ -8,7 +8,7 @@ items:
   - Orama.Scenes.Entities.Entity
   - Orama.Scenes.Entities.EntityAttribute
   - Orama.Scenes.Entities.EntityRegistry
-  - Orama.Scenes.Entities.ImplicitComponent
+  - Orama.Scenes.Entities.ImplicitComponentAttribute
   langs:
   - csharp
   - vb
@@ -39,12 +39,12 @@ references:
   name: EntityRegistry
   nameWithType: EntityRegistry
   fullName: Orama.Scenes.Entities.EntityRegistry
-- uid: Orama.Scenes.Entities.ImplicitComponent
-  commentId: T:Orama.Scenes.Entities.ImplicitComponent
-  href: Orama.Scenes.Entities.ImplicitComponent.html
-  name: ImplicitComponent
-  nameWithType: ImplicitComponent
-  fullName: Orama.Scenes.Entities.ImplicitComponent
+- uid: Orama.Scenes.Entities.ImplicitComponentAttribute
+  commentId: T:Orama.Scenes.Entities.ImplicitComponentAttribute
+  href: Orama.Scenes.Entities.ImplicitComponentAttribute.html
+  name: ImplicitComponentAttribute
+  nameWithType: ImplicitComponentAttribute
+  fullName: Orama.Scenes.Entities.ImplicitComponentAttribute
 - uid: Orama.Scenes.Entities
   commentId: N:Orama.Scenes.Entities
   href: Orama.html

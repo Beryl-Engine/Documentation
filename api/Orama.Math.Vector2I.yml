@@ -37,7 +37,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Vector2I
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: X
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Y
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Length
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -163,7 +163,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -199,7 +199,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Zero
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -230,7 +230,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: One
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -261,7 +261,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Up
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -292,7 +292,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: UnitX
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -323,7 +323,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: UnitY
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -354,7 +354,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dot
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -389,7 +389,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dot
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -422,7 +422,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -461,7 +461,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -496,7 +496,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -528,7 +528,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ToString
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -560,7 +560,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Addition
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -596,7 +596,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Subtraction
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -632,7 +632,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_UnaryNegation
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -666,7 +666,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -702,7 +702,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -738,7 +738,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Equality
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs
@@ -774,7 +774,7 @@ items:
   source:
     remote:
       path: Orama.Math/Vectors/Vector2I.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Inequality
     path: ../Orama/Orama.Math/Vectors/Vector2I.cs

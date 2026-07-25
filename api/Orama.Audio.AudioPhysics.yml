@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioPhysics.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AudioPhysics
     path: ../Orama/Modules/Orama.Audio/AudioPhysics.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioPhysics.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Audio/AudioPhysics.cs

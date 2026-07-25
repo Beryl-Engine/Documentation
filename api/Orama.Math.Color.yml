@@ -35,7 +35,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Color
     path: ../Orama/Orama.Math/Color.cs
@@ -69,7 +69,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: R
     path: ../Orama/Orama.Math/Color.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: G
     path: ../Orama/Orama.Math/Color.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: B
     path: ../Orama/Orama.Math/Color.cs
@@ -162,7 +162,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: A
     path: ../Orama/Orama.Math/Color.cs
@@ -193,7 +193,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Math/Color.cs
@@ -233,7 +233,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Transparent
     path: ../Orama/Orama.Math/Color.cs
@@ -262,7 +262,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: White
     path: ../Orama/Orama.Math/Color.cs
@@ -291,7 +291,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Black
     path: ../Orama/Orama.Math/Color.cs
@@ -320,7 +320,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Red
     path: ../Orama/Orama.Math/Color.cs
@@ -349,7 +349,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Green
     path: ../Orama/Orama.Math/Color.cs
@@ -378,7 +378,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Blue
     path: ../Orama/Orama.Math/Color.cs
@@ -407,7 +407,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Color.cs
@@ -446,7 +446,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
     path: ../Orama/Orama.Math/Color.cs
@@ -483,7 +483,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Orama.Math/Color.cs
@@ -515,7 +515,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: From255
     path: ../Orama/Orama.Math/Color.cs
@@ -557,7 +557,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Explicit
     path: ../Orama/Orama.Math/Color.cs
@@ -591,7 +591,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
     path: ../Orama/Orama.Math/Color.cs
@@ -627,7 +627,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Division
     path: ../Orama/Orama.Math/Color.cs
@@ -663,7 +663,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Equality
     path: ../Orama/Orama.Math/Color.cs
@@ -699,7 +699,7 @@ items:
   source:
     remote:
       path: Orama.Math/Color.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Inequality
     path: ../Orama/Orama.Math/Color.cs

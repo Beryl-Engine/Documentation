@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AudioModule
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateSource
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: DestroySource
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateListener
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs
@@ -168,7 +168,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: DestroyListener
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs
@@ -202,7 +202,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SetListener
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs
@@ -239,7 +239,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SetDistanceModel
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs
@@ -273,7 +273,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs
@@ -308,7 +308,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs
@@ -339,7 +339,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs
@@ -368,7 +368,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs
@@ -398,7 +398,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Audio/AudioModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Audio/AudioModule.cs

@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Renderer
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
@@ -58,7 +58,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Options
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
@@ -89,7 +89,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Backend
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
@@ -120,7 +120,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Device
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
@@ -151,7 +151,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
@@ -188,7 +188,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Present
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
@@ -216,7 +216,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SubmitCommandBuffer
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
@@ -224,7 +224,7 @@ items:
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
-  summary: Submits the given CommandBuffer to be ran.
+  summary: Submits the given <xref href="Orama.RHI.ICommandBuffer" data-throw-if-not-resolved="false"></xref> to be ran.
   example: []
   syntax:
     content: public static void SubmitCommandBuffer(ICommandBuffer commandBuffer)
@@ -247,7 +247,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Resize
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
@@ -283,7 +283,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Renderer.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Rendering/Renderer.cs
@@ -713,12 +713,6 @@ references:
   name: Present
   nameWithType: Renderer.Present
   fullName: Orama.Rendering.Renderer.Present
-- uid: Orama.Rendering.Renderer.SubmitCommandBuffer*
-  commentId: Overload:Orama.Rendering.Renderer.SubmitCommandBuffer
-  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_SubmitCommandBuffer_Orama_RHI_ICommandBuffer_
-  name: SubmitCommandBuffer
-  nameWithType: Renderer.SubmitCommandBuffer
-  fullName: Orama.Rendering.Renderer.SubmitCommandBuffer
 - uid: Orama.RHI.ICommandBuffer
   commentId: T:Orama.RHI.ICommandBuffer
   parent: Orama.RHI
@@ -726,6 +720,12 @@ references:
   name: ICommandBuffer
   nameWithType: ICommandBuffer
   fullName: Orama.RHI.ICommandBuffer
+- uid: Orama.Rendering.Renderer.SubmitCommandBuffer*
+  commentId: Overload:Orama.Rendering.Renderer.SubmitCommandBuffer
+  href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_SubmitCommandBuffer_Orama_RHI_ICommandBuffer_
+  name: SubmitCommandBuffer
+  nameWithType: Renderer.SubmitCommandBuffer
+  fullName: Orama.Rendering.Renderer.SubmitCommandBuffer
 - uid: Orama.Rendering.Renderer.Resize*
   commentId: Overload:Orama.Rendering.Renderer.Resize
   href: Orama.Rendering.Renderer.html#Orama_Rendering_Renderer_Resize_System_UInt32_System_UInt32_

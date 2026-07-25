@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/RentedArray.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RentedArray
     path: ../Orama/Orama.Common/Standard/RentedArray.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/RentedArray.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Array
     path: ../Orama/Orama.Common/Standard/RentedArray.cs
@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/RentedArray.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Common/Standard/RentedArray.cs
@@ -126,7 +126,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/RentedArray.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.Common/Standard/RentedArray.cs
@@ -161,7 +161,7 @@ items:
   source:
     remote:
       path: Orama.Common/Standard/RentedArray.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Orama.Common/Standard/RentedArray.cs

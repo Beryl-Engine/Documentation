@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/RaycastResult.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RaycastResult
     path: ../Orama/Modules/Orama.Physics/RaycastResult.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/RaycastResult.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Body
     path: ../Orama/Modules/Orama.Physics/RaycastResult.cs
@@ -84,7 +84,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/RaycastResult.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: HitPoint
     path: ../Orama/Modules/Orama.Physics/RaycastResult.cs
@@ -115,7 +115,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/RaycastResult.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Normal
     path: ../Orama/Modules/Orama.Physics/RaycastResult.cs
@@ -146,7 +146,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/RaycastResult.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Distance
     path: ../Orama/Modules/Orama.Physics/RaycastResult.cs

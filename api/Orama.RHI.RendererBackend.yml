@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: Orama.RHI/RendererBackend.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RendererBackend
     path: ../Orama/Orama.RHI/RendererBackend.cs
@@ -44,7 +44,7 @@ items:
   source:
     remote:
       path: Orama.RHI/RendererBackend.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Vulkan
     path: ../Orama/Orama.RHI/RendererBackend.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: Orama.RHI/RendererBackend.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Direct3D12
     path: ../Orama/Orama.RHI/RendererBackend.cs

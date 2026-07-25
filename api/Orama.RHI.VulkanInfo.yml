@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: Orama.RHI/VulkanInfo.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: VulkanInfo
     path: ../Orama/Orama.RHI/VulkanInfo.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: Orama.RHI/VulkanInfo.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Instance
     path: ../Orama/Orama.RHI/VulkanInfo.cs
@@ -82,7 +82,7 @@ items:
   source:
     remote:
       path: Orama.RHI/VulkanInfo.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: PhysicalDevice
     path: ../Orama/Orama.RHI/VulkanInfo.cs
@@ -111,7 +111,7 @@ items:
   source:
     remote:
       path: Orama.RHI/VulkanInfo.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Device
     path: ../Orama/Orama.RHI/VulkanInfo.cs
@@ -140,7 +140,7 @@ items:
   source:
     remote:
       path: Orama.RHI/VulkanInfo.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GraphicsQueueFamilyIndex
     path: ../Orama/Orama.RHI/VulkanInfo.cs

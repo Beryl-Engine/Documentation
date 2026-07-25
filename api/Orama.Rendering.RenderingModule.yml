@@ -9,7 +9,7 @@ items:
   - Orama.Rendering.RenderingModule.Initialize
   - Orama.Rendering.RenderingModule.OnResize(System.Int32,System.Int32)
   - Orama.Rendering.RenderingModule.Pipeline
-  - Orama.Rendering.RenderingModule.QueueObject(Orama.Rendering.IClientRenderable)
+  - Orama.Rendering.RenderingModule.QueueObject(Orama.Rendering.IClientRenderable,Orama.Math.Matrix4x4)
   - Orama.Rendering.RenderingModule.Render
   langs:
   - csharp
@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RenderingModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RenderingModule
     path: ../Orama/Modules/Orama.Rendering/RenderingModule.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RenderingModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Pipeline
     path: ../Orama/Modules/Orama.Rendering/RenderingModule.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RenderingModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.Rendering/RenderingModule.cs
@@ -122,7 +122,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RenderingModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Render
     path: ../Orama/Modules/Orama.Rendering/RenderingModule.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RenderingModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Rendering/RenderingModule.cs
@@ -164,37 +164,40 @@ items:
     content.vb: Public Overrides Sub Dispose()
   overridden: Orama.Common.BaseModule.Dispose
   overload: Orama.Rendering.RenderingModule.Dispose*
-- uid: Orama.Rendering.RenderingModule.QueueObject(Orama.Rendering.IClientRenderable)
-  commentId: M:Orama.Rendering.RenderingModule.QueueObject(Orama.Rendering.IClientRenderable)
-  id: QueueObject(Orama.Rendering.IClientRenderable)
+- uid: Orama.Rendering.RenderingModule.QueueObject(Orama.Rendering.IClientRenderable,Orama.Math.Matrix4x4)
+  commentId: M:Orama.Rendering.RenderingModule.QueueObject(Orama.Rendering.IClientRenderable,Orama.Math.Matrix4x4)
+  id: QueueObject(Orama.Rendering.IClientRenderable,Orama.Math.Matrix4x4)
   parent: Orama.Rendering.RenderingModule
   langs:
   - csharp
   - vb
-  name: QueueObject(IClientRenderable)
-  nameWithType: RenderingModule.QueueObject(IClientRenderable)
-  fullName: Orama.Rendering.RenderingModule.QueueObject(Orama.Rendering.IClientRenderable)
+  name: QueueObject(IClientRenderable, Matrix4x4)
+  nameWithType: RenderingModule.QueueObject(IClientRenderable, Matrix4x4)
+  fullName: Orama.Rendering.RenderingModule.QueueObject(Orama.Rendering.IClientRenderable, Orama.Math.Matrix4x4)
   type: Method
   source:
     remote:
       path: Modules/Orama.Rendering/RenderingModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: QueueObject
     path: ../Orama/Modules/Orama.Rendering/RenderingModule.cs
-    startLine: 76
+    startLine: 77
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
   summary: Renders a client renderable to the window during the next frame.
   example: []
   syntax:
-    content: public void QueueObject(IClientRenderable renderable)
+    content: public void QueueObject(IClientRenderable renderable, Matrix4x4 transform)
     parameters:
     - id: renderable
       type: Orama.Rendering.IClientRenderable
       description: The object to render.
-    content.vb: Public Sub QueueObject(renderable As IClientRenderable)
+    - id: transform
+      type: Orama.Math.Matrix4x4
+      description: The object's transform matrix.
+    content.vb: Public Sub QueueObject(renderable As IClientRenderable, transform As Matrix4x4)
   overload: Orama.Rendering.RenderingModule.QueueObject*
 - uid: Orama.Rendering.RenderingModule.OnResize(System.Int32,System.Int32)
   commentId: M:Orama.Rendering.RenderingModule.OnResize(System.Int32,System.Int32)
@@ -210,11 +213,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RenderingModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnResize
     path: ../Orama/Modules/Orama.Rendering/RenderingModule.cs
-    startLine: 78
+    startLine: 79
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -677,7 +680,7 @@ references:
   fullName: Orama.Rendering.RenderingModule.Dispose
 - uid: Orama.Rendering.RenderingModule.QueueObject*
   commentId: Overload:Orama.Rendering.RenderingModule.QueueObject
-  href: Orama.Rendering.RenderingModule.html#Orama_Rendering_RenderingModule_QueueObject_Orama_Rendering_IClientRenderable_
+  href: Orama.Rendering.RenderingModule.html#Orama_Rendering_RenderingModule_QueueObject_Orama_Rendering_IClientRenderable_Orama_Math_Matrix4x4_
   name: QueueObject
   nameWithType: RenderingModule.QueueObject
   fullName: Orama.Rendering.RenderingModule.QueueObject
@@ -688,6 +691,35 @@ references:
   name: IClientRenderable
   nameWithType: IClientRenderable
   fullName: Orama.Rendering.IClientRenderable
+- uid: Orama.Math.Matrix4x4
+  commentId: T:Orama.Math.Matrix4x4
+  parent: Orama.Math
+  href: Orama.Math.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Orama.Math.Matrix4x4
+- uid: Orama.Math
+  commentId: N:Orama.Math
+  href: Orama.html
+  name: Orama.Math
+  nameWithType: Orama.Math
+  fullName: Orama.Math
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.Math
+    name: Math
+    href: Orama.Math.html
 - uid: Orama.Rendering.RenderingModule.OnResize*
   commentId: Overload:Orama.Rendering.RenderingModule.OnResize
   href: Orama.Rendering.RenderingModule.html#Orama_Rendering_RenderingModule_OnResize_System_Int32_System_Int32_

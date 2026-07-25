@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ModuleManager
     path: ../Orama/Orama.Common/ModuleManager.cs
@@ -58,7 +58,7 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Modules
     path: ../Orama/Orama.Common/ModuleManager.cs
@@ -89,7 +89,7 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RegisterModule
     path: ../Orama/Orama.Common/ModuleManager.cs
@@ -125,7 +125,7 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetModule
     path: ../Orama/Orama.Common/ModuleManager.cs
@@ -161,7 +161,7 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetModule
     path: ../Orama/Orama.Common/ModuleManager.cs
@@ -195,7 +195,7 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: InitializeAll
     path: ../Orama/Orama.Common/ModuleManager.cs
@@ -223,7 +223,7 @@ items:
   source:
     remote:
       path: Orama.Common/ModuleManager.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: DisposeAll
     path: ../Orama/Orama.Common/ModuleManager.cs

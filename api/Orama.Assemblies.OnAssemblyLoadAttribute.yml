@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OnAssemblyLoadAttribute.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OnAssemblyLoadAttribute
     path: ../Orama/Modules/Orama.Assemblies/OnAssemblyLoadAttribute.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OnAssemblyLoadAttribute.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RunOnAssembly
     path: ../Orama/Modules/Orama.Assemblies/OnAssemblyLoadAttribute.cs

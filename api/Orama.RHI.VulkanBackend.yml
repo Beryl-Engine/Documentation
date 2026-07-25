@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: Orama.RHI.VulkanBackend
+  commentId: N:Orama.RHI.VulkanBackend
+  id: VulkanBackend
+  parent: Orama.RHI
+  children:
+  - Orama.RHI.VulkanBackend.VulkanException
+  - Orama.RHI.VulkanBackend.VulkanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Orama.RHI.VulkanBackend
+  nameWithType: Orama.RHI.VulkanBackend
+  fullName: Orama.RHI.VulkanBackend
+  type: Namespace
+  assemblies:
+  - Orama.RHI
+references:
+- uid: Orama.RHI.VulkanBackend.VulkanException
+  commentId: T:Orama.RHI.VulkanBackend.VulkanException
+  href: Orama.RHI.VulkanBackend.VulkanException.html
+  name: VulkanException
+  nameWithType: VulkanException
+  fullName: Orama.RHI.VulkanBackend.VulkanException
+- uid: Orama.RHI.VulkanBackend.VulkanExtensions
+  commentId: T:Orama.RHI.VulkanBackend.VulkanExtensions
+  href: Orama.RHI.VulkanBackend.VulkanExtensions.html
+  name: VulkanExtensions
+  nameWithType: VulkanExtensions
+  fullName: Orama.RHI.VulkanBackend.VulkanExtensions

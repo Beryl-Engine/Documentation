@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/CommandBufferPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CommandBufferPool
     path: ../Orama/Modules/Orama.Rendering/CommandBufferPool.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/CommandBufferPool.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CreateObject
     path: ../Orama/Modules/Orama.Rendering/CommandBufferPool.cs

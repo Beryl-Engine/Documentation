@@ -6,8 +6,8 @@ items:
   parent: Orama.RHI
   children:
   - Orama.RHI.IGraphicsDevice.CurrentFrame
+  - Orama.RHI.IGraphicsDevice.Features
   - Orama.RHI.IGraphicsDevice.Initialize(Silk.NET.Windowing.IWindow)
-  - Orama.RHI.IGraphicsDevice.IsClipSpaceYInverted
   - Orama.RHI.IGraphicsDevice.ResizeSwapchain(System.UInt32,System.UInt32)
   - Orama.RHI.IGraphicsDevice.ResourceFactory
   - Orama.RHI.IGraphicsDevice.SubmitCommands(Orama.RHI.ICommandBuffer)
@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IGraphicsDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IGraphicsDevice
     path: ../Orama/Orama.RHI/IGraphicsDevice.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IGraphicsDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: VulkanInfo
     path: ../Orama/Orama.RHI/IGraphicsDevice.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IGraphicsDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CurrentFrame
     path: ../Orama/Orama.RHI/IGraphicsDevice.cs
@@ -102,37 +102,37 @@ items:
       type: System.UInt64
     content.vb: Property CurrentFrame As ULong
   overload: Orama.RHI.IGraphicsDevice.CurrentFrame*
-- uid: Orama.RHI.IGraphicsDevice.IsClipSpaceYInverted
-  commentId: P:Orama.RHI.IGraphicsDevice.IsClipSpaceYInverted
-  id: IsClipSpaceYInverted
+- uid: Orama.RHI.IGraphicsDevice.Features
+  commentId: P:Orama.RHI.IGraphicsDevice.Features
+  id: Features
   parent: Orama.RHI.IGraphicsDevice
   langs:
   - csharp
   - vb
-  name: IsClipSpaceYInverted
-  nameWithType: IGraphicsDevice.IsClipSpaceYInverted
-  fullName: Orama.RHI.IGraphicsDevice.IsClipSpaceYInverted
+  name: Features
+  nameWithType: IGraphicsDevice.Features
+  fullName: Orama.RHI.IGraphicsDevice.Features
   type: Property
   source:
     remote:
       path: Orama.RHI/IGraphicsDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
-    id: IsClipSpaceYInverted
+    id: Features
     path: ../Orama/Orama.RHI/IGraphicsDevice.cs
     startLine: 22
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI
-  summary: Whether the Y axis is inverted in clip space for this <xref href="Orama.RHI.IGraphicsDevice" data-throw-if-not-resolved="false"></xref>.
+  summary: Unique features of this <xref href="Orama.RHI.IGraphicsDevice" data-throw-if-not-resolved="false"></xref> implementation.
   example: []
   syntax:
-    content: bool IsClipSpaceYInverted { get; }
+    content: DeviceFeatures Features { get; }
     parameters: []
     return:
-      type: System.Boolean
-    content.vb: ReadOnly Property IsClipSpaceYInverted As Boolean
-  overload: Orama.RHI.IGraphicsDevice.IsClipSpaceYInverted*
+      type: Orama.RHI.DeviceFeatures
+    content.vb: ReadOnly Property Features As DeviceFeatures
+  overload: Orama.RHI.IGraphicsDevice.Features*
 - uid: Orama.RHI.IGraphicsDevice.SwapchainFramebuffer
   commentId: P:Orama.RHI.IGraphicsDevice.SwapchainFramebuffer
   id: SwapchainFramebuffer
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IGraphicsDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SwapchainFramebuffer
     path: ../Orama/Orama.RHI/IGraphicsDevice.cs
@@ -178,7 +178,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IGraphicsDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceFactory
     path: ../Orama/Orama.RHI/IGraphicsDevice.cs
@@ -209,7 +209,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IGraphicsDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Orama.RHI/IGraphicsDevice.cs
@@ -240,7 +240,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IGraphicsDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SubmitCommands
     path: ../Orama/Orama.RHI/IGraphicsDevice.cs
@@ -271,7 +271,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IGraphicsDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SwapBuffers
     path: ../Orama/Orama.RHI/IGraphicsDevice.cs
@@ -299,7 +299,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IGraphicsDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ResizeSwapchain
     path: ../Orama/Orama.RHI/IGraphicsDevice.cs
@@ -335,7 +335,7 @@ items:
   source:
     remote:
       path: Orama.RHI/IGraphicsDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: UpdateBuffer
     path: ../Orama/Orama.RHI/IGraphicsDevice.cs
@@ -497,23 +497,19 @@ references:
   name: IGraphicsDevice
   nameWithType: IGraphicsDevice
   fullName: Orama.RHI.IGraphicsDevice
-- uid: Orama.RHI.IGraphicsDevice.IsClipSpaceYInverted*
-  commentId: Overload:Orama.RHI.IGraphicsDevice.IsClipSpaceYInverted
-  href: Orama.RHI.IGraphicsDevice.html#Orama_RHI_IGraphicsDevice_IsClipSpaceYInverted
-  name: IsClipSpaceYInverted
-  nameWithType: IGraphicsDevice.IsClipSpaceYInverted
-  fullName: Orama.RHI.IGraphicsDevice.IsClipSpaceYInverted
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+- uid: Orama.RHI.IGraphicsDevice.Features*
+  commentId: Overload:Orama.RHI.IGraphicsDevice.Features
+  href: Orama.RHI.IGraphicsDevice.html#Orama_RHI_IGraphicsDevice_Features
+  name: Features
+  nameWithType: IGraphicsDevice.Features
+  fullName: Orama.RHI.IGraphicsDevice.Features
+- uid: Orama.RHI.DeviceFeatures
+  commentId: T:Orama.RHI.DeviceFeatures
+  parent: Orama.RHI
+  href: Orama.RHI.DeviceFeatures.html
+  name: DeviceFeatures
+  nameWithType: DeviceFeatures
+  fullName: Orama.RHI.DeviceFeatures
 - uid: Orama.RHI.Resources.IFramebuffer
   commentId: T:Orama.RHI.Resources.IFramebuffer
   parent: Orama.RHI.Resources

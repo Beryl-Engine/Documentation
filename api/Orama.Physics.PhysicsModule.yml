@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/PhysicsModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: PhysicsModule
     path: ../Orama/Modules/Orama.Physics/PhysicsModule.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/PhysicsModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: World
     path: ../Orama/Modules/Orama.Physics/PhysicsModule.cs
@@ -89,7 +89,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/PhysicsModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.Physics/PhysicsModule.cs
@@ -118,7 +118,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/PhysicsModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Physics/PhysicsModule.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Physics/PhysicsModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Physics/PhysicsModule.cs

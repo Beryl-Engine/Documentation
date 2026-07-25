@@ -5,7 +5,7 @@ items:
   id: RenderItem
   parent: Orama.Rendering.Resources
   children:
-  - Orama.Rendering.Resources.RenderItem.#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.RHI.Resources.IPipeline)
+  - Orama.Rendering.Resources.RenderItem.#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.Rendering.Resources.FrameCountedResource{Orama.RHI.Resources.IPipeline})
   - Orama.Rendering.Resources.RenderItem.Dispose
   - Orama.Rendering.Resources.RenderItem.IndexBuffer
   - Orama.Rendering.Resources.RenderItem.IndexCount
@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RenderItem
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: VertexBuffer
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
@@ -88,7 +88,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IndexBuffer
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
@@ -117,7 +117,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IndexCount
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
@@ -146,7 +146,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Pipeline
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
@@ -155,27 +155,27 @@ items:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
   syntax:
-    content: public IPipeline Pipeline { get; }
+    content: public FrameCountedResource<IPipeline> Pipeline { get; }
     parameters: []
     return:
-      type: Orama.RHI.Resources.IPipeline
-    content.vb: Public ReadOnly Property Pipeline As IPipeline
+      type: Orama.Rendering.Resources.FrameCountedResource{Orama.RHI.Resources.IPipeline}
+    content.vb: Public ReadOnly Property Pipeline As FrameCountedResource(Of IPipeline)
   overload: Orama.Rendering.Resources.RenderItem.Pipeline*
-- uid: Orama.Rendering.Resources.RenderItem.#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.RHI.Resources.IPipeline)
-  commentId: M:Orama.Rendering.Resources.RenderItem.#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.RHI.Resources.IPipeline)
-  id: '#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.RHI.Resources.IPipeline)'
+- uid: Orama.Rendering.Resources.RenderItem.#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.Rendering.Resources.FrameCountedResource{Orama.RHI.Resources.IPipeline})
+  commentId: M:Orama.Rendering.Resources.RenderItem.#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.Rendering.Resources.FrameCountedResource{Orama.RHI.Resources.IPipeline})
+  id: '#ctor(Orama.RHI.Resources.IBuffer,Orama.RHI.Resources.IBuffer,System.UInt32,Orama.Rendering.Resources.FrameCountedResource{Orama.RHI.Resources.IPipeline})'
   parent: Orama.Rendering.Resources.RenderItem
   langs:
   - csharp
   - vb
-  name: RenderItem(IBuffer, IBuffer, uint, IPipeline)
-  nameWithType: RenderItem.RenderItem(IBuffer, IBuffer, uint, IPipeline)
-  fullName: Orama.Rendering.Resources.RenderItem.RenderItem(Orama.RHI.Resources.IBuffer, Orama.RHI.Resources.IBuffer, uint, Orama.RHI.Resources.IPipeline)
+  name: RenderItem(IBuffer, IBuffer, uint, FrameCountedResource<IPipeline>)
+  nameWithType: RenderItem.RenderItem(IBuffer, IBuffer, uint, FrameCountedResource<IPipeline>)
+  fullName: Orama.Rendering.Resources.RenderItem.RenderItem(Orama.RHI.Resources.IBuffer, Orama.RHI.Resources.IBuffer, uint, Orama.Rendering.Resources.FrameCountedResource<Orama.RHI.Resources.IPipeline>)
   type: Constructor
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
@@ -184,7 +184,7 @@ items:
   - Orama.Rendering
   namespace: Orama.Rendering.Resources
   syntax:
-    content: public RenderItem(IBuffer vertexBuffer, IBuffer indexBuffer, uint indexCount, IPipeline pipeline)
+    content: public RenderItem(IBuffer vertexBuffer, IBuffer indexBuffer, uint indexCount, FrameCountedResource<IPipeline> pipeline)
     parameters:
     - id: vertexBuffer
       type: Orama.RHI.Resources.IBuffer
@@ -193,12 +193,12 @@ items:
     - id: indexCount
       type: System.UInt32
     - id: pipeline
-      type: Orama.RHI.Resources.IPipeline
-    content.vb: Public Sub New(vertexBuffer As IBuffer, indexBuffer As IBuffer, indexCount As UInteger, pipeline As IPipeline)
+      type: Orama.Rendering.Resources.FrameCountedResource{Orama.RHI.Resources.IPipeline}
+    content.vb: Public Sub New(vertexBuffer As IBuffer, indexBuffer As IBuffer, indexCount As UInteger, pipeline As FrameCountedResource(Of IPipeline))
   overload: Orama.Rendering.Resources.RenderItem.#ctor*
-  nameWithType.vb: RenderItem.New(IBuffer, IBuffer, UInteger, IPipeline)
-  fullName.vb: Orama.Rendering.Resources.RenderItem.New(Orama.RHI.Resources.IBuffer, Orama.RHI.Resources.IBuffer, UInteger, Orama.RHI.Resources.IPipeline)
-  name.vb: New(IBuffer, IBuffer, UInteger, IPipeline)
+  nameWithType.vb: RenderItem.New(IBuffer, IBuffer, UInteger, FrameCountedResource(Of IPipeline))
+  fullName.vb: Orama.Rendering.Resources.RenderItem.New(Orama.RHI.Resources.IBuffer, Orama.RHI.Resources.IBuffer, UInteger, Orama.Rendering.Resources.FrameCountedResource(Of Orama.RHI.Resources.IPipeline))
+  name.vb: New(IBuffer, IBuffer, UInteger, FrameCountedResource(Of IPipeline))
 - uid: Orama.Rendering.Resources.RenderItem.Dispose
   commentId: M:Orama.Rendering.Resources.RenderItem.Dispose
   id: Dispose
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
@@ -553,16 +553,65 @@ references:
   name: Pipeline
   nameWithType: RenderItem.Pipeline
   fullName: Orama.Rendering.Resources.RenderItem.Pipeline
-- uid: Orama.RHI.Resources.IPipeline
-  commentId: T:Orama.RHI.Resources.IPipeline
-  parent: Orama.RHI.Resources
-  href: Orama.RHI.Resources.IPipeline.html
-  name: IPipeline
-  nameWithType: IPipeline
-  fullName: Orama.RHI.Resources.IPipeline
+- uid: Orama.Rendering.Resources.FrameCountedResource{Orama.RHI.Resources.IPipeline}
+  commentId: T:Orama.Rendering.Resources.FrameCountedResource{Orama.RHI.Resources.IPipeline}
+  parent: Orama.Rendering.Resources
+  definition: Orama.Rendering.Resources.FrameCountedResource`1
+  href: Orama.Rendering.Resources.FrameCountedResource-1.html
+  name: FrameCountedResource<IPipeline>
+  nameWithType: FrameCountedResource<IPipeline>
+  fullName: Orama.Rendering.Resources.FrameCountedResource<Orama.RHI.Resources.IPipeline>
+  nameWithType.vb: FrameCountedResource(Of IPipeline)
+  fullName.vb: Orama.Rendering.Resources.FrameCountedResource(Of Orama.RHI.Resources.IPipeline)
+  name.vb: FrameCountedResource(Of IPipeline)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.FrameCountedResource`1
+    name: FrameCountedResource
+    href: Orama.Rendering.Resources.FrameCountedResource-1.html
+  - name: <
+  - uid: Orama.RHI.Resources.IPipeline
+    name: IPipeline
+    href: Orama.RHI.Resources.IPipeline.html
+  - name: '>'
+  spec.vb:
+  - uid: Orama.Rendering.Resources.FrameCountedResource`1
+    name: FrameCountedResource
+    href: Orama.Rendering.Resources.FrameCountedResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Orama.RHI.Resources.IPipeline
+    name: IPipeline
+    href: Orama.RHI.Resources.IPipeline.html
+  - name: )
+- uid: Orama.Rendering.Resources.FrameCountedResource`1
+  commentId: T:Orama.Rendering.Resources.FrameCountedResource`1
+  href: Orama.Rendering.Resources.FrameCountedResource-1.html
+  name: FrameCountedResource<T>
+  nameWithType: FrameCountedResource<T>
+  fullName: Orama.Rendering.Resources.FrameCountedResource<T>
+  nameWithType.vb: FrameCountedResource(Of T)
+  fullName.vb: Orama.Rendering.Resources.FrameCountedResource(Of T)
+  name.vb: FrameCountedResource(Of T)
+  spec.csharp:
+  - uid: Orama.Rendering.Resources.FrameCountedResource`1
+    name: FrameCountedResource
+    href: Orama.Rendering.Resources.FrameCountedResource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Orama.Rendering.Resources.FrameCountedResource`1
+    name: FrameCountedResource
+    href: Orama.Rendering.Resources.FrameCountedResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
 - uid: Orama.Rendering.Resources.RenderItem.#ctor*
   commentId: Overload:Orama.Rendering.Resources.RenderItem.#ctor
-  href: Orama.Rendering.Resources.RenderItem.html#Orama_Rendering_Resources_RenderItem__ctor_Orama_RHI_Resources_IBuffer_Orama_RHI_Resources_IBuffer_System_UInt32_Orama_RHI_Resources_IPipeline_
+  href: Orama.Rendering.Resources.RenderItem.html#Orama_Rendering_Resources_RenderItem__ctor_Orama_RHI_Resources_IBuffer_Orama_RHI_Resources_IBuffer_System_UInt32_Orama_Rendering_Resources_FrameCountedResource_Orama_RHI_Resources_IPipeline__
   name: RenderItem
   nameWithType: RenderItem.RenderItem
   fullName: Orama.Rendering.Resources.RenderItem.RenderItem

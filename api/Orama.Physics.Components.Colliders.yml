@@ -20,6 +20,7 @@ items:
 references:
 - uid: Orama.Physics.Components.Colliders.BoxCollider
   commentId: T:Orama.Physics.Components.Colliders.BoxCollider
+  parent: Orama.Physics.Components.Colliders
   href: Orama.Physics.Components.Colliders.BoxCollider.html
   name: BoxCollider
   nameWithType: BoxCollider

@@ -17,11 +17,11 @@ items:
   source:
     remote:
       path: Orama.RHI/GraphicsDeviceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GraphicsDeviceFactory
     path: ../Orama/Orama.RHI/GraphicsDeviceFactory.cs
-    startLine: 10
+    startLine: 11
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI
@@ -54,11 +54,11 @@ items:
   source:
     remote:
       path: Orama.RHI/GraphicsDeviceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IsBackendSupported
     path: ../Orama/Orama.RHI/GraphicsDeviceFactory.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI
@@ -87,11 +87,11 @@ items:
   source:
     remote:
       path: Orama.RHI/GraphicsDeviceFactory.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Create
     path: ../Orama/Orama.RHI/GraphicsDeviceFactory.cs
-    startLine: 21
+    startLine: 22
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI

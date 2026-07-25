@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ShaderBaker
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SlangToSpirV
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs

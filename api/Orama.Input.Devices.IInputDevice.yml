@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/IInputDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IInputDevice
     path: ../Orama/Modules/Orama.Input/Devices/IInputDevice.cs
@@ -48,7 +48,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Input/Devices/IInputDevice.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Input/Devices/IInputDevice.cs

@@ -6,12 +6,14 @@ items:
   parent: Orama
   children:
   - Orama.RHI.CullingMode
+  - Orama.RHI.DeviceFeatures
   - Orama.RHI.GraphicsDeviceFactory
   - Orama.RHI.ICommandBuffer
   - Orama.RHI.IGraphicsDevice
   - Orama.RHI.IResourceFactory
   - Orama.RHI.RendererBackend
   - Orama.RHI.Resources
+  - Orama.RHI.VulkanBackend
   - Orama.RHI.VulkanInfo
   langs:
   - csharp
@@ -53,6 +55,36 @@ references:
   - uid: Orama.RHI.Resources
     name: Resources
     href: Orama.RHI.Resources.html
+- uid: Orama.RHI.VulkanBackend
+  commentId: N:Orama.RHI.VulkanBackend
+  href: Orama.html
+  name: Orama.RHI.VulkanBackend
+  nameWithType: Orama.RHI.VulkanBackend
+  fullName: Orama.RHI.VulkanBackend
+  spec.csharp:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.VulkanBackend
+    name: VulkanBackend
+    href: Orama.RHI.VulkanBackend.html
+  spec.vb:
+  - uid: Orama
+    name: Orama
+    href: Orama.html
+  - name: .
+  - uid: Orama.RHI
+    name: RHI
+    href: Orama.RHI.html
+  - name: .
+  - uid: Orama.RHI.VulkanBackend
+    name: VulkanBackend
+    href: Orama.RHI.VulkanBackend.html
 - uid: Orama.RHI.CullingMode
   commentId: T:Orama.RHI.CullingMode
   parent: Orama.RHI
@@ -60,6 +92,13 @@ references:
   name: CullingMode
   nameWithType: CullingMode
   fullName: Orama.RHI.CullingMode
+- uid: Orama.RHI.DeviceFeatures
+  commentId: T:Orama.RHI.DeviceFeatures
+  parent: Orama.RHI
+  href: Orama.RHI.DeviceFeatures.html
+  name: DeviceFeatures
+  nameWithType: DeviceFeatures
+  fullName: Orama.RHI.DeviceFeatures
 - uid: Orama.RHI.GraphicsDeviceFactory
   commentId: T:Orama.RHI.GraphicsDeviceFactory
   href: Orama.RHI.GraphicsDeviceFactory.html

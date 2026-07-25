@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Component
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Enabled
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
@@ -96,7 +96,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Entity
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
@@ -127,7 +127,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Start
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
@@ -155,7 +155,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
@@ -183,7 +183,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/Components/Component.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
     path: ../Orama/Modules/Orama.Scenes/Components/Component.cs

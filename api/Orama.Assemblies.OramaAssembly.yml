@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: OramaAssembly
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Path
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
@@ -90,7 +90,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Assembly
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
@@ -121,7 +121,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Unloaded
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Types
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
@@ -182,7 +182,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: AssemblyLoadDelegates
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
@@ -214,7 +214,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: TryUnload
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
@@ -245,7 +245,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ToString
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
@@ -277,7 +277,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Implicit
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs
@@ -311,7 +311,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/OramaAssembly.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: op_Implicit
     path: ../Orama/Modules/Orama.Assemblies/OramaAssembly.cs

@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/Forward/ForwardRenderPipeline.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ForwardRenderPipeline
     path: ../Orama/Modules/Orama.Rendering/Pipelines/Forward/ForwardRenderPipeline.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Pipelines/Forward/ForwardRenderPipeline.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Passes
     path: ../Orama/Modules/Orama.Rendering/Pipelines/Forward/ForwardRenderPipeline.cs

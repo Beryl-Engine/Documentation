@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/Reflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Reflection
     path: ../Orama/Modules/Orama.Assemblies/Reflection.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Assemblies/Reflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GameAssemblies
     path: ../Orama/Modules/Orama.Assemblies/Reflection.cs

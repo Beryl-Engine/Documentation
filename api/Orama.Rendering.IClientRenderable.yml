@@ -8,7 +8,6 @@ items:
   - Orama.Rendering.IClientRenderable.Indices
   - Orama.Rendering.IClientRenderable.Material
   - Orama.Rendering.IClientRenderable.Normals
-  - Orama.Rendering.IClientRenderable.Transform
   - Orama.Rendering.IClientRenderable.UVs
   - Orama.Rendering.IClientRenderable.Vertices
   langs:
@@ -21,7 +20,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/IClientRenderable.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: IClientRenderable
     path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
@@ -35,36 +34,7 @@ items:
     content: public interface IClientRenderable
     content.vb: Public Interface IClientRenderable
   derivedClasses:
-  - Orama.Rendering.Components.MeshRenderer
-- uid: Orama.Rendering.IClientRenderable.Transform
-  commentId: P:Orama.Rendering.IClientRenderable.Transform
-  id: Transform
-  parent: Orama.Rendering.IClientRenderable
-  langs:
-  - csharp
-  - vb
-  name: Transform
-  nameWithType: IClientRenderable.Transform
-  fullName: Orama.Rendering.IClientRenderable.Transform
-  type: Property
-  source:
-    remote:
-      path: Modules/Orama.Rendering/IClientRenderable.cs
-      branch: main
-      repo: https://github.com/Orama-Engine/Orama.git
-    id: Transform
-    path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
-    startLine: 13
-  assemblies:
-  - Orama.Rendering
-  namespace: Orama.Rendering
-  syntax:
-    content: Matrix4x4 Transform { get; }
-    parameters: []
-    return:
-      type: Orama.Math.Matrix4x4
-    content.vb: ReadOnly Property Transform As Matrix4x4
-  overload: Orama.Rendering.IClientRenderable.Transform*
+  - Orama.Rendering.Resources.Mesh
 - uid: Orama.Rendering.IClientRenderable.Vertices
   commentId: P:Orama.Rendering.IClientRenderable.Vertices
   id: Vertices
@@ -79,11 +49,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/IClientRenderable.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Vertices
     path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
-    startLine: 14
+    startLine: 13
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -108,11 +78,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/IClientRenderable.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Normals
     path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
-    startLine: 15
+    startLine: 14
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -137,11 +107,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/IClientRenderable.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: UVs
     path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
-    startLine: 16
+    startLine: 15
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -166,11 +136,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/IClientRenderable.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Indices
     path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
-    startLine: 17
+    startLine: 16
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -195,11 +165,11 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/IClientRenderable.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Material
     path: ../Orama/Modules/Orama.Rendering/IClientRenderable.cs
-    startLine: 18
+    startLine: 17
   assemblies:
   - Orama.Rendering
   namespace: Orama.Rendering
@@ -233,41 +203,6 @@ references:
   - uid: Orama.Rendering
     name: Rendering
     href: Orama.Rendering.html
-- uid: Orama.Rendering.IClientRenderable.Transform*
-  commentId: Overload:Orama.Rendering.IClientRenderable.Transform
-  href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_Transform
-  name: Transform
-  nameWithType: IClientRenderable.Transform
-  fullName: Orama.Rendering.IClientRenderable.Transform
-- uid: Orama.Math.Matrix4x4
-  commentId: T:Orama.Math.Matrix4x4
-  parent: Orama.Math
-  href: Orama.Math.Matrix4x4.html
-  name: Matrix4x4
-  nameWithType: Matrix4x4
-  fullName: Orama.Math.Matrix4x4
-- uid: Orama.Math
-  commentId: N:Orama.Math
-  href: Orama.html
-  name: Orama.Math
-  nameWithType: Orama.Math
-  fullName: Orama.Math
-  spec.csharp:
-  - uid: Orama
-    name: Orama
-    href: Orama.html
-  - name: .
-  - uid: Orama.Math
-    name: Math
-    href: Orama.Math.html
-  spec.vb:
-  - uid: Orama
-    name: Orama
-    href: Orama.html
-  - name: .
-  - uid: Orama.Math
-    name: Math
-    href: Orama.Math.html
 - uid: Orama.Rendering.IClientRenderable.Vertices*
   commentId: Overload:Orama.Rendering.IClientRenderable.Vertices
   href: Orama.Rendering.IClientRenderable.html#Orama_Rendering_IClientRenderable_Vertices

@@ -19,11 +19,11 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceDescriptor
     path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
-    startLine: 137
+    startLine: 147
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI.Resources
@@ -52,11 +52,11 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
-    startLine: 137
+    startLine: 147
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI.Resources
@@ -86,11 +86,11 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Layout
     path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
-    startLine: 139
+    startLine: 149
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI.Resources
@@ -113,11 +113,11 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: BoundResources
     path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
-    startLine: 140
+    startLine: 150
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI.Resources
@@ -140,11 +140,11 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
     path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
-    startLine: 143
+    startLine: 153
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI.Resources

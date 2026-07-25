@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RendererOptions.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: RendererOptions
     path: ../Orama/Modules/Orama.Rendering/RendererOptions.cs
@@ -48,7 +48,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/RendererOptions.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Culling
     path: ../Orama/Modules/Orama.Rendering/RendererOptions.cs

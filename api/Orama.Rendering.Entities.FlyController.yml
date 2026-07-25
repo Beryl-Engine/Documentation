@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Entities/FlyController.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: FlyController
     path: ../Orama/Modules/Orama.Rendering/Entities/FlyController.cs
@@ -76,7 +76,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Entities/FlyController.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Camera
     path: ../Orama/Modules/Orama.Rendering/Entities/FlyController.cs
@@ -105,7 +105,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Entities/FlyController.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Rendering/Entities/FlyController.cs

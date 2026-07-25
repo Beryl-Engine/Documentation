@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ShaderParameter
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Name
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
@@ -84,7 +84,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Type
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: DefaultValue
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs

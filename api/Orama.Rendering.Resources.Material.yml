@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Material
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Shader
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
@@ -91,7 +91,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Default
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
@@ -122,7 +122,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
@@ -156,7 +156,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SetProperty
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
@@ -194,7 +194,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: GetProperty
     path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs

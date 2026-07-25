@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SlangCompilationResult
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: VertexBytes
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: FragmentBytes
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
@@ -116,7 +116,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ShaderAttributes
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
@@ -154,7 +154,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: ShaderParameters
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
@@ -185,7 +185,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Resources
     path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs

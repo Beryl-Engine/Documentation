@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/SceneModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: SceneModule
     path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/SceneModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: CurrentScene
     path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
@@ -91,7 +91,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/SceneModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
     path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
@@ -120,7 +120,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/SceneModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
     path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: Modules/Orama.Scenes/SceneModule.cs
-      branch: main
+      branch: vulkan
       repo: https://github.com/Orama-Engine/Orama.git
     id: Update
     path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
