@@ -14,3 +14,11 @@
       href: shaders/intro.md
     - name: Shader Authoring
       href: shaders/authoring.md
+- name: Contributing
+  items:
+    - name: Getting Involved
+      href: contributing/getting-involved.md
+    - name: Contributing Code
+      href: contributing/contributing-code.md
+    - name: Contributing Documentation
+      href: contributing/contributing-documentation.md
