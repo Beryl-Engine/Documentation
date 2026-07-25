@@ -17,12 +17,8 @@ items:
   fullName: Orama.Rendering.Entities.DebugEntity
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/Entities/DebugEntity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: DebugEntity
-    path: ../Orama/Modules/Orama.Rendering/Entities/DebugEntity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Entities\DebugEntity.cs
     startLine: 16
   assemblies:
   - Orama.Rendering
@@ -78,12 +74,8 @@ items:
   fullName: Orama.Rendering.Entities.DebugEntity.Renderer
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Entities/DebugEntity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Renderer
-    path: ../Orama/Modules/Orama.Rendering/Entities/DebugEntity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Entities\DebugEntity.cs
     startLine: 19
   assemblies:
   - Orama.Rendering
@@ -107,12 +99,8 @@ items:
   fullName: Orama.Rendering.Entities.DebugEntity.RigidBody
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Entities/DebugEntity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RigidBody
-    path: ../Orama/Modules/Orama.Rendering/Entities/DebugEntity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Entities\DebugEntity.cs
     startLine: 22
   assemblies:
   - Orama.Rendering
@@ -136,12 +124,8 @@ items:
   fullName: Orama.Rendering.Entities.DebugEntity.Collider
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Entities/DebugEntity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Collider
-    path: ../Orama/Modules/Orama.Rendering/Entities/DebugEntity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Entities\DebugEntity.cs
     startLine: 25
   assemblies:
   - Orama.Rendering
@@ -165,12 +149,8 @@ items:
   fullName: Orama.Rendering.Entities.DebugEntity.Start()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Entities/DebugEntity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Start
-    path: ../Orama/Modules/Orama.Rendering/Entities/DebugEntity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Entities\DebugEntity.cs
     startLine: 29
   assemblies:
   - Orama.Rendering

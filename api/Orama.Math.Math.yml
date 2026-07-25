@@ -27,12 +27,8 @@ items:
   fullName: Orama.Math.Math
   type: Class
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Math
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 14
   assemblies:
   - Orama.Math
@@ -65,12 +61,8 @@ items:
   fullName: Orama.Math.Math.PI
   type: Property
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: PI
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 17
   assemblies:
   - Orama.Math
@@ -96,12 +88,8 @@ items:
   fullName: Orama.Math.Math.Min<T>(T, T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Min
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 20
   assemblies:
   - Orama.Math
@@ -136,12 +124,8 @@ items:
   fullName: Orama.Math.Math.Max<T>(T, T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Max
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 24
   assemblies:
   - Orama.Math
@@ -176,12 +160,8 @@ items:
   fullName: Orama.Math.Math.Abs<T>(T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Abs
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 28
   assemblies:
   - Orama.Math
@@ -214,12 +194,8 @@ items:
   fullName: Orama.Math.Math.Clamp<T>(T, T, T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Clamp
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 32
   assemblies:
   - Orama.Math
@@ -256,12 +232,8 @@ items:
   fullName: Orama.Math.Math.Sin<T>(T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Sin
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 36
   assemblies:
   - Orama.Math
@@ -294,12 +266,8 @@ items:
   fullName: Orama.Math.Math.Cos<T>(T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Cos
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 40
   assemblies:
   - Orama.Math
@@ -332,12 +300,8 @@ items:
   fullName: Orama.Math.Math.Tan<T>(T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Tan
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 44
   assemblies:
   - Orama.Math
@@ -370,12 +334,8 @@ items:
   fullName: Orama.Math.Math.ATan<T>(T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ATan
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 48
   assemblies:
   - Orama.Math
@@ -408,12 +368,8 @@ items:
   fullName: Orama.Math.Math.ATan2<T>(T, T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ATan2
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 53
   assemblies:
   - Orama.Math
@@ -449,12 +405,8 @@ items:
   fullName: Orama.Math.Math.Sqrt<T>(T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Sqrt
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 57
   assemblies:
   - Orama.Math
@@ -487,12 +439,8 @@ items:
   fullName: Orama.Math.Math.ISqrt<T>(T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ISqrt
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 62
   assemblies:
   - Orama.Math
@@ -526,12 +474,8 @@ items:
   fullName: Orama.Math.Math.Asin<T>(T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Asin
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 82
   assemblies:
   - Orama.Math
@@ -564,12 +508,8 @@ items:
   fullName: Orama.Math.Math.CopySign<T>(T, T)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Math.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CopySign
-    path: ../Orama/Orama.Math/Math.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Math.cs
     startLine: 86
   assemblies:
   - Orama.Math

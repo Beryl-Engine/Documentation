@@ -22,12 +22,8 @@ items:
   fullName: Orama.Rendering.Resources.Texture
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Texture
-    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Texture.cs
     startLine: 13
   assemblies:
   - Orama.Rendering
@@ -59,12 +55,8 @@ items:
   fullName: Orama.Rendering.Resources.Texture.Format
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Format
-    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Texture.cs
     startLine: 15
   assemblies:
   - Orama.Rendering
@@ -88,12 +80,8 @@ items:
   fullName: Orama.Rendering.Resources.Texture.Width
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Width
-    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Texture.cs
     startLine: 17
   assemblies:
   - Orama.Rendering
@@ -117,12 +105,8 @@ items:
   fullName: Orama.Rendering.Resources.Texture.Height
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Height
-    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Texture.cs
     startLine: 18
   assemblies:
   - Orama.Rendering
@@ -146,12 +130,8 @@ items:
   fullName: Orama.Rendering.Resources.Texture.Data
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Data
-    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Texture.cs
     startLine: 20
   assemblies:
   - Orama.Rendering
@@ -175,12 +155,8 @@ items:
   fullName: Orama.Rendering.Resources.Texture.Sampler
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Sampler
-    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Texture.cs
     startLine: 23
   assemblies:
   - Orama.Rendering
@@ -206,12 +182,8 @@ items:
   fullName: Orama.Rendering.Resources.Texture.Texture(int, int, Orama.RHI.Resources.TextureFormat, byte[]?, Orama.RHI.Resources.Sampler)
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Texture.cs
     startLine: 30
   assemblies:
   - Orama.Rendering
@@ -252,12 +224,8 @@ items:
   fullName: Orama.Rendering.Resources.Texture.SetData(byte[])
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SetData
-    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Texture.cs
     startLine: 42
   assemblies:
   - Orama.Rendering
@@ -287,12 +255,8 @@ items:
   fullName: Orama.Rendering.Resources.Texture.GetData()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetData
-    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Texture.cs
     startLine: 51
   assemblies:
   - Orama.Rendering
@@ -317,12 +281,8 @@ items:
   fullName: Orama.Rendering.Resources.Texture.Clear(byte, byte, byte, byte)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Texture.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Clear
-    path: ../Orama/Modules/Orama.Rendering/Resources/Texture.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Texture.cs
     startLine: 59
   assemblies:
   - Orama.Rendering

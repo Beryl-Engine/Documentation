@@ -15,13 +15,9 @@ items:
   fullName: Orama.RHI.GraphicsDeviceFactory
   type: Class
   source:
-    remote:
-      path: Orama.RHI/GraphicsDeviceFactory.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GraphicsDeviceFactory
-    path: ../Orama/Orama.RHI/GraphicsDeviceFactory.cs
-    startLine: 11
+    path: E:\Orama\Documentation\Orama\Orama.RHI\GraphicsDeviceFactory.cs
+    startLine: 10
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI
@@ -52,13 +48,9 @@ items:
   fullName: Orama.RHI.GraphicsDeviceFactory.IsBackendSupported(Orama.RHI.RendererBackend)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/GraphicsDeviceFactory.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IsBackendSupported
-    path: ../Orama/Orama.RHI/GraphicsDeviceFactory.cs
-    startLine: 14
+    path: E:\Orama\Documentation\Orama\Orama.RHI\GraphicsDeviceFactory.cs
+    startLine: 13
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI
@@ -85,13 +77,9 @@ items:
   fullName: Orama.RHI.GraphicsDeviceFactory.Create(Orama.RHI.RendererBackend)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/GraphicsDeviceFactory.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Create
-    path: ../Orama/Orama.RHI/GraphicsDeviceFactory.cs
-    startLine: 22
+    path: E:\Orama\Documentation\Orama\Orama.RHI\GraphicsDeviceFactory.cs
+    startLine: 21
   assemblies:
   - Orama.RHI
   namespace: Orama.RHI

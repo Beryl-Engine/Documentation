@@ -17,12 +17,8 @@ items:
   fullName: Orama.Assemblies.AssemblyModule
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Assemblies/AssemblyModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AssemblyModule
-    path: ../Orama/Modules/Orama.Assemblies/AssemblyModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Assemblies\AssemblyModule.cs
     startLine: 12
   assemblies:
   - Orama.Assemblies
@@ -58,12 +54,8 @@ items:
   fullName: Orama.Assemblies.AssemblyModule.Dispose()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Assemblies/AssemblyModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
-    path: ../Orama/Modules/Orama.Assemblies/AssemblyModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Assemblies\AssemblyModule.cs
     startLine: 15
   assemblies:
   - Orama.Assemblies
@@ -88,12 +80,8 @@ items:
   fullName: Orama.Assemblies.AssemblyModule.Initialize()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Assemblies/AssemblyModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
-    path: ../Orama/Modules/Orama.Assemblies/AssemblyModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Assemblies\AssemblyModule.cs
     startLine: 23
   assemblies:
   - Orama.Assemblies
@@ -117,12 +105,8 @@ items:
   fullName: Orama.Assemblies.AssemblyModule.LoadFromPath(string)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Assemblies/AssemblyModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: LoadFromPath
-    path: ../Orama/Modules/Orama.Assemblies/AssemblyModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Assemblies\AssemblyModule.cs
     startLine: 30
   assemblies:
   - Orama.Assemblies
@@ -153,12 +137,8 @@ items:
   fullName: Orama.Assemblies.AssemblyModule.UnloadAll()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Assemblies/AssemblyModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: UnloadAll
-    path: ../Orama/Modules/Orama.Assemblies/AssemblyModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Assemblies\AssemblyModule.cs
     startLine: 47
   assemblies:
   - Orama.Assemblies

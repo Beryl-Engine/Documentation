@@ -19,12 +19,8 @@ items:
   fullName: Orama.Rendering.Resources.RenderItem
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RenderItem
-    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\RenderItem.cs
     startLine: 10
   assemblies:
   - Orama.Rendering
@@ -57,12 +53,8 @@ items:
   fullName: Orama.Rendering.Resources.RenderItem.VertexBuffer
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: VertexBuffer
-    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\RenderItem.cs
     startLine: 12
   assemblies:
   - Orama.Rendering
@@ -86,12 +78,8 @@ items:
   fullName: Orama.Rendering.Resources.RenderItem.IndexBuffer
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IndexBuffer
-    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\RenderItem.cs
     startLine: 13
   assemblies:
   - Orama.Rendering
@@ -115,12 +103,8 @@ items:
   fullName: Orama.Rendering.Resources.RenderItem.IndexCount
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IndexCount
-    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\RenderItem.cs
     startLine: 14
   assemblies:
   - Orama.Rendering
@@ -144,12 +128,8 @@ items:
   fullName: Orama.Rendering.Resources.RenderItem.Pipeline
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Pipeline
-    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\RenderItem.cs
     startLine: 15
   assemblies:
   - Orama.Rendering
@@ -173,12 +153,8 @@ items:
   fullName: Orama.Rendering.Resources.RenderItem.RenderItem(Orama.RHI.Resources.IBuffer, Orama.RHI.Resources.IBuffer, uint, Orama.Rendering.Resources.FrameCountedResource<Orama.RHI.Resources.IPipeline>)
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\RenderItem.cs
     startLine: 17
   assemblies:
   - Orama.Rendering
@@ -211,12 +187,8 @@ items:
   fullName: Orama.Rendering.Resources.RenderItem.Dispose()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/RenderItem.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
-    path: ../Orama/Modules/Orama.Rendering/Resources/RenderItem.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\RenderItem.cs
     startLine: 26
   assemblies:
   - Orama.Rendering

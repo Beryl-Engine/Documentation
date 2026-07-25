@@ -20,12 +20,8 @@ items:
   fullName: Orama.Common.Window
   type: Class
   source:
-    remote:
-      path: Orama.Common/Window.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Window
-    path: ../Orama/Orama.Common/Window.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Window.cs
     startLine: 12
   assemblies:
   - Orama.Common
@@ -57,12 +53,8 @@ items:
   fullName: Orama.Common.Window.InternalWindow
   type: Property
   source:
-    remote:
-      path: Orama.Common/Window.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: InternalWindow
-    path: ../Orama/Orama.Common/Window.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Window.cs
     startLine: 15
   assemblies:
   - Orama.Common
@@ -88,12 +80,8 @@ items:
   fullName: Orama.Common.Window.Size
   type: Property
   source:
-    remote:
-      path: Orama.Common/Window.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Size
-    path: ../Orama/Orama.Common/Window.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Window.cs
     startLine: 18
   assemblies:
   - Orama.Common
@@ -119,12 +107,8 @@ items:
   fullName: Orama.Common.Window.Position
   type: Property
   source:
-    remote:
-      path: Orama.Common/Window.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Position
-    path: ../Orama/Orama.Common/Window.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Window.cs
     startLine: 21
   assemblies:
   - Orama.Common
@@ -150,12 +134,8 @@ items:
   fullName: Orama.Common.Window.FramesPerSecond
   type: Property
   source:
-    remote:
-      path: Orama.Common/Window.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: FramesPerSecond
-    path: ../Orama/Orama.Common/Window.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Window.cs
     startLine: 24
   assemblies:
   - Orama.Common
@@ -181,12 +161,8 @@ items:
   fullName: Orama.Common.Window.Title
   type: Property
   source:
-    remote:
-      path: Orama.Common/Window.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Title
-    path: ../Orama/Orama.Common/Window.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Window.cs
     startLine: 27
   assemblies:
   - Orama.Common
@@ -212,12 +188,8 @@ items:
   fullName: Orama.Common.Window.Window()
   type: Constructor
   source:
-    remote:
-      path: Orama.Common/Window.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.Common/Window.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Window.cs
     startLine: 30
   assemblies:
   - Orama.Common
@@ -243,12 +215,8 @@ items:
   fullName: Orama.Common.Window.Run()
   type: Method
   source:
-    remote:
-      path: Orama.Common/Window.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Run
-    path: ../Orama/Orama.Common/Window.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Window.cs
     startLine: 43
   assemblies:
   - Orama.Common

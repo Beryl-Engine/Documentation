@@ -18,12 +18,8 @@ items:
   fullName: Orama.Rendering.SlangCompilationResult
   type: Struct
   source:
-    remote:
-      path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SlangCompilationResult
-    path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\ShaderBaker.cs
     startLine: 168
   assemblies:
   - Orama.Rendering
@@ -52,12 +48,8 @@ items:
   fullName: Orama.Rendering.SlangCompilationResult.VertexBytes
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: VertexBytes
-    path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\ShaderBaker.cs
     startLine: 171
   assemblies:
   - Orama.Rendering
@@ -83,12 +75,8 @@ items:
   fullName: Orama.Rendering.SlangCompilationResult.FragmentBytes
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: FragmentBytes
-    path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\ShaderBaker.cs
     startLine: 174
   assemblies:
   - Orama.Rendering
@@ -114,12 +102,8 @@ items:
   fullName: Orama.Rendering.SlangCompilationResult.ShaderAttributes
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ShaderAttributes
-    path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\ShaderBaker.cs
     startLine: 185
   assemblies:
   - Orama.Rendering
@@ -152,12 +136,8 @@ items:
   fullName: Orama.Rendering.SlangCompilationResult.ShaderParameters
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ShaderParameters
-    path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\ShaderBaker.cs
     startLine: 188
   assemblies:
   - Orama.Rendering
@@ -183,12 +163,8 @@ items:
   fullName: Orama.Rendering.SlangCompilationResult.Resources
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Resources
-    path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\ShaderBaker.cs
     startLine: 191
   assemblies:
   - Orama.Rendering

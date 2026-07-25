@@ -15,12 +15,8 @@ items:
   fullName: Orama.RHI.DeviceFeatures
   type: Enum
   source:
-    remote:
-      path: Orama.RHI/DeviceFeatures.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: DeviceFeatures
-    path: ../Orama/Orama.RHI/DeviceFeatures.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\DeviceFeatures.cs
     startLine: 8
   assemblies:
   - Orama.RHI
@@ -52,12 +48,8 @@ items:
   fullName: Orama.RHI.DeviceFeatures.None
   type: Field
   source:
-    remote:
-      path: Orama.RHI/DeviceFeatures.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: None
-    path: ../Orama/Orama.RHI/DeviceFeatures.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\DeviceFeatures.cs
     startLine: 11
   assemblies:
   - Orama.RHI
@@ -78,12 +70,8 @@ items:
   fullName: Orama.RHI.DeviceFeatures.ClipSpaceYInverted
   type: Field
   source:
-    remote:
-      path: Orama.RHI/DeviceFeatures.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ClipSpaceYInverted
-    path: ../Orama/Orama.RHI/DeviceFeatures.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\DeviceFeatures.cs
     startLine: 13
   assemblies:
   - Orama.RHI

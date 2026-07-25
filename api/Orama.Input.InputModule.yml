@@ -21,12 +21,8 @@ items:
   fullName: Orama.Input.InputModule
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Input/InputModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: InputModule
-    path: ../Orama/Modules/Orama.Input/InputModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Input\InputModule.cs
     startLine: 13
   assemblies:
   - Orama.Input
@@ -62,12 +58,8 @@ items:
   fullName: Orama.Input.InputModule.Devices
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Input/InputModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Devices
-    path: ../Orama/Modules/Orama.Input/InputModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Input\InputModule.cs
     startLine: 16
   assemblies:
   - Orama.Input
@@ -93,12 +85,8 @@ items:
   fullName: Orama.Input.InputModule.PrimaryKeyboard
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Input/InputModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: PrimaryKeyboard
-    path: ../Orama/Modules/Orama.Input/InputModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Input\InputModule.cs
     startLine: 19
   assemblies:
   - Orama.Input
@@ -124,12 +112,8 @@ items:
   fullName: Orama.Input.InputModule.PrimaryMouse
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Input/InputModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: PrimaryMouse
-    path: ../Orama/Modules/Orama.Input/InputModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Input\InputModule.cs
     startLine: 22
   assemblies:
   - Orama.Input
@@ -155,12 +139,8 @@ items:
   fullName: Orama.Input.InputModule.PrimaryGamepad
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Input/InputModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: PrimaryGamepad
-    path: ../Orama/Modules/Orama.Input/InputModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Input\InputModule.cs
     startLine: 25
   assemblies:
   - Orama.Input
@@ -186,12 +166,8 @@ items:
   fullName: Orama.Input.InputModule.AddDevice(Orama.Input.Devices.IInputDevice)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Input/InputModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddDevice
-    path: ../Orama/Modules/Orama.Input/InputModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Input\InputModule.cs
     startLine: 31
   assemblies:
   - Orama.Input
@@ -215,12 +191,8 @@ items:
   fullName: Orama.Input.InputModule.Initialize()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Input/InputModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
-    path: ../Orama/Modules/Orama.Input/InputModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Input\InputModule.cs
     startLine: 34
   assemblies:
   - Orama.Input
@@ -244,12 +216,8 @@ items:
   fullName: Orama.Input.InputModule.Dispose()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Input/InputModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
-    path: ../Orama/Modules/Orama.Input/InputModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Input\InputModule.cs
     startLine: 55
   assemblies:
   - Orama.Input
@@ -274,12 +242,8 @@ items:
   fullName: Orama.Input.InputModule.Update()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Input/InputModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Update
-    path: ../Orama/Modules/Orama.Input/InputModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Input\InputModule.cs
     startLine: 64
   assemblies:
   - Orama.Input

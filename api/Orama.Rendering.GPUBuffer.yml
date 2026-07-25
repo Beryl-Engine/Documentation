@@ -25,12 +25,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GPUBuffer
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 14
   assemblies:
   - Orama.Rendering
@@ -61,12 +57,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.DEFAULT_SIZE
   type: Field
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: DEFAULT_SIZE
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 26
   assemblies:
   - Orama.Rendering
@@ -90,12 +82,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.Data
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Data
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 29
   assemblies:
   - Orama.Rendering
@@ -121,12 +109,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.Alignment
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Alignment
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 48
   assemblies:
   - Orama.Rendering
@@ -153,12 +137,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.AddMaterialParameters(Orama.Rendering.Resources.Material)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddMaterialParameters
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 54
   assemblies:
   - Orama.Rendering
@@ -184,12 +164,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.AddInt(int)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddInt
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 97
   assemblies:
   - Orama.Rendering
@@ -216,12 +192,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.AddFloat(float)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddFloat
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 108
   assemblies:
   - Orama.Rendering
@@ -248,12 +220,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.AddFloat2(float, float)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddFloat2
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 119
   assemblies:
   - Orama.Rendering
@@ -282,12 +250,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.AddFloat3(float, float, float)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddFloat3
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 128
   assemblies:
   - Orama.Rendering
@@ -318,12 +282,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.AddFloat4(float, float, float, float)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddFloat4
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 138
   assemblies:
   - Orama.Rendering
@@ -356,12 +316,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.AddMatrix4x4(Orama.Math.Matrix4x4)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddMatrix4x4
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 149
   assemblies:
   - Orama.Rendering
@@ -385,12 +341,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.AddBytes(System.ReadOnlySpan<byte>)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddBytes
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 158
   assemblies:
   - Orama.Rendering
@@ -419,12 +371,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.Reset()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Reset
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 166
   assemblies:
   - Orama.Rendering

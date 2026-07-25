@@ -18,12 +18,8 @@ items:
   fullName: Orama.Scenes.Components.Component
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Component.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Component
-    path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Component.cs
     startLine: 11
   assemblies:
   - Orama.Scenes
@@ -63,12 +59,8 @@ items:
   fullName: Orama.Scenes.Components.Component.Enabled
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Component.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Enabled
-    path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Component.cs
     startLine: 14
   assemblies:
   - Orama.Scenes
@@ -94,12 +86,8 @@ items:
   fullName: Orama.Scenes.Components.Component.Entity
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Component.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Entity
-    path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Component.cs
     startLine: 17
   assemblies:
   - Orama.Scenes
@@ -125,12 +113,8 @@ items:
   fullName: Orama.Scenes.Components.Component.Start()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Component.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Start
-    path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Component.cs
     startLine: 21
   assemblies:
   - Orama.Scenes
@@ -153,12 +137,8 @@ items:
   fullName: Orama.Scenes.Components.Component.Update()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Component.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Update
-    path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Component.cs
     startLine: 24
   assemblies:
   - Orama.Scenes
@@ -181,12 +161,8 @@ items:
   fullName: Orama.Scenes.Components.Component.Destroy()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Component.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
-    path: ../Orama/Modules/Orama.Scenes/Components/Component.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Component.cs
     startLine: 27
   assemblies:
   - Orama.Scenes

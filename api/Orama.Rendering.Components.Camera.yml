@@ -23,12 +23,8 @@ items:
   fullName: Orama.Rendering.Components.Camera
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Camera
-    path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Components\Camera.cs
     startLine: 9
   assemblies:
   - Orama.Rendering
@@ -64,12 +60,8 @@ items:
   fullName: Orama.Rendering.Components.Camera.FOV
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: FOV
-    path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Components\Camera.cs
     startLine: 12
   assemblies:
   - Orama.Rendering
@@ -95,12 +87,8 @@ items:
   fullName: Orama.Rendering.Components.Camera.AspectRatio
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AspectRatio
-    path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Components\Camera.cs
     startLine: 15
   assemblies:
   - Orama.Rendering
@@ -126,12 +114,8 @@ items:
   fullName: Orama.Rendering.Components.Camera.ZNear
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ZNear
-    path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Components\Camera.cs
     startLine: 18
   assemblies:
   - Orama.Rendering
@@ -157,12 +141,8 @@ items:
   fullName: Orama.Rendering.Components.Camera.ZFar
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ZFar
-    path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Components\Camera.cs
     startLine: 21
   assemblies:
   - Orama.Rendering
@@ -188,12 +168,8 @@ items:
   fullName: Orama.Rendering.Components.Camera.Target
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Target
-    path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Components\Camera.cs
     startLine: 24
   assemblies:
   - Orama.Rendering
@@ -219,12 +195,8 @@ items:
   fullName: Orama.Rendering.Components.Camera.Main
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Main
-    path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Components\Camera.cs
     startLine: 27
   assemblies:
   - Orama.Rendering
@@ -250,12 +222,8 @@ items:
   fullName: Orama.Rendering.Components.Camera.ViewMatrix
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ViewMatrix
-    path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Components\Camera.cs
     startLine: 30
   assemblies:
   - Orama.Rendering
@@ -281,12 +249,8 @@ items:
   fullName: Orama.Rendering.Components.Camera.ProjectionMatrix
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ProjectionMatrix
-    path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Components\Camera.cs
     startLine: 37
   assemblies:
   - Orama.Rendering
@@ -312,12 +276,8 @@ items:
   fullName: Orama.Rendering.Components.Camera.OrthographicMatrix
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OrthographicMatrix
-    path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Components\Camera.cs
     startLine: 56
   assemblies:
   - Orama.Rendering
@@ -343,12 +303,8 @@ items:
   fullName: Orama.Rendering.Components.Camera.Camera()
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Rendering/Components/Camera.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Rendering/Components/Camera.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Components\Camera.cs
     startLine: 80
   assemblies:
   - Orama.Rendering

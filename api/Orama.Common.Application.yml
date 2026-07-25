@@ -21,12 +21,8 @@ items:
   fullName: Orama.Common.Application
   type: Class
   source:
-    remote:
-      path: Orama.Common/Application.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Application
-    path: ../Orama/Orama.Common/Application.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Application.cs
     startLine: 12
   assemblies:
   - Orama.Common
@@ -58,12 +54,8 @@ items:
   fullName: Orama.Common.Application.OnStart
   type: Event
   source:
-    remote:
-      path: Orama.Common/Application.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OnStart
-    path: ../Orama/Orama.Common/Application.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Application.cs
     startLine: 15
   assemblies:
   - Orama.Common
@@ -87,12 +79,8 @@ items:
   fullName: Orama.Common.Application.OnExit
   type: Event
   source:
-    remote:
-      path: Orama.Common/Application.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OnExit
-    path: ../Orama/Orama.Common/Application.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Application.cs
     startLine: 18
   assemblies:
   - Orama.Common
@@ -116,12 +104,8 @@ items:
   fullName: Orama.Common.Application.OnUpdate
   type: Event
   source:
-    remote:
-      path: Orama.Common/Application.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OnUpdate
-    path: ../Orama/Orama.Common/Application.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Application.cs
     startLine: 21
   assemblies:
   - Orama.Common
@@ -145,12 +129,8 @@ items:
   fullName: Orama.Common.Application.OnRender
   type: Event
   source:
-    remote:
-      path: Orama.Common/Application.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OnRender
-    path: ../Orama/Orama.Common/Application.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Application.cs
     startLine: 24
   assemblies:
   - Orama.Common
@@ -174,12 +154,8 @@ items:
   fullName: Orama.Common.Application.OnResize
   type: Event
   source:
-    remote:
-      path: Orama.Common/Application.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OnResize
-    path: ../Orama/Orama.Common/Application.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Application.cs
     startLine: 27
   assemblies:
   - Orama.Common
@@ -203,12 +179,8 @@ items:
   fullName: Orama.Common.Application.ResourceProvider
   type: Property
   source:
-    remote:
-      path: Orama.Common/Application.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceProvider
-    path: ../Orama/Orama.Common/Application.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Application.cs
     startLine: 30
   assemblies:
   - Orama.Common
@@ -234,12 +206,8 @@ items:
   fullName: Orama.Common.Application.Window
   type: Property
   source:
-    remote:
-      path: Orama.Common/Application.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Window
-    path: ../Orama/Orama.Common/Application.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Application.cs
     startLine: 33
   assemblies:
   - Orama.Common
@@ -265,12 +233,8 @@ items:
   fullName: Orama.Common.Application.Initialize(Orama.Common.Resources.IResourceProvider?)
   type: Method
   source:
-    remote:
-      path: Orama.Common/Application.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
-    path: ../Orama/Orama.Common/Application.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Application.cs
     startLine: 35
   assemblies:
   - Orama.Common

@@ -13,12 +13,8 @@ items:
   fullName: Orama.RHI.Resources.IResourceLayout
   type: Interface
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IResourceLayout
-    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceInterfaces.cs
     startLine: 42
   assemblies:
   - Orama.RHI

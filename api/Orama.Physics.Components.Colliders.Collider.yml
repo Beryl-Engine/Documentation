@@ -15,12 +15,8 @@ items:
   fullName: Orama.Physics.Components.Colliders.Collider
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/Colliders/Collider.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Collider
-    path: ../Orama/Modules/Orama.Physics/Components/Colliders/Collider.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\Colliders\Collider.cs
     startLine: 7
   assemblies:
   - Orama.Physics
@@ -58,12 +54,8 @@ items:
   fullName: Orama.Physics.Components.Colliders.Collider.shapeId
   type: Field
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/Colliders/Collider.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: shapeId
-    path: ../Orama/Modules/Orama.Physics/Components/Colliders/Collider.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\Colliders\Collider.cs
     startLine: 9
   assemblies:
   - Orama.Physics
@@ -85,12 +77,8 @@ items:
   fullName: Orama.Physics.Components.Colliders.Collider.Destroy()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/Colliders/Collider.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
-    path: ../Orama/Modules/Orama.Physics/Components/Colliders/Collider.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\Colliders\Collider.cs
     startLine: 11
   assemblies:
   - Orama.Physics

@@ -19,12 +19,8 @@ items:
   fullName: Orama.Math.Rect
   type: Struct
   source:
-    remote:
-      path: Orama.Math/Rect.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Rect
-    path: ../Orama/Orama.Math/Rect.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Rect.cs
     startLine: 10
   assemblies:
   - Orama.Math
@@ -53,12 +49,8 @@ items:
   fullName: Orama.Math.Rect.Position
   type: Property
   source:
-    remote:
-      path: Orama.Math/Rect.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Position
-    path: ../Orama/Orama.Math/Rect.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Rect.cs
     startLine: 13
   assemblies:
   - Orama.Math
@@ -84,12 +76,8 @@ items:
   fullName: Orama.Math.Rect.Size
   type: Property
   source:
-    remote:
-      path: Orama.Math/Rect.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Size
-    path: ../Orama/Orama.Math/Rect.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Rect.cs
     startLine: 16
   assemblies:
   - Orama.Math
@@ -115,12 +103,8 @@ items:
   fullName: Orama.Math.Rect.Rect()
   type: Constructor
   source:
-    remote:
-      path: Orama.Math/Rect.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.Math/Rect.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Rect.cs
     startLine: 19
   assemblies:
   - Orama.Math
@@ -146,12 +130,8 @@ items:
   fullName: Orama.Math.Rect.Rect(int, int)
   type: Constructor
   source:
-    remote:
-      path: Orama.Math/Rect.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.Math/Rect.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Rect.cs
     startLine: 22
   assemblies:
   - Orama.Math
@@ -182,12 +162,8 @@ items:
   fullName: Orama.Math.Rect.Rect(int, int, int, int)
   type: Constructor
   source:
-    remote:
-      path: Orama.Math/Rect.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.Math/Rect.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Rect.cs
     startLine: 25
   assemblies:
   - Orama.Math
@@ -222,12 +198,8 @@ items:
   fullName: Orama.Math.Rect.Contains(int, int)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Rect.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Contains
-    path: ../Orama/Orama.Math/Rect.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Rect.cs
     startLine: 32
   assemblies:
   - Orama.Math

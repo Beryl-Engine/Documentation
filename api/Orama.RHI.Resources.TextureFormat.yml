@@ -15,12 +15,8 @@ items:
   fullName: Orama.RHI.Resources.TextureFormat
   type: Enum
   source:
-    remote:
-      path: Orama.RHI/Resources/TextureTypes.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: TextureFormat
-    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\TextureTypes.cs
     startLine: 8
   assemblies:
   - Orama.RHI
@@ -42,12 +38,8 @@ items:
   fullName: Orama.RHI.Resources.TextureFormat.RGBA8
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/TextureTypes.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RGBA8
-    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\TextureTypes.cs
     startLine: 10
   assemblies:
   - Orama.RHI
@@ -68,12 +60,8 @@ items:
   fullName: Orama.RHI.Resources.TextureFormat.RGB8
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/TextureTypes.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RGB8
-    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\TextureTypes.cs
     startLine: 11
   assemblies:
   - Orama.RHI

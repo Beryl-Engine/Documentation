@@ -13,12 +13,8 @@ items:
   fullName: Orama.Rendering.CommandBufferExtensions
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/CommandBufferExtensions.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CommandBufferExtensions
-    path: ../Orama/Modules/Orama.Rendering/CommandBufferExtensions.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\CommandBufferExtensions.cs
     startLine: 16
   assemblies:
   - Orama.Rendering

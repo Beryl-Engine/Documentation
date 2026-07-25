@@ -53,12 +53,8 @@ items:
   fullName: Orama.Math.Matrix4x4
   type: Struct
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Matrix4x4
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 11
   assemblies:
   - Orama.Math
@@ -87,12 +83,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M11
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M11
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 14
   assemblies:
   - Orama.Math
@@ -116,12 +108,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M12
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M12
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 15
   assemblies:
   - Orama.Math
@@ -145,12 +133,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M13
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M13
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 16
   assemblies:
   - Orama.Math
@@ -174,12 +158,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M14
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M14
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 17
   assemblies:
   - Orama.Math
@@ -203,12 +183,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M21
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M21
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 19
   assemblies:
   - Orama.Math
@@ -232,12 +208,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M22
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M22
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 20
   assemblies:
   - Orama.Math
@@ -261,12 +233,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M23
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M23
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 21
   assemblies:
   - Orama.Math
@@ -290,12 +258,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M24
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M24
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 22
   assemblies:
   - Orama.Math
@@ -319,12 +283,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M31
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M31
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 24
   assemblies:
   - Orama.Math
@@ -348,12 +308,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M32
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M32
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 25
   assemblies:
   - Orama.Math
@@ -377,12 +333,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M33
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M33
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 26
   assemblies:
   - Orama.Math
@@ -406,12 +358,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M34
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M34
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 27
   assemblies:
   - Orama.Math
@@ -435,12 +383,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M41
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M41
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 29
   assemblies:
   - Orama.Math
@@ -464,12 +408,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M42
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M42
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 30
   assemblies:
   - Orama.Math
@@ -493,12 +433,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M43
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M43
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 31
   assemblies:
   - Orama.Math
@@ -522,12 +458,8 @@ items:
   fullName: Orama.Math.Matrix4x4.M44
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: M44
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 32
   assemblies:
   - Orama.Math
@@ -551,12 +483,8 @@ items:
   fullName: Orama.Math.Matrix4x4.Matrix4x4(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)
   type: Constructor
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 36
   assemblies:
   - Orama.Math
@@ -615,12 +543,8 @@ items:
   fullName: Orama.Math.Matrix4x4.Identity
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Identity
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 61
   assemblies:
   - Orama.Math
@@ -646,12 +570,8 @@ items:
   fullName: Orama.Math.Matrix4x4.IsIdentity
   type: Property
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IsIdentity
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 67
   assemblies:
   - Orama.Math
@@ -677,12 +597,8 @@ items:
   fullName: Orama.Math.Matrix4x4.CreateTRS(Orama.Math.Vector3, Orama.Math.Quaternion, Orama.Math.Vector3)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateTRS
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 77
   assemblies:
   - Orama.Math
@@ -714,12 +630,8 @@ items:
   fullName: Orama.Math.Matrix4x4.CreateTranslation(Orama.Math.Vector3)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateTranslation
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 86
   assemblies:
   - Orama.Math
@@ -747,12 +659,8 @@ items:
   fullName: Orama.Math.Matrix4x4.CreateTranslation(float, float, float)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateTranslation
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 94
   assemblies:
   - Orama.Math
@@ -787,12 +695,8 @@ items:
   fullName: Orama.Math.Matrix4x4.CreateScale(Orama.Math.Vector3)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateScale
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 102
   assemblies:
   - Orama.Math
@@ -820,12 +724,8 @@ items:
   fullName: Orama.Math.Matrix4x4.CreateScale(float, float, float)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateScale
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 110
   assemblies:
   - Orama.Math
@@ -860,12 +760,8 @@ items:
   fullName: Orama.Math.Matrix4x4.CreateRotationX(float)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateRotationX
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 118
   assemblies:
   - Orama.Math
@@ -896,12 +792,8 @@ items:
   fullName: Orama.Math.Matrix4x4.CreateRotationY(float)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateRotationY
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 132
   assemblies:
   - Orama.Math
@@ -932,12 +824,8 @@ items:
   fullName: Orama.Math.Matrix4x4.CreateRotationZ(float)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateRotationZ
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 146
   assemblies:
   - Orama.Math
@@ -968,12 +856,8 @@ items:
   fullName: Orama.Math.Matrix4x4.CreateFromEuler(Orama.Math.Vector3)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateFromEuler
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 160
   assemblies:
   - Orama.Math
@@ -1001,12 +885,8 @@ items:
   fullName: Orama.Math.Matrix4x4.CreateFromQuaternion(Orama.Math.Quaternion)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateFromQuaternion
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 169
   assemblies:
   - Orama.Math
@@ -1034,12 +914,8 @@ items:
   fullName: Orama.Math.Matrix4x4.LookAt(Orama.Math.Vector3, Orama.Math.Vector3, Orama.Math.Vector3)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: LookAt
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 190
   assemblies:
   - Orama.Math
@@ -1071,12 +947,8 @@ items:
   fullName: Orama.Math.Matrix4x4.Transpose()
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Transpose
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 212
   assemblies:
   - Orama.Math
@@ -1101,12 +973,8 @@ items:
   fullName: Orama.Math.Matrix4x4.Determinant()
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Determinant
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 220
   assemblies:
   - Orama.Math
@@ -1131,12 +999,8 @@ items:
   fullName: Orama.Math.Matrix4x4.Invert()
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Invert
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 230
   assemblies:
   - Orama.Math
@@ -1161,12 +1025,8 @@ items:
   fullName: Orama.Math.Matrix4x4.Transform(Orama.Math.Vector3)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Transform
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 238
   assemblies:
   - Orama.Math
@@ -1194,12 +1054,8 @@ items:
   fullName: Orama.Math.Matrix4x4.Equals(object?)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 245
   assemblies:
   - Orama.Math
@@ -1239,12 +1095,8 @@ items:
   fullName: Orama.Math.Matrix4x4.Equals(Orama.Math.Matrix4x4)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 248
   assemblies:
   - Orama.Math
@@ -1276,12 +1128,8 @@ items:
   fullName: Orama.Math.Matrix4x4.GetHashCode()
   type: Method
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 254
   assemblies:
   - Orama.Math
@@ -1308,12 +1156,8 @@ items:
   fullName: Orama.Math.Matrix4x4.operator *(Orama.Math.Matrix4x4, Orama.Math.Matrix4x4)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 282
   assemblies:
   - Orama.Math
@@ -1344,12 +1188,8 @@ items:
   fullName: Orama.Math.Matrix4x4.explicit operator System.Numerics.Matrix4x4(Orama.Math.Matrix4x4)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Explicit
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 311
   assemblies:
   - Orama.Math
@@ -1378,12 +1218,8 @@ items:
   fullName: Orama.Math.Matrix4x4.explicit operator Orama.Math.Matrix4x4(System.Numerics.Matrix4x4)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Matrices/Matrix4x4.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Explicit
-    path: ../Orama/Orama.Math/Matrices/Matrix4x4.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Matrices\Matrix4x4.cs
     startLine: 319
   assemblies:
   - Orama.Math

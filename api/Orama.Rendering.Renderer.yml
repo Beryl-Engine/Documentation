@@ -21,12 +21,8 @@ items:
   fullName: Orama.Rendering.Renderer
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/Renderer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Renderer
-    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Renderer.cs
     startLine: 11
   assemblies:
   - Orama.Rendering
@@ -56,12 +52,8 @@ items:
   fullName: Orama.Rendering.Renderer.Options
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Renderer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Options
-    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Renderer.cs
     startLine: 14
   assemblies:
   - Orama.Rendering
@@ -87,12 +79,8 @@ items:
   fullName: Orama.Rendering.Renderer.Backend
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Renderer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Backend
-    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Renderer.cs
     startLine: 17
   assemblies:
   - Orama.Rendering
@@ -118,12 +106,8 @@ items:
   fullName: Orama.Rendering.Renderer.Device
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Renderer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Device
-    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Renderer.cs
     startLine: 20
   assemblies:
   - Orama.Rendering
@@ -149,12 +133,8 @@ items:
   fullName: Orama.Rendering.Renderer.Initialize(Silk.NET.Windowing.IWindow, Orama.RHI.RendererBackend?, Orama.Rendering.RendererOptions)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Renderer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
-    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Renderer.cs
     startLine: 25
   assemblies:
   - Orama.Rendering
@@ -186,12 +166,8 @@ items:
   fullName: Orama.Rendering.Renderer.Present()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Renderer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Present
-    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Renderer.cs
     startLine: 45
   assemblies:
   - Orama.Rendering
@@ -214,12 +190,8 @@ items:
   fullName: Orama.Rendering.Renderer.SubmitCommandBuffer(Orama.RHI.ICommandBuffer)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Renderer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SubmitCommandBuffer
-    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Renderer.cs
     startLine: 54
   assemblies:
   - Orama.Rendering
@@ -245,12 +217,8 @@ items:
   fullName: Orama.Rendering.Renderer.Resize(uint, uint)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Renderer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Resize
-    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Renderer.cs
     startLine: 57
   assemblies:
   - Orama.Rendering
@@ -281,12 +249,8 @@ items:
   fullName: Orama.Rendering.Renderer.Dispose()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Renderer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
-    path: ../Orama/Modules/Orama.Rendering/Renderer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Renderer.cs
     startLine: 60
   assemblies:
   - Orama.Rendering

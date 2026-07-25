@@ -17,12 +17,8 @@ items:
   fullName: Orama.Common.Utility.OramaConsole
   type: Class
   source:
-    remote:
-      path: Orama.Common/Utility/OramaConsole.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OramaConsole
-    path: ../Orama/Orama.Common/Utility/OramaConsole.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Utility\OramaConsole.cs
     startLine: 13
   assemblies:
   - Orama.Common
@@ -55,12 +51,8 @@ items:
   fullName: Orama.Common.Utility.OramaConsole.StackLog(System.ReadOnlySpan<char>, System.ConsoleColor, System.IO.TextWriter)
   type: Method
   source:
-    remote:
-      path: Orama.Common/Utility/OramaConsole.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: StackLog
-    path: ../Orama/Orama.Common/Utility/OramaConsole.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Utility\OramaConsole.cs
     startLine: 50
   assemblies:
   - Orama.Common
@@ -97,12 +89,8 @@ items:
   fullName: Orama.Common.Utility.OramaConsole.Exception(System.Exception, System.ReadOnlySpan<char>, System.ReadOnlySpan<char>)
   type: Method
   source:
-    remote:
-      path: Orama.Common/Utility/OramaConsole.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Exception
-    path: ../Orama/Orama.Common/Utility/OramaConsole.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Utility\OramaConsole.cs
     startLine: 59
   assemblies:
   - Orama.Common
@@ -136,12 +124,8 @@ items:
   fullName: Orama.Common.Utility.OramaConsole.Log(System.ReadOnlySpan<char>, System.ReadOnlySpan<char>)
   type: Method
   source:
-    remote:
-      path: Orama.Common/Utility/OramaConsole.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Log
-    path: ../Orama/Orama.Common/Utility/OramaConsole.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Utility\OramaConsole.cs
     startLine: 68
   assemblies:
   - Orama.Common
@@ -173,12 +157,8 @@ items:
   fullName: Orama.Common.Utility.OramaConsole.Warning(System.ReadOnlySpan<char>, System.ReadOnlySpan<char>, System.ReadOnlySpan<char>)
   type: Method
   source:
-    remote:
-      path: Orama.Common/Utility/OramaConsole.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Warning
-    path: ../Orama/Orama.Common/Utility/OramaConsole.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Utility\OramaConsole.cs
     startLine: 77
   assemblies:
   - Orama.Common

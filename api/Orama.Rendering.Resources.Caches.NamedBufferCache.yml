@@ -14,12 +14,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.NamedBufferCache
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/NamedBufferCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: NamedBufferCache
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/NamedBufferCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\NamedBufferCache.cs
     startLine: 8
   assemblies:
   - Orama.Rendering
@@ -53,12 +49,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.NamedBufferCache.Create(Orama.RHI.Resources.NamedBufferDescriptor)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/NamedBufferCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Create
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/NamedBufferCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\NamedBufferCache.cs
     startLine: 11
   assemblies:
   - Orama.Rendering

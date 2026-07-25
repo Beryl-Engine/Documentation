@@ -16,12 +16,8 @@ items:
   fullName: Orama.Rendering.IShaderDefaultsProvider
   type: Interface
   source:
-    remote:
-      path: Modules/Orama.Rendering/IShaderDefaultsProvider.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IShaderDefaultsProvider
-    path: ../Orama/Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\IShaderDefaultsProvider.cs
     startLine: 13
   assemblies:
   - Orama.Rendering
@@ -45,12 +41,8 @@ items:
   fullName: Orama.Rendering.IShaderDefaultsProvider.GetCameraBuffer(Orama.Rendering.Components.Camera)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/IShaderDefaultsProvider.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetCameraBuffer
-    path: ../Orama/Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\IShaderDefaultsProvider.cs
     startLine: 16
   assemblies:
   - Orama.Rendering
@@ -78,12 +70,8 @@ items:
   fullName: Orama.Rendering.IShaderDefaultsProvider.GetObjectBuffer(Orama.Math.Matrix4x4)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/IShaderDefaultsProvider.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetObjectBuffer
-    path: ../Orama/Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\IShaderDefaultsProvider.cs
     startLine: 19
   assemblies:
   - Orama.Rendering
@@ -111,12 +99,8 @@ items:
   fullName: Orama.Rendering.IShaderDefaultsProvider.GetMaterialBuffer(Orama.Rendering.Resources.Material)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/IShaderDefaultsProvider.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetMaterialBuffer
-    path: ../Orama/Modules/Orama.Rendering/IShaderDefaultsProvider.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\IShaderDefaultsProvider.cs
     startLine: 22
   assemblies:
   - Orama.Rendering

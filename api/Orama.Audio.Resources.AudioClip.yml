@@ -18,12 +18,8 @@ items:
   fullName: Orama.Audio.Resources.AudioClip
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AudioClip
-    path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Resources\AudioClip.cs
     startLine: 5
   assemblies:
   - Orama.Audio
@@ -53,12 +49,8 @@ items:
   fullName: Orama.Audio.Resources.AudioClip.Data
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Data
-    path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Resources\AudioClip.cs
     startLine: 7
   assemblies:
   - Orama.Audio
@@ -82,12 +74,8 @@ items:
   fullName: Orama.Audio.Resources.AudioClip.SampleRate
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SampleRate
-    path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Resources\AudioClip.cs
     startLine: 8
   assemblies:
   - Orama.Audio
@@ -111,12 +99,8 @@ items:
   fullName: Orama.Audio.Resources.AudioClip.Channels
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Channels
-    path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Resources\AudioClip.cs
     startLine: 9
   assemblies:
   - Orama.Audio
@@ -140,12 +124,8 @@ items:
   fullName: Orama.Audio.Resources.AudioClip.BitsPerSample
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: BitsPerSample
-    path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Resources\AudioClip.cs
     startLine: 10
   assemblies:
   - Orama.Audio
@@ -169,12 +149,8 @@ items:
   fullName: Orama.Audio.Resources.AudioClip.AudioClip(byte[], int, int, int)
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Audio/Resources/AudioClip.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Audio/Resources/AudioClip.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Resources\AudioClip.cs
     startLine: 12
   assemblies:
   - Orama.Audio

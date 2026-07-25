@@ -21,12 +21,8 @@ items:
   fullName: Orama.RHI.Resources.PipelineDescriptor
   type: Struct
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: PipelineDescriptor
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 37
   assemblies:
   - Orama.RHI
@@ -54,12 +50,8 @@ items:
   fullName: Orama.RHI.Resources.PipelineDescriptor.PipelineDescriptor(string, Orama.RHI.Resources.ShaderDescriptor, Orama.RHI.Resources.ShaderDescriptor, Orama.RHI.Resources.IFramebuffer, System.ReadOnlySpan<Orama.RHI.Resources.ShaderResourceGroup>, Orama.RHI.CullingMode)
   type: Constructor
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 37
   assemblies:
   - Orama.RHI
@@ -96,12 +88,8 @@ items:
   fullName: Orama.RHI.Resources.PipelineDescriptor.PassName
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: PassName
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 39
   assemblies:
   - Orama.RHI
@@ -123,12 +111,8 @@ items:
   fullName: Orama.RHI.Resources.PipelineDescriptor.VertShader
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: VertShader
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 40
   assemblies:
   - Orama.RHI
@@ -150,12 +134,8 @@ items:
   fullName: Orama.RHI.Resources.PipelineDescriptor.FragShader
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: FragShader
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 41
   assemblies:
   - Orama.RHI
@@ -177,12 +157,8 @@ items:
   fullName: Orama.RHI.Resources.PipelineDescriptor.Output
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Output
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 42
   assemblies:
   - Orama.RHI
@@ -204,12 +180,8 @@ items:
   fullName: Orama.RHI.Resources.PipelineDescriptor.ResourceGroups
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceGroups
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 43
   assemblies:
   - Orama.RHI
@@ -231,12 +203,8 @@ items:
   fullName: Orama.RHI.Resources.PipelineDescriptor.CullingMode
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CullingMode
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 44
   assemblies:
   - Orama.RHI
@@ -258,12 +226,8 @@ items:
   fullName: Orama.RHI.Resources.PipelineDescriptor.GetHashCode()
   type: Method
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 47
   assemblies:
   - Orama.RHI

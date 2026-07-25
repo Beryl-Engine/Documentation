@@ -16,12 +16,8 @@ items:
   fullName: Orama.Serialization.Serialization
   type: Class
   source:
-    remote:
-      path: Orama.Serialization/Serialization.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Serialization
-    path: ../Orama/Orama.Serialization/Serialization.cs
+    path: E:\Orama\Documentation\Orama\Orama.Serialization\Serialization.cs
     startLine: 7
   assemblies:
   - Orama.Serialization
@@ -51,12 +47,8 @@ items:
   fullName: Orama.Serialization.Serialization.DefaultType
   type: Field
   source:
-    remote:
-      path: Orama.Serialization/Serialization.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: DefaultType
-    path: ../Orama/Orama.Serialization/Serialization.cs
+    path: E:\Orama\Documentation\Orama\Orama.Serialization\Serialization.cs
     startLine: 10
   assemblies:
   - Orama.Serialization
@@ -80,12 +72,8 @@ items:
   fullName: Orama.Serialization.Serialization.Serialize<T>(T, Orama.Serialization.SerializationType)
   type: Method
   source:
-    remote:
-      path: Orama.Serialization/Serialization.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Serialize
-    path: ../Orama/Orama.Serialization/Serialization.cs
+    path: E:\Orama\Documentation\Orama\Orama.Serialization\Serialization.cs
     startLine: 13
   assemblies:
   - Orama.Serialization
@@ -120,12 +108,8 @@ items:
   fullName: Orama.Serialization.Serialization.Deserialize<T>(byte[], Orama.Serialization.SerializationType)
   type: Method
   source:
-    remote:
-      path: Orama.Serialization/Serialization.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Deserialize
-    path: ../Orama/Orama.Serialization/Serialization.cs
+    path: E:\Orama\Documentation\Orama\Orama.Serialization\Serialization.cs
     startLine: 30
   assemblies:
   - Orama.Serialization

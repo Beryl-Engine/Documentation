@@ -33,12 +33,8 @@ items:
   fullName: Orama.Math.Color
   type: Struct
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Color
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 8
   assemblies:
   - Orama.Math
@@ -67,12 +63,8 @@ items:
   fullName: Orama.Math.Color.R
   type: Property
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: R
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 11
   assemblies:
   - Orama.Math
@@ -98,12 +90,8 @@ items:
   fullName: Orama.Math.Color.G
   type: Property
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: G
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 14
   assemblies:
   - Orama.Math
@@ -129,12 +117,8 @@ items:
   fullName: Orama.Math.Color.B
   type: Property
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: B
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 17
   assemblies:
   - Orama.Math
@@ -160,12 +144,8 @@ items:
   fullName: Orama.Math.Color.A
   type: Property
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: A
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 20
   assemblies:
   - Orama.Math
@@ -191,12 +171,8 @@ items:
   fullName: Orama.Math.Color.Color(float, float, float, float)
   type: Constructor
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 23
   assemblies:
   - Orama.Math
@@ -231,12 +207,8 @@ items:
   fullName: Orama.Math.Color.Transparent
   type: Property
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Transparent
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 25
   assemblies:
   - Orama.Math
@@ -260,12 +232,8 @@ items:
   fullName: Orama.Math.Color.White
   type: Property
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: White
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 26
   assemblies:
   - Orama.Math
@@ -289,12 +257,8 @@ items:
   fullName: Orama.Math.Color.Black
   type: Property
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Black
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 27
   assemblies:
   - Orama.Math
@@ -318,12 +282,8 @@ items:
   fullName: Orama.Math.Color.Red
   type: Property
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Red
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 28
   assemblies:
   - Orama.Math
@@ -347,12 +307,8 @@ items:
   fullName: Orama.Math.Color.Green
   type: Property
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Green
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 29
   assemblies:
   - Orama.Math
@@ -376,12 +332,8 @@ items:
   fullName: Orama.Math.Color.Blue
   type: Property
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Blue
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 30
   assemblies:
   - Orama.Math
@@ -405,12 +357,8 @@ items:
   fullName: Orama.Math.Color.Equals(object?)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 33
   assemblies:
   - Orama.Math
@@ -444,12 +392,8 @@ items:
   fullName: Orama.Math.Color.Equals(Orama.Math.Color)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 41
   assemblies:
   - Orama.Math
@@ -481,12 +425,8 @@ items:
   fullName: Orama.Math.Color.GetHashCode()
   type: Method
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 43
   assemblies:
   - Orama.Math
@@ -513,12 +453,8 @@ items:
   fullName: Orama.Math.Color.From255(int, int, int, int)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: From255
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 46
   assemblies:
   - Orama.Math
@@ -555,12 +491,8 @@ items:
   fullName: Orama.Math.Color.explicit operator Orama.Math.Vector4(Orama.Math.Color)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Explicit
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 48
   assemblies:
   - Orama.Math
@@ -589,12 +521,8 @@ items:
   fullName: Orama.Math.Color.operator *(Orama.Math.Color, float)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 50
   assemblies:
   - Orama.Math
@@ -625,12 +553,8 @@ items:
   fullName: Orama.Math.Color.operator /(Orama.Math.Color, float)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Division
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 52
   assemblies:
   - Orama.Math
@@ -661,12 +585,8 @@ items:
   fullName: Orama.Math.Color.operator ==(Orama.Math.Color, Orama.Math.Color)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Equality
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 54
   assemblies:
   - Orama.Math
@@ -697,12 +617,8 @@ items:
   fullName: Orama.Math.Color.operator !=(Orama.Math.Color, Orama.Math.Color)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Color.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Inequality
-    path: ../Orama/Orama.Math/Color.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Color.cs
     startLine: 56
   assemblies:
   - Orama.Math

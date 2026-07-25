@@ -14,12 +14,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.ResourceSetCache
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/ResourceSetCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceSetCache
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceSetCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\ResourceSetCache.cs
     startLine: 7
   assemblies:
   - Orama.Rendering
@@ -53,12 +49,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.ResourceSetCache.Create(Orama.RHI.Resources.ResourceDescriptor)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/ResourceSetCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Create
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceSetCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\ResourceSetCache.cs
     startLine: 10
   assemblies:
   - Orama.Rendering

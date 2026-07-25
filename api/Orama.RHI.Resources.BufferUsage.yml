@@ -17,12 +17,8 @@ items:
   fullName: Orama.RHI.Resources.BufferUsage
   type: Enum
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: BufferUsage
-    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceInterfaces.cs
     startLine: 62
   assemblies:
   - Orama.RHI
@@ -54,12 +50,8 @@ items:
   fullName: Orama.RHI.Resources.BufferUsage.VertexBuffer
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: VertexBuffer
-    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceInterfaces.cs
     startLine: 65
   assemblies:
   - Orama.RHI
@@ -80,12 +72,8 @@ items:
   fullName: Orama.RHI.Resources.BufferUsage.IndexBuffer
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IndexBuffer
-    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceInterfaces.cs
     startLine: 66
   assemblies:
   - Orama.RHI
@@ -106,12 +94,8 @@ items:
   fullName: Orama.RHI.Resources.BufferUsage.UniformBuffer
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: UniformBuffer
-    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceInterfaces.cs
     startLine: 67
   assemblies:
   - Orama.RHI
@@ -132,12 +116,8 @@ items:
   fullName: Orama.RHI.Resources.BufferUsage.Dynamic
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Dynamic
-    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceInterfaces.cs
     startLine: 68
   assemblies:
   - Orama.RHI

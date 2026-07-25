@@ -17,12 +17,8 @@ items:
   fullName: Orama.Scenes.SceneModule
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Scenes/SceneModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SceneModule
-    path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\SceneModule.cs
     startLine: 12
   assemblies:
   - Orama.Scenes
@@ -58,12 +54,8 @@ items:
   fullName: Orama.Scenes.SceneModule.CurrentScene
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/SceneModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CurrentScene
-    path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\SceneModule.cs
     startLine: 15
   assemblies:
   - Orama.Scenes
@@ -89,12 +81,8 @@ items:
   fullName: Orama.Scenes.SceneModule.Initialize()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/SceneModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
-    path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\SceneModule.cs
     startLine: 18
   assemblies:
   - Orama.Scenes
@@ -118,12 +106,8 @@ items:
   fullName: Orama.Scenes.SceneModule.Dispose()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/SceneModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
-    path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\SceneModule.cs
     startLine: 28
   assemblies:
   - Orama.Scenes
@@ -148,12 +132,8 @@ items:
   fullName: Orama.Scenes.SceneModule.Update()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/SceneModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Update
-    path: ../Orama/Modules/Orama.Scenes/SceneModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\SceneModule.cs
     startLine: 35
   assemblies:
   - Orama.Scenes

@@ -19,12 +19,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALListener
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OpenALListener
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALListener.cs
     startLine: 10
   assemblies:
   - Orama.Audio
@@ -56,12 +52,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALListener.OpenALListener(Silk.NET.OpenAL.AL)
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALListener.cs
     startLine: 14
   assemblies:
   - Orama.Audio
@@ -88,12 +80,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALListener.Position
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Position
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALListener.cs
     startLine: 20
   assemblies:
   - Orama.Audio
@@ -121,12 +109,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALListener.Forward
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Forward
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALListener.cs
     startLine: 23
   assemblies:
   - Orama.Audio
@@ -154,12 +138,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALListener.Up
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Up
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALListener.cs
     startLine: 26
   assemblies:
   - Orama.Audio
@@ -187,12 +167,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALListener.Gain
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Gain
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALListener.cs
     startLine: 29
   assemblies:
   - Orama.Audio
@@ -220,12 +196,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALListener.Update()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Update
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALListener.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALListener.cs
     startLine: 41
   assemblies:
   - Orama.Audio

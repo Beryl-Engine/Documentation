@@ -20,12 +20,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.RenderItemKey
   type: Struct
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RenderItemKey
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\RenderItemCache.cs
     startLine: 43
   assemblies:
   - Orama.Rendering
@@ -53,12 +49,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.RenderItemKey.RenderItemKey(System.ReadOnlySpan<Orama.Math.Vector3>, System.ReadOnlySpan<Orama.Math.Vector3>, System.ReadOnlySpan<Orama.Math.Vector2>, System.ReadOnlySpan<uint>, Orama.RHI.Resources.PipelineDescriptor)
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\RenderItemCache.cs
     startLine: 43
   assemblies:
   - Orama.Rendering
@@ -93,12 +85,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.RenderItemKey.VertexPositions
   type: Field
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: VertexPositions
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\RenderItemCache.cs
     startLine: 45
   assemblies:
   - Orama.Rendering
@@ -120,12 +108,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.RenderItemKey.VertexNormals
   type: Field
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: VertexNormals
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\RenderItemCache.cs
     startLine: 46
   assemblies:
   - Orama.Rendering
@@ -147,12 +131,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.RenderItemKey.VertexUVs
   type: Field
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: VertexUVs
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\RenderItemCache.cs
     startLine: 47
   assemblies:
   - Orama.Rendering
@@ -174,12 +154,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.RenderItemKey.Indices
   type: Field
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Indices
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\RenderItemCache.cs
     startLine: 48
   assemblies:
   - Orama.Rendering
@@ -201,12 +177,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.RenderItemKey.Pipeline
   type: Field
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Pipeline
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\RenderItemCache.cs
     startLine: 49
   assemblies:
   - Orama.Rendering
@@ -228,12 +200,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.RenderItemKey.GetHashCode()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\RenderItemCache.cs
     startLine: 52
   assemblies:
   - Orama.Rendering

@@ -17,12 +17,8 @@ items:
   fullName: Orama.RHI.VulkanInfo
   type: Struct
   source:
-    remote:
-      path: Orama.RHI/VulkanInfo.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: VulkanInfo
-    path: ../Orama/Orama.RHI/VulkanInfo.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\VulkanInfo.cs
     startLine: 8
   assemblies:
   - Orama.RHI
@@ -51,12 +47,8 @@ items:
   fullName: Orama.RHI.VulkanInfo.Instance
   type: Property
   source:
-    remote:
-      path: Orama.RHI/VulkanInfo.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Instance
-    path: ../Orama/Orama.RHI/VulkanInfo.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\VulkanInfo.cs
     startLine: 10
   assemblies:
   - Orama.RHI
@@ -80,12 +72,8 @@ items:
   fullName: Orama.RHI.VulkanInfo.PhysicalDevice
   type: Property
   source:
-    remote:
-      path: Orama.RHI/VulkanInfo.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: PhysicalDevice
-    path: ../Orama/Orama.RHI/VulkanInfo.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\VulkanInfo.cs
     startLine: 11
   assemblies:
   - Orama.RHI
@@ -109,12 +97,8 @@ items:
   fullName: Orama.RHI.VulkanInfo.Device
   type: Property
   source:
-    remote:
-      path: Orama.RHI/VulkanInfo.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Device
-    path: ../Orama/Orama.RHI/VulkanInfo.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\VulkanInfo.cs
     startLine: 12
   assemblies:
   - Orama.RHI
@@ -138,12 +122,8 @@ items:
   fullName: Orama.RHI.VulkanInfo.GraphicsQueueFamilyIndex
   type: Property
   source:
-    remote:
-      path: Orama.RHI/VulkanInfo.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GraphicsQueueFamilyIndex
-    path: ../Orama/Orama.RHI/VulkanInfo.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\VulkanInfo.cs
     startLine: 14
   assemblies:
   - Orama.RHI

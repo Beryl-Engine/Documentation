@@ -16,12 +16,8 @@ items:
   fullName: Orama.RHI.Resources.TextureViewDescriptor
   type: Struct
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: TextureViewDescriptor
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 111
   assemblies:
   - Orama.RHI
@@ -49,12 +45,8 @@ items:
   fullName: Orama.RHI.Resources.TextureViewDescriptor.TextureViewDescriptor(Orama.RHI.Resources.ITexture)
   type: Constructor
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 111
   assemblies:
   - Orama.RHI
@@ -81,12 +73,8 @@ items:
   fullName: Orama.RHI.Resources.TextureViewDescriptor.Texture
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Texture
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 113
   assemblies:
   - Orama.RHI
@@ -108,12 +96,8 @@ items:
   fullName: Orama.RHI.Resources.TextureViewDescriptor.GetHashCode()
   type: Method
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 116
   assemblies:
   - Orama.RHI

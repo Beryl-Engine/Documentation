@@ -16,12 +16,8 @@ items:
   fullName: Orama.RHI.Resources.ShaderResourceGroup
   type: Struct
   source:
-    remote:
-      path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ShaderResourceGroup
-    path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ShaderReflection.cs
     startLine: 61
   assemblies:
   - Orama.RHI
@@ -50,12 +46,8 @@ items:
   fullName: Orama.RHI.Resources.ShaderResourceGroup.Set
   type: Property
   source:
-    remote:
-      path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Set
-    path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ShaderReflection.cs
     startLine: 63
   assemblies:
   - Orama.RHI
@@ -79,12 +71,8 @@ items:
   fullName: Orama.RHI.Resources.ShaderResourceGroup.Resources
   type: Property
   source:
-    remote:
-      path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Resources
-    path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ShaderReflection.cs
     startLine: 64
   assemblies:
   - Orama.RHI
@@ -108,12 +96,8 @@ items:
   fullName: Orama.RHI.Resources.ShaderResourceGroup.LayoutElements
   type: Property
   source:
-    remote:
-      path: Orama.RHI/Resources/ShaderReflection.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: LayoutElements
-    path: ../Orama/Orama.RHI/Resources/ShaderReflection.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ShaderReflection.cs
     startLine: 65
   assemblies:
   - Orama.RHI

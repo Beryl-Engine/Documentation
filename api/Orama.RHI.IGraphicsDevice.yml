@@ -23,12 +23,8 @@ items:
   fullName: Orama.RHI.IGraphicsDevice
   type: Interface
   source:
-    remote:
-      path: Orama.RHI/IGraphicsDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IGraphicsDevice
-    path: ../Orama/Orama.RHI/IGraphicsDevice.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\IGraphicsDevice.cs
     startLine: 11
   assemblies:
   - Orama.RHI
@@ -52,12 +48,8 @@ items:
   fullName: Orama.RHI.IGraphicsDevice.VulkanInfo
   type: Property
   source:
-    remote:
-      path: Orama.RHI/IGraphicsDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: VulkanInfo
-    path: ../Orama/Orama.RHI/IGraphicsDevice.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\IGraphicsDevice.cs
     startLine: 15
   assemblies:
   - Orama.RHI
@@ -83,12 +75,8 @@ items:
   fullName: Orama.RHI.IGraphicsDevice.CurrentFrame
   type: Property
   source:
-    remote:
-      path: Orama.RHI/IGraphicsDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CurrentFrame
-    path: ../Orama/Orama.RHI/IGraphicsDevice.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\IGraphicsDevice.cs
     startLine: 19
   assemblies:
   - Orama.RHI
@@ -114,12 +102,8 @@ items:
   fullName: Orama.RHI.IGraphicsDevice.Features
   type: Property
   source:
-    remote:
-      path: Orama.RHI/IGraphicsDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Features
-    path: ../Orama/Orama.RHI/IGraphicsDevice.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\IGraphicsDevice.cs
     startLine: 22
   assemblies:
   - Orama.RHI
@@ -145,12 +129,8 @@ items:
   fullName: Orama.RHI.IGraphicsDevice.SwapchainFramebuffer
   type: Property
   source:
-    remote:
-      path: Orama.RHI/IGraphicsDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SwapchainFramebuffer
-    path: ../Orama/Orama.RHI/IGraphicsDevice.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\IGraphicsDevice.cs
     startLine: 25
   assemblies:
   - Orama.RHI
@@ -176,12 +156,8 @@ items:
   fullName: Orama.RHI.IGraphicsDevice.ResourceFactory
   type: Property
   source:
-    remote:
-      path: Orama.RHI/IGraphicsDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceFactory
-    path: ../Orama/Orama.RHI/IGraphicsDevice.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\IGraphicsDevice.cs
     startLine: 28
   assemblies:
   - Orama.RHI
@@ -207,12 +183,8 @@ items:
   fullName: Orama.RHI.IGraphicsDevice.Initialize(Silk.NET.Windowing.IWindow)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/IGraphicsDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
-    path: ../Orama/Orama.RHI/IGraphicsDevice.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\IGraphicsDevice.cs
     startLine: 31
   assemblies:
   - Orama.RHI
@@ -238,12 +210,8 @@ items:
   fullName: Orama.RHI.IGraphicsDevice.SubmitCommands(Orama.RHI.ICommandBuffer)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/IGraphicsDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SubmitCommands
-    path: ../Orama/Orama.RHI/IGraphicsDevice.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\IGraphicsDevice.cs
     startLine: 34
   assemblies:
   - Orama.RHI
@@ -269,12 +237,8 @@ items:
   fullName: Orama.RHI.IGraphicsDevice.SwapBuffers()
   type: Method
   source:
-    remote:
-      path: Orama.RHI/IGraphicsDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SwapBuffers
-    path: ../Orama/Orama.RHI/IGraphicsDevice.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\IGraphicsDevice.cs
     startLine: 37
   assemblies:
   - Orama.RHI
@@ -297,12 +261,8 @@ items:
   fullName: Orama.RHI.IGraphicsDevice.ResizeSwapchain(uint, uint)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/IGraphicsDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ResizeSwapchain
-    path: ../Orama/Orama.RHI/IGraphicsDevice.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\IGraphicsDevice.cs
     startLine: 40
   assemblies:
   - Orama.RHI
@@ -333,12 +293,8 @@ items:
   fullName: Orama.RHI.IGraphicsDevice.UpdateBuffer<T>(Orama.RHI.Resources.IBuffer, uint, System.ReadOnlySpan<T>)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/IGraphicsDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: UpdateBuffer
-    path: ../Orama/Orama.RHI/IGraphicsDevice.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\IGraphicsDevice.cs
     startLine: 43
   assemblies:
   - Orama.RHI

@@ -19,12 +19,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceCache
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\ResourceCache.cs
     startLine: 12
   assemblies:
   - Orama.Rendering
@@ -74,12 +70,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Instance
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Instance
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\ResourceCache.cs
     startLine: 15
   assemblies:
   - Orama.Rendering
@@ -107,12 +99,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Cache
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Cache
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\ResourceCache.cs
     startLine: 17
   assemblies:
   - Orama.Rendering
@@ -138,12 +126,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Create(TKey)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Create
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\ResourceCache.cs
     startLine: 20
   assemblies:
   - Orama.Rendering
@@ -173,12 +157,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.GetOrCreate(TKey)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetOrCreate
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\ResourceCache.cs
     startLine: 23
   assemblies:
   - Orama.Rendering
@@ -208,12 +188,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Get
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\ResourceCache.cs
     startLine: 38
   assemblies:
   - Orama.Rendering
@@ -243,12 +219,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.InitializeNewCacheEntry(TKey)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: InitializeNewCacheEntry
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/ResourceCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\ResourceCache.cs
     startLine: 50
   assemblies:
   - Orama.Rendering

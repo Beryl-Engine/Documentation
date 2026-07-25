@@ -22,12 +22,8 @@ items:
   fullName: Orama.Scenes.Components.Transform
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Transform.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Transform
-    path: ../Orama/Modules/Orama.Scenes/Components/Transform.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Transform.cs
     startLine: 10
   assemblies:
   - Orama.Scenes
@@ -65,12 +61,8 @@ items:
   fullName: Orama.Scenes.Components.Transform.Position
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Transform.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Position
-    path: ../Orama/Modules/Orama.Scenes/Components/Transform.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Transform.cs
     startLine: 13
   assemblies:
   - Orama.Scenes
@@ -96,12 +88,8 @@ items:
   fullName: Orama.Scenes.Components.Transform.Rotation
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Transform.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Rotation
-    path: ../Orama/Modules/Orama.Scenes/Components/Transform.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Transform.cs
     startLine: 16
   assemblies:
   - Orama.Scenes
@@ -127,12 +115,8 @@ items:
   fullName: Orama.Scenes.Components.Transform.Scale
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Transform.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Scale
-    path: ../Orama/Modules/Orama.Scenes/Components/Transform.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Transform.cs
     startLine: 19
   assemblies:
   - Orama.Scenes
@@ -158,12 +142,8 @@ items:
   fullName: Orama.Scenes.Components.Transform.Matrix
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Transform.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Matrix
-    path: ../Orama/Modules/Orama.Scenes/Components/Transform.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Transform.cs
     startLine: 22
   assemblies:
   - Orama.Scenes
@@ -189,12 +169,8 @@ items:
   fullName: Orama.Scenes.Components.Transform.Forward
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Transform.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Forward
-    path: ../Orama/Modules/Orama.Scenes/Components/Transform.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Transform.cs
     startLine: 25
   assemblies:
   - Orama.Scenes
@@ -220,12 +196,8 @@ items:
   fullName: Orama.Scenes.Components.Transform.Right
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Transform.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Right
-    path: ../Orama/Modules/Orama.Scenes/Components/Transform.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Transform.cs
     startLine: 28
   assemblies:
   - Orama.Scenes
@@ -251,12 +223,8 @@ items:
   fullName: Orama.Scenes.Components.Transform.Up
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Transform.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Up
-    path: ../Orama/Modules/Orama.Scenes/Components/Transform.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Transform.cs
     startLine: 31
   assemblies:
   - Orama.Scenes
@@ -282,12 +250,8 @@ items:
   fullName: Orama.Scenes.Components.Transform.Transform()
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Transform.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Scenes/Components/Transform.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Transform.cs
     startLine: 34
   assemblies:
   - Orama.Scenes
@@ -313,12 +277,8 @@ items:
   fullName: Orama.Scenes.Components.Transform.Transform(Orama.Math.Vector3, Orama.Math.Quaternion, Orama.Math.Vector3)
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Scenes/Components/Transform.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Scenes/Components/Transform.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Components\Transform.cs
     startLine: 37
   assemblies:
   - Orama.Scenes

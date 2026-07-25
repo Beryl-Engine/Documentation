@@ -17,12 +17,8 @@ items:
   fullName: Orama.RHI.Resources.ResourceLayoutDescriptor
   type: Struct
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ResourceLayoutDescriptor
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 126
   assemblies:
   - Orama.RHI
@@ -50,12 +46,8 @@ items:
   fullName: Orama.RHI.Resources.ResourceLayoutDescriptor.ResourceLayoutDescriptor(System.ReadOnlySpan<Orama.RHI.Resources.ResourceLayoutElementDescription>)
   type: Constructor
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 126
   assemblies:
   - Orama.RHI
@@ -82,12 +74,8 @@ items:
   fullName: Orama.RHI.Resources.ResourceLayoutDescriptor.Elements
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Elements
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 128
   assemblies:
   - Orama.RHI
@@ -109,12 +97,8 @@ items:
   fullName: Orama.RHI.Resources.ResourceLayoutDescriptor.Hash
   type: Property
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Hash
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 131
   assemblies:
   - Orama.RHI
@@ -139,12 +123,8 @@ items:
   fullName: Orama.RHI.Resources.ResourceLayoutDescriptor.GetHashCode()
   type: Method
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceDescriptors.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
-    path: ../Orama/Orama.RHI/Resources/ResourceDescriptors.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceDescriptors.cs
     startLine: 134
   assemblies:
   - Orama.RHI

@@ -18,12 +18,8 @@ items:
   fullName: Orama.Physics.IPhysicsWorld
   type: Interface
   source:
-    remote:
-      path: Modules/Orama.Physics/IPhysicsWorld.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IPhysicsWorld
-    path: ../Orama/Modules/Orama.Physics/IPhysicsWorld.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\IPhysicsWorld.cs
     startLine: 12
   assemblies:
   - Orama.Physics
@@ -47,12 +43,8 @@ items:
   fullName: Orama.Physics.IPhysicsWorld.SubstepCount
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/IPhysicsWorld.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SubstepCount
-    path: ../Orama/Modules/Orama.Physics/IPhysicsWorld.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\IPhysicsWorld.cs
     startLine: 15
   assemblies:
   - Orama.Physics
@@ -78,12 +70,8 @@ items:
   fullName: Orama.Physics.IPhysicsWorld.CreateBody(Orama.Scenes.Entities.Entity?)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/IPhysicsWorld.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateBody
-    path: ../Orama/Modules/Orama.Physics/IPhysicsWorld.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\IPhysicsWorld.cs
     startLine: 19
   assemblies:
   - Orama.Physics
@@ -115,12 +103,8 @@ items:
   fullName: Orama.Physics.IPhysicsWorld.DestroyBody(Orama.Physics.IPhysicsBody)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/IPhysicsWorld.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: DestroyBody
-    path: ../Orama/Modules/Orama.Physics/IPhysicsWorld.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\IPhysicsWorld.cs
     startLine: 23
   assemblies:
   - Orama.Physics
@@ -147,12 +131,8 @@ items:
   fullName: Orama.Physics.IPhysicsWorld.Step(float)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/IPhysicsWorld.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Step
-    path: ../Orama/Modules/Orama.Physics/IPhysicsWorld.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\IPhysicsWorld.cs
     startLine: 27
   assemblies:
   - Orama.Physics
@@ -182,12 +162,8 @@ items:
   fullName: Orama.Physics.IPhysicsWorld.TryRaycast(System.Numerics.Vector3, System.Numerics.Vector3, float, out Orama.Physics.RaycastResult)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/IPhysicsWorld.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: TryRaycast
-    path: ../Orama/Modules/Orama.Physics/IPhysicsWorld.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\IPhysicsWorld.cs
     startLine: 34
   assemblies:
   - Orama.Physics

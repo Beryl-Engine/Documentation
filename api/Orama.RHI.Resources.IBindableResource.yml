@@ -13,12 +13,8 @@ items:
   fullName: Orama.RHI.Resources.IBindableResource
   type: Interface
   source:
-    remote:
-      path: Orama.RHI/Resources/ResourceInterfaces.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IBindableResource
-    path: ../Orama/Orama.RHI/Resources/ResourceInterfaces.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\ResourceInterfaces.cs
     startLine: 57
   assemblies:
   - Orama.RHI

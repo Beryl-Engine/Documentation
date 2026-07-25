@@ -14,12 +14,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.SamplerCache
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/SamplerCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SamplerCache
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/SamplerCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\SamplerCache.cs
     startLine: 8
   assemblies:
   - Orama.Rendering
@@ -53,12 +49,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.SamplerCache.Create(Orama.RHI.Resources.SamplerDescriptor)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/SamplerCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Create
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/SamplerCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\SamplerCache.cs
     startLine: 11
   assemblies:
   - Orama.Rendering

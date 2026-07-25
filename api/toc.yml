@@ -374,16 +374,6 @@ items:
       - uid: Orama.RHI.Resources.TextureWrapMode
         name: TextureWrapMode
         type: Enum
-    - uid: Orama.RHI.VulkanBackend
-      name: VulkanBackend
-      type: Namespace
-      items:
-      - uid: Orama.RHI.VulkanBackend.VulkanException
-        name: VulkanException
-        type: Class
-      - uid: Orama.RHI.VulkanBackend.VulkanExtensions
-        name: VulkanExtensions
-        type: Class
     - uid: Orama.RHI.CullingMode
       name: CullingMode
       type: Enum

@@ -35,12 +35,8 @@ items:
   fullName: Orama.Math.Vector2I
   type: Struct
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Vector2I
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 8
   assemblies:
   - Orama.Math
@@ -68,12 +64,8 @@ items:
   fullName: Orama.Math.Vector2I.X
   type: Property
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: X
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 11
   assemblies:
   - Orama.Math
@@ -99,12 +91,8 @@ items:
   fullName: Orama.Math.Vector2I.Y
   type: Property
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Y
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 14
   assemblies:
   - Orama.Math
@@ -130,12 +118,8 @@ items:
   fullName: Orama.Math.Vector2I.Length
   type: Property
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Length
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 17
   assemblies:
   - Orama.Math
@@ -161,12 +145,8 @@ items:
   fullName: Orama.Math.Vector2I.Vector2I(int, int)
   type: Constructor
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 20
   assemblies:
   - Orama.Math
@@ -197,12 +177,8 @@ items:
   fullName: Orama.Math.Vector2I.Zero
   type: Property
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Zero
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 27
   assemblies:
   - Orama.Math
@@ -228,12 +204,8 @@ items:
   fullName: Orama.Math.Vector2I.One
   type: Property
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: One
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 30
   assemblies:
   - Orama.Math
@@ -259,12 +231,8 @@ items:
   fullName: Orama.Math.Vector2I.Up
   type: Property
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Up
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 33
   assemblies:
   - Orama.Math
@@ -290,12 +258,8 @@ items:
   fullName: Orama.Math.Vector2I.UnitX
   type: Property
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: UnitX
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 36
   assemblies:
   - Orama.Math
@@ -321,12 +285,8 @@ items:
   fullName: Orama.Math.Vector2I.UnitY
   type: Property
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: UnitY
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 39
   assemblies:
   - Orama.Math
@@ -352,12 +312,8 @@ items:
   fullName: Orama.Math.Vector2I.Dot(Orama.Math.Vector2I, Orama.Math.Vector2I)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Dot
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 42
   assemblies:
   - Orama.Math
@@ -387,12 +343,8 @@ items:
   fullName: Orama.Math.Vector2I.Dot(Orama.Math.Vector2I)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Dot
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 45
   assemblies:
   - Orama.Math
@@ -420,12 +372,8 @@ items:
   fullName: Orama.Math.Vector2I.Equals(object?)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 48
   assemblies:
   - Orama.Math
@@ -459,12 +407,8 @@ items:
   fullName: Orama.Math.Vector2I.Equals(Orama.Math.Vector2I)
   type: Method
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Equals
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 57
   assemblies:
   - Orama.Math
@@ -494,12 +438,8 @@ items:
   fullName: Orama.Math.Vector2I.GetHashCode()
   type: Method
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetHashCode
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 60
   assemblies:
   - Orama.Math
@@ -526,12 +466,8 @@ items:
   fullName: Orama.Math.Vector2I.ToString()
   type: Method
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ToString
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 63
   assemblies:
   - Orama.Math
@@ -558,12 +494,8 @@ items:
   fullName: Orama.Math.Vector2I.operator +(Orama.Math.Vector2I, Orama.Math.Vector2I)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Addition
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 66
   assemblies:
   - Orama.Math
@@ -594,12 +526,8 @@ items:
   fullName: Orama.Math.Vector2I.operator -(Orama.Math.Vector2I, Orama.Math.Vector2I)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Subtraction
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 69
   assemblies:
   - Orama.Math
@@ -630,12 +558,8 @@ items:
   fullName: Orama.Math.Vector2I.operator -(Orama.Math.Vector2I)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_UnaryNegation
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 72
   assemblies:
   - Orama.Math
@@ -664,12 +588,8 @@ items:
   fullName: Orama.Math.Vector2I.operator *(Orama.Math.Vector2I, int)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 75
   assemblies:
   - Orama.Math
@@ -700,12 +620,8 @@ items:
   fullName: Orama.Math.Vector2I.operator *(int, Orama.Math.Vector2I)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Multiply
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 78
   assemblies:
   - Orama.Math
@@ -736,12 +652,8 @@ items:
   fullName: Orama.Math.Vector2I.operator ==(Orama.Math.Vector2I, Orama.Math.Vector2I)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Equality
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 81
   assemblies:
   - Orama.Math
@@ -772,12 +684,8 @@ items:
   fullName: Orama.Math.Vector2I.operator !=(Orama.Math.Vector2I, Orama.Math.Vector2I)
   type: Operator
   source:
-    remote:
-      path: Orama.Math/Vectors/Vector2I.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: op_Inequality
-    path: ../Orama/Orama.Math/Vectors/Vector2I.cs
+    path: E:\Orama\Documentation\Orama\Orama.Math\Vectors\Vector2I.cs
     startLine: 84
   assemblies:
   - Orama.Math

@@ -14,12 +14,8 @@ items:
   fullName: Orama.Rendering.ShaderBaker
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ShaderBaker
-    path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\ShaderBaker.cs
     startLine: 10
   assemblies:
   - Orama.Rendering
@@ -51,12 +47,8 @@ items:
   fullName: Orama.Rendering.ShaderBaker.SlangToSpirV(string, string)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/ShaderBaker.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SlangToSpirV
-    path: ../Orama/Modules/Orama.Rendering/ShaderBaker.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\ShaderBaker.cs
     startLine: 48
   assemblies:
   - Orama.Rendering

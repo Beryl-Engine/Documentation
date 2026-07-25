@@ -30,12 +30,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Jitter2Body
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 15
   assemblies:
   - Orama.Physics
@@ -69,12 +65,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.Owner
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Owner
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 17
   assemblies:
   - Orama.Physics
@@ -102,12 +94,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.IsStatic
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IsStatic
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 45
   assemblies:
   - Orama.Physics
@@ -135,12 +123,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.Mass
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Mass
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 52
   assemblies:
   - Orama.Physics
@@ -168,12 +152,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.Friction
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Friction
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 63
   assemblies:
   - Orama.Physics
@@ -201,12 +181,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.AffectedByGravity
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AffectedByGravity
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 70
   assemblies:
   - Orama.Physics
@@ -234,12 +210,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.Restitution
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Restitution
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 77
   assemblies:
   - Orama.Physics
@@ -267,12 +239,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.AngularVelocity
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AngularVelocity
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 84
   assemblies:
   - Orama.Physics
@@ -300,12 +268,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.Damping
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Damping
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 91
   assemblies:
   - Orama.Physics
@@ -333,12 +297,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.Velocity
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Velocity
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 98
   assemblies:
   - Orama.Physics
@@ -366,12 +326,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.Position
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Position
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 105
   assemblies:
   - Orama.Physics
@@ -399,12 +355,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.Orientation
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Orientation
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 112
   assemblies:
   - Orama.Physics
@@ -432,12 +384,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.AddBoxCollider(float, float, float)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddBoxCollider
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 119
   assemblies:
   - Orama.Physics
@@ -474,12 +422,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.AddSphereCollider(float)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddSphereCollider
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 131
   assemblies:
   - Orama.Physics
@@ -512,12 +456,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.RemoveCollider(int)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RemoveCollider
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 143
   assemblies:
   - Orama.Physics
@@ -549,12 +489,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.AddForce(Orama.Math.Vector3)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddForce
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 153
   assemblies:
   - Orama.Physics
@@ -583,12 +519,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.OnCollisionEnter
   type: Event
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OnCollisionEnter
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 156
   assemblies:
   - Orama.Physics
@@ -614,12 +546,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2Body.OnCollisionExit
   type: Event
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OnCollisionExit
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2Body.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2Body.cs
     startLine: 159
   assemblies:
   - Orama.Physics

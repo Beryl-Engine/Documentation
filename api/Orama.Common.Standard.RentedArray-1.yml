@@ -17,12 +17,8 @@ items:
   fullName: Orama.Common.Standard.RentedArray<T>
   type: Struct
   source:
-    remote:
-      path: Orama.Common/Standard/RentedArray.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RentedArray
-    path: ../Orama/Orama.Common/Standard/RentedArray.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Standard\RentedArray.cs
     startLine: 14
   assemblies:
   - Orama.Common
@@ -60,12 +56,8 @@ items:
   fullName: Orama.Common.Standard.RentedArray<T>.Array
   type: Property
   source:
-    remote:
-      path: Orama.Common/Standard/RentedArray.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Array
-    path: ../Orama/Orama.Common/Standard/RentedArray.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Standard\RentedArray.cs
     startLine: 17
   assemblies:
   - Orama.Common
@@ -93,12 +85,8 @@ items:
   fullName: Orama.Common.Standard.RentedArray<T>.RentedArray()
   type: Constructor
   source:
-    remote:
-      path: Orama.Common/Standard/RentedArray.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.Common/Standard/RentedArray.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Standard\RentedArray.cs
     startLine: 20
   assemblies:
   - Orama.Common
@@ -124,12 +112,8 @@ items:
   fullName: Orama.Common.Standard.RentedArray<T>.RentedArray(int)
   type: Constructor
   source:
-    remote:
-      path: Orama.Common/Standard/RentedArray.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Orama.Common/Standard/RentedArray.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Standard\RentedArray.cs
     startLine: 24
   assemblies:
   - Orama.Common
@@ -159,12 +143,8 @@ items:
   fullName: Orama.Common.Standard.RentedArray<T>.Dispose()
   type: Method
   source:
-    remote:
-      path: Orama.Common/Standard/RentedArray.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
-    path: ../Orama/Orama.Common/Standard/RentedArray.cs
+    path: E:\Orama\Documentation\Orama\Orama.Common\Standard\RentedArray.cs
     startLine: 27
   assemblies:
   - Orama.Common

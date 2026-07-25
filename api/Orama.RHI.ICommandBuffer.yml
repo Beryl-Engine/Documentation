@@ -25,12 +25,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer
   type: Interface
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ICommandBuffer
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 11
   assemblies:
   - Orama.RHI
@@ -54,12 +50,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.Begin()
   type: Method
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Begin
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 15
   assemblies:
   - Orama.RHI
@@ -82,12 +74,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.End()
   type: Method
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: End
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 18
   assemblies:
   - Orama.RHI
@@ -110,12 +98,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.SetFrameBuffer(Orama.RHI.Resources.IFramebuffer)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SetFrameBuffer
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 23
   assemblies:
   - Orama.RHI
@@ -141,12 +125,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.CurrentFramebuffer
   type: Property
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CurrentFramebuffer
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 26
   assemblies:
   - Orama.RHI
@@ -172,12 +152,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.SetPipeline(Orama.RHI.Resources.IPipeline)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SetPipeline
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 31
   assemblies:
   - Orama.RHI
@@ -203,12 +179,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.SetVertexBuffer(uint, Orama.RHI.Resources.IBuffer)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SetVertexBuffer
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 34
   assemblies:
   - Orama.RHI
@@ -239,12 +211,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.SetIndexBuffer(Orama.RHI.Resources.IBuffer)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SetIndexBuffer
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 37
   assemblies:
   - Orama.RHI
@@ -270,12 +238,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.SetGraphicsResourceSet(uint, Orama.RHI.Resources.IResourceSet)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SetGraphicsResourceSet
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 40
   assemblies:
   - Orama.RHI
@@ -306,12 +270,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.UpdateBuffer(Orama.RHI.Resources.IBuffer, uint, System.ReadOnlySpan<byte>)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: UpdateBuffer
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 45
   assemblies:
   - Orama.RHI
@@ -344,12 +304,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.DrawIndexed(uint)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: DrawIndexed
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 50
   assemblies:
   - Orama.RHI
@@ -378,12 +334,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.ClearDepth(float)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ClearDepth
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 55
   assemblies:
   - Orama.RHI
@@ -412,12 +364,8 @@ items:
   fullName: Orama.RHI.ICommandBuffer.ClearColor(Orama.Math.Color)
   type: Method
   source:
-    remote:
-      path: Orama.RHI/ICommandBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ClearColor
-    path: ../Orama/Orama.RHI/ICommandBuffer.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\ICommandBuffer.cs
     startLine: 58
   assemblies:
   - Orama.RHI

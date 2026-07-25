@@ -13,12 +13,8 @@ items:
   fullName: Orama.Serialization.Attributes.DontSerializeAttribute
   type: Class
   source:
-    remote:
-      path: Orama.Serialization/Attributes/DontSerializeAttribute.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: DontSerializeAttribute
-    path: ../Orama/Orama.Serialization/Attributes/DontSerializeAttribute.cs
+    path: E:\Orama\Documentation\Orama\Orama.Serialization\Attributes\DontSerializeAttribute.cs
     startLine: 8
   assemblies:
   - Orama.Serialization

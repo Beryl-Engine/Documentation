@@ -32,12 +32,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RigidBody
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 13
   assemblies:
   - Orama.Physics
@@ -72,12 +68,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.IsStatic
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IsStatic
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 18
   assemblies:
   - Orama.Physics
@@ -102,12 +94,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.AffectedByGravity
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AffectedByGravity
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 25
   assemblies:
   - Orama.Physics
@@ -132,12 +120,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.Mass
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Mass
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 32
   assemblies:
   - Orama.Physics
@@ -162,12 +146,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.Friction
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Friction
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 39
   assemblies:
   - Orama.Physics
@@ -192,12 +172,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.Restitution
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Restitution
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 46
   assemblies:
   - Orama.Physics
@@ -222,12 +198,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.Position
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Position
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 53
   assemblies:
   - Orama.Physics
@@ -252,12 +224,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.Orientation
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Orientation
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 60
   assemblies:
   - Orama.Physics
@@ -282,12 +250,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.Velocity
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Velocity
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 67
   assemblies:
   - Orama.Physics
@@ -312,12 +276,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.AngularVelocity
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AngularVelocity
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 74
   assemblies:
   - Orama.Physics
@@ -342,12 +302,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.Damping
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Damping
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 81
   assemblies:
   - Orama.Physics
@@ -372,12 +328,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.Start()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Start
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 88
   assemblies:
   - Orama.Physics
@@ -401,12 +353,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.Update()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Update
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 98
   assemblies:
   - Orama.Physics
@@ -430,12 +378,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.Destroy()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 108
   assemblies:
   - Orama.Physics
@@ -459,12 +403,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.AddBoxCollider(float, float, float)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddBoxCollider
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 118
   assemblies:
   - Orama.Physics
@@ -498,12 +438,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.AddSphereCollider(float)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddSphereCollider
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 132
   assemblies:
   - Orama.Physics
@@ -533,12 +469,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.RemoveCollider(int)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RemoveCollider
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 146
   assemblies:
   - Orama.Physics
@@ -566,12 +498,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.AddForce(Orama.Math.Vector3)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddForce
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 149
   assemblies:
   - Orama.Physics
@@ -596,12 +524,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.OnCollisionEnter
   type: Event
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OnCollisionEnter
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 152
   assemblies:
   - Orama.Physics
@@ -624,12 +548,8 @@ items:
   fullName: Orama.Physics.Components.RigidBody.OnCollisionExit
   type: Event
   source:
-    remote:
-      path: Modules/Orama.Physics/Components/RigidBody.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OnCollisionExit
-    path: ../Orama/Modules/Orama.Physics/Components/RigidBody.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Components\RigidBody.cs
     startLine: 159
   assemblies:
   - Orama.Physics

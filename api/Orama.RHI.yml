@@ -13,7 +13,6 @@ items:
   - Orama.RHI.IResourceFactory
   - Orama.RHI.RendererBackend
   - Orama.RHI.Resources
-  - Orama.RHI.VulkanBackend
   - Orama.RHI.VulkanInfo
   langs:
   - csharp
@@ -55,36 +54,6 @@ references:
   - uid: Orama.RHI.Resources
     name: Resources
     href: Orama.RHI.Resources.html
-- uid: Orama.RHI.VulkanBackend
-  commentId: N:Orama.RHI.VulkanBackend
-  href: Orama.html
-  name: Orama.RHI.VulkanBackend
-  nameWithType: Orama.RHI.VulkanBackend
-  fullName: Orama.RHI.VulkanBackend
-  spec.csharp:
-  - uid: Orama
-    name: Orama
-    href: Orama.html
-  - name: .
-  - uid: Orama.RHI
-    name: RHI
-    href: Orama.RHI.html
-  - name: .
-  - uid: Orama.RHI.VulkanBackend
-    name: VulkanBackend
-    href: Orama.RHI.VulkanBackend.html
-  spec.vb:
-  - uid: Orama
-    name: Orama
-    href: Orama.html
-  - name: .
-  - uid: Orama.RHI
-    name: RHI
-    href: Orama.RHI.html
-  - name: .
-  - uid: Orama.RHI.VulkanBackend
-    name: VulkanBackend
-    href: Orama.RHI.VulkanBackend.html
 - uid: Orama.RHI.CullingMode
   commentId: T:Orama.RHI.CullingMode
   parent: Orama.RHI

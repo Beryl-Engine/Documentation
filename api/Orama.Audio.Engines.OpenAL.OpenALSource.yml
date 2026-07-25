@@ -29,12 +29,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: OpenALSource
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 11
   assemblies:
   - Orama.Audio
@@ -66,12 +62,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.OpenALSource(Silk.NET.OpenAL.AL, Silk.NET.OpenAL.Extensions.Creative.EffectExtension)
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 18
   assemblies:
   - Orama.Audio
@@ -100,12 +92,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.Obstruction
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Obstruction
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 27
   assemblies:
   - Orama.Audio
@@ -133,12 +121,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.Occlusion
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Occlusion
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 29
   assemblies:
   - Orama.Audio
@@ -166,12 +150,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.Obstructed
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Obstructed
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 31
   assemblies:
   - Orama.Audio
@@ -199,12 +179,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.Volume
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Volume
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 34
   assemblies:
   - Orama.Audio
@@ -232,12 +208,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.Pitch
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Pitch
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 46
   assemblies:
   - Orama.Audio
@@ -265,12 +237,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.Loop
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Loop
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 58
   assemblies:
   - Orama.Audio
@@ -298,12 +266,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.IsPlaying
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IsPlaying
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 70
   assemblies:
   - Orama.Audio
@@ -331,12 +295,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.MinDistance
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: MinDistance
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 81
   assemblies:
   - Orama.Audio
@@ -364,12 +324,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.MaxDistance
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: MaxDistance
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 93
   assemblies:
   - Orama.Audio
@@ -397,12 +353,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.RolloffFactor
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RolloffFactor
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 105
   assemblies:
   - Orama.Audio
@@ -430,12 +382,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.Update(Orama.Math.Vector3)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Update
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 117
   assemblies:
   - Orama.Audio
@@ -462,12 +410,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.SetClip(Orama.Audio.Resources.AudioClip)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SetClip
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 128
   assemblies:
   - Orama.Audio
@@ -496,12 +440,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.Play()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Play
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 143
   assemblies:
   - Orama.Audio
@@ -526,12 +466,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.Stop()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Stop
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 146
   assemblies:
   - Orama.Audio
@@ -556,12 +492,8 @@ items:
   fullName: Orama.Audio.Engines.OpenAL.OpenALSource.Destroy()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
-    path: ../Orama/Modules/Orama.Audio/Engines/OpenAL/OpenALSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Engines\OpenAL\OpenALSource.cs
     startLine: 149
   assemblies:
   - Orama.Audio

@@ -28,12 +28,8 @@ items:
   fullName: Orama.Audio.IAudioSource
   type: Interface
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IAudioSource
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 11
   assemblies:
   - Orama.Audio
@@ -57,12 +53,8 @@ items:
   fullName: Orama.Audio.IAudioSource.Volume
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Volume
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 14
   assemblies:
   - Orama.Audio
@@ -88,12 +80,8 @@ items:
   fullName: Orama.Audio.IAudioSource.Pitch
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Pitch
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 17
   assemblies:
   - Orama.Audio
@@ -119,12 +107,8 @@ items:
   fullName: Orama.Audio.IAudioSource.Loop
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Loop
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 20
   assemblies:
   - Orama.Audio
@@ -150,12 +134,8 @@ items:
   fullName: Orama.Audio.IAudioSource.IsPlaying
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: IsPlaying
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 23
   assemblies:
   - Orama.Audio
@@ -181,12 +161,8 @@ items:
   fullName: Orama.Audio.IAudioSource.Obstruction
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Obstruction
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 26
   assemblies:
   - Orama.Audio
@@ -212,12 +188,8 @@ items:
   fullName: Orama.Audio.IAudioSource.Occlusion
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Occlusion
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 29
   assemblies:
   - Orama.Audio
@@ -243,12 +215,8 @@ items:
   fullName: Orama.Audio.IAudioSource.Obstructed
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Obstructed
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 32
   assemblies:
   - Orama.Audio
@@ -274,12 +242,8 @@ items:
   fullName: Orama.Audio.IAudioSource.MinDistance
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: MinDistance
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 35
   assemblies:
   - Orama.Audio
@@ -305,12 +269,8 @@ items:
   fullName: Orama.Audio.IAudioSource.MaxDistance
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: MaxDistance
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 38
   assemblies:
   - Orama.Audio
@@ -336,12 +296,8 @@ items:
   fullName: Orama.Audio.IAudioSource.RolloffFactor
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RolloffFactor
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 41
   assemblies:
   - Orama.Audio
@@ -367,12 +323,8 @@ items:
   fullName: Orama.Audio.IAudioSource.SetClip(Orama.Audio.Resources.AudioClip)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SetClip
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 45
   assemblies:
   - Orama.Audio
@@ -399,12 +351,8 @@ items:
   fullName: Orama.Audio.IAudioSource.Play()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Play
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 48
   assemblies:
   - Orama.Audio
@@ -427,12 +375,8 @@ items:
   fullName: Orama.Audio.IAudioSource.Stop()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Stop
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 51
   assemblies:
   - Orama.Audio
@@ -455,12 +399,8 @@ items:
   fullName: Orama.Audio.IAudioSource.Destroy()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 54
   assemblies:
   - Orama.Audio
@@ -483,12 +423,8 @@ items:
   fullName: Orama.Audio.IAudioSource.Update(Orama.Math.Vector3)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/IAudioSource.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Update
-    path: ../Orama/Modules/Orama.Audio/IAudioSource.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\IAudioSource.cs
     startLine: 56
   assemblies:
   - Orama.Audio

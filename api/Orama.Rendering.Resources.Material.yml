@@ -18,12 +18,8 @@ items:
   fullName: Orama.Rendering.Resources.Material
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Material
-    path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Material.cs
     startLine: 11
   assemblies:
   - Orama.Rendering
@@ -58,12 +54,8 @@ items:
   fullName: Orama.Rendering.Resources.Material.Shader
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Shader
-    path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Material.cs
     startLine: 14
   assemblies:
   - Orama.Rendering
@@ -89,12 +81,8 @@ items:
   fullName: Orama.Rendering.Resources.Material.Default
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Default
-    path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Material.cs
     startLine: 17
   assemblies:
   - Orama.Rendering
@@ -120,12 +108,8 @@ items:
   fullName: Orama.Rendering.Resources.Material.Material(Orama.Rendering.Resources.Shader)
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Material.cs
     startLine: 22
   assemblies:
   - Orama.Rendering
@@ -154,12 +138,8 @@ items:
   fullName: Orama.Rendering.Resources.Material.SetProperty<T>(string, T)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SetProperty
-    path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Material.cs
     startLine: 40
   assemblies:
   - Orama.Rendering
@@ -192,12 +172,8 @@ items:
   fullName: Orama.Rendering.Resources.Material.GetProperty<T>(string)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Material.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetProperty
-    path: ../Orama/Modules/Orama.Rendering/Resources/Material.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Material.cs
     startLine: 49
   assemblies:
   - Orama.Rendering

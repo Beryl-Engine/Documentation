@@ -16,12 +16,8 @@ items:
   fullName: Orama.Audio.Components.AudioListener
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Audio/Components/AudioListener.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AudioListener
-    path: ../Orama/Modules/Orama.Audio/Components/AudioListener.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Components\AudioListener.cs
     startLine: 8
   assemblies:
   - Orama.Audio
@@ -54,12 +50,8 @@ items:
   fullName: Orama.Audio.Components.AudioListener.Start()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/Components/AudioListener.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Start
-    path: ../Orama/Modules/Orama.Audio/Components/AudioListener.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Components\AudioListener.cs
     startLine: 12
   assemblies:
   - Orama.Audio
@@ -83,12 +75,8 @@ items:
   fullName: Orama.Audio.Components.AudioListener.Update()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/Components/AudioListener.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Update
-    path: ../Orama/Modules/Orama.Audio/Components/AudioListener.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Components\AudioListener.cs
     startLine: 22
   assemblies:
   - Orama.Audio
@@ -112,12 +100,8 @@ items:
   fullName: Orama.Audio.Components.AudioListener.Destroy()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Audio/Components/AudioListener.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
-    path: ../Orama/Modules/Orama.Audio/Components/AudioListener.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Audio\Components\AudioListener.cs
     startLine: 34
   assemblies:
   - Orama.Audio

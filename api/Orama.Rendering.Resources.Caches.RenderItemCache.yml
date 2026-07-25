@@ -14,12 +14,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.RenderItemCache
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RenderItemCache
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\RenderItemCache.cs
     startLine: 10
   assemblies:
   - Orama.Rendering
@@ -53,12 +49,8 @@ items:
   fullName: Orama.Rendering.Resources.Caches.RenderItemCache.Create(Orama.Rendering.Resources.Caches.RenderItemKey)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Create
-    path: ../Orama/Modules/Orama.Rendering/Resources/Caches/RenderItemCache.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\Resources\Caches\RenderItemCache.cs
     startLine: 13
   assemblies:
   - Orama.Rendering

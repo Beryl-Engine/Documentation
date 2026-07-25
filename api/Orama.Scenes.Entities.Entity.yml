@@ -26,12 +26,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Entity
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 16
   assemblies:
   - Orama.Scenes
@@ -66,12 +62,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.Enabled
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Enabled
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 19
   assemblies:
   - Orama.Scenes
@@ -97,12 +89,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.Name
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Name
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 32
   assemblies:
   - Orama.Scenes
@@ -128,12 +116,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.Transform
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Transform
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 35
   assemblies:
   - Orama.Scenes
@@ -159,12 +143,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.Components
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Components
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 38
   assemblies:
   - Orama.Scenes
@@ -190,12 +170,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.Entity()
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 44
   assemblies:
   - Orama.Scenes
@@ -221,12 +197,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.Start()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Start
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 100
   assemblies:
   - Orama.Scenes
@@ -250,12 +222,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.Update()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Update
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 111
   assemblies:
   - Orama.Scenes
@@ -279,12 +247,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.Destroy()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Destroy
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 121
   assemblies:
   - Orama.Scenes
@@ -307,12 +271,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.AddComponent(Orama.Scenes.Components.Component)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddComponent
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 141
   assemblies:
   - Orama.Scenes
@@ -340,12 +300,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.GetComponent<T>()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetComponent
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 150
   assemblies:
   - Orama.Scenes
@@ -375,12 +331,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.AddComponent<T>()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AddComponent
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 153
   assemblies:
   - Orama.Scenes
@@ -410,12 +362,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.GetOrAddComponent<T>()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GetOrAddComponent
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 156
   assemblies:
   - Orama.Scenes
@@ -445,12 +393,8 @@ items:
   fullName: Orama.Scenes.Entities.Entity.RemoveComponent(Orama.Scenes.Components.Component)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Scenes/Entities/Entity.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: RemoveComponent
-    path: ../Orama/Modules/Orama.Scenes/Entities/Entity.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Scenes\Entities\Entity.cs
     startLine: 159
   assemblies:
   - Orama.Scenes

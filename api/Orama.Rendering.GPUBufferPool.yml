@@ -16,12 +16,8 @@ items:
   fullName: Orama.Rendering.GPUBufferPool
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBufferPool.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: GPUBufferPool
-    path: ../Orama/Modules/Orama.Rendering/GPUBufferPool.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBufferPool.cs
     startLine: 7
   assemblies:
   - Orama.Rendering
@@ -55,12 +51,8 @@ items:
   fullName: Orama.Rendering.GPUBufferPool.MaxPoolSize
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBufferPool.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: MaxPoolSize
-    path: ../Orama/Modules/Orama.Rendering/GPUBufferPool.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBufferPool.cs
     startLine: 10
   assemblies:
   - Orama.Rendering
@@ -87,12 +79,8 @@ items:
   fullName: Orama.Rendering.GPUBufferPool.CreateObject()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBufferPool.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateObject
-    path: ../Orama/Modules/Orama.Rendering/GPUBufferPool.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBufferPool.cs
     startLine: 13
   assemblies:
   - Orama.Rendering
@@ -118,12 +106,8 @@ items:
   fullName: Orama.Rendering.GPUBufferPool.ResetObject(Orama.Rendering.GPUBuffer)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBufferPool.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: ResetObject
-    path: ../Orama/Modules/Orama.Rendering/GPUBufferPool.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBufferPool.cs
     startLine: 16
   assemblies:
   - Orama.Rendering

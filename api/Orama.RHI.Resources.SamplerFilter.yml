@@ -15,12 +15,8 @@ items:
   fullName: Orama.RHI.Resources.SamplerFilter
   type: Enum
   source:
-    remote:
-      path: Orama.RHI/Resources/TextureTypes.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SamplerFilter
-    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\TextureTypes.cs
     startLine: 17
   assemblies:
   - Orama.RHI
@@ -42,12 +38,8 @@ items:
   fullName: Orama.RHI.Resources.SamplerFilter.Nearest
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/TextureTypes.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Nearest
-    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\TextureTypes.cs
     startLine: 19
   assemblies:
   - Orama.RHI
@@ -68,12 +60,8 @@ items:
   fullName: Orama.RHI.Resources.SamplerFilter.Linear
   type: Field
   source:
-    remote:
-      path: Orama.RHI/Resources/TextureTypes.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Linear
-    path: ../Orama/Orama.RHI/Resources/TextureTypes.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\Resources\TextureTypes.cs
     startLine: 20
   assemblies:
   - Orama.RHI

@@ -16,12 +16,8 @@ items:
   fullName: Orama.RHI.CullingMode
   type: Enum
   source:
-    remote:
-      path: Orama.RHI/CullingMode.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CullingMode
-    path: ../Orama/Orama.RHI/CullingMode.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\CullingMode.cs
     startLine: 8
   assemblies:
   - Orama.RHI
@@ -43,12 +39,8 @@ items:
   fullName: Orama.RHI.CullingMode.None
   type: Field
   source:
-    remote:
-      path: Orama.RHI/CullingMode.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: None
-    path: ../Orama/Orama.RHI/CullingMode.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\CullingMode.cs
     startLine: 10
   assemblies:
   - Orama.RHI
@@ -69,12 +61,8 @@ items:
   fullName: Orama.RHI.CullingMode.Front
   type: Field
   source:
-    remote:
-      path: Orama.RHI/CullingMode.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Front
-    path: ../Orama/Orama.RHI/CullingMode.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\CullingMode.cs
     startLine: 11
   assemblies:
   - Orama.RHI
@@ -95,12 +83,8 @@ items:
   fullName: Orama.RHI.CullingMode.Back
   type: Field
   source:
-    remote:
-      path: Orama.RHI/CullingMode.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Back
-    path: ../Orama/Orama.RHI/CullingMode.cs
+    path: E:\Orama\Documentation\Orama\Orama.RHI\CullingMode.cs
     startLine: 12
   assemblies:
   - Orama.RHI

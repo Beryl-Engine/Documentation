@@ -15,12 +15,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.AlignmentFormat
   type: Enum
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: AlignmentFormat
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 16
   assemblies:
   - Orama.Rendering
@@ -40,12 +36,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.AlignmentFormat.std140
   type: Field
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: std140
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 19
   assemblies:
   - Orama.Rendering
@@ -68,12 +60,8 @@ items:
   fullName: Orama.Rendering.GPUBuffer.AlignmentFormat.std430
   type: Field
   source:
-    remote:
-      path: Modules/Orama.Rendering/GPUBuffer.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: std430
-    path: ../Orama/Modules/Orama.Rendering/GPUBuffer.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Rendering\GPUBuffer.cs
     startLine: 22
   assemblies:
   - Orama.Rendering

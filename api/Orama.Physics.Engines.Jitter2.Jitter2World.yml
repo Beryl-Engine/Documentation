@@ -19,12 +19,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2World
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Jitter2World
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2World.cs
     startLine: 17
   assemblies:
   - Orama.Physics
@@ -58,12 +54,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2World.SubstepCount
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: SubstepCount
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2World.cs
     startLine: 20
   assemblies:
   - Orama.Physics
@@ -91,12 +83,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2World.Jitter2World()
   type: Constructor
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: .ctor
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2World.cs
     startLine: 26
   assemblies:
   - Orama.Physics
@@ -122,12 +110,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2World.CreateBody(Orama.Scenes.Entities.Entity?)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: CreateBody
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2World.cs
     startLine: 33
   assemblies:
   - Orama.Physics
@@ -161,12 +145,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2World.DestroyBody(Orama.Physics.IPhysicsBody)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: DestroyBody
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2World.cs
     startLine: 46
   assemblies:
   - Orama.Physics
@@ -195,12 +175,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2World.Step(float)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Step
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2World.cs
     startLine: 53
   assemblies:
   - Orama.Physics
@@ -232,12 +208,8 @@ items:
   fullName: Orama.Physics.Engines.Jitter2.Jitter2World.TryRaycast(System.Numerics.Vector3, System.Numerics.Vector3, float, out Orama.Physics.RaycastResult)
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: TryRaycast
-    path: ../Orama/Modules/Orama.Physics/Engines/Jitter2/Jitter2World.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\Engines\Jitter2\Jitter2World.cs
     startLine: 56
   assemblies:
   - Orama.Physics

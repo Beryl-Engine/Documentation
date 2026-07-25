@@ -17,12 +17,8 @@ items:
   fullName: Orama.Physics.PhysicsModule
   type: Class
   source:
-    remote:
-      path: Modules/Orama.Physics/PhysicsModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: PhysicsModule
-    path: ../Orama/Modules/Orama.Physics/PhysicsModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\PhysicsModule.cs
     startLine: 11
   assemblies:
   - Orama.Physics
@@ -58,12 +54,8 @@ items:
   fullName: Orama.Physics.PhysicsModule.World
   type: Property
   source:
-    remote:
-      path: Modules/Orama.Physics/PhysicsModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: World
-    path: ../Orama/Modules/Orama.Physics/PhysicsModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\PhysicsModule.cs
     startLine: 13
   assemblies:
   - Orama.Physics
@@ -87,12 +79,8 @@ items:
   fullName: Orama.Physics.PhysicsModule.Initialize()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/PhysicsModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
-    path: ../Orama/Modules/Orama.Physics/PhysicsModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\PhysicsModule.cs
     startLine: 18
   assemblies:
   - Orama.Physics
@@ -116,12 +104,8 @@ items:
   fullName: Orama.Physics.PhysicsModule.Dispose()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/PhysicsModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Dispose
-    path: ../Orama/Modules/Orama.Physics/PhysicsModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\PhysicsModule.cs
     startLine: 26
   assemblies:
   - Orama.Physics
@@ -146,12 +130,8 @@ items:
   fullName: Orama.Physics.PhysicsModule.Update()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.Physics/PhysicsModule.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Update
-    path: ../Orama/Modules/Orama.Physics/PhysicsModule.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.Physics\PhysicsModule.cs
     startLine: 34
   assemblies:
   - Orama.Physics

@@ -16,12 +16,8 @@ items:
   fullName: Orama.VirtualReality.VirtualRealityDevice
   type: Class
   source:
-    remote:
-      path: Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: VirtualRealityDevice
-    path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityDevice.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.VirtualReality\VirtualRealityDevice.cs
     startLine: 12
   assemblies:
   - Orama.VirtualReality
@@ -54,12 +50,8 @@ items:
   fullName: Orama.VirtualReality.VirtualRealityDevice.Name
   type: Property
   source:
-    remote:
-      path: Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Name
-    path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityDevice.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.VirtualReality\VirtualRealityDevice.cs
     startLine: 14
   assemblies:
   - Orama.VirtualReality
@@ -83,12 +75,8 @@ items:
   fullName: Orama.VirtualReality.VirtualRealityDevice.Initialize()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Initialize
-    path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityDevice.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.VirtualReality\VirtualRealityDevice.cs
     startLine: 16
   assemblies:
   - Orama.VirtualReality
@@ -109,12 +97,8 @@ items:
   fullName: Orama.VirtualReality.VirtualRealityDevice.Update()
   type: Method
   source:
-    remote:
-      path: Modules/Orama.VirtualReality/VirtualRealityDevice.cs
-      branch: vulkan
-      repo: https://github.com/Orama-Engine/Orama.git
     id: Update
-    path: ../Orama/Modules/Orama.VirtualReality/VirtualRealityDevice.cs
+    path: E:\Orama\Documentation\Orama\Modules\Orama.VirtualReality\VirtualRealityDevice.cs
     startLine: 17
   assemblies:
   - Orama.VirtualReality
