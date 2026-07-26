@@ -1,0 +1,313 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.IClientRenderable
+  commentId: T:Beryl.Rendering.IClientRenderable
+  id: IClientRenderable
+  parent: Beryl.Rendering
+  children:
+  - Beryl.Rendering.IClientRenderable.Indices
+  - Beryl.Rendering.IClientRenderable.Material
+  - Beryl.Rendering.IClientRenderable.Normals
+  - Beryl.Rendering.IClientRenderable.UVs
+  - Beryl.Rendering.IClientRenderable.Vertices
+  langs:
+  - csharp
+  - vb
+  name: IClientRenderable
+  nameWithType: IClientRenderable
+  fullName: Beryl.Rendering.IClientRenderable
+  type: Interface
+  source:
+    id: IClientRenderable
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\IClientRenderable.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: A Renderable object.
+  example: []
+  syntax:
+    content: public interface IClientRenderable
+    content.vb: Public Interface IClientRenderable
+  derivedClasses:
+  - Beryl.Rendering.Resources.Mesh
+- uid: Beryl.Rendering.IClientRenderable.Vertices
+  commentId: P:Beryl.Rendering.IClientRenderable.Vertices
+  id: Vertices
+  parent: Beryl.Rendering.IClientRenderable
+  langs:
+  - csharp
+  - vb
+  name: Vertices
+  nameWithType: IClientRenderable.Vertices
+  fullName: Beryl.Rendering.IClientRenderable.Vertices
+  type: Property
+  source:
+    id: Vertices
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\IClientRenderable.cs
+    startLine: 13
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: Vector3[] Vertices { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3[]
+    content.vb: ReadOnly Property Vertices As Vector3()
+  overload: Beryl.Rendering.IClientRenderable.Vertices*
+- uid: Beryl.Rendering.IClientRenderable.Normals
+  commentId: P:Beryl.Rendering.IClientRenderable.Normals
+  id: Normals
+  parent: Beryl.Rendering.IClientRenderable
+  langs:
+  - csharp
+  - vb
+  name: Normals
+  nameWithType: IClientRenderable.Normals
+  fullName: Beryl.Rendering.IClientRenderable.Normals
+  type: Property
+  source:
+    id: Normals
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\IClientRenderable.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: Vector3[] Normals { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3[]
+    content.vb: ReadOnly Property Normals As Vector3()
+  overload: Beryl.Rendering.IClientRenderable.Normals*
+- uid: Beryl.Rendering.IClientRenderable.UVs
+  commentId: P:Beryl.Rendering.IClientRenderable.UVs
+  id: UVs
+  parent: Beryl.Rendering.IClientRenderable
+  langs:
+  - csharp
+  - vb
+  name: UVs
+  nameWithType: IClientRenderable.UVs
+  fullName: Beryl.Rendering.IClientRenderable.UVs
+  type: Property
+  source:
+    id: UVs
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\IClientRenderable.cs
+    startLine: 15
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: Vector2[] UVs { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector2[]
+    content.vb: ReadOnly Property UVs As Vector2()
+  overload: Beryl.Rendering.IClientRenderable.UVs*
+- uid: Beryl.Rendering.IClientRenderable.Indices
+  commentId: P:Beryl.Rendering.IClientRenderable.Indices
+  id: Indices
+  parent: Beryl.Rendering.IClientRenderable
+  langs:
+  - csharp
+  - vb
+  name: Indices
+  nameWithType: IClientRenderable.Indices
+  fullName: Beryl.Rendering.IClientRenderable.Indices
+  type: Property
+  source:
+    id: Indices
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\IClientRenderable.cs
+    startLine: 16
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: uint[] Indices { get; }
+    parameters: []
+    return:
+      type: System.UInt32[]
+    content.vb: ReadOnly Property Indices As UInteger()
+  overload: Beryl.Rendering.IClientRenderable.Indices*
+- uid: Beryl.Rendering.IClientRenderable.Material
+  commentId: P:Beryl.Rendering.IClientRenderable.Material
+  id: Material
+  parent: Beryl.Rendering.IClientRenderable
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: IClientRenderable.Material
+  fullName: Beryl.Rendering.IClientRenderable.Material
+  type: Property
+  source:
+    id: Material
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\IClientRenderable.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: Material Material { get; }
+    parameters: []
+    return:
+      type: Beryl.Rendering.Resources.Material
+    content.vb: ReadOnly Property Material As Material
+  overload: Beryl.Rendering.IClientRenderable.Material*
+references:
+- uid: Beryl.Rendering
+  commentId: N:Beryl.Rendering
+  href: Beryl.html
+  name: Beryl.Rendering
+  nameWithType: Beryl.Rendering
+  fullName: Beryl.Rendering
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+- uid: Beryl.Rendering.IClientRenderable.Vertices*
+  commentId: Overload:Beryl.Rendering.IClientRenderable.Vertices
+  href: Beryl.Rendering.IClientRenderable.html#Beryl_Rendering_IClientRenderable_Vertices
+  name: Vertices
+  nameWithType: IClientRenderable.Vertices
+  fullName: Beryl.Rendering.IClientRenderable.Vertices
+- uid: Beryl.Math.Vector3[]
+  isExternal: true
+  href: Beryl.Math.Vector3.html
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: Beryl.Math.Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: Beryl.Math.Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: Beryl.Math.Vector3
+    name: Vector3
+    href: Beryl.Math.Vector3.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Beryl.Math.Vector3
+    name: Vector3
+    href: Beryl.Math.Vector3.html
+  - name: (
+  - name: )
+- uid: Beryl.Rendering.IClientRenderable.Normals*
+  commentId: Overload:Beryl.Rendering.IClientRenderable.Normals
+  href: Beryl.Rendering.IClientRenderable.html#Beryl_Rendering_IClientRenderable_Normals
+  name: Normals
+  nameWithType: IClientRenderable.Normals
+  fullName: Beryl.Rendering.IClientRenderable.Normals
+- uid: Beryl.Rendering.IClientRenderable.UVs*
+  commentId: Overload:Beryl.Rendering.IClientRenderable.UVs
+  href: Beryl.Rendering.IClientRenderable.html#Beryl_Rendering_IClientRenderable_UVs
+  name: UVs
+  nameWithType: IClientRenderable.UVs
+  fullName: Beryl.Rendering.IClientRenderable.UVs
+- uid: Beryl.Math.Vector2[]
+  isExternal: true
+  href: Beryl.Math.Vector2.html
+  name: Vector2[]
+  nameWithType: Vector2[]
+  fullName: Beryl.Math.Vector2[]
+  nameWithType.vb: Vector2()
+  fullName.vb: Beryl.Math.Vector2()
+  name.vb: Vector2()
+  spec.csharp:
+  - uid: Beryl.Math.Vector2
+    name: Vector2
+    href: Beryl.Math.Vector2.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Beryl.Math.Vector2
+    name: Vector2
+    href: Beryl.Math.Vector2.html
+  - name: (
+  - name: )
+- uid: Beryl.Rendering.IClientRenderable.Indices*
+  commentId: Overload:Beryl.Rendering.IClientRenderable.Indices
+  href: Beryl.Rendering.IClientRenderable.html#Beryl_Rendering_IClientRenderable_Indices
+  name: Indices
+  nameWithType: IClientRenderable.Indices
+  fullName: Beryl.Rendering.IClientRenderable.Indices
+- uid: System.UInt32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint[]
+  nameWithType: uint[]
+  fullName: uint[]
+  nameWithType.vb: UInteger()
+  fullName.vb: UInteger()
+  name.vb: UInteger()
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: (
+  - name: )
+- uid: Beryl.Rendering.IClientRenderable.Material*
+  commentId: Overload:Beryl.Rendering.IClientRenderable.Material
+  href: Beryl.Rendering.IClientRenderable.html#Beryl_Rendering_IClientRenderable_Material
+  name: Material
+  nameWithType: IClientRenderable.Material
+  fullName: Beryl.Rendering.IClientRenderable.Material
+- uid: Beryl.Rendering.Resources.Material
+  commentId: T:Beryl.Rendering.Resources.Material
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.Material.html
+  name: Material
+  nameWithType: Material
+  fullName: Beryl.Rendering.Resources.Material
+- uid: Beryl.Rendering.Resources
+  commentId: N:Beryl.Rendering.Resources
+  href: Beryl.html
+  name: Beryl.Rendering.Resources
+  nameWithType: Beryl.Rendering.Resources
+  fullName: Beryl.Rendering.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html

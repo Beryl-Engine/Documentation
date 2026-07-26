@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Common.Resources
+  commentId: N:Beryl.Common.Resources
+  id: Resources
+  parent: Beryl.Common
+  children:
+  - Beryl.Common.Resources.DefaultProvider
+  - Beryl.Common.Resources.IResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Common.Resources
+  nameWithType: Beryl.Common.Resources
+  fullName: Beryl.Common.Resources
+  type: Namespace
+  assemblies:
+  - Beryl.Common
+references:
+- uid: Beryl.Common.Resources.DefaultProvider
+  commentId: N:Beryl.Common.Resources.DefaultProvider
+  href: Beryl.html
+  name: Beryl.Common.Resources.DefaultProvider
+  nameWithType: Beryl.Common.Resources.DefaultProvider
+  fullName: Beryl.Common.Resources.DefaultProvider
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Resources
+    name: Resources
+    href: Beryl.Common.Resources.html
+  - name: .
+  - uid: Beryl.Common.Resources.DefaultProvider
+    name: DefaultProvider
+    href: Beryl.Common.Resources.DefaultProvider.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Resources
+    name: Resources
+    href: Beryl.Common.Resources.html
+  - name: .
+  - uid: Beryl.Common.Resources.DefaultProvider
+    name: DefaultProvider
+    href: Beryl.Common.Resources.DefaultProvider.html
+- uid: Beryl.Common.Resources.IResourceProvider
+  commentId: T:Beryl.Common.Resources.IResourceProvider
+  parent: Beryl.Common.Resources
+  href: Beryl.Common.Resources.IResourceProvider.html
+  name: IResourceProvider
+  nameWithType: IResourceProvider
+  fullName: Beryl.Common.Resources.IResourceProvider
+- uid: Beryl.Common.Resources
+  commentId: N:Beryl.Common.Resources
+  href: Beryl.html
+  name: Beryl.Common.Resources
+  nameWithType: Beryl.Common.Resources
+  fullName: Beryl.Common.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Resources
+    name: Resources
+    href: Beryl.Common.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Resources
+    name: Resources
+    href: Beryl.Common.Resources.html

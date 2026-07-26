@@ -1,0 +1,1365 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  commentId: T:Beryl.Physics.Engines.Jitter2.Jitter2Body
+  id: Jitter2Body
+  parent: Beryl.Physics.Engines.Jitter2
+  children:
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.AddBoxCollider(System.Single,System.Single,System.Single)
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.AddForce(Beryl.Math.Vector3)
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.AddSphereCollider(System.Single)
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.AffectedByGravity
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.AngularVelocity
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.Damping
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.Friction
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.IsStatic
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.Mass
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.OnCollisionEnter
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.OnCollisionExit
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.Orientation
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.Owner
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.Position
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.RemoveCollider(System.Int32)
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.Restitution
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body.Velocity
+  langs:
+  - csharp
+  - vb
+  name: Jitter2Body
+  nameWithType: Jitter2Body
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  type: Class
+  source:
+    id: Jitter2Body
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 15
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Represents a Jitter2 physics body within the physics world.
+  example: []
+  syntax:
+    content: 'public class Jitter2Body : IPhysicsBody'
+    content.vb: Public Class Jitter2Body Implements IPhysicsBody
+  inheritance:
+  - System.Object
+  implements:
+  - Beryl.Physics.IPhysicsBody
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Owner
+  commentId: P:Beryl.Physics.Engines.Jitter2.Jitter2Body.Owner
+  id: Owner
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: Jitter2Body.Owner
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Owner
+  type: Property
+  source:
+    id: Owner
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: The <xref href="Beryl.Scenes.Entities.Entity" data-throw-if-not-resolved="false"></xref> that owns the physics body or null if the body is not owned by an <xref href="Beryl.Scenes.Entities.Entity" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Entity? Owner { get; init; }
+    parameters: []
+    return:
+      type: Beryl.Scenes.Entities.Entity
+    content.vb: Public Property Owner As Entity
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.Owner*
+  implements:
+  - Beryl.Physics.IPhysicsBody.Owner
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.IsStatic
+  commentId: P:Beryl.Physics.Engines.Jitter2.Jitter2Body.IsStatic
+  id: IsStatic
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: IsStatic
+  nameWithType: Jitter2Body.IsStatic
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.IsStatic
+  type: Property
+  source:
+    id: IsStatic
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 45
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Whether the physics body is static or dynamic.
+  example: []
+  syntax:
+    content: public bool IsStatic { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsStatic As Boolean
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.IsStatic*
+  implements:
+  - Beryl.Physics.IPhysicsBody.IsStatic
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Mass
+  commentId: P:Beryl.Physics.Engines.Jitter2.Jitter2Body.Mass
+  id: Mass
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: Mass
+  nameWithType: Jitter2Body.Mass
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Mass
+  type: Property
+  source:
+    id: Mass
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 52
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Mass of the physics body.
+  example: []
+  syntax:
+    content: public float Mass { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Mass As Single
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.Mass*
+  implements:
+  - Beryl.Physics.IPhysicsBody.Mass
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Friction
+  commentId: P:Beryl.Physics.Engines.Jitter2.Jitter2Body.Friction
+  id: Friction
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: Friction
+  nameWithType: Jitter2Body.Friction
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Friction
+  type: Property
+  source:
+    id: Friction
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 63
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Friction of the physics body.
+  example: []
+  syntax:
+    content: public float Friction { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Friction As Single
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.Friction*
+  implements:
+  - Beryl.Physics.IPhysicsBody.Friction
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.AffectedByGravity
+  commentId: P:Beryl.Physics.Engines.Jitter2.Jitter2Body.AffectedByGravity
+  id: AffectedByGravity
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: AffectedByGravity
+  nameWithType: Jitter2Body.AffectedByGravity
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.AffectedByGravity
+  type: Property
+  source:
+    id: AffectedByGravity
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 70
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Whether the physics body is affected by gravity.
+  example: []
+  syntax:
+    content: public bool AffectedByGravity { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AffectedByGravity As Boolean
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.AffectedByGravity*
+  implements:
+  - Beryl.Physics.IPhysicsBody.AffectedByGravity
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Restitution
+  commentId: P:Beryl.Physics.Engines.Jitter2.Jitter2Body.Restitution
+  id: Restitution
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: Restitution
+  nameWithType: Jitter2Body.Restitution
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Restitution
+  type: Property
+  source:
+    id: Restitution
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 77
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Restitution of the physics body.
+  example: []
+  syntax:
+    content: public float Restitution { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Restitution As Single
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.Restitution*
+  implements:
+  - Beryl.Physics.IPhysicsBody.Restitution
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.AngularVelocity
+  commentId: P:Beryl.Physics.Engines.Jitter2.Jitter2Body.AngularVelocity
+  id: AngularVelocity
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: AngularVelocity
+  nameWithType: Jitter2Body.AngularVelocity
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.AngularVelocity
+  type: Property
+  source:
+    id: AngularVelocity
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 84
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Angular velocity of the physics body.
+  example: []
+  syntax:
+    content: public Vector3 AngularVelocity { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Public Property AngularVelocity As Vector3
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.AngularVelocity*
+  implements:
+  - Beryl.Physics.IPhysicsBody.AngularVelocity
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Damping
+  commentId: P:Beryl.Physics.Engines.Jitter2.Jitter2Body.Damping
+  id: Damping
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: Damping
+  nameWithType: Jitter2Body.Damping
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Damping
+  type: Property
+  source:
+    id: Damping
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 91
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Linear (X) and angular (Y) damping of the physics body.
+  example: []
+  syntax:
+    content: public Vector2 Damping { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector2
+    content.vb: Public Property Damping As Vector2
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.Damping*
+  implements:
+  - Beryl.Physics.IPhysicsBody.Damping
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Velocity
+  commentId: P:Beryl.Physics.Engines.Jitter2.Jitter2Body.Velocity
+  id: Velocity
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: Velocity
+  nameWithType: Jitter2Body.Velocity
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Velocity
+  type: Property
+  source:
+    id: Velocity
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 98
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Velocity of the physics body.
+  example: []
+  syntax:
+    content: public Vector3 Velocity { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Public Property Velocity As Vector3
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.Velocity*
+  implements:
+  - Beryl.Physics.IPhysicsBody.Velocity
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Position
+  commentId: P:Beryl.Physics.Engines.Jitter2.Jitter2Body.Position
+  id: Position
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Jitter2Body.Position
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Position
+  type: Property
+  source:
+    id: Position
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 105
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Position of the physics body.
+  example: []
+  syntax:
+    content: public Vector3 Position { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Public Property Position As Vector3
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.Position*
+  implements:
+  - Beryl.Physics.IPhysicsBody.Position
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Orientation
+  commentId: P:Beryl.Physics.Engines.Jitter2.Jitter2Body.Orientation
+  id: Orientation
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: Orientation
+  nameWithType: Jitter2Body.Orientation
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Orientation
+  type: Property
+  source:
+    id: Orientation
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 112
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Orientation of the physics body.
+  example: []
+  syntax:
+    content: public Quaternion Orientation { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Quaternion
+    content.vb: Public Property Orientation As Quaternion
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.Orientation*
+  implements:
+  - Beryl.Physics.IPhysicsBody.Orientation
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddBoxCollider(System.Single,System.Single,System.Single)
+  commentId: M:Beryl.Physics.Engines.Jitter2.Jitter2Body.AddBoxCollider(System.Single,System.Single,System.Single)
+  id: AddBoxCollider(System.Single,System.Single,System.Single)
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: AddBoxCollider(float, float, float)
+  nameWithType: Jitter2Body.AddBoxCollider(float, float, float)
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddBoxCollider(float, float, float)
+  type: Method
+  source:
+    id: AddBoxCollider
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 119
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Adds a box collider to the physics body.
+  example: []
+  syntax:
+    content: public int AddBoxCollider(float width, float height, float depth)
+    parameters:
+    - id: width
+      type: System.Single
+    - id: height
+      type: System.Single
+    - id: depth
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Public Function AddBoxCollider(width As Single, height As Single, depth As Single) As Integer
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddBoxCollider*
+  implements:
+  - Beryl.Physics.IPhysicsBody.AddBoxCollider(System.Single,System.Single,System.Single)
+  nameWithType.vb: Jitter2Body.AddBoxCollider(Single, Single, Single)
+  fullName.vb: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddBoxCollider(Single, Single, Single)
+  name.vb: AddBoxCollider(Single, Single, Single)
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddSphereCollider(System.Single)
+  commentId: M:Beryl.Physics.Engines.Jitter2.Jitter2Body.AddSphereCollider(System.Single)
+  id: AddSphereCollider(System.Single)
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: AddSphereCollider(float)
+  nameWithType: Jitter2Body.AddSphereCollider(float)
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddSphereCollider(float)
+  type: Method
+  source:
+    id: AddSphereCollider
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 131
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Adds a sphere collider to the physics body.
+  example: []
+  syntax:
+    content: public int AddSphereCollider(float radius)
+    parameters:
+    - id: radius
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Public Function AddSphereCollider(radius As Single) As Integer
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddSphereCollider*
+  implements:
+  - Beryl.Physics.IPhysicsBody.AddSphereCollider(System.Single)
+  nameWithType.vb: Jitter2Body.AddSphereCollider(Single)
+  fullName.vb: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddSphereCollider(Single)
+  name.vb: AddSphereCollider(Single)
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.RemoveCollider(System.Int32)
+  commentId: M:Beryl.Physics.Engines.Jitter2.Jitter2Body.RemoveCollider(System.Int32)
+  id: RemoveCollider(System.Int32)
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: RemoveCollider(int)
+  nameWithType: Jitter2Body.RemoveCollider(int)
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.RemoveCollider(int)
+  type: Method
+  source:
+    id: RemoveCollider
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 143
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Removes a collider from the physics body.
+  example: []
+  syntax:
+    content: public void RemoveCollider(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The id linked to the collider to detach from the body.
+    content.vb: Public Sub RemoveCollider(id As Integer)
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.RemoveCollider*
+  implements:
+  - Beryl.Physics.IPhysicsBody.RemoveCollider(System.Int32)
+  nameWithType.vb: Jitter2Body.RemoveCollider(Integer)
+  fullName.vb: Beryl.Physics.Engines.Jitter2.Jitter2Body.RemoveCollider(Integer)
+  name.vb: RemoveCollider(Integer)
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddForce(Beryl.Math.Vector3)
+  commentId: M:Beryl.Physics.Engines.Jitter2.Jitter2Body.AddForce(Beryl.Math.Vector3)
+  id: AddForce(Beryl.Math.Vector3)
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: AddForce(Vector3)
+  nameWithType: Jitter2Body.AddForce(Vector3)
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddForce(Beryl.Math.Vector3)
+  type: Method
+  source:
+    id: AddForce
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 153
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Applies a force to the physics body.
+  example: []
+  syntax:
+    content: public void AddForce(Vector3 force)
+    parameters:
+    - id: force
+      type: Beryl.Math.Vector3
+      description: The force to apply to the body.
+    content.vb: Public Sub AddForce(force As Vector3)
+  overload: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddForce*
+  implements:
+  - Beryl.Physics.IPhysicsBody.AddForce(Beryl.Math.Vector3)
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.OnCollisionEnter
+  commentId: E:Beryl.Physics.Engines.Jitter2.Jitter2Body.OnCollisionEnter
+  id: OnCollisionEnter
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: OnCollisionEnter
+  nameWithType: Jitter2Body.OnCollisionEnter
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.OnCollisionEnter
+  type: Event
+  source:
+    id: OnCollisionEnter
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 156
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Fires when this physics body collides with another.
+  example: []
+  syntax:
+    content: public event Action<IPhysicsBody>? OnCollisionEnter
+    return:
+      type: System.Action{Beryl.Physics.IPhysicsBody}
+    content.vb: Public Event OnCollisionEnter As Action(Of IPhysicsBody)
+  implements:
+  - Beryl.Physics.IPhysicsBody.OnCollisionEnter
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.OnCollisionExit
+  commentId: E:Beryl.Physics.Engines.Jitter2.Jitter2Body.OnCollisionExit
+  id: OnCollisionExit
+  parent: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  langs:
+  - csharp
+  - vb
+  name: OnCollisionExit
+  nameWithType: Jitter2Body.OnCollisionExit
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.OnCollisionExit
+  type: Event
+  source:
+    id: OnCollisionExit
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Engines\Jitter2\Jitter2Body.cs
+    startLine: 159
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Engines.Jitter2
+  summary: Fires when this physics body stops colliding with another.
+  example: []
+  syntax:
+    content: public event Action<IPhysicsBody>? OnCollisionExit
+    return:
+      type: System.Action{Beryl.Physics.IPhysicsBody}
+    content.vb: Public Event OnCollisionExit As Action(Of IPhysicsBody)
+  implements:
+  - Beryl.Physics.IPhysicsBody.OnCollisionExit
+references:
+- uid: Beryl.Physics.Engines.Jitter2
+  commentId: N:Beryl.Physics.Engines.Jitter2
+  href: Beryl.html
+  name: Beryl.Physics.Engines.Jitter2
+  nameWithType: Beryl.Physics.Engines.Jitter2
+  fullName: Beryl.Physics.Engines.Jitter2
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Engines
+    name: Engines
+    href: Beryl.Physics.Engines.html
+  - name: .
+  - uid: Beryl.Physics.Engines.Jitter2
+    name: Jitter2
+    href: Beryl.Physics.Engines.Jitter2.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Engines
+    name: Engines
+    href: Beryl.Physics.Engines.html
+  - name: .
+  - uid: Beryl.Physics.Engines.Jitter2
+    name: Jitter2
+    href: Beryl.Physics.Engines.Jitter2.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Physics.IPhysicsBody
+  commentId: T:Beryl.Physics.IPhysicsBody
+  parent: Beryl.Physics
+  href: Beryl.Physics.IPhysicsBody.html
+  name: IPhysicsBody
+  nameWithType: IPhysicsBody
+  fullName: Beryl.Physics.IPhysicsBody
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Physics
+  commentId: N:Beryl.Physics
+  href: Beryl.html
+  name: Beryl.Physics
+  nameWithType: Beryl.Physics
+  fullName: Beryl.Physics
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+- uid: Beryl.Scenes.Entities.Entity
+  commentId: T:Beryl.Scenes.Entities.Entity
+  parent: Beryl.Scenes.Entities
+  href: Beryl.Scenes.Entities.Entity.html
+  name: Entity
+  nameWithType: Entity
+  fullName: Beryl.Scenes.Entities.Entity
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Owner*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.Owner
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_Owner
+  name: Owner
+  nameWithType: Jitter2Body.Owner
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Owner
+- uid: Beryl.Physics.IPhysicsBody.Owner
+  commentId: P:Beryl.Physics.IPhysicsBody.Owner
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_Owner
+  name: Owner
+  nameWithType: IPhysicsBody.Owner
+  fullName: Beryl.Physics.IPhysicsBody.Owner
+- uid: Beryl.Scenes.Entities
+  commentId: N:Beryl.Scenes.Entities
+  href: Beryl.html
+  name: Beryl.Scenes.Entities
+  nameWithType: Beryl.Scenes.Entities
+  fullName: Beryl.Scenes.Entities
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Entities
+    name: Entities
+    href: Beryl.Scenes.Entities.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Entities
+    name: Entities
+    href: Beryl.Scenes.Entities.html
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.IsStatic*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.IsStatic
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_IsStatic
+  name: IsStatic
+  nameWithType: Jitter2Body.IsStatic
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.IsStatic
+- uid: Beryl.Physics.IPhysicsBody.IsStatic
+  commentId: P:Beryl.Physics.IPhysicsBody.IsStatic
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_IsStatic
+  name: IsStatic
+  nameWithType: IPhysicsBody.IsStatic
+  fullName: Beryl.Physics.IPhysicsBody.IsStatic
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Mass*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.Mass
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_Mass
+  name: Mass
+  nameWithType: Jitter2Body.Mass
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Mass
+- uid: Beryl.Physics.IPhysicsBody.Mass
+  commentId: P:Beryl.Physics.IPhysicsBody.Mass
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_Mass
+  name: Mass
+  nameWithType: IPhysicsBody.Mass
+  fullName: Beryl.Physics.IPhysicsBody.Mass
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Friction*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.Friction
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_Friction
+  name: Friction
+  nameWithType: Jitter2Body.Friction
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Friction
+- uid: Beryl.Physics.IPhysicsBody.Friction
+  commentId: P:Beryl.Physics.IPhysicsBody.Friction
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_Friction
+  name: Friction
+  nameWithType: IPhysicsBody.Friction
+  fullName: Beryl.Physics.IPhysicsBody.Friction
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.AffectedByGravity*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.AffectedByGravity
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_AffectedByGravity
+  name: AffectedByGravity
+  nameWithType: Jitter2Body.AffectedByGravity
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.AffectedByGravity
+- uid: Beryl.Physics.IPhysicsBody.AffectedByGravity
+  commentId: P:Beryl.Physics.IPhysicsBody.AffectedByGravity
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_AffectedByGravity
+  name: AffectedByGravity
+  nameWithType: IPhysicsBody.AffectedByGravity
+  fullName: Beryl.Physics.IPhysicsBody.AffectedByGravity
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Restitution*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.Restitution
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_Restitution
+  name: Restitution
+  nameWithType: Jitter2Body.Restitution
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Restitution
+- uid: Beryl.Physics.IPhysicsBody.Restitution
+  commentId: P:Beryl.Physics.IPhysicsBody.Restitution
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_Restitution
+  name: Restitution
+  nameWithType: IPhysicsBody.Restitution
+  fullName: Beryl.Physics.IPhysicsBody.Restitution
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.AngularVelocity*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.AngularVelocity
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_AngularVelocity
+  name: AngularVelocity
+  nameWithType: Jitter2Body.AngularVelocity
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.AngularVelocity
+- uid: Beryl.Physics.IPhysicsBody.AngularVelocity
+  commentId: P:Beryl.Physics.IPhysicsBody.AngularVelocity
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_AngularVelocity
+  name: AngularVelocity
+  nameWithType: IPhysicsBody.AngularVelocity
+  fullName: Beryl.Physics.IPhysicsBody.AngularVelocity
+- uid: Beryl.Math.Vector3
+  commentId: T:Beryl.Math.Vector3
+  parent: Beryl.Math
+  href: Beryl.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Beryl.Math.Vector3
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Damping*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.Damping
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_Damping
+  name: Damping
+  nameWithType: Jitter2Body.Damping
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Damping
+- uid: Beryl.Physics.IPhysicsBody.Damping
+  commentId: P:Beryl.Physics.IPhysicsBody.Damping
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_Damping
+  name: Damping
+  nameWithType: IPhysicsBody.Damping
+  fullName: Beryl.Physics.IPhysicsBody.Damping
+- uid: Beryl.Math.Vector2
+  commentId: T:Beryl.Math.Vector2
+  parent: Beryl.Math
+  href: Beryl.Math.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Beryl.Math.Vector2
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Velocity*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.Velocity
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_Velocity
+  name: Velocity
+  nameWithType: Jitter2Body.Velocity
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Velocity
+- uid: Beryl.Physics.IPhysicsBody.Velocity
+  commentId: P:Beryl.Physics.IPhysicsBody.Velocity
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_Velocity
+  name: Velocity
+  nameWithType: IPhysicsBody.Velocity
+  fullName: Beryl.Physics.IPhysicsBody.Velocity
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Position*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.Position
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_Position
+  name: Position
+  nameWithType: Jitter2Body.Position
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Position
+- uid: Beryl.Physics.IPhysicsBody.Position
+  commentId: P:Beryl.Physics.IPhysicsBody.Position
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_Position
+  name: Position
+  nameWithType: IPhysicsBody.Position
+  fullName: Beryl.Physics.IPhysicsBody.Position
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.Orientation*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.Orientation
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_Orientation
+  name: Orientation
+  nameWithType: Jitter2Body.Orientation
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.Orientation
+- uid: Beryl.Physics.IPhysicsBody.Orientation
+  commentId: P:Beryl.Physics.IPhysicsBody.Orientation
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_Orientation
+  name: Orientation
+  nameWithType: IPhysicsBody.Orientation
+  fullName: Beryl.Physics.IPhysicsBody.Orientation
+- uid: Beryl.Math.Quaternion
+  commentId: T:Beryl.Math.Quaternion
+  parent: Beryl.Math
+  href: Beryl.Math.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Beryl.Math.Quaternion
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddBoxCollider*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.AddBoxCollider
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_AddBoxCollider_System_Single_System_Single_System_Single_
+  name: AddBoxCollider
+  nameWithType: Jitter2Body.AddBoxCollider
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddBoxCollider
+- uid: Beryl.Physics.IPhysicsBody.AddBoxCollider(System.Single,System.Single,System.Single)
+  commentId: M:Beryl.Physics.IPhysicsBody.AddBoxCollider(System.Single,System.Single,System.Single)
+  parent: Beryl.Physics.IPhysicsBody
+  isExternal: true
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_AddBoxCollider_System_Single_System_Single_System_Single_
+  name: AddBoxCollider(float, float, float)
+  nameWithType: IPhysicsBody.AddBoxCollider(float, float, float)
+  fullName: Beryl.Physics.IPhysicsBody.AddBoxCollider(float, float, float)
+  nameWithType.vb: IPhysicsBody.AddBoxCollider(Single, Single, Single)
+  fullName.vb: Beryl.Physics.IPhysicsBody.AddBoxCollider(Single, Single, Single)
+  name.vb: AddBoxCollider(Single, Single, Single)
+  spec.csharp:
+  - uid: Beryl.Physics.IPhysicsBody.AddBoxCollider(System.Single,System.Single,System.Single)
+    name: AddBoxCollider
+    href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_AddBoxCollider_System_Single_System_Single_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Beryl.Physics.IPhysicsBody.AddBoxCollider(System.Single,System.Single,System.Single)
+    name: AddBoxCollider
+    href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_AddBoxCollider_System_Single_System_Single_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddSphereCollider*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.AddSphereCollider
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_AddSphereCollider_System_Single_
+  name: AddSphereCollider
+  nameWithType: Jitter2Body.AddSphereCollider
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddSphereCollider
+- uid: Beryl.Physics.IPhysicsBody.AddSphereCollider(System.Single)
+  commentId: M:Beryl.Physics.IPhysicsBody.AddSphereCollider(System.Single)
+  parent: Beryl.Physics.IPhysicsBody
+  isExternal: true
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_AddSphereCollider_System_Single_
+  name: AddSphereCollider(float)
+  nameWithType: IPhysicsBody.AddSphereCollider(float)
+  fullName: Beryl.Physics.IPhysicsBody.AddSphereCollider(float)
+  nameWithType.vb: IPhysicsBody.AddSphereCollider(Single)
+  fullName.vb: Beryl.Physics.IPhysicsBody.AddSphereCollider(Single)
+  name.vb: AddSphereCollider(Single)
+  spec.csharp:
+  - uid: Beryl.Physics.IPhysicsBody.AddSphereCollider(System.Single)
+    name: AddSphereCollider
+    href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_AddSphereCollider_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Beryl.Physics.IPhysicsBody.AddSphereCollider(System.Single)
+    name: AddSphereCollider
+    href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_AddSphereCollider_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.RemoveCollider*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.RemoveCollider
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_RemoveCollider_System_Int32_
+  name: RemoveCollider
+  nameWithType: Jitter2Body.RemoveCollider
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.RemoveCollider
+- uid: Beryl.Physics.IPhysicsBody.RemoveCollider(System.Int32)
+  commentId: M:Beryl.Physics.IPhysicsBody.RemoveCollider(System.Int32)
+  parent: Beryl.Physics.IPhysicsBody
+  isExternal: true
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_RemoveCollider_System_Int32_
+  name: RemoveCollider(int)
+  nameWithType: IPhysicsBody.RemoveCollider(int)
+  fullName: Beryl.Physics.IPhysicsBody.RemoveCollider(int)
+  nameWithType.vb: IPhysicsBody.RemoveCollider(Integer)
+  fullName.vb: Beryl.Physics.IPhysicsBody.RemoveCollider(Integer)
+  name.vb: RemoveCollider(Integer)
+  spec.csharp:
+  - uid: Beryl.Physics.IPhysicsBody.RemoveCollider(System.Int32)
+    name: RemoveCollider
+    href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_RemoveCollider_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Beryl.Physics.IPhysicsBody.RemoveCollider(System.Int32)
+    name: RemoveCollider
+    href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_RemoveCollider_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddForce*
+  commentId: Overload:Beryl.Physics.Engines.Jitter2.Jitter2Body.AddForce
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html#Beryl_Physics_Engines_Jitter2_Jitter2Body_AddForce_Beryl_Math_Vector3_
+  name: AddForce
+  nameWithType: Jitter2Body.AddForce
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body.AddForce
+- uid: Beryl.Physics.IPhysicsBody.AddForce(Beryl.Math.Vector3)
+  commentId: M:Beryl.Physics.IPhysicsBody.AddForce(Beryl.Math.Vector3)
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_AddForce_Beryl_Math_Vector3_
+  name: AddForce(Vector3)
+  nameWithType: IPhysicsBody.AddForce(Vector3)
+  fullName: Beryl.Physics.IPhysicsBody.AddForce(Beryl.Math.Vector3)
+  spec.csharp:
+  - uid: Beryl.Physics.IPhysicsBody.AddForce(Beryl.Math.Vector3)
+    name: AddForce
+    href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_AddForce_Beryl_Math_Vector3_
+  - name: (
+  - uid: Beryl.Math.Vector3
+    name: Vector3
+    href: Beryl.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Physics.IPhysicsBody.AddForce(Beryl.Math.Vector3)
+    name: AddForce
+    href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_AddForce_Beryl_Math_Vector3_
+  - name: (
+  - uid: Beryl.Math.Vector3
+    name: Vector3
+    href: Beryl.Math.Vector3.html
+  - name: )
+- uid: Beryl.Physics.IPhysicsBody.OnCollisionEnter
+  commentId: E:Beryl.Physics.IPhysicsBody.OnCollisionEnter
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_OnCollisionEnter
+  name: OnCollisionEnter
+  nameWithType: IPhysicsBody.OnCollisionEnter
+  fullName: Beryl.Physics.IPhysicsBody.OnCollisionEnter
+- uid: System.Action{Beryl.Physics.IPhysicsBody}
+  commentId: T:System.Action{Beryl.Physics.IPhysicsBody}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IPhysicsBody>
+  nameWithType: Action<IPhysicsBody>
+  fullName: System.Action<Beryl.Physics.IPhysicsBody>
+  nameWithType.vb: Action(Of IPhysicsBody)
+  fullName.vb: System.Action(Of Beryl.Physics.IPhysicsBody)
+  name.vb: Action(Of IPhysicsBody)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: Beryl.Physics.IPhysicsBody
+    name: IPhysicsBody
+    href: Beryl.Physics.IPhysicsBody.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Physics.IPhysicsBody
+    name: IPhysicsBody
+    href: Beryl.Physics.IPhysicsBody.html
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Beryl.Physics.IPhysicsBody.OnCollisionExit
+  commentId: E:Beryl.Physics.IPhysicsBody.OnCollisionExit
+  parent: Beryl.Physics.IPhysicsBody
+  href: Beryl.Physics.IPhysicsBody.html#Beryl_Physics_IPhysicsBody_OnCollisionExit
+  name: OnCollisionExit
+  nameWithType: IPhysicsBody.OnCollisionExit
+  fullName: Beryl.Physics.IPhysicsBody.OnCollisionExit

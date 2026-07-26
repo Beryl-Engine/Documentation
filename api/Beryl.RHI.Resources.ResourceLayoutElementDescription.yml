@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.Resources.ResourceLayoutElementDescription
+  commentId: T:Beryl.RHI.Resources.ResourceLayoutElementDescription
+  id: ResourceLayoutElementDescription
+  parent: Beryl.RHI.Resources
+  children:
+  - Beryl.RHI.Resources.ResourceLayoutElementDescription.#ctor(System.String,Beryl.RHI.Resources.ResourceKind,Beryl.RHI.Resources.ShaderStages)
+  - Beryl.RHI.Resources.ResourceLayoutElementDescription.Kind
+  - Beryl.RHI.Resources.ResourceLayoutElementDescription.Name
+  - Beryl.RHI.Resources.ResourceLayoutElementDescription.Stages
+  langs:
+  - csharp
+  - vb
+  name: ResourceLayoutElementDescription
+  nameWithType: ResourceLayoutElementDescription
+  fullName: Beryl.RHI.Resources.ResourceLayoutElementDescription
+  type: Struct
+  source:
+    id: ResourceLayoutElementDescription
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceDescriptors.cs
+    startLine: 119
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public readonly struct ResourceLayoutElementDescription
+    content.vb: Public Structure ResourceLayoutElementDescription
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Beryl.RHI.Resources.ResourceLayoutElementDescription.#ctor(System.String,Beryl.RHI.Resources.ResourceKind,Beryl.RHI.Resources.ShaderStages)
+  commentId: M:Beryl.RHI.Resources.ResourceLayoutElementDescription.#ctor(System.String,Beryl.RHI.Resources.ResourceKind,Beryl.RHI.Resources.ShaderStages)
+  id: '#ctor(System.String,Beryl.RHI.Resources.ResourceKind,Beryl.RHI.Resources.ShaderStages)'
+  parent: Beryl.RHI.Resources.ResourceLayoutElementDescription
+  langs:
+  - csharp
+  - vb
+  name: ResourceLayoutElementDescription(string, ResourceKind, ShaderStages)
+  nameWithType: ResourceLayoutElementDescription.ResourceLayoutElementDescription(string, ResourceKind, ShaderStages)
+  fullName: Beryl.RHI.Resources.ResourceLayoutElementDescription.ResourceLayoutElementDescription(string, Beryl.RHI.Resources.ResourceKind, Beryl.RHI.Resources.ShaderStages)
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceDescriptors.cs
+    startLine: 119
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public ResourceLayoutElementDescription(string name, ResourceKind kind, ShaderStages stages)
+    parameters:
+    - id: name
+      type: System.String
+    - id: kind
+      type: Beryl.RHI.Resources.ResourceKind
+    - id: stages
+      type: Beryl.RHI.Resources.ShaderStages
+    content.vb: Public Sub New(name As String, kind As ResourceKind, stages As ShaderStages)
+  overload: Beryl.RHI.Resources.ResourceLayoutElementDescription.#ctor*
+  nameWithType.vb: ResourceLayoutElementDescription.New(String, ResourceKind, ShaderStages)
+  fullName.vb: Beryl.RHI.Resources.ResourceLayoutElementDescription.New(String, Beryl.RHI.Resources.ResourceKind, Beryl.RHI.Resources.ShaderStages)
+  name.vb: New(String, ResourceKind, ShaderStages)
+- uid: Beryl.RHI.Resources.ResourceLayoutElementDescription.Name
+  commentId: F:Beryl.RHI.Resources.ResourceLayoutElementDescription.Name
+  id: Name
+  parent: Beryl.RHI.Resources.ResourceLayoutElementDescription
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ResourceLayoutElementDescription.Name
+  fullName: Beryl.RHI.Resources.ResourceLayoutElementDescription.Name
+  type: Field
+  source:
+    id: Name
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceDescriptors.cs
+    startLine: 121
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public readonly string Name
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Name As String
+- uid: Beryl.RHI.Resources.ResourceLayoutElementDescription.Kind
+  commentId: F:Beryl.RHI.Resources.ResourceLayoutElementDescription.Kind
+  id: Kind
+  parent: Beryl.RHI.Resources.ResourceLayoutElementDescription
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: ResourceLayoutElementDescription.Kind
+  fullName: Beryl.RHI.Resources.ResourceLayoutElementDescription.Kind
+  type: Field
+  source:
+    id: Kind
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceDescriptors.cs
+    startLine: 122
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public readonly ResourceKind Kind
+    return:
+      type: Beryl.RHI.Resources.ResourceKind
+    content.vb: Public ReadOnly Kind As ResourceKind
+- uid: Beryl.RHI.Resources.ResourceLayoutElementDescription.Stages
+  commentId: F:Beryl.RHI.Resources.ResourceLayoutElementDescription.Stages
+  id: Stages
+  parent: Beryl.RHI.Resources.ResourceLayoutElementDescription
+  langs:
+  - csharp
+  - vb
+  name: Stages
+  nameWithType: ResourceLayoutElementDescription.Stages
+  fullName: Beryl.RHI.Resources.ResourceLayoutElementDescription.Stages
+  type: Field
+  source:
+    id: Stages
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceDescriptors.cs
+    startLine: 123
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public readonly ShaderStages Stages
+    return:
+      type: Beryl.RHI.Resources.ShaderStages
+    content.vb: Public ReadOnly Stages As ShaderStages
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.RHI.Resources.ResourceLayoutElementDescription.#ctor*
+  commentId: Overload:Beryl.RHI.Resources.ResourceLayoutElementDescription.#ctor
+  href: Beryl.RHI.Resources.ResourceLayoutElementDescription.html#Beryl_RHI_Resources_ResourceLayoutElementDescription__ctor_System_String_Beryl_RHI_Resources_ResourceKind_Beryl_RHI_Resources_ShaderStages_
+  name: ResourceLayoutElementDescription
+  nameWithType: ResourceLayoutElementDescription.ResourceLayoutElementDescription
+  fullName: Beryl.RHI.Resources.ResourceLayoutElementDescription.ResourceLayoutElementDescription
+  nameWithType.vb: ResourceLayoutElementDescription.New
+  fullName.vb: Beryl.RHI.Resources.ResourceLayoutElementDescription.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Beryl.RHI.Resources.ResourceKind
+  commentId: T:Beryl.RHI.Resources.ResourceKind
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.ResourceKind.html
+  name: ResourceKind
+  nameWithType: ResourceKind
+  fullName: Beryl.RHI.Resources.ResourceKind
+- uid: Beryl.RHI.Resources.ShaderStages
+  commentId: T:Beryl.RHI.Resources.ShaderStages
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.ShaderStages.html
+  name: ShaderStages
+  nameWithType: ShaderStages
+  fullName: Beryl.RHI.Resources.ShaderStages

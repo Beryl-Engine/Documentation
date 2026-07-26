@@ -4,7 +4,7 @@
     {
       "src": [
         {
-          "src": "Orama",
+          "src": "src",
           "files": [
             "**/*.csproj"
           ]
@@ -39,8 +39,8 @@
       "orama-template"
     ],
     "globalMetadata": {
-      "_appName": "Orama Engine",
-      "_appTitle": "Orama Engine",
+      "_appName": "Beryl Engine",
+      "_appTitle": "Beryl Engine",
       "_enableSearch": true,
       "pdf": false
     },

@@ -1,0 +1,1923 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Math.Matrix4x4
+  commentId: T:Beryl.Math.Matrix4x4
+  id: Matrix4x4
+  parent: Beryl.Math
+  children:
+  - Beryl.Math.Matrix4x4.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  - Beryl.Math.Matrix4x4.CreateFromEuler(Beryl.Math.Vector3)
+  - Beryl.Math.Matrix4x4.CreateFromQuaternion(Beryl.Math.Quaternion)
+  - Beryl.Math.Matrix4x4.CreateRotationX(System.Single)
+  - Beryl.Math.Matrix4x4.CreateRotationY(System.Single)
+  - Beryl.Math.Matrix4x4.CreateRotationZ(System.Single)
+  - Beryl.Math.Matrix4x4.CreateScale(Beryl.Math.Vector3)
+  - Beryl.Math.Matrix4x4.CreateScale(System.Single,System.Single,System.Single)
+  - Beryl.Math.Matrix4x4.CreateTRS(Beryl.Math.Vector3,Beryl.Math.Quaternion,Beryl.Math.Vector3)
+  - Beryl.Math.Matrix4x4.CreateTranslation(Beryl.Math.Vector3)
+  - Beryl.Math.Matrix4x4.CreateTranslation(System.Single,System.Single,System.Single)
+  - Beryl.Math.Matrix4x4.Determinant
+  - Beryl.Math.Matrix4x4.Equals(Beryl.Math.Matrix4x4)
+  - Beryl.Math.Matrix4x4.Equals(System.Object)
+  - Beryl.Math.Matrix4x4.GetHashCode
+  - Beryl.Math.Matrix4x4.Identity
+  - Beryl.Math.Matrix4x4.Invert
+  - Beryl.Math.Matrix4x4.IsIdentity
+  - Beryl.Math.Matrix4x4.LookAt(Beryl.Math.Vector3,Beryl.Math.Vector3,Beryl.Math.Vector3)
+  - Beryl.Math.Matrix4x4.M11
+  - Beryl.Math.Matrix4x4.M12
+  - Beryl.Math.Matrix4x4.M13
+  - Beryl.Math.Matrix4x4.M14
+  - Beryl.Math.Matrix4x4.M21
+  - Beryl.Math.Matrix4x4.M22
+  - Beryl.Math.Matrix4x4.M23
+  - Beryl.Math.Matrix4x4.M24
+  - Beryl.Math.Matrix4x4.M31
+  - Beryl.Math.Matrix4x4.M32
+  - Beryl.Math.Matrix4x4.M33
+  - Beryl.Math.Matrix4x4.M34
+  - Beryl.Math.Matrix4x4.M41
+  - Beryl.Math.Matrix4x4.M42
+  - Beryl.Math.Matrix4x4.M43
+  - Beryl.Math.Matrix4x4.M44
+  - Beryl.Math.Matrix4x4.Transform(Beryl.Math.Vector3)
+  - Beryl.Math.Matrix4x4.Transpose
+  - Beryl.Math.Matrix4x4.op_Explicit(Beryl.Math.Matrix4x4)~System.Numerics.Matrix4x4
+  - Beryl.Math.Matrix4x4.op_Explicit(System.Numerics.Matrix4x4)~Beryl.Math.Matrix4x4
+  - Beryl.Math.Matrix4x4.op_Multiply(Beryl.Math.Matrix4x4,Beryl.Math.Matrix4x4)
+  langs:
+  - csharp
+  - vb
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Beryl.Math.Matrix4x4
+  type: Struct
+  source:
+    id: Matrix4x4
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Represents a four-dimensional matrix.
+  example: []
+  syntax:
+    content: 'public struct Matrix4x4 : IEquatable<Matrix4x4>'
+    content.vb: Public Structure Matrix4x4 Implements IEquatable(Of Matrix4x4)
+  implements:
+  - System.IEquatable{Beryl.Math.Matrix4x4}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Beryl.Math.Matrix4x4.M11
+  commentId: P:Beryl.Math.Matrix4x4.M11
+  id: M11
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M11
+  nameWithType: Matrix4x4.M11
+  fullName: Beryl.Math.Matrix4x4.M11
+  type: Property
+  source:
+    id: M11
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M11 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M11 As Single
+  overload: Beryl.Math.Matrix4x4.M11*
+- uid: Beryl.Math.Matrix4x4.M12
+  commentId: P:Beryl.Math.Matrix4x4.M12
+  id: M12
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M12
+  nameWithType: Matrix4x4.M12
+  fullName: Beryl.Math.Matrix4x4.M12
+  type: Property
+  source:
+    id: M12
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 15
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M12 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M12 As Single
+  overload: Beryl.Math.Matrix4x4.M12*
+- uid: Beryl.Math.Matrix4x4.M13
+  commentId: P:Beryl.Math.Matrix4x4.M13
+  id: M13
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M13
+  nameWithType: Matrix4x4.M13
+  fullName: Beryl.Math.Matrix4x4.M13
+  type: Property
+  source:
+    id: M13
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 16
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M13 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M13 As Single
+  overload: Beryl.Math.Matrix4x4.M13*
+- uid: Beryl.Math.Matrix4x4.M14
+  commentId: P:Beryl.Math.Matrix4x4.M14
+  id: M14
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M14
+  nameWithType: Matrix4x4.M14
+  fullName: Beryl.Math.Matrix4x4.M14
+  type: Property
+  source:
+    id: M14
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M14 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M14 As Single
+  overload: Beryl.Math.Matrix4x4.M14*
+- uid: Beryl.Math.Matrix4x4.M21
+  commentId: P:Beryl.Math.Matrix4x4.M21
+  id: M21
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M21
+  nameWithType: Matrix4x4.M21
+  fullName: Beryl.Math.Matrix4x4.M21
+  type: Property
+  source:
+    id: M21
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 19
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M21 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M21 As Single
+  overload: Beryl.Math.Matrix4x4.M21*
+- uid: Beryl.Math.Matrix4x4.M22
+  commentId: P:Beryl.Math.Matrix4x4.M22
+  id: M22
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M22
+  nameWithType: Matrix4x4.M22
+  fullName: Beryl.Math.Matrix4x4.M22
+  type: Property
+  source:
+    id: M22
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 20
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M22 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M22 As Single
+  overload: Beryl.Math.Matrix4x4.M22*
+- uid: Beryl.Math.Matrix4x4.M23
+  commentId: P:Beryl.Math.Matrix4x4.M23
+  id: M23
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M23
+  nameWithType: Matrix4x4.M23
+  fullName: Beryl.Math.Matrix4x4.M23
+  type: Property
+  source:
+    id: M23
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 21
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M23 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M23 As Single
+  overload: Beryl.Math.Matrix4x4.M23*
+- uid: Beryl.Math.Matrix4x4.M24
+  commentId: P:Beryl.Math.Matrix4x4.M24
+  id: M24
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M24
+  nameWithType: Matrix4x4.M24
+  fullName: Beryl.Math.Matrix4x4.M24
+  type: Property
+  source:
+    id: M24
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 22
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M24 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M24 As Single
+  overload: Beryl.Math.Matrix4x4.M24*
+- uid: Beryl.Math.Matrix4x4.M31
+  commentId: P:Beryl.Math.Matrix4x4.M31
+  id: M31
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M31
+  nameWithType: Matrix4x4.M31
+  fullName: Beryl.Math.Matrix4x4.M31
+  type: Property
+  source:
+    id: M31
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 24
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M31 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M31 As Single
+  overload: Beryl.Math.Matrix4x4.M31*
+- uid: Beryl.Math.Matrix4x4.M32
+  commentId: P:Beryl.Math.Matrix4x4.M32
+  id: M32
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M32
+  nameWithType: Matrix4x4.M32
+  fullName: Beryl.Math.Matrix4x4.M32
+  type: Property
+  source:
+    id: M32
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 25
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M32 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M32 As Single
+  overload: Beryl.Math.Matrix4x4.M32*
+- uid: Beryl.Math.Matrix4x4.M33
+  commentId: P:Beryl.Math.Matrix4x4.M33
+  id: M33
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M33
+  nameWithType: Matrix4x4.M33
+  fullName: Beryl.Math.Matrix4x4.M33
+  type: Property
+  source:
+    id: M33
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 26
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M33 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M33 As Single
+  overload: Beryl.Math.Matrix4x4.M33*
+- uid: Beryl.Math.Matrix4x4.M34
+  commentId: P:Beryl.Math.Matrix4x4.M34
+  id: M34
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M34
+  nameWithType: Matrix4x4.M34
+  fullName: Beryl.Math.Matrix4x4.M34
+  type: Property
+  source:
+    id: M34
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 27
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M34 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M34 As Single
+  overload: Beryl.Math.Matrix4x4.M34*
+- uid: Beryl.Math.Matrix4x4.M41
+  commentId: P:Beryl.Math.Matrix4x4.M41
+  id: M41
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M41
+  nameWithType: Matrix4x4.M41
+  fullName: Beryl.Math.Matrix4x4.M41
+  type: Property
+  source:
+    id: M41
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 29
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M41 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M41 As Single
+  overload: Beryl.Math.Matrix4x4.M41*
+- uid: Beryl.Math.Matrix4x4.M42
+  commentId: P:Beryl.Math.Matrix4x4.M42
+  id: M42
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M42
+  nameWithType: Matrix4x4.M42
+  fullName: Beryl.Math.Matrix4x4.M42
+  type: Property
+  source:
+    id: M42
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 30
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M42 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M42 As Single
+  overload: Beryl.Math.Matrix4x4.M42*
+- uid: Beryl.Math.Matrix4x4.M43
+  commentId: P:Beryl.Math.Matrix4x4.M43
+  id: M43
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M43
+  nameWithType: Matrix4x4.M43
+  fullName: Beryl.Math.Matrix4x4.M43
+  type: Property
+  source:
+    id: M43
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 31
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M43 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M43 As Single
+  overload: Beryl.Math.Matrix4x4.M43*
+- uid: Beryl.Math.Matrix4x4.M44
+  commentId: P:Beryl.Math.Matrix4x4.M44
+  id: M44
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M44
+  nameWithType: Matrix4x4.M44
+  fullName: Beryl.Math.Matrix4x4.M44
+  type: Property
+  source:
+    id: M44
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 32
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public float M44 { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property M44 As Single
+  overload: Beryl.Math.Matrix4x4.M44*
+- uid: Beryl.Math.Matrix4x4.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Beryl.Math.Matrix4x4.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)'
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Matrix4x4(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)
+  nameWithType: Matrix4x4.Matrix4x4(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)
+  fullName: Beryl.Math.Matrix4x4.Matrix4x4(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 36
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a new instance of <xref href="Beryl.Math.Matrix4x4" data-throw-if-not-resolved="false"></xref> with the specified components.
+  example: []
+  syntax:
+    content: public Matrix4x4(float m11, float m12, float m13, float m14, float m21, float m22, float m23, float m24, float m31, float m32, float m33, float m34, float m41, float m42, float m43, float m44)
+    parameters:
+    - id: m11
+      type: System.Single
+    - id: m12
+      type: System.Single
+    - id: m13
+      type: System.Single
+    - id: m14
+      type: System.Single
+    - id: m21
+      type: System.Single
+    - id: m22
+      type: System.Single
+    - id: m23
+      type: System.Single
+    - id: m24
+      type: System.Single
+    - id: m31
+      type: System.Single
+    - id: m32
+      type: System.Single
+    - id: m33
+      type: System.Single
+    - id: m34
+      type: System.Single
+    - id: m41
+      type: System.Single
+    - id: m42
+      type: System.Single
+    - id: m43
+      type: System.Single
+    - id: m44
+      type: System.Single
+    content.vb: Public Sub New(m11 As Single, m12 As Single, m13 As Single, m14 As Single, m21 As Single, m22 As Single, m23 As Single, m24 As Single, m31 As Single, m32 As Single, m33 As Single, m34 As Single, m41 As Single, m42 As Single, m43 As Single, m44 As Single)
+  overload: Beryl.Math.Matrix4x4.#ctor*
+  nameWithType.vb: Matrix4x4.New(Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single)
+  fullName.vb: Beryl.Math.Matrix4x4.New(Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single)
+  name.vb: New(Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single)
+- uid: Beryl.Math.Matrix4x4.Identity
+  commentId: P:Beryl.Math.Matrix4x4.Identity
+  id: Identity
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: Matrix4x4.Identity
+  fullName: Beryl.Math.Matrix4x4.Identity
+  type: Property
+  source:
+    id: Identity
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 61
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: An identity matrix, this is comparable to <xref href="Beryl.Math.Vector3.One" data-throw-if-not-resolved="false"></xref> but for matrices.
+  example: []
+  syntax:
+    content: public static Matrix4x4 Identity { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared ReadOnly Property Identity As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.Identity*
+- uid: Beryl.Math.Matrix4x4.IsIdentity
+  commentId: P:Beryl.Math.Matrix4x4.IsIdentity
+  id: IsIdentity
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: IsIdentity
+  nameWithType: Matrix4x4.IsIdentity
+  fullName: Beryl.Math.Matrix4x4.IsIdentity
+  type: Property
+  source:
+    id: IsIdentity
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 67
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns whether this matrix is the identity matrix.
+  example: []
+  syntax:
+    content: public bool IsIdentity { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsIdentity As Boolean
+  overload: Beryl.Math.Matrix4x4.IsIdentity*
+- uid: Beryl.Math.Matrix4x4.CreateTRS(Beryl.Math.Vector3,Beryl.Math.Quaternion,Beryl.Math.Vector3)
+  commentId: M:Beryl.Math.Matrix4x4.CreateTRS(Beryl.Math.Vector3,Beryl.Math.Quaternion,Beryl.Math.Vector3)
+  id: CreateTRS(Beryl.Math.Vector3,Beryl.Math.Quaternion,Beryl.Math.Vector3)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateTRS(Vector3, Quaternion, Vector3)
+  nameWithType: Matrix4x4.CreateTRS(Vector3, Quaternion, Vector3)
+  fullName: Beryl.Math.Matrix4x4.CreateTRS(Beryl.Math.Vector3, Beryl.Math.Quaternion, Beryl.Math.Vector3)
+  type: Method
+  source:
+    id: CreateTRS
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 77
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a transformation matrix from the specified components.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateTRS(Vector3 pos, Quaternion rot, Vector3 scale)
+    parameters:
+    - id: pos
+      type: Beryl.Math.Vector3
+    - id: rot
+      type: Beryl.Math.Quaternion
+    - id: scale
+      type: Beryl.Math.Vector3
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Function CreateTRS(pos As Vector3, rot As Quaternion, scale As Vector3) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.CreateTRS*
+- uid: Beryl.Math.Matrix4x4.CreateTranslation(Beryl.Math.Vector3)
+  commentId: M:Beryl.Math.Matrix4x4.CreateTranslation(Beryl.Math.Vector3)
+  id: CreateTranslation(Beryl.Math.Vector3)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateTranslation(Vector3)
+  nameWithType: Matrix4x4.CreateTranslation(Vector3)
+  fullName: Beryl.Math.Matrix4x4.CreateTranslation(Beryl.Math.Vector3)
+  type: Method
+  source:
+    id: CreateTranslation
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 86
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a translation matrix from a <xref href="Beryl.Math.Vector3" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateTranslation(Vector3 pos)
+    parameters:
+    - id: pos
+      type: Beryl.Math.Vector3
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Function CreateTranslation(pos As Vector3) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.CreateTranslation*
+- uid: Beryl.Math.Matrix4x4.CreateTranslation(System.Single,System.Single,System.Single)
+  commentId: M:Beryl.Math.Matrix4x4.CreateTranslation(System.Single,System.Single,System.Single)
+  id: CreateTranslation(System.Single,System.Single,System.Single)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateTranslation(float, float, float)
+  nameWithType: Matrix4x4.CreateTranslation(float, float, float)
+  fullName: Beryl.Math.Matrix4x4.CreateTranslation(float, float, float)
+  type: Method
+  source:
+    id: CreateTranslation
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 94
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a translation matrix from the specified components.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateTranslation(float x, float y, float z)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Function CreateTranslation(x As Single, y As Single, z As Single) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.CreateTranslation*
+  nameWithType.vb: Matrix4x4.CreateTranslation(Single, Single, Single)
+  fullName.vb: Beryl.Math.Matrix4x4.CreateTranslation(Single, Single, Single)
+  name.vb: CreateTranslation(Single, Single, Single)
+- uid: Beryl.Math.Matrix4x4.CreateScale(Beryl.Math.Vector3)
+  commentId: M:Beryl.Math.Matrix4x4.CreateScale(Beryl.Math.Vector3)
+  id: CreateScale(Beryl.Math.Vector3)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateScale(Vector3)
+  nameWithType: Matrix4x4.CreateScale(Vector3)
+  fullName: Beryl.Math.Matrix4x4.CreateScale(Beryl.Math.Vector3)
+  type: Method
+  source:
+    id: CreateScale
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 102
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a scaling matrix from a <xref href="Beryl.Math.Vector3" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateScale(Vector3 scale)
+    parameters:
+    - id: scale
+      type: Beryl.Math.Vector3
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Function CreateScale(scale As Vector3) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.CreateScale*
+- uid: Beryl.Math.Matrix4x4.CreateScale(System.Single,System.Single,System.Single)
+  commentId: M:Beryl.Math.Matrix4x4.CreateScale(System.Single,System.Single,System.Single)
+  id: CreateScale(System.Single,System.Single,System.Single)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateScale(float, float, float)
+  nameWithType: Matrix4x4.CreateScale(float, float, float)
+  fullName: Beryl.Math.Matrix4x4.CreateScale(float, float, float)
+  type: Method
+  source:
+    id: CreateScale
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 110
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a scaling matrix from the specified components.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateScale(float x, float y, float z)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Function CreateScale(x As Single, y As Single, z As Single) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.CreateScale*
+  nameWithType.vb: Matrix4x4.CreateScale(Single, Single, Single)
+  fullName.vb: Beryl.Math.Matrix4x4.CreateScale(Single, Single, Single)
+  name.vb: CreateScale(Single, Single, Single)
+- uid: Beryl.Math.Matrix4x4.CreateRotationX(System.Single)
+  commentId: M:Beryl.Math.Matrix4x4.CreateRotationX(System.Single)
+  id: CreateRotationX(System.Single)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateRotationX(float)
+  nameWithType: Matrix4x4.CreateRotationX(float)
+  fullName: Beryl.Math.Matrix4x4.CreateRotationX(float)
+  type: Method
+  source:
+    id: CreateRotationX
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 118
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a rotation matrix around the X axis.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateRotationX(float r)
+    parameters:
+    - id: r
+      type: System.Single
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Function CreateRotationX(r As Single) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.CreateRotationX*
+  nameWithType.vb: Matrix4x4.CreateRotationX(Single)
+  fullName.vb: Beryl.Math.Matrix4x4.CreateRotationX(Single)
+  name.vb: CreateRotationX(Single)
+- uid: Beryl.Math.Matrix4x4.CreateRotationY(System.Single)
+  commentId: M:Beryl.Math.Matrix4x4.CreateRotationY(System.Single)
+  id: CreateRotationY(System.Single)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateRotationY(float)
+  nameWithType: Matrix4x4.CreateRotationY(float)
+  fullName: Beryl.Math.Matrix4x4.CreateRotationY(float)
+  type: Method
+  source:
+    id: CreateRotationY
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 132
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a rotation matrix around the Y axis.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateRotationY(float r)
+    parameters:
+    - id: r
+      type: System.Single
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Function CreateRotationY(r As Single) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.CreateRotationY*
+  nameWithType.vb: Matrix4x4.CreateRotationY(Single)
+  fullName.vb: Beryl.Math.Matrix4x4.CreateRotationY(Single)
+  name.vb: CreateRotationY(Single)
+- uid: Beryl.Math.Matrix4x4.CreateRotationZ(System.Single)
+  commentId: M:Beryl.Math.Matrix4x4.CreateRotationZ(System.Single)
+  id: CreateRotationZ(System.Single)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateRotationZ(float)
+  nameWithType: Matrix4x4.CreateRotationZ(float)
+  fullName: Beryl.Math.Matrix4x4.CreateRotationZ(float)
+  type: Method
+  source:
+    id: CreateRotationZ
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 146
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a rotation matrix around the Z axis.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateRotationZ(float r)
+    parameters:
+    - id: r
+      type: System.Single
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Function CreateRotationZ(r As Single) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.CreateRotationZ*
+  nameWithType.vb: Matrix4x4.CreateRotationZ(Single)
+  fullName.vb: Beryl.Math.Matrix4x4.CreateRotationZ(Single)
+  name.vb: CreateRotationZ(Single)
+- uid: Beryl.Math.Matrix4x4.CreateFromEuler(Beryl.Math.Vector3)
+  commentId: M:Beryl.Math.Matrix4x4.CreateFromEuler(Beryl.Math.Vector3)
+  id: CreateFromEuler(Beryl.Math.Vector3)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateFromEuler(Vector3)
+  nameWithType: Matrix4x4.CreateFromEuler(Vector3)
+  fullName: Beryl.Math.Matrix4x4.CreateFromEuler(Beryl.Math.Vector3)
+  type: Method
+  source:
+    id: CreateFromEuler
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 160
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a rotation matrix from Euler angles (XYZ order).
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateFromEuler(Vector3 euler)
+    parameters:
+    - id: euler
+      type: Beryl.Math.Vector3
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Function CreateFromEuler(euler As Vector3) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.CreateFromEuler*
+- uid: Beryl.Math.Matrix4x4.CreateFromQuaternion(Beryl.Math.Quaternion)
+  commentId: M:Beryl.Math.Matrix4x4.CreateFromQuaternion(Beryl.Math.Quaternion)
+  id: CreateFromQuaternion(Beryl.Math.Quaternion)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateFromQuaternion(Quaternion)
+  nameWithType: Matrix4x4.CreateFromQuaternion(Quaternion)
+  fullName: Beryl.Math.Matrix4x4.CreateFromQuaternion(Beryl.Math.Quaternion)
+  type: Method
+  source:
+    id: CreateFromQuaternion
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 169
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a rotation matrix from a <xref href="Beryl.Math.Quaternion" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateFromQuaternion(Quaternion q)
+    parameters:
+    - id: q
+      type: Beryl.Math.Quaternion
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Function CreateFromQuaternion(q As Quaternion) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.CreateFromQuaternion*
+- uid: Beryl.Math.Matrix4x4.LookAt(Beryl.Math.Vector3,Beryl.Math.Vector3,Beryl.Math.Vector3)
+  commentId: M:Beryl.Math.Matrix4x4.LookAt(Beryl.Math.Vector3,Beryl.Math.Vector3,Beryl.Math.Vector3)
+  id: LookAt(Beryl.Math.Vector3,Beryl.Math.Vector3,Beryl.Math.Vector3)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: LookAt(Vector3, Vector3, Vector3)
+  nameWithType: Matrix4x4.LookAt(Vector3, Vector3, Vector3)
+  fullName: Beryl.Math.Matrix4x4.LookAt(Beryl.Math.Vector3, Beryl.Math.Vector3, Beryl.Math.Vector3)
+  type: Method
+  source:
+    id: LookAt
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 190
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a right-handed LookAt view matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 LookAt(Vector3 eye, Vector3 target, Vector3 up)
+    parameters:
+    - id: eye
+      type: Beryl.Math.Vector3
+    - id: target
+      type: Beryl.Math.Vector3
+    - id: up
+      type: Beryl.Math.Vector3
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Function LookAt(eye As Vector3, target As Vector3, up As Vector3) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.LookAt*
+- uid: Beryl.Math.Matrix4x4.Transpose
+  commentId: M:Beryl.Math.Matrix4x4.Transpose
+  id: Transpose
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Transpose()
+  nameWithType: Matrix4x4.Transpose()
+  fullName: Beryl.Math.Matrix4x4.Transpose()
+  type: Method
+  source:
+    id: Transpose
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 212
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the transposed version of this matrix.
+  example: []
+  syntax:
+    content: public Matrix4x4 Transpose()
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Function Transpose() As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.Transpose*
+- uid: Beryl.Math.Matrix4x4.Determinant
+  commentId: M:Beryl.Math.Matrix4x4.Determinant
+  id: Determinant
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Determinant()
+  nameWithType: Matrix4x4.Determinant()
+  fullName: Beryl.Math.Matrix4x4.Determinant()
+  type: Method
+  source:
+    id: Determinant
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 220
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the determinant of this matrix.
+  example: []
+  syntax:
+    content: public float Determinant()
+    return:
+      type: System.Single
+    content.vb: Public Function Determinant() As Single
+  overload: Beryl.Math.Matrix4x4.Determinant*
+- uid: Beryl.Math.Matrix4x4.Invert
+  commentId: M:Beryl.Math.Matrix4x4.Invert
+  id: Invert
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Invert()
+  nameWithType: Matrix4x4.Invert()
+  fullName: Beryl.Math.Matrix4x4.Invert()
+  type: Method
+  source:
+    id: Invert
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 230
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the inverse of this matrix if invertible, otherwise the identity matrix.
+  example: []
+  syntax:
+    content: public Matrix4x4 Invert()
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Function Invert() As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.Invert*
+- uid: Beryl.Math.Matrix4x4.Transform(Beryl.Math.Vector3)
+  commentId: M:Beryl.Math.Matrix4x4.Transform(Beryl.Math.Vector3)
+  id: Transform(Beryl.Math.Vector3)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Transform(Vector3)
+  nameWithType: Matrix4x4.Transform(Vector3)
+  fullName: Beryl.Math.Matrix4x4.Transform(Beryl.Math.Vector3)
+  type: Method
+  source:
+    id: Transform
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 238
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Transforms a <xref href="Beryl.Math.Vector3" data-throw-if-not-resolved="false"></xref> by this matrix.
+  example: []
+  syntax:
+    content: public Vector3 Transform(Vector3 v)
+    parameters:
+    - id: v
+      type: Beryl.Math.Vector3
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Public Function Transform(v As Vector3) As Vector3
+  overload: Beryl.Math.Matrix4x4.Transform*
+- uid: Beryl.Math.Matrix4x4.Equals(System.Object)
+  commentId: M:Beryl.Math.Matrix4x4.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Matrix4x4.Equals(object?)
+  fullName: Beryl.Math.Matrix4x4.Equals(object?)
+  type: Method
+  source:
+    id: Equals
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 245
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+      attributes:
+      - type: System.Diagnostics.CodeAnalysis.NotNullWhenAttribute
+        ctor: System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.#ctor(System.Boolean)
+        arguments:
+        - type: System.Boolean
+          value: true
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Beryl.Math.Matrix4x4.Equals*
+  nameWithType.vb: Matrix4x4.Equals(Object)
+  fullName.vb: Beryl.Math.Matrix4x4.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Beryl.Math.Matrix4x4.Equals(Beryl.Math.Matrix4x4)
+  commentId: M:Beryl.Math.Matrix4x4.Equals(Beryl.Math.Matrix4x4)
+  id: Equals(Beryl.Math.Matrix4x4)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Equals(Matrix4x4)
+  nameWithType: Matrix4x4.Equals(Matrix4x4)
+  fullName: Beryl.Math.Matrix4x4.Equals(Beryl.Math.Matrix4x4)
+  type: Method
+  source:
+    id: Equals
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 248
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(Matrix4x4 other)
+    parameters:
+    - id: other
+      type: Beryl.Math.Matrix4x4
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As Matrix4x4) As Boolean
+  overload: Beryl.Math.Matrix4x4.Equals*
+  implements:
+  - System.IEquatable{Beryl.Math.Matrix4x4}.Equals(Beryl.Math.Matrix4x4)
+- uid: Beryl.Math.Matrix4x4.GetHashCode
+  commentId: M:Beryl.Math.Matrix4x4.GetHashCode
+  id: GetHashCode
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Matrix4x4.GetHashCode()
+  fullName: Beryl.Math.Matrix4x4.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 254
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Beryl.Math.Matrix4x4.GetHashCode*
+- uid: Beryl.Math.Matrix4x4.op_Multiply(Beryl.Math.Matrix4x4,Beryl.Math.Matrix4x4)
+  commentId: M:Beryl.Math.Matrix4x4.op_Multiply(Beryl.Math.Matrix4x4,Beryl.Math.Matrix4x4)
+  id: op_Multiply(Beryl.Math.Matrix4x4,Beryl.Math.Matrix4x4)
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: operator *(Matrix4x4, Matrix4x4)
+  nameWithType: Matrix4x4.operator *(Matrix4x4, Matrix4x4)
+  fullName: Beryl.Math.Matrix4x4.operator *(Beryl.Math.Matrix4x4, Beryl.Math.Matrix4x4)
+  type: Operator
+  source:
+    id: op_Multiply
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 282
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Matrix4x4 operator *(Matrix4x4 a, Matrix4x4 b)
+    parameters:
+    - id: a
+      type: Beryl.Math.Matrix4x4
+    - id: b
+      type: Beryl.Math.Matrix4x4
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Operator *(a As Matrix4x4, b As Matrix4x4) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.op_Multiply*
+  nameWithType.vb: Matrix4x4.*(Matrix4x4, Matrix4x4)
+  fullName.vb: Beryl.Math.Matrix4x4.*(Beryl.Math.Matrix4x4, Beryl.Math.Matrix4x4)
+  name.vb: '*(Matrix4x4, Matrix4x4)'
+- uid: Beryl.Math.Matrix4x4.op_Explicit(Beryl.Math.Matrix4x4)~System.Numerics.Matrix4x4
+  commentId: M:Beryl.Math.Matrix4x4.op_Explicit(Beryl.Math.Matrix4x4)~System.Numerics.Matrix4x4
+  id: op_Explicit(Beryl.Math.Matrix4x4)~System.Numerics.Matrix4x4
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Matrix4x4(Matrix4x4)
+  nameWithType: Matrix4x4.explicit operator Matrix4x4(Matrix4x4)
+  fullName: Beryl.Math.Matrix4x4.explicit operator System.Numerics.Matrix4x4(Beryl.Math.Matrix4x4)
+  type: Operator
+  source:
+    id: op_Explicit
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 311
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static explicit operator Matrix4x4(Matrix4x4 m)
+    parameters:
+    - id: m
+      type: Beryl.Math.Matrix4x4
+    return:
+      type: System.Numerics.Matrix4x4
+    content.vb: Public Shared Narrowing Operator CType(m As Matrix4x4) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.op_Explicit*
+  nameWithType.vb: Matrix4x4.CType(Matrix4x4)
+  fullName.vb: Beryl.Math.Matrix4x4.CType(Beryl.Math.Matrix4x4)
+  name.vb: CType(Matrix4x4)
+- uid: Beryl.Math.Matrix4x4.op_Explicit(System.Numerics.Matrix4x4)~Beryl.Math.Matrix4x4
+  commentId: M:Beryl.Math.Matrix4x4.op_Explicit(System.Numerics.Matrix4x4)~Beryl.Math.Matrix4x4
+  id: op_Explicit(System.Numerics.Matrix4x4)~Beryl.Math.Matrix4x4
+  parent: Beryl.Math.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Matrix4x4(Matrix4x4)
+  nameWithType: Matrix4x4.explicit operator Matrix4x4(Matrix4x4)
+  fullName: Beryl.Math.Matrix4x4.explicit operator Beryl.Math.Matrix4x4(System.Numerics.Matrix4x4)
+  type: Operator
+  source:
+    id: op_Explicit
+    path: E:\Beryl\Documentation\src\Beryl.Math\Matrices\Matrix4x4.cs
+    startLine: 319
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static explicit operator Matrix4x4(Matrix4x4 m)
+    parameters:
+    - id: m
+      type: System.Numerics.Matrix4x4
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Shared Narrowing Operator CType(m As Matrix4x4) As Matrix4x4
+  overload: Beryl.Math.Matrix4x4.op_Explicit*
+  nameWithType.vb: Matrix4x4.CType(Matrix4x4)
+  fullName.vb: Beryl.Math.Matrix4x4.CType(System.Numerics.Matrix4x4)
+  name.vb: CType(Matrix4x4)
+references:
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: System.IEquatable{Beryl.Math.Matrix4x4}
+  commentId: T:System.IEquatable{Beryl.Math.Matrix4x4}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Matrix4x4>
+  nameWithType: IEquatable<Matrix4x4>
+  fullName: System.IEquatable<Beryl.Math.Matrix4x4>
+  nameWithType.vb: IEquatable(Of Matrix4x4)
+  fullName.vb: System.IEquatable(Of Beryl.Math.Matrix4x4)
+  name.vb: IEquatable(Of Matrix4x4)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Beryl.Math.Matrix4x4
+    name: Matrix4x4
+    href: Beryl.Math.Matrix4x4.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Math.Matrix4x4
+    name: Matrix4x4
+    href: Beryl.Math.Matrix4x4.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Math.Matrix4x4.M11*
+  commentId: Overload:Beryl.Math.Matrix4x4.M11
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M11
+  name: M11
+  nameWithType: Matrix4x4.M11
+  fullName: Beryl.Math.Matrix4x4.M11
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Beryl.Math.Matrix4x4.M12*
+  commentId: Overload:Beryl.Math.Matrix4x4.M12
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M12
+  name: M12
+  nameWithType: Matrix4x4.M12
+  fullName: Beryl.Math.Matrix4x4.M12
+- uid: Beryl.Math.Matrix4x4.M13*
+  commentId: Overload:Beryl.Math.Matrix4x4.M13
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M13
+  name: M13
+  nameWithType: Matrix4x4.M13
+  fullName: Beryl.Math.Matrix4x4.M13
+- uid: Beryl.Math.Matrix4x4.M14*
+  commentId: Overload:Beryl.Math.Matrix4x4.M14
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M14
+  name: M14
+  nameWithType: Matrix4x4.M14
+  fullName: Beryl.Math.Matrix4x4.M14
+- uid: Beryl.Math.Matrix4x4.M21*
+  commentId: Overload:Beryl.Math.Matrix4x4.M21
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M21
+  name: M21
+  nameWithType: Matrix4x4.M21
+  fullName: Beryl.Math.Matrix4x4.M21
+- uid: Beryl.Math.Matrix4x4.M22*
+  commentId: Overload:Beryl.Math.Matrix4x4.M22
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M22
+  name: M22
+  nameWithType: Matrix4x4.M22
+  fullName: Beryl.Math.Matrix4x4.M22
+- uid: Beryl.Math.Matrix4x4.M23*
+  commentId: Overload:Beryl.Math.Matrix4x4.M23
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M23
+  name: M23
+  nameWithType: Matrix4x4.M23
+  fullName: Beryl.Math.Matrix4x4.M23
+- uid: Beryl.Math.Matrix4x4.M24*
+  commentId: Overload:Beryl.Math.Matrix4x4.M24
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M24
+  name: M24
+  nameWithType: Matrix4x4.M24
+  fullName: Beryl.Math.Matrix4x4.M24
+- uid: Beryl.Math.Matrix4x4.M31*
+  commentId: Overload:Beryl.Math.Matrix4x4.M31
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M31
+  name: M31
+  nameWithType: Matrix4x4.M31
+  fullName: Beryl.Math.Matrix4x4.M31
+- uid: Beryl.Math.Matrix4x4.M32*
+  commentId: Overload:Beryl.Math.Matrix4x4.M32
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M32
+  name: M32
+  nameWithType: Matrix4x4.M32
+  fullName: Beryl.Math.Matrix4x4.M32
+- uid: Beryl.Math.Matrix4x4.M33*
+  commentId: Overload:Beryl.Math.Matrix4x4.M33
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M33
+  name: M33
+  nameWithType: Matrix4x4.M33
+  fullName: Beryl.Math.Matrix4x4.M33
+- uid: Beryl.Math.Matrix4x4.M34*
+  commentId: Overload:Beryl.Math.Matrix4x4.M34
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M34
+  name: M34
+  nameWithType: Matrix4x4.M34
+  fullName: Beryl.Math.Matrix4x4.M34
+- uid: Beryl.Math.Matrix4x4.M41*
+  commentId: Overload:Beryl.Math.Matrix4x4.M41
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M41
+  name: M41
+  nameWithType: Matrix4x4.M41
+  fullName: Beryl.Math.Matrix4x4.M41
+- uid: Beryl.Math.Matrix4x4.M42*
+  commentId: Overload:Beryl.Math.Matrix4x4.M42
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M42
+  name: M42
+  nameWithType: Matrix4x4.M42
+  fullName: Beryl.Math.Matrix4x4.M42
+- uid: Beryl.Math.Matrix4x4.M43*
+  commentId: Overload:Beryl.Math.Matrix4x4.M43
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M43
+  name: M43
+  nameWithType: Matrix4x4.M43
+  fullName: Beryl.Math.Matrix4x4.M43
+- uid: Beryl.Math.Matrix4x4.M44*
+  commentId: Overload:Beryl.Math.Matrix4x4.M44
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_M44
+  name: M44
+  nameWithType: Matrix4x4.M44
+  fullName: Beryl.Math.Matrix4x4.M44
+- uid: Beryl.Math.Matrix4x4
+  commentId: T:Beryl.Math.Matrix4x4
+  parent: Beryl.Math
+  href: Beryl.Math.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Beryl.Math.Matrix4x4
+- uid: Beryl.Math.Matrix4x4.#ctor*
+  commentId: Overload:Beryl.Math.Matrix4x4.#ctor
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
+  name: Matrix4x4
+  nameWithType: Matrix4x4.Matrix4x4
+  fullName: Beryl.Math.Matrix4x4.Matrix4x4
+  nameWithType.vb: Matrix4x4.New
+  fullName.vb: Beryl.Math.Matrix4x4.New
+  name.vb: New
+- uid: Beryl.Math.Vector3.One
+  commentId: P:Beryl.Math.Vector3.One
+  href: Beryl.Math.Vector3.html#Beryl_Math_Vector3_One
+  name: One
+  nameWithType: Vector3.One
+  fullName: Beryl.Math.Vector3.One
+- uid: Beryl.Math.Matrix4x4.Identity*
+  commentId: Overload:Beryl.Math.Matrix4x4.Identity
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_Identity
+  name: Identity
+  nameWithType: Matrix4x4.Identity
+  fullName: Beryl.Math.Matrix4x4.Identity
+- uid: Beryl.Math.Matrix4x4.IsIdentity*
+  commentId: Overload:Beryl.Math.Matrix4x4.IsIdentity
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_IsIdentity
+  name: IsIdentity
+  nameWithType: Matrix4x4.IsIdentity
+  fullName: Beryl.Math.Matrix4x4.IsIdentity
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Beryl.Math.Matrix4x4.CreateTRS*
+  commentId: Overload:Beryl.Math.Matrix4x4.CreateTRS
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_CreateTRS_Beryl_Math_Vector3_Beryl_Math_Quaternion_Beryl_Math_Vector3_
+  name: CreateTRS
+  nameWithType: Matrix4x4.CreateTRS
+  fullName: Beryl.Math.Matrix4x4.CreateTRS
+- uid: Beryl.Math.Vector3
+  commentId: T:Beryl.Math.Vector3
+  parent: Beryl.Math
+  href: Beryl.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Beryl.Math.Vector3
+- uid: Beryl.Math.Quaternion
+  commentId: T:Beryl.Math.Quaternion
+  parent: Beryl.Math
+  href: Beryl.Math.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Beryl.Math.Quaternion
+- uid: Beryl.Math.Matrix4x4.CreateTranslation*
+  commentId: Overload:Beryl.Math.Matrix4x4.CreateTranslation
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_CreateTranslation_Beryl_Math_Vector3_
+  name: CreateTranslation
+  nameWithType: Matrix4x4.CreateTranslation
+  fullName: Beryl.Math.Matrix4x4.CreateTranslation
+- uid: Beryl.Math.Matrix4x4.CreateScale*
+  commentId: Overload:Beryl.Math.Matrix4x4.CreateScale
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_CreateScale_Beryl_Math_Vector3_
+  name: CreateScale
+  nameWithType: Matrix4x4.CreateScale
+  fullName: Beryl.Math.Matrix4x4.CreateScale
+- uid: Beryl.Math.Matrix4x4.CreateRotationX*
+  commentId: Overload:Beryl.Math.Matrix4x4.CreateRotationX
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_CreateRotationX_System_Single_
+  name: CreateRotationX
+  nameWithType: Matrix4x4.CreateRotationX
+  fullName: Beryl.Math.Matrix4x4.CreateRotationX
+- uid: Beryl.Math.Matrix4x4.CreateRotationY*
+  commentId: Overload:Beryl.Math.Matrix4x4.CreateRotationY
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_CreateRotationY_System_Single_
+  name: CreateRotationY
+  nameWithType: Matrix4x4.CreateRotationY
+  fullName: Beryl.Math.Matrix4x4.CreateRotationY
+- uid: Beryl.Math.Matrix4x4.CreateRotationZ*
+  commentId: Overload:Beryl.Math.Matrix4x4.CreateRotationZ
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_CreateRotationZ_System_Single_
+  name: CreateRotationZ
+  nameWithType: Matrix4x4.CreateRotationZ
+  fullName: Beryl.Math.Matrix4x4.CreateRotationZ
+- uid: Beryl.Math.Matrix4x4.CreateFromEuler*
+  commentId: Overload:Beryl.Math.Matrix4x4.CreateFromEuler
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_CreateFromEuler_Beryl_Math_Vector3_
+  name: CreateFromEuler
+  nameWithType: Matrix4x4.CreateFromEuler
+  fullName: Beryl.Math.Matrix4x4.CreateFromEuler
+- uid: Beryl.Math.Matrix4x4.CreateFromQuaternion*
+  commentId: Overload:Beryl.Math.Matrix4x4.CreateFromQuaternion
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_CreateFromQuaternion_Beryl_Math_Quaternion_
+  name: CreateFromQuaternion
+  nameWithType: Matrix4x4.CreateFromQuaternion
+  fullName: Beryl.Math.Matrix4x4.CreateFromQuaternion
+- uid: Beryl.Math.Matrix4x4.LookAt*
+  commentId: Overload:Beryl.Math.Matrix4x4.LookAt
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_LookAt_Beryl_Math_Vector3_Beryl_Math_Vector3_Beryl_Math_Vector3_
+  name: LookAt
+  nameWithType: Matrix4x4.LookAt
+  fullName: Beryl.Math.Matrix4x4.LookAt
+- uid: Beryl.Math.Matrix4x4.Transpose*
+  commentId: Overload:Beryl.Math.Matrix4x4.Transpose
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_Transpose
+  name: Transpose
+  nameWithType: Matrix4x4.Transpose
+  fullName: Beryl.Math.Matrix4x4.Transpose
+- uid: Beryl.Math.Matrix4x4.Determinant*
+  commentId: Overload:Beryl.Math.Matrix4x4.Determinant
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_Determinant
+  name: Determinant
+  nameWithType: Matrix4x4.Determinant
+  fullName: Beryl.Math.Matrix4x4.Determinant
+- uid: Beryl.Math.Matrix4x4.Invert*
+  commentId: Overload:Beryl.Math.Matrix4x4.Invert
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_Invert
+  name: Invert
+  nameWithType: Matrix4x4.Invert
+  fullName: Beryl.Math.Matrix4x4.Invert
+- uid: Beryl.Math.Matrix4x4.Transform*
+  commentId: Overload:Beryl.Math.Matrix4x4.Transform
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_Transform_Beryl_Math_Vector3_
+  name: Transform
+  nameWithType: Matrix4x4.Transform
+  fullName: Beryl.Math.Matrix4x4.Transform
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Beryl.Math.Matrix4x4.Equals*
+  commentId: Overload:Beryl.Math.Matrix4x4.Equals
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_Equals_System_Object_
+  name: Equals
+  nameWithType: Matrix4x4.Equals
+  fullName: Beryl.Math.Matrix4x4.Equals
+- uid: System.IEquatable{Beryl.Math.Matrix4x4}.Equals(Beryl.Math.Matrix4x4)
+  commentId: M:System.IEquatable{Beryl.Math.Matrix4x4}.Equals(Beryl.Math.Matrix4x4)
+  parent: System.IEquatable{Beryl.Math.Matrix4x4}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Matrix4x4)
+  nameWithType: IEquatable<Matrix4x4>.Equals(Matrix4x4)
+  fullName: System.IEquatable<Beryl.Math.Matrix4x4>.Equals(Beryl.Math.Matrix4x4)
+  nameWithType.vb: IEquatable(Of Matrix4x4).Equals(Matrix4x4)
+  fullName.vb: System.IEquatable(Of Beryl.Math.Matrix4x4).Equals(Beryl.Math.Matrix4x4)
+  spec.csharp:
+  - uid: System.IEquatable{Beryl.Math.Matrix4x4}.Equals(Beryl.Math.Matrix4x4)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Beryl.Math.Matrix4x4
+    name: Matrix4x4
+    href: Beryl.Math.Matrix4x4.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Beryl.Math.Matrix4x4}.Equals(Beryl.Math.Matrix4x4)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Beryl.Math.Matrix4x4
+    name: Matrix4x4
+    href: Beryl.Math.Matrix4x4.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Beryl.Math.Matrix4x4.GetHashCode*
+  commentId: Overload:Beryl.Math.Matrix4x4.GetHashCode
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_GetHashCode
+  name: GetHashCode
+  nameWithType: Matrix4x4.GetHashCode
+  fullName: Beryl.Math.Matrix4x4.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Beryl.Math.Matrix4x4.op_Multiply*
+  commentId: Overload:Beryl.Math.Matrix4x4.op_Multiply
+  href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_op_Multiply_Beryl_Math_Matrix4x4_Beryl_Math_Matrix4x4_
+  name: operator *
+  nameWithType: Matrix4x4.operator *
+  fullName: Beryl.Math.Matrix4x4.operator *
+  nameWithType.vb: Matrix4x4.*
+  fullName.vb: Beryl.Math.Matrix4x4.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Matrix4x4.op_Multiply*
+    name: '*'
+    href: Beryl.Math.Matrix4x4.html#Beryl_Math_Matrix4x4_op_Multiply_Beryl_Math_Matrix4x4_Beryl_Math_Matrix4x4_
+- uid: Beryl.Math.Matrix4x4.op_Explicit*
+  commentId: Overload:Beryl.Math.Matrix4x4.op_Explicit
+  name: explicit operator
+  nameWithType: Matrix4x4.explicit operator
+  fullName: Beryl.Math.Matrix4x4.explicit operator
+  nameWithType.vb: Matrix4x4.CType
+  fullName.vb: Beryl.Math.Matrix4x4.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator
+- uid: System.Numerics.Matrix4x4
+  commentId: T:System.Numerics.Matrix4x4
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.matrix4x4
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: System.Numerics.Matrix4x4
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics

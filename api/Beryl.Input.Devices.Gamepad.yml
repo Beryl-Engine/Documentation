@@ -1,0 +1,559 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Input.Devices.Gamepad
+  commentId: T:Beryl.Input.Devices.Gamepad
+  id: Gamepad
+  parent: Beryl.Input.Devices
+  children:
+  - Beryl.Input.Devices.Gamepad.#ctor(Silk.NET.Input.IGamepad)
+  - Beryl.Input.Devices.Gamepad.GetTrigger(Beryl.Input.Devices.Gamepad.Trigger)
+  - Beryl.Input.Devices.Gamepad.IsButtonPressed(Beryl.Input.Devices.Gamepad.Button)
+  - Beryl.Input.Devices.Gamepad.Update
+  langs:
+  - csharp
+  - vb
+  name: Gamepad
+  nameWithType: Gamepad
+  fullName: Beryl.Input.Devices.Gamepad
+  type: Class
+  source:
+    id: Gamepad
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 7
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: 'public sealed class Gamepad : IInputDevice'
+    content.vb: Public NotInheritable Class Gamepad Implements IInputDevice
+  inheritance:
+  - System.Object
+  implements:
+  - Beryl.Input.Devices.IInputDevice
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Input.Devices.Gamepad.#ctor(Silk.NET.Input.IGamepad)
+  commentId: M:Beryl.Input.Devices.Gamepad.#ctor(Silk.NET.Input.IGamepad)
+  id: '#ctor(Silk.NET.Input.IGamepad)'
+  parent: Beryl.Input.Devices.Gamepad
+  langs:
+  - csharp
+  - vb
+  name: Gamepad(IGamepad)
+  nameWithType: Gamepad.Gamepad(IGamepad)
+  fullName: Beryl.Input.Devices.Gamepad.Gamepad(Silk.NET.Input.IGamepad)
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 56
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: public Gamepad(IGamepad controller)
+    parameters:
+    - id: controller
+      type: Silk.NET.Input.IGamepad
+    content.vb: Public Sub New(controller As IGamepad)
+  overload: Beryl.Input.Devices.Gamepad.#ctor*
+  nameWithType.vb: Gamepad.New(IGamepad)
+  fullName.vb: Beryl.Input.Devices.Gamepad.New(Silk.NET.Input.IGamepad)
+  name.vb: New(IGamepad)
+- uid: Beryl.Input.Devices.Gamepad.IsButtonPressed(Beryl.Input.Devices.Gamepad.Button)
+  commentId: M:Beryl.Input.Devices.Gamepad.IsButtonPressed(Beryl.Input.Devices.Gamepad.Button)
+  id: IsButtonPressed(Beryl.Input.Devices.Gamepad.Button)
+  parent: Beryl.Input.Devices.Gamepad
+  langs:
+  - csharp
+  - vb
+  name: IsButtonPressed(Button)
+  nameWithType: Gamepad.IsButtonPressed(Gamepad.Button)
+  fullName: Beryl.Input.Devices.Gamepad.IsButtonPressed(Beryl.Input.Devices.Gamepad.Button)
+  type: Method
+  source:
+    id: IsButtonPressed
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 59
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  summary: Checks if the given <xref href="Beryl.Input.Devices.Gamepad.Button" data-throw-if-not-resolved="false"></xref> is currently held down.
+  example: []
+  syntax:
+    content: public bool IsButtonPressed(Gamepad.Button button)
+    parameters:
+    - id: button
+      type: Beryl.Input.Devices.Gamepad.Button
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsButtonPressed(button As Gamepad.Button) As Boolean
+  overload: Beryl.Input.Devices.Gamepad.IsButtonPressed*
+- uid: Beryl.Input.Devices.Gamepad.GetTrigger(Beryl.Input.Devices.Gamepad.Trigger)
+  commentId: M:Beryl.Input.Devices.Gamepad.GetTrigger(Beryl.Input.Devices.Gamepad.Trigger)
+  id: GetTrigger(Beryl.Input.Devices.Gamepad.Trigger)
+  parent: Beryl.Input.Devices.Gamepad
+  langs:
+  - csharp
+  - vb
+  name: GetTrigger(Trigger)
+  nameWithType: Gamepad.GetTrigger(Gamepad.Trigger)
+  fullName: Beryl.Input.Devices.Gamepad.GetTrigger(Beryl.Input.Devices.Gamepad.Trigger)
+  type: Method
+  source:
+    id: GetTrigger
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 73
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  summary: Checks if the given <xref href="Beryl.Input.Devices.Gamepad.Button" data-throw-if-not-resolved="false"></xref> is currently held down.
+  example: []
+  syntax:
+    content: public float GetTrigger(Gamepad.Trigger trigger)
+    parameters:
+    - id: trigger
+      type: Beryl.Input.Devices.Gamepad.Trigger
+    return:
+      type: System.Single
+    content.vb: Public Function GetTrigger(trigger As Gamepad.Trigger) As Single
+  overload: Beryl.Input.Devices.Gamepad.GetTrigger*
+- uid: Beryl.Input.Devices.Gamepad.Update
+  commentId: M:Beryl.Input.Devices.Gamepad.Update
+  id: Update
+  parent: Beryl.Input.Devices.Gamepad
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: Gamepad.Update()
+  fullName: Beryl.Input.Devices.Gamepad.Update()
+  type: Method
+  source:
+    id: Update
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 88
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  summary: Runs once per <xref href="Beryl.Input.InputModule" data-throw-if-not-resolved="false"></xref> update.
+  example: []
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update()
+  overload: Beryl.Input.Devices.Gamepad.Update*
+  implements:
+  - Beryl.Input.Devices.IInputDevice.Update
+references:
+- uid: Beryl.Input.Devices
+  commentId: N:Beryl.Input.Devices
+  href: Beryl.html
+  name: Beryl.Input.Devices
+  nameWithType: Beryl.Input.Devices
+  fullName: Beryl.Input.Devices
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Input.Devices.IInputDevice
+  commentId: T:Beryl.Input.Devices.IInputDevice
+  parent: Beryl.Input.Devices
+  href: Beryl.Input.Devices.IInputDevice.html
+  name: IInputDevice
+  nameWithType: IInputDevice
+  fullName: Beryl.Input.Devices.IInputDevice
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Input.Devices.Gamepad.#ctor*
+  commentId: Overload:Beryl.Input.Devices.Gamepad.#ctor
+  href: Beryl.Input.Devices.Gamepad.html#Beryl_Input_Devices_Gamepad__ctor_Silk_NET_Input_IGamepad_
+  name: Gamepad
+  nameWithType: Gamepad.Gamepad
+  fullName: Beryl.Input.Devices.Gamepad.Gamepad
+  nameWithType.vb: Gamepad.New
+  fullName.vb: Beryl.Input.Devices.Gamepad.New
+  name.vb: New
+- uid: Silk.NET.Input.IGamepad
+  commentId: T:Silk.NET.Input.IGamepad
+  parent: Silk.NET.Input
+  isExternal: true
+  name: IGamepad
+  nameWithType: IGamepad
+  fullName: Silk.NET.Input.IGamepad
+- uid: Silk.NET.Input
+  commentId: N:Silk.NET.Input
+  isExternal: true
+  name: Silk.NET.Input
+  nameWithType: Silk.NET.Input
+  fullName: Silk.NET.Input
+  spec.csharp:
+  - uid: Silk
+    name: Silk
+    isExternal: true
+  - name: .
+  - uid: Silk.NET
+    name: NET
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.Input
+    name: Input
+    isExternal: true
+  spec.vb:
+  - uid: Silk
+    name: Silk
+    isExternal: true
+  - name: .
+  - uid: Silk.NET
+    name: NET
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.Input
+    name: Input
+    isExternal: true
+- uid: Beryl.Input.Devices.Gamepad.Button
+  commentId: T:Beryl.Input.Devices.Gamepad.Button
+  parent: Beryl.Input.Devices
+  href: Beryl.Input.Devices.Gamepad.html
+  name: Gamepad.Button
+  nameWithType: Gamepad.Button
+  fullName: Beryl.Input.Devices.Gamepad.Button
+  spec.csharp:
+  - uid: Beryl.Input.Devices.Gamepad
+    name: Gamepad
+    href: Beryl.Input.Devices.Gamepad.html
+  - name: .
+  - uid: Beryl.Input.Devices.Gamepad.Button
+    name: Button
+    href: Beryl.Input.Devices.Gamepad.Button.html
+  spec.vb:
+  - uid: Beryl.Input.Devices.Gamepad
+    name: Gamepad
+    href: Beryl.Input.Devices.Gamepad.html
+  - name: .
+  - uid: Beryl.Input.Devices.Gamepad.Button
+    name: Button
+    href: Beryl.Input.Devices.Gamepad.Button.html
+- uid: Beryl.Input.Devices.Gamepad.IsButtonPressed*
+  commentId: Overload:Beryl.Input.Devices.Gamepad.IsButtonPressed
+  href: Beryl.Input.Devices.Gamepad.html#Beryl_Input_Devices_Gamepad_IsButtonPressed_Beryl_Input_Devices_Gamepad_Button_
+  name: IsButtonPressed
+  nameWithType: Gamepad.IsButtonPressed
+  fullName: Beryl.Input.Devices.Gamepad.IsButtonPressed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Beryl.Input.Devices.Gamepad.GetTrigger*
+  commentId: Overload:Beryl.Input.Devices.Gamepad.GetTrigger
+  href: Beryl.Input.Devices.Gamepad.html#Beryl_Input_Devices_Gamepad_GetTrigger_Beryl_Input_Devices_Gamepad_Trigger_
+  name: GetTrigger
+  nameWithType: Gamepad.GetTrigger
+  fullName: Beryl.Input.Devices.Gamepad.GetTrigger
+- uid: Beryl.Input.Devices.Gamepad.Trigger
+  commentId: T:Beryl.Input.Devices.Gamepad.Trigger
+  parent: Beryl.Input.Devices
+  href: Beryl.Input.Devices.Gamepad.html
+  name: Gamepad.Trigger
+  nameWithType: Gamepad.Trigger
+  fullName: Beryl.Input.Devices.Gamepad.Trigger
+  spec.csharp:
+  - uid: Beryl.Input.Devices.Gamepad
+    name: Gamepad
+    href: Beryl.Input.Devices.Gamepad.html
+  - name: .
+  - uid: Beryl.Input.Devices.Gamepad.Trigger
+    name: Trigger
+    href: Beryl.Input.Devices.Gamepad.Trigger.html
+  spec.vb:
+  - uid: Beryl.Input.Devices.Gamepad
+    name: Gamepad
+    href: Beryl.Input.Devices.Gamepad.html
+  - name: .
+  - uid: Beryl.Input.Devices.Gamepad.Trigger
+    name: Trigger
+    href: Beryl.Input.Devices.Gamepad.Trigger.html
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Beryl.Input.InputModule
+  commentId: T:Beryl.Input.InputModule
+  href: Beryl.Input.InputModule.html
+  name: InputModule
+  nameWithType: InputModule
+  fullName: Beryl.Input.InputModule
+- uid: Beryl.Input.Devices.Gamepad.Update*
+  commentId: Overload:Beryl.Input.Devices.Gamepad.Update
+  href: Beryl.Input.Devices.Gamepad.html#Beryl_Input_Devices_Gamepad_Update
+  name: Update
+  nameWithType: Gamepad.Update
+  fullName: Beryl.Input.Devices.Gamepad.Update
+- uid: Beryl.Input.Devices.IInputDevice.Update
+  commentId: M:Beryl.Input.Devices.IInputDevice.Update
+  parent: Beryl.Input.Devices.IInputDevice
+  href: Beryl.Input.Devices.IInputDevice.html#Beryl_Input_Devices_IInputDevice_Update
+  name: Update()
+  nameWithType: IInputDevice.Update()
+  fullName: Beryl.Input.Devices.IInputDevice.Update()
+  spec.csharp:
+  - uid: Beryl.Input.Devices.IInputDevice.Update
+    name: Update
+    href: Beryl.Input.Devices.IInputDevice.html#Beryl_Input_Devices_IInputDevice_Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Input.Devices.IInputDevice.Update
+    name: Update
+    href: Beryl.Input.Devices.IInputDevice.html#Beryl_Input_Devices_IInputDevice_Update
+  - name: (
+  - name: )

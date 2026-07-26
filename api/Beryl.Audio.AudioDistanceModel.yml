@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Audio.AudioDistanceModel
+  commentId: T:Beryl.Audio.AudioDistanceModel
+  id: AudioDistanceModel
+  parent: Beryl.Audio
+  children:
+  - Beryl.Audio.AudioDistanceModel.ExponentDistance
+  - Beryl.Audio.AudioDistanceModel.ExponentDistanceClamped
+  - Beryl.Audio.AudioDistanceModel.InverseDistance
+  - Beryl.Audio.AudioDistanceModel.InverseDistanceClamped
+  - Beryl.Audio.AudioDistanceModel.LinearDistance
+  - Beryl.Audio.AudioDistanceModel.LinearDistanceClamped
+  - Beryl.Audio.AudioDistanceModel.None
+  langs:
+  - csharp
+  - vb
+  name: AudioDistanceModel
+  nameWithType: AudioDistanceModel
+  fullName: Beryl.Audio.AudioDistanceModel
+  type: Enum
+  source:
+    id: AudioDistanceModel
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\AudioModule.cs
+    startLine: 63
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Defines how audio source volume attenuates with distance from the listener.
+  example: []
+  syntax:
+    content: public enum AudioDistanceModel
+    content.vb: Public Enum AudioDistanceModel
+- uid: Beryl.Audio.AudioDistanceModel.None
+  commentId: F:Beryl.Audio.AudioDistanceModel.None
+  id: None
+  parent: Beryl.Audio.AudioDistanceModel
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AudioDistanceModel.None
+  fullName: Beryl.Audio.AudioDistanceModel.None
+  type: Field
+  source:
+    id: None
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\AudioModule.cs
+    startLine: 65
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  syntax:
+    content: None = 0
+    return:
+      type: Beryl.Audio.AudioDistanceModel
+- uid: Beryl.Audio.AudioDistanceModel.InverseDistance
+  commentId: F:Beryl.Audio.AudioDistanceModel.InverseDistance
+  id: InverseDistance
+  parent: Beryl.Audio.AudioDistanceModel
+  langs:
+  - csharp
+  - vb
+  name: InverseDistance
+  nameWithType: AudioDistanceModel.InverseDistance
+  fullName: Beryl.Audio.AudioDistanceModel.InverseDistance
+  type: Field
+  source:
+    id: InverseDistance
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\AudioModule.cs
+    startLine: 66
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  syntax:
+    content: InverseDistance = 1
+    return:
+      type: Beryl.Audio.AudioDistanceModel
+- uid: Beryl.Audio.AudioDistanceModel.InverseDistanceClamped
+  commentId: F:Beryl.Audio.AudioDistanceModel.InverseDistanceClamped
+  id: InverseDistanceClamped
+  parent: Beryl.Audio.AudioDistanceModel
+  langs:
+  - csharp
+  - vb
+  name: InverseDistanceClamped
+  nameWithType: AudioDistanceModel.InverseDistanceClamped
+  fullName: Beryl.Audio.AudioDistanceModel.InverseDistanceClamped
+  type: Field
+  source:
+    id: InverseDistanceClamped
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\AudioModule.cs
+    startLine: 67
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  syntax:
+    content: InverseDistanceClamped = 2
+    return:
+      type: Beryl.Audio.AudioDistanceModel
+- uid: Beryl.Audio.AudioDistanceModel.LinearDistance
+  commentId: F:Beryl.Audio.AudioDistanceModel.LinearDistance
+  id: LinearDistance
+  parent: Beryl.Audio.AudioDistanceModel
+  langs:
+  - csharp
+  - vb
+  name: LinearDistance
+  nameWithType: AudioDistanceModel.LinearDistance
+  fullName: Beryl.Audio.AudioDistanceModel.LinearDistance
+  type: Field
+  source:
+    id: LinearDistance
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\AudioModule.cs
+    startLine: 68
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  syntax:
+    content: LinearDistance = 3
+    return:
+      type: Beryl.Audio.AudioDistanceModel
+- uid: Beryl.Audio.AudioDistanceModel.LinearDistanceClamped
+  commentId: F:Beryl.Audio.AudioDistanceModel.LinearDistanceClamped
+  id: LinearDistanceClamped
+  parent: Beryl.Audio.AudioDistanceModel
+  langs:
+  - csharp
+  - vb
+  name: LinearDistanceClamped
+  nameWithType: AudioDistanceModel.LinearDistanceClamped
+  fullName: Beryl.Audio.AudioDistanceModel.LinearDistanceClamped
+  type: Field
+  source:
+    id: LinearDistanceClamped
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\AudioModule.cs
+    startLine: 69
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  syntax:
+    content: LinearDistanceClamped = 4
+    return:
+      type: Beryl.Audio.AudioDistanceModel
+- uid: Beryl.Audio.AudioDistanceModel.ExponentDistance
+  commentId: F:Beryl.Audio.AudioDistanceModel.ExponentDistance
+  id: ExponentDistance
+  parent: Beryl.Audio.AudioDistanceModel
+  langs:
+  - csharp
+  - vb
+  name: ExponentDistance
+  nameWithType: AudioDistanceModel.ExponentDistance
+  fullName: Beryl.Audio.AudioDistanceModel.ExponentDistance
+  type: Field
+  source:
+    id: ExponentDistance
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\AudioModule.cs
+    startLine: 70
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  syntax:
+    content: ExponentDistance = 5
+    return:
+      type: Beryl.Audio.AudioDistanceModel
+- uid: Beryl.Audio.AudioDistanceModel.ExponentDistanceClamped
+  commentId: F:Beryl.Audio.AudioDistanceModel.ExponentDistanceClamped
+  id: ExponentDistanceClamped
+  parent: Beryl.Audio.AudioDistanceModel
+  langs:
+  - csharp
+  - vb
+  name: ExponentDistanceClamped
+  nameWithType: AudioDistanceModel.ExponentDistanceClamped
+  fullName: Beryl.Audio.AudioDistanceModel.ExponentDistanceClamped
+  type: Field
+  source:
+    id: ExponentDistanceClamped
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\AudioModule.cs
+    startLine: 71
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  syntax:
+    content: ExponentDistanceClamped = 6
+    return:
+      type: Beryl.Audio.AudioDistanceModel
+references:
+- uid: Beryl.Audio
+  commentId: N:Beryl.Audio
+  href: Beryl.html
+  name: Beryl.Audio
+  nameWithType: Beryl.Audio
+  fullName: Beryl.Audio
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+- uid: Beryl.Audio.AudioDistanceModel
+  commentId: T:Beryl.Audio.AudioDistanceModel
+  parent: Beryl.Audio
+  href: Beryl.Audio.AudioDistanceModel.html
+  name: AudioDistanceModel
+  nameWithType: AudioDistanceModel
+  fullName: Beryl.Audio.AudioDistanceModel

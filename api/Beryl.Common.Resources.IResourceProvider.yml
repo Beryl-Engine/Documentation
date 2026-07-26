@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Common.Resources.IResourceProvider
+  commentId: T:Beryl.Common.Resources.IResourceProvider
+  id: IResourceProvider
+  parent: Beryl.Common.Resources
+  children:
+  - Beryl.Common.Resources.IResourceProvider.GetResource``1(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IResourceProvider
+  nameWithType: IResourceProvider
+  fullName: Beryl.Common.Resources.IResourceProvider
+  type: Interface
+  source:
+    id: IResourceProvider
+    path: E:\Beryl\Documentation\src\Beryl.Common\Resources\IResourceProvider.cs
+    startLine: 8
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common.Resources
+  summary: A Provider for game resources/assets.
+  example: []
+  syntax:
+    content: public interface IResourceProvider
+    content.vb: Public Interface IResourceProvider
+- uid: Beryl.Common.Resources.IResourceProvider.GetResource``1(System.String)
+  commentId: M:Beryl.Common.Resources.IResourceProvider.GetResource``1(System.String)
+  id: GetResource``1(System.String)
+  parent: Beryl.Common.Resources.IResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: GetResource<T>(string)
+  nameWithType: IResourceProvider.GetResource<T>(string)
+  fullName: Beryl.Common.Resources.IResourceProvider.GetResource<T>(string)
+  type: Method
+  source:
+    id: GetResource
+    path: E:\Beryl\Documentation\src\Beryl.Common\Resources\IResourceProvider.cs
+    startLine: 12
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common.Resources
+  summary: Gets a resource from its path.
+  example: []
+  syntax:
+    content: 'T? GetResource<T>(string path) where T : class'
+    parameters:
+    - id: path
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+      description: The resource or null if invalid.
+    content.vb: Function GetResource(Of T As Class)(path As String) As T
+  overload: Beryl.Common.Resources.IResourceProvider.GetResource*
+  nameWithType.vb: IResourceProvider.GetResource(Of T)(String)
+  fullName.vb: Beryl.Common.Resources.IResourceProvider.GetResource(Of T)(String)
+  name.vb: GetResource(Of T)(String)
+references:
+- uid: Beryl.Common.Resources
+  commentId: N:Beryl.Common.Resources
+  href: Beryl.html
+  name: Beryl.Common.Resources
+  nameWithType: Beryl.Common.Resources
+  fullName: Beryl.Common.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Resources
+    name: Resources
+    href: Beryl.Common.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Resources
+    name: Resources
+    href: Beryl.Common.Resources.html
+- uid: Beryl.Common.Resources.IResourceProvider.GetResource*
+  commentId: Overload:Beryl.Common.Resources.IResourceProvider.GetResource
+  href: Beryl.Common.Resources.IResourceProvider.html#Beryl_Common_Resources_IResourceProvider_GetResource__1_System_String_
+  name: GetResource
+  nameWithType: IResourceProvider.GetResource
+  fullName: Beryl.Common.Resources.IResourceProvider.GetResource
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

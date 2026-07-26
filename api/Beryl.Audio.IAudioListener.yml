@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Audio.IAudioListener
+  commentId: T:Beryl.Audio.IAudioListener
+  id: IAudioListener
+  parent: Beryl.Audio
+  children:
+  - Beryl.Audio.IAudioListener.Forward
+  - Beryl.Audio.IAudioListener.Gain
+  - Beryl.Audio.IAudioListener.Position
+  - Beryl.Audio.IAudioListener.Up
+  - Beryl.Audio.IAudioListener.Update
+  langs:
+  - csharp
+  - vb
+  name: IAudioListener
+  nameWithType: IAudioListener
+  fullName: Beryl.Audio.IAudioListener
+  type: Interface
+  source:
+    id: IAudioListener
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioListener.cs
+    startLine: 10
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Represents an audio listener within the audio context.
+  example: []
+  syntax:
+    content: public interface IAudioListener
+    content.vb: Public Interface IAudioListener
+  derivedClasses:
+  - Beryl.Audio.Engines.OpenAL.OpenALListener
+- uid: Beryl.Audio.IAudioListener.Position
+  commentId: P:Beryl.Audio.IAudioListener.Position
+  id: Position
+  parent: Beryl.Audio.IAudioListener
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: IAudioListener.Position
+  fullName: Beryl.Audio.IAudioListener.Position
+  type: Property
+  source:
+    id: Position
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioListener.cs
+    startLine: 13
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: The world-space position of the listener.
+  example: []
+  syntax:
+    content: Vector3 Position { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Property Position As Vector3
+  overload: Beryl.Audio.IAudioListener.Position*
+- uid: Beryl.Audio.IAudioListener.Forward
+  commentId: P:Beryl.Audio.IAudioListener.Forward
+  id: Forward
+  parent: Beryl.Audio.IAudioListener
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: IAudioListener.Forward
+  fullName: Beryl.Audio.IAudioListener.Forward
+  type: Property
+  source:
+    id: Forward
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioListener.cs
+    startLine: 16
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: The forward orientation vector of the listener.
+  example: []
+  syntax:
+    content: Vector3 Forward { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Property Forward As Vector3
+  overload: Beryl.Audio.IAudioListener.Forward*
+- uid: Beryl.Audio.IAudioListener.Up
+  commentId: P:Beryl.Audio.IAudioListener.Up
+  id: Up
+  parent: Beryl.Audio.IAudioListener
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: IAudioListener.Up
+  fullName: Beryl.Audio.IAudioListener.Up
+  type: Property
+  source:
+    id: Up
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioListener.cs
+    startLine: 19
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: The up orientation vector of the listener.
+  example: []
+  syntax:
+    content: Vector3 Up { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Property Up As Vector3
+  overload: Beryl.Audio.IAudioListener.Up*
+- uid: Beryl.Audio.IAudioListener.Gain
+  commentId: P:Beryl.Audio.IAudioListener.Gain
+  id: Gain
+  parent: Beryl.Audio.IAudioListener
+  langs:
+  - csharp
+  - vb
+  name: Gain
+  nameWithType: IAudioListener.Gain
+  fullName: Beryl.Audio.IAudioListener.Gain
+  type: Property
+  source:
+    id: Gain
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioListener.cs
+    startLine: 22
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: The master gain/volume multiplier of the listener.
+  example: []
+  syntax:
+    content: float Gain { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property Gain As Single
+  overload: Beryl.Audio.IAudioListener.Gain*
+- uid: Beryl.Audio.IAudioListener.Update
+  commentId: M:Beryl.Audio.IAudioListener.Update
+  id: Update
+  parent: Beryl.Audio.IAudioListener
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: IAudioListener.Update()
+  fullName: Beryl.Audio.IAudioListener.Update()
+  type: Method
+  source:
+    id: Update
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioListener.cs
+    startLine: 24
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  syntax:
+    content: void Update()
+    content.vb: Sub Update()
+  overload: Beryl.Audio.IAudioListener.Update*
+references:
+- uid: Beryl.Audio
+  commentId: N:Beryl.Audio
+  href: Beryl.html
+  name: Beryl.Audio
+  nameWithType: Beryl.Audio
+  fullName: Beryl.Audio
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+- uid: Beryl.Audio.IAudioListener.Position*
+  commentId: Overload:Beryl.Audio.IAudioListener.Position
+  href: Beryl.Audio.IAudioListener.html#Beryl_Audio_IAudioListener_Position
+  name: Position
+  nameWithType: IAudioListener.Position
+  fullName: Beryl.Audio.IAudioListener.Position
+- uid: Beryl.Math.Vector3
+  commentId: T:Beryl.Math.Vector3
+  parent: Beryl.Math
+  href: Beryl.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Beryl.Math.Vector3
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: Beryl.Audio.IAudioListener.Forward*
+  commentId: Overload:Beryl.Audio.IAudioListener.Forward
+  href: Beryl.Audio.IAudioListener.html#Beryl_Audio_IAudioListener_Forward
+  name: Forward
+  nameWithType: IAudioListener.Forward
+  fullName: Beryl.Audio.IAudioListener.Forward
+- uid: Beryl.Audio.IAudioListener.Up*
+  commentId: Overload:Beryl.Audio.IAudioListener.Up
+  href: Beryl.Audio.IAudioListener.html#Beryl_Audio_IAudioListener_Up
+  name: Up
+  nameWithType: IAudioListener.Up
+  fullName: Beryl.Audio.IAudioListener.Up
+- uid: Beryl.Audio.IAudioListener.Gain*
+  commentId: Overload:Beryl.Audio.IAudioListener.Gain
+  href: Beryl.Audio.IAudioListener.html#Beryl_Audio_IAudioListener_Gain
+  name: Gain
+  nameWithType: IAudioListener.Gain
+  fullName: Beryl.Audio.IAudioListener.Gain
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Audio.IAudioListener.Update*
+  commentId: Overload:Beryl.Audio.IAudioListener.Update
+  href: Beryl.Audio.IAudioListener.html#Beryl_Audio_IAudioListener_Update
+  name: Update
+  nameWithType: IAudioListener.Update
+  fullName: Beryl.Audio.IAudioListener.Update

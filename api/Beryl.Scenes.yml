@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Scenes
+  commentId: N:Beryl.Scenes
+  id: Scenes
+  parent: Beryl
+  children:
+  - Beryl.Scenes.Components
+  - Beryl.Scenes.Entities
+  - Beryl.Scenes.Resources
+  - Beryl.Scenes.SceneModule
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Scenes
+  nameWithType: Beryl.Scenes
+  fullName: Beryl.Scenes
+  type: Namespace
+  assemblies:
+  - Beryl.Scenes
+references:
+- uid: Beryl.Scenes.Components
+  commentId: N:Beryl.Scenes.Components
+  href: Beryl.html
+  name: Beryl.Scenes.Components
+  nameWithType: Beryl.Scenes.Components
+  fullName: Beryl.Scenes.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Components
+    name: Components
+    href: Beryl.Scenes.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Components
+    name: Components
+    href: Beryl.Scenes.Components.html
+- uid: Beryl.Scenes.Entities
+  commentId: N:Beryl.Scenes.Entities
+  href: Beryl.html
+  name: Beryl.Scenes.Entities
+  nameWithType: Beryl.Scenes.Entities
+  fullName: Beryl.Scenes.Entities
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Entities
+    name: Entities
+    href: Beryl.Scenes.Entities.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Entities
+    name: Entities
+    href: Beryl.Scenes.Entities.html
+- uid: Beryl.Scenes.Resources
+  commentId: N:Beryl.Scenes.Resources
+  href: Beryl.html
+  name: Beryl.Scenes.Resources
+  nameWithType: Beryl.Scenes.Resources
+  fullName: Beryl.Scenes.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Resources
+    name: Resources
+    href: Beryl.Scenes.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Resources
+    name: Resources
+    href: Beryl.Scenes.Resources.html
+- uid: Beryl.Scenes.SceneModule
+  commentId: T:Beryl.Scenes.SceneModule
+  href: Beryl.Scenes.SceneModule.html
+  name: SceneModule
+  nameWithType: SceneModule
+  fullName: Beryl.Scenes.SceneModule

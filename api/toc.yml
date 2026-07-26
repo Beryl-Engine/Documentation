@@ -1,635 +1,635 @@
 ### YamlMime:TableOfContent
 items:
-- uid: Orama
-  name: Orama
+- uid: Beryl
+  name: Beryl
   type: Namespace
   items:
-  - uid: Orama.Assemblies
+  - uid: Beryl.Assemblies
     name: Assemblies
     type: Namespace
     items:
-    - uid: Orama.Assemblies.AssemblyModule
+    - uid: Beryl.Assemblies.AssemblyModule
       name: AssemblyModule
       type: Class
-    - uid: Orama.Assemblies.OnAssemblyLoadAttribute
+    - uid: Beryl.Assemblies.BerylAssembly
+      name: BerylAssembly
+      type: Class
+    - uid: Beryl.Assemblies.OnAssemblyLoadAttribute
       name: OnAssemblyLoadAttribute
       type: Class
-    - uid: Orama.Assemblies.OramaAssembly
-      name: OramaAssembly
-      type: Class
-    - uid: Orama.Assemblies.Reflection
+    - uid: Beryl.Assemblies.Reflection
       name: Reflection
       type: Class
-  - uid: Orama.Audio
+  - uid: Beryl.Audio
     name: Audio
     type: Namespace
     items:
-    - uid: Orama.Audio.Components
+    - uid: Beryl.Audio.Components
       name: Components
       type: Namespace
       items:
-      - uid: Orama.Audio.Components.AudioListener
+      - uid: Beryl.Audio.Components.AudioListener
         name: AudioListener
         type: Class
-      - uid: Orama.Audio.Components.AudioSource
+      - uid: Beryl.Audio.Components.AudioSource
         name: AudioSource
         type: Class
-    - uid: Orama.Audio.Engines.OpenAL
+    - uid: Beryl.Audio.Engines.OpenAL
       name: Engines.OpenAL
       type: Namespace
       items:
-      - uid: Orama.Audio.Engines.OpenAL.OpenALContext
+      - uid: Beryl.Audio.Engines.OpenAL.OpenALContext
         name: OpenALContext
         type: Class
-      - uid: Orama.Audio.Engines.OpenAL.OpenALListener
+      - uid: Beryl.Audio.Engines.OpenAL.OpenALListener
         name: OpenALListener
         type: Class
-      - uid: Orama.Audio.Engines.OpenAL.OpenALSource
+      - uid: Beryl.Audio.Engines.OpenAL.OpenALSource
         name: OpenALSource
         type: Class
-    - uid: Orama.Audio.Resources
+    - uid: Beryl.Audio.Resources
       name: Resources
       type: Namespace
       items:
-      - uid: Orama.Audio.Resources.AudioClip
+      - uid: Beryl.Audio.Resources.AudioClip
         name: AudioClip
         type: Class
-    - uid: Orama.Audio.AudioDistanceModel
+    - uid: Beryl.Audio.AudioDistanceModel
       name: AudioDistanceModel
       type: Enum
-    - uid: Orama.Audio.AudioModule
+    - uid: Beryl.Audio.AudioModule
       name: AudioModule
       type: Class
-    - uid: Orama.Audio.AudioPhysics
+    - uid: Beryl.Audio.AudioPhysics
       name: AudioPhysics
       type: Class
-    - uid: Orama.Audio.IAudioContext
+    - uid: Beryl.Audio.IAudioContext
       name: IAudioContext
       type: Interface
-    - uid: Orama.Audio.IAudioListener
+    - uid: Beryl.Audio.IAudioListener
       name: IAudioListener
       type: Interface
-    - uid: Orama.Audio.IAudioSource
+    - uid: Beryl.Audio.IAudioSource
       name: IAudioSource
       type: Interface
-  - uid: Orama.Common
+  - uid: Beryl.Common
     name: Common
     type: Namespace
     items:
-    - uid: Orama.Common.Datatypes
+    - uid: Beryl.Common.Datatypes
       name: Datatypes
       type: Namespace
       items:
-      - uid: Orama.Common.Datatypes.ObjectPool`2
+      - uid: Beryl.Common.Datatypes.ObjectPool`2
         name: ObjectPool<TSingletonOwner, TObject>
         type: Class
-      - uid: Orama.Common.Datatypes.PooledObject`2
+      - uid: Beryl.Common.Datatypes.PooledObject`2
         name: PooledObject<TObject, TPool>
         type: Struct
-    - uid: Orama.Common.Resources
+    - uid: Beryl.Common.Resources
       name: Resources
       type: Namespace
       items:
-      - uid: Orama.Common.Resources.DefaultProvider
+      - uid: Beryl.Common.Resources.DefaultProvider
         name: DefaultProvider
         type: Namespace
         items:
-        - uid: Orama.Common.Resources.DefaultProvider.ResourceLoaderAttribute
+        - uid: Beryl.Common.Resources.DefaultProvider.ResourceLoaderAttribute
           name: ResourceLoaderAttribute
           type: Class
-        - uid: Orama.Common.Resources.DefaultProvider.ResourceLoader`1
+        - uid: Beryl.Common.Resources.DefaultProvider.ResourceLoader`1
           name: ResourceLoader<T>
           type: Class
-      - uid: Orama.Common.Resources.IResourceProvider
+      - uid: Beryl.Common.Resources.IResourceProvider
         name: IResourceProvider
         type: Interface
-    - uid: Orama.Common.Standard
+    - uid: Beryl.Common.Standard
       name: Standard
       type: Namespace
       items:
-      - uid: Orama.Common.Standard.IAlwaysHashable
+      - uid: Beryl.Common.Standard.IAlwaysHashable
         name: IAlwaysHashable
         type: Interface
-      - uid: Orama.Common.Standard.RentedArray`1
+      - uid: Beryl.Common.Standard.RentedArray`1
         name: RentedArray<T>
         type: Struct
-    - uid: Orama.Common.Utility
+    - uid: Beryl.Common.Utility
       name: Utility
       type: Namespace
       items:
-      - uid: Orama.Common.Utility.EnginePaths
+      - uid: Beryl.Common.Utility.BerylConsole
+        name: BerylConsole
+        type: Class
+      - uid: Beryl.Common.Utility.EnginePaths
         name: EnginePaths
         type: Class
-      - uid: Orama.Common.Utility.OramaConsole
-        name: OramaConsole
-        type: Class
-    - uid: Orama.Common.Application
+    - uid: Beryl.Common.Application
       name: Application
       type: Class
-    - uid: Orama.Common.BaseModule
+    - uid: Beryl.Common.BaseModule
       name: BaseModule
       type: Class
-    - uid: Orama.Common.InitializeAfterAttribute
+    - uid: Beryl.Common.InitializeAfterAttribute
       name: InitializeAfterAttribute
       type: Class
-    - uid: Orama.Common.ModuleManager
+    - uid: Beryl.Common.ModuleManager
       name: ModuleManager
       type: Class
-    - uid: Orama.Common.Time
+    - uid: Beryl.Common.Time
       name: Time
       type: Class
-    - uid: Orama.Common.Window
+    - uid: Beryl.Common.Window
       name: Window
       type: Class
-  - uid: Orama.GUI
+  - uid: Beryl.GUI
     name: GUI
     type: Namespace
     items:
-    - uid: Orama.GUI.Widgets
+    - uid: Beryl.GUI.Widgets
       name: Widgets
       type: Namespace
       items:
-      - uid: Orama.GUI.Widgets.Widget
+      - uid: Beryl.GUI.Widgets.Widget
         name: Widget
         type: Class
-    - uid: Orama.GUI.GUIModule
+    - uid: Beryl.GUI.GUIModule
       name: GUIModule
       type: Class
-    - uid: Orama.GUI.PaintEngine
+    - uid: Beryl.GUI.PaintEngine
       name: PaintEngine
       type: Class
-  - uid: Orama.Input
+  - uid: Beryl.Input
     name: Input
     type: Namespace
     items:
-    - uid: Orama.Input.Devices
+    - uid: Beryl.Input.Devices
       name: Devices
       type: Namespace
       items:
-      - uid: Orama.Input.Devices.Gamepad
+      - uid: Beryl.Input.Devices.Gamepad
         name: Gamepad
         type: Class
-      - uid: Orama.Input.Devices.Gamepad.Button
+      - uid: Beryl.Input.Devices.Gamepad.Button
         name: Gamepad.Button
         type: Enum
-      - uid: Orama.Input.Devices.Gamepad.Trigger
+      - uid: Beryl.Input.Devices.Gamepad.Trigger
         name: Gamepad.Trigger
         type: Enum
-      - uid: Orama.Input.Devices.IInputDevice
+      - uid: Beryl.Input.Devices.IInputDevice
         name: IInputDevice
         type: Interface
-      - uid: Orama.Input.Devices.Keyboard
+      - uid: Beryl.Input.Devices.Keyboard
         name: Keyboard
         type: Class
-      - uid: Orama.Input.Devices.Keyboard.Key
+      - uid: Beryl.Input.Devices.Keyboard.Key
         name: Keyboard.Key
         type: Enum
-      - uid: Orama.Input.Devices.Mouse
+      - uid: Beryl.Input.Devices.Mouse
         name: Mouse
         type: Class
-      - uid: Orama.Input.Devices.Mouse.Button
+      - uid: Beryl.Input.Devices.Mouse.Button
         name: Mouse.Button
         type: Enum
-    - uid: Orama.Input.InputModule
+    - uid: Beryl.Input.InputModule
       name: InputModule
       type: Class
-  - uid: Orama.Math
+  - uid: Beryl.Math
     name: Math
     type: Namespace
     items:
-    - uid: Orama.Math.Color
+    - uid: Beryl.Math.Color
       name: Color
       type: Struct
-    - uid: Orama.Math.Math
+    - uid: Beryl.Math.Math
       name: Math
       type: Class
-    - uid: Orama.Math.Matrix4x4
+    - uid: Beryl.Math.Matrix4x4
       name: Matrix4x4
       type: Struct
-    - uid: Orama.Math.Quaternion
+    - uid: Beryl.Math.Quaternion
       name: Quaternion
       type: Struct
-    - uid: Orama.Math.Rect
+    - uid: Beryl.Math.Rect
       name: Rect
       type: Struct
-    - uid: Orama.Math.Vector2
+    - uid: Beryl.Math.Vector2
       name: Vector2
       type: Struct
-    - uid: Orama.Math.Vector2I
+    - uid: Beryl.Math.Vector2I
       name: Vector2I
       type: Struct
-    - uid: Orama.Math.Vector3
+    - uid: Beryl.Math.Vector3
       name: Vector3
       type: Struct
-    - uid: Orama.Math.Vector4
+    - uid: Beryl.Math.Vector4
       name: Vector4
       type: Struct
-  - uid: Orama.Physics
+  - uid: Beryl.Physics
     name: Physics
     type: Namespace
     items:
-    - uid: Orama.Physics.Components
+    - uid: Beryl.Physics.Components
       name: Components
       type: Namespace
       items:
-      - uid: Orama.Physics.Components.Colliders
+      - uid: Beryl.Physics.Components.Colliders
         name: Colliders
         type: Namespace
         items:
-        - uid: Orama.Physics.Components.Colliders.BoxCollider
+        - uid: Beryl.Physics.Components.Colliders.BoxCollider
           name: BoxCollider
           type: Class
-        - uid: Orama.Physics.Components.Colliders.Collider
+        - uid: Beryl.Physics.Components.Colliders.Collider
           name: Collider
           type: Class
-        - uid: Orama.Physics.Components.Colliders.SphereCollider
+        - uid: Beryl.Physics.Components.Colliders.SphereCollider
           name: SphereCollider
           type: Class
-      - uid: Orama.Physics.Components.RigidBody
+      - uid: Beryl.Physics.Components.RigidBody
         name: RigidBody
         type: Class
-    - uid: Orama.Physics.Engines.Jitter2
+    - uid: Beryl.Physics.Engines.Jitter2
       name: Engines.Jitter2
       type: Namespace
       items:
-      - uid: Orama.Physics.Engines.Jitter2.Jitter2Body
+      - uid: Beryl.Physics.Engines.Jitter2.Jitter2Body
         name: Jitter2Body
         type: Class
-      - uid: Orama.Physics.Engines.Jitter2.Jitter2World
+      - uid: Beryl.Physics.Engines.Jitter2.Jitter2World
         name: Jitter2World
         type: Class
-    - uid: Orama.Physics.IPhysicsBody
+    - uid: Beryl.Physics.IPhysicsBody
       name: IPhysicsBody
       type: Interface
-    - uid: Orama.Physics.IPhysicsWorld
+    - uid: Beryl.Physics.IPhysicsWorld
       name: IPhysicsWorld
       type: Interface
-    - uid: Orama.Physics.PhysicsModule
+    - uid: Beryl.Physics.PhysicsModule
       name: PhysicsModule
       type: Class
-    - uid: Orama.Physics.RaycastResult
+    - uid: Beryl.Physics.RaycastResult
       name: RaycastResult
       type: Struct
-  - uid: Orama.RHI
+  - uid: Beryl.RHI
     name: RHI
     type: Namespace
     items:
-    - uid: Orama.RHI.Resources
+    - uid: Beryl.RHI.Resources
       name: Resources
       type: Namespace
       items:
-      - uid: Orama.RHI.Resources.BufferDescriptor
+      - uid: Beryl.RHI.Resources.BufferDescriptor
         name: BufferDescriptor
         type: Struct
-      - uid: Orama.RHI.Resources.BufferUsage
+      - uid: Beryl.RHI.Resources.BufferUsage
         name: BufferUsage
         type: Enum
-      - uid: Orama.RHI.Resources.IBindableResource
+      - uid: Beryl.RHI.Resources.IBindableResource
         name: IBindableResource
         type: Interface
-      - uid: Orama.RHI.Resources.IBuffer
+      - uid: Beryl.RHI.Resources.IBuffer
         name: IBuffer
         type: Interface
-      - uid: Orama.RHI.Resources.IFramebuffer
+      - uid: Beryl.RHI.Resources.IFramebuffer
         name: IFramebuffer
         type: Interface
-      - uid: Orama.RHI.Resources.IGPUResource
+      - uid: Beryl.RHI.Resources.IGPUResource
         name: IGPUResource
         type: Interface
-      - uid: Orama.RHI.Resources.IPipeline
+      - uid: Beryl.RHI.Resources.IPipeline
         name: IPipeline
         type: Interface
-      - uid: Orama.RHI.Resources.IResourceLayout
+      - uid: Beryl.RHI.Resources.IResourceLayout
         name: IResourceLayout
         type: Interface
-      - uid: Orama.RHI.Resources.IResourceSet
+      - uid: Beryl.RHI.Resources.IResourceSet
         name: IResourceSet
         type: Interface
-      - uid: Orama.RHI.Resources.ISampler
+      - uid: Beryl.RHI.Resources.ISampler
         name: ISampler
         type: Interface
-      - uid: Orama.RHI.Resources.IShader
+      - uid: Beryl.RHI.Resources.IShader
         name: IShader
         type: Interface
-      - uid: Orama.RHI.Resources.ITexture
+      - uid: Beryl.RHI.Resources.ITexture
         name: ITexture
         type: Interface
-      - uid: Orama.RHI.Resources.ITextureView
+      - uid: Beryl.RHI.Resources.ITextureView
         name: ITextureView
         type: Interface
-      - uid: Orama.RHI.Resources.NamedBufferDescriptor
+      - uid: Beryl.RHI.Resources.NamedBufferDescriptor
         name: NamedBufferDescriptor
         type: Struct
-      - uid: Orama.RHI.Resources.PipelineDescriptor
+      - uid: Beryl.RHI.Resources.PipelineDescriptor
         name: PipelineDescriptor
         type: Struct
-      - uid: Orama.RHI.Resources.ResourceDescriptor
+      - uid: Beryl.RHI.Resources.ResourceDescriptor
         name: ResourceDescriptor
         type: Struct
-      - uid: Orama.RHI.Resources.ResourceKind
+      - uid: Beryl.RHI.Resources.ResourceKind
         name: ResourceKind
         type: Enum
-      - uid: Orama.RHI.Resources.ResourceLayoutDescriptor
+      - uid: Beryl.RHI.Resources.ResourceLayoutDescriptor
         name: ResourceLayoutDescriptor
         type: Struct
-      - uid: Orama.RHI.Resources.ResourceLayoutElementDescription
+      - uid: Beryl.RHI.Resources.ResourceLayoutElementDescription
         name: ResourceLayoutElementDescription
         type: Struct
-      - uid: Orama.RHI.Resources.Sampler
+      - uid: Beryl.RHI.Resources.Sampler
         name: Sampler
         type: Struct
-      - uid: Orama.RHI.Resources.SamplerDescriptor
+      - uid: Beryl.RHI.Resources.SamplerDescriptor
         name: SamplerDescriptor
         type: Struct
-      - uid: Orama.RHI.Resources.SamplerFilter
+      - uid: Beryl.RHI.Resources.SamplerFilter
         name: SamplerFilter
         type: Enum
-      - uid: Orama.RHI.Resources.ShaderDescriptor
+      - uid: Beryl.RHI.Resources.ShaderDescriptor
         name: ShaderDescriptor
         type: Struct
-      - uid: Orama.RHI.Resources.ShaderParameter
+      - uid: Beryl.RHI.Resources.ShaderParameter
         name: ShaderParameter
         type: Class
-      - uid: Orama.RHI.Resources.ShaderParameter.ParamType
+      - uid: Beryl.RHI.Resources.ShaderParameter.ParamType
         name: ShaderParameter.ParamType
         type: Enum
-      - uid: Orama.RHI.Resources.ShaderResource
+      - uid: Beryl.RHI.Resources.ShaderResource
         name: ShaderResource
         type: Class
-      - uid: Orama.RHI.Resources.ShaderResourceGroup
+      - uid: Beryl.RHI.Resources.ShaderResourceGroup
         name: ShaderResourceGroup
         type: Struct
-      - uid: Orama.RHI.Resources.ShaderStages
+      - uid: Beryl.RHI.Resources.ShaderStages
         name: ShaderStages
         type: Enum
-      - uid: Orama.RHI.Resources.TextureDescriptor
+      - uid: Beryl.RHI.Resources.TextureDescriptor
         name: TextureDescriptor
         type: Struct
-      - uid: Orama.RHI.Resources.TextureFormat
+      - uid: Beryl.RHI.Resources.TextureFormat
         name: TextureFormat
         type: Enum
-      - uid: Orama.RHI.Resources.TextureViewDescriptor
+      - uid: Beryl.RHI.Resources.TextureViewDescriptor
         name: TextureViewDescriptor
         type: Struct
-      - uid: Orama.RHI.Resources.TextureWrapMode
+      - uid: Beryl.RHI.Resources.TextureWrapMode
         name: TextureWrapMode
         type: Enum
-    - uid: Orama.RHI.CullingMode
+    - uid: Beryl.RHI.CullingMode
       name: CullingMode
       type: Enum
-    - uid: Orama.RHI.DeviceFeatures
+    - uid: Beryl.RHI.DeviceFeatures
       name: DeviceFeatures
       type: Enum
-    - uid: Orama.RHI.GraphicsDeviceFactory
+    - uid: Beryl.RHI.GraphicsDeviceFactory
       name: GraphicsDeviceFactory
       type: Class
-    - uid: Orama.RHI.ICommandBuffer
+    - uid: Beryl.RHI.ICommandBuffer
       name: ICommandBuffer
       type: Interface
-    - uid: Orama.RHI.IGraphicsDevice
+    - uid: Beryl.RHI.IGraphicsDevice
       name: IGraphicsDevice
       type: Interface
-    - uid: Orama.RHI.IResourceFactory
+    - uid: Beryl.RHI.IResourceFactory
       name: IResourceFactory
       type: Interface
-    - uid: Orama.RHI.RendererBackend
+    - uid: Beryl.RHI.RendererBackend
       name: RendererBackend
       type: Enum
-    - uid: Orama.RHI.VulkanInfo
+    - uid: Beryl.RHI.VulkanInfo
       name: VulkanInfo
       type: Struct
-  - uid: Orama.Rendering
+  - uid: Beryl.Rendering
     name: Rendering
     type: Namespace
     items:
-    - uid: Orama.Rendering.Components
+    - uid: Beryl.Rendering.Components
       name: Components
       type: Namespace
       items:
-      - uid: Orama.Rendering.Components.Camera
+      - uid: Beryl.Rendering.Components.Camera
         name: Camera
         type: Class
-      - uid: Orama.Rendering.Components.MeshRenderer
+      - uid: Beryl.Rendering.Components.MeshRenderer
         name: MeshRenderer
         type: Class
-    - uid: Orama.Rendering.Entities
+    - uid: Beryl.Rendering.Entities
       name: Entities
       type: Namespace
       items:
-      - uid: Orama.Rendering.Entities.DebugEntity
+      - uid: Beryl.Rendering.Entities.DebugEntity
         name: DebugEntity
         type: Class
-      - uid: Orama.Rendering.Entities.FlyController
+      - uid: Beryl.Rendering.Entities.FlyController
         name: FlyController
         type: Class
-    - uid: Orama.Rendering.Pipelines
+    - uid: Beryl.Rendering.Pipelines
       name: Pipelines
       type: Namespace
       items:
-      - uid: Orama.Rendering.Pipelines.Forward
+      - uid: Beryl.Rendering.Pipelines.Forward
         name: Forward
         type: Namespace
         items:
-        - uid: Orama.Rendering.Pipelines.Forward.ForwardRenderPipeline
+        - uid: Beryl.Rendering.Pipelines.Forward.ForwardRenderPipeline
           name: ForwardRenderPipeline
           type: Class
-        - uid: Orama.Rendering.Pipelines.Forward.OpaquePass
+        - uid: Beryl.Rendering.Pipelines.Forward.OpaquePass
           name: OpaquePass
           type: Class
-      - uid: Orama.Rendering.Pipelines.RenderPass
+      - uid: Beryl.Rendering.Pipelines.RenderPass
         name: RenderPass
         type: Class
-      - uid: Orama.Rendering.Pipelines.RenderPipeline
+      - uid: Beryl.Rendering.Pipelines.RenderPipeline
         name: RenderPipeline
         type: Class
-    - uid: Orama.Rendering.Resources
+    - uid: Beryl.Rendering.Resources
       name: Resources
       type: Namespace
       items:
-      - uid: Orama.Rendering.Resources.Caches
+      - uid: Beryl.Rendering.Resources.Caches
         name: Caches
         type: Namespace
         items:
-        - uid: Orama.Rendering.Resources.Caches.NamedBufferCache
+        - uid: Beryl.Rendering.Resources.Caches.NamedBufferCache
           name: NamedBufferCache
           type: Class
-        - uid: Orama.Rendering.Resources.Caches.PipelineCache
+        - uid: Beryl.Rendering.Resources.Caches.PipelineCache
           name: PipelineCache
           type: Class
-        - uid: Orama.Rendering.Resources.Caches.RenderItemCache
+        - uid: Beryl.Rendering.Resources.Caches.RenderItemCache
           name: RenderItemCache
           type: Class
-        - uid: Orama.Rendering.Resources.Caches.RenderItemKey
+        - uid: Beryl.Rendering.Resources.Caches.RenderItemKey
           name: RenderItemKey
           type: Struct
-        - uid: Orama.Rendering.Resources.Caches.ResourceCache`3
+        - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
           name: ResourceCache<TSingletonOwner, TKey, TResource>
           type: Class
-        - uid: Orama.Rendering.Resources.Caches.ResourceLayoutCache
+        - uid: Beryl.Rendering.Resources.Caches.ResourceLayoutCache
           name: ResourceLayoutCache
           type: Class
-        - uid: Orama.Rendering.Resources.Caches.ResourceSetCache
+        - uid: Beryl.Rendering.Resources.Caches.ResourceSetCache
           name: ResourceSetCache
           type: Class
-        - uid: Orama.Rendering.Resources.Caches.SamplerCache
+        - uid: Beryl.Rendering.Resources.Caches.SamplerCache
           name: SamplerCache
           type: Class
-        - uid: Orama.Rendering.Resources.Caches.TextureCache
+        - uid: Beryl.Rendering.Resources.Caches.TextureCache
           name: TextureCache
           type: Class
-        - uid: Orama.Rendering.Resources.Caches.TextureViewCache
+        - uid: Beryl.Rendering.Resources.Caches.TextureViewCache
           name: TextureViewCache
           type: Class
-      - uid: Orama.Rendering.Resources.FrameCountedResource`1
+      - uid: Beryl.Rendering.Resources.FrameCountedResource`1
         name: FrameCountedResource<T>
         type: Class
-      - uid: Orama.Rendering.Resources.IFrameCountedResource
+      - uid: Beryl.Rendering.Resources.IFrameCountedResource
         name: IFrameCountedResource
         type: Interface
-      - uid: Orama.Rendering.Resources.Material
+      - uid: Beryl.Rendering.Resources.Material
         name: Material
         type: Class
-      - uid: Orama.Rendering.Resources.Mesh
+      - uid: Beryl.Rendering.Resources.Mesh
         name: Mesh
         type: Class
-      - uid: Orama.Rendering.Resources.RenderItem
+      - uid: Beryl.Rendering.Resources.RenderItem
         name: RenderItem
         type: Class
-      - uid: Orama.Rendering.Resources.Shader
+      - uid: Beryl.Rendering.Resources.Shader
         name: Shader
         type: Class
-      - uid: Orama.Rendering.Resources.Texture
+      - uid: Beryl.Rendering.Resources.Texture
         name: Texture
         type: Class
-    - uid: Orama.Rendering.CommandBufferExtensions
+    - uid: Beryl.Rendering.CommandBufferExtensions
       name: CommandBufferExtensions
       type: Class
-    - uid: Orama.Rendering.CommandBufferPool
+    - uid: Beryl.Rendering.CommandBufferPool
       name: CommandBufferPool
       type: Class
-    - uid: Orama.Rendering.GPUBuffer
+    - uid: Beryl.Rendering.GPUBuffer
       name: GPUBuffer
       type: Class
-    - uid: Orama.Rendering.GPUBuffer.AlignmentFormat
+    - uid: Beryl.Rendering.GPUBuffer.AlignmentFormat
       name: GPUBuffer.AlignmentFormat
       type: Enum
-    - uid: Orama.Rendering.GPUBufferPool
+    - uid: Beryl.Rendering.GPUBufferPool
       name: GPUBufferPool
       type: Class
-    - uid: Orama.Rendering.IClientRenderable
+    - uid: Beryl.Rendering.IClientRenderable
       name: IClientRenderable
       type: Interface
-    - uid: Orama.Rendering.IShaderDefaultsProvider
+    - uid: Beryl.Rendering.IShaderDefaultsProvider
       name: IShaderDefaultsProvider
       type: Interface
-    - uid: Orama.Rendering.RenderFrame
+    - uid: Beryl.Rendering.RenderFrame
       name: RenderFrame
       type: Struct
-    - uid: Orama.Rendering.Renderer
+    - uid: Beryl.Rendering.Renderer
       name: Renderer
       type: Class
-    - uid: Orama.Rendering.RendererOptions
+    - uid: Beryl.Rendering.RendererOptions
       name: RendererOptions
       type: Struct
-    - uid: Orama.Rendering.RenderingModule
+    - uid: Beryl.Rendering.RenderingModule
       name: RenderingModule
       type: Class
-    - uid: Orama.Rendering.ShaderBaker
+    - uid: Beryl.Rendering.ShaderBaker
       name: ShaderBaker
       type: Class
-    - uid: Orama.Rendering.ShaderDefaultsProvider
+    - uid: Beryl.Rendering.ShaderDefaultsProvider
       name: ShaderDefaultsProvider
       type: Class
-    - uid: Orama.Rendering.SlangCompilationResult
+    - uid: Beryl.Rendering.SlangCompilationResult
       name: SlangCompilationResult
       type: Struct
-  - uid: Orama.Scenes
+  - uid: Beryl.Scenes
     name: Scenes
     type: Namespace
     items:
-    - uid: Orama.Scenes.Components
+    - uid: Beryl.Scenes.Components
       name: Components
       type: Namespace
       items:
-      - uid: Orama.Scenes.Components.Component
+      - uid: Beryl.Scenes.Components.Component
         name: Component
         type: Class
-      - uid: Orama.Scenes.Components.Transform
+      - uid: Beryl.Scenes.Components.Transform
         name: Transform
         type: Class
-    - uid: Orama.Scenes.Entities
+    - uid: Beryl.Scenes.Entities
       name: Entities
       type: Namespace
       items:
-      - uid: Orama.Scenes.Entities.Entity
+      - uid: Beryl.Scenes.Entities.Entity
         name: Entity
         type: Class
-      - uid: Orama.Scenes.Entities.EntityAttribute
+      - uid: Beryl.Scenes.Entities.EntityAttribute
         name: EntityAttribute
         type: Class
-      - uid: Orama.Scenes.Entities.EntityRegistry
+      - uid: Beryl.Scenes.Entities.EntityRegistry
         name: EntityRegistry
         type: Class
-      - uid: Orama.Scenes.Entities.ImplicitComponentAttribute
+      - uid: Beryl.Scenes.Entities.ImplicitComponentAttribute
         name: ImplicitComponentAttribute
         type: Class
-    - uid: Orama.Scenes.Resources
+    - uid: Beryl.Scenes.Resources
       name: Resources
       type: Namespace
       items:
-      - uid: Orama.Scenes.Resources.Scene
+      - uid: Beryl.Scenes.Resources.Scene
         name: Scene
         type: Class
-    - uid: Orama.Scenes.SceneModule
+    - uid: Beryl.Scenes.SceneModule
       name: SceneModule
       type: Class
-  - uid: Orama.Serialization
+  - uid: Beryl.Serialization
     name: Serialization
     type: Namespace
     items:
-    - uid: Orama.Serialization.Attributes
+    - uid: Beryl.Serialization.Attributes
       name: Attributes
       type: Namespace
       items:
-      - uid: Orama.Serialization.Attributes.AlwaysSerializeAttribute
+      - uid: Beryl.Serialization.Attributes.AlwaysSerializeAttribute
         name: AlwaysSerializeAttribute
         type: Class
-      - uid: Orama.Serialization.Attributes.DontSerializeAttribute
+      - uid: Beryl.Serialization.Attributes.DontSerializeAttribute
         name: DontSerializeAttribute
         type: Class
-    - uid: Orama.Serialization.Conversion
+    - uid: Beryl.Serialization.Conversion
       name: Conversion
       type: Namespace
       items:
-      - uid: Orama.Serialization.Conversion.StringConverterAttribute
+      - uid: Beryl.Serialization.Conversion.StringConverterAttribute
         name: StringConverterAttribute
         type: Class
-    - uid: Orama.Serialization.Serialization
+    - uid: Beryl.Serialization.Serialization
       name: Serialization
       type: Class
-    - uid: Orama.Serialization.SerializationType
+    - uid: Beryl.Serialization.SerializationType
       name: SerializationType
       type: Enum
-  - uid: Orama.VirtualReality
+  - uid: Beryl.VirtualReality
     name: VirtualReality
     type: Namespace
     items:
-    - uid: Orama.VirtualReality.InputModuleExtensions
+    - uid: Beryl.VirtualReality.InputModuleExtensions
       name: InputModuleExtensions
       type: Class
-    - uid: Orama.VirtualReality.VirtualRealityController
+    - uid: Beryl.VirtualReality.VirtualRealityController
       name: VirtualRealityController
       type: Class
-    - uid: Orama.VirtualReality.VirtualRealityController.Button
+    - uid: Beryl.VirtualReality.VirtualRealityController.Button
       name: VirtualRealityController.Button
       type: Enum
-    - uid: Orama.VirtualReality.VirtualRealityController.HandType
+    - uid: Beryl.VirtualReality.VirtualRealityController.HandType
       name: VirtualRealityController.HandType
       type: Enum
-    - uid: Orama.VirtualReality.VirtualRealityDevice
+    - uid: Beryl.VirtualReality.VirtualRealityDevice
       name: VirtualRealityDevice
       type: Class
-    - uid: Orama.VirtualReality.VirtualRealityModule
+    - uid: Beryl.VirtualReality.VirtualRealityModule
       name: VirtualRealityModule
       type: Class
 memberLayout: SamePage

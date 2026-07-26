@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.DeviceFeatures
+  commentId: T:Beryl.RHI.DeviceFeatures
+  id: DeviceFeatures
+  parent: Beryl.RHI
+  children:
+  - Beryl.RHI.DeviceFeatures.ClipSpaceYInverted
+  - Beryl.RHI.DeviceFeatures.None
+  langs:
+  - csharp
+  - vb
+  name: DeviceFeatures
+  nameWithType: DeviceFeatures
+  fullName: Beryl.RHI.DeviceFeatures
+  type: Enum
+  source:
+    id: DeviceFeatures
+    path: E:\Beryl\Documentation\src\Beryl.RHI\DeviceFeatures.cs
+    startLine: 8
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Flags that define different features supported by a <xref href="Beryl.RHI.IGraphicsDevice" data-throw-if-not-resolved="false"></xref> backend.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum DeviceFeatures : ushort
+    content.vb: >-
+      <Flags>
+
+      Public Enum DeviceFeatures As UShort
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Beryl.RHI.DeviceFeatures.None
+  commentId: F:Beryl.RHI.DeviceFeatures.None
+  id: None
+  parent: Beryl.RHI.DeviceFeatures
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DeviceFeatures.None
+  fullName: Beryl.RHI.DeviceFeatures.None
+  type: Field
+  source:
+    id: None
+    path: E:\Beryl\Documentation\src\Beryl.RHI\DeviceFeatures.cs
+    startLine: 11
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  syntax:
+    content: None = 0
+    return:
+      type: Beryl.RHI.DeviceFeatures
+- uid: Beryl.RHI.DeviceFeatures.ClipSpaceYInverted
+  commentId: F:Beryl.RHI.DeviceFeatures.ClipSpaceYInverted
+  id: ClipSpaceYInverted
+  parent: Beryl.RHI.DeviceFeatures
+  langs:
+  - csharp
+  - vb
+  name: ClipSpaceYInverted
+  nameWithType: DeviceFeatures.ClipSpaceYInverted
+  fullName: Beryl.RHI.DeviceFeatures.ClipSpaceYInverted
+  type: Field
+  source:
+    id: ClipSpaceYInverted
+    path: E:\Beryl\Documentation\src\Beryl.RHI\DeviceFeatures.cs
+    startLine: 13
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  syntax:
+    content: ClipSpaceYInverted = 1
+    return:
+      type: Beryl.RHI.DeviceFeatures
+references:
+- uid: Beryl.RHI.IGraphicsDevice
+  commentId: T:Beryl.RHI.IGraphicsDevice
+  parent: Beryl.RHI
+  href: Beryl.RHI.IGraphicsDevice.html
+  name: IGraphicsDevice
+  nameWithType: IGraphicsDevice
+  fullName: Beryl.RHI.IGraphicsDevice
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+- uid: Beryl.RHI.DeviceFeatures
+  commentId: T:Beryl.RHI.DeviceFeatures
+  parent: Beryl.RHI
+  href: Beryl.RHI.DeviceFeatures.html
+  name: DeviceFeatures
+  nameWithType: DeviceFeatures
+  fullName: Beryl.RHI.DeviceFeatures

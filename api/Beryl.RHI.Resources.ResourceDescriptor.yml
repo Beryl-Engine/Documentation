@@ -1,0 +1,540 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.Resources.ResourceDescriptor
+  commentId: T:Beryl.RHI.Resources.ResourceDescriptor
+  id: ResourceDescriptor
+  parent: Beryl.RHI.Resources
+  children:
+  - Beryl.RHI.Resources.ResourceDescriptor.#ctor(Beryl.RHI.Resources.IResourceLayout,System.ReadOnlySpan{Beryl.RHI.Resources.IBindableResource})
+  - Beryl.RHI.Resources.ResourceDescriptor.BoundResources
+  - Beryl.RHI.Resources.ResourceDescriptor.GetHashCode
+  - Beryl.RHI.Resources.ResourceDescriptor.Layout
+  langs:
+  - csharp
+  - vb
+  name: ResourceDescriptor
+  nameWithType: ResourceDescriptor
+  fullName: Beryl.RHI.Resources.ResourceDescriptor
+  type: Struct
+  source:
+    id: ResourceDescriptor
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceDescriptors.cs
+    startLine: 147
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: 'public readonly ref struct ResourceDescriptor : IAlwaysHashable'
+    content.vb: Public Structure ResourceDescriptor Implements IAlwaysHashable
+  implements:
+  - Beryl.Common.Standard.IAlwaysHashable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Beryl.RHI.Resources.ResourceDescriptor.#ctor(Beryl.RHI.Resources.IResourceLayout,System.ReadOnlySpan{Beryl.RHI.Resources.IBindableResource})
+  commentId: M:Beryl.RHI.Resources.ResourceDescriptor.#ctor(Beryl.RHI.Resources.IResourceLayout,System.ReadOnlySpan{Beryl.RHI.Resources.IBindableResource})
+  id: '#ctor(Beryl.RHI.Resources.IResourceLayout,System.ReadOnlySpan{Beryl.RHI.Resources.IBindableResource})'
+  parent: Beryl.RHI.Resources.ResourceDescriptor
+  langs:
+  - csharp
+  - vb
+  name: ResourceDescriptor(IResourceLayout, ReadOnlySpan<IBindableResource>)
+  nameWithType: ResourceDescriptor.ResourceDescriptor(IResourceLayout, ReadOnlySpan<IBindableResource>)
+  fullName: Beryl.RHI.Resources.ResourceDescriptor.ResourceDescriptor(Beryl.RHI.Resources.IResourceLayout, System.ReadOnlySpan<Beryl.RHI.Resources.IBindableResource>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceDescriptors.cs
+    startLine: 147
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public ResourceDescriptor(IResourceLayout layout, ReadOnlySpan<IBindableResource> boundResources)
+    parameters:
+    - id: layout
+      type: Beryl.RHI.Resources.IResourceLayout
+    - id: boundResources
+      type: System.ReadOnlySpan{Beryl.RHI.Resources.IBindableResource}
+    content.vb: Public Sub New(layout As IResourceLayout, boundResources As ReadOnlySpan(Of IBindableResource))
+  overload: Beryl.RHI.Resources.ResourceDescriptor.#ctor*
+  nameWithType.vb: ResourceDescriptor.New(IResourceLayout, ReadOnlySpan(Of IBindableResource))
+  fullName.vb: Beryl.RHI.Resources.ResourceDescriptor.New(Beryl.RHI.Resources.IResourceLayout, System.ReadOnlySpan(Of Beryl.RHI.Resources.IBindableResource))
+  name.vb: New(IResourceLayout, ReadOnlySpan(Of IBindableResource))
+- uid: Beryl.RHI.Resources.ResourceDescriptor.Layout
+  commentId: F:Beryl.RHI.Resources.ResourceDescriptor.Layout
+  id: Layout
+  parent: Beryl.RHI.Resources.ResourceDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Layout
+  nameWithType: ResourceDescriptor.Layout
+  fullName: Beryl.RHI.Resources.ResourceDescriptor.Layout
+  type: Field
+  source:
+    id: Layout
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceDescriptors.cs
+    startLine: 149
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public readonly IResourceLayout Layout
+    return:
+      type: Beryl.RHI.Resources.IResourceLayout
+    content.vb: Public ReadOnly Layout As IResourceLayout
+- uid: Beryl.RHI.Resources.ResourceDescriptor.BoundResources
+  commentId: F:Beryl.RHI.Resources.ResourceDescriptor.BoundResources
+  id: BoundResources
+  parent: Beryl.RHI.Resources.ResourceDescriptor
+  langs:
+  - csharp
+  - vb
+  name: BoundResources
+  nameWithType: ResourceDescriptor.BoundResources
+  fullName: Beryl.RHI.Resources.ResourceDescriptor.BoundResources
+  type: Field
+  source:
+    id: BoundResources
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceDescriptors.cs
+    startLine: 150
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public readonly ReadOnlySpan<IBindableResource> BoundResources
+    return:
+      type: System.ReadOnlySpan{Beryl.RHI.Resources.IBindableResource}
+    content.vb: Public ReadOnly BoundResources As ReadOnlySpan(Of IBindableResource)
+- uid: Beryl.RHI.Resources.ResourceDescriptor.GetHashCode
+  commentId: M:Beryl.RHI.Resources.ResourceDescriptor.GetHashCode
+  id: GetHashCode
+  parent: Beryl.RHI.Resources.ResourceDescriptor
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ResourceDescriptor.GetHashCode()
+  fullName: Beryl.RHI.Resources.ResourceDescriptor.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceDescriptors.cs
+    startLine: 153
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Beryl.RHI.Resources.ResourceDescriptor.GetHashCode*
+  implements:
+  - Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.Common.Standard.IAlwaysHashable
+  commentId: T:Beryl.Common.Standard.IAlwaysHashable
+  parent: Beryl.Common.Standard
+  href: Beryl.Common.Standard.IAlwaysHashable.html
+  name: IAlwaysHashable
+  nameWithType: IAlwaysHashable
+  fullName: Beryl.Common.Standard.IAlwaysHashable
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Beryl.Common.Standard
+  commentId: N:Beryl.Common.Standard
+  href: Beryl.html
+  name: Beryl.Common.Standard
+  nameWithType: Beryl.Common.Standard
+  fullName: Beryl.Common.Standard
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Standard
+    name: Standard
+    href: Beryl.Common.Standard.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Standard
+    name: Standard
+    href: Beryl.Common.Standard.html
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.RHI.Resources.ResourceDescriptor.#ctor*
+  commentId: Overload:Beryl.RHI.Resources.ResourceDescriptor.#ctor
+  href: Beryl.RHI.Resources.ResourceDescriptor.html#Beryl_RHI_Resources_ResourceDescriptor__ctor_Beryl_RHI_Resources_IResourceLayout_System_ReadOnlySpan_Beryl_RHI_Resources_IBindableResource__
+  name: ResourceDescriptor
+  nameWithType: ResourceDescriptor.ResourceDescriptor
+  fullName: Beryl.RHI.Resources.ResourceDescriptor.ResourceDescriptor
+  nameWithType.vb: ResourceDescriptor.New
+  fullName.vb: Beryl.RHI.Resources.ResourceDescriptor.New
+  name.vb: New
+- uid: Beryl.RHI.Resources.IResourceLayout
+  commentId: T:Beryl.RHI.Resources.IResourceLayout
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IResourceLayout.html
+  name: IResourceLayout
+  nameWithType: IResourceLayout
+  fullName: Beryl.RHI.Resources.IResourceLayout
+- uid: System.ReadOnlySpan{Beryl.RHI.Resources.IBindableResource}
+  commentId: T:System.ReadOnlySpan{Beryl.RHI.Resources.IBindableResource}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<IBindableResource>
+  nameWithType: ReadOnlySpan<IBindableResource>
+  fullName: System.ReadOnlySpan<Beryl.RHI.Resources.IBindableResource>
+  nameWithType.vb: ReadOnlySpan(Of IBindableResource)
+  fullName.vb: System.ReadOnlySpan(Of Beryl.RHI.Resources.IBindableResource)
+  name.vb: ReadOnlySpan(Of IBindableResource)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: Beryl.RHI.Resources.IBindableResource
+    name: IBindableResource
+    href: Beryl.RHI.Resources.IBindableResource.html
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.RHI.Resources.IBindableResource
+    name: IBindableResource
+    href: Beryl.RHI.Resources.IBindableResource.html
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Beryl.RHI.Resources.ResourceDescriptor.GetHashCode*
+  commentId: Overload:Beryl.RHI.Resources.ResourceDescriptor.GetHashCode
+  href: Beryl.RHI.Resources.ResourceDescriptor.html#Beryl_RHI_Resources_ResourceDescriptor_GetHashCode
+  name: GetHashCode
+  nameWithType: ResourceDescriptor.GetHashCode
+  fullName: Beryl.RHI.Resources.ResourceDescriptor.GetHashCode
+- uid: Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+  commentId: M:Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+  parent: Beryl.Common.Standard.IAlwaysHashable
+  href: Beryl.Common.Standard.IAlwaysHashable.html#Beryl_Common_Standard_IAlwaysHashable_GetHashCode
+  name: GetHashCode()
+  nameWithType: IAlwaysHashable.GetHashCode()
+  fullName: Beryl.Common.Standard.IAlwaysHashable.GetHashCode()
+  spec.csharp:
+  - uid: Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Beryl.Common.Standard.IAlwaysHashable.html#Beryl_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Beryl.Common.Standard.IAlwaysHashable.html#Beryl_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

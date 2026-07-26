@@ -1,0 +1,405 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.IShaderDefaultsProvider
+  commentId: T:Beryl.Rendering.IShaderDefaultsProvider
+  id: IShaderDefaultsProvider
+  parent: Beryl.Rendering
+  children:
+  - Beryl.Rendering.IShaderDefaultsProvider.GetCameraBuffer(Beryl.Rendering.Components.Camera)
+  - Beryl.Rendering.IShaderDefaultsProvider.GetMaterialBuffer(Beryl.Rendering.Resources.Material)
+  - Beryl.Rendering.IShaderDefaultsProvider.GetObjectBuffer(Beryl.Math.Matrix4x4)
+  langs:
+  - csharp
+  - vb
+  name: IShaderDefaultsProvider
+  nameWithType: IShaderDefaultsProvider
+  fullName: Beryl.Rendering.IShaderDefaultsProvider
+  type: Interface
+  source:
+    id: IShaderDefaultsProvider
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\IShaderDefaultsProvider.cs
+    startLine: 13
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: Interface for providing values for default <xref href="Beryl.Rendering.Resources.Shader" data-throw-if-not-resolved="false"></xref> parameter blocks.
+  example: []
+  syntax:
+    content: public interface IShaderDefaultsProvider
+    content.vb: Public Interface IShaderDefaultsProvider
+  derivedClasses:
+  - Beryl.Rendering.ShaderDefaultsProvider
+- uid: Beryl.Rendering.IShaderDefaultsProvider.GetCameraBuffer(Beryl.Rendering.Components.Camera)
+  commentId: M:Beryl.Rendering.IShaderDefaultsProvider.GetCameraBuffer(Beryl.Rendering.Components.Camera)
+  id: GetCameraBuffer(Beryl.Rendering.Components.Camera)
+  parent: Beryl.Rendering.IShaderDefaultsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetCameraBuffer(Camera)
+  nameWithType: IShaderDefaultsProvider.GetCameraBuffer(Camera)
+  fullName: Beryl.Rendering.IShaderDefaultsProvider.GetCameraBuffer(Beryl.Rendering.Components.Camera)
+  type: Method
+  source:
+    id: GetCameraBuffer
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\IShaderDefaultsProvider.cs
+    startLine: 16
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with data from <code class="paramref">camera</code> formatted for uploading via <xref href="Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer%2cSystem.UInt32%2cSystem.ReadOnlySpan%7bSystem.Byte%7d)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: ReadOnlySpan<byte> GetCameraBuffer(Camera camera)
+    parameters:
+    - id: camera
+      type: Beryl.Rendering.Components.Camera
+    return:
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Function GetCameraBuffer(camera As Camera) As ReadOnlySpan(Of Byte)
+  overload: Beryl.Rendering.IShaderDefaultsProvider.GetCameraBuffer*
+- uid: Beryl.Rendering.IShaderDefaultsProvider.GetObjectBuffer(Beryl.Math.Matrix4x4)
+  commentId: M:Beryl.Rendering.IShaderDefaultsProvider.GetObjectBuffer(Beryl.Math.Matrix4x4)
+  id: GetObjectBuffer(Beryl.Math.Matrix4x4)
+  parent: Beryl.Rendering.IShaderDefaultsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetObjectBuffer(Matrix4x4)
+  nameWithType: IShaderDefaultsProvider.GetObjectBuffer(Matrix4x4)
+  fullName: Beryl.Rendering.IShaderDefaultsProvider.GetObjectBuffer(Beryl.Math.Matrix4x4)
+  type: Method
+  source:
+    id: GetObjectBuffer
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\IShaderDefaultsProvider.cs
+    startLine: 19
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with data from <code class="paramref">transform</code> formatted for uploading via <xref href="Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer%2cSystem.UInt32%2cSystem.ReadOnlySpan%7bSystem.Byte%7d)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: ReadOnlySpan<byte> GetObjectBuffer(Matrix4x4 transform)
+    parameters:
+    - id: transform
+      type: Beryl.Math.Matrix4x4
+    return:
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Function GetObjectBuffer(transform As Matrix4x4) As ReadOnlySpan(Of Byte)
+  overload: Beryl.Rendering.IShaderDefaultsProvider.GetObjectBuffer*
+- uid: Beryl.Rendering.IShaderDefaultsProvider.GetMaterialBuffer(Beryl.Rendering.Resources.Material)
+  commentId: M:Beryl.Rendering.IShaderDefaultsProvider.GetMaterialBuffer(Beryl.Rendering.Resources.Material)
+  id: GetMaterialBuffer(Beryl.Rendering.Resources.Material)
+  parent: Beryl.Rendering.IShaderDefaultsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialBuffer(Material)
+  nameWithType: IShaderDefaultsProvider.GetMaterialBuffer(Material)
+  fullName: Beryl.Rendering.IShaderDefaultsProvider.GetMaterialBuffer(Beryl.Rendering.Resources.Material)
+  type: Method
+  source:
+    id: GetMaterialBuffer
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\IShaderDefaultsProvider.cs
+    startLine: 22
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: Gets a <xref href="System.ReadOnlySpan%601" data-throw-if-not-resolved="false"></xref> with <code class="paramref">material</code> parameter data formatted for uploading via <xref href="Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer%2cSystem.UInt32%2cSystem.ReadOnlySpan%7bSystem.Byte%7d)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: ReadOnlySpan<byte> GetMaterialBuffer(Material material)
+    parameters:
+    - id: material
+      type: Beryl.Rendering.Resources.Material
+    return:
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Function GetMaterialBuffer(material As Material) As ReadOnlySpan(Of Byte)
+  overload: Beryl.Rendering.IShaderDefaultsProvider.GetMaterialBuffer*
+references:
+- uid: Beryl.Rendering.Resources.Shader
+  commentId: T:Beryl.Rendering.Resources.Shader
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.Shader.html
+  name: Shader
+  nameWithType: Shader
+  fullName: Beryl.Rendering.Resources.Shader
+- uid: Beryl.Rendering
+  commentId: N:Beryl.Rendering
+  href: Beryl.html
+  name: Beryl.Rendering
+  nameWithType: Beryl.Rendering
+  fullName: Beryl.Rendering
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+- uid: Beryl.Rendering.Resources
+  commentId: N:Beryl.Rendering.Resources
+  href: Beryl.html
+  name: Beryl.Rendering.Resources
+  nameWithType: Beryl.Rendering.Resources
+  fullName: Beryl.Rendering.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+  commentId: M:Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+  isExternal: true
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_UpdateBuffer_Beryl_RHI_Resources_IBuffer_System_UInt32_System_ReadOnlySpan_System_Byte__
+  name: UpdateBuffer(IBuffer, uint, ReadOnlySpan<byte>)
+  nameWithType: ICommandBuffer.UpdateBuffer(IBuffer, uint, ReadOnlySpan<byte>)
+  fullName: Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer, uint, System.ReadOnlySpan<byte>)
+  nameWithType.vb: ICommandBuffer.UpdateBuffer(IBuffer, UInteger, ReadOnlySpan(Of Byte))
+  fullName.vb: Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer, UInteger, System.ReadOnlySpan(Of Byte))
+  name.vb: UpdateBuffer(IBuffer, UInteger, ReadOnlySpan(Of Byte))
+  spec.csharp:
+  - uid: Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+    name: UpdateBuffer
+    href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_UpdateBuffer_Beryl_RHI_Resources_IBuffer_System_UInt32_System_ReadOnlySpan_System_Byte__
+  - name: (
+  - uid: Beryl.RHI.Resources.IBuffer
+    name: IBuffer
+    href: Beryl.RHI.Resources.IBuffer.html
+  - name: ','
+  - name: " "
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: ','
+  - name: " "
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+    name: UpdateBuffer
+    href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_UpdateBuffer_Beryl_RHI_Resources_IBuffer_System_UInt32_System_ReadOnlySpan_System_Byte__
+  - name: (
+  - uid: Beryl.RHI.Resources.IBuffer
+    name: IBuffer
+    href: Beryl.RHI.Resources.IBuffer.html
+  - name: ','
+  - name: " "
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: ','
+  - name: " "
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+  - name: )
+- uid: Beryl.Rendering.IShaderDefaultsProvider.GetCameraBuffer*
+  commentId: Overload:Beryl.Rendering.IShaderDefaultsProvider.GetCameraBuffer
+  href: Beryl.Rendering.IShaderDefaultsProvider.html#Beryl_Rendering_IShaderDefaultsProvider_GetCameraBuffer_Beryl_Rendering_Components_Camera_
+  name: GetCameraBuffer
+  nameWithType: IShaderDefaultsProvider.GetCameraBuffer
+  fullName: Beryl.Rendering.IShaderDefaultsProvider.GetCameraBuffer
+- uid: Beryl.Rendering.Components.Camera
+  commentId: T:Beryl.Rendering.Components.Camera
+  parent: Beryl.Rendering.Components
+  href: Beryl.Rendering.Components.Camera.html
+  name: Camera
+  nameWithType: Camera
+  fullName: Beryl.Rendering.Components.Camera
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: Beryl.Rendering.Components
+  commentId: N:Beryl.Rendering.Components
+  href: Beryl.html
+  name: Beryl.Rendering.Components
+  nameWithType: Beryl.Rendering.Components
+  fullName: Beryl.Rendering.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Components
+    name: Components
+    href: Beryl.Rendering.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Components
+    name: Components
+    href: Beryl.Rendering.Components.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Rendering.IShaderDefaultsProvider.GetObjectBuffer*
+  commentId: Overload:Beryl.Rendering.IShaderDefaultsProvider.GetObjectBuffer
+  href: Beryl.Rendering.IShaderDefaultsProvider.html#Beryl_Rendering_IShaderDefaultsProvider_GetObjectBuffer_Beryl_Math_Matrix4x4_
+  name: GetObjectBuffer
+  nameWithType: IShaderDefaultsProvider.GetObjectBuffer
+  fullName: Beryl.Rendering.IShaderDefaultsProvider.GetObjectBuffer
+- uid: Beryl.Math.Matrix4x4
+  commentId: T:Beryl.Math.Matrix4x4
+  parent: Beryl.Math
+  href: Beryl.Math.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Beryl.Math.Matrix4x4
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: Beryl.Rendering.IShaderDefaultsProvider.GetMaterialBuffer*
+  commentId: Overload:Beryl.Rendering.IShaderDefaultsProvider.GetMaterialBuffer
+  href: Beryl.Rendering.IShaderDefaultsProvider.html#Beryl_Rendering_IShaderDefaultsProvider_GetMaterialBuffer_Beryl_Rendering_Resources_Material_
+  name: GetMaterialBuffer
+  nameWithType: IShaderDefaultsProvider.GetMaterialBuffer
+  fullName: Beryl.Rendering.IShaderDefaultsProvider.GetMaterialBuffer
+- uid: Beryl.Rendering.Resources.Material
+  commentId: T:Beryl.Rendering.Resources.Material
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.Material.html
+  name: Material
+  nameWithType: Material
+  fullName: Beryl.Rendering.Resources.Material

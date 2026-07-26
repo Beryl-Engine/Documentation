@@ -1,0 +1,645 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Resources.Caches.NamedBufferCache
+  commentId: T:Beryl.Rendering.Resources.Caches.NamedBufferCache
+  id: NamedBufferCache
+  parent: Beryl.Rendering.Resources.Caches
+  children:
+  - Beryl.Rendering.Resources.Caches.NamedBufferCache.Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+  langs:
+  - csharp
+  - vb
+  name: NamedBufferCache
+  nameWithType: NamedBufferCache
+  fullName: Beryl.Rendering.Resources.Caches.NamedBufferCache
+  type: Class
+  source:
+    id: NamedBufferCache
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\NamedBufferCache.cs
+    startLine: 8
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  syntax:
+    content: 'public sealed class NamedBufferCache : ResourceCache<NamedBufferCache, NamedBufferDescriptor, IBuffer>'
+    content.vb: Public NotInheritable Class NamedBufferCache Inherits ResourceCache(Of NamedBufferCache, NamedBufferDescriptor, IBuffer)
+  inheritance:
+  - System.Object
+  - Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}
+  inheritedMembers:
+  - Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Instance
+  - Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Cache
+  - Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.GetOrCreate(Beryl.RHI.Resources.NamedBufferDescriptor)
+  - Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Get(Beryl.RHI.Resources.NamedBufferDescriptor)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Rendering.Resources.Caches.NamedBufferCache.Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+  commentId: M:Beryl.Rendering.Resources.Caches.NamedBufferCache.Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+  id: Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+  parent: Beryl.Rendering.Resources.Caches.NamedBufferCache
+  langs:
+  - csharp
+  - vb
+  name: Create(NamedBufferDescriptor)
+  nameWithType: NamedBufferCache.Create(NamedBufferDescriptor)
+  fullName: Beryl.Rendering.Resources.Caches.NamedBufferCache.Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+  type: Method
+  source:
+    id: Create
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\NamedBufferCache.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  summary: Creates a new <xref href="Beryl.RHI.Resources.IBuffer" data-throw-if-not-resolved="false"></xref> for the given key.
+  example: []
+  syntax:
+    content: protected override IBuffer Create(NamedBufferDescriptor key)
+    parameters:
+    - id: key
+      type: Beryl.RHI.Resources.NamedBufferDescriptor
+    return:
+      type: Beryl.RHI.Resources.IBuffer
+    content.vb: Protected Overrides Function Create(key As NamedBufferDescriptor) As IBuffer
+  overridden: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+  overload: Beryl.Rendering.Resources.Caches.NamedBufferCache.Create*
+references:
+- uid: Beryl.Rendering.Resources.Caches
+  commentId: N:Beryl.Rendering.Resources.Caches
+  href: Beryl.html
+  name: Beryl.Rendering.Resources.Caches
+  nameWithType: Beryl.Rendering.Resources.Caches
+  fullName: Beryl.Rendering.Resources.Caches
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  - name: .
+  - uid: Beryl.Rendering.Resources.Caches
+    name: Caches
+    href: Beryl.Rendering.Resources.Caches.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  - name: .
+  - uid: Beryl.Rendering.Resources.Caches
+    name: Caches
+    href: Beryl.Rendering.Resources.Caches.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}
+  commentId: T:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}
+  parent: Beryl.Rendering.Resources.Caches
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  name: ResourceCache<NamedBufferCache, NamedBufferDescriptor, IBuffer>
+  nameWithType: ResourceCache<NamedBufferCache, NamedBufferDescriptor, IBuffer>
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer>
+  nameWithType.vb: ResourceCache(Of NamedBufferCache, NamedBufferDescriptor, IBuffer)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer)
+  name.vb: ResourceCache(Of NamedBufferCache, NamedBufferDescriptor, IBuffer)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: <
+  - uid: Beryl.Rendering.Resources.Caches.NamedBufferCache
+    name: NamedBufferCache
+    href: Beryl.Rendering.Resources.Caches.NamedBufferCache.html
+  - name: ','
+  - name: " "
+  - uid: Beryl.RHI.Resources.NamedBufferDescriptor
+    name: NamedBufferDescriptor
+    href: Beryl.RHI.Resources.NamedBufferDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: Beryl.RHI.Resources.IBuffer
+    name: IBuffer
+    href: Beryl.RHI.Resources.IBuffer.html
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Rendering.Resources.Caches.NamedBufferCache
+    name: NamedBufferCache
+    href: Beryl.Rendering.Resources.Caches.NamedBufferCache.html
+  - name: ','
+  - name: " "
+  - uid: Beryl.RHI.Resources.NamedBufferDescriptor
+    name: NamedBufferDescriptor
+    href: Beryl.RHI.Resources.NamedBufferDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: Beryl.RHI.Resources.IBuffer
+    name: IBuffer
+    href: Beryl.RHI.Resources.IBuffer.html
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Instance
+  commentId: P:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Instance
+  parent: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3.Instance
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Instance
+  name: Instance
+  nameWithType: ResourceCache<NamedBufferCache, NamedBufferDescriptor, IBuffer>.Instance
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer>.Instance
+  nameWithType.vb: ResourceCache(Of NamedBufferCache, NamedBufferDescriptor, IBuffer).Instance
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer).Instance
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Cache
+  commentId: P:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Cache
+  parent: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3.Cache
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Cache
+  name: Cache
+  nameWithType: ResourceCache<NamedBufferCache, NamedBufferDescriptor, IBuffer>.Cache
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer>.Cache
+  nameWithType.vb: ResourceCache(Of NamedBufferCache, NamedBufferDescriptor, IBuffer).Cache
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer).Cache
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.GetOrCreate(Beryl.RHI.Resources.NamedBufferDescriptor)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.GetOrCreate(Beryl.RHI.Resources.NamedBufferDescriptor)
+  parent: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  name: GetOrCreate(NamedBufferDescriptor)
+  nameWithType: ResourceCache<NamedBufferCache, NamedBufferDescriptor, IBuffer>.GetOrCreate(NamedBufferDescriptor)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer>.GetOrCreate(Beryl.RHI.Resources.NamedBufferDescriptor)
+  nameWithType.vb: ResourceCache(Of NamedBufferCache, NamedBufferDescriptor, IBuffer).GetOrCreate(NamedBufferDescriptor)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer).GetOrCreate(Beryl.RHI.Resources.NamedBufferDescriptor)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.GetOrCreate(Beryl.RHI.Resources.NamedBufferDescriptor)
+    name: GetOrCreate
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.NamedBufferDescriptor
+    name: NamedBufferDescriptor
+    href: Beryl.RHI.Resources.NamedBufferDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.GetOrCreate(Beryl.RHI.Resources.NamedBufferDescriptor)
+    name: GetOrCreate
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.NamedBufferDescriptor
+    name: NamedBufferDescriptor
+    href: Beryl.RHI.Resources.NamedBufferDescriptor.html
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Get(Beryl.RHI.Resources.NamedBufferDescriptor)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Get(Beryl.RHI.Resources.NamedBufferDescriptor)
+  parent: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(NamedBufferDescriptor)
+  nameWithType: ResourceCache<NamedBufferCache, NamedBufferDescriptor, IBuffer>.Get(NamedBufferDescriptor)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer>.Get(Beryl.RHI.Resources.NamedBufferDescriptor)
+  nameWithType.vb: ResourceCache(Of NamedBufferCache, NamedBufferDescriptor, IBuffer).Get(NamedBufferDescriptor)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer).Get(Beryl.RHI.Resources.NamedBufferDescriptor)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Get(Beryl.RHI.Resources.NamedBufferDescriptor)
+    name: Get
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.NamedBufferDescriptor
+    name: NamedBufferDescriptor
+    href: Beryl.RHI.Resources.NamedBufferDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Get(Beryl.RHI.Resources.NamedBufferDescriptor)
+    name: Get
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.NamedBufferDescriptor
+    name: NamedBufferDescriptor
+    href: Beryl.RHI.Resources.NamedBufferDescriptor.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+  commentId: T:Beryl.Rendering.Resources.Caches.ResourceCache`3
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  name: ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource)
+  name.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: <
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Instance
+  commentId: P:Beryl.Rendering.Resources.Caches.ResourceCache`3.Instance
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Instance
+  name: Instance
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Instance
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Instance
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Instance
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Instance
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Cache
+  commentId: P:Beryl.Rendering.Resources.Caches.ResourceCache`3.Cache
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Cache
+  name: Cache
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Cache
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Cache
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  name: GetOrCreate(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.GetOrCreate(TKey)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.GetOrCreate(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+    name: GetOrCreate
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+    name: GetOrCreate
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Beryl.RHI.Resources.IBuffer
+  commentId: T:Beryl.RHI.Resources.IBuffer
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IBuffer.html
+  name: IBuffer
+  nameWithType: IBuffer
+  fullName: Beryl.RHI.Resources.IBuffer
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+  parent: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  name: Create(NamedBufferDescriptor)
+  nameWithType: ResourceCache<NamedBufferCache, NamedBufferDescriptor, IBuffer>.Create(NamedBufferDescriptor)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer>.Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+  nameWithType.vb: ResourceCache(Of NamedBufferCache, NamedBufferDescriptor, IBuffer).Create(NamedBufferDescriptor)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.NamedBufferCache, Beryl.RHI.Resources.NamedBufferDescriptor, Beryl.RHI.Resources.IBuffer).Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+    name: Create
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.NamedBufferDescriptor
+    name: NamedBufferDescriptor
+    href: Beryl.RHI.Resources.NamedBufferDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.NamedBufferCache,Beryl.RHI.Resources.NamedBufferDescriptor,Beryl.RHI.Resources.IBuffer}.Create(Beryl.RHI.Resources.NamedBufferDescriptor)
+    name: Create
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.NamedBufferDescriptor
+    name: NamedBufferDescriptor
+    href: Beryl.RHI.Resources.NamedBufferDescriptor.html
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.NamedBufferCache.Create*
+  commentId: Overload:Beryl.Rendering.Resources.Caches.NamedBufferCache.Create
+  href: Beryl.Rendering.Resources.Caches.NamedBufferCache.html#Beryl_Rendering_Resources_Caches_NamedBufferCache_Create_Beryl_RHI_Resources_NamedBufferDescriptor_
+  name: Create
+  nameWithType: NamedBufferCache.Create
+  fullName: Beryl.Rendering.Resources.Caches.NamedBufferCache.Create
+- uid: Beryl.RHI.Resources.NamedBufferDescriptor
+  commentId: T:Beryl.RHI.Resources.NamedBufferDescriptor
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.NamedBufferDescriptor.html
+  name: NamedBufferDescriptor
+  nameWithType: NamedBufferDescriptor
+  fullName: Beryl.RHI.Resources.NamedBufferDescriptor
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  name: Create(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Create(TKey)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Create(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Create(TKey)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Create(TKey)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+    name: Create
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+    name: Create
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - name: TKey
+  - name: )

@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.Resources.ShaderParameter.ParamType
+  commentId: T:Beryl.RHI.Resources.ShaderParameter.ParamType
+  id: ShaderParameter.ParamType
+  parent: Beryl.RHI.Resources
+  children:
+  - Beryl.RHI.Resources.ShaderParameter.ParamType.Float
+  - Beryl.RHI.Resources.ShaderParameter.ParamType.Int
+  - Beryl.RHI.Resources.ShaderParameter.ParamType.Matrix
+  - Beryl.RHI.Resources.ShaderParameter.ParamType.SampledTexture2D
+  - Beryl.RHI.Resources.ShaderParameter.ParamType.Vector
+  langs:
+  - csharp
+  - vb
+  name: ShaderParameter.ParamType
+  nameWithType: ShaderParameter.ParamType
+  fullName: Beryl.RHI.Resources.ShaderParameter.ParamType
+  type: Enum
+  source:
+    id: ParamType
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ShaderReflection.cs
+    startLine: 13
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  summary: The type of the parameter.
+  example: []
+  syntax:
+    content: public enum ShaderParameter.ParamType
+    content.vb: Public Enum ShaderParameter.ParamType
+- uid: Beryl.RHI.Resources.ShaderParameter.ParamType.Int
+  commentId: F:Beryl.RHI.Resources.ShaderParameter.ParamType.Int
+  id: Int
+  parent: Beryl.RHI.Resources.ShaderParameter.ParamType
+  langs:
+  - csharp
+  - vb
+  name: Int
+  nameWithType: ShaderParameter.ParamType.Int
+  fullName: Beryl.RHI.Resources.ShaderParameter.ParamType.Int
+  type: Field
+  source:
+    id: Int
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ShaderReflection.cs
+    startLine: 15
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: Int = 0
+    return:
+      type: Beryl.RHI.Resources.ShaderParameter.ParamType
+- uid: Beryl.RHI.Resources.ShaderParameter.ParamType.Float
+  commentId: F:Beryl.RHI.Resources.ShaderParameter.ParamType.Float
+  id: Float
+  parent: Beryl.RHI.Resources.ShaderParameter.ParamType
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: ShaderParameter.ParamType.Float
+  fullName: Beryl.RHI.Resources.ShaderParameter.ParamType.Float
+  type: Field
+  source:
+    id: Float
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ShaderReflection.cs
+    startLine: 16
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: Float = 1
+    return:
+      type: Beryl.RHI.Resources.ShaderParameter.ParamType
+- uid: Beryl.RHI.Resources.ShaderParameter.ParamType.Matrix
+  commentId: F:Beryl.RHI.Resources.ShaderParameter.ParamType.Matrix
+  id: Matrix
+  parent: Beryl.RHI.Resources.ShaderParameter.ParamType
+  langs:
+  - csharp
+  - vb
+  name: Matrix
+  nameWithType: ShaderParameter.ParamType.Matrix
+  fullName: Beryl.RHI.Resources.ShaderParameter.ParamType.Matrix
+  type: Field
+  source:
+    id: Matrix
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ShaderReflection.cs
+    startLine: 17
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: Matrix = 2
+    return:
+      type: Beryl.RHI.Resources.ShaderParameter.ParamType
+- uid: Beryl.RHI.Resources.ShaderParameter.ParamType.Vector
+  commentId: F:Beryl.RHI.Resources.ShaderParameter.ParamType.Vector
+  id: Vector
+  parent: Beryl.RHI.Resources.ShaderParameter.ParamType
+  langs:
+  - csharp
+  - vb
+  name: Vector
+  nameWithType: ShaderParameter.ParamType.Vector
+  fullName: Beryl.RHI.Resources.ShaderParameter.ParamType.Vector
+  type: Field
+  source:
+    id: Vector
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ShaderReflection.cs
+    startLine: 18
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: Vector = 3
+    return:
+      type: Beryl.RHI.Resources.ShaderParameter.ParamType
+- uid: Beryl.RHI.Resources.ShaderParameter.ParamType.SampledTexture2D
+  commentId: F:Beryl.RHI.Resources.ShaderParameter.ParamType.SampledTexture2D
+  id: SampledTexture2D
+  parent: Beryl.RHI.Resources.ShaderParameter.ParamType
+  langs:
+  - csharp
+  - vb
+  name: SampledTexture2D
+  nameWithType: ShaderParameter.ParamType.SampledTexture2D
+  fullName: Beryl.RHI.Resources.ShaderParameter.ParamType.SampledTexture2D
+  type: Field
+  source:
+    id: SampledTexture2D
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ShaderReflection.cs
+    startLine: 19
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: SampledTexture2D = 4
+    return:
+      type: Beryl.RHI.Resources.ShaderParameter.ParamType
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.RHI.Resources.ShaderParameter.ParamType
+  commentId: T:Beryl.RHI.Resources.ShaderParameter.ParamType
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.ShaderParameter.html
+  name: ShaderParameter.ParamType
+  nameWithType: ShaderParameter.ParamType
+  fullName: Beryl.RHI.Resources.ShaderParameter.ParamType
+  spec.csharp:
+  - uid: Beryl.RHI.Resources.ShaderParameter
+    name: ShaderParameter
+    href: Beryl.RHI.Resources.ShaderParameter.html
+  - name: .
+  - uid: Beryl.RHI.Resources.ShaderParameter.ParamType
+    name: ParamType
+    href: Beryl.RHI.Resources.ShaderParameter.ParamType.html
+  spec.vb:
+  - uid: Beryl.RHI.Resources.ShaderParameter
+    name: ShaderParameter
+    href: Beryl.RHI.Resources.ShaderParameter.html
+  - name: .
+  - uid: Beryl.RHI.Resources.ShaderParameter.ParamType
+    name: ParamType
+    href: Beryl.RHI.Resources.ShaderParameter.ParamType.html

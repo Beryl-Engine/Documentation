@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Components
+  commentId: N:Beryl.Rendering.Components
+  id: Components
+  parent: Beryl.Rendering
+  children:
+  - Beryl.Rendering.Components.Camera
+  - Beryl.Rendering.Components.MeshRenderer
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Rendering.Components
+  nameWithType: Beryl.Rendering.Components
+  fullName: Beryl.Rendering.Components
+  type: Namespace
+  assemblies:
+  - Beryl.Rendering
+references:
+- uid: Beryl.Rendering.Components.Camera
+  commentId: T:Beryl.Rendering.Components.Camera
+  parent: Beryl.Rendering.Components
+  href: Beryl.Rendering.Components.Camera.html
+  name: Camera
+  nameWithType: Camera
+  fullName: Beryl.Rendering.Components.Camera
+- uid: Beryl.Rendering.Components.MeshRenderer
+  commentId: T:Beryl.Rendering.Components.MeshRenderer
+  parent: Beryl.Rendering.Components
+  href: Beryl.Rendering.Components.MeshRenderer.html
+  name: MeshRenderer
+  nameWithType: MeshRenderer
+  fullName: Beryl.Rendering.Components.MeshRenderer
+- uid: Beryl.Rendering.Components
+  commentId: N:Beryl.Rendering.Components
+  href: Beryl.html
+  name: Beryl.Rendering.Components
+  nameWithType: Beryl.Rendering.Components
+  fullName: Beryl.Rendering.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Components
+    name: Components
+    href: Beryl.Rendering.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Components
+    name: Components
+    href: Beryl.Rendering.Components.html

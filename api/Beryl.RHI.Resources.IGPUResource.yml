@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.Resources.IGPUResource
+  commentId: T:Beryl.RHI.Resources.IGPUResource
+  id: IGPUResource
+  parent: Beryl.RHI.Resources
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IGPUResource
+  nameWithType: IGPUResource
+  fullName: Beryl.RHI.Resources.IGPUResource
+  type: Interface
+  source:
+    id: IGPUResource
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\IGPUResource.cs
+    startLine: 5
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: 'public interface IGPUResource : IDisposable'
+    content.vb: Public Interface IGPUResource Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Resources.Texture
+  commentId: T:Beryl.Rendering.Resources.Texture
+  id: Texture
+  parent: Beryl.Rendering.Resources
+  children:
+  - Beryl.Rendering.Resources.Texture.#ctor(System.Int32,System.Int32,Beryl.RHI.Resources.TextureFormat,System.Byte[],Beryl.RHI.Resources.Sampler)
+  - Beryl.Rendering.Resources.Texture.Clear(System.Byte,System.Byte,System.Byte,System.Byte)
+  - Beryl.Rendering.Resources.Texture.Data
+  - Beryl.Rendering.Resources.Texture.Format
+  - Beryl.Rendering.Resources.Texture.GetData
+  - Beryl.Rendering.Resources.Texture.Height
+  - Beryl.Rendering.Resources.Texture.Sampler
+  - Beryl.Rendering.Resources.Texture.SetData(System.Byte[])
+  - Beryl.Rendering.Resources.Texture.Width
+  langs:
+  - csharp
+  - vb
+  name: Texture
+  nameWithType: Texture
+  fullName: Beryl.Rendering.Resources.Texture
+  type: Class
+  source:
+    id: Texture
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Texture.cs
+    startLine: 13
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  summary: Represents an image used in a material.
+  example: []
+  syntax:
+    content: public class Texture
+    content.vb: Public Class Texture
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Rendering.Resources.Texture.Format
+  commentId: P:Beryl.Rendering.Resources.Texture.Format
+  id: Format
+  parent: Beryl.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: Texture.Format
+  fullName: Beryl.Rendering.Resources.Texture.Format
+  type: Property
+  source:
+    id: Format
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Texture.cs
+    startLine: 15
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  syntax:
+    content: public TextureFormat Format { get; }
+    parameters: []
+    return:
+      type: Beryl.RHI.Resources.TextureFormat
+    content.vb: Public ReadOnly Property Format As TextureFormat
+  overload: Beryl.Rendering.Resources.Texture.Format*
+- uid: Beryl.Rendering.Resources.Texture.Width
+  commentId: P:Beryl.Rendering.Resources.Texture.Width
+  id: Width
+  parent: Beryl.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Texture.Width
+  fullName: Beryl.Rendering.Resources.Texture.Width
+  type: Property
+  source:
+    id: Width
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Texture.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  syntax:
+    content: public int Width { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Width As Integer
+  overload: Beryl.Rendering.Resources.Texture.Width*
+- uid: Beryl.Rendering.Resources.Texture.Height
+  commentId: P:Beryl.Rendering.Resources.Texture.Height
+  id: Height
+  parent: Beryl.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Texture.Height
+  fullName: Beryl.Rendering.Resources.Texture.Height
+  type: Property
+  source:
+    id: Height
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Texture.cs
+    startLine: 18
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  syntax:
+    content: public int Height { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Height As Integer
+  overload: Beryl.Rendering.Resources.Texture.Height*
+- uid: Beryl.Rendering.Resources.Texture.Data
+  commentId: P:Beryl.Rendering.Resources.Texture.Data
+  id: Data
+  parent: Beryl.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: Texture.Data
+  fullName: Beryl.Rendering.Resources.Texture.Data
+  type: Property
+  source:
+    id: Data
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Texture.cs
+    startLine: 20
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  syntax:
+    content: public byte[] Data { get; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Data As Byte()
+  overload: Beryl.Rendering.Resources.Texture.Data*
+- uid: Beryl.Rendering.Resources.Texture.Sampler
+  commentId: P:Beryl.Rendering.Resources.Texture.Sampler
+  id: Sampler
+  parent: Beryl.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: Sampler
+  nameWithType: Texture.Sampler
+  fullName: Beryl.Rendering.Resources.Texture.Sampler
+  type: Property
+  source:
+    id: Sampler
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Texture.cs
+    startLine: 23
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  summary: Sampler settings used when sampling this <xref href="Beryl.Rendering.Resources.Texture" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Sampler Sampler { get; }
+    parameters: []
+    return:
+      type: Beryl.RHI.Resources.Sampler
+    content.vb: Public ReadOnly Property Sampler As Sampler
+  overload: Beryl.Rendering.Resources.Texture.Sampler*
+- uid: Beryl.Rendering.Resources.Texture.#ctor(System.Int32,System.Int32,Beryl.RHI.Resources.TextureFormat,System.Byte[],Beryl.RHI.Resources.Sampler)
+  commentId: M:Beryl.Rendering.Resources.Texture.#ctor(System.Int32,System.Int32,Beryl.RHI.Resources.TextureFormat,System.Byte[],Beryl.RHI.Resources.Sampler)
+  id: '#ctor(System.Int32,System.Int32,Beryl.RHI.Resources.TextureFormat,System.Byte[],Beryl.RHI.Resources.Sampler)'
+  parent: Beryl.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: Texture(int, int, TextureFormat, byte[]?, Sampler)
+  nameWithType: Texture.Texture(int, int, TextureFormat, byte[]?, Sampler)
+  fullName: Beryl.Rendering.Resources.Texture.Texture(int, int, Beryl.RHI.Resources.TextureFormat, byte[]?, Beryl.RHI.Resources.Sampler)
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Texture.cs
+    startLine: 30
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  summary: Creates a new <xref href="Beryl.Rendering.Resources.Texture" data-throw-if-not-resolved="false"></xref> with optional pixel data.
+  example: []
+  syntax:
+    content: public Texture(int width, int height, TextureFormat format, byte[]? initialData = null, Sampler sampler = default)
+    parameters:
+    - id: width
+      type: System.Int32
+      description: Texture width in pixels.
+    - id: height
+      type: System.Int32
+      description: Texture height in pixels.
+    - id: format
+      type: Beryl.RHI.Resources.TextureFormat
+      description: Pixel format.
+    - id: initialData
+      type: System.Byte[]
+      description: Optional initial pixel data.
+    - id: sampler
+      type: Beryl.RHI.Resources.Sampler
+    content.vb: Public Sub New(width As Integer, height As Integer, format As TextureFormat, initialData As Byte() = Nothing, sampler As Sampler = Nothing)
+  overload: Beryl.Rendering.Resources.Texture.#ctor*
+  nameWithType.vb: Texture.New(Integer, Integer, TextureFormat, Byte(), Sampler)
+  fullName.vb: Beryl.Rendering.Resources.Texture.New(Integer, Integer, Beryl.RHI.Resources.TextureFormat, Byte(), Beryl.RHI.Resources.Sampler)
+  name.vb: New(Integer, Integer, TextureFormat, Byte(), Sampler)
+- uid: Beryl.Rendering.Resources.Texture.SetData(System.Byte[])
+  commentId: M:Beryl.Rendering.Resources.Texture.SetData(System.Byte[])
+  id: SetData(System.Byte[])
+  parent: Beryl.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: SetData(byte[])
+  nameWithType: Texture.SetData(byte[])
+  fullName: Beryl.Rendering.Resources.Texture.SetData(byte[])
+  type: Method
+  source:
+    id: SetData
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Texture.cs
+    startLine: 42
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  summary: Sets the raw pixel data.
+  example: []
+  syntax:
+    content: public void SetData(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: Byte array of pixel data matching texture format.
+    content.vb: Public Sub SetData(data As Byte())
+  overload: Beryl.Rendering.Resources.Texture.SetData*
+  nameWithType.vb: Texture.SetData(Byte())
+  fullName.vb: Beryl.Rendering.Resources.Texture.SetData(Byte())
+  name.vb: SetData(Byte())
+- uid: Beryl.Rendering.Resources.Texture.GetData
+  commentId: M:Beryl.Rendering.Resources.Texture.GetData
+  id: GetData
+  parent: Beryl.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: GetData()
+  nameWithType: Texture.GetData()
+  fullName: Beryl.Rendering.Resources.Texture.GetData()
+  type: Method
+  source:
+    id: GetData
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Texture.cs
+    startLine: 51
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  summary: Gets a copy of the raw pixel data.
+  example: []
+  syntax:
+    content: public byte[] GetData()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetData() As Byte()
+  overload: Beryl.Rendering.Resources.Texture.GetData*
+- uid: Beryl.Rendering.Resources.Texture.Clear(System.Byte,System.Byte,System.Byte,System.Byte)
+  commentId: M:Beryl.Rendering.Resources.Texture.Clear(System.Byte,System.Byte,System.Byte,System.Byte)
+  id: Clear(System.Byte,System.Byte,System.Byte,System.Byte)
+  parent: Beryl.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: Clear(byte, byte, byte, byte)
+  nameWithType: Texture.Clear(byte, byte, byte, byte)
+  fullName: Beryl.Rendering.Resources.Texture.Clear(byte, byte, byte, byte)
+  type: Method
+  source:
+    id: Clear
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Texture.cs
+    startLine: 59
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  summary: Clears the texture to a specific color.
+  example: []
+  syntax:
+    content: public void Clear(byte r, byte g, byte b, byte a = 255)
+    parameters:
+    - id: r
+      type: System.Byte
+    - id: g
+      type: System.Byte
+    - id: b
+      type: System.Byte
+    - id: a
+      type: System.Byte
+    content.vb: Public Sub Clear(r As Byte, g As Byte, b As Byte, a As Byte = 255)
+  overload: Beryl.Rendering.Resources.Texture.Clear*
+  nameWithType.vb: Texture.Clear(Byte, Byte, Byte, Byte)
+  fullName.vb: Beryl.Rendering.Resources.Texture.Clear(Byte, Byte, Byte, Byte)
+  name.vb: Clear(Byte, Byte, Byte, Byte)
+references:
+- uid: Beryl.Rendering.Resources
+  commentId: N:Beryl.Rendering.Resources
+  href: Beryl.html
+  name: Beryl.Rendering.Resources
+  nameWithType: Beryl.Rendering.Resources
+  fullName: Beryl.Rendering.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Rendering.Resources.Texture.Format*
+  commentId: Overload:Beryl.Rendering.Resources.Texture.Format
+  href: Beryl.Rendering.Resources.Texture.html#Beryl_Rendering_Resources_Texture_Format
+  name: Format
+  nameWithType: Texture.Format
+  fullName: Beryl.Rendering.Resources.Texture.Format
+- uid: Beryl.RHI.Resources.TextureFormat
+  commentId: T:Beryl.RHI.Resources.TextureFormat
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.TextureFormat.html
+  name: TextureFormat
+  nameWithType: TextureFormat
+  fullName: Beryl.RHI.Resources.TextureFormat
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.Rendering.Resources.Texture.Width*
+  commentId: Overload:Beryl.Rendering.Resources.Texture.Width
+  href: Beryl.Rendering.Resources.Texture.html#Beryl_Rendering_Resources_Texture_Width
+  name: Width
+  nameWithType: Texture.Width
+  fullName: Beryl.Rendering.Resources.Texture.Width
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Beryl.Rendering.Resources.Texture.Height*
+  commentId: Overload:Beryl.Rendering.Resources.Texture.Height
+  href: Beryl.Rendering.Resources.Texture.html#Beryl_Rendering_Resources_Texture_Height
+  name: Height
+  nameWithType: Texture.Height
+  fullName: Beryl.Rendering.Resources.Texture.Height
+- uid: Beryl.Rendering.Resources.Texture.Data*
+  commentId: Overload:Beryl.Rendering.Resources.Texture.Data
+  href: Beryl.Rendering.Resources.Texture.html#Beryl_Rendering_Resources_Texture_Data
+  name: Data
+  nameWithType: Texture.Data
+  fullName: Beryl.Rendering.Resources.Texture.Data
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: Beryl.Rendering.Resources.Texture
+  commentId: T:Beryl.Rendering.Resources.Texture
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.Texture.html
+  name: Texture
+  nameWithType: Texture
+  fullName: Beryl.Rendering.Resources.Texture
+- uid: Beryl.Rendering.Resources.Texture.Sampler*
+  commentId: Overload:Beryl.Rendering.Resources.Texture.Sampler
+  href: Beryl.Rendering.Resources.Texture.html#Beryl_Rendering_Resources_Texture_Sampler
+  name: Sampler
+  nameWithType: Texture.Sampler
+  fullName: Beryl.Rendering.Resources.Texture.Sampler
+- uid: Beryl.RHI.Resources.Sampler
+  commentId: T:Beryl.RHI.Resources.Sampler
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.Sampler.html
+  name: Sampler
+  nameWithType: Sampler
+  fullName: Beryl.RHI.Resources.Sampler
+- uid: Beryl.Rendering.Resources.Texture.#ctor*
+  commentId: Overload:Beryl.Rendering.Resources.Texture.#ctor
+  href: Beryl.Rendering.Resources.Texture.html#Beryl_Rendering_Resources_Texture__ctor_System_Int32_System_Int32_Beryl_RHI_Resources_TextureFormat_System_Byte___Beryl_RHI_Resources_Sampler_
+  name: Texture
+  nameWithType: Texture.Texture
+  fullName: Beryl.Rendering.Resources.Texture.Texture
+  nameWithType.vb: Texture.New
+  fullName.vb: Beryl.Rendering.Resources.Texture.New
+  name.vb: New
+- uid: Beryl.Rendering.Resources.Texture.SetData*
+  commentId: Overload:Beryl.Rendering.Resources.Texture.SetData
+  href: Beryl.Rendering.Resources.Texture.html#Beryl_Rendering_Resources_Texture_SetData_System_Byte___
+  name: SetData
+  nameWithType: Texture.SetData
+  fullName: Beryl.Rendering.Resources.Texture.SetData
+- uid: Beryl.Rendering.Resources.Texture.GetData*
+  commentId: Overload:Beryl.Rendering.Resources.Texture.GetData
+  href: Beryl.Rendering.Resources.Texture.html#Beryl_Rendering_Resources_Texture_GetData
+  name: GetData
+  nameWithType: Texture.GetData
+  fullName: Beryl.Rendering.Resources.Texture.GetData
+- uid: Beryl.Rendering.Resources.Texture.Clear*
+  commentId: Overload:Beryl.Rendering.Resources.Texture.Clear
+  href: Beryl.Rendering.Resources.Texture.html#Beryl_Rendering_Resources_Texture_Clear_System_Byte_System_Byte_System_Byte_System_Byte_
+  name: Clear
+  nameWithType: Texture.Clear
+  fullName: Beryl.Rendering.Resources.Texture.Clear
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte

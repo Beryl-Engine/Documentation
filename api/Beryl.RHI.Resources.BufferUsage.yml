@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.Resources.BufferUsage
+  commentId: T:Beryl.RHI.Resources.BufferUsage
+  id: BufferUsage
+  parent: Beryl.RHI.Resources
+  children:
+  - Beryl.RHI.Resources.BufferUsage.Dynamic
+  - Beryl.RHI.Resources.BufferUsage.IndexBuffer
+  - Beryl.RHI.Resources.BufferUsage.UniformBuffer
+  - Beryl.RHI.Resources.BufferUsage.VertexBuffer
+  langs:
+  - csharp
+  - vb
+  name: BufferUsage
+  nameWithType: BufferUsage
+  fullName: Beryl.RHI.Resources.BufferUsage
+  type: Enum
+  source:
+    id: BufferUsage
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 62
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  summary: Supported GPU buffer usages.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum BufferUsage : byte
+    content.vb: >-
+      <Flags>
+
+      Public Enum BufferUsage As Byte
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Beryl.RHI.Resources.BufferUsage.VertexBuffer
+  commentId: F:Beryl.RHI.Resources.BufferUsage.VertexBuffer
+  id: VertexBuffer
+  parent: Beryl.RHI.Resources.BufferUsage
+  langs:
+  - csharp
+  - vb
+  name: VertexBuffer
+  nameWithType: BufferUsage.VertexBuffer
+  fullName: Beryl.RHI.Resources.BufferUsage.VertexBuffer
+  type: Field
+  source:
+    id: VertexBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 65
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: VertexBuffer = 1
+    return:
+      type: Beryl.RHI.Resources.BufferUsage
+- uid: Beryl.RHI.Resources.BufferUsage.IndexBuffer
+  commentId: F:Beryl.RHI.Resources.BufferUsage.IndexBuffer
+  id: IndexBuffer
+  parent: Beryl.RHI.Resources.BufferUsage
+  langs:
+  - csharp
+  - vb
+  name: IndexBuffer
+  nameWithType: BufferUsage.IndexBuffer
+  fullName: Beryl.RHI.Resources.BufferUsage.IndexBuffer
+  type: Field
+  source:
+    id: IndexBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 66
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: IndexBuffer = 2
+    return:
+      type: Beryl.RHI.Resources.BufferUsage
+- uid: Beryl.RHI.Resources.BufferUsage.UniformBuffer
+  commentId: F:Beryl.RHI.Resources.BufferUsage.UniformBuffer
+  id: UniformBuffer
+  parent: Beryl.RHI.Resources.BufferUsage
+  langs:
+  - csharp
+  - vb
+  name: UniformBuffer
+  nameWithType: BufferUsage.UniformBuffer
+  fullName: Beryl.RHI.Resources.BufferUsage.UniformBuffer
+  type: Field
+  source:
+    id: UniformBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 67
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: UniformBuffer = 4
+    return:
+      type: Beryl.RHI.Resources.BufferUsage
+- uid: Beryl.RHI.Resources.BufferUsage.Dynamic
+  commentId: F:Beryl.RHI.Resources.BufferUsage.Dynamic
+  id: Dynamic
+  parent: Beryl.RHI.Resources.BufferUsage
+  langs:
+  - csharp
+  - vb
+  name: Dynamic
+  nameWithType: BufferUsage.Dynamic
+  fullName: Beryl.RHI.Resources.BufferUsage.Dynamic
+  type: Field
+  source:
+    id: Dynamic
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 68
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: Dynamic = 8
+    return:
+      type: Beryl.RHI.Resources.BufferUsage
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.RHI.Resources.BufferUsage
+  commentId: T:Beryl.RHI.Resources.BufferUsage
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.BufferUsage.html
+  name: BufferUsage
+  nameWithType: BufferUsage
+  fullName: Beryl.RHI.Resources.BufferUsage

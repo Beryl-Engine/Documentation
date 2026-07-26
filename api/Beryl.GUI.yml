@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.GUI
+  commentId: N:Beryl.GUI
+  id: GUI
+  parent: Beryl
+  children:
+  - Beryl.GUI.GUIModule
+  - Beryl.GUI.PaintEngine
+  - Beryl.GUI.Widgets
+  langs:
+  - csharp
+  - vb
+  name: Beryl.GUI
+  nameWithType: Beryl.GUI
+  fullName: Beryl.GUI
+  type: Namespace
+  assemblies:
+  - Beryl.GUI
+references:
+- uid: Beryl.GUI.Widgets
+  commentId: N:Beryl.GUI.Widgets
+  href: Beryl.html
+  name: Beryl.GUI.Widgets
+  nameWithType: Beryl.GUI.Widgets
+  fullName: Beryl.GUI.Widgets
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.GUI
+    name: GUI
+    href: Beryl.GUI.html
+  - name: .
+  - uid: Beryl.GUI.Widgets
+    name: Widgets
+    href: Beryl.GUI.Widgets.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.GUI
+    name: GUI
+    href: Beryl.GUI.html
+  - name: .
+  - uid: Beryl.GUI.Widgets
+    name: Widgets
+    href: Beryl.GUI.Widgets.html
+- uid: Beryl.GUI.GUIModule
+  commentId: T:Beryl.GUI.GUIModule
+  href: Beryl.GUI.GUIModule.html
+  name: GUIModule
+  nameWithType: GUIModule
+  fullName: Beryl.GUI.GUIModule
+- uid: Beryl.GUI.PaintEngine
+  commentId: T:Beryl.GUI.PaintEngine
+  parent: Beryl.GUI
+  href: Beryl.GUI.PaintEngine.html
+  name: PaintEngine
+  nameWithType: PaintEngine
+  fullName: Beryl.GUI.PaintEngine
+- uid: Beryl.GUI
+  commentId: N:Beryl.GUI
+  href: Beryl.html
+  name: Beryl.GUI
+  nameWithType: Beryl.GUI
+  fullName: Beryl.GUI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.GUI
+    name: GUI
+    href: Beryl.GUI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.GUI
+    name: GUI
+    href: Beryl.GUI.html

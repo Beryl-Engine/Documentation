@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Common
+  commentId: N:Beryl.Common
+  id: Common
+  parent: Beryl
+  children:
+  - Beryl.Common.Application
+  - Beryl.Common.BaseModule
+  - Beryl.Common.Datatypes
+  - Beryl.Common.InitializeAfterAttribute
+  - Beryl.Common.ModuleManager
+  - Beryl.Common.Resources
+  - Beryl.Common.Standard
+  - Beryl.Common.Time
+  - Beryl.Common.Utility
+  - Beryl.Common.Window
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Common
+  nameWithType: Beryl.Common
+  fullName: Beryl.Common
+  type: Namespace
+  assemblies:
+  - Beryl.Common
+references:
+- uid: Beryl.Common.Datatypes
+  commentId: N:Beryl.Common.Datatypes
+  href: Beryl.html
+  name: Beryl.Common.Datatypes
+  nameWithType: Beryl.Common.Datatypes
+  fullName: Beryl.Common.Datatypes
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Datatypes
+    name: Datatypes
+    href: Beryl.Common.Datatypes.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Datatypes
+    name: Datatypes
+    href: Beryl.Common.Datatypes.html
+- uid: Beryl.Common.Resources
+  commentId: N:Beryl.Common.Resources
+  href: Beryl.html
+  name: Beryl.Common.Resources
+  nameWithType: Beryl.Common.Resources
+  fullName: Beryl.Common.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Resources
+    name: Resources
+    href: Beryl.Common.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Resources
+    name: Resources
+    href: Beryl.Common.Resources.html
+- uid: Beryl.Common.Standard
+  commentId: N:Beryl.Common.Standard
+  href: Beryl.html
+  name: Beryl.Common.Standard
+  nameWithType: Beryl.Common.Standard
+  fullName: Beryl.Common.Standard
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Standard
+    name: Standard
+    href: Beryl.Common.Standard.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Standard
+    name: Standard
+    href: Beryl.Common.Standard.html
+- uid: Beryl.Common.Utility
+  commentId: N:Beryl.Common.Utility
+  href: Beryl.html
+  name: Beryl.Common.Utility
+  nameWithType: Beryl.Common.Utility
+  fullName: Beryl.Common.Utility
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Utility
+    name: Utility
+    href: Beryl.Common.Utility.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Utility
+    name: Utility
+    href: Beryl.Common.Utility.html
+- uid: Beryl.Common.Application
+  commentId: T:Beryl.Common.Application
+  href: Beryl.Common.Application.html
+  name: Application
+  nameWithType: Application
+  fullName: Beryl.Common.Application
+- uid: Beryl.Common.BaseModule
+  commentId: T:Beryl.Common.BaseModule
+  parent: Beryl.Common
+  href: Beryl.Common.BaseModule.html
+  name: BaseModule
+  nameWithType: BaseModule
+  fullName: Beryl.Common.BaseModule
+- uid: Beryl.Common.InitializeAfterAttribute
+  commentId: T:Beryl.Common.InitializeAfterAttribute
+  parent: Beryl.Common
+  href: Beryl.Common.InitializeAfterAttribute.html
+  name: InitializeAfterAttribute
+  nameWithType: InitializeAfterAttribute
+  fullName: Beryl.Common.InitializeAfterAttribute
+- uid: Beryl.Common.ModuleManager
+  commentId: T:Beryl.Common.ModuleManager
+  href: Beryl.Common.ModuleManager.html
+  name: ModuleManager
+  nameWithType: ModuleManager
+  fullName: Beryl.Common.ModuleManager
+- uid: Beryl.Common.Time
+  commentId: T:Beryl.Common.Time
+  href: Beryl.Common.Time.html
+  name: Time
+  nameWithType: Time
+  fullName: Beryl.Common.Time
+- uid: Beryl.Common.Window
+  commentId: T:Beryl.Common.Window
+  parent: Beryl.Common
+  href: Beryl.Common.Window.html
+  name: Window
+  nameWithType: Window
+  fullName: Beryl.Common.Window
+- uid: Beryl.Common
+  commentId: N:Beryl.Common
+  href: Beryl.html
+  name: Beryl.Common
+  nameWithType: Beryl.Common
+  fullName: Beryl.Common
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html

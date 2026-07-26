@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Common.Resources.DefaultProvider
+  commentId: N:Beryl.Common.Resources.DefaultProvider
+  id: DefaultProvider
+  parent: Beryl.Common.Resources
+  children:
+  - Beryl.Common.Resources.DefaultProvider.ResourceLoaderAttribute
+  - Beryl.Common.Resources.DefaultProvider.ResourceLoader`1
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Common.Resources.DefaultProvider
+  nameWithType: Beryl.Common.Resources.DefaultProvider
+  fullName: Beryl.Common.Resources.DefaultProvider
+  type: Namespace
+  assemblies:
+  - Beryl.Common
+references:
+- uid: Beryl.Common.Resources.DefaultProvider.ResourceLoaderAttribute
+  commentId: T:Beryl.Common.Resources.DefaultProvider.ResourceLoaderAttribute
+  href: Beryl.Common.Resources.DefaultProvider.ResourceLoaderAttribute.html
+  name: ResourceLoaderAttribute
+  nameWithType: ResourceLoaderAttribute
+  fullName: Beryl.Common.Resources.DefaultProvider.ResourceLoaderAttribute
+- uid: Beryl.Common.Resources.DefaultProvider.ResourceLoader`1
+  commentId: T:Beryl.Common.Resources.DefaultProvider.ResourceLoader`1
+  parent: Beryl.Common.Resources.DefaultProvider
+  href: Beryl.Common.Resources.DefaultProvider.ResourceLoader-1.html
+  name: ResourceLoader<T>
+  nameWithType: ResourceLoader<T>
+  fullName: Beryl.Common.Resources.DefaultProvider.ResourceLoader<T>
+  nameWithType.vb: ResourceLoader(Of T)
+  fullName.vb: Beryl.Common.Resources.DefaultProvider.ResourceLoader(Of T)
+  name.vb: ResourceLoader(Of T)
+  spec.csharp:
+  - uid: Beryl.Common.Resources.DefaultProvider.ResourceLoader`1
+    name: ResourceLoader
+    href: Beryl.Common.Resources.DefaultProvider.ResourceLoader-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Common.Resources.DefaultProvider.ResourceLoader`1
+    name: ResourceLoader
+    href: Beryl.Common.Resources.DefaultProvider.ResourceLoader-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Beryl.Common.Resources.DefaultProvider
+  commentId: N:Beryl.Common.Resources.DefaultProvider
+  href: Beryl.html
+  name: Beryl.Common.Resources.DefaultProvider
+  nameWithType: Beryl.Common.Resources.DefaultProvider
+  fullName: Beryl.Common.Resources.DefaultProvider
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Resources
+    name: Resources
+    href: Beryl.Common.Resources.html
+  - name: .
+  - uid: Beryl.Common.Resources.DefaultProvider
+    name: DefaultProvider
+    href: Beryl.Common.Resources.DefaultProvider.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Resources
+    name: Resources
+    href: Beryl.Common.Resources.html
+  - name: .
+  - uid: Beryl.Common.Resources.DefaultProvider
+    name: DefaultProvider
+    href: Beryl.Common.Resources.DefaultProvider.html

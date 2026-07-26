@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Audio.Components
+  commentId: N:Beryl.Audio.Components
+  id: Components
+  parent: Beryl.Audio
+  children:
+  - Beryl.Audio.Components.AudioListener
+  - Beryl.Audio.Components.AudioSource
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Audio.Components
+  nameWithType: Beryl.Audio.Components
+  fullName: Beryl.Audio.Components
+  type: Namespace
+  assemblies:
+  - Beryl.Audio
+references:
+- uid: Beryl.Audio.Components.AudioListener
+  commentId: T:Beryl.Audio.Components.AudioListener
+  href: Beryl.Audio.Components.AudioListener.html
+  name: AudioListener
+  nameWithType: AudioListener
+  fullName: Beryl.Audio.Components.AudioListener
+- uid: Beryl.Audio.Components.AudioSource
+  commentId: T:Beryl.Audio.Components.AudioSource
+  href: Beryl.Audio.Components.AudioSource.html
+  name: AudioSource
+  nameWithType: AudioSource
+  fullName: Beryl.Audio.Components.AudioSource

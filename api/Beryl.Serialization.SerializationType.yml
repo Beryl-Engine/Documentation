@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Serialization.SerializationType
+  commentId: T:Beryl.Serialization.SerializationType
+  id: SerializationType
+  parent: Beryl.Serialization
+  children:
+  - Beryl.Serialization.SerializationType.Binary
+  - Beryl.Serialization.SerializationType.JSON
+  - Beryl.Serialization.SerializationType.YAML
+  langs:
+  - csharp
+  - vb
+  name: SerializationType
+  nameWithType: SerializationType
+  fullName: Beryl.Serialization.SerializationType
+  type: Enum
+  source:
+    id: SerializationType
+    path: E:\Beryl\Documentation\src\Beryl.Serialization\SerializationType.cs
+    startLine: 8
+  assemblies:
+  - Beryl.Serialization
+  namespace: Beryl.Serialization
+  summary: The serialization backend type.
+  example: []
+  syntax:
+    content: 'public enum SerializationType : byte'
+    content.vb: Public Enum SerializationType As Byte
+- uid: Beryl.Serialization.SerializationType.YAML
+  commentId: F:Beryl.Serialization.SerializationType.YAML
+  id: YAML
+  parent: Beryl.Serialization.SerializationType
+  langs:
+  - csharp
+  - vb
+  name: YAML
+  nameWithType: SerializationType.YAML
+  fullName: Beryl.Serialization.SerializationType.YAML
+  type: Field
+  source:
+    id: YAML
+    path: E:\Beryl\Documentation\src\Beryl.Serialization\SerializationType.cs
+    startLine: 10
+  assemblies:
+  - Beryl.Serialization
+  namespace: Beryl.Serialization
+  syntax:
+    content: YAML = 0
+    return:
+      type: Beryl.Serialization.SerializationType
+- uid: Beryl.Serialization.SerializationType.JSON
+  commentId: F:Beryl.Serialization.SerializationType.JSON
+  id: JSON
+  parent: Beryl.Serialization.SerializationType
+  langs:
+  - csharp
+  - vb
+  name: JSON
+  nameWithType: SerializationType.JSON
+  fullName: Beryl.Serialization.SerializationType.JSON
+  type: Field
+  source:
+    id: JSON
+    path: E:\Beryl\Documentation\src\Beryl.Serialization\SerializationType.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Serialization
+  namespace: Beryl.Serialization
+  syntax:
+    content: JSON = 1
+    return:
+      type: Beryl.Serialization.SerializationType
+- uid: Beryl.Serialization.SerializationType.Binary
+  commentId: F:Beryl.Serialization.SerializationType.Binary
+  id: Binary
+  parent: Beryl.Serialization.SerializationType
+  langs:
+  - csharp
+  - vb
+  name: Binary
+  nameWithType: SerializationType.Binary
+  fullName: Beryl.Serialization.SerializationType.Binary
+  type: Field
+  source:
+    id: Binary
+    path: E:\Beryl\Documentation\src\Beryl.Serialization\SerializationType.cs
+    startLine: 12
+  assemblies:
+  - Beryl.Serialization
+  namespace: Beryl.Serialization
+  syntax:
+    content: Binary = 2
+    return:
+      type: Beryl.Serialization.SerializationType
+references:
+- uid: Beryl.Serialization
+  commentId: N:Beryl.Serialization
+  href: Beryl.html
+  name: Beryl.Serialization
+  nameWithType: Beryl.Serialization
+  fullName: Beryl.Serialization
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Serialization
+    name: Serialization
+    href: Beryl.Serialization.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Serialization
+    name: Serialization
+    href: Beryl.Serialization.html
+- uid: Beryl.Serialization.SerializationType
+  commentId: T:Beryl.Serialization.SerializationType
+  parent: Beryl.Serialization
+  href: Beryl.Serialization.SerializationType.html
+  name: SerializationType
+  nameWithType: SerializationType
+  fullName: Beryl.Serialization.SerializationType

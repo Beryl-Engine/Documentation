@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.CullingMode
+  commentId: T:Beryl.RHI.CullingMode
+  id: CullingMode
+  parent: Beryl.RHI
+  children:
+  - Beryl.RHI.CullingMode.Back
+  - Beryl.RHI.CullingMode.Front
+  - Beryl.RHI.CullingMode.None
+  langs:
+  - csharp
+  - vb
+  name: CullingMode
+  nameWithType: CullingMode
+  fullName: Beryl.RHI.CullingMode
+  type: Enum
+  source:
+    id: CullingMode
+    path: E:\Beryl\Documentation\src\Beryl.RHI\CullingMode.cs
+    startLine: 8
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Face culling mode.
+  example: []
+  syntax:
+    content: public enum CullingMode
+    content.vb: Public Enum CullingMode
+- uid: Beryl.RHI.CullingMode.None
+  commentId: F:Beryl.RHI.CullingMode.None
+  id: None
+  parent: Beryl.RHI.CullingMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CullingMode.None
+  fullName: Beryl.RHI.CullingMode.None
+  type: Field
+  source:
+    id: None
+    path: E:\Beryl\Documentation\src\Beryl.RHI\CullingMode.cs
+    startLine: 10
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  syntax:
+    content: None = 0
+    return:
+      type: Beryl.RHI.CullingMode
+- uid: Beryl.RHI.CullingMode.Front
+  commentId: F:Beryl.RHI.CullingMode.Front
+  id: Front
+  parent: Beryl.RHI.CullingMode
+  langs:
+  - csharp
+  - vb
+  name: Front
+  nameWithType: CullingMode.Front
+  fullName: Beryl.RHI.CullingMode.Front
+  type: Field
+  source:
+    id: Front
+    path: E:\Beryl\Documentation\src\Beryl.RHI\CullingMode.cs
+    startLine: 11
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  syntax:
+    content: Front = 1
+    return:
+      type: Beryl.RHI.CullingMode
+- uid: Beryl.RHI.CullingMode.Back
+  commentId: F:Beryl.RHI.CullingMode.Back
+  id: Back
+  parent: Beryl.RHI.CullingMode
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: CullingMode.Back
+  fullName: Beryl.RHI.CullingMode.Back
+  type: Field
+  source:
+    id: Back
+    path: E:\Beryl\Documentation\src\Beryl.RHI\CullingMode.cs
+    startLine: 12
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  syntax:
+    content: Back = 2
+    return:
+      type: Beryl.RHI.CullingMode
+references:
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+- uid: Beryl.RHI.CullingMode
+  commentId: T:Beryl.RHI.CullingMode
+  parent: Beryl.RHI
+  href: Beryl.RHI.CullingMode.html
+  name: CullingMode
+  nameWithType: CullingMode
+  fullName: Beryl.RHI.CullingMode

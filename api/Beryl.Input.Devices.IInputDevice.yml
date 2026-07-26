@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Input.Devices.IInputDevice
+  commentId: T:Beryl.Input.Devices.IInputDevice
+  id: IInputDevice
+  parent: Beryl.Input.Devices
+  children:
+  - Beryl.Input.Devices.IInputDevice.Update
+  langs:
+  - csharp
+  - vb
+  name: IInputDevice
+  nameWithType: IInputDevice
+  fullName: Beryl.Input.Devices.IInputDevice
+  type: Interface
+  source:
+    id: IInputDevice
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\IInputDevice.cs
+    startLine: 8
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  summary: Base interface for all Input Devices. (i.e., Controllers, Keyboards, etc.)
+  example: []
+  syntax:
+    content: public interface IInputDevice
+    content.vb: Public Interface IInputDevice
+  derivedClasses:
+  - Beryl.Input.Devices.Gamepad
+  - Beryl.Input.Devices.Keyboard
+  - Beryl.Input.Devices.Mouse
+  - Beryl.VirtualReality.VirtualRealityController
+- uid: Beryl.Input.Devices.IInputDevice.Update
+  commentId: M:Beryl.Input.Devices.IInputDevice.Update
+  id: Update
+  parent: Beryl.Input.Devices.IInputDevice
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: IInputDevice.Update()
+  fullName: Beryl.Input.Devices.IInputDevice.Update()
+  type: Method
+  source:
+    id: Update
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\IInputDevice.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  summary: Runs once per <xref href="Beryl.Input.InputModule" data-throw-if-not-resolved="false"></xref> update.
+  example: []
+  syntax:
+    content: void Update()
+    content.vb: Sub Update()
+  overload: Beryl.Input.Devices.IInputDevice.Update*
+references:
+- uid: Beryl.Input.Devices
+  commentId: N:Beryl.Input.Devices
+  href: Beryl.html
+  name: Beryl.Input.Devices
+  nameWithType: Beryl.Input.Devices
+  fullName: Beryl.Input.Devices
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+- uid: Beryl.Input.InputModule
+  commentId: T:Beryl.Input.InputModule
+  href: Beryl.Input.InputModule.html
+  name: InputModule
+  nameWithType: InputModule
+  fullName: Beryl.Input.InputModule
+- uid: Beryl.Input.Devices.IInputDevice.Update*
+  commentId: Overload:Beryl.Input.Devices.IInputDevice.Update
+  href: Beryl.Input.Devices.IInputDevice.html#Beryl_Input_Devices_IInputDevice_Update
+  name: Update
+  nameWithType: IInputDevice.Update
+  fullName: Beryl.Input.Devices.IInputDevice.Update

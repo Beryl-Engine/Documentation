@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Audio
+  commentId: N:Beryl.Audio
+  id: Audio
+  parent: Beryl
+  children:
+  - Beryl.Audio.AudioDistanceModel
+  - Beryl.Audio.AudioModule
+  - Beryl.Audio.AudioPhysics
+  - Beryl.Audio.Components
+  - Beryl.Audio.Engines.OpenAL
+  - Beryl.Audio.IAudioContext
+  - Beryl.Audio.IAudioListener
+  - Beryl.Audio.IAudioSource
+  - Beryl.Audio.Resources
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Audio
+  nameWithType: Beryl.Audio
+  fullName: Beryl.Audio
+  type: Namespace
+  assemblies:
+  - Beryl.Audio
+references:
+- uid: Beryl.Audio.Components
+  commentId: N:Beryl.Audio.Components
+  href: Beryl.html
+  name: Beryl.Audio.Components
+  nameWithType: Beryl.Audio.Components
+  fullName: Beryl.Audio.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Components
+    name: Components
+    href: Beryl.Audio.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Components
+    name: Components
+    href: Beryl.Audio.Components.html
+- uid: Beryl.Audio.Resources
+  commentId: N:Beryl.Audio.Resources
+  href: Beryl.html
+  name: Beryl.Audio.Resources
+  nameWithType: Beryl.Audio.Resources
+  fullName: Beryl.Audio.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Resources
+    name: Resources
+    href: Beryl.Audio.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Resources
+    name: Resources
+    href: Beryl.Audio.Resources.html
+- uid: Beryl.Audio.AudioDistanceModel
+  commentId: T:Beryl.Audio.AudioDistanceModel
+  parent: Beryl.Audio
+  href: Beryl.Audio.AudioDistanceModel.html
+  name: AudioDistanceModel
+  nameWithType: AudioDistanceModel
+  fullName: Beryl.Audio.AudioDistanceModel
+- uid: Beryl.Audio.AudioModule
+  commentId: T:Beryl.Audio.AudioModule
+  href: Beryl.Audio.AudioModule.html
+  name: AudioModule
+  nameWithType: AudioModule
+  fullName: Beryl.Audio.AudioModule
+- uid: Beryl.Audio.AudioPhysics
+  commentId: T:Beryl.Audio.AudioPhysics
+  href: Beryl.Audio.AudioPhysics.html
+  name: AudioPhysics
+  nameWithType: AudioPhysics
+  fullName: Beryl.Audio.AudioPhysics
+- uid: Beryl.Audio.IAudioContext
+  commentId: T:Beryl.Audio.IAudioContext
+  parent: Beryl.Audio
+  href: Beryl.Audio.IAudioContext.html
+  name: IAudioContext
+  nameWithType: IAudioContext
+  fullName: Beryl.Audio.IAudioContext
+- uid: Beryl.Audio.IAudioListener
+  commentId: T:Beryl.Audio.IAudioListener
+  parent: Beryl.Audio
+  href: Beryl.Audio.IAudioListener.html
+  name: IAudioListener
+  nameWithType: IAudioListener
+  fullName: Beryl.Audio.IAudioListener
+- uid: Beryl.Audio.IAudioSource
+  commentId: T:Beryl.Audio.IAudioSource
+  parent: Beryl.Audio
+  href: Beryl.Audio.IAudioSource.html
+  name: IAudioSource
+  nameWithType: IAudioSource
+  fullName: Beryl.Audio.IAudioSource
+- uid: Beryl.Audio.Engines.OpenAL
+  commentId: N:Beryl.Audio.Engines.OpenAL
+  href: Beryl.html
+  name: Beryl.Audio.Engines.OpenAL
+  nameWithType: Beryl.Audio.Engines.OpenAL
+  fullName: Beryl.Audio.Engines.OpenAL
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Engines
+    name: Engines
+    href: Beryl.Audio.Engines.html
+  - name: .
+  - uid: Beryl.Audio.Engines.OpenAL
+    name: OpenAL
+    href: Beryl.Audio.Engines.OpenAL.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Engines
+    name: Engines
+    href: Beryl.Audio.Engines.html
+  - name: .
+  - uid: Beryl.Audio.Engines.OpenAL
+    name: OpenAL
+    href: Beryl.Audio.Engines.OpenAL.html
+- uid: Beryl.Audio
+  commentId: N:Beryl.Audio
+  href: Beryl.html
+  name: Beryl.Audio
+  nameWithType: Beryl.Audio
+  fullName: Beryl.Audio
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html

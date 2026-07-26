@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.Resources.ResourceKind
+  commentId: T:Beryl.RHI.Resources.ResourceKind
+  id: ResourceKind
+  parent: Beryl.RHI.Resources
+  children:
+  - Beryl.RHI.Resources.ResourceKind.UniformBuffer
+  langs:
+  - csharp
+  - vb
+  name: ResourceKind
+  nameWithType: ResourceKind
+  fullName: Beryl.RHI.Resources.ResourceKind
+  type: Enum
+  source:
+    id: ResourceKind
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 74
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  summary: The kind of shader resource.
+  example: []
+  syntax:
+    content: 'public enum ResourceKind : byte'
+    content.vb: Public Enum ResourceKind As Byte
+- uid: Beryl.RHI.Resources.ResourceKind.UniformBuffer
+  commentId: F:Beryl.RHI.Resources.ResourceKind.UniformBuffer
+  id: UniformBuffer
+  parent: Beryl.RHI.Resources.ResourceKind
+  langs:
+  - csharp
+  - vb
+  name: UniformBuffer
+  nameWithType: ResourceKind.UniformBuffer
+  fullName: Beryl.RHI.Resources.ResourceKind.UniformBuffer
+  type: Field
+  source:
+    id: UniformBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 76
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: UniformBuffer = 0
+    return:
+      type: Beryl.RHI.Resources.ResourceKind
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.RHI.Resources.ResourceKind
+  commentId: T:Beryl.RHI.Resources.ResourceKind
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.ResourceKind.html
+  name: ResourceKind
+  nameWithType: ResourceKind
+  fullName: Beryl.RHI.Resources.ResourceKind

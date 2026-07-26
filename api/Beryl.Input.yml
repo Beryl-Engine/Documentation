@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Input
+  commentId: N:Beryl.Input
+  id: Input
+  parent: Beryl
+  children:
+  - Beryl.Input.Devices
+  - Beryl.Input.InputModule
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Input
+  nameWithType: Beryl.Input
+  fullName: Beryl.Input
+  type: Namespace
+  assemblies:
+  - Beryl.Input
+references:
+- uid: Beryl.Input.Devices
+  commentId: N:Beryl.Input.Devices
+  href: Beryl.html
+  name: Beryl.Input.Devices
+  nameWithType: Beryl.Input.Devices
+  fullName: Beryl.Input.Devices
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+- uid: Beryl.Input.InputModule
+  commentId: T:Beryl.Input.InputModule
+  href: Beryl.Input.InputModule.html
+  name: InputModule
+  nameWithType: InputModule
+  fullName: Beryl.Input.InputModule

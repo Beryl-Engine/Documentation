@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.Resources.Sampler
+  commentId: T:Beryl.RHI.Resources.Sampler
+  id: Sampler
+  parent: Beryl.RHI.Resources
+  children:
+  - Beryl.RHI.Resources.Sampler.#ctor
+  - Beryl.RHI.Resources.Sampler.Filter
+  - Beryl.RHI.Resources.Sampler.WrapU
+  - Beryl.RHI.Resources.Sampler.WrapV
+  langs:
+  - csharp
+  - vb
+  name: Sampler
+  nameWithType: Sampler
+  fullName: Beryl.RHI.Resources.Sampler
+  type: Struct
+  source:
+    id: Sampler
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\TextureTypes.cs
+    startLine: 35
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  summary: Describes sampler state for texture sampling.
+  example: []
+  syntax:
+    content: public struct Sampler
+    content.vb: Public Structure Sampler
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Beryl.RHI.Resources.Sampler.Filter
+  commentId: P:Beryl.RHI.Resources.Sampler.Filter
+  id: Filter
+  parent: Beryl.RHI.Resources.Sampler
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: Sampler.Filter
+  fullName: Beryl.RHI.Resources.Sampler.Filter
+  type: Property
+  source:
+    id: Filter
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\TextureTypes.cs
+    startLine: 37
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public SamplerFilter Filter { readonly get; set; }
+    parameters: []
+    return:
+      type: Beryl.RHI.Resources.SamplerFilter
+    content.vb: Public Property Filter As SamplerFilter
+  overload: Beryl.RHI.Resources.Sampler.Filter*
+- uid: Beryl.RHI.Resources.Sampler.WrapU
+  commentId: P:Beryl.RHI.Resources.Sampler.WrapU
+  id: WrapU
+  parent: Beryl.RHI.Resources.Sampler
+  langs:
+  - csharp
+  - vb
+  name: WrapU
+  nameWithType: Sampler.WrapU
+  fullName: Beryl.RHI.Resources.Sampler.WrapU
+  type: Property
+  source:
+    id: WrapU
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\TextureTypes.cs
+    startLine: 38
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public TextureWrapMode WrapU { readonly get; set; }
+    parameters: []
+    return:
+      type: Beryl.RHI.Resources.TextureWrapMode
+    content.vb: Public Property WrapU As TextureWrapMode
+  overload: Beryl.RHI.Resources.Sampler.WrapU*
+- uid: Beryl.RHI.Resources.Sampler.WrapV
+  commentId: P:Beryl.RHI.Resources.Sampler.WrapV
+  id: WrapV
+  parent: Beryl.RHI.Resources.Sampler
+  langs:
+  - csharp
+  - vb
+  name: WrapV
+  nameWithType: Sampler.WrapV
+  fullName: Beryl.RHI.Resources.Sampler.WrapV
+  type: Property
+  source:
+    id: WrapV
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\TextureTypes.cs
+    startLine: 39
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public TextureWrapMode WrapV { readonly get; set; }
+    parameters: []
+    return:
+      type: Beryl.RHI.Resources.TextureWrapMode
+    content.vb: Public Property WrapV As TextureWrapMode
+  overload: Beryl.RHI.Resources.Sampler.WrapV*
+- uid: Beryl.RHI.Resources.Sampler.#ctor
+  commentId: M:Beryl.RHI.Resources.Sampler.#ctor
+  id: '#ctor'
+  parent: Beryl.RHI.Resources.Sampler
+  langs:
+  - csharp
+  - vb
+  name: Sampler()
+  nameWithType: Sampler.Sampler()
+  fullName: Beryl.RHI.Resources.Sampler.Sampler()
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\TextureTypes.cs
+    startLine: 41
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: public Sampler()
+    content.vb: Public Sub New()
+  overload: Beryl.RHI.Resources.Sampler.#ctor*
+  nameWithType.vb: Sampler.New()
+  fullName.vb: Beryl.RHI.Resources.Sampler.New()
+  name.vb: New()
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.RHI.Resources.Sampler.Filter*
+  commentId: Overload:Beryl.RHI.Resources.Sampler.Filter
+  href: Beryl.RHI.Resources.Sampler.html#Beryl_RHI_Resources_Sampler_Filter
+  name: Filter
+  nameWithType: Sampler.Filter
+  fullName: Beryl.RHI.Resources.Sampler.Filter
+- uid: Beryl.RHI.Resources.SamplerFilter
+  commentId: T:Beryl.RHI.Resources.SamplerFilter
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.SamplerFilter.html
+  name: SamplerFilter
+  nameWithType: SamplerFilter
+  fullName: Beryl.RHI.Resources.SamplerFilter
+- uid: Beryl.RHI.Resources.Sampler.WrapU*
+  commentId: Overload:Beryl.RHI.Resources.Sampler.WrapU
+  href: Beryl.RHI.Resources.Sampler.html#Beryl_RHI_Resources_Sampler_WrapU
+  name: WrapU
+  nameWithType: Sampler.WrapU
+  fullName: Beryl.RHI.Resources.Sampler.WrapU
+- uid: Beryl.RHI.Resources.TextureWrapMode
+  commentId: T:Beryl.RHI.Resources.TextureWrapMode
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.TextureWrapMode.html
+  name: TextureWrapMode
+  nameWithType: TextureWrapMode
+  fullName: Beryl.RHI.Resources.TextureWrapMode
+- uid: Beryl.RHI.Resources.Sampler.WrapV*
+  commentId: Overload:Beryl.RHI.Resources.Sampler.WrapV
+  href: Beryl.RHI.Resources.Sampler.html#Beryl_RHI_Resources_Sampler_WrapV
+  name: WrapV
+  nameWithType: Sampler.WrapV
+  fullName: Beryl.RHI.Resources.Sampler.WrapV
+- uid: Beryl.RHI.Resources.Sampler.#ctor*
+  commentId: Overload:Beryl.RHI.Resources.Sampler.#ctor
+  href: Beryl.RHI.Resources.Sampler.html#Beryl_RHI_Resources_Sampler__ctor
+  name: Sampler
+  nameWithType: Sampler.Sampler
+  fullName: Beryl.RHI.Resources.Sampler.Sampler
+  nameWithType.vb: Sampler.New
+  fullName.vb: Beryl.RHI.Resources.Sampler.New
+  name.vb: New

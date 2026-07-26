@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  id: Math
+  parent: Beryl
+  children:
+  - Beryl.Math.Color
+  - Beryl.Math.Math
+  - Beryl.Math.Matrix4x4
+  - Beryl.Math.Quaternion
+  - Beryl.Math.Rect
+  - Beryl.Math.Vector2
+  - Beryl.Math.Vector2I
+  - Beryl.Math.Vector3
+  - Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  type: Namespace
+  assemblies:
+  - Beryl.Math
+references:
+- uid: Beryl.Math.Color
+  commentId: T:Beryl.Math.Color
+  parent: Beryl.Math
+  href: Beryl.Math.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Beryl.Math.Color
+- uid: Beryl.Math.Math
+  commentId: T:Beryl.Math.Math
+  href: Beryl.Math.Math.html
+  name: Math
+  nameWithType: Math
+  fullName: Beryl.Math.Math
+- uid: Beryl.Math.Matrix4x4
+  commentId: T:Beryl.Math.Matrix4x4
+  parent: Beryl.Math
+  href: Beryl.Math.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Beryl.Math.Matrix4x4
+- uid: Beryl.Math.Quaternion
+  commentId: T:Beryl.Math.Quaternion
+  parent: Beryl.Math
+  href: Beryl.Math.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Beryl.Math.Quaternion
+- uid: Beryl.Math.Rect
+  commentId: T:Beryl.Math.Rect
+  parent: Beryl.Math
+  href: Beryl.Math.Rect.html
+  name: Rect
+  nameWithType: Rect
+  fullName: Beryl.Math.Rect
+- uid: Beryl.Math.Vector2
+  commentId: T:Beryl.Math.Vector2
+  parent: Beryl.Math
+  href: Beryl.Math.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Beryl.Math.Vector2
+- uid: Beryl.Math.Vector2I
+  commentId: T:Beryl.Math.Vector2I
+  parent: Beryl.Math
+  href: Beryl.Math.Vector2I.html
+  name: Vector2I
+  nameWithType: Vector2I
+  fullName: Beryl.Math.Vector2I
+- uid: Beryl.Math.Vector3
+  commentId: T:Beryl.Math.Vector3
+  parent: Beryl.Math
+  href: Beryl.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Beryl.Math.Vector3
+- uid: Beryl.Math.Vector4
+  commentId: T:Beryl.Math.Vector4
+  parent: Beryl.Math
+  href: Beryl.Math.Vector4.html
+  name: Vector4
+  nameWithType: Vector4
+  fullName: Beryl.Math.Vector4
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html

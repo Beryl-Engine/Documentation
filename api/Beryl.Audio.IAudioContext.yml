@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Audio.IAudioContext
+  commentId: T:Beryl.Audio.IAudioContext
+  id: IAudioContext
+  parent: Beryl.Audio
+  children:
+  - Beryl.Audio.IAudioContext.CreateListener
+  - Beryl.Audio.IAudioContext.CreateSource
+  - Beryl.Audio.IAudioContext.DestroyListener(Beryl.Audio.IAudioListener)
+  - Beryl.Audio.IAudioContext.DestroySource(Beryl.Audio.IAudioSource)
+  - Beryl.Audio.IAudioContext.SetDistanceModel(Beryl.Audio.AudioDistanceModel)
+  - Beryl.Audio.IAudioContext.SetListener(Beryl.Audio.IAudioListener)
+  langs:
+  - csharp
+  - vb
+  name: IAudioContext
+  nameWithType: IAudioContext
+  fullName: Beryl.Audio.IAudioContext
+  type: Interface
+  source:
+    id: IAudioContext
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioContext.cs
+    startLine: 8
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Represents an audio context responsible for managing audio sources.
+  example: []
+  syntax:
+    content: public interface IAudioContext
+    content.vb: Public Interface IAudioContext
+  derivedClasses:
+  - Beryl.Audio.AudioModule
+  - Beryl.Audio.Engines.OpenAL.OpenALContext
+- uid: Beryl.Audio.IAudioContext.CreateSource
+  commentId: M:Beryl.Audio.IAudioContext.CreateSource
+  id: CreateSource
+  parent: Beryl.Audio.IAudioContext
+  langs:
+  - csharp
+  - vb
+  name: CreateSource()
+  nameWithType: IAudioContext.CreateSource()
+  fullName: Beryl.Audio.IAudioContext.CreateSource()
+  type: Method
+  source:
+    id: CreateSource
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioContext.cs
+    startLine: 12
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Creates a new audio source and adds it to the context.
+  example: []
+  syntax:
+    content: IAudioSource CreateSource()
+    return:
+      type: Beryl.Audio.IAudioSource
+      description: The created audio source.
+    content.vb: Function CreateSource() As IAudioSource
+  overload: Beryl.Audio.IAudioContext.CreateSource*
+- uid: Beryl.Audio.IAudioContext.DestroySource(Beryl.Audio.IAudioSource)
+  commentId: M:Beryl.Audio.IAudioContext.DestroySource(Beryl.Audio.IAudioSource)
+  id: DestroySource(Beryl.Audio.IAudioSource)
+  parent: Beryl.Audio.IAudioContext
+  langs:
+  - csharp
+  - vb
+  name: DestroySource(IAudioSource)
+  nameWithType: IAudioContext.DestroySource(IAudioSource)
+  fullName: Beryl.Audio.IAudioContext.DestroySource(Beryl.Audio.IAudioSource)
+  type: Method
+  source:
+    id: DestroySource
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioContext.cs
+    startLine: 16
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Destroys an audio source and removes it from the context.
+  example: []
+  syntax:
+    content: void DestroySource(IAudioSource source)
+    parameters:
+    - id: source
+      type: Beryl.Audio.IAudioSource
+      description: The audio source to remove.
+    content.vb: Sub DestroySource(source As IAudioSource)
+  overload: Beryl.Audio.IAudioContext.DestroySource*
+- uid: Beryl.Audio.IAudioContext.CreateListener
+  commentId: M:Beryl.Audio.IAudioContext.CreateListener
+  id: CreateListener
+  parent: Beryl.Audio.IAudioContext
+  langs:
+  - csharp
+  - vb
+  name: CreateListener()
+  nameWithType: IAudioContext.CreateListener()
+  fullName: Beryl.Audio.IAudioContext.CreateListener()
+  type: Method
+  source:
+    id: CreateListener
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioContext.cs
+    startLine: 20
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Creates a new audio listener within the context.
+  example: []
+  syntax:
+    content: IAudioListener CreateListener()
+    return:
+      type: Beryl.Audio.IAudioListener
+      description: The created audio listener.
+    content.vb: Function CreateListener() As IAudioListener
+  overload: Beryl.Audio.IAudioContext.CreateListener*
+- uid: Beryl.Audio.IAudioContext.DestroyListener(Beryl.Audio.IAudioListener)
+  commentId: M:Beryl.Audio.IAudioContext.DestroyListener(Beryl.Audio.IAudioListener)
+  id: DestroyListener(Beryl.Audio.IAudioListener)
+  parent: Beryl.Audio.IAudioContext
+  langs:
+  - csharp
+  - vb
+  name: DestroyListener(IAudioListener)
+  nameWithType: IAudioContext.DestroyListener(IAudioListener)
+  fullName: Beryl.Audio.IAudioContext.DestroyListener(Beryl.Audio.IAudioListener)
+  type: Method
+  source:
+    id: DestroyListener
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioContext.cs
+    startLine: 24
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Destroys an audio listener and removes it from the context.
+  example: []
+  syntax:
+    content: void DestroyListener(IAudioListener listener)
+    parameters:
+    - id: listener
+      type: Beryl.Audio.IAudioListener
+      description: The audio listener to remove.
+    content.vb: Sub DestroyListener(listener As IAudioListener)
+  overload: Beryl.Audio.IAudioContext.DestroyListener*
+- uid: Beryl.Audio.IAudioContext.SetListener(Beryl.Audio.IAudioListener)
+  commentId: M:Beryl.Audio.IAudioContext.SetListener(Beryl.Audio.IAudioListener)
+  id: SetListener(Beryl.Audio.IAudioListener)
+  parent: Beryl.Audio.IAudioContext
+  langs:
+  - csharp
+  - vb
+  name: SetListener(IAudioListener?)
+  nameWithType: IAudioContext.SetListener(IAudioListener?)
+  fullName: Beryl.Audio.IAudioContext.SetListener(Beryl.Audio.IAudioListener?)
+  type: Method
+  source:
+    id: SetListener
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioContext.cs
+    startLine: 28
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Sets the active audio listener for the context.
+  example: []
+  syntax:
+    content: void SetListener(IAudioListener? listener)
+    parameters:
+    - id: listener
+      type: Beryl.Audio.IAudioListener
+      description: The audio listener to make current.
+    content.vb: Sub SetListener(listener As IAudioListener)
+  overload: Beryl.Audio.IAudioContext.SetListener*
+  nameWithType.vb: IAudioContext.SetListener(IAudioListener)
+  fullName.vb: Beryl.Audio.IAudioContext.SetListener(Beryl.Audio.IAudioListener)
+  name.vb: SetListener(IAudioListener)
+- uid: Beryl.Audio.IAudioContext.SetDistanceModel(Beryl.Audio.AudioDistanceModel)
+  commentId: M:Beryl.Audio.IAudioContext.SetDistanceModel(Beryl.Audio.AudioDistanceModel)
+  id: SetDistanceModel(Beryl.Audio.AudioDistanceModel)
+  parent: Beryl.Audio.IAudioContext
+  langs:
+  - csharp
+  - vb
+  name: SetDistanceModel(AudioDistanceModel)
+  nameWithType: IAudioContext.SetDistanceModel(AudioDistanceModel)
+  fullName: Beryl.Audio.IAudioContext.SetDistanceModel(Beryl.Audio.AudioDistanceModel)
+  type: Method
+  source:
+    id: SetDistanceModel
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioContext.cs
+    startLine: 32
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Sets the distance attenuation model used for spatial audio calculations.
+  example: []
+  syntax:
+    content: void SetDistanceModel(AudioDistanceModel model)
+    parameters:
+    - id: model
+      type: Beryl.Audio.AudioDistanceModel
+      description: The distance model to apply.
+    content.vb: Sub SetDistanceModel(model As AudioDistanceModel)
+  overload: Beryl.Audio.IAudioContext.SetDistanceModel*
+references:
+- uid: Beryl.Audio
+  commentId: N:Beryl.Audio
+  href: Beryl.html
+  name: Beryl.Audio
+  nameWithType: Beryl.Audio
+  fullName: Beryl.Audio
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+- uid: Beryl.Audio.IAudioContext.CreateSource*
+  commentId: Overload:Beryl.Audio.IAudioContext.CreateSource
+  href: Beryl.Audio.IAudioContext.html#Beryl_Audio_IAudioContext_CreateSource
+  name: CreateSource
+  nameWithType: IAudioContext.CreateSource
+  fullName: Beryl.Audio.IAudioContext.CreateSource
+- uid: Beryl.Audio.IAudioSource
+  commentId: T:Beryl.Audio.IAudioSource
+  parent: Beryl.Audio
+  href: Beryl.Audio.IAudioSource.html
+  name: IAudioSource
+  nameWithType: IAudioSource
+  fullName: Beryl.Audio.IAudioSource
+- uid: Beryl.Audio.IAudioContext.DestroySource*
+  commentId: Overload:Beryl.Audio.IAudioContext.DestroySource
+  href: Beryl.Audio.IAudioContext.html#Beryl_Audio_IAudioContext_DestroySource_Beryl_Audio_IAudioSource_
+  name: DestroySource
+  nameWithType: IAudioContext.DestroySource
+  fullName: Beryl.Audio.IAudioContext.DestroySource
+- uid: Beryl.Audio.IAudioContext.CreateListener*
+  commentId: Overload:Beryl.Audio.IAudioContext.CreateListener
+  href: Beryl.Audio.IAudioContext.html#Beryl_Audio_IAudioContext_CreateListener
+  name: CreateListener
+  nameWithType: IAudioContext.CreateListener
+  fullName: Beryl.Audio.IAudioContext.CreateListener
+- uid: Beryl.Audio.IAudioListener
+  commentId: T:Beryl.Audio.IAudioListener
+  parent: Beryl.Audio
+  href: Beryl.Audio.IAudioListener.html
+  name: IAudioListener
+  nameWithType: IAudioListener
+  fullName: Beryl.Audio.IAudioListener
+- uid: Beryl.Audio.IAudioContext.DestroyListener*
+  commentId: Overload:Beryl.Audio.IAudioContext.DestroyListener
+  href: Beryl.Audio.IAudioContext.html#Beryl_Audio_IAudioContext_DestroyListener_Beryl_Audio_IAudioListener_
+  name: DestroyListener
+  nameWithType: IAudioContext.DestroyListener
+  fullName: Beryl.Audio.IAudioContext.DestroyListener
+- uid: Beryl.Audio.IAudioContext.SetListener*
+  commentId: Overload:Beryl.Audio.IAudioContext.SetListener
+  href: Beryl.Audio.IAudioContext.html#Beryl_Audio_IAudioContext_SetListener_Beryl_Audio_IAudioListener_
+  name: SetListener
+  nameWithType: IAudioContext.SetListener
+  fullName: Beryl.Audio.IAudioContext.SetListener
+- uid: Beryl.Audio.IAudioContext.SetDistanceModel*
+  commentId: Overload:Beryl.Audio.IAudioContext.SetDistanceModel
+  href: Beryl.Audio.IAudioContext.html#Beryl_Audio_IAudioContext_SetDistanceModel_Beryl_Audio_AudioDistanceModel_
+  name: SetDistanceModel
+  nameWithType: IAudioContext.SetDistanceModel
+  fullName: Beryl.Audio.IAudioContext.SetDistanceModel
+- uid: Beryl.Audio.AudioDistanceModel
+  commentId: T:Beryl.Audio.AudioDistanceModel
+  parent: Beryl.Audio
+  href: Beryl.Audio.AudioDistanceModel.html
+  name: AudioDistanceModel
+  nameWithType: AudioDistanceModel
+  fullName: Beryl.Audio.AudioDistanceModel

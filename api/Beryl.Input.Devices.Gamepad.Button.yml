@@ -1,0 +1,310 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Input.Devices.Gamepad.Button
+  commentId: T:Beryl.Input.Devices.Gamepad.Button
+  id: Gamepad.Button
+  parent: Beryl.Input.Devices
+  children:
+  - Beryl.Input.Devices.Gamepad.Button.ActionDown
+  - Beryl.Input.Devices.Gamepad.Button.ActionLeft
+  - Beryl.Input.Devices.Gamepad.Button.ActionRight
+  - Beryl.Input.Devices.Gamepad.Button.ActionUp
+  - Beryl.Input.Devices.Gamepad.Button.DPadDown
+  - Beryl.Input.Devices.Gamepad.Button.DPadLeft
+  - Beryl.Input.Devices.Gamepad.Button.DPadRight
+  - Beryl.Input.Devices.Gamepad.Button.DPadUp
+  - Beryl.Input.Devices.Gamepad.Button.LeftShoulder
+  - Beryl.Input.Devices.Gamepad.Button.RightShoulder
+  langs:
+  - csharp
+  - vb
+  name: Gamepad.Button
+  nameWithType: Gamepad.Button
+  fullName: Beryl.Input.Devices.Gamepad.Button
+  type: Enum
+  source:
+    id: Button
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 12
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  summary: Represents a Gamepad button.
+  example: []
+  syntax:
+    content: public enum Gamepad.Button
+    content.vb: Public Enum Gamepad.Button
+- uid: Beryl.Input.Devices.Gamepad.Button.LeftShoulder
+  commentId: F:Beryl.Input.Devices.Gamepad.Button.LeftShoulder
+  id: LeftShoulder
+  parent: Beryl.Input.Devices.Gamepad.Button
+  langs:
+  - csharp
+  - vb
+  name: LeftShoulder
+  nameWithType: Gamepad.Button.LeftShoulder
+  fullName: Beryl.Input.Devices.Gamepad.Button.LeftShoulder
+  type: Field
+  source:
+    id: LeftShoulder
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: LeftShoulder = 0
+    return:
+      type: Beryl.Input.Devices.Gamepad.Button
+- uid: Beryl.Input.Devices.Gamepad.Button.RightShoulder
+  commentId: F:Beryl.Input.Devices.Gamepad.Button.RightShoulder
+  id: RightShoulder
+  parent: Beryl.Input.Devices.Gamepad.Button
+  langs:
+  - csharp
+  - vb
+  name: RightShoulder
+  nameWithType: Gamepad.Button.RightShoulder
+  fullName: Beryl.Input.Devices.Gamepad.Button.RightShoulder
+  type: Field
+  source:
+    id: RightShoulder
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 15
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: RightShoulder = 1
+    return:
+      type: Beryl.Input.Devices.Gamepad.Button
+- uid: Beryl.Input.Devices.Gamepad.Button.DPadUp
+  commentId: F:Beryl.Input.Devices.Gamepad.Button.DPadUp
+  id: DPadUp
+  parent: Beryl.Input.Devices.Gamepad.Button
+  langs:
+  - csharp
+  - vb
+  name: DPadUp
+  nameWithType: Gamepad.Button.DPadUp
+  fullName: Beryl.Input.Devices.Gamepad.Button.DPadUp
+  type: Field
+  source:
+    id: DPadUp
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 16
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: DPadUp = 2
+    return:
+      type: Beryl.Input.Devices.Gamepad.Button
+- uid: Beryl.Input.Devices.Gamepad.Button.DPadDown
+  commentId: F:Beryl.Input.Devices.Gamepad.Button.DPadDown
+  id: DPadDown
+  parent: Beryl.Input.Devices.Gamepad.Button
+  langs:
+  - csharp
+  - vb
+  name: DPadDown
+  nameWithType: Gamepad.Button.DPadDown
+  fullName: Beryl.Input.Devices.Gamepad.Button.DPadDown
+  type: Field
+  source:
+    id: DPadDown
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: DPadDown = 3
+    return:
+      type: Beryl.Input.Devices.Gamepad.Button
+- uid: Beryl.Input.Devices.Gamepad.Button.DPadLeft
+  commentId: F:Beryl.Input.Devices.Gamepad.Button.DPadLeft
+  id: DPadLeft
+  parent: Beryl.Input.Devices.Gamepad.Button
+  langs:
+  - csharp
+  - vb
+  name: DPadLeft
+  nameWithType: Gamepad.Button.DPadLeft
+  fullName: Beryl.Input.Devices.Gamepad.Button.DPadLeft
+  type: Field
+  source:
+    id: DPadLeft
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 18
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: DPadLeft = 4
+    return:
+      type: Beryl.Input.Devices.Gamepad.Button
+- uid: Beryl.Input.Devices.Gamepad.Button.DPadRight
+  commentId: F:Beryl.Input.Devices.Gamepad.Button.DPadRight
+  id: DPadRight
+  parent: Beryl.Input.Devices.Gamepad.Button
+  langs:
+  - csharp
+  - vb
+  name: DPadRight
+  nameWithType: Gamepad.Button.DPadRight
+  fullName: Beryl.Input.Devices.Gamepad.Button.DPadRight
+  type: Field
+  source:
+    id: DPadRight
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 19
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: DPadRight = 5
+    return:
+      type: Beryl.Input.Devices.Gamepad.Button
+- uid: Beryl.Input.Devices.Gamepad.Button.ActionDown
+  commentId: F:Beryl.Input.Devices.Gamepad.Button.ActionDown
+  id: ActionDown
+  parent: Beryl.Input.Devices.Gamepad.Button
+  langs:
+  - csharp
+  - vb
+  name: ActionDown
+  nameWithType: Gamepad.Button.ActionDown
+  fullName: Beryl.Input.Devices.Gamepad.Button.ActionDown
+  type: Field
+  source:
+    id: ActionDown
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 20
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: ActionDown = 6
+    return:
+      type: Beryl.Input.Devices.Gamepad.Button
+- uid: Beryl.Input.Devices.Gamepad.Button.ActionRight
+  commentId: F:Beryl.Input.Devices.Gamepad.Button.ActionRight
+  id: ActionRight
+  parent: Beryl.Input.Devices.Gamepad.Button
+  langs:
+  - csharp
+  - vb
+  name: ActionRight
+  nameWithType: Gamepad.Button.ActionRight
+  fullName: Beryl.Input.Devices.Gamepad.Button.ActionRight
+  type: Field
+  source:
+    id: ActionRight
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 21
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: ActionRight = 7
+    return:
+      type: Beryl.Input.Devices.Gamepad.Button
+- uid: Beryl.Input.Devices.Gamepad.Button.ActionLeft
+  commentId: F:Beryl.Input.Devices.Gamepad.Button.ActionLeft
+  id: ActionLeft
+  parent: Beryl.Input.Devices.Gamepad.Button
+  langs:
+  - csharp
+  - vb
+  name: ActionLeft
+  nameWithType: Gamepad.Button.ActionLeft
+  fullName: Beryl.Input.Devices.Gamepad.Button.ActionLeft
+  type: Field
+  source:
+    id: ActionLeft
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 22
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: ActionLeft = 8
+    return:
+      type: Beryl.Input.Devices.Gamepad.Button
+- uid: Beryl.Input.Devices.Gamepad.Button.ActionUp
+  commentId: F:Beryl.Input.Devices.Gamepad.Button.ActionUp
+  id: ActionUp
+  parent: Beryl.Input.Devices.Gamepad.Button
+  langs:
+  - csharp
+  - vb
+  name: ActionUp
+  nameWithType: Gamepad.Button.ActionUp
+  fullName: Beryl.Input.Devices.Gamepad.Button.ActionUp
+  type: Field
+  source:
+    id: ActionUp
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 23
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: ActionUp = 9
+    return:
+      type: Beryl.Input.Devices.Gamepad.Button
+references:
+- uid: Beryl.Input.Devices
+  commentId: N:Beryl.Input.Devices
+  href: Beryl.html
+  name: Beryl.Input.Devices
+  nameWithType: Beryl.Input.Devices
+  fullName: Beryl.Input.Devices
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+- uid: Beryl.Input.Devices.Gamepad.Button
+  commentId: T:Beryl.Input.Devices.Gamepad.Button
+  parent: Beryl.Input.Devices
+  href: Beryl.Input.Devices.Gamepad.html
+  name: Gamepad.Button
+  nameWithType: Gamepad.Button
+  fullName: Beryl.Input.Devices.Gamepad.Button
+  spec.csharp:
+  - uid: Beryl.Input.Devices.Gamepad
+    name: Gamepad
+    href: Beryl.Input.Devices.Gamepad.html
+  - name: .
+  - uid: Beryl.Input.Devices.Gamepad.Button
+    name: Button
+    href: Beryl.Input.Devices.Gamepad.Button.html
+  spec.vb:
+  - uid: Beryl.Input.Devices.Gamepad
+    name: Gamepad
+    href: Beryl.Input.Devices.Gamepad.html
+  - name: .
+  - uid: Beryl.Input.Devices.Gamepad.Button
+    name: Button
+    href: Beryl.Input.Devices.Gamepad.Button.html

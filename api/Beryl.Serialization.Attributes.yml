@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Serialization.Attributes
+  commentId: N:Beryl.Serialization.Attributes
+  id: Attributes
+  parent: Beryl.Serialization
+  children:
+  - Beryl.Serialization.Attributes.AlwaysSerializeAttribute
+  - Beryl.Serialization.Attributes.DontSerializeAttribute
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Serialization.Attributes
+  nameWithType: Beryl.Serialization.Attributes
+  fullName: Beryl.Serialization.Attributes
+  type: Namespace
+  assemblies:
+  - Beryl.Serialization
+references:
+- uid: Beryl.Serialization.Attributes.AlwaysSerializeAttribute
+  commentId: T:Beryl.Serialization.Attributes.AlwaysSerializeAttribute
+  href: Beryl.Serialization.Attributes.AlwaysSerializeAttribute.html
+  name: AlwaysSerializeAttribute
+  nameWithType: AlwaysSerializeAttribute
+  fullName: Beryl.Serialization.Attributes.AlwaysSerializeAttribute
+- uid: Beryl.Serialization.Attributes.DontSerializeAttribute
+  commentId: T:Beryl.Serialization.Attributes.DontSerializeAttribute
+  href: Beryl.Serialization.Attributes.DontSerializeAttribute.html
+  name: DontSerializeAttribute
+  nameWithType: DontSerializeAttribute
+  fullName: Beryl.Serialization.Attributes.DontSerializeAttribute

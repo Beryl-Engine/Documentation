@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Physics.Components.Colliders
+  commentId: N:Beryl.Physics.Components.Colliders
+  id: Colliders
+  parent: Beryl.Physics.Components
+  children:
+  - Beryl.Physics.Components.Colliders.BoxCollider
+  - Beryl.Physics.Components.Colliders.Collider
+  - Beryl.Physics.Components.Colliders.SphereCollider
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Physics.Components.Colliders
+  nameWithType: Beryl.Physics.Components.Colliders
+  fullName: Beryl.Physics.Components.Colliders
+  type: Namespace
+  assemblies:
+  - Beryl.Physics
+references:
+- uid: Beryl.Physics.Components.Colliders.BoxCollider
+  commentId: T:Beryl.Physics.Components.Colliders.BoxCollider
+  parent: Beryl.Physics.Components.Colliders
+  href: Beryl.Physics.Components.Colliders.BoxCollider.html
+  name: BoxCollider
+  nameWithType: BoxCollider
+  fullName: Beryl.Physics.Components.Colliders.BoxCollider
+- uid: Beryl.Physics.Components.Colliders.Collider
+  commentId: T:Beryl.Physics.Components.Colliders.Collider
+  parent: Beryl.Physics.Components.Colliders
+  href: Beryl.Physics.Components.Colliders.Collider.html
+  name: Collider
+  nameWithType: Collider
+  fullName: Beryl.Physics.Components.Colliders.Collider
+- uid: Beryl.Physics.Components.Colliders.SphereCollider
+  commentId: T:Beryl.Physics.Components.Colliders.SphereCollider
+  href: Beryl.Physics.Components.Colliders.SphereCollider.html
+  name: SphereCollider
+  nameWithType: SphereCollider
+  fullName: Beryl.Physics.Components.Colliders.SphereCollider
+- uid: Beryl.Physics.Components.Colliders
+  commentId: N:Beryl.Physics.Components.Colliders
+  href: Beryl.html
+  name: Beryl.Physics.Components.Colliders
+  nameWithType: Beryl.Physics.Components.Colliders
+  fullName: Beryl.Physics.Components.Colliders
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html
+  - name: .
+  - uid: Beryl.Physics.Components.Colliders
+    name: Colliders
+    href: Beryl.Physics.Components.Colliders.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html
+  - name: .
+  - uid: Beryl.Physics.Components.Colliders
+    name: Colliders
+    href: Beryl.Physics.Components.Colliders.html

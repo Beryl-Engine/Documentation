@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Resources.Caches.PipelineCache
+  commentId: T:Beryl.Rendering.Resources.Caches.PipelineCache
+  id: PipelineCache
+  parent: Beryl.Rendering.Resources.Caches
+  children:
+  - Beryl.Rendering.Resources.Caches.PipelineCache.Create(Beryl.RHI.Resources.PipelineDescriptor)
+  langs:
+  - csharp
+  - vb
+  name: PipelineCache
+  nameWithType: PipelineCache
+  fullName: Beryl.Rendering.Resources.Caches.PipelineCache
+  type: Class
+  source:
+    id: PipelineCache
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\PipelineCache.cs
+    startLine: 10
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  summary: Caches graphics pipelines.
+  example: []
+  syntax:
+    content: 'public sealed class PipelineCache : ResourceCache<PipelineCache, PipelineDescriptor, IPipeline>'
+    content.vb: Public NotInheritable Class PipelineCache Inherits ResourceCache(Of PipelineCache, PipelineDescriptor, IPipeline)
+  inheritance:
+  - System.Object
+  - Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}
+  inheritedMembers:
+  - Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Instance
+  - Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Cache
+  - Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.GetOrCreate(Beryl.RHI.Resources.PipelineDescriptor)
+  - Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Get(Beryl.RHI.Resources.PipelineDescriptor)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Rendering.Resources.Caches.PipelineCache.Create(Beryl.RHI.Resources.PipelineDescriptor)
+  commentId: M:Beryl.Rendering.Resources.Caches.PipelineCache.Create(Beryl.RHI.Resources.PipelineDescriptor)
+  id: Create(Beryl.RHI.Resources.PipelineDescriptor)
+  parent: Beryl.Rendering.Resources.Caches.PipelineCache
+  langs:
+  - csharp
+  - vb
+  name: Create(PipelineDescriptor)
+  nameWithType: PipelineCache.Create(PipelineDescriptor)
+  fullName: Beryl.Rendering.Resources.Caches.PipelineCache.Create(Beryl.RHI.Resources.PipelineDescriptor)
+  type: Method
+  source:
+    id: Create
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\PipelineCache.cs
+    startLine: 13
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  summary: Creates a new <xref href="Beryl.RHI.Resources.IPipeline" data-throw-if-not-resolved="false"></xref> for the given key.
+  example: []
+  syntax:
+    content: protected override IPipeline Create(PipelineDescriptor key)
+    parameters:
+    - id: key
+      type: Beryl.RHI.Resources.PipelineDescriptor
+    return:
+      type: Beryl.RHI.Resources.IPipeline
+    content.vb: Protected Overrides Function Create(key As PipelineDescriptor) As IPipeline
+  overridden: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Create(Beryl.RHI.Resources.PipelineDescriptor)
+  overload: Beryl.Rendering.Resources.Caches.PipelineCache.Create*
+references:
+- uid: Beryl.Rendering.Resources.Caches
+  commentId: N:Beryl.Rendering.Resources.Caches
+  href: Beryl.html
+  name: Beryl.Rendering.Resources.Caches
+  nameWithType: Beryl.Rendering.Resources.Caches
+  fullName: Beryl.Rendering.Resources.Caches
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  - name: .
+  - uid: Beryl.Rendering.Resources.Caches
+    name: Caches
+    href: Beryl.Rendering.Resources.Caches.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  - name: .
+  - uid: Beryl.Rendering.Resources.Caches
+    name: Caches
+    href: Beryl.Rendering.Resources.Caches.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}
+  commentId: T:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}
+  parent: Beryl.Rendering.Resources.Caches
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  name: ResourceCache<PipelineCache, PipelineDescriptor, IPipeline>
+  nameWithType: ResourceCache<PipelineCache, PipelineDescriptor, IPipeline>
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline>
+  nameWithType.vb: ResourceCache(Of PipelineCache, PipelineDescriptor, IPipeline)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline)
+  name.vb: ResourceCache(Of PipelineCache, PipelineDescriptor, IPipeline)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: <
+  - uid: Beryl.Rendering.Resources.Caches.PipelineCache
+    name: PipelineCache
+    href: Beryl.Rendering.Resources.Caches.PipelineCache.html
+  - name: ','
+  - name: " "
+  - uid: Beryl.RHI.Resources.PipelineDescriptor
+    name: PipelineDescriptor
+    href: Beryl.RHI.Resources.PipelineDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: Beryl.RHI.Resources.IPipeline
+    name: IPipeline
+    href: Beryl.RHI.Resources.IPipeline.html
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Rendering.Resources.Caches.PipelineCache
+    name: PipelineCache
+    href: Beryl.Rendering.Resources.Caches.PipelineCache.html
+  - name: ','
+  - name: " "
+  - uid: Beryl.RHI.Resources.PipelineDescriptor
+    name: PipelineDescriptor
+    href: Beryl.RHI.Resources.PipelineDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: Beryl.RHI.Resources.IPipeline
+    name: IPipeline
+    href: Beryl.RHI.Resources.IPipeline.html
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Instance
+  commentId: P:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Instance
+  parent: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3.Instance
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Instance
+  name: Instance
+  nameWithType: ResourceCache<PipelineCache, PipelineDescriptor, IPipeline>.Instance
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline>.Instance
+  nameWithType.vb: ResourceCache(Of PipelineCache, PipelineDescriptor, IPipeline).Instance
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline).Instance
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Cache
+  commentId: P:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Cache
+  parent: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3.Cache
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Cache
+  name: Cache
+  nameWithType: ResourceCache<PipelineCache, PipelineDescriptor, IPipeline>.Cache
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline>.Cache
+  nameWithType.vb: ResourceCache(Of PipelineCache, PipelineDescriptor, IPipeline).Cache
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline).Cache
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.GetOrCreate(Beryl.RHI.Resources.PipelineDescriptor)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.GetOrCreate(Beryl.RHI.Resources.PipelineDescriptor)
+  parent: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  name: GetOrCreate(PipelineDescriptor)
+  nameWithType: ResourceCache<PipelineCache, PipelineDescriptor, IPipeline>.GetOrCreate(PipelineDescriptor)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline>.GetOrCreate(Beryl.RHI.Resources.PipelineDescriptor)
+  nameWithType.vb: ResourceCache(Of PipelineCache, PipelineDescriptor, IPipeline).GetOrCreate(PipelineDescriptor)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline).GetOrCreate(Beryl.RHI.Resources.PipelineDescriptor)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.GetOrCreate(Beryl.RHI.Resources.PipelineDescriptor)
+    name: GetOrCreate
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.PipelineDescriptor
+    name: PipelineDescriptor
+    href: Beryl.RHI.Resources.PipelineDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.GetOrCreate(Beryl.RHI.Resources.PipelineDescriptor)
+    name: GetOrCreate
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.PipelineDescriptor
+    name: PipelineDescriptor
+    href: Beryl.RHI.Resources.PipelineDescriptor.html
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Get(Beryl.RHI.Resources.PipelineDescriptor)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Get(Beryl.RHI.Resources.PipelineDescriptor)
+  parent: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(PipelineDescriptor)
+  nameWithType: ResourceCache<PipelineCache, PipelineDescriptor, IPipeline>.Get(PipelineDescriptor)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline>.Get(Beryl.RHI.Resources.PipelineDescriptor)
+  nameWithType.vb: ResourceCache(Of PipelineCache, PipelineDescriptor, IPipeline).Get(PipelineDescriptor)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline).Get(Beryl.RHI.Resources.PipelineDescriptor)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Get(Beryl.RHI.Resources.PipelineDescriptor)
+    name: Get
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.PipelineDescriptor
+    name: PipelineDescriptor
+    href: Beryl.RHI.Resources.PipelineDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Get(Beryl.RHI.Resources.PipelineDescriptor)
+    name: Get
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.PipelineDescriptor
+    name: PipelineDescriptor
+    href: Beryl.RHI.Resources.PipelineDescriptor.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+  commentId: T:Beryl.Rendering.Resources.Caches.ResourceCache`3
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  name: ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource)
+  name.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: <
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Instance
+  commentId: P:Beryl.Rendering.Resources.Caches.ResourceCache`3.Instance
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Instance
+  name: Instance
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Instance
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Instance
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Instance
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Instance
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Cache
+  commentId: P:Beryl.Rendering.Resources.Caches.ResourceCache`3.Cache
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Cache
+  name: Cache
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Cache
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Cache
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Cache
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  name: GetOrCreate(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.GetOrCreate(TKey)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.GetOrCreate(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).GetOrCreate(TKey)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+    name: GetOrCreate
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.GetOrCreate(`1)
+    name: GetOrCreate
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_GetOrCreate__1_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  name: Get(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Get(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Get(TKey)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Get(`1)
+    name: Get
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Get__1_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Beryl.RHI.Resources.IPipeline
+  commentId: T:Beryl.RHI.Resources.IPipeline
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IPipeline.html
+  name: IPipeline
+  nameWithType: IPipeline
+  fullName: Beryl.RHI.Resources.IPipeline
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Create(Beryl.RHI.Resources.PipelineDescriptor)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Create(Beryl.RHI.Resources.PipelineDescriptor)
+  parent: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}
+  definition: Beryl.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  name: Create(PipelineDescriptor)
+  nameWithType: ResourceCache<PipelineCache, PipelineDescriptor, IPipeline>.Create(PipelineDescriptor)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline>.Create(Beryl.RHI.Resources.PipelineDescriptor)
+  nameWithType.vb: ResourceCache(Of PipelineCache, PipelineDescriptor, IPipeline).Create(PipelineDescriptor)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of Beryl.Rendering.Resources.Caches.PipelineCache, Beryl.RHI.Resources.PipelineDescriptor, Beryl.RHI.Resources.IPipeline).Create(Beryl.RHI.Resources.PipelineDescriptor)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Create(Beryl.RHI.Resources.PipelineDescriptor)
+    name: Create
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.PipelineDescriptor
+    name: PipelineDescriptor
+    href: Beryl.RHI.Resources.PipelineDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache{Beryl.Rendering.Resources.Caches.PipelineCache,Beryl.RHI.Resources.PipelineDescriptor,Beryl.RHI.Resources.IPipeline}.Create(Beryl.RHI.Resources.PipelineDescriptor)
+    name: Create
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - uid: Beryl.RHI.Resources.PipelineDescriptor
+    name: PipelineDescriptor
+    href: Beryl.RHI.Resources.PipelineDescriptor.html
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.PipelineCache.Create*
+  commentId: Overload:Beryl.Rendering.Resources.Caches.PipelineCache.Create
+  href: Beryl.Rendering.Resources.Caches.PipelineCache.html#Beryl_Rendering_Resources_Caches_PipelineCache_Create_Beryl_RHI_Resources_PipelineDescriptor_
+  name: Create
+  nameWithType: PipelineCache.Create
+  fullName: Beryl.Rendering.Resources.Caches.PipelineCache.Create
+- uid: Beryl.RHI.Resources.PipelineDescriptor
+  commentId: T:Beryl.RHI.Resources.PipelineDescriptor
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.PipelineDescriptor.html
+  name: PipelineDescriptor
+  nameWithType: PipelineDescriptor
+  fullName: Beryl.RHI.Resources.PipelineDescriptor
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  commentId: M:Beryl.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  name: Create(TKey)
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>.Create(TKey)
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>.Create(TKey)
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource).Create(TKey)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource).Create(TKey)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+    name: Create
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3.Create(`1)
+    name: Create
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html#Beryl_Rendering_Resources_Caches_ResourceCache_3_Create__1_
+  - name: (
+  - name: TKey
+  - name: )

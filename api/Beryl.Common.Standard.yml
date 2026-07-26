@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Common.Standard
+  commentId: N:Beryl.Common.Standard
+  id: Standard
+  parent: Beryl.Common
+  children:
+  - Beryl.Common.Standard.IAlwaysHashable
+  - Beryl.Common.Standard.RentedArray`1
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Common.Standard
+  nameWithType: Beryl.Common.Standard
+  fullName: Beryl.Common.Standard
+  type: Namespace
+  assemblies:
+  - Beryl.Common
+references:
+- uid: Beryl.Common.Standard.IAlwaysHashable
+  commentId: T:Beryl.Common.Standard.IAlwaysHashable
+  parent: Beryl.Common.Standard
+  href: Beryl.Common.Standard.IAlwaysHashable.html
+  name: IAlwaysHashable
+  nameWithType: IAlwaysHashable
+  fullName: Beryl.Common.Standard.IAlwaysHashable
+- uid: Beryl.Common.Standard.RentedArray`1
+  commentId: T:Beryl.Common.Standard.RentedArray`1
+  href: Beryl.Common.Standard.RentedArray-1.html
+  name: RentedArray<T>
+  nameWithType: RentedArray<T>
+  fullName: Beryl.Common.Standard.RentedArray<T>
+  nameWithType.vb: RentedArray(Of T)
+  fullName.vb: Beryl.Common.Standard.RentedArray(Of T)
+  name.vb: RentedArray(Of T)
+  spec.csharp:
+  - uid: Beryl.Common.Standard.RentedArray`1
+    name: RentedArray
+    href: Beryl.Common.Standard.RentedArray-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Common.Standard.RentedArray`1
+    name: RentedArray
+    href: Beryl.Common.Standard.RentedArray-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Beryl.Common.Standard
+  commentId: N:Beryl.Common.Standard
+  href: Beryl.html
+  name: Beryl.Common.Standard
+  nameWithType: Beryl.Common.Standard
+  fullName: Beryl.Common.Standard
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Standard
+    name: Standard
+    href: Beryl.Common.Standard.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Standard
+    name: Standard
+    href: Beryl.Common.Standard.html

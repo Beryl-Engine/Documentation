@@ -1,0 +1,629 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Common.Window
+  commentId: T:Beryl.Common.Window
+  id: Window
+  parent: Beryl.Common
+  children:
+  - Beryl.Common.Window.#ctor
+  - Beryl.Common.Window.FramesPerSecond
+  - Beryl.Common.Window.InternalWindow
+  - Beryl.Common.Window.Position
+  - Beryl.Common.Window.Run
+  - Beryl.Common.Window.Size
+  - Beryl.Common.Window.Title
+  langs:
+  - csharp
+  - vb
+  name: Window
+  nameWithType: Window
+  fullName: Beryl.Common.Window
+  type: Class
+  source:
+    id: Window
+    path: E:\Beryl\Documentation\src\Beryl.Common\Window.cs
+    startLine: 12
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common
+  summary: A Platform-agnostic Window.
+  example: []
+  syntax:
+    content: public class Window
+    content.vb: Public Class Window
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Common.Window.InternalWindow
+  commentId: P:Beryl.Common.Window.InternalWindow
+  id: InternalWindow
+  parent: Beryl.Common.Window
+  langs:
+  - csharp
+  - vb
+  name: InternalWindow
+  nameWithType: Window.InternalWindow
+  fullName: Beryl.Common.Window.InternalWindow
+  type: Property
+  source:
+    id: InternalWindow
+    path: E:\Beryl\Documentation\src\Beryl.Common\Window.cs
+    startLine: 15
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common
+  summary: The internal Silk.NET window.
+  example: []
+  syntax:
+    content: public IWindow InternalWindow { get; }
+    parameters: []
+    return:
+      type: Silk.NET.Windowing.IWindow
+    content.vb: Public ReadOnly Property InternalWindow As IWindow
+  overload: Beryl.Common.Window.InternalWindow*
+- uid: Beryl.Common.Window.Size
+  commentId: P:Beryl.Common.Window.Size
+  id: Size
+  parent: Beryl.Common.Window
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: Window.Size
+  fullName: Beryl.Common.Window.Size
+  type: Property
+  source:
+    id: Size
+    path: E:\Beryl\Documentation\src\Beryl.Common\Window.cs
+    startLine: 18
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common
+  summary: The size of the window.
+  example: []
+  syntax:
+    content: public Vector2I Size { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public ReadOnly Property Size As Vector2I
+  overload: Beryl.Common.Window.Size*
+- uid: Beryl.Common.Window.Position
+  commentId: P:Beryl.Common.Window.Position
+  id: Position
+  parent: Beryl.Common.Window
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Window.Position
+  fullName: Beryl.Common.Window.Position
+  type: Property
+  source:
+    id: Position
+    path: E:\Beryl\Documentation\src\Beryl.Common\Window.cs
+    startLine: 21
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common
+  summary: The position of the window.
+  example: []
+  syntax:
+    content: public Vector2I Position { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public ReadOnly Property Position As Vector2I
+  overload: Beryl.Common.Window.Position*
+- uid: Beryl.Common.Window.FramesPerSecond
+  commentId: P:Beryl.Common.Window.FramesPerSecond
+  id: FramesPerSecond
+  parent: Beryl.Common.Window
+  langs:
+  - csharp
+  - vb
+  name: FramesPerSecond
+  nameWithType: Window.FramesPerSecond
+  fullName: Beryl.Common.Window.FramesPerSecond
+  type: Property
+  source:
+    id: FramesPerSecond
+    path: E:\Beryl\Documentation\src\Beryl.Common\Window.cs
+    startLine: 24
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common
+  summary: The current frame rate of the window.
+  example: []
+  syntax:
+    content: public int FramesPerSecond { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property FramesPerSecond As Integer
+  overload: Beryl.Common.Window.FramesPerSecond*
+- uid: Beryl.Common.Window.Title
+  commentId: P:Beryl.Common.Window.Title
+  id: Title
+  parent: Beryl.Common.Window
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: Window.Title
+  fullName: Beryl.Common.Window.Title
+  type: Property
+  source:
+    id: Title
+    path: E:\Beryl\Documentation\src\Beryl.Common\Window.cs
+    startLine: 27
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common
+  summary: The title of the window.
+  example: []
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Beryl.Common.Window.Title*
+- uid: Beryl.Common.Window.#ctor
+  commentId: M:Beryl.Common.Window.#ctor
+  id: '#ctor'
+  parent: Beryl.Common.Window
+  langs:
+  - csharp
+  - vb
+  name: Window()
+  nameWithType: Window.Window()
+  fullName: Beryl.Common.Window.Window()
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Beryl.Common\Window.cs
+    startLine: 30
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common
+  summary: Initializes a new instance of the <xref href="Beryl.Common.Window" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public Window()
+    content.vb: Public Sub New()
+  overload: Beryl.Common.Window.#ctor*
+  nameWithType.vb: Window.New()
+  fullName.vb: Beryl.Common.Window.New()
+  name.vb: New()
+- uid: Beryl.Common.Window.Run
+  commentId: M:Beryl.Common.Window.Run
+  id: Run
+  parent: Beryl.Common.Window
+  langs:
+  - csharp
+  - vb
+  name: Run()
+  nameWithType: Window.Run()
+  fullName: Beryl.Common.Window.Run()
+  type: Method
+  source:
+    id: Run
+    path: E:\Beryl\Documentation\src\Beryl.Common\Window.cs
+    startLine: 43
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common
+  summary: Starts the window loop.
+  example: []
+  syntax:
+    content: public void Run()
+    content.vb: Public Sub Run()
+  overload: Beryl.Common.Window.Run*
+references:
+- uid: Beryl.Common
+  commentId: N:Beryl.Common
+  href: Beryl.html
+  name: Beryl.Common
+  nameWithType: Beryl.Common
+  fullName: Beryl.Common
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Common.Window.InternalWindow*
+  commentId: Overload:Beryl.Common.Window.InternalWindow
+  href: Beryl.Common.Window.html#Beryl_Common_Window_InternalWindow
+  name: InternalWindow
+  nameWithType: Window.InternalWindow
+  fullName: Beryl.Common.Window.InternalWindow
+- uid: Silk.NET.Windowing.IWindow
+  commentId: T:Silk.NET.Windowing.IWindow
+  parent: Silk.NET.Windowing
+  isExternal: true
+  name: IWindow
+  nameWithType: IWindow
+  fullName: Silk.NET.Windowing.IWindow
+- uid: Silk.NET.Windowing
+  commentId: N:Silk.NET.Windowing
+  isExternal: true
+  name: Silk.NET.Windowing
+  nameWithType: Silk.NET.Windowing
+  fullName: Silk.NET.Windowing
+  spec.csharp:
+  - uid: Silk
+    name: Silk
+    isExternal: true
+  - name: .
+  - uid: Silk.NET
+    name: NET
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.Windowing
+    name: Windowing
+    isExternal: true
+  spec.vb:
+  - uid: Silk
+    name: Silk
+    isExternal: true
+  - name: .
+  - uid: Silk.NET
+    name: NET
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.Windowing
+    name: Windowing
+    isExternal: true
+- uid: Beryl.Common.Window.Size*
+  commentId: Overload:Beryl.Common.Window.Size
+  href: Beryl.Common.Window.html#Beryl_Common_Window_Size
+  name: Size
+  nameWithType: Window.Size
+  fullName: Beryl.Common.Window.Size
+- uid: Beryl.Math.Vector2I
+  commentId: T:Beryl.Math.Vector2I
+  parent: Beryl.Math
+  href: Beryl.Math.Vector2I.html
+  name: Vector2I
+  nameWithType: Vector2I
+  fullName: Beryl.Math.Vector2I
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: Beryl.Common.Window.Position*
+  commentId: Overload:Beryl.Common.Window.Position
+  href: Beryl.Common.Window.html#Beryl_Common_Window_Position
+  name: Position
+  nameWithType: Window.Position
+  fullName: Beryl.Common.Window.Position
+- uid: Beryl.Common.Window.FramesPerSecond*
+  commentId: Overload:Beryl.Common.Window.FramesPerSecond
+  href: Beryl.Common.Window.html#Beryl_Common_Window_FramesPerSecond
+  name: FramesPerSecond
+  nameWithType: Window.FramesPerSecond
+  fullName: Beryl.Common.Window.FramesPerSecond
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Beryl.Common.Window.Title*
+  commentId: Overload:Beryl.Common.Window.Title
+  href: Beryl.Common.Window.html#Beryl_Common_Window_Title
+  name: Title
+  nameWithType: Window.Title
+  fullName: Beryl.Common.Window.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Beryl.Common.Window
+  commentId: T:Beryl.Common.Window
+  parent: Beryl.Common
+  href: Beryl.Common.Window.html
+  name: Window
+  nameWithType: Window
+  fullName: Beryl.Common.Window
+- uid: Beryl.Common.Window.#ctor*
+  commentId: Overload:Beryl.Common.Window.#ctor
+  href: Beryl.Common.Window.html#Beryl_Common_Window__ctor
+  name: Window
+  nameWithType: Window.Window
+  fullName: Beryl.Common.Window.Window
+  nameWithType.vb: Window.New
+  fullName.vb: Beryl.Common.Window.New
+  name.vb: New
+- uid: Beryl.Common.Window.Run*
+  commentId: Overload:Beryl.Common.Window.Run
+  href: Beryl.Common.Window.html#Beryl_Common_Window_Run
+  name: Run
+  nameWithType: Window.Run
+  fullName: Beryl.Common.Window.Run

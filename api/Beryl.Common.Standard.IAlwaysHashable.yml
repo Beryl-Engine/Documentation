@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Common.Standard.IAlwaysHashable
+  commentId: T:Beryl.Common.Standard.IAlwaysHashable
+  id: IAlwaysHashable
+  parent: Beryl.Common.Standard
+  children:
+  - Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+  langs:
+  - csharp
+  - vb
+  name: IAlwaysHashable
+  nameWithType: IAlwaysHashable
+  fullName: Beryl.Common.Standard.IAlwaysHashable
+  type: Interface
+  source:
+    id: IAlwaysHashable
+    path: E:\Beryl\Documentation\src\Beryl.Common\Standard\IAlwaysHashable.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common.Standard
+  summary: Defines a type that always has an implementation of <xref href="Beryl.Common.Standard.IAlwaysHashable.GetHashCode" data-throw-if-not-resolved="false"></xref> or <xref href="System.Object.GetHashCode" data-throw-if-not-resolved="false"></xref>.
+  remarks: This interface is useful for implementing non-boxing hash functions. For instance, it is the only type constraint that can be used to get the hash code of a <code>ref struct</code> without throwing <xref href="System.Object" data-throw-if-not-resolved="false"></xref> boxing errors.
+  example: []
+  syntax:
+    content: public interface IAlwaysHashable
+    content.vb: Public Interface IAlwaysHashable
+  derivedClasses:
+  - Beryl.RHI.Resources.BufferDescriptor
+  - Beryl.RHI.Resources.NamedBufferDescriptor
+  - Beryl.RHI.Resources.PipelineDescriptor
+  - Beryl.RHI.Resources.ResourceDescriptor
+  - Beryl.RHI.Resources.ResourceLayoutDescriptor
+  - Beryl.RHI.Resources.SamplerDescriptor
+  - Beryl.RHI.Resources.ShaderDescriptor
+  - Beryl.RHI.Resources.TextureDescriptor
+  - Beryl.RHI.Resources.TextureViewDescriptor
+  - Beryl.Rendering.Resources.Caches.RenderItemKey
+- uid: Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+  commentId: M:Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+  id: GetHashCode
+  parent: Beryl.Common.Standard.IAlwaysHashable
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: IAlwaysHashable.GetHashCode()
+  fullName: Beryl.Common.Standard.IAlwaysHashable.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: E:\Beryl\Documentation\src\Beryl.Common\Standard\IAlwaysHashable.cs
+    startLine: 13
+  assemblies:
+  - Beryl.Common
+  namespace: Beryl.Common.Standard
+  syntax:
+    content: int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Function GetHashCode() As Integer
+  overload: Beryl.Common.Standard.IAlwaysHashable.GetHashCode*
+references:
+- uid: Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+  commentId: M:Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+  parent: Beryl.Common.Standard.IAlwaysHashable
+  href: Beryl.Common.Standard.IAlwaysHashable.html#Beryl_Common_Standard_IAlwaysHashable_GetHashCode
+  name: GetHashCode()
+  nameWithType: IAlwaysHashable.GetHashCode()
+  fullName: Beryl.Common.Standard.IAlwaysHashable.GetHashCode()
+  spec.csharp:
+  - uid: Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Beryl.Common.Standard.IAlwaysHashable.html#Beryl_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Beryl.Common.Standard.IAlwaysHashable.html#Beryl_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Common.Standard
+  commentId: N:Beryl.Common.Standard
+  href: Beryl.html
+  name: Beryl.Common.Standard
+  nameWithType: Beryl.Common.Standard
+  fullName: Beryl.Common.Standard
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Standard
+    name: Standard
+    href: Beryl.Common.Standard.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Standard
+    name: Standard
+    href: Beryl.Common.Standard.html
+- uid: Beryl.Common.Standard.IAlwaysHashable
+  commentId: T:Beryl.Common.Standard.IAlwaysHashable
+  parent: Beryl.Common.Standard
+  href: Beryl.Common.Standard.IAlwaysHashable.html
+  name: IAlwaysHashable
+  nameWithType: IAlwaysHashable
+  fullName: Beryl.Common.Standard.IAlwaysHashable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Common.Standard.IAlwaysHashable.GetHashCode*
+  commentId: Overload:Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+  href: Beryl.Common.Standard.IAlwaysHashable.html#Beryl_Common_Standard_IAlwaysHashable_GetHashCode
+  name: GetHashCode
+  nameWithType: IAlwaysHashable.GetHashCode
+  fullName: Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

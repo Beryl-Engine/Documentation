@@ -1,0 +1,724 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Resources.Caches.RenderItemKey
+  commentId: T:Beryl.Rendering.Resources.Caches.RenderItemKey
+  id: RenderItemKey
+  parent: Beryl.Rendering.Resources.Caches
+  children:
+  - Beryl.Rendering.Resources.Caches.RenderItemKey.#ctor(System.ReadOnlySpan{Beryl.Math.Vector3},System.ReadOnlySpan{Beryl.Math.Vector3},System.ReadOnlySpan{Beryl.Math.Vector2},System.ReadOnlySpan{System.UInt32},Beryl.RHI.Resources.PipelineDescriptor)
+  - Beryl.Rendering.Resources.Caches.RenderItemKey.GetHashCode
+  - Beryl.Rendering.Resources.Caches.RenderItemKey.Indices
+  - Beryl.Rendering.Resources.Caches.RenderItemKey.Pipeline
+  - Beryl.Rendering.Resources.Caches.RenderItemKey.VertexNormals
+  - Beryl.Rendering.Resources.Caches.RenderItemKey.VertexPositions
+  - Beryl.Rendering.Resources.Caches.RenderItemKey.VertexUVs
+  langs:
+  - csharp
+  - vb
+  name: RenderItemKey
+  nameWithType: RenderItemKey
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemKey
+  type: Struct
+  source:
+    id: RenderItemKey
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\RenderItemCache.cs
+    startLine: 43
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  syntax:
+    content: 'public readonly ref struct RenderItemKey : IAlwaysHashable'
+    content.vb: Public Structure RenderItemKey Implements IAlwaysHashable
+  implements:
+  - Beryl.Common.Standard.IAlwaysHashable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Beryl.Rendering.Resources.Caches.RenderItemKey.#ctor(System.ReadOnlySpan{Beryl.Math.Vector3},System.ReadOnlySpan{Beryl.Math.Vector3},System.ReadOnlySpan{Beryl.Math.Vector2},System.ReadOnlySpan{System.UInt32},Beryl.RHI.Resources.PipelineDescriptor)
+  commentId: M:Beryl.Rendering.Resources.Caches.RenderItemKey.#ctor(System.ReadOnlySpan{Beryl.Math.Vector3},System.ReadOnlySpan{Beryl.Math.Vector3},System.ReadOnlySpan{Beryl.Math.Vector2},System.ReadOnlySpan{System.UInt32},Beryl.RHI.Resources.PipelineDescriptor)
+  id: '#ctor(System.ReadOnlySpan{Beryl.Math.Vector3},System.ReadOnlySpan{Beryl.Math.Vector3},System.ReadOnlySpan{Beryl.Math.Vector2},System.ReadOnlySpan{System.UInt32},Beryl.RHI.Resources.PipelineDescriptor)'
+  parent: Beryl.Rendering.Resources.Caches.RenderItemKey
+  langs:
+  - csharp
+  - vb
+  name: RenderItemKey(ReadOnlySpan<Vector3>, ReadOnlySpan<Vector3>, ReadOnlySpan<Vector2>, ReadOnlySpan<uint>, PipelineDescriptor)
+  nameWithType: RenderItemKey.RenderItemKey(ReadOnlySpan<Vector3>, ReadOnlySpan<Vector3>, ReadOnlySpan<Vector2>, ReadOnlySpan<uint>, PipelineDescriptor)
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemKey.RenderItemKey(System.ReadOnlySpan<Beryl.Math.Vector3>, System.ReadOnlySpan<Beryl.Math.Vector3>, System.ReadOnlySpan<Beryl.Math.Vector2>, System.ReadOnlySpan<uint>, Beryl.RHI.Resources.PipelineDescriptor)
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\RenderItemCache.cs
+    startLine: 43
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  syntax:
+    content: public RenderItemKey(ReadOnlySpan<Vector3> vertexPositions, ReadOnlySpan<Vector3> vertexNormals, ReadOnlySpan<Vector2> vertexUVs, ReadOnlySpan<uint> indices, PipelineDescriptor pipeline)
+    parameters:
+    - id: vertexPositions
+      type: System.ReadOnlySpan{Beryl.Math.Vector3}
+    - id: vertexNormals
+      type: System.ReadOnlySpan{Beryl.Math.Vector3}
+    - id: vertexUVs
+      type: System.ReadOnlySpan{Beryl.Math.Vector2}
+    - id: indices
+      type: System.ReadOnlySpan{System.UInt32}
+    - id: pipeline
+      type: Beryl.RHI.Resources.PipelineDescriptor
+    content.vb: Public Sub New(vertexPositions As ReadOnlySpan(Of Vector3), vertexNormals As ReadOnlySpan(Of Vector3), vertexUVs As ReadOnlySpan(Of Vector2), indices As ReadOnlySpan(Of UInteger), pipeline As PipelineDescriptor)
+  overload: Beryl.Rendering.Resources.Caches.RenderItemKey.#ctor*
+  nameWithType.vb: RenderItemKey.New(ReadOnlySpan(Of Vector3), ReadOnlySpan(Of Vector3), ReadOnlySpan(Of Vector2), ReadOnlySpan(Of UInteger), PipelineDescriptor)
+  fullName.vb: Beryl.Rendering.Resources.Caches.RenderItemKey.New(System.ReadOnlySpan(Of Beryl.Math.Vector3), System.ReadOnlySpan(Of Beryl.Math.Vector3), System.ReadOnlySpan(Of Beryl.Math.Vector2), System.ReadOnlySpan(Of UInteger), Beryl.RHI.Resources.PipelineDescriptor)
+  name.vb: New(ReadOnlySpan(Of Vector3), ReadOnlySpan(Of Vector3), ReadOnlySpan(Of Vector2), ReadOnlySpan(Of UInteger), PipelineDescriptor)
+- uid: Beryl.Rendering.Resources.Caches.RenderItemKey.VertexPositions
+  commentId: F:Beryl.Rendering.Resources.Caches.RenderItemKey.VertexPositions
+  id: VertexPositions
+  parent: Beryl.Rendering.Resources.Caches.RenderItemKey
+  langs:
+  - csharp
+  - vb
+  name: VertexPositions
+  nameWithType: RenderItemKey.VertexPositions
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemKey.VertexPositions
+  type: Field
+  source:
+    id: VertexPositions
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\RenderItemCache.cs
+    startLine: 45
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  syntax:
+    content: public readonly ReadOnlySpan<Vector3> VertexPositions
+    return:
+      type: System.ReadOnlySpan{Beryl.Math.Vector3}
+    content.vb: Public ReadOnly VertexPositions As ReadOnlySpan(Of Vector3)
+- uid: Beryl.Rendering.Resources.Caches.RenderItemKey.VertexNormals
+  commentId: F:Beryl.Rendering.Resources.Caches.RenderItemKey.VertexNormals
+  id: VertexNormals
+  parent: Beryl.Rendering.Resources.Caches.RenderItemKey
+  langs:
+  - csharp
+  - vb
+  name: VertexNormals
+  nameWithType: RenderItemKey.VertexNormals
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemKey.VertexNormals
+  type: Field
+  source:
+    id: VertexNormals
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\RenderItemCache.cs
+    startLine: 46
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  syntax:
+    content: public readonly ReadOnlySpan<Vector3> VertexNormals
+    return:
+      type: System.ReadOnlySpan{Beryl.Math.Vector3}
+    content.vb: Public ReadOnly VertexNormals As ReadOnlySpan(Of Vector3)
+- uid: Beryl.Rendering.Resources.Caches.RenderItemKey.VertexUVs
+  commentId: F:Beryl.Rendering.Resources.Caches.RenderItemKey.VertexUVs
+  id: VertexUVs
+  parent: Beryl.Rendering.Resources.Caches.RenderItemKey
+  langs:
+  - csharp
+  - vb
+  name: VertexUVs
+  nameWithType: RenderItemKey.VertexUVs
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemKey.VertexUVs
+  type: Field
+  source:
+    id: VertexUVs
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\RenderItemCache.cs
+    startLine: 47
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  syntax:
+    content: public readonly ReadOnlySpan<Vector2> VertexUVs
+    return:
+      type: System.ReadOnlySpan{Beryl.Math.Vector2}
+    content.vb: Public ReadOnly VertexUVs As ReadOnlySpan(Of Vector2)
+- uid: Beryl.Rendering.Resources.Caches.RenderItemKey.Indices
+  commentId: F:Beryl.Rendering.Resources.Caches.RenderItemKey.Indices
+  id: Indices
+  parent: Beryl.Rendering.Resources.Caches.RenderItemKey
+  langs:
+  - csharp
+  - vb
+  name: Indices
+  nameWithType: RenderItemKey.Indices
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemKey.Indices
+  type: Field
+  source:
+    id: Indices
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\RenderItemCache.cs
+    startLine: 48
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  syntax:
+    content: public readonly ReadOnlySpan<uint> Indices
+    return:
+      type: System.ReadOnlySpan{System.UInt32}
+    content.vb: Public ReadOnly Indices As ReadOnlySpan(Of UInteger)
+- uid: Beryl.Rendering.Resources.Caches.RenderItemKey.Pipeline
+  commentId: F:Beryl.Rendering.Resources.Caches.RenderItemKey.Pipeline
+  id: Pipeline
+  parent: Beryl.Rendering.Resources.Caches.RenderItemKey
+  langs:
+  - csharp
+  - vb
+  name: Pipeline
+  nameWithType: RenderItemKey.Pipeline
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemKey.Pipeline
+  type: Field
+  source:
+    id: Pipeline
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\RenderItemCache.cs
+    startLine: 49
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  syntax:
+    content: public readonly PipelineDescriptor Pipeline
+    return:
+      type: Beryl.RHI.Resources.PipelineDescriptor
+    content.vb: Public ReadOnly Pipeline As PipelineDescriptor
+- uid: Beryl.Rendering.Resources.Caches.RenderItemKey.GetHashCode
+  commentId: M:Beryl.Rendering.Resources.Caches.RenderItemKey.GetHashCode
+  id: GetHashCode
+  parent: Beryl.Rendering.Resources.Caches.RenderItemKey
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: RenderItemKey.GetHashCode()
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemKey.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\Caches\RenderItemCache.cs
+    startLine: 52
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources.Caches
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Beryl.Rendering.Resources.Caches.RenderItemKey.GetHashCode*
+  implements:
+  - Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+references:
+- uid: Beryl.Rendering.Resources.Caches
+  commentId: N:Beryl.Rendering.Resources.Caches
+  href: Beryl.html
+  name: Beryl.Rendering.Resources.Caches
+  nameWithType: Beryl.Rendering.Resources.Caches
+  fullName: Beryl.Rendering.Resources.Caches
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  - name: .
+  - uid: Beryl.Rendering.Resources.Caches
+    name: Caches
+    href: Beryl.Rendering.Resources.Caches.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  - name: .
+  - uid: Beryl.Rendering.Resources.Caches
+    name: Caches
+    href: Beryl.Rendering.Resources.Caches.html
+- uid: Beryl.Common.Standard.IAlwaysHashable
+  commentId: T:Beryl.Common.Standard.IAlwaysHashable
+  parent: Beryl.Common.Standard
+  href: Beryl.Common.Standard.IAlwaysHashable.html
+  name: IAlwaysHashable
+  nameWithType: IAlwaysHashable
+  fullName: Beryl.Common.Standard.IAlwaysHashable
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Beryl.Common.Standard
+  commentId: N:Beryl.Common.Standard
+  href: Beryl.html
+  name: Beryl.Common.Standard
+  nameWithType: Beryl.Common.Standard
+  fullName: Beryl.Common.Standard
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Standard
+    name: Standard
+    href: Beryl.Common.Standard.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Standard
+    name: Standard
+    href: Beryl.Common.Standard.html
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Rendering.Resources.Caches.RenderItemKey.#ctor*
+  commentId: Overload:Beryl.Rendering.Resources.Caches.RenderItemKey.#ctor
+  href: Beryl.Rendering.Resources.Caches.RenderItemKey.html#Beryl_Rendering_Resources_Caches_RenderItemKey__ctor_System_ReadOnlySpan_Beryl_Math_Vector3__System_ReadOnlySpan_Beryl_Math_Vector3__System_ReadOnlySpan_Beryl_Math_Vector2__System_ReadOnlySpan_System_UInt32__Beryl_RHI_Resources_PipelineDescriptor_
+  name: RenderItemKey
+  nameWithType: RenderItemKey.RenderItemKey
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemKey.RenderItemKey
+  nameWithType.vb: RenderItemKey.New
+  fullName.vb: Beryl.Rendering.Resources.Caches.RenderItemKey.New
+  name.vb: New
+- uid: System.ReadOnlySpan{Beryl.Math.Vector3}
+  commentId: T:System.ReadOnlySpan{Beryl.Math.Vector3}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<Vector3>
+  nameWithType: ReadOnlySpan<Vector3>
+  fullName: System.ReadOnlySpan<Beryl.Math.Vector3>
+  nameWithType.vb: ReadOnlySpan(Of Vector3)
+  fullName.vb: System.ReadOnlySpan(Of Beryl.Math.Vector3)
+  name.vb: ReadOnlySpan(Of Vector3)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: Beryl.Math.Vector3
+    name: Vector3
+    href: Beryl.Math.Vector3.html
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Math.Vector3
+    name: Vector3
+    href: Beryl.Math.Vector3.html
+  - name: )
+- uid: System.ReadOnlySpan{Beryl.Math.Vector2}
+  commentId: T:System.ReadOnlySpan{Beryl.Math.Vector2}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<Vector2>
+  nameWithType: ReadOnlySpan<Vector2>
+  fullName: System.ReadOnlySpan<Beryl.Math.Vector2>
+  nameWithType.vb: ReadOnlySpan(Of Vector2)
+  fullName.vb: System.ReadOnlySpan(Of Beryl.Math.Vector2)
+  name.vb: ReadOnlySpan(Of Vector2)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: Beryl.Math.Vector2
+    name: Vector2
+    href: Beryl.Math.Vector2.html
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Math.Vector2
+    name: Vector2
+    href: Beryl.Math.Vector2.html
+  - name: )
+- uid: System.ReadOnlySpan{System.UInt32}
+  commentId: T:System.ReadOnlySpan{System.UInt32}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<uint>
+  nameWithType: ReadOnlySpan<uint>
+  fullName: System.ReadOnlySpan<uint>
+  nameWithType.vb: ReadOnlySpan(Of UInteger)
+  fullName.vb: System.ReadOnlySpan(Of UInteger)
+  name.vb: ReadOnlySpan(Of UInteger)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: )
+- uid: Beryl.RHI.Resources.PipelineDescriptor
+  commentId: T:Beryl.RHI.Resources.PipelineDescriptor
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.PipelineDescriptor.html
+  name: PipelineDescriptor
+  nameWithType: PipelineDescriptor
+  fullName: Beryl.RHI.Resources.PipelineDescriptor
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.RenderItemKey.GetHashCode*
+  commentId: Overload:Beryl.Rendering.Resources.Caches.RenderItemKey.GetHashCode
+  href: Beryl.Rendering.Resources.Caches.RenderItemKey.html#Beryl_Rendering_Resources_Caches_RenderItemKey_GetHashCode
+  name: GetHashCode
+  nameWithType: RenderItemKey.GetHashCode
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemKey.GetHashCode
+- uid: Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+  commentId: M:Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+  parent: Beryl.Common.Standard.IAlwaysHashable
+  href: Beryl.Common.Standard.IAlwaysHashable.html#Beryl_Common_Standard_IAlwaysHashable_GetHashCode
+  name: GetHashCode()
+  nameWithType: IAlwaysHashable.GetHashCode()
+  fullName: Beryl.Common.Standard.IAlwaysHashable.GetHashCode()
+  spec.csharp:
+  - uid: Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Beryl.Common.Standard.IAlwaysHashable.html#Beryl_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Standard.IAlwaysHashable.GetHashCode
+    name: GetHashCode
+    href: Beryl.Common.Standard.IAlwaysHashable.html#Beryl_Common_Standard_IAlwaysHashable_GetHashCode
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

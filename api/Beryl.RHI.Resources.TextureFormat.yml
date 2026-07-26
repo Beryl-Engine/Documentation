@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.Resources.TextureFormat
+  commentId: T:Beryl.RHI.Resources.TextureFormat
+  id: TextureFormat
+  parent: Beryl.RHI.Resources
+  children:
+  - Beryl.RHI.Resources.TextureFormat.RGB8
+  - Beryl.RHI.Resources.TextureFormat.RGBA8
+  langs:
+  - csharp
+  - vb
+  name: TextureFormat
+  nameWithType: TextureFormat
+  fullName: Beryl.RHI.Resources.TextureFormat
+  type: Enum
+  source:
+    id: TextureFormat
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\TextureTypes.cs
+    startLine: 8
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  summary: Texture pixel format.
+  example: []
+  syntax:
+    content: public enum TextureFormat
+    content.vb: Public Enum TextureFormat
+- uid: Beryl.RHI.Resources.TextureFormat.RGBA8
+  commentId: F:Beryl.RHI.Resources.TextureFormat.RGBA8
+  id: RGBA8
+  parent: Beryl.RHI.Resources.TextureFormat
+  langs:
+  - csharp
+  - vb
+  name: RGBA8
+  nameWithType: TextureFormat.RGBA8
+  fullName: Beryl.RHI.Resources.TextureFormat.RGBA8
+  type: Field
+  source:
+    id: RGBA8
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\TextureTypes.cs
+    startLine: 10
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: RGBA8 = 0
+    return:
+      type: Beryl.RHI.Resources.TextureFormat
+- uid: Beryl.RHI.Resources.TextureFormat.RGB8
+  commentId: F:Beryl.RHI.Resources.TextureFormat.RGB8
+  id: RGB8
+  parent: Beryl.RHI.Resources.TextureFormat
+  langs:
+  - csharp
+  - vb
+  name: RGB8
+  nameWithType: TextureFormat.RGB8
+  fullName: Beryl.RHI.Resources.TextureFormat.RGB8
+  type: Field
+  source:
+    id: RGB8
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\TextureTypes.cs
+    startLine: 11
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: RGB8 = 1
+    return:
+      type: Beryl.RHI.Resources.TextureFormat
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.RHI.Resources.TextureFormat
+  commentId: T:Beryl.RHI.Resources.TextureFormat
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.TextureFormat.html
+  name: TextureFormat
+  nameWithType: TextureFormat
+  fullName: Beryl.RHI.Resources.TextureFormat

@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Pipelines
+  commentId: N:Beryl.Rendering.Pipelines
+  id: Pipelines
+  parent: Beryl.Rendering
+  children:
+  - Beryl.Rendering.Pipelines.Forward
+  - Beryl.Rendering.Pipelines.RenderPass
+  - Beryl.Rendering.Pipelines.RenderPipeline
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Rendering.Pipelines
+  nameWithType: Beryl.Rendering.Pipelines
+  fullName: Beryl.Rendering.Pipelines
+  type: Namespace
+  assemblies:
+  - Beryl.Rendering
+references:
+- uid: Beryl.Rendering.Pipelines.Forward
+  commentId: N:Beryl.Rendering.Pipelines.Forward
+  href: Beryl.html
+  name: Beryl.Rendering.Pipelines.Forward
+  nameWithType: Beryl.Rendering.Pipelines.Forward
+  fullName: Beryl.Rendering.Pipelines.Forward
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Pipelines
+    name: Pipelines
+    href: Beryl.Rendering.Pipelines.html
+  - name: .
+  - uid: Beryl.Rendering.Pipelines.Forward
+    name: Forward
+    href: Beryl.Rendering.Pipelines.Forward.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Pipelines
+    name: Pipelines
+    href: Beryl.Rendering.Pipelines.html
+  - name: .
+  - uid: Beryl.Rendering.Pipelines.Forward
+    name: Forward
+    href: Beryl.Rendering.Pipelines.Forward.html
+- uid: Beryl.Rendering.Pipelines.RenderPass
+  commentId: T:Beryl.Rendering.Pipelines.RenderPass
+  parent: Beryl.Rendering.Pipelines
+  href: Beryl.Rendering.Pipelines.RenderPass.html
+  name: RenderPass
+  nameWithType: RenderPass
+  fullName: Beryl.Rendering.Pipelines.RenderPass
+- uid: Beryl.Rendering.Pipelines.RenderPipeline
+  commentId: T:Beryl.Rendering.Pipelines.RenderPipeline
+  parent: Beryl.Rendering.Pipelines
+  href: Beryl.Rendering.Pipelines.RenderPipeline.html
+  name: RenderPipeline
+  nameWithType: RenderPipeline
+  fullName: Beryl.Rendering.Pipelines.RenderPipeline
+- uid: Beryl.Rendering.Pipelines
+  commentId: N:Beryl.Rendering.Pipelines
+  href: Beryl.html
+  name: Beryl.Rendering.Pipelines
+  nameWithType: Beryl.Rendering.Pipelines
+  fullName: Beryl.Rendering.Pipelines
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Pipelines
+    name: Pipelines
+    href: Beryl.Rendering.Pipelines.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Pipelines
+    name: Pipelines
+    href: Beryl.Rendering.Pipelines.html

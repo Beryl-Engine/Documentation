@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Scenes.Resources
+  commentId: N:Beryl.Scenes.Resources
+  id: Resources
+  parent: Beryl.Scenes
+  children:
+  - Beryl.Scenes.Resources.Scene
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Scenes.Resources
+  nameWithType: Beryl.Scenes.Resources
+  fullName: Beryl.Scenes.Resources
+  type: Namespace
+  assemblies:
+  - Beryl.Scenes
+references:
+- uid: Beryl.Scenes.Resources.Scene
+  commentId: T:Beryl.Scenes.Resources.Scene
+  parent: Beryl.Scenes.Resources
+  href: Beryl.Scenes.Resources.Scene.html
+  name: Scene
+  nameWithType: Scene
+  fullName: Beryl.Scenes.Resources.Scene
+- uid: Beryl.Scenes.Resources
+  commentId: N:Beryl.Scenes.Resources
+  href: Beryl.html
+  name: Beryl.Scenes.Resources
+  nameWithType: Beryl.Scenes.Resources
+  fullName: Beryl.Scenes.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Resources
+    name: Resources
+    href: Beryl.Scenes.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Resources
+    name: Resources
+    href: Beryl.Scenes.Resources.html

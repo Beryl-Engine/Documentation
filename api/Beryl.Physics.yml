@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Physics
+  commentId: N:Beryl.Physics
+  id: Physics
+  parent: Beryl
+  children:
+  - Beryl.Physics.Components
+  - Beryl.Physics.Engines.Jitter2
+  - Beryl.Physics.IPhysicsBody
+  - Beryl.Physics.IPhysicsWorld
+  - Beryl.Physics.PhysicsModule
+  - Beryl.Physics.RaycastResult
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Physics
+  nameWithType: Beryl.Physics
+  fullName: Beryl.Physics
+  type: Namespace
+  assemblies:
+  - Beryl.Physics
+references:
+- uid: Beryl.Physics.Components
+  commentId: N:Beryl.Physics.Components
+  href: Beryl.html
+  name: Beryl.Physics.Components
+  nameWithType: Beryl.Physics.Components
+  fullName: Beryl.Physics.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html
+- uid: Beryl.Physics.IPhysicsBody
+  commentId: T:Beryl.Physics.IPhysicsBody
+  parent: Beryl.Physics
+  href: Beryl.Physics.IPhysicsBody.html
+  name: IPhysicsBody
+  nameWithType: IPhysicsBody
+  fullName: Beryl.Physics.IPhysicsBody
+- uid: Beryl.Physics.IPhysicsWorld
+  commentId: T:Beryl.Physics.IPhysicsWorld
+  parent: Beryl.Physics
+  href: Beryl.Physics.IPhysicsWorld.html
+  name: IPhysicsWorld
+  nameWithType: IPhysicsWorld
+  fullName: Beryl.Physics.IPhysicsWorld
+- uid: Beryl.Physics.PhysicsModule
+  commentId: T:Beryl.Physics.PhysicsModule
+  href: Beryl.Physics.PhysicsModule.html
+  name: PhysicsModule
+  nameWithType: PhysicsModule
+  fullName: Beryl.Physics.PhysicsModule
+- uid: Beryl.Physics.RaycastResult
+  commentId: T:Beryl.Physics.RaycastResult
+  parent: Beryl.Physics
+  href: Beryl.Physics.RaycastResult.html
+  name: RaycastResult
+  nameWithType: RaycastResult
+  fullName: Beryl.Physics.RaycastResult
+- uid: Beryl.Physics.Engines.Jitter2
+  commentId: N:Beryl.Physics.Engines.Jitter2
+  href: Beryl.html
+  name: Beryl.Physics.Engines.Jitter2
+  nameWithType: Beryl.Physics.Engines.Jitter2
+  fullName: Beryl.Physics.Engines.Jitter2
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Engines
+    name: Engines
+    href: Beryl.Physics.Engines.html
+  - name: .
+  - uid: Beryl.Physics.Engines.Jitter2
+    name: Jitter2
+    href: Beryl.Physics.Engines.Jitter2.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Engines
+    name: Engines
+    href: Beryl.Physics.Engines.html
+  - name: .
+  - uid: Beryl.Physics.Engines.Jitter2
+    name: Jitter2
+    href: Beryl.Physics.Engines.Jitter2.html
+- uid: Beryl.Physics
+  commentId: N:Beryl.Physics
+  href: Beryl.html
+  name: Beryl.Physics
+  nameWithType: Beryl.Physics
+  fullName: Beryl.Physics
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html

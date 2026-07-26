@@ -1,0 +1,762 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Assemblies.BerylAssembly
+  commentId: T:Beryl.Assemblies.BerylAssembly
+  id: BerylAssembly
+  parent: Beryl.Assemblies
+  children:
+  - Beryl.Assemblies.BerylAssembly.Assembly
+  - Beryl.Assemblies.BerylAssembly.AssemblyLoadDelegates
+  - Beryl.Assemblies.BerylAssembly.Path
+  - Beryl.Assemblies.BerylAssembly.ToString
+  - Beryl.Assemblies.BerylAssembly.TryUnload
+  - Beryl.Assemblies.BerylAssembly.Types
+  - Beryl.Assemblies.BerylAssembly.Unloaded
+  - Beryl.Assemblies.BerylAssembly.op_Implicit(Beryl.Assemblies.BerylAssembly)~System.Reflection.Assembly
+  - Beryl.Assemblies.BerylAssembly.op_Implicit(System.Reflection.Assembly)~Beryl.Assemblies.BerylAssembly
+  langs:
+  - csharp
+  - vb
+  name: BerylAssembly
+  nameWithType: BerylAssembly
+  fullName: Beryl.Assemblies.BerylAssembly
+  type: Class
+  source:
+    id: BerylAssembly
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Assemblies\BerylAssembly.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Assemblies
+  namespace: Beryl.Assemblies
+  summary: Unloadable <xref href="System.Reflection.Assembly" data-throw-if-not-resolved="false"></xref> with cached reflection.
+  example: []
+  syntax:
+    content: public sealed class BerylAssembly
+    content.vb: Public NotInheritable Class BerylAssembly
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Beryl.Assemblies.BerylAssembly.Path
+  commentId: P:Beryl.Assemblies.BerylAssembly.Path
+  id: Path
+  parent: Beryl.Assemblies.BerylAssembly
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: BerylAssembly.Path
+  fullName: Beryl.Assemblies.BerylAssembly.Path
+  type: Property
+  source:
+    id: Path
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Assemblies\BerylAssembly.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Assemblies
+  namespace: Beryl.Assemblies
+  summary: The path of the <xref href="Beryl.Assemblies.BerylAssembly" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public string Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Path As String
+  overload: Beryl.Assemblies.BerylAssembly.Path*
+- uid: Beryl.Assemblies.BerylAssembly.Assembly
+  commentId: P:Beryl.Assemblies.BerylAssembly.Assembly
+  id: Assembly
+  parent: Beryl.Assemblies.BerylAssembly
+  langs:
+  - csharp
+  - vb
+  name: Assembly
+  nameWithType: BerylAssembly.Assembly
+  fullName: Beryl.Assemblies.BerylAssembly.Assembly
+  type: Property
+  source:
+    id: Assembly
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Assemblies\BerylAssembly.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Assemblies
+  namespace: Beryl.Assemblies
+  summary: The internal <xref href="System.Reflection.Assembly" data-throw-if-not-resolved="false"></xref> instance loaded into memory.
+  example: []
+  syntax:
+    content: public Assembly Assembly { get; }
+    parameters: []
+    return:
+      type: System.Reflection.Assembly
+    content.vb: Public ReadOnly Property Assembly As Assembly
+  overload: Beryl.Assemblies.BerylAssembly.Assembly*
+- uid: Beryl.Assemblies.BerylAssembly.Unloaded
+  commentId: E:Beryl.Assemblies.BerylAssembly.Unloaded
+  id: Unloaded
+  parent: Beryl.Assemblies.BerylAssembly
+  langs:
+  - csharp
+  - vb
+  name: Unloaded
+  nameWithType: BerylAssembly.Unloaded
+  fullName: Beryl.Assemblies.BerylAssembly.Unloaded
+  type: Event
+  source:
+    id: Unloaded
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Assemblies\BerylAssembly.cs
+    startLine: 23
+  assemblies:
+  - Beryl.Assemblies
+  namespace: Beryl.Assemblies
+  summary: Invoked when the <xref href="Beryl.Assemblies.BerylAssembly" data-throw-if-not-resolved="false"></xref> is <b>successfully</b> unloaded.
+  example: []
+  syntax:
+    content: public event Action<BerylAssembly> Unloaded
+    return:
+      type: System.Action{Beryl.Assemblies.BerylAssembly}
+    content.vb: Public Event Unloaded As Action(Of BerylAssembly)
+- uid: Beryl.Assemblies.BerylAssembly.Types
+  commentId: P:Beryl.Assemblies.BerylAssembly.Types
+  id: Types
+  parent: Beryl.Assemblies.BerylAssembly
+  langs:
+  - csharp
+  - vb
+  name: Types
+  nameWithType: BerylAssembly.Types
+  fullName: Beryl.Assemblies.BerylAssembly.Types
+  type: Property
+  source:
+    id: Types
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Assemblies\BerylAssembly.cs
+    startLine: 27
+  assemblies:
+  - Beryl.Assemblies
+  namespace: Beryl.Assemblies
+  summary: All <xref href="System.Type" data-throw-if-not-resolved="false"></xref>s in the <xref href="Beryl.Assemblies.BerylAssembly" data-throw-if-not-resolved="false"></xref>.
+  remarks: This is a cached property.
+  example: []
+  syntax:
+    content: public Type[] Types { get; }
+    parameters: []
+    return:
+      type: System.Type[]
+    content.vb: Public ReadOnly Property Types As Type()
+  overload: Beryl.Assemblies.BerylAssembly.Types*
+- uid: Beryl.Assemblies.BerylAssembly.AssemblyLoadDelegates
+  commentId: P:Beryl.Assemblies.BerylAssembly.AssemblyLoadDelegates
+  id: AssemblyLoadDelegates
+  parent: Beryl.Assemblies.BerylAssembly
+  langs:
+  - csharp
+  - vb
+  name: AssemblyLoadDelegates
+  nameWithType: BerylAssembly.AssemblyLoadDelegates
+  fullName: Beryl.Assemblies.BerylAssembly.AssemblyLoadDelegates
+  type: Property
+  source:
+    id: AssemblyLoadDelegates
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Assemblies\BerylAssembly.cs
+    startLine: 41
+  assemblies:
+  - Beryl.Assemblies
+  namespace: Beryl.Assemblies
+  summary: All static methods in the <xref href="Beryl.Assemblies.BerylAssembly" data-throw-if-not-resolved="false"></xref> marked with <xref href="Beryl.Assemblies.OnAssemblyLoadAttribute" data-throw-if-not-resolved="false"></xref>.
+  remarks: This is a cached property.
+  example: []
+  syntax:
+    content: public Action[] AssemblyLoadDelegates { get; }
+    parameters: []
+    return:
+      type: System.Action[]
+    content.vb: Public ReadOnly Property AssemblyLoadDelegates As Action()
+  overload: Beryl.Assemblies.BerylAssembly.AssemblyLoadDelegates*
+- uid: Beryl.Assemblies.BerylAssembly.TryUnload
+  commentId: M:Beryl.Assemblies.BerylAssembly.TryUnload
+  id: TryUnload
+  parent: Beryl.Assemblies.BerylAssembly
+  langs:
+  - csharp
+  - vb
+  name: TryUnload()
+  nameWithType: BerylAssembly.TryUnload()
+  fullName: Beryl.Assemblies.BerylAssembly.TryUnload()
+  type: Method
+  source:
+    id: TryUnload
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Assemblies\BerylAssembly.cs
+    startLine: 83
+  assemblies:
+  - Beryl.Assemblies
+  namespace: Beryl.Assemblies
+  summary: Tries to unload the <xref href="Beryl.Assemblies.BerylAssembly" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool TryUnload()
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <xref href="Beryl.Assemblies.BerylAssembly" data-throw-if-not-resolved="false"></xref> was unloaded, otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function TryUnload() As Boolean
+  overload: Beryl.Assemblies.BerylAssembly.TryUnload*
+- uid: Beryl.Assemblies.BerylAssembly.ToString
+  commentId: M:Beryl.Assemblies.BerylAssembly.ToString
+  id: ToString
+  parent: Beryl.Assemblies.BerylAssembly
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: BerylAssembly.ToString()
+  fullName: Beryl.Assemblies.BerylAssembly.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Assemblies\BerylAssembly.cs
+    startLine: 94
+  assemblies:
+  - Beryl.Assemblies
+  namespace: Beryl.Assemblies
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Beryl.Assemblies.BerylAssembly.ToString*
+- uid: Beryl.Assemblies.BerylAssembly.op_Implicit(Beryl.Assemblies.BerylAssembly)~System.Reflection.Assembly
+  commentId: M:Beryl.Assemblies.BerylAssembly.op_Implicit(Beryl.Assemblies.BerylAssembly)~System.Reflection.Assembly
+  id: op_Implicit(Beryl.Assemblies.BerylAssembly)~System.Reflection.Assembly
+  parent: Beryl.Assemblies.BerylAssembly
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Assembly(BerylAssembly)
+  nameWithType: BerylAssembly.implicit operator Assembly(BerylAssembly)
+  fullName: Beryl.Assemblies.BerylAssembly.implicit operator System.Reflection.Assembly(Beryl.Assemblies.BerylAssembly)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Assemblies\BerylAssembly.cs
+    startLine: 96
+  assemblies:
+  - Beryl.Assemblies
+  namespace: Beryl.Assemblies
+  syntax:
+    content: public static implicit operator Assembly(BerylAssembly asm)
+    parameters:
+    - id: asm
+      type: Beryl.Assemblies.BerylAssembly
+    return:
+      type: System.Reflection.Assembly
+    content.vb: Public Shared Widening Operator CType(asm As BerylAssembly) As Assembly
+  overload: Beryl.Assemblies.BerylAssembly.op_Implicit*
+  nameWithType.vb: BerylAssembly.CType(BerylAssembly)
+  fullName.vb: Beryl.Assemblies.BerylAssembly.CType(Beryl.Assemblies.BerylAssembly)
+  name.vb: CType(BerylAssembly)
+- uid: Beryl.Assemblies.BerylAssembly.op_Implicit(System.Reflection.Assembly)~Beryl.Assemblies.BerylAssembly
+  commentId: M:Beryl.Assemblies.BerylAssembly.op_Implicit(System.Reflection.Assembly)~Beryl.Assemblies.BerylAssembly
+  id: op_Implicit(System.Reflection.Assembly)~Beryl.Assemblies.BerylAssembly
+  parent: Beryl.Assemblies.BerylAssembly
+  langs:
+  - csharp
+  - vb
+  name: implicit operator BerylAssembly(Assembly)
+  nameWithType: BerylAssembly.implicit operator BerylAssembly(Assembly)
+  fullName: Beryl.Assemblies.BerylAssembly.implicit operator Beryl.Assemblies.BerylAssembly(System.Reflection.Assembly)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Assemblies\BerylAssembly.cs
+    startLine: 97
+  assemblies:
+  - Beryl.Assemblies
+  namespace: Beryl.Assemblies
+  syntax:
+    content: public static implicit operator BerylAssembly(Assembly asm)
+    parameters:
+    - id: asm
+      type: System.Reflection.Assembly
+    return:
+      type: Beryl.Assemblies.BerylAssembly
+    content.vb: Public Shared Widening Operator CType(asm As Assembly) As BerylAssembly
+  overload: Beryl.Assemblies.BerylAssembly.op_Implicit*
+  nameWithType.vb: BerylAssembly.CType(Assembly)
+  fullName.vb: Beryl.Assemblies.BerylAssembly.CType(System.Reflection.Assembly)
+  name.vb: CType(Assembly)
+references:
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: Beryl.Assemblies
+  commentId: N:Beryl.Assemblies
+  href: Beryl.html
+  name: Beryl.Assemblies
+  nameWithType: Beryl.Assemblies
+  fullName: Beryl.Assemblies
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Assemblies
+    name: Assemblies
+    href: Beryl.Assemblies.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Assemblies
+    name: Assemblies
+    href: Beryl.Assemblies.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Assemblies.BerylAssembly
+  commentId: T:Beryl.Assemblies.BerylAssembly
+  parent: Beryl.Assemblies
+  href: Beryl.Assemblies.BerylAssembly.html
+  name: BerylAssembly
+  nameWithType: BerylAssembly
+  fullName: Beryl.Assemblies.BerylAssembly
+- uid: Beryl.Assemblies.BerylAssembly.Path*
+  commentId: Overload:Beryl.Assemblies.BerylAssembly.Path
+  href: Beryl.Assemblies.BerylAssembly.html#Beryl_Assemblies_BerylAssembly_Path
+  name: Path
+  nameWithType: BerylAssembly.Path
+  fullName: Beryl.Assemblies.BerylAssembly.Path
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Beryl.Assemblies.BerylAssembly.Assembly*
+  commentId: Overload:Beryl.Assemblies.BerylAssembly.Assembly
+  href: Beryl.Assemblies.BerylAssembly.html#Beryl_Assemblies_BerylAssembly_Assembly
+  name: Assembly
+  nameWithType: BerylAssembly.Assembly
+  fullName: Beryl.Assemblies.BerylAssembly.Assembly
+- uid: System.Action{Beryl.Assemblies.BerylAssembly}
+  commentId: T:System.Action{Beryl.Assemblies.BerylAssembly}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<BerylAssembly>
+  nameWithType: Action<BerylAssembly>
+  fullName: System.Action<Beryl.Assemblies.BerylAssembly>
+  nameWithType.vb: Action(Of BerylAssembly)
+  fullName.vb: System.Action(Of Beryl.Assemblies.BerylAssembly)
+  name.vb: Action(Of BerylAssembly)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: Beryl.Assemblies.BerylAssembly
+    name: BerylAssembly
+    href: Beryl.Assemblies.BerylAssembly.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Assemblies.BerylAssembly
+    name: BerylAssembly
+    href: Beryl.Assemblies.BerylAssembly.html
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Beryl.Assemblies.BerylAssembly.Types*
+  commentId: Overload:Beryl.Assemblies.BerylAssembly.Types
+  href: Beryl.Assemblies.BerylAssembly.html#Beryl_Assemblies_BerylAssembly_Types
+  name: Types
+  nameWithType: BerylAssembly.Types
+  fullName: Beryl.Assemblies.BerylAssembly.Types
+- uid: System.Type[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type[]
+  nameWithType: Type[]
+  fullName: System.Type[]
+  nameWithType.vb: Type()
+  fullName.vb: System.Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: (
+  - name: )
+- uid: Beryl.Assemblies.OnAssemblyLoadAttribute
+  commentId: T:Beryl.Assemblies.OnAssemblyLoadAttribute
+  href: Beryl.Assemblies.OnAssemblyLoadAttribute.html
+  name: OnAssemblyLoadAttribute
+  nameWithType: OnAssemblyLoadAttribute
+  fullName: Beryl.Assemblies.OnAssemblyLoadAttribute
+- uid: Beryl.Assemblies.BerylAssembly.AssemblyLoadDelegates*
+  commentId: Overload:Beryl.Assemblies.BerylAssembly.AssemblyLoadDelegates
+  href: Beryl.Assemblies.BerylAssembly.html#Beryl_Assemblies_BerylAssembly_AssemblyLoadDelegates
+  name: AssemblyLoadDelegates
+  nameWithType: BerylAssembly.AssemblyLoadDelegates
+  fullName: Beryl.Assemblies.BerylAssembly.AssemblyLoadDelegates
+- uid: System.Action[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action[]
+  nameWithType: Action[]
+  fullName: System.Action[]
+  nameWithType.vb: Action()
+  fullName.vb: System.Action()
+  name.vb: Action()
+  spec.csharp:
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: (
+  - name: )
+- uid: Beryl.Assemblies.BerylAssembly.TryUnload*
+  commentId: Overload:Beryl.Assemblies.BerylAssembly.TryUnload
+  href: Beryl.Assemblies.BerylAssembly.html#Beryl_Assemblies_BerylAssembly_TryUnload
+  name: TryUnload
+  nameWithType: BerylAssembly.TryUnload
+  fullName: Beryl.Assemblies.BerylAssembly.TryUnload
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Beryl.Assemblies.BerylAssembly.ToString*
+  commentId: Overload:Beryl.Assemblies.BerylAssembly.ToString
+  href: Beryl.Assemblies.BerylAssembly.html#Beryl_Assemblies_BerylAssembly_ToString
+  name: ToString
+  nameWithType: BerylAssembly.ToString
+  fullName: Beryl.Assemblies.BerylAssembly.ToString
+- uid: Beryl.Assemblies.BerylAssembly.op_Implicit*
+  commentId: Overload:Beryl.Assemblies.BerylAssembly.op_Implicit
+  name: implicit operator
+  nameWithType: BerylAssembly.implicit operator
+  fullName: Beryl.Assemblies.BerylAssembly.implicit operator
+  nameWithType.vb: BerylAssembly.CType
+  fullName.vb: Beryl.Assemblies.BerylAssembly.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator

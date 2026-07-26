@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Common.Utility
+  commentId: N:Beryl.Common.Utility
+  id: Utility
+  parent: Beryl.Common
+  children:
+  - Beryl.Common.Utility.BerylConsole
+  - Beryl.Common.Utility.EnginePaths
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Common.Utility
+  nameWithType: Beryl.Common.Utility
+  fullName: Beryl.Common.Utility
+  type: Namespace
+  assemblies:
+  - Beryl.Common
+references:
+- uid: Beryl.Common.Utility.BerylConsole
+  commentId: T:Beryl.Common.Utility.BerylConsole
+  href: Beryl.Common.Utility.BerylConsole.html
+  name: BerylConsole
+  nameWithType: BerylConsole
+  fullName: Beryl.Common.Utility.BerylConsole
+- uid: Beryl.Common.Utility.EnginePaths
+  commentId: T:Beryl.Common.Utility.EnginePaths
+  href: Beryl.Common.Utility.EnginePaths.html
+  name: EnginePaths
+  nameWithType: EnginePaths
+  fullName: Beryl.Common.Utility.EnginePaths

@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl
+  id: Beryl
+  children:
+  - Beryl.Assemblies
+  - Beryl.Audio
+  - Beryl.Common
+  - Beryl.GUI
+  - Beryl.Input
+  - Beryl.Math
+  - Beryl.Physics
+  - Beryl.RHI
+  - Beryl.Rendering
+  - Beryl.Scenes
+  - Beryl.Serialization
+  - Beryl.VirtualReality
+  langs:
+  - csharp
+  - vb
+  name: Beryl
+  type: Namespace
+references:
+- uid: Beryl.Assemblies
+  commentId: N:Beryl.Assemblies
+  href: Beryl.html
+  name: Beryl.Assemblies
+  nameWithType: Beryl.Assemblies
+  fullName: Beryl.Assemblies
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Assemblies
+    name: Assemblies
+    href: Beryl.Assemblies.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Assemblies
+    name: Assemblies
+    href: Beryl.Assemblies.html
+- uid: Beryl.Audio
+  commentId: N:Beryl.Audio
+  href: Beryl.html
+  name: Beryl.Audio
+  nameWithType: Beryl.Audio
+  fullName: Beryl.Audio
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+- uid: Beryl.Common
+  commentId: N:Beryl.Common
+  href: Beryl.html
+  name: Beryl.Common
+  nameWithType: Beryl.Common
+  fullName: Beryl.Common
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+- uid: Beryl.GUI
+  commentId: N:Beryl.GUI
+  href: Beryl.html
+  name: Beryl.GUI
+  nameWithType: Beryl.GUI
+  fullName: Beryl.GUI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.GUI
+    name: GUI
+    href: Beryl.GUI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.GUI
+    name: GUI
+    href: Beryl.GUI.html
+- uid: Beryl.Input
+  commentId: N:Beryl.Input
+  href: Beryl.html
+  name: Beryl.Input
+  nameWithType: Beryl.Input
+  fullName: Beryl.Input
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: Beryl.Physics
+  commentId: N:Beryl.Physics
+  href: Beryl.html
+  name: Beryl.Physics
+  nameWithType: Beryl.Physics
+  fullName: Beryl.Physics
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+- uid: Beryl.Rendering
+  commentId: N:Beryl.Rendering
+  href: Beryl.html
+  name: Beryl.Rendering
+  nameWithType: Beryl.Rendering
+  fullName: Beryl.Rendering
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+- uid: Beryl.Scenes
+  commentId: N:Beryl.Scenes
+  href: Beryl.html
+  name: Beryl.Scenes
+  nameWithType: Beryl.Scenes
+  fullName: Beryl.Scenes
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+- uid: Beryl.Serialization
+  commentId: N:Beryl.Serialization
+  href: Beryl.html
+  name: Beryl.Serialization
+  nameWithType: Beryl.Serialization
+  fullName: Beryl.Serialization
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Serialization
+    name: Serialization
+    href: Beryl.Serialization.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Serialization
+    name: Serialization
+    href: Beryl.Serialization.html
+- uid: Beryl.VirtualReality
+  commentId: N:Beryl.VirtualReality
+  href: Beryl.html
+  name: Beryl.VirtualReality
+  nameWithType: Beryl.VirtualReality
+  fullName: Beryl.VirtualReality
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.VirtualReality
+    name: VirtualReality
+    href: Beryl.VirtualReality.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.VirtualReality
+    name: VirtualReality
+    href: Beryl.VirtualReality.html

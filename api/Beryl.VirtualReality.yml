@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.VirtualReality
+  commentId: N:Beryl.VirtualReality
+  id: VirtualReality
+  parent: Beryl
+  children:
+  - Beryl.VirtualReality.InputModuleExtensions
+  - Beryl.VirtualReality.VirtualRealityController
+  - Beryl.VirtualReality.VirtualRealityController.Button
+  - Beryl.VirtualReality.VirtualRealityController.HandType
+  - Beryl.VirtualReality.VirtualRealityDevice
+  - Beryl.VirtualReality.VirtualRealityModule
+  langs:
+  - csharp
+  - vb
+  name: Beryl.VirtualReality
+  nameWithType: Beryl.VirtualReality
+  fullName: Beryl.VirtualReality
+  type: Namespace
+  assemblies:
+  - Beryl.VirtualReality
+references:
+- uid: Beryl.VirtualReality.InputModuleExtensions
+  commentId: T:Beryl.VirtualReality.InputModuleExtensions
+  href: Beryl.VirtualReality.InputModuleExtensions.html
+  name: InputModuleExtensions
+  nameWithType: InputModuleExtensions
+  fullName: Beryl.VirtualReality.InputModuleExtensions
+- uid: Beryl.VirtualReality.VirtualRealityController
+  commentId: T:Beryl.VirtualReality.VirtualRealityController
+  parent: Beryl.VirtualReality
+  href: Beryl.VirtualReality.VirtualRealityController.html
+  name: VirtualRealityController
+  nameWithType: VirtualRealityController
+  fullName: Beryl.VirtualReality.VirtualRealityController
+- uid: Beryl.VirtualReality.VirtualRealityController.Button
+  commentId: T:Beryl.VirtualReality.VirtualRealityController.Button
+  parent: Beryl.VirtualReality
+  href: Beryl.VirtualReality.VirtualRealityController.html
+  name: VirtualRealityController.Button
+  nameWithType: VirtualRealityController.Button
+  fullName: Beryl.VirtualReality.VirtualRealityController.Button
+  spec.csharp:
+  - uid: Beryl.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Beryl.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Beryl.VirtualReality.VirtualRealityController.Button
+    name: Button
+    href: Beryl.VirtualReality.VirtualRealityController.Button.html
+  spec.vb:
+  - uid: Beryl.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Beryl.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Beryl.VirtualReality.VirtualRealityController.Button
+    name: Button
+    href: Beryl.VirtualReality.VirtualRealityController.Button.html
+- uid: Beryl.VirtualReality.VirtualRealityController.HandType
+  commentId: T:Beryl.VirtualReality.VirtualRealityController.HandType
+  parent: Beryl.VirtualReality
+  href: Beryl.VirtualReality.VirtualRealityController.html
+  name: VirtualRealityController.HandType
+  nameWithType: VirtualRealityController.HandType
+  fullName: Beryl.VirtualReality.VirtualRealityController.HandType
+  spec.csharp:
+  - uid: Beryl.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Beryl.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Beryl.VirtualReality.VirtualRealityController.HandType
+    name: HandType
+    href: Beryl.VirtualReality.VirtualRealityController.HandType.html
+  spec.vb:
+  - uid: Beryl.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Beryl.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Beryl.VirtualReality.VirtualRealityController.HandType
+    name: HandType
+    href: Beryl.VirtualReality.VirtualRealityController.HandType.html
+- uid: Beryl.VirtualReality.VirtualRealityDevice
+  commentId: T:Beryl.VirtualReality.VirtualRealityDevice
+  parent: Beryl.VirtualReality
+  href: Beryl.VirtualReality.VirtualRealityDevice.html
+  name: VirtualRealityDevice
+  nameWithType: VirtualRealityDevice
+  fullName: Beryl.VirtualReality.VirtualRealityDevice
+- uid: Beryl.VirtualReality.VirtualRealityModule
+  commentId: T:Beryl.VirtualReality.VirtualRealityModule
+  href: Beryl.VirtualReality.VirtualRealityModule.html
+  name: VirtualRealityModule
+  nameWithType: VirtualRealityModule
+  fullName: Beryl.VirtualReality.VirtualRealityModule
+- uid: Beryl.VirtualReality
+  commentId: N:Beryl.VirtualReality
+  href: Beryl.html
+  name: Beryl.VirtualReality
+  nameWithType: Beryl.VirtualReality
+  fullName: Beryl.VirtualReality
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.VirtualReality
+    name: VirtualReality
+    href: Beryl.VirtualReality.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.VirtualReality
+    name: VirtualReality
+    href: Beryl.VirtualReality.html

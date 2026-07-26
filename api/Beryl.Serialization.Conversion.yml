@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Serialization.Conversion
+  commentId: N:Beryl.Serialization.Conversion
+  id: Conversion
+  parent: Beryl.Serialization
+  children:
+  - Beryl.Serialization.Conversion.StringConverterAttribute
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Serialization.Conversion
+  nameWithType: Beryl.Serialization.Conversion
+  fullName: Beryl.Serialization.Conversion
+  type: Namespace
+  assemblies:
+  - Beryl.Serialization
+references:
+- uid: Beryl.Serialization.Conversion.StringConverterAttribute
+  commentId: T:Beryl.Serialization.Conversion.StringConverterAttribute
+  href: Beryl.Serialization.Conversion.StringConverterAttribute.html
+  name: StringConverterAttribute
+  nameWithType: StringConverterAttribute
+  fullName: Beryl.Serialization.Conversion.StringConverterAttribute

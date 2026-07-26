@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Input.Devices.Gamepad.Trigger
+  commentId: T:Beryl.Input.Devices.Gamepad.Trigger
+  id: Gamepad.Trigger
+  parent: Beryl.Input.Devices
+  children:
+  - Beryl.Input.Devices.Gamepad.Trigger.Left
+  - Beryl.Input.Devices.Gamepad.Trigger.Right
+  langs:
+  - csharp
+  - vb
+  name: Gamepad.Trigger
+  nameWithType: Gamepad.Trigger
+  fullName: Beryl.Input.Devices.Gamepad.Trigger
+  type: Enum
+  source:
+    id: Trigger
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 29
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  summary: Represents a Gamepad trigger.
+  example: []
+  syntax:
+    content: public enum Gamepad.Trigger
+    content.vb: Public Enum Gamepad.Trigger
+- uid: Beryl.Input.Devices.Gamepad.Trigger.Left
+  commentId: F:Beryl.Input.Devices.Gamepad.Trigger.Left
+  id: Left
+  parent: Beryl.Input.Devices.Gamepad.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Gamepad.Trigger.Left
+  fullName: Beryl.Input.Devices.Gamepad.Trigger.Left
+  type: Field
+  source:
+    id: Left
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 31
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: Left = 0
+    return:
+      type: Beryl.Input.Devices.Gamepad.Trigger
+- uid: Beryl.Input.Devices.Gamepad.Trigger.Right
+  commentId: F:Beryl.Input.Devices.Gamepad.Trigger.Right
+  id: Right
+  parent: Beryl.Input.Devices.Gamepad.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Gamepad.Trigger.Right
+  fullName: Beryl.Input.Devices.Gamepad.Trigger.Right
+  type: Field
+  source:
+    id: Right
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Gamepad.cs
+    startLine: 32
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: Right = 1
+    return:
+      type: Beryl.Input.Devices.Gamepad.Trigger
+references:
+- uid: Beryl.Input.Devices
+  commentId: N:Beryl.Input.Devices
+  href: Beryl.html
+  name: Beryl.Input.Devices
+  nameWithType: Beryl.Input.Devices
+  fullName: Beryl.Input.Devices
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+- uid: Beryl.Input.Devices.Gamepad.Trigger
+  commentId: T:Beryl.Input.Devices.Gamepad.Trigger
+  parent: Beryl.Input.Devices
+  href: Beryl.Input.Devices.Gamepad.html
+  name: Gamepad.Trigger
+  nameWithType: Gamepad.Trigger
+  fullName: Beryl.Input.Devices.Gamepad.Trigger
+  spec.csharp:
+  - uid: Beryl.Input.Devices.Gamepad
+    name: Gamepad
+    href: Beryl.Input.Devices.Gamepad.html
+  - name: .
+  - uid: Beryl.Input.Devices.Gamepad.Trigger
+    name: Trigger
+    href: Beryl.Input.Devices.Gamepad.Trigger.html
+  spec.vb:
+  - uid: Beryl.Input.Devices.Gamepad
+    name: Gamepad
+    href: Beryl.Input.Devices.Gamepad.html
+  - name: .
+  - uid: Beryl.Input.Devices.Gamepad.Trigger
+    name: Trigger
+    href: Beryl.Input.Devices.Gamepad.Trigger.html

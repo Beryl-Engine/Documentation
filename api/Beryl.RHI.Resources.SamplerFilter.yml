@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.Resources.SamplerFilter
+  commentId: T:Beryl.RHI.Resources.SamplerFilter
+  id: SamplerFilter
+  parent: Beryl.RHI.Resources
+  children:
+  - Beryl.RHI.Resources.SamplerFilter.Linear
+  - Beryl.RHI.Resources.SamplerFilter.Nearest
+  langs:
+  - csharp
+  - vb
+  name: SamplerFilter
+  nameWithType: SamplerFilter
+  fullName: Beryl.RHI.Resources.SamplerFilter
+  type: Enum
+  source:
+    id: SamplerFilter
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\TextureTypes.cs
+    startLine: 17
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  summary: Texture sampling filter.
+  example: []
+  syntax:
+    content: public enum SamplerFilter
+    content.vb: Public Enum SamplerFilter
+- uid: Beryl.RHI.Resources.SamplerFilter.Nearest
+  commentId: F:Beryl.RHI.Resources.SamplerFilter.Nearest
+  id: Nearest
+  parent: Beryl.RHI.Resources.SamplerFilter
+  langs:
+  - csharp
+  - vb
+  name: Nearest
+  nameWithType: SamplerFilter.Nearest
+  fullName: Beryl.RHI.Resources.SamplerFilter.Nearest
+  type: Field
+  source:
+    id: Nearest
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\TextureTypes.cs
+    startLine: 19
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: Nearest = 0
+    return:
+      type: Beryl.RHI.Resources.SamplerFilter
+- uid: Beryl.RHI.Resources.SamplerFilter.Linear
+  commentId: F:Beryl.RHI.Resources.SamplerFilter.Linear
+  id: Linear
+  parent: Beryl.RHI.Resources.SamplerFilter
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: SamplerFilter.Linear
+  fullName: Beryl.RHI.Resources.SamplerFilter.Linear
+  type: Field
+  source:
+    id: Linear
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\TextureTypes.cs
+    startLine: 20
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: Linear = 1
+    return:
+      type: Beryl.RHI.Resources.SamplerFilter
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.RHI.Resources.SamplerFilter
+  commentId: T:Beryl.RHI.Resources.SamplerFilter
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.SamplerFilter.html
+  name: SamplerFilter
+  nameWithType: SamplerFilter
+  fullName: Beryl.RHI.Resources.SamplerFilter

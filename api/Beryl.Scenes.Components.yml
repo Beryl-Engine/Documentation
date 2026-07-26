@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Scenes.Components
+  commentId: N:Beryl.Scenes.Components
+  id: Components
+  parent: Beryl.Scenes
+  children:
+  - Beryl.Scenes.Components.Component
+  - Beryl.Scenes.Components.Transform
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Scenes.Components
+  nameWithType: Beryl.Scenes.Components
+  fullName: Beryl.Scenes.Components
+  type: Namespace
+  assemblies:
+  - Beryl.Scenes
+references:
+- uid: Beryl.Scenes.Components.Component
+  commentId: T:Beryl.Scenes.Components.Component
+  parent: Beryl.Scenes.Components
+  href: Beryl.Scenes.Components.Component.html
+  name: Component
+  nameWithType: Component
+  fullName: Beryl.Scenes.Components.Component
+- uid: Beryl.Scenes.Components.Transform
+  commentId: T:Beryl.Scenes.Components.Transform
+  parent: Beryl.Scenes.Components
+  href: Beryl.Scenes.Components.Transform.html
+  name: Transform
+  nameWithType: Transform
+  fullName: Beryl.Scenes.Components.Transform
+- uid: Beryl.Scenes.Components
+  commentId: N:Beryl.Scenes.Components
+  href: Beryl.html
+  name: Beryl.Scenes.Components
+  nameWithType: Beryl.Scenes.Components
+  fullName: Beryl.Scenes.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Components
+    name: Components
+    href: Beryl.Scenes.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Components
+    name: Components
+    href: Beryl.Scenes.Components.html

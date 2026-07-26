@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.Resources.IBuffer
+  commentId: T:Beryl.RHI.Resources.IBuffer
+  id: IBuffer
+  parent: Beryl.RHI.Resources
+  children:
+  - Beryl.RHI.Resources.IBuffer.SizeInBytes
+  langs:
+  - csharp
+  - vb
+  name: IBuffer
+  nameWithType: IBuffer
+  fullName: Beryl.RHI.Resources.IBuffer
+  type: Interface
+  source:
+    id: IBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 8
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  summary: A GPU buffer.
+  example: []
+  syntax:
+    content: 'public interface IBuffer : IBindableResource, IGPUResource, IDisposable'
+    content.vb: Public Interface IBuffer Inherits IBindableResource, IGPUResource, IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: Beryl.RHI.Resources.IBuffer.SizeInBytes
+  commentId: P:Beryl.RHI.Resources.IBuffer.SizeInBytes
+  id: SizeInBytes
+  parent: Beryl.RHI.Resources.IBuffer
+  langs:
+  - csharp
+  - vb
+  name: SizeInBytes
+  nameWithType: IBuffer.SizeInBytes
+  fullName: Beryl.RHI.Resources.IBuffer.SizeInBytes
+  type: Property
+  source:
+    id: SizeInBytes
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 11
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  summary: The buffer size in bytes.
+  example: []
+  syntax:
+    content: uint SizeInBytes { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: ReadOnly Property SizeInBytes As UInteger
+  overload: Beryl.RHI.Resources.IBuffer.SizeInBytes*
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.RHI.Resources.IBuffer.SizeInBytes*
+  commentId: Overload:Beryl.RHI.Resources.IBuffer.SizeInBytes
+  href: Beryl.RHI.Resources.IBuffer.html#Beryl_RHI_Resources_IBuffer_SizeInBytes
+  name: SizeInBytes
+  nameWithType: IBuffer.SizeInBytes
+  fullName: Beryl.RHI.Resources.IBuffer.SizeInBytes
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger

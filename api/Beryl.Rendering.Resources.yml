@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Resources
+  commentId: N:Beryl.Rendering.Resources
+  id: Resources
+  parent: Beryl.Rendering
+  children:
+  - Beryl.Rendering.Resources.Caches
+  - Beryl.Rendering.Resources.FrameCountedResource`1
+  - Beryl.Rendering.Resources.IFrameCountedResource
+  - Beryl.Rendering.Resources.Material
+  - Beryl.Rendering.Resources.Mesh
+  - Beryl.Rendering.Resources.RenderItem
+  - Beryl.Rendering.Resources.Shader
+  - Beryl.Rendering.Resources.Texture
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Rendering.Resources
+  nameWithType: Beryl.Rendering.Resources
+  fullName: Beryl.Rendering.Resources
+  type: Namespace
+  assemblies:
+  - Beryl.Rendering
+references:
+- uid: Beryl.Rendering.Resources.Caches
+  commentId: N:Beryl.Rendering.Resources.Caches
+  href: Beryl.html
+  name: Beryl.Rendering.Resources.Caches
+  nameWithType: Beryl.Rendering.Resources.Caches
+  fullName: Beryl.Rendering.Resources.Caches
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  - name: .
+  - uid: Beryl.Rendering.Resources.Caches
+    name: Caches
+    href: Beryl.Rendering.Resources.Caches.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  - name: .
+  - uid: Beryl.Rendering.Resources.Caches
+    name: Caches
+    href: Beryl.Rendering.Resources.Caches.html
+- uid: Beryl.Rendering.Resources.FrameCountedResource`1
+  commentId: T:Beryl.Rendering.Resources.FrameCountedResource`1
+  href: Beryl.Rendering.Resources.FrameCountedResource-1.html
+  name: FrameCountedResource<T>
+  nameWithType: FrameCountedResource<T>
+  fullName: Beryl.Rendering.Resources.FrameCountedResource<T>
+  nameWithType.vb: FrameCountedResource(Of T)
+  fullName.vb: Beryl.Rendering.Resources.FrameCountedResource(Of T)
+  name.vb: FrameCountedResource(Of T)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.FrameCountedResource`1
+    name: FrameCountedResource
+    href: Beryl.Rendering.Resources.FrameCountedResource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.FrameCountedResource`1
+    name: FrameCountedResource
+    href: Beryl.Rendering.Resources.FrameCountedResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Beryl.Rendering.Resources.IFrameCountedResource
+  commentId: T:Beryl.Rendering.Resources.IFrameCountedResource
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.IFrameCountedResource.html
+  name: IFrameCountedResource
+  nameWithType: IFrameCountedResource
+  fullName: Beryl.Rendering.Resources.IFrameCountedResource
+- uid: Beryl.Rendering.Resources.Material
+  commentId: T:Beryl.Rendering.Resources.Material
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.Material.html
+  name: Material
+  nameWithType: Material
+  fullName: Beryl.Rendering.Resources.Material
+- uid: Beryl.Rendering.Resources.Mesh
+  commentId: T:Beryl.Rendering.Resources.Mesh
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.Mesh.html
+  name: Mesh
+  nameWithType: Mesh
+  fullName: Beryl.Rendering.Resources.Mesh
+- uid: Beryl.Rendering.Resources.RenderItem
+  commentId: T:Beryl.Rendering.Resources.RenderItem
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.RenderItem.html
+  name: RenderItem
+  nameWithType: RenderItem
+  fullName: Beryl.Rendering.Resources.RenderItem
+- uid: Beryl.Rendering.Resources.Shader
+  commentId: T:Beryl.Rendering.Resources.Shader
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.Shader.html
+  name: Shader
+  nameWithType: Shader
+  fullName: Beryl.Rendering.Resources.Shader
+- uid: Beryl.Rendering.Resources.Texture
+  commentId: T:Beryl.Rendering.Resources.Texture
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.Texture.html
+  name: Texture
+  nameWithType: Texture
+  fullName: Beryl.Rendering.Resources.Texture
+- uid: Beryl.Rendering.Resources
+  commentId: N:Beryl.Rendering.Resources
+  href: Beryl.html
+  name: Beryl.Rendering.Resources
+  nameWithType: Beryl.Rendering.Resources
+  fullName: Beryl.Rendering.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html

@@ -1,0 +1,646 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Audio.IAudioSource
+  commentId: T:Beryl.Audio.IAudioSource
+  id: IAudioSource
+  parent: Beryl.Audio
+  children:
+  - Beryl.Audio.IAudioSource.Destroy
+  - Beryl.Audio.IAudioSource.IsPlaying
+  - Beryl.Audio.IAudioSource.Loop
+  - Beryl.Audio.IAudioSource.MaxDistance
+  - Beryl.Audio.IAudioSource.MinDistance
+  - Beryl.Audio.IAudioSource.Obstructed
+  - Beryl.Audio.IAudioSource.Obstruction
+  - Beryl.Audio.IAudioSource.Occlusion
+  - Beryl.Audio.IAudioSource.Pitch
+  - Beryl.Audio.IAudioSource.Play
+  - Beryl.Audio.IAudioSource.RolloffFactor
+  - Beryl.Audio.IAudioSource.SetClip(Beryl.Audio.Resources.AudioClip)
+  - Beryl.Audio.IAudioSource.Stop
+  - Beryl.Audio.IAudioSource.Update(Beryl.Math.Vector3)
+  - Beryl.Audio.IAudioSource.Volume
+  langs:
+  - csharp
+  - vb
+  name: IAudioSource
+  nameWithType: IAudioSource
+  fullName: Beryl.Audio.IAudioSource
+  type: Interface
+  source:
+    id: IAudioSource
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Represents an audio source within the audio context.
+  example: []
+  syntax:
+    content: public interface IAudioSource
+    content.vb: Public Interface IAudioSource
+  derivedClasses:
+  - Beryl.Audio.Engines.OpenAL.OpenALSource
+- uid: Beryl.Audio.IAudioSource.Volume
+  commentId: P:Beryl.Audio.IAudioSource.Volume
+  id: Volume
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: IAudioSource.Volume
+  fullName: Beryl.Audio.IAudioSource.Volume
+  type: Property
+  source:
+    id: Volume
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Volume of the audio source.
+  example: []
+  syntax:
+    content: float Volume { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property Volume As Single
+  overload: Beryl.Audio.IAudioSource.Volume*
+- uid: Beryl.Audio.IAudioSource.Pitch
+  commentId: P:Beryl.Audio.IAudioSource.Pitch
+  id: Pitch
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Pitch
+  nameWithType: IAudioSource.Pitch
+  fullName: Beryl.Audio.IAudioSource.Pitch
+  type: Property
+  source:
+    id: Pitch
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Pitch of the audio source.
+  example: []
+  syntax:
+    content: float Pitch { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property Pitch As Single
+  overload: Beryl.Audio.IAudioSource.Pitch*
+- uid: Beryl.Audio.IAudioSource.Loop
+  commentId: P:Beryl.Audio.IAudioSource.Loop
+  id: Loop
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Loop
+  nameWithType: IAudioSource.Loop
+  fullName: Beryl.Audio.IAudioSource.Loop
+  type: Property
+  source:
+    id: Loop
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 20
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Whether the audio source loops.
+  example: []
+  syntax:
+    content: bool Loop { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property [Loop] As Boolean
+  overload: Beryl.Audio.IAudioSource.Loop*
+- uid: Beryl.Audio.IAudioSource.IsPlaying
+  commentId: P:Beryl.Audio.IAudioSource.IsPlaying
+  id: IsPlaying
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: IsPlaying
+  nameWithType: IAudioSource.IsPlaying
+  fullName: Beryl.Audio.IAudioSource.IsPlaying
+  type: Property
+  source:
+    id: IsPlaying
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 23
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Whether the audio source is currently playing.
+  example: []
+  syntax:
+    content: bool IsPlaying { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsPlaying As Boolean
+  overload: Beryl.Audio.IAudioSource.IsPlaying*
+- uid: Beryl.Audio.IAudioSource.Obstruction
+  commentId: P:Beryl.Audio.IAudioSource.Obstruction
+  id: Obstruction
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Obstruction
+  nameWithType: IAudioSource.Obstruction
+  fullName: Beryl.Audio.IAudioSource.Obstruction
+  type: Property
+  source:
+    id: Obstruction
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 26
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: The line-of-sight obstruction level of the audio source.
+  example: []
+  syntax:
+    content: float Obstruction { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property Obstruction As Single
+  overload: Beryl.Audio.IAudioSource.Obstruction*
+- uid: Beryl.Audio.IAudioSource.Occlusion
+  commentId: P:Beryl.Audio.IAudioSource.Occlusion
+  id: Occlusion
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Occlusion
+  nameWithType: IAudioSource.Occlusion
+  fullName: Beryl.Audio.IAudioSource.Occlusion
+  type: Property
+  source:
+    id: Occlusion
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 29
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: The acoustic occlusion level of the audio source.
+  example: []
+  syntax:
+    content: float Occlusion { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property Occlusion As Single
+  overload: Beryl.Audio.IAudioSource.Occlusion*
+- uid: Beryl.Audio.IAudioSource.Obstructed
+  commentId: P:Beryl.Audio.IAudioSource.Obstructed
+  id: Obstructed
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Obstructed
+  nameWithType: IAudioSource.Obstructed
+  fullName: Beryl.Audio.IAudioSource.Obstructed
+  type: Property
+  source:
+    id: Obstructed
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 32
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Whether the audio source's path to the listener is currently blocked.
+  example: []
+  syntax:
+    content: bool Obstructed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Obstructed As Boolean
+  overload: Beryl.Audio.IAudioSource.Obstructed*
+- uid: Beryl.Audio.IAudioSource.MinDistance
+  commentId: P:Beryl.Audio.IAudioSource.MinDistance
+  id: MinDistance
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: MinDistance
+  nameWithType: IAudioSource.MinDistance
+  fullName: Beryl.Audio.IAudioSource.MinDistance
+  type: Property
+  source:
+    id: MinDistance
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 35
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: The distance at which the audio source is heard at full volume.
+  example: []
+  syntax:
+    content: float MinDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property MinDistance As Single
+  overload: Beryl.Audio.IAudioSource.MinDistance*
+- uid: Beryl.Audio.IAudioSource.MaxDistance
+  commentId: P:Beryl.Audio.IAudioSource.MaxDistance
+  id: MaxDistance
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: MaxDistance
+  nameWithType: IAudioSource.MaxDistance
+  fullName: Beryl.Audio.IAudioSource.MaxDistance
+  type: Property
+  source:
+    id: MaxDistance
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 38
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: The distance beyond which the audio source's volume no longer attenuates.
+  example: []
+  syntax:
+    content: float MaxDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property MaxDistance As Single
+  overload: Beryl.Audio.IAudioSource.MaxDistance*
+- uid: Beryl.Audio.IAudioSource.RolloffFactor
+  commentId: P:Beryl.Audio.IAudioSource.RolloffFactor
+  id: RolloffFactor
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: RolloffFactor
+  nameWithType: IAudioSource.RolloffFactor
+  fullName: Beryl.Audio.IAudioSource.RolloffFactor
+  type: Property
+  source:
+    id: RolloffFactor
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 41
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: How quickly the audio source's volume attenuates with distance.
+  example: []
+  syntax:
+    content: float RolloffFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property RolloffFactor As Single
+  overload: Beryl.Audio.IAudioSource.RolloffFactor*
+- uid: Beryl.Audio.IAudioSource.SetClip(Beryl.Audio.Resources.AudioClip)
+  commentId: M:Beryl.Audio.IAudioSource.SetClip(Beryl.Audio.Resources.AudioClip)
+  id: SetClip(Beryl.Audio.Resources.AudioClip)
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: SetClip(AudioClip)
+  nameWithType: IAudioSource.SetClip(AudioClip)
+  fullName: Beryl.Audio.IAudioSource.SetClip(Beryl.Audio.Resources.AudioClip)
+  type: Method
+  source:
+    id: SetClip
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 45
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Sets the audio clip to be used for playback.
+  example: []
+  syntax:
+    content: void SetClip(AudioClip clip)
+    parameters:
+    - id: clip
+      type: Beryl.Audio.Resources.AudioClip
+      description: The audio clip to assign.
+    content.vb: Sub SetClip(clip As AudioClip)
+  overload: Beryl.Audio.IAudioSource.SetClip*
+- uid: Beryl.Audio.IAudioSource.Play
+  commentId: M:Beryl.Audio.IAudioSource.Play
+  id: Play
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Play()
+  nameWithType: IAudioSource.Play()
+  fullName: Beryl.Audio.IAudioSource.Play()
+  type: Method
+  source:
+    id: Play
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 48
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Plays the audio source.
+  example: []
+  syntax:
+    content: void Play()
+    content.vb: Sub Play()
+  overload: Beryl.Audio.IAudioSource.Play*
+- uid: Beryl.Audio.IAudioSource.Stop
+  commentId: M:Beryl.Audio.IAudioSource.Stop
+  id: Stop
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: IAudioSource.Stop()
+  fullName: Beryl.Audio.IAudioSource.Stop()
+  type: Method
+  source:
+    id: Stop
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 51
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Stops the audio source.
+  example: []
+  syntax:
+    content: void Stop()
+    content.vb: Sub [Stop]()
+  overload: Beryl.Audio.IAudioSource.Stop*
+- uid: Beryl.Audio.IAudioSource.Destroy
+  commentId: M:Beryl.Audio.IAudioSource.Destroy
+  id: Destroy
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: IAudioSource.Destroy()
+  fullName: Beryl.Audio.IAudioSource.Destroy()
+  type: Method
+  source:
+    id: Destroy
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 54
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  summary: Destroys the audio source.
+  example: []
+  syntax:
+    content: void Destroy()
+    content.vb: Sub Destroy()
+  overload: Beryl.Audio.IAudioSource.Destroy*
+- uid: Beryl.Audio.IAudioSource.Update(Beryl.Math.Vector3)
+  commentId: M:Beryl.Audio.IAudioSource.Update(Beryl.Math.Vector3)
+  id: Update(Beryl.Math.Vector3)
+  parent: Beryl.Audio.IAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Update(Vector3)
+  nameWithType: IAudioSource.Update(Vector3)
+  fullName: Beryl.Audio.IAudioSource.Update(Beryl.Math.Vector3)
+  type: Method
+  source:
+    id: Update
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\IAudioSource.cs
+    startLine: 56
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio
+  syntax:
+    content: void Update(Vector3 position)
+    parameters:
+    - id: position
+      type: Beryl.Math.Vector3
+    content.vb: Sub Update(position As Vector3)
+  overload: Beryl.Audio.IAudioSource.Update*
+references:
+- uid: Beryl.Audio
+  commentId: N:Beryl.Audio
+  href: Beryl.html
+  name: Beryl.Audio
+  nameWithType: Beryl.Audio
+  fullName: Beryl.Audio
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+- uid: Beryl.Audio.IAudioSource.Volume*
+  commentId: Overload:Beryl.Audio.IAudioSource.Volume
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Volume
+  name: Volume
+  nameWithType: IAudioSource.Volume
+  fullName: Beryl.Audio.IAudioSource.Volume
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Audio.IAudioSource.Pitch*
+  commentId: Overload:Beryl.Audio.IAudioSource.Pitch
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Pitch
+  name: Pitch
+  nameWithType: IAudioSource.Pitch
+  fullName: Beryl.Audio.IAudioSource.Pitch
+- uid: Beryl.Audio.IAudioSource.Loop*
+  commentId: Overload:Beryl.Audio.IAudioSource.Loop
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Loop
+  name: Loop
+  nameWithType: IAudioSource.Loop
+  fullName: Beryl.Audio.IAudioSource.Loop
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Beryl.Audio.IAudioSource.IsPlaying*
+  commentId: Overload:Beryl.Audio.IAudioSource.IsPlaying
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_IsPlaying
+  name: IsPlaying
+  nameWithType: IAudioSource.IsPlaying
+  fullName: Beryl.Audio.IAudioSource.IsPlaying
+- uid: Beryl.Audio.IAudioSource.Obstruction*
+  commentId: Overload:Beryl.Audio.IAudioSource.Obstruction
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Obstruction
+  name: Obstruction
+  nameWithType: IAudioSource.Obstruction
+  fullName: Beryl.Audio.IAudioSource.Obstruction
+- uid: Beryl.Audio.IAudioSource.Occlusion*
+  commentId: Overload:Beryl.Audio.IAudioSource.Occlusion
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Occlusion
+  name: Occlusion
+  nameWithType: IAudioSource.Occlusion
+  fullName: Beryl.Audio.IAudioSource.Occlusion
+- uid: Beryl.Audio.IAudioSource.Obstructed*
+  commentId: Overload:Beryl.Audio.IAudioSource.Obstructed
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Obstructed
+  name: Obstructed
+  nameWithType: IAudioSource.Obstructed
+  fullName: Beryl.Audio.IAudioSource.Obstructed
+- uid: Beryl.Audio.IAudioSource.MinDistance*
+  commentId: Overload:Beryl.Audio.IAudioSource.MinDistance
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_MinDistance
+  name: MinDistance
+  nameWithType: IAudioSource.MinDistance
+  fullName: Beryl.Audio.IAudioSource.MinDistance
+- uid: Beryl.Audio.IAudioSource.MaxDistance*
+  commentId: Overload:Beryl.Audio.IAudioSource.MaxDistance
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_MaxDistance
+  name: MaxDistance
+  nameWithType: IAudioSource.MaxDistance
+  fullName: Beryl.Audio.IAudioSource.MaxDistance
+- uid: Beryl.Audio.IAudioSource.RolloffFactor*
+  commentId: Overload:Beryl.Audio.IAudioSource.RolloffFactor
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_RolloffFactor
+  name: RolloffFactor
+  nameWithType: IAudioSource.RolloffFactor
+  fullName: Beryl.Audio.IAudioSource.RolloffFactor
+- uid: Beryl.Audio.IAudioSource.SetClip*
+  commentId: Overload:Beryl.Audio.IAudioSource.SetClip
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_SetClip_Beryl_Audio_Resources_AudioClip_
+  name: SetClip
+  nameWithType: IAudioSource.SetClip
+  fullName: Beryl.Audio.IAudioSource.SetClip
+- uid: Beryl.Audio.Resources.AudioClip
+  commentId: T:Beryl.Audio.Resources.AudioClip
+  parent: Beryl.Audio.Resources
+  href: Beryl.Audio.Resources.AudioClip.html
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: Beryl.Audio.Resources.AudioClip
+- uid: Beryl.Audio.Resources
+  commentId: N:Beryl.Audio.Resources
+  href: Beryl.html
+  name: Beryl.Audio.Resources
+  nameWithType: Beryl.Audio.Resources
+  fullName: Beryl.Audio.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Resources
+    name: Resources
+    href: Beryl.Audio.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Resources
+    name: Resources
+    href: Beryl.Audio.Resources.html
+- uid: Beryl.Audio.IAudioSource.Play*
+  commentId: Overload:Beryl.Audio.IAudioSource.Play
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Play
+  name: Play
+  nameWithType: IAudioSource.Play
+  fullName: Beryl.Audio.IAudioSource.Play
+- uid: Beryl.Audio.IAudioSource.Stop*
+  commentId: Overload:Beryl.Audio.IAudioSource.Stop
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Stop
+  name: Stop
+  nameWithType: IAudioSource.Stop
+  fullName: Beryl.Audio.IAudioSource.Stop
+- uid: Beryl.Audio.IAudioSource.Destroy*
+  commentId: Overload:Beryl.Audio.IAudioSource.Destroy
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Destroy
+  name: Destroy
+  nameWithType: IAudioSource.Destroy
+  fullName: Beryl.Audio.IAudioSource.Destroy
+- uid: Beryl.Audio.IAudioSource.Update*
+  commentId: Overload:Beryl.Audio.IAudioSource.Update
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Update_Beryl_Math_Vector3_
+  name: Update
+  nameWithType: IAudioSource.Update
+  fullName: Beryl.Audio.IAudioSource.Update
+- uid: Beryl.Math.Vector3
+  commentId: T:Beryl.Math.Vector3
+  parent: Beryl.Math
+  href: Beryl.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Beryl.Math.Vector3
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html

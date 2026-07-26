@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Scenes.SceneModule
+  commentId: T:Beryl.Scenes.SceneModule
+  id: SceneModule
+  parent: Beryl.Scenes
+  children:
+  - Beryl.Scenes.SceneModule.CurrentScene
+  - Beryl.Scenes.SceneModule.Dispose
+  - Beryl.Scenes.SceneModule.Initialize
+  - Beryl.Scenes.SceneModule.Update
+  langs:
+  - csharp
+  - vb
+  name: SceneModule
+  nameWithType: SceneModule
+  fullName: Beryl.Scenes.SceneModule
+  type: Class
+  source:
+    id: SceneModule
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Scenes\SceneModule.cs
+    startLine: 12
+  assemblies:
+  - Beryl.Scenes
+  namespace: Beryl.Scenes
+  summary: Module responsible for managing scenes.
+  example: []
+  syntax:
+    content: 'public class SceneModule : BaseModule, IDisposable'
+    content.vb: Public Class SceneModule Inherits BaseModule Implements IDisposable
+  inheritance:
+  - System.Object
+  - Beryl.Common.BaseModule
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - Beryl.Common.BaseModule.IsInitialized
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Scenes.SceneModule.CurrentScene
+  commentId: P:Beryl.Scenes.SceneModule.CurrentScene
+  id: CurrentScene
+  parent: Beryl.Scenes.SceneModule
+  langs:
+  - csharp
+  - vb
+  name: CurrentScene
+  nameWithType: SceneModule.CurrentScene
+  fullName: Beryl.Scenes.SceneModule.CurrentScene
+  type: Property
+  source:
+    id: CurrentScene
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Scenes\SceneModule.cs
+    startLine: 15
+  assemblies:
+  - Beryl.Scenes
+  namespace: Beryl.Scenes
+  summary: The currently loaded scene.
+  example: []
+  syntax:
+    content: public Scene CurrentScene { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Scenes.Resources.Scene
+    content.vb: Public Property CurrentScene As Scene
+  overload: Beryl.Scenes.SceneModule.CurrentScene*
+- uid: Beryl.Scenes.SceneModule.Initialize
+  commentId: M:Beryl.Scenes.SceneModule.Initialize
+  id: Initialize
+  parent: Beryl.Scenes.SceneModule
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: SceneModule.Initialize()
+  fullName: Beryl.Scenes.SceneModule.Initialize()
+  type: Method
+  source:
+    id: Initialize
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Scenes\SceneModule.cs
+    startLine: 18
+  assemblies:
+  - Beryl.Scenes
+  namespace: Beryl.Scenes
+  summary: Runs when <xref href="Beryl.Common.ModuleManager.InitializeAll" data-throw-if-not-resolved="false"></xref> is called.
+  example: []
+  syntax:
+    content: public override void Initialize()
+    content.vb: Public Overrides Sub Initialize()
+  overridden: Beryl.Common.BaseModule.Initialize
+  overload: Beryl.Scenes.SceneModule.Initialize*
+- uid: Beryl.Scenes.SceneModule.Dispose
+  commentId: M:Beryl.Scenes.SceneModule.Dispose
+  id: Dispose
+  parent: Beryl.Scenes.SceneModule
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SceneModule.Dispose()
+  fullName: Beryl.Scenes.SceneModule.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Scenes\SceneModule.cs
+    startLine: 28
+  assemblies:
+  - Beryl.Scenes
+  namespace: Beryl.Scenes
+  summary: Runs when <xref href="Beryl.Common.ModuleManager.DisposeAll" data-throw-if-not-resolved="false"></xref> is called.
+  remarks: The default implementation unregisters this <xref href="Beryl.Common.BaseModule" data-throw-if-not-resolved="false"></xref> from <xref href="Beryl.Common.ModuleManager" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose()
+  overridden: Beryl.Common.BaseModule.Dispose
+  overload: Beryl.Scenes.SceneModule.Dispose*
+- uid: Beryl.Scenes.SceneModule.Update
+  commentId: M:Beryl.Scenes.SceneModule.Update
+  id: Update
+  parent: Beryl.Scenes.SceneModule
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: SceneModule.Update()
+  fullName: Beryl.Scenes.SceneModule.Update()
+  type: Method
+  source:
+    id: Update
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Scenes\SceneModule.cs
+    startLine: 35
+  assemblies:
+  - Beryl.Scenes
+  namespace: Beryl.Scenes
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update()
+  overload: Beryl.Scenes.SceneModule.Update*
+references:
+- uid: Beryl.Scenes
+  commentId: N:Beryl.Scenes
+  href: Beryl.html
+  name: Beryl.Scenes
+  nameWithType: Beryl.Scenes
+  fullName: Beryl.Scenes
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Common.BaseModule
+  commentId: T:Beryl.Common.BaseModule
+  parent: Beryl.Common
+  href: Beryl.Common.BaseModule.html
+  name: BaseModule
+  nameWithType: BaseModule
+  fullName: Beryl.Common.BaseModule
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Beryl.Common.BaseModule.IsInitialized
+  commentId: P:Beryl.Common.BaseModule.IsInitialized
+  parent: Beryl.Common.BaseModule
+  href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_IsInitialized
+  name: IsInitialized
+  nameWithType: BaseModule.IsInitialized
+  fullName: Beryl.Common.BaseModule.IsInitialized
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Common
+  commentId: N:Beryl.Common
+  href: Beryl.html
+  name: Beryl.Common
+  nameWithType: Beryl.Common
+  fullName: Beryl.Common
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+- uid: Beryl.Scenes.SceneModule.CurrentScene*
+  commentId: Overload:Beryl.Scenes.SceneModule.CurrentScene
+  href: Beryl.Scenes.SceneModule.html#Beryl_Scenes_SceneModule_CurrentScene
+  name: CurrentScene
+  nameWithType: SceneModule.CurrentScene
+  fullName: Beryl.Scenes.SceneModule.CurrentScene
+- uid: Beryl.Scenes.Resources.Scene
+  commentId: T:Beryl.Scenes.Resources.Scene
+  parent: Beryl.Scenes.Resources
+  href: Beryl.Scenes.Resources.Scene.html
+  name: Scene
+  nameWithType: Scene
+  fullName: Beryl.Scenes.Resources.Scene
+- uid: Beryl.Scenes.Resources
+  commentId: N:Beryl.Scenes.Resources
+  href: Beryl.html
+  name: Beryl.Scenes.Resources
+  nameWithType: Beryl.Scenes.Resources
+  fullName: Beryl.Scenes.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Resources
+    name: Resources
+    href: Beryl.Scenes.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Resources
+    name: Resources
+    href: Beryl.Scenes.Resources.html
+- uid: Beryl.Common.ModuleManager.InitializeAll
+  commentId: M:Beryl.Common.ModuleManager.InitializeAll
+  href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_InitializeAll
+  name: InitializeAll()
+  nameWithType: ModuleManager.InitializeAll()
+  fullName: Beryl.Common.ModuleManager.InitializeAll()
+  spec.csharp:
+  - uid: Beryl.Common.ModuleManager.InitializeAll
+    name: InitializeAll
+    href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_InitializeAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.ModuleManager.InitializeAll
+    name: InitializeAll
+    href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_InitializeAll
+  - name: (
+  - name: )
+- uid: Beryl.Common.BaseModule.Initialize
+  commentId: M:Beryl.Common.BaseModule.Initialize
+  parent: Beryl.Common.BaseModule
+  href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Initialize
+  name: Initialize()
+  nameWithType: BaseModule.Initialize()
+  fullName: Beryl.Common.BaseModule.Initialize()
+  spec.csharp:
+  - uid: Beryl.Common.BaseModule.Initialize
+    name: Initialize
+    href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Initialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.BaseModule.Initialize
+    name: Initialize
+    href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Initialize
+  - name: (
+  - name: )
+- uid: Beryl.Scenes.SceneModule.Initialize*
+  commentId: Overload:Beryl.Scenes.SceneModule.Initialize
+  href: Beryl.Scenes.SceneModule.html#Beryl_Scenes_SceneModule_Initialize
+  name: Initialize
+  nameWithType: SceneModule.Initialize
+  fullName: Beryl.Scenes.SceneModule.Initialize
+- uid: Beryl.Common.ModuleManager.DisposeAll
+  commentId: M:Beryl.Common.ModuleManager.DisposeAll
+  href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_DisposeAll
+  name: DisposeAll()
+  nameWithType: ModuleManager.DisposeAll()
+  fullName: Beryl.Common.ModuleManager.DisposeAll()
+  spec.csharp:
+  - uid: Beryl.Common.ModuleManager.DisposeAll
+    name: DisposeAll
+    href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_DisposeAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.ModuleManager.DisposeAll
+    name: DisposeAll
+    href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_DisposeAll
+  - name: (
+  - name: )
+- uid: Beryl.Common.ModuleManager
+  commentId: T:Beryl.Common.ModuleManager
+  href: Beryl.Common.ModuleManager.html
+  name: ModuleManager
+  nameWithType: ModuleManager
+  fullName: Beryl.Common.ModuleManager
+- uid: Beryl.Common.BaseModule.Dispose
+  commentId: M:Beryl.Common.BaseModule.Dispose
+  parent: Beryl.Common.BaseModule
+  href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Dispose
+  name: Dispose()
+  nameWithType: BaseModule.Dispose()
+  fullName: Beryl.Common.BaseModule.Dispose()
+  spec.csharp:
+  - uid: Beryl.Common.BaseModule.Dispose
+    name: Dispose
+    href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.BaseModule.Dispose
+    name: Dispose
+    href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Dispose
+  - name: (
+  - name: )
+- uid: Beryl.Scenes.SceneModule.Dispose*
+  commentId: Overload:Beryl.Scenes.SceneModule.Dispose
+  href: Beryl.Scenes.SceneModule.html#Beryl_Scenes_SceneModule_Dispose
+  name: Dispose
+  nameWithType: SceneModule.Dispose
+  fullName: Beryl.Scenes.SceneModule.Dispose
+- uid: Beryl.Scenes.SceneModule.Update*
+  commentId: Overload:Beryl.Scenes.SceneModule.Update
+  href: Beryl.Scenes.SceneModule.html#Beryl_Scenes_SceneModule_Update
+  name: Update
+  nameWithType: SceneModule.Update
+  fullName: Beryl.Scenes.SceneModule.Update

@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.Resources.ShaderStages
+  commentId: T:Beryl.RHI.Resources.ShaderStages
+  id: ShaderStages
+  parent: Beryl.RHI.Resources
+  children:
+  - Beryl.RHI.Resources.ShaderStages.Fragment
+  - Beryl.RHI.Resources.ShaderStages.Vertex
+  langs:
+  - csharp
+  - vb
+  name: ShaderStages
+  nameWithType: ShaderStages
+  fullName: Beryl.RHI.Resources.ShaderStages
+  type: Enum
+  source:
+    id: ShaderStages
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 82
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  summary: All stages of a shader.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ShaderStages : byte
+    content.vb: >-
+      <Flags>
+
+      Public Enum ShaderStages As Byte
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Beryl.RHI.Resources.ShaderStages.Vertex
+  commentId: F:Beryl.RHI.Resources.ShaderStages.Vertex
+  id: Vertex
+  parent: Beryl.RHI.Resources.ShaderStages
+  langs:
+  - csharp
+  - vb
+  name: Vertex
+  nameWithType: ShaderStages.Vertex
+  fullName: Beryl.RHI.Resources.ShaderStages.Vertex
+  type: Field
+  source:
+    id: Vertex
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 85
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: Vertex = 1
+    return:
+      type: Beryl.RHI.Resources.ShaderStages
+- uid: Beryl.RHI.Resources.ShaderStages.Fragment
+  commentId: F:Beryl.RHI.Resources.ShaderStages.Fragment
+  id: Fragment
+  parent: Beryl.RHI.Resources.ShaderStages
+  langs:
+  - csharp
+  - vb
+  name: Fragment
+  nameWithType: ShaderStages.Fragment
+  fullName: Beryl.RHI.Resources.ShaderStages.Fragment
+  type: Field
+  source:
+    id: Fragment
+    path: E:\Beryl\Documentation\src\Beryl.RHI\Resources\ResourceInterfaces.cs
+    startLine: 86
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI.Resources
+  syntax:
+    content: Fragment = 2
+    return:
+      type: Beryl.RHI.Resources.ShaderStages
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.RHI.Resources.ShaderStages
+  commentId: T:Beryl.RHI.Resources.ShaderStages
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.ShaderStages.html
+  name: ShaderStages
+  nameWithType: ShaderStages
+  fullName: Beryl.RHI.Resources.ShaderStages

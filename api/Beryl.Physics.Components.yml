@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Physics.Components
+  commentId: N:Beryl.Physics.Components
+  id: Components
+  parent: Beryl.Physics
+  children:
+  - Beryl.Physics.Components.Colliders
+  - Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Physics.Components
+  nameWithType: Beryl.Physics.Components
+  fullName: Beryl.Physics.Components
+  type: Namespace
+  assemblies:
+  - Beryl.Physics
+references:
+- uid: Beryl.Physics.Components.Colliders
+  commentId: N:Beryl.Physics.Components.Colliders
+  href: Beryl.html
+  name: Beryl.Physics.Components.Colliders
+  nameWithType: Beryl.Physics.Components.Colliders
+  fullName: Beryl.Physics.Components.Colliders
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html
+  - name: .
+  - uid: Beryl.Physics.Components.Colliders
+    name: Colliders
+    href: Beryl.Physics.Components.Colliders.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html
+  - name: .
+  - uid: Beryl.Physics.Components.Colliders
+    name: Colliders
+    href: Beryl.Physics.Components.Colliders.html
+- uid: Beryl.Physics.Components.RigidBody
+  commentId: T:Beryl.Physics.Components.RigidBody
+  parent: Beryl.Physics.Components
+  href: Beryl.Physics.Components.RigidBody.html
+  name: RigidBody
+  nameWithType: RigidBody
+  fullName: Beryl.Physics.Components.RigidBody
+- uid: Beryl.Physics.Components
+  commentId: N:Beryl.Physics.Components
+  href: Beryl.html
+  name: Beryl.Physics.Components
+  nameWithType: Beryl.Physics.Components
+  fullName: Beryl.Physics.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html

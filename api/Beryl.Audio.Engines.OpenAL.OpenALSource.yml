@@ -1,0 +1,1267 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource
+  commentId: T:Beryl.Audio.Engines.OpenAL.OpenALSource
+  id: OpenALSource
+  parent: Beryl.Audio.Engines.OpenAL
+  children:
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.#ctor(Silk.NET.OpenAL.AL,Silk.NET.OpenAL.Extensions.Creative.EffectExtension)
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.Destroy
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.IsPlaying
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.Loop
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.MaxDistance
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.MinDistance
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.Obstructed
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.Obstruction
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.Occlusion
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.Pitch
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.Play
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.RolloffFactor
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.SetClip(Beryl.Audio.Resources.AudioClip)
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.Stop
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.Update(Beryl.Math.Vector3)
+  - Beryl.Audio.Engines.OpenAL.OpenALSource.Volume
+  langs:
+  - csharp
+  - vb
+  name: OpenALSource
+  nameWithType: OpenALSource
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource
+  type: Class
+  source:
+    id: OpenALSource
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  syntax:
+    content: 'public class OpenALSource : IAudioSource'
+    content.vb: Public Class OpenALSource Implements IAudioSource
+  inheritance:
+  - System.Object
+  implements:
+  - Beryl.Audio.IAudioSource
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.#ctor(Silk.NET.OpenAL.AL,Silk.NET.OpenAL.Extensions.Creative.EffectExtension)
+  commentId: M:Beryl.Audio.Engines.OpenAL.OpenALSource.#ctor(Silk.NET.OpenAL.AL,Silk.NET.OpenAL.Extensions.Creative.EffectExtension)
+  id: '#ctor(Silk.NET.OpenAL.AL,Silk.NET.OpenAL.Extensions.Creative.EffectExtension)'
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: OpenALSource(AL, EffectExtension)
+  nameWithType: OpenALSource.OpenALSource(AL, EffectExtension)
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.OpenALSource(Silk.NET.OpenAL.AL, Silk.NET.OpenAL.Extensions.Creative.EffectExtension)
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 18
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  syntax:
+    content: public OpenALSource(AL al, EffectExtension efx)
+    parameters:
+    - id: al
+      type: Silk.NET.OpenAL.AL
+    - id: efx
+      type: Silk.NET.OpenAL.Extensions.Creative.EffectExtension
+    content.vb: Public Sub New(al As AL, efx As EffectExtension)
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.#ctor*
+  nameWithType.vb: OpenALSource.New(AL, EffectExtension)
+  fullName.vb: Beryl.Audio.Engines.OpenAL.OpenALSource.New(Silk.NET.OpenAL.AL, Silk.NET.OpenAL.Extensions.Creative.EffectExtension)
+  name.vb: New(AL, EffectExtension)
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Obstruction
+  commentId: P:Beryl.Audio.Engines.OpenAL.OpenALSource.Obstruction
+  id: Obstruction
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: Obstruction
+  nameWithType: OpenALSource.Obstruction
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Obstruction
+  type: Property
+  source:
+    id: Obstruction
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 27
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: The line-of-sight obstruction level of the audio source.
+  example: []
+  syntax:
+    content: public float Obstruction { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Obstruction As Single
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.Obstruction*
+  implements:
+  - Beryl.Audio.IAudioSource.Obstruction
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Occlusion
+  commentId: P:Beryl.Audio.Engines.OpenAL.OpenALSource.Occlusion
+  id: Occlusion
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: Occlusion
+  nameWithType: OpenALSource.Occlusion
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Occlusion
+  type: Property
+  source:
+    id: Occlusion
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 29
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: The acoustic occlusion level of the audio source.
+  example: []
+  syntax:
+    content: public float Occlusion { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Occlusion As Single
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.Occlusion*
+  implements:
+  - Beryl.Audio.IAudioSource.Occlusion
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Obstructed
+  commentId: P:Beryl.Audio.Engines.OpenAL.OpenALSource.Obstructed
+  id: Obstructed
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: Obstructed
+  nameWithType: OpenALSource.Obstructed
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Obstructed
+  type: Property
+  source:
+    id: Obstructed
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 31
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: Whether the audio source's path to the listener is currently blocked.
+  example: []
+  syntax:
+    content: public bool Obstructed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Obstructed As Boolean
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.Obstructed*
+  implements:
+  - Beryl.Audio.IAudioSource.Obstructed
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Volume
+  commentId: P:Beryl.Audio.Engines.OpenAL.OpenALSource.Volume
+  id: Volume
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: OpenALSource.Volume
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Volume
+  type: Property
+  source:
+    id: Volume
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 34
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: Volume of the audio source.
+  example: []
+  syntax:
+    content: public float Volume { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Volume As Single
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.Volume*
+  implements:
+  - Beryl.Audio.IAudioSource.Volume
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Pitch
+  commentId: P:Beryl.Audio.Engines.OpenAL.OpenALSource.Pitch
+  id: Pitch
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: Pitch
+  nameWithType: OpenALSource.Pitch
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Pitch
+  type: Property
+  source:
+    id: Pitch
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 46
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: Pitch of the audio source.
+  example: []
+  syntax:
+    content: public float Pitch { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Pitch As Single
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.Pitch*
+  implements:
+  - Beryl.Audio.IAudioSource.Pitch
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Loop
+  commentId: P:Beryl.Audio.Engines.OpenAL.OpenALSource.Loop
+  id: Loop
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: Loop
+  nameWithType: OpenALSource.Loop
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Loop
+  type: Property
+  source:
+    id: Loop
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 58
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: Whether the audio source loops.
+  example: []
+  syntax:
+    content: public bool Loop { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property [Loop] As Boolean
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.Loop*
+  implements:
+  - Beryl.Audio.IAudioSource.Loop
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.IsPlaying
+  commentId: P:Beryl.Audio.Engines.OpenAL.OpenALSource.IsPlaying
+  id: IsPlaying
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: IsPlaying
+  nameWithType: OpenALSource.IsPlaying
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.IsPlaying
+  type: Property
+  source:
+    id: IsPlaying
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 70
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: Whether the audio source is currently playing.
+  example: []
+  syntax:
+    content: public bool IsPlaying { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPlaying As Boolean
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.IsPlaying*
+  implements:
+  - Beryl.Audio.IAudioSource.IsPlaying
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.MinDistance
+  commentId: P:Beryl.Audio.Engines.OpenAL.OpenALSource.MinDistance
+  id: MinDistance
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: MinDistance
+  nameWithType: OpenALSource.MinDistance
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.MinDistance
+  type: Property
+  source:
+    id: MinDistance
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 81
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: The distance at which the audio source is heard at full volume.
+  example: []
+  syntax:
+    content: public float MinDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MinDistance As Single
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.MinDistance*
+  implements:
+  - Beryl.Audio.IAudioSource.MinDistance
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.MaxDistance
+  commentId: P:Beryl.Audio.Engines.OpenAL.OpenALSource.MaxDistance
+  id: MaxDistance
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: MaxDistance
+  nameWithType: OpenALSource.MaxDistance
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.MaxDistance
+  type: Property
+  source:
+    id: MaxDistance
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 93
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: The distance beyond which the audio source's volume no longer attenuates.
+  example: []
+  syntax:
+    content: public float MaxDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MaxDistance As Single
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.MaxDistance*
+  implements:
+  - Beryl.Audio.IAudioSource.MaxDistance
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.RolloffFactor
+  commentId: P:Beryl.Audio.Engines.OpenAL.OpenALSource.RolloffFactor
+  id: RolloffFactor
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: RolloffFactor
+  nameWithType: OpenALSource.RolloffFactor
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.RolloffFactor
+  type: Property
+  source:
+    id: RolloffFactor
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 105
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: How quickly the audio source's volume attenuates with distance.
+  example: []
+  syntax:
+    content: public float RolloffFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RolloffFactor As Single
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.RolloffFactor*
+  implements:
+  - Beryl.Audio.IAudioSource.RolloffFactor
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Update(Beryl.Math.Vector3)
+  commentId: M:Beryl.Audio.Engines.OpenAL.OpenALSource.Update(Beryl.Math.Vector3)
+  id: Update(Beryl.Math.Vector3)
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: Update(Vector3)
+  nameWithType: OpenALSource.Update(Vector3)
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Update(Beryl.Math.Vector3)
+  type: Method
+  source:
+    id: Update
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 117
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  example: []
+  syntax:
+    content: public void Update(Vector3 position)
+    parameters:
+    - id: position
+      type: Beryl.Math.Vector3
+    content.vb: Public Sub Update(position As Vector3)
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.Update*
+  implements:
+  - Beryl.Audio.IAudioSource.Update(Beryl.Math.Vector3)
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.SetClip(Beryl.Audio.Resources.AudioClip)
+  commentId: M:Beryl.Audio.Engines.OpenAL.OpenALSource.SetClip(Beryl.Audio.Resources.AudioClip)
+  id: SetClip(Beryl.Audio.Resources.AudioClip)
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: SetClip(AudioClip)
+  nameWithType: OpenALSource.SetClip(AudioClip)
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.SetClip(Beryl.Audio.Resources.AudioClip)
+  type: Method
+  source:
+    id: SetClip
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 128
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: Sets the audio clip to be used for playback.
+  example: []
+  syntax:
+    content: public void SetClip(AudioClip clip)
+    parameters:
+    - id: clip
+      type: Beryl.Audio.Resources.AudioClip
+      description: The audio clip to assign.
+    content.vb: Public Sub SetClip(clip As AudioClip)
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.SetClip*
+  implements:
+  - Beryl.Audio.IAudioSource.SetClip(Beryl.Audio.Resources.AudioClip)
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Play
+  commentId: M:Beryl.Audio.Engines.OpenAL.OpenALSource.Play
+  id: Play
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: Play()
+  nameWithType: OpenALSource.Play()
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Play()
+  type: Method
+  source:
+    id: Play
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 143
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: Plays the audio source.
+  example: []
+  syntax:
+    content: public void Play()
+    content.vb: Public Sub Play()
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.Play*
+  implements:
+  - Beryl.Audio.IAudioSource.Play
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Stop
+  commentId: M:Beryl.Audio.Engines.OpenAL.OpenALSource.Stop
+  id: Stop
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: OpenALSource.Stop()
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Stop()
+  type: Method
+  source:
+    id: Stop
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 146
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: Stops the audio source.
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub [Stop]()
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.Stop*
+  implements:
+  - Beryl.Audio.IAudioSource.Stop
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Destroy
+  commentId: M:Beryl.Audio.Engines.OpenAL.OpenALSource.Destroy
+  id: Destroy
+  parent: Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: OpenALSource.Destroy()
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Destroy()
+  type: Method
+  source:
+    id: Destroy
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Audio\Engines\OpenAL\OpenALSource.cs
+    startLine: 149
+  assemblies:
+  - Beryl.Audio
+  namespace: Beryl.Audio.Engines.OpenAL
+  summary: Destroys the audio source.
+  example: []
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: Beryl.Audio.Engines.OpenAL.OpenALSource.Destroy*
+  implements:
+  - Beryl.Audio.IAudioSource.Destroy
+references:
+- uid: Beryl.Audio.Engines.OpenAL
+  commentId: N:Beryl.Audio.Engines.OpenAL
+  href: Beryl.html
+  name: Beryl.Audio.Engines.OpenAL
+  nameWithType: Beryl.Audio.Engines.OpenAL
+  fullName: Beryl.Audio.Engines.OpenAL
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Engines
+    name: Engines
+    href: Beryl.Audio.Engines.html
+  - name: .
+  - uid: Beryl.Audio.Engines.OpenAL
+    name: OpenAL
+    href: Beryl.Audio.Engines.OpenAL.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Engines
+    name: Engines
+    href: Beryl.Audio.Engines.html
+  - name: .
+  - uid: Beryl.Audio.Engines.OpenAL
+    name: OpenAL
+    href: Beryl.Audio.Engines.OpenAL.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Audio.IAudioSource
+  commentId: T:Beryl.Audio.IAudioSource
+  parent: Beryl.Audio
+  href: Beryl.Audio.IAudioSource.html
+  name: IAudioSource
+  nameWithType: IAudioSource
+  fullName: Beryl.Audio.IAudioSource
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Audio
+  commentId: N:Beryl.Audio
+  href: Beryl.html
+  name: Beryl.Audio
+  nameWithType: Beryl.Audio
+  fullName: Beryl.Audio
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.#ctor*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.#ctor
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource__ctor_Silk_NET_OpenAL_AL_Silk_NET_OpenAL_Extensions_Creative_EffectExtension_
+  name: OpenALSource
+  nameWithType: OpenALSource.OpenALSource
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.OpenALSource
+  nameWithType.vb: OpenALSource.New
+  fullName.vb: Beryl.Audio.Engines.OpenAL.OpenALSource.New
+  name.vb: New
+- uid: Silk.NET.OpenAL.AL
+  commentId: T:Silk.NET.OpenAL.AL
+  parent: Silk.NET.OpenAL
+  isExternal: true
+  name: AL
+  nameWithType: AL
+  fullName: Silk.NET.OpenAL.AL
+- uid: Silk.NET.OpenAL.Extensions.Creative.EffectExtension
+  commentId: T:Silk.NET.OpenAL.Extensions.Creative.EffectExtension
+  parent: Silk.NET.OpenAL.Extensions.Creative
+  isExternal: true
+  name: EffectExtension
+  nameWithType: EffectExtension
+  fullName: Silk.NET.OpenAL.Extensions.Creative.EffectExtension
+- uid: Silk.NET.OpenAL
+  commentId: N:Silk.NET.OpenAL
+  isExternal: true
+  name: Silk.NET.OpenAL
+  nameWithType: Silk.NET.OpenAL
+  fullName: Silk.NET.OpenAL
+  spec.csharp:
+  - uid: Silk
+    name: Silk
+    isExternal: true
+  - name: .
+  - uid: Silk.NET
+    name: NET
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.OpenAL
+    name: OpenAL
+    isExternal: true
+  spec.vb:
+  - uid: Silk
+    name: Silk
+    isExternal: true
+  - name: .
+  - uid: Silk.NET
+    name: NET
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.OpenAL
+    name: OpenAL
+    isExternal: true
+- uid: Silk.NET.OpenAL.Extensions.Creative
+  commentId: N:Silk.NET.OpenAL.Extensions.Creative
+  isExternal: true
+  name: Silk.NET.OpenAL.Extensions.Creative
+  nameWithType: Silk.NET.OpenAL.Extensions.Creative
+  fullName: Silk.NET.OpenAL.Extensions.Creative
+  spec.csharp:
+  - uid: Silk
+    name: Silk
+    isExternal: true
+  - name: .
+  - uid: Silk.NET
+    name: NET
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.OpenAL
+    name: OpenAL
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.OpenAL.Extensions
+    name: Extensions
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.OpenAL.Extensions.Creative
+    name: Creative
+    isExternal: true
+  spec.vb:
+  - uid: Silk
+    name: Silk
+    isExternal: true
+  - name: .
+  - uid: Silk.NET
+    name: NET
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.OpenAL
+    name: OpenAL
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.OpenAL.Extensions
+    name: Extensions
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.OpenAL.Extensions.Creative
+    name: Creative
+    isExternal: true
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Obstruction*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.Obstruction
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_Obstruction
+  name: Obstruction
+  nameWithType: OpenALSource.Obstruction
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Obstruction
+- uid: Beryl.Audio.IAudioSource.Obstruction
+  commentId: P:Beryl.Audio.IAudioSource.Obstruction
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Obstruction
+  name: Obstruction
+  nameWithType: IAudioSource.Obstruction
+  fullName: Beryl.Audio.IAudioSource.Obstruction
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Occlusion*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.Occlusion
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_Occlusion
+  name: Occlusion
+  nameWithType: OpenALSource.Occlusion
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Occlusion
+- uid: Beryl.Audio.IAudioSource.Occlusion
+  commentId: P:Beryl.Audio.IAudioSource.Occlusion
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Occlusion
+  name: Occlusion
+  nameWithType: IAudioSource.Occlusion
+  fullName: Beryl.Audio.IAudioSource.Occlusion
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Obstructed*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.Obstructed
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_Obstructed
+  name: Obstructed
+  nameWithType: OpenALSource.Obstructed
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Obstructed
+- uid: Beryl.Audio.IAudioSource.Obstructed
+  commentId: P:Beryl.Audio.IAudioSource.Obstructed
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Obstructed
+  name: Obstructed
+  nameWithType: IAudioSource.Obstructed
+  fullName: Beryl.Audio.IAudioSource.Obstructed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Volume*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.Volume
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_Volume
+  name: Volume
+  nameWithType: OpenALSource.Volume
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Volume
+- uid: Beryl.Audio.IAudioSource.Volume
+  commentId: P:Beryl.Audio.IAudioSource.Volume
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Volume
+  name: Volume
+  nameWithType: IAudioSource.Volume
+  fullName: Beryl.Audio.IAudioSource.Volume
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Pitch*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.Pitch
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_Pitch
+  name: Pitch
+  nameWithType: OpenALSource.Pitch
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Pitch
+- uid: Beryl.Audio.IAudioSource.Pitch
+  commentId: P:Beryl.Audio.IAudioSource.Pitch
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Pitch
+  name: Pitch
+  nameWithType: IAudioSource.Pitch
+  fullName: Beryl.Audio.IAudioSource.Pitch
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Loop*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.Loop
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_Loop
+  name: Loop
+  nameWithType: OpenALSource.Loop
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Loop
+- uid: Beryl.Audio.IAudioSource.Loop
+  commentId: P:Beryl.Audio.IAudioSource.Loop
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Loop
+  name: Loop
+  nameWithType: IAudioSource.Loop
+  fullName: Beryl.Audio.IAudioSource.Loop
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.IsPlaying*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.IsPlaying
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_IsPlaying
+  name: IsPlaying
+  nameWithType: OpenALSource.IsPlaying
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.IsPlaying
+- uid: Beryl.Audio.IAudioSource.IsPlaying
+  commentId: P:Beryl.Audio.IAudioSource.IsPlaying
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_IsPlaying
+  name: IsPlaying
+  nameWithType: IAudioSource.IsPlaying
+  fullName: Beryl.Audio.IAudioSource.IsPlaying
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.MinDistance*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.MinDistance
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_MinDistance
+  name: MinDistance
+  nameWithType: OpenALSource.MinDistance
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.MinDistance
+- uid: Beryl.Audio.IAudioSource.MinDistance
+  commentId: P:Beryl.Audio.IAudioSource.MinDistance
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_MinDistance
+  name: MinDistance
+  nameWithType: IAudioSource.MinDistance
+  fullName: Beryl.Audio.IAudioSource.MinDistance
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.MaxDistance*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.MaxDistance
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_MaxDistance
+  name: MaxDistance
+  nameWithType: OpenALSource.MaxDistance
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.MaxDistance
+- uid: Beryl.Audio.IAudioSource.MaxDistance
+  commentId: P:Beryl.Audio.IAudioSource.MaxDistance
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_MaxDistance
+  name: MaxDistance
+  nameWithType: IAudioSource.MaxDistance
+  fullName: Beryl.Audio.IAudioSource.MaxDistance
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.RolloffFactor*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.RolloffFactor
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_RolloffFactor
+  name: RolloffFactor
+  nameWithType: OpenALSource.RolloffFactor
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.RolloffFactor
+- uid: Beryl.Audio.IAudioSource.RolloffFactor
+  commentId: P:Beryl.Audio.IAudioSource.RolloffFactor
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_RolloffFactor
+  name: RolloffFactor
+  nameWithType: IAudioSource.RolloffFactor
+  fullName: Beryl.Audio.IAudioSource.RolloffFactor
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Update*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.Update
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_Update_Beryl_Math_Vector3_
+  name: Update
+  nameWithType: OpenALSource.Update
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Update
+- uid: Beryl.Audio.IAudioSource.Update(Beryl.Math.Vector3)
+  commentId: M:Beryl.Audio.IAudioSource.Update(Beryl.Math.Vector3)
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Update_Beryl_Math_Vector3_
+  name: Update(Vector3)
+  nameWithType: IAudioSource.Update(Vector3)
+  fullName: Beryl.Audio.IAudioSource.Update(Beryl.Math.Vector3)
+  spec.csharp:
+  - uid: Beryl.Audio.IAudioSource.Update(Beryl.Math.Vector3)
+    name: Update
+    href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Update_Beryl_Math_Vector3_
+  - name: (
+  - uid: Beryl.Math.Vector3
+    name: Vector3
+    href: Beryl.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Audio.IAudioSource.Update(Beryl.Math.Vector3)
+    name: Update
+    href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Update_Beryl_Math_Vector3_
+  - name: (
+  - uid: Beryl.Math.Vector3
+    name: Vector3
+    href: Beryl.Math.Vector3.html
+  - name: )
+- uid: Beryl.Math.Vector3
+  commentId: T:Beryl.Math.Vector3
+  parent: Beryl.Math
+  href: Beryl.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Beryl.Math.Vector3
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.SetClip*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.SetClip
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_SetClip_Beryl_Audio_Resources_AudioClip_
+  name: SetClip
+  nameWithType: OpenALSource.SetClip
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.SetClip
+- uid: Beryl.Audio.IAudioSource.SetClip(Beryl.Audio.Resources.AudioClip)
+  commentId: M:Beryl.Audio.IAudioSource.SetClip(Beryl.Audio.Resources.AudioClip)
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_SetClip_Beryl_Audio_Resources_AudioClip_
+  name: SetClip(AudioClip)
+  nameWithType: IAudioSource.SetClip(AudioClip)
+  fullName: Beryl.Audio.IAudioSource.SetClip(Beryl.Audio.Resources.AudioClip)
+  spec.csharp:
+  - uid: Beryl.Audio.IAudioSource.SetClip(Beryl.Audio.Resources.AudioClip)
+    name: SetClip
+    href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_SetClip_Beryl_Audio_Resources_AudioClip_
+  - name: (
+  - uid: Beryl.Audio.Resources.AudioClip
+    name: AudioClip
+    href: Beryl.Audio.Resources.AudioClip.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Audio.IAudioSource.SetClip(Beryl.Audio.Resources.AudioClip)
+    name: SetClip
+    href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_SetClip_Beryl_Audio_Resources_AudioClip_
+  - name: (
+  - uid: Beryl.Audio.Resources.AudioClip
+    name: AudioClip
+    href: Beryl.Audio.Resources.AudioClip.html
+  - name: )
+- uid: Beryl.Audio.Resources.AudioClip
+  commentId: T:Beryl.Audio.Resources.AudioClip
+  parent: Beryl.Audio.Resources
+  href: Beryl.Audio.Resources.AudioClip.html
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: Beryl.Audio.Resources.AudioClip
+- uid: Beryl.Audio.Resources
+  commentId: N:Beryl.Audio.Resources
+  href: Beryl.html
+  name: Beryl.Audio.Resources
+  nameWithType: Beryl.Audio.Resources
+  fullName: Beryl.Audio.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Resources
+    name: Resources
+    href: Beryl.Audio.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Resources
+    name: Resources
+    href: Beryl.Audio.Resources.html
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Play*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.Play
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_Play
+  name: Play
+  nameWithType: OpenALSource.Play
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Play
+- uid: Beryl.Audio.IAudioSource.Play
+  commentId: M:Beryl.Audio.IAudioSource.Play
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Play
+  name: Play()
+  nameWithType: IAudioSource.Play()
+  fullName: Beryl.Audio.IAudioSource.Play()
+  spec.csharp:
+  - uid: Beryl.Audio.IAudioSource.Play
+    name: Play
+    href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Play
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Audio.IAudioSource.Play
+    name: Play
+    href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Play
+  - name: (
+  - name: )
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Stop*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.Stop
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_Stop
+  name: Stop
+  nameWithType: OpenALSource.Stop
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Stop
+- uid: Beryl.Audio.IAudioSource.Stop
+  commentId: M:Beryl.Audio.IAudioSource.Stop
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Stop
+  name: Stop()
+  nameWithType: IAudioSource.Stop()
+  fullName: Beryl.Audio.IAudioSource.Stop()
+  spec.csharp:
+  - uid: Beryl.Audio.IAudioSource.Stop
+    name: Stop
+    href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Audio.IAudioSource.Stop
+    name: Stop
+    href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Stop
+  - name: (
+  - name: )
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource.Destroy*
+  commentId: Overload:Beryl.Audio.Engines.OpenAL.OpenALSource.Destroy
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html#Beryl_Audio_Engines_OpenAL_OpenALSource_Destroy
+  name: Destroy
+  nameWithType: OpenALSource.Destroy
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource.Destroy
+- uid: Beryl.Audio.IAudioSource.Destroy
+  commentId: M:Beryl.Audio.IAudioSource.Destroy
+  parent: Beryl.Audio.IAudioSource
+  href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Destroy
+  name: Destroy()
+  nameWithType: IAudioSource.Destroy()
+  fullName: Beryl.Audio.IAudioSource.Destroy()
+  spec.csharp:
+  - uid: Beryl.Audio.IAudioSource.Destroy
+    name: Destroy
+    href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Destroy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Audio.IAudioSource.Destroy
+    name: Destroy
+    href: Beryl.Audio.IAudioSource.html#Beryl_Audio_IAudioSource_Destroy
+  - name: (
+  - name: )

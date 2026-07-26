@@ -1,0 +1,896 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.GPUBuffer
+  commentId: T:Beryl.Rendering.GPUBuffer
+  id: GPUBuffer
+  parent: Beryl.Rendering
+  children:
+  - Beryl.Rendering.GPUBuffer.AddBytes(System.ReadOnlySpan{System.Byte})
+  - Beryl.Rendering.GPUBuffer.AddFloat(System.Single)
+  - Beryl.Rendering.GPUBuffer.AddFloat2(System.Single,System.Single)
+  - Beryl.Rendering.GPUBuffer.AddFloat3(System.Single,System.Single,System.Single)
+  - Beryl.Rendering.GPUBuffer.AddFloat4(System.Single,System.Single,System.Single,System.Single)
+  - Beryl.Rendering.GPUBuffer.AddInt(System.Int32)
+  - Beryl.Rendering.GPUBuffer.AddMaterialParameters(Beryl.Rendering.Resources.Material)
+  - Beryl.Rendering.GPUBuffer.AddMatrix4x4(Beryl.Math.Matrix4x4)
+  - Beryl.Rendering.GPUBuffer.Alignment
+  - Beryl.Rendering.GPUBuffer.DEFAULT_SIZE
+  - Beryl.Rendering.GPUBuffer.Data
+  - Beryl.Rendering.GPUBuffer.Reset
+  langs:
+  - csharp
+  - vb
+  name: GPUBuffer
+  nameWithType: GPUBuffer
+  fullName: Beryl.Rendering.GPUBuffer
+  type: Class
+  source:
+    id: GPUBuffer
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: Buffer that assembles data in a format readable by an <xref href="Beryl.RHI.IGraphicsDevice" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public sealed class GPUBuffer
+    content.vb: Public NotInheritable Class GPUBuffer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Rendering.GPUBuffer.DEFAULT_SIZE
+  commentId: F:Beryl.Rendering.GPUBuffer.DEFAULT_SIZE
+  id: DEFAULT_SIZE
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: DEFAULT_SIZE
+  nameWithType: GPUBuffer.DEFAULT_SIZE
+  fullName: Beryl.Rendering.GPUBuffer.DEFAULT_SIZE
+  type: Field
+  source:
+    id: DEFAULT_SIZE
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 26
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: The initial size of the internal buffer.
+  example: []
+  syntax:
+    content: public const int DEFAULT_SIZE = 256
+    return:
+      type: System.Int32
+    content.vb: Public Const DEFAULT_SIZE As Integer = 256
+- uid: Beryl.Rendering.GPUBuffer.Data
+  commentId: P:Beryl.Rendering.GPUBuffer.Data
+  id: Data
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: GPUBuffer.Data
+  fullName: Beryl.Rendering.GPUBuffer.Data
+  type: Property
+  source:
+    id: Data
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 29
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: Padded data of the buffer.
+  example: []
+  syntax:
+    content: public ReadOnlySpan<byte> Data { get; }
+    parameters: []
+    return:
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Public ReadOnly Property Data As ReadOnlySpan(Of Byte)
+  overload: Beryl.Rendering.GPUBuffer.Data*
+- uid: Beryl.Rendering.GPUBuffer.Alignment
+  commentId: P:Beryl.Rendering.GPUBuffer.Alignment
+  id: Alignment
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: Alignment
+  nameWithType: GPUBuffer.Alignment
+  fullName: Beryl.Rendering.GPUBuffer.Alignment
+  type: Property
+  source:
+    id: Alignment
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 48
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: The <xref href="Beryl.Rendering.GPUBuffer.AlignmentFormat" data-throw-if-not-resolved="false"></xref> used to construct <xref href="Beryl.Rendering.GPUBuffer.Data" data-throw-if-not-resolved="false"></xref>.
+  remarks: This should be set before adding data to the buffer.
+  example: []
+  syntax:
+    content: public GPUBuffer.AlignmentFormat Alignment { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Rendering.GPUBuffer.AlignmentFormat
+    content.vb: Public Property Alignment As GPUBuffer.AlignmentFormat
+  overload: Beryl.Rendering.GPUBuffer.Alignment*
+- uid: Beryl.Rendering.GPUBuffer.AddMaterialParameters(Beryl.Rendering.Resources.Material)
+  commentId: M:Beryl.Rendering.GPUBuffer.AddMaterialParameters(Beryl.Rendering.Resources.Material)
+  id: AddMaterialParameters(Beryl.Rendering.Resources.Material)
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddMaterialParameters(Material)
+  nameWithType: GPUBuffer.AddMaterialParameters(Material)
+  fullName: Beryl.Rendering.GPUBuffer.AddMaterialParameters(Beryl.Rendering.Resources.Material)
+  type: Method
+  source:
+    id: AddMaterialParameters
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 54
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: Adds the parameters of a <xref href="Beryl.Rendering.Resources.Material" data-throw-if-not-resolved="false"></xref> to the buffer.
+  example: []
+  syntax:
+    content: public void AddMaterialParameters(Material mat)
+    parameters:
+    - id: mat
+      type: Beryl.Rendering.Resources.Material
+    content.vb: Public Sub AddMaterialParameters(mat As Material)
+  overload: Beryl.Rendering.GPUBuffer.AddMaterialParameters*
+- uid: Beryl.Rendering.GPUBuffer.AddInt(System.Int32)
+  commentId: M:Beryl.Rendering.GPUBuffer.AddInt(System.Int32)
+  id: AddInt(System.Int32)
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddInt(int)
+  nameWithType: GPUBuffer.AddInt(int)
+  fullName: Beryl.Rendering.GPUBuffer.AddInt(int)
+  type: Method
+  source:
+    id: AddInt
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 97
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: public void AddInt(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    content.vb: Public Sub AddInt(value As Integer)
+  overload: Beryl.Rendering.GPUBuffer.AddInt*
+  nameWithType.vb: GPUBuffer.AddInt(Integer)
+  fullName.vb: Beryl.Rendering.GPUBuffer.AddInt(Integer)
+  name.vb: AddInt(Integer)
+- uid: Beryl.Rendering.GPUBuffer.AddFloat(System.Single)
+  commentId: M:Beryl.Rendering.GPUBuffer.AddFloat(System.Single)
+  id: AddFloat(System.Single)
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddFloat(float)
+  nameWithType: GPUBuffer.AddFloat(float)
+  fullName: Beryl.Rendering.GPUBuffer.AddFloat(float)
+  type: Method
+  source:
+    id: AddFloat
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 108
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: public void AddFloat(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub AddFloat(value As Single)
+  overload: Beryl.Rendering.GPUBuffer.AddFloat*
+  nameWithType.vb: GPUBuffer.AddFloat(Single)
+  fullName.vb: Beryl.Rendering.GPUBuffer.AddFloat(Single)
+  name.vb: AddFloat(Single)
+- uid: Beryl.Rendering.GPUBuffer.AddFloat2(System.Single,System.Single)
+  commentId: M:Beryl.Rendering.GPUBuffer.AddFloat2(System.Single,System.Single)
+  id: AddFloat2(System.Single,System.Single)
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddFloat2(float, float)
+  nameWithType: GPUBuffer.AddFloat2(float, float)
+  fullName: Beryl.Rendering.GPUBuffer.AddFloat2(float, float)
+  type: Method
+  source:
+    id: AddFloat2
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 119
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: public void AddFloat2(float x, float y)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: Public Sub AddFloat2(x As Single, y As Single)
+  overload: Beryl.Rendering.GPUBuffer.AddFloat2*
+  nameWithType.vb: GPUBuffer.AddFloat2(Single, Single)
+  fullName.vb: Beryl.Rendering.GPUBuffer.AddFloat2(Single, Single)
+  name.vb: AddFloat2(Single, Single)
+- uid: Beryl.Rendering.GPUBuffer.AddFloat3(System.Single,System.Single,System.Single)
+  commentId: M:Beryl.Rendering.GPUBuffer.AddFloat3(System.Single,System.Single,System.Single)
+  id: AddFloat3(System.Single,System.Single,System.Single)
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddFloat3(float, float, float)
+  nameWithType: GPUBuffer.AddFloat3(float, float, float)
+  fullName: Beryl.Rendering.GPUBuffer.AddFloat3(float, float, float)
+  type: Method
+  source:
+    id: AddFloat3
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 128
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: public void AddFloat3(float x, float y, float z)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: Public Sub AddFloat3(x As Single, y As Single, z As Single)
+  overload: Beryl.Rendering.GPUBuffer.AddFloat3*
+  nameWithType.vb: GPUBuffer.AddFloat3(Single, Single, Single)
+  fullName.vb: Beryl.Rendering.GPUBuffer.AddFloat3(Single, Single, Single)
+  name.vb: AddFloat3(Single, Single, Single)
+- uid: Beryl.Rendering.GPUBuffer.AddFloat4(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Beryl.Rendering.GPUBuffer.AddFloat4(System.Single,System.Single,System.Single,System.Single)
+  id: AddFloat4(System.Single,System.Single,System.Single,System.Single)
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddFloat4(float, float, float, float)
+  nameWithType: GPUBuffer.AddFloat4(float, float, float, float)
+  fullName: Beryl.Rendering.GPUBuffer.AddFloat4(float, float, float, float)
+  type: Method
+  source:
+    id: AddFloat4
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 138
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: public void AddFloat4(float x, float y, float z, float w)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    - id: w
+      type: System.Single
+    content.vb: Public Sub AddFloat4(x As Single, y As Single, z As Single, w As Single)
+  overload: Beryl.Rendering.GPUBuffer.AddFloat4*
+  nameWithType.vb: GPUBuffer.AddFloat4(Single, Single, Single, Single)
+  fullName.vb: Beryl.Rendering.GPUBuffer.AddFloat4(Single, Single, Single, Single)
+  name.vb: AddFloat4(Single, Single, Single, Single)
+- uid: Beryl.Rendering.GPUBuffer.AddMatrix4x4(Beryl.Math.Matrix4x4)
+  commentId: M:Beryl.Rendering.GPUBuffer.AddMatrix4x4(Beryl.Math.Matrix4x4)
+  id: AddMatrix4x4(Beryl.Math.Matrix4x4)
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddMatrix4x4(Matrix4x4)
+  nameWithType: GPUBuffer.AddMatrix4x4(Matrix4x4)
+  fullName: Beryl.Rendering.GPUBuffer.AddMatrix4x4(Beryl.Math.Matrix4x4)
+  type: Method
+  source:
+    id: AddMatrix4x4
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 149
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: public void AddMatrix4x4(Matrix4x4 m)
+    parameters:
+    - id: m
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public Sub AddMatrix4x4(m As Matrix4x4)
+  overload: Beryl.Rendering.GPUBuffer.AddMatrix4x4*
+- uid: Beryl.Rendering.GPUBuffer.AddBytes(System.ReadOnlySpan{System.Byte})
+  commentId: M:Beryl.Rendering.GPUBuffer.AddBytes(System.ReadOnlySpan{System.Byte})
+  id: AddBytes(System.ReadOnlySpan{System.Byte})
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: AddBytes(ReadOnlySpan<byte>)
+  nameWithType: GPUBuffer.AddBytes(ReadOnlySpan<byte>)
+  fullName: Beryl.Rendering.GPUBuffer.AddBytes(System.ReadOnlySpan<byte>)
+  type: Method
+  source:
+    id: AddBytes
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 158
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: Adds raw bytes directly to the buffer (e.g. for structs via MemoryMarshal).
+  example: []
+  syntax:
+    content: public void AddBytes(ReadOnlySpan<byte> bytes)
+    parameters:
+    - id: bytes
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Public Sub AddBytes(bytes As ReadOnlySpan(Of Byte))
+  overload: Beryl.Rendering.GPUBuffer.AddBytes*
+  nameWithType.vb: GPUBuffer.AddBytes(ReadOnlySpan(Of Byte))
+  fullName.vb: Beryl.Rendering.GPUBuffer.AddBytes(System.ReadOnlySpan(Of Byte))
+  name.vb: AddBytes(ReadOnlySpan(Of Byte))
+- uid: Beryl.Rendering.GPUBuffer.Reset
+  commentId: M:Beryl.Rendering.GPUBuffer.Reset
+  id: Reset
+  parent: Beryl.Rendering.GPUBuffer
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: GPUBuffer.Reset()
+  fullName: Beryl.Rendering.GPUBuffer.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\GPUBuffer.cs
+    startLine: 166
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: Resets the buffer to it's default state.
+  example: []
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset()
+  overload: Beryl.Rendering.GPUBuffer.Reset*
+references:
+- uid: Beryl.RHI.IGraphicsDevice
+  commentId: T:Beryl.RHI.IGraphicsDevice
+  parent: Beryl.RHI
+  href: Beryl.RHI.IGraphicsDevice.html
+  name: IGraphicsDevice
+  nameWithType: IGraphicsDevice
+  fullName: Beryl.RHI.IGraphicsDevice
+- uid: Beryl.Rendering
+  commentId: N:Beryl.Rendering
+  href: Beryl.html
+  name: Beryl.Rendering
+  nameWithType: Beryl.Rendering
+  fullName: Beryl.Rendering
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Beryl.Rendering.GPUBuffer.Data*
+  commentId: Overload:Beryl.Rendering.GPUBuffer.Data
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_Data
+  name: Data
+  nameWithType: GPUBuffer.Data
+  fullName: Beryl.Rendering.GPUBuffer.Data
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Beryl.Rendering.GPUBuffer.AlignmentFormat
+  commentId: T:Beryl.Rendering.GPUBuffer.AlignmentFormat
+  parent: Beryl.Rendering
+  href: Beryl.Rendering.GPUBuffer.html
+  name: GPUBuffer.AlignmentFormat
+  nameWithType: GPUBuffer.AlignmentFormat
+  fullName: Beryl.Rendering.GPUBuffer.AlignmentFormat
+  spec.csharp:
+  - uid: Beryl.Rendering.GPUBuffer
+    name: GPUBuffer
+    href: Beryl.Rendering.GPUBuffer.html
+  - name: .
+  - uid: Beryl.Rendering.GPUBuffer.AlignmentFormat
+    name: AlignmentFormat
+    href: Beryl.Rendering.GPUBuffer.AlignmentFormat.html
+  spec.vb:
+  - uid: Beryl.Rendering.GPUBuffer
+    name: GPUBuffer
+    href: Beryl.Rendering.GPUBuffer.html
+  - name: .
+  - uid: Beryl.Rendering.GPUBuffer.AlignmentFormat
+    name: AlignmentFormat
+    href: Beryl.Rendering.GPUBuffer.AlignmentFormat.html
+- uid: Beryl.Rendering.GPUBuffer.Data
+  commentId: P:Beryl.Rendering.GPUBuffer.Data
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_Data
+  name: Data
+  nameWithType: GPUBuffer.Data
+  fullName: Beryl.Rendering.GPUBuffer.Data
+- uid: Beryl.Rendering.GPUBuffer.Alignment*
+  commentId: Overload:Beryl.Rendering.GPUBuffer.Alignment
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_Alignment
+  name: Alignment
+  nameWithType: GPUBuffer.Alignment
+  fullName: Beryl.Rendering.GPUBuffer.Alignment
+- uid: Beryl.Rendering.Resources.Material
+  commentId: T:Beryl.Rendering.Resources.Material
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.Material.html
+  name: Material
+  nameWithType: Material
+  fullName: Beryl.Rendering.Resources.Material
+- uid: Beryl.Rendering.GPUBuffer.AddMaterialParameters*
+  commentId: Overload:Beryl.Rendering.GPUBuffer.AddMaterialParameters
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_AddMaterialParameters_Beryl_Rendering_Resources_Material_
+  name: AddMaterialParameters
+  nameWithType: GPUBuffer.AddMaterialParameters
+  fullName: Beryl.Rendering.GPUBuffer.AddMaterialParameters
+- uid: Beryl.Rendering.Resources
+  commentId: N:Beryl.Rendering.Resources
+  href: Beryl.html
+  name: Beryl.Rendering.Resources
+  nameWithType: Beryl.Rendering.Resources
+  fullName: Beryl.Rendering.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+- uid: Beryl.Rendering.GPUBuffer.AddInt*
+  commentId: Overload:Beryl.Rendering.GPUBuffer.AddInt
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_AddInt_System_Int32_
+  name: AddInt
+  nameWithType: GPUBuffer.AddInt
+  fullName: Beryl.Rendering.GPUBuffer.AddInt
+- uid: Beryl.Rendering.GPUBuffer.AddFloat*
+  commentId: Overload:Beryl.Rendering.GPUBuffer.AddFloat
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_AddFloat_System_Single_
+  name: AddFloat
+  nameWithType: GPUBuffer.AddFloat
+  fullName: Beryl.Rendering.GPUBuffer.AddFloat
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Beryl.Rendering.GPUBuffer.AddFloat2*
+  commentId: Overload:Beryl.Rendering.GPUBuffer.AddFloat2
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_AddFloat2_System_Single_System_Single_
+  name: AddFloat2
+  nameWithType: GPUBuffer.AddFloat2
+  fullName: Beryl.Rendering.GPUBuffer.AddFloat2
+- uid: Beryl.Rendering.GPUBuffer.AddFloat3*
+  commentId: Overload:Beryl.Rendering.GPUBuffer.AddFloat3
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_AddFloat3_System_Single_System_Single_System_Single_
+  name: AddFloat3
+  nameWithType: GPUBuffer.AddFloat3
+  fullName: Beryl.Rendering.GPUBuffer.AddFloat3
+- uid: Beryl.Rendering.GPUBuffer.AddFloat4*
+  commentId: Overload:Beryl.Rendering.GPUBuffer.AddFloat4
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_AddFloat4_System_Single_System_Single_System_Single_System_Single_
+  name: AddFloat4
+  nameWithType: GPUBuffer.AddFloat4
+  fullName: Beryl.Rendering.GPUBuffer.AddFloat4
+- uid: Beryl.Rendering.GPUBuffer.AddMatrix4x4*
+  commentId: Overload:Beryl.Rendering.GPUBuffer.AddMatrix4x4
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_AddMatrix4x4_Beryl_Math_Matrix4x4_
+  name: AddMatrix4x4
+  nameWithType: GPUBuffer.AddMatrix4x4
+  fullName: Beryl.Rendering.GPUBuffer.AddMatrix4x4
+- uid: Beryl.Math.Matrix4x4
+  commentId: T:Beryl.Math.Matrix4x4
+  parent: Beryl.Math
+  href: Beryl.Math.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Beryl.Math.Matrix4x4
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: Beryl.Rendering.GPUBuffer.AddBytes*
+  commentId: Overload:Beryl.Rendering.GPUBuffer.AddBytes
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_AddBytes_System_ReadOnlySpan_System_Byte__
+  name: AddBytes
+  nameWithType: GPUBuffer.AddBytes
+  fullName: Beryl.Rendering.GPUBuffer.AddBytes
+- uid: Beryl.Rendering.GPUBuffer.Reset*
+  commentId: Overload:Beryl.Rendering.GPUBuffer.Reset
+  href: Beryl.Rendering.GPUBuffer.html#Beryl_Rendering_GPUBuffer_Reset
+  name: Reset
+  nameWithType: GPUBuffer.Reset
+  fullName: Beryl.Rendering.GPUBuffer.Reset

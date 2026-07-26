@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Physics.Engines.Jitter2
+  commentId: N:Beryl.Physics.Engines.Jitter2
+  id: Engines.Jitter2
+  parent: Beryl.Physics
+  children:
+  - Beryl.Physics.Engines.Jitter2.Jitter2Body
+  - Beryl.Physics.Engines.Jitter2.Jitter2World
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Physics.Engines.Jitter2
+  nameWithType: Beryl.Physics.Engines.Jitter2
+  fullName: Beryl.Physics.Engines.Jitter2
+  type: Namespace
+  assemblies:
+  - Beryl.Physics
+references:
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2Body
+  commentId: T:Beryl.Physics.Engines.Jitter2.Jitter2Body
+  href: Beryl.Physics.Engines.Jitter2.Jitter2Body.html
+  name: Jitter2Body
+  nameWithType: Jitter2Body
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2Body
+- uid: Beryl.Physics.Engines.Jitter2.Jitter2World
+  commentId: T:Beryl.Physics.Engines.Jitter2.Jitter2World
+  href: Beryl.Physics.Engines.Jitter2.Jitter2World.html
+  name: Jitter2World
+  nameWithType: Jitter2World
+  fullName: Beryl.Physics.Engines.Jitter2.Jitter2World

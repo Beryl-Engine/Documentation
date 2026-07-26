@@ -1,0 +1,149 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Input.Devices.Mouse.Button
+  commentId: T:Beryl.Input.Devices.Mouse.Button
+  id: Mouse.Button
+  parent: Beryl.Input.Devices
+  children:
+  - Beryl.Input.Devices.Mouse.Button.Left
+  - Beryl.Input.Devices.Mouse.Button.Middle
+  - Beryl.Input.Devices.Mouse.Button.Right
+  langs:
+  - csharp
+  - vb
+  name: Mouse.Button
+  nameWithType: Mouse.Button
+  fullName: Beryl.Input.Devices.Mouse.Button
+  type: Enum
+  source:
+    id: Button
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Mouse.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  summary: Represents a mouse button.
+  example: []
+  syntax:
+    content: public enum Mouse.Button
+    content.vb: Public Enum Mouse.Button
+- uid: Beryl.Input.Devices.Mouse.Button.Left
+  commentId: F:Beryl.Input.Devices.Mouse.Button.Left
+  id: Left
+  parent: Beryl.Input.Devices.Mouse.Button
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Mouse.Button.Left
+  fullName: Beryl.Input.Devices.Mouse.Button.Left
+  type: Field
+  source:
+    id: Left
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Mouse.cs
+    startLine: 16
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: Left = 0
+    return:
+      type: Beryl.Input.Devices.Mouse.Button
+- uid: Beryl.Input.Devices.Mouse.Button.Right
+  commentId: F:Beryl.Input.Devices.Mouse.Button.Right
+  id: Right
+  parent: Beryl.Input.Devices.Mouse.Button
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Mouse.Button.Right
+  fullName: Beryl.Input.Devices.Mouse.Button.Right
+  type: Field
+  source:
+    id: Right
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Mouse.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: Right = 1
+    return:
+      type: Beryl.Input.Devices.Mouse.Button
+- uid: Beryl.Input.Devices.Mouse.Button.Middle
+  commentId: F:Beryl.Input.Devices.Mouse.Button.Middle
+  id: Middle
+  parent: Beryl.Input.Devices.Mouse.Button
+  langs:
+  - csharp
+  - vb
+  name: Middle
+  nameWithType: Mouse.Button.Middle
+  fullName: Beryl.Input.Devices.Mouse.Button.Middle
+  type: Field
+  source:
+    id: Middle
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\Devices\Mouse.cs
+    startLine: 18
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input.Devices
+  syntax:
+    content: Middle = 2
+    return:
+      type: Beryl.Input.Devices.Mouse.Button
+references:
+- uid: Beryl.Input.Devices
+  commentId: N:Beryl.Input.Devices
+  href: Beryl.html
+  name: Beryl.Input.Devices
+  nameWithType: Beryl.Input.Devices
+  fullName: Beryl.Input.Devices
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+- uid: Beryl.Input.Devices.Mouse.Button
+  commentId: T:Beryl.Input.Devices.Mouse.Button
+  parent: Beryl.Input.Devices
+  href: Beryl.Input.Devices.Mouse.html
+  name: Mouse.Button
+  nameWithType: Mouse.Button
+  fullName: Beryl.Input.Devices.Mouse.Button
+  spec.csharp:
+  - uid: Beryl.Input.Devices.Mouse
+    name: Mouse
+    href: Beryl.Input.Devices.Mouse.html
+  - name: .
+  - uid: Beryl.Input.Devices.Mouse.Button
+    name: Button
+    href: Beryl.Input.Devices.Mouse.Button.html
+  spec.vb:
+  - uid: Beryl.Input.Devices.Mouse
+    name: Mouse
+    href: Beryl.Input.Devices.Mouse.html
+  - name: .
+  - uid: Beryl.Input.Devices.Mouse.Button
+    name: Button
+    href: Beryl.Input.Devices.Mouse.Button.html

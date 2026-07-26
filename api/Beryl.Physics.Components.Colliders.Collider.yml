@@ -1,0 +1,493 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Physics.Components.Colliders.Collider
+  commentId: T:Beryl.Physics.Components.Colliders.Collider
+  id: Collider
+  parent: Beryl.Physics.Components.Colliders
+  children:
+  - Beryl.Physics.Components.Colliders.Collider.Destroy
+  - Beryl.Physics.Components.Colliders.Collider.shapeId
+  langs:
+  - csharp
+  - vb
+  name: Collider
+  nameWithType: Collider
+  fullName: Beryl.Physics.Components.Colliders.Collider
+  type: Class
+  source:
+    id: Collider
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\Colliders\Collider.cs
+    startLine: 7
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components.Colliders
+  syntax:
+    content: 'public class Collider : Component'
+    content.vb: Public Class Collider Inherits Component
+  inheritance:
+  - System.Object
+  - Beryl.Scenes.Components.Component
+  derivedClasses:
+  - Beryl.Physics.Components.Colliders.BoxCollider
+  - Beryl.Physics.Components.Colliders.SphereCollider
+  inheritedMembers:
+  - Beryl.Scenes.Components.Component.Enabled
+  - Beryl.Scenes.Components.Component.Entity
+  - Beryl.Scenes.Components.Component.Start
+  - Beryl.Scenes.Components.Component.Update
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Physics.Components.Colliders.Collider.shapeId
+  commentId: F:Beryl.Physics.Components.Colliders.Collider.shapeId
+  id: shapeId
+  parent: Beryl.Physics.Components.Colliders.Collider
+  langs:
+  - csharp
+  - vb
+  name: shapeId
+  nameWithType: Collider.shapeId
+  fullName: Beryl.Physics.Components.Colliders.Collider.shapeId
+  type: Field
+  source:
+    id: shapeId
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\Colliders\Collider.cs
+    startLine: 9
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components.Colliders
+  syntax:
+    content: protected int shapeId
+    return:
+      type: System.Int32
+    content.vb: Protected shapeId As Integer
+- uid: Beryl.Physics.Components.Colliders.Collider.Destroy
+  commentId: M:Beryl.Physics.Components.Colliders.Collider.Destroy
+  id: Destroy
+  parent: Beryl.Physics.Components.Colliders.Collider
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Collider.Destroy()
+  fullName: Beryl.Physics.Components.Colliders.Collider.Destroy()
+  type: Method
+  source:
+    id: Destroy
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\Colliders\Collider.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components.Colliders
+  summary: Called when the component is destroyed.
+  example: []
+  syntax:
+    content: public override void Destroy()
+    content.vb: Public Overrides Sub Destroy()
+  overridden: Beryl.Scenes.Components.Component.Destroy
+  overload: Beryl.Physics.Components.Colliders.Collider.Destroy*
+references:
+- uid: Beryl.Physics.Components.Colliders
+  commentId: N:Beryl.Physics.Components.Colliders
+  href: Beryl.html
+  name: Beryl.Physics.Components.Colliders
+  nameWithType: Beryl.Physics.Components.Colliders
+  fullName: Beryl.Physics.Components.Colliders
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html
+  - name: .
+  - uid: Beryl.Physics.Components.Colliders
+    name: Colliders
+    href: Beryl.Physics.Components.Colliders.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html
+  - name: .
+  - uid: Beryl.Physics.Components.Colliders
+    name: Colliders
+    href: Beryl.Physics.Components.Colliders.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Scenes.Components.Component
+  commentId: T:Beryl.Scenes.Components.Component
+  parent: Beryl.Scenes.Components
+  href: Beryl.Scenes.Components.Component.html
+  name: Component
+  nameWithType: Component
+  fullName: Beryl.Scenes.Components.Component
+- uid: Beryl.Scenes.Components.Component.Enabled
+  commentId: P:Beryl.Scenes.Components.Component.Enabled
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Enabled
+  name: Enabled
+  nameWithType: Component.Enabled
+  fullName: Beryl.Scenes.Components.Component.Enabled
+- uid: Beryl.Scenes.Components.Component.Entity
+  commentId: P:Beryl.Scenes.Components.Component.Entity
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Entity
+  name: Entity
+  nameWithType: Component.Entity
+  fullName: Beryl.Scenes.Components.Component.Entity
+- uid: Beryl.Scenes.Components.Component.Start
+  commentId: M:Beryl.Scenes.Components.Component.Start
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Start
+  name: Start()
+  nameWithType: Component.Start()
+  fullName: Beryl.Scenes.Components.Component.Start()
+  spec.csharp:
+  - uid: Beryl.Scenes.Components.Component.Start
+    name: Start
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Scenes.Components.Component.Start
+    name: Start
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Start
+  - name: (
+  - name: )
+- uid: Beryl.Scenes.Components.Component.Update
+  commentId: M:Beryl.Scenes.Components.Component.Update
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Update
+  name: Update()
+  nameWithType: Component.Update()
+  fullName: Beryl.Scenes.Components.Component.Update()
+  spec.csharp:
+  - uid: Beryl.Scenes.Components.Component.Update
+    name: Update
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Scenes.Components.Component.Update
+    name: Update
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Update
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Scenes.Components
+  commentId: N:Beryl.Scenes.Components
+  href: Beryl.html
+  name: Beryl.Scenes.Components
+  nameWithType: Beryl.Scenes.Components
+  fullName: Beryl.Scenes.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Components
+    name: Components
+    href: Beryl.Scenes.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Components
+    name: Components
+    href: Beryl.Scenes.Components.html
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Beryl.Scenes.Components.Component.Destroy
+  commentId: M:Beryl.Scenes.Components.Component.Destroy
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Destroy
+  name: Destroy()
+  nameWithType: Component.Destroy()
+  fullName: Beryl.Scenes.Components.Component.Destroy()
+  spec.csharp:
+  - uid: Beryl.Scenes.Components.Component.Destroy
+    name: Destroy
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Destroy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Scenes.Components.Component.Destroy
+    name: Destroy
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Destroy
+  - name: (
+  - name: )
+- uid: Beryl.Physics.Components.Colliders.Collider.Destroy*
+  commentId: Overload:Beryl.Physics.Components.Colliders.Collider.Destroy
+  href: Beryl.Physics.Components.Colliders.Collider.html#Beryl_Physics_Components_Colliders_Collider_Destroy
+  name: Destroy
+  nameWithType: Collider.Destroy
+  fullName: Beryl.Physics.Components.Colliders.Collider.Destroy

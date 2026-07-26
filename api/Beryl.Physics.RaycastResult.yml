@@ -1,0 +1,456 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Physics.RaycastResult
+  commentId: T:Beryl.Physics.RaycastResult
+  id: RaycastResult
+  parent: Beryl.Physics
+  children:
+  - Beryl.Physics.RaycastResult.Body
+  - Beryl.Physics.RaycastResult.Distance
+  - Beryl.Physics.RaycastResult.HitPoint
+  - Beryl.Physics.RaycastResult.Normal
+  langs:
+  - csharp
+  - vb
+  name: RaycastResult
+  nameWithType: RaycastResult
+  fullName: Beryl.Physics.RaycastResult
+  type: Struct
+  source:
+    id: RaycastResult
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\RaycastResult.cs
+    startLine: 10
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics
+  summary: Information about a completed raycast.
+  example: []
+  syntax:
+    content: public readonly struct RaycastResult
+    content.vb: Public Structure RaycastResult
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Beryl.Physics.RaycastResult.Body
+  commentId: P:Beryl.Physics.RaycastResult.Body
+  id: Body
+  parent: Beryl.Physics.RaycastResult
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: RaycastResult.Body
+  fullName: Beryl.Physics.RaycastResult.Body
+  type: Property
+  source:
+    id: Body
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\RaycastResult.cs
+    startLine: 13
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics
+  summary: The body that was hit.
+  example: []
+  syntax:
+    content: public IPhysicsBody Body { get; init; }
+    parameters: []
+    return:
+      type: Beryl.Physics.IPhysicsBody
+    content.vb: Public Property Body As IPhysicsBody
+  overload: Beryl.Physics.RaycastResult.Body*
+- uid: Beryl.Physics.RaycastResult.HitPoint
+  commentId: P:Beryl.Physics.RaycastResult.HitPoint
+  id: HitPoint
+  parent: Beryl.Physics.RaycastResult
+  langs:
+  - csharp
+  - vb
+  name: HitPoint
+  nameWithType: RaycastResult.HitPoint
+  fullName: Beryl.Physics.RaycastResult.HitPoint
+  type: Property
+  source:
+    id: HitPoint
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\RaycastResult.cs
+    startLine: 16
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics
+  summary: The hit point of the raycast in world-space.
+  example: []
+  syntax:
+    content: public Vector3 HitPoint { get; init; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Public Property HitPoint As Vector3
+  overload: Beryl.Physics.RaycastResult.HitPoint*
+- uid: Beryl.Physics.RaycastResult.Normal
+  commentId: P:Beryl.Physics.RaycastResult.Normal
+  id: Normal
+  parent: Beryl.Physics.RaycastResult
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: RaycastResult.Normal
+  fullName: Beryl.Physics.RaycastResult.Normal
+  type: Property
+  source:
+    id: Normal
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\RaycastResult.cs
+    startLine: 19
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics
+  summary: The surface normal at the point of impact.
+  example: []
+  syntax:
+    content: public Vector3 Normal { get; init; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Public Property Normal As Vector3
+  overload: Beryl.Physics.RaycastResult.Normal*
+- uid: Beryl.Physics.RaycastResult.Distance
+  commentId: P:Beryl.Physics.RaycastResult.Distance
+  id: Distance
+  parent: Beryl.Physics.RaycastResult
+  langs:
+  - csharp
+  - vb
+  name: Distance
+  nameWithType: RaycastResult.Distance
+  fullName: Beryl.Physics.RaycastResult.Distance
+  type: Property
+  source:
+    id: Distance
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\RaycastResult.cs
+    startLine: 22
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics
+  summary: The distance from the origin to the hit point.
+  example: []
+  syntax:
+    content: public float Distance { get; init; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Distance As Single
+  overload: Beryl.Physics.RaycastResult.Distance*
+references:
+- uid: Beryl.Physics
+  commentId: N:Beryl.Physics
+  href: Beryl.html
+  name: Beryl.Physics
+  nameWithType: Beryl.Physics
+  fullName: Beryl.Physics
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Physics.RaycastResult.Body*
+  commentId: Overload:Beryl.Physics.RaycastResult.Body
+  href: Beryl.Physics.RaycastResult.html#Beryl_Physics_RaycastResult_Body
+  name: Body
+  nameWithType: RaycastResult.Body
+  fullName: Beryl.Physics.RaycastResult.Body
+- uid: Beryl.Physics.IPhysicsBody
+  commentId: T:Beryl.Physics.IPhysicsBody
+  parent: Beryl.Physics
+  href: Beryl.Physics.IPhysicsBody.html
+  name: IPhysicsBody
+  nameWithType: IPhysicsBody
+  fullName: Beryl.Physics.IPhysicsBody
+- uid: Beryl.Physics.RaycastResult.HitPoint*
+  commentId: Overload:Beryl.Physics.RaycastResult.HitPoint
+  href: Beryl.Physics.RaycastResult.html#Beryl_Physics_RaycastResult_HitPoint
+  name: HitPoint
+  nameWithType: RaycastResult.HitPoint
+  fullName: Beryl.Physics.RaycastResult.HitPoint
+- uid: Beryl.Math.Vector3
+  commentId: T:Beryl.Math.Vector3
+  parent: Beryl.Math
+  href: Beryl.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Beryl.Math.Vector3
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: Beryl.Physics.RaycastResult.Normal*
+  commentId: Overload:Beryl.Physics.RaycastResult.Normal
+  href: Beryl.Physics.RaycastResult.html#Beryl_Physics_RaycastResult_Normal
+  name: Normal
+  nameWithType: RaycastResult.Normal
+  fullName: Beryl.Physics.RaycastResult.Normal
+- uid: Beryl.Physics.RaycastResult.Distance*
+  commentId: Overload:Beryl.Physics.RaycastResult.Distance
+  href: Beryl.Physics.RaycastResult.html#Beryl_Physics_RaycastResult_Distance
+  name: Distance
+  nameWithType: RaycastResult.Distance
+  fullName: Beryl.Physics.RaycastResult.Distance
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

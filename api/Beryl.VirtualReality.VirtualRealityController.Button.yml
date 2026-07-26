@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.VirtualReality.VirtualRealityController.Button
+  commentId: T:Beryl.VirtualReality.VirtualRealityController.Button
+  id: VirtualRealityController.Button
+  parent: Beryl.VirtualReality
+  children:
+  - Beryl.VirtualReality.VirtualRealityController.Button.ActionDown
+  - Beryl.VirtualReality.VirtualRealityController.Button.ActionUp
+  - Beryl.VirtualReality.VirtualRealityController.Button.System
+  langs:
+  - csharp
+  - vb
+  name: VirtualRealityController.Button
+  nameWithType: VirtualRealityController.Button
+  fullName: Beryl.VirtualReality.VirtualRealityController.Button
+  type: Enum
+  source:
+    id: Button
+    path: E:\Beryl\Documentation\src\Modules\Beryl.VirtualReality\VirtualRealityController.cs
+    startLine: 15
+  assemblies:
+  - Beryl.VirtualReality
+  namespace: Beryl.VirtualReality
+  summary: Represents a Virtual Reality controller button.
+  example: []
+  syntax:
+    content: public enum VirtualRealityController.Button
+    content.vb: Public Enum VirtualRealityController.Button
+- uid: Beryl.VirtualReality.VirtualRealityController.Button.ActionUp
+  commentId: F:Beryl.VirtualReality.VirtualRealityController.Button.ActionUp
+  id: ActionUp
+  parent: Beryl.VirtualReality.VirtualRealityController.Button
+  langs:
+  - csharp
+  - vb
+  name: ActionUp
+  nameWithType: VirtualRealityController.Button.ActionUp
+  fullName: Beryl.VirtualReality.VirtualRealityController.Button.ActionUp
+  type: Field
+  source:
+    id: ActionUp
+    path: E:\Beryl\Documentation\src\Modules\Beryl.VirtualReality\VirtualRealityController.cs
+    startLine: 17
+  assemblies:
+  - Beryl.VirtualReality
+  namespace: Beryl.VirtualReality
+  syntax:
+    content: ActionUp = 0
+    return:
+      type: Beryl.VirtualReality.VirtualRealityController.Button
+- uid: Beryl.VirtualReality.VirtualRealityController.Button.ActionDown
+  commentId: F:Beryl.VirtualReality.VirtualRealityController.Button.ActionDown
+  id: ActionDown
+  parent: Beryl.VirtualReality.VirtualRealityController.Button
+  langs:
+  - csharp
+  - vb
+  name: ActionDown
+  nameWithType: VirtualRealityController.Button.ActionDown
+  fullName: Beryl.VirtualReality.VirtualRealityController.Button.ActionDown
+  type: Field
+  source:
+    id: ActionDown
+    path: E:\Beryl\Documentation\src\Modules\Beryl.VirtualReality\VirtualRealityController.cs
+    startLine: 18
+  assemblies:
+  - Beryl.VirtualReality
+  namespace: Beryl.VirtualReality
+  syntax:
+    content: ActionDown = 1
+    return:
+      type: Beryl.VirtualReality.VirtualRealityController.Button
+- uid: Beryl.VirtualReality.VirtualRealityController.Button.System
+  commentId: F:Beryl.VirtualReality.VirtualRealityController.Button.System
+  id: System
+  parent: Beryl.VirtualReality.VirtualRealityController.Button
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: VirtualRealityController.Button.System
+  fullName: Beryl.VirtualReality.VirtualRealityController.Button.System
+  type: Field
+  source:
+    id: System
+    path: E:\Beryl\Documentation\src\Modules\Beryl.VirtualReality\VirtualRealityController.cs
+    startLine: 21
+  assemblies:
+  - Beryl.VirtualReality
+  namespace: Beryl.VirtualReality
+  summary: Controllers system button. (i.e., the menu button)
+  example: []
+  syntax:
+    content: System = 2
+    return:
+      type: Beryl.VirtualReality.VirtualRealityController.Button
+references:
+- uid: Beryl.VirtualReality
+  commentId: N:Beryl.VirtualReality
+  href: Beryl.html
+  name: Beryl.VirtualReality
+  nameWithType: Beryl.VirtualReality
+  fullName: Beryl.VirtualReality
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.VirtualReality
+    name: VirtualReality
+    href: Beryl.VirtualReality.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.VirtualReality
+    name: VirtualReality
+    href: Beryl.VirtualReality.html
+- uid: Beryl.VirtualReality.VirtualRealityController.Button
+  commentId: T:Beryl.VirtualReality.VirtualRealityController.Button
+  parent: Beryl.VirtualReality
+  href: Beryl.VirtualReality.VirtualRealityController.html
+  name: VirtualRealityController.Button
+  nameWithType: VirtualRealityController.Button
+  fullName: Beryl.VirtualReality.VirtualRealityController.Button
+  spec.csharp:
+  - uid: Beryl.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Beryl.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Beryl.VirtualReality.VirtualRealityController.Button
+    name: Button
+    href: Beryl.VirtualReality.VirtualRealityController.Button.html
+  spec.vb:
+  - uid: Beryl.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Beryl.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Beryl.VirtualReality.VirtualRealityController.Button
+    name: Button
+    href: Beryl.VirtualReality.VirtualRealityController.Button.html

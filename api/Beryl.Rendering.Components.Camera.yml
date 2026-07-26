@@ -1,0 +1,843 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Components.Camera
+  commentId: T:Beryl.Rendering.Components.Camera
+  id: Camera
+  parent: Beryl.Rendering.Components
+  children:
+  - Beryl.Rendering.Components.Camera.#ctor
+  - Beryl.Rendering.Components.Camera.AspectRatio
+  - Beryl.Rendering.Components.Camera.FOV
+  - Beryl.Rendering.Components.Camera.Main
+  - Beryl.Rendering.Components.Camera.OrthographicMatrix
+  - Beryl.Rendering.Components.Camera.ProjectionMatrix
+  - Beryl.Rendering.Components.Camera.Target
+  - Beryl.Rendering.Components.Camera.ViewMatrix
+  - Beryl.Rendering.Components.Camera.ZFar
+  - Beryl.Rendering.Components.Camera.ZNear
+  langs:
+  - csharp
+  - vb
+  name: Camera
+  nameWithType: Camera
+  fullName: Beryl.Rendering.Components.Camera
+  type: Class
+  source:
+    id: Camera
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Components\Camera.cs
+    startLine: 9
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Components
+  syntax:
+    content: 'public class Camera : Component'
+    content.vb: Public Class Camera Inherits Component
+  inheritance:
+  - System.Object
+  - Beryl.Scenes.Components.Component
+  inheritedMembers:
+  - Beryl.Scenes.Components.Component.Enabled
+  - Beryl.Scenes.Components.Component.Entity
+  - Beryl.Scenes.Components.Component.Start
+  - Beryl.Scenes.Components.Component.Update
+  - Beryl.Scenes.Components.Component.Destroy
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Rendering.Components.Camera.FOV
+  commentId: P:Beryl.Rendering.Components.Camera.FOV
+  id: FOV
+  parent: Beryl.Rendering.Components.Camera
+  langs:
+  - csharp
+  - vb
+  name: FOV
+  nameWithType: Camera.FOV
+  fullName: Beryl.Rendering.Components.Camera.FOV
+  type: Property
+  source:
+    id: FOV
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Components\Camera.cs
+    startLine: 12
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Components
+  summary: The field of view.
+  example: []
+  syntax:
+    content: public float FOV { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property FOV As Single
+  overload: Beryl.Rendering.Components.Camera.FOV*
+- uid: Beryl.Rendering.Components.Camera.AspectRatio
+  commentId: P:Beryl.Rendering.Components.Camera.AspectRatio
+  id: AspectRatio
+  parent: Beryl.Rendering.Components.Camera
+  langs:
+  - csharp
+  - vb
+  name: AspectRatio
+  nameWithType: Camera.AspectRatio
+  fullName: Beryl.Rendering.Components.Camera.AspectRatio
+  type: Property
+  source:
+    id: AspectRatio
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Components\Camera.cs
+    startLine: 15
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Components
+  summary: The aspect ratio.
+  example: []
+  syntax:
+    content: public float AspectRatio { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property AspectRatio As Single
+  overload: Beryl.Rendering.Components.Camera.AspectRatio*
+- uid: Beryl.Rendering.Components.Camera.ZNear
+  commentId: P:Beryl.Rendering.Components.Camera.ZNear
+  id: ZNear
+  parent: Beryl.Rendering.Components.Camera
+  langs:
+  - csharp
+  - vb
+  name: ZNear
+  nameWithType: Camera.ZNear
+  fullName: Beryl.Rendering.Components.Camera.ZNear
+  type: Property
+  source:
+    id: ZNear
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Components\Camera.cs
+    startLine: 18
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Components
+  summary: The near plane.
+  example: []
+  syntax:
+    content: public float ZNear { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ZNear As Single
+  overload: Beryl.Rendering.Components.Camera.ZNear*
+- uid: Beryl.Rendering.Components.Camera.ZFar
+  commentId: P:Beryl.Rendering.Components.Camera.ZFar
+  id: ZFar
+  parent: Beryl.Rendering.Components.Camera
+  langs:
+  - csharp
+  - vb
+  name: ZFar
+  nameWithType: Camera.ZFar
+  fullName: Beryl.Rendering.Components.Camera.ZFar
+  type: Property
+  source:
+    id: ZFar
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Components\Camera.cs
+    startLine: 21
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Components
+  summary: The far plane.
+  example: []
+  syntax:
+    content: public float ZFar { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ZFar As Single
+  overload: Beryl.Rendering.Components.Camera.ZFar*
+- uid: Beryl.Rendering.Components.Camera.Target
+  commentId: P:Beryl.Rendering.Components.Camera.Target
+  id: Target
+  parent: Beryl.Rendering.Components.Camera
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: Camera.Target
+  fullName: Beryl.Rendering.Components.Camera.Target
+  type: Property
+  source:
+    id: Target
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Components\Camera.cs
+    startLine: 24
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Components
+  summary: The target texture to render to.
+  example: []
+  syntax:
+    content: public Texture? Target { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Rendering.Resources.Texture
+    content.vb: Public Property Target As Texture
+  overload: Beryl.Rendering.Components.Camera.Target*
+- uid: Beryl.Rendering.Components.Camera.Main
+  commentId: P:Beryl.Rendering.Components.Camera.Main
+  id: Main
+  parent: Beryl.Rendering.Components.Camera
+  langs:
+  - csharp
+  - vb
+  name: Main
+  nameWithType: Camera.Main
+  fullName: Beryl.Rendering.Components.Camera.Main
+  type: Property
+  source:
+    id: Main
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Components\Camera.cs
+    startLine: 27
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Components
+  summary: The main camera.
+  example: []
+  syntax:
+    content: public static Camera? Main { get; }
+    parameters: []
+    return:
+      type: Beryl.Rendering.Components.Camera
+    content.vb: Public Shared Property Main As Camera
+  overload: Beryl.Rendering.Components.Camera.Main*
+- uid: Beryl.Rendering.Components.Camera.ViewMatrix
+  commentId: P:Beryl.Rendering.Components.Camera.ViewMatrix
+  id: ViewMatrix
+  parent: Beryl.Rendering.Components.Camera
+  langs:
+  - csharp
+  - vb
+  name: ViewMatrix
+  nameWithType: Camera.ViewMatrix
+  fullName: Beryl.Rendering.Components.Camera.ViewMatrix
+  type: Property
+  source:
+    id: ViewMatrix
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Components\Camera.cs
+    startLine: 30
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Components
+  summary: Gets the view <xref href="Beryl.Math.Matrix4x4" data-throw-if-not-resolved="false"></xref> for this Camera.
+  example: []
+  syntax:
+    content: public Matrix4x4 ViewMatrix { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public ReadOnly Property ViewMatrix As Matrix4x4
+  overload: Beryl.Rendering.Components.Camera.ViewMatrix*
+- uid: Beryl.Rendering.Components.Camera.ProjectionMatrix
+  commentId: P:Beryl.Rendering.Components.Camera.ProjectionMatrix
+  id: ProjectionMatrix
+  parent: Beryl.Rendering.Components.Camera
+  langs:
+  - csharp
+  - vb
+  name: ProjectionMatrix
+  nameWithType: Camera.ProjectionMatrix
+  fullName: Beryl.Rendering.Components.Camera.ProjectionMatrix
+  type: Property
+  source:
+    id: ProjectionMatrix
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Components\Camera.cs
+    startLine: 37
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Components
+  summary: Gets the projection <xref href="Beryl.Math.Matrix4x4" data-throw-if-not-resolved="false"></xref> for this Camera.
+  example: []
+  syntax:
+    content: public Matrix4x4 ProjectionMatrix { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public ReadOnly Property ProjectionMatrix As Matrix4x4
+  overload: Beryl.Rendering.Components.Camera.ProjectionMatrix*
+- uid: Beryl.Rendering.Components.Camera.OrthographicMatrix
+  commentId: P:Beryl.Rendering.Components.Camera.OrthographicMatrix
+  id: OrthographicMatrix
+  parent: Beryl.Rendering.Components.Camera
+  langs:
+  - csharp
+  - vb
+  name: OrthographicMatrix
+  nameWithType: Camera.OrthographicMatrix
+  fullName: Beryl.Rendering.Components.Camera.OrthographicMatrix
+  type: Property
+  source:
+    id: OrthographicMatrix
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Components\Camera.cs
+    startLine: 56
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Components
+  summary: Gets the orthographic projection <xref href="Beryl.Math.Matrix4x4" data-throw-if-not-resolved="false"></xref> for this Camera.
+  example: []
+  syntax:
+    content: public Matrix4x4 OrthographicMatrix { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Matrix4x4
+    content.vb: Public ReadOnly Property OrthographicMatrix As Matrix4x4
+  overload: Beryl.Rendering.Components.Camera.OrthographicMatrix*
+- uid: Beryl.Rendering.Components.Camera.#ctor
+  commentId: M:Beryl.Rendering.Components.Camera.#ctor
+  id: '#ctor'
+  parent: Beryl.Rendering.Components.Camera
+  langs:
+  - csharp
+  - vb
+  name: Camera()
+  nameWithType: Camera.Camera()
+  fullName: Beryl.Rendering.Components.Camera.Camera()
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Components\Camera.cs
+    startLine: 80
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Components
+  summary: Initializes a new instance of <xref href="Beryl.Rendering.Components.Camera" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Camera()
+    content.vb: Public Sub New()
+  overload: Beryl.Rendering.Components.Camera.#ctor*
+  nameWithType.vb: Camera.New()
+  fullName.vb: Beryl.Rendering.Components.Camera.New()
+  name.vb: New()
+references:
+- uid: Beryl.Rendering.Components
+  commentId: N:Beryl.Rendering.Components
+  href: Beryl.html
+  name: Beryl.Rendering.Components
+  nameWithType: Beryl.Rendering.Components
+  fullName: Beryl.Rendering.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Components
+    name: Components
+    href: Beryl.Rendering.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Components
+    name: Components
+    href: Beryl.Rendering.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Scenes.Components.Component
+  commentId: T:Beryl.Scenes.Components.Component
+  parent: Beryl.Scenes.Components
+  href: Beryl.Scenes.Components.Component.html
+  name: Component
+  nameWithType: Component
+  fullName: Beryl.Scenes.Components.Component
+- uid: Beryl.Scenes.Components.Component.Enabled
+  commentId: P:Beryl.Scenes.Components.Component.Enabled
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Enabled
+  name: Enabled
+  nameWithType: Component.Enabled
+  fullName: Beryl.Scenes.Components.Component.Enabled
+- uid: Beryl.Scenes.Components.Component.Entity
+  commentId: P:Beryl.Scenes.Components.Component.Entity
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Entity
+  name: Entity
+  nameWithType: Component.Entity
+  fullName: Beryl.Scenes.Components.Component.Entity
+- uid: Beryl.Scenes.Components.Component.Start
+  commentId: M:Beryl.Scenes.Components.Component.Start
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Start
+  name: Start()
+  nameWithType: Component.Start()
+  fullName: Beryl.Scenes.Components.Component.Start()
+  spec.csharp:
+  - uid: Beryl.Scenes.Components.Component.Start
+    name: Start
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Scenes.Components.Component.Start
+    name: Start
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Start
+  - name: (
+  - name: )
+- uid: Beryl.Scenes.Components.Component.Update
+  commentId: M:Beryl.Scenes.Components.Component.Update
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Update
+  name: Update()
+  nameWithType: Component.Update()
+  fullName: Beryl.Scenes.Components.Component.Update()
+  spec.csharp:
+  - uid: Beryl.Scenes.Components.Component.Update
+    name: Update
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Scenes.Components.Component.Update
+    name: Update
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Update
+  - name: (
+  - name: )
+- uid: Beryl.Scenes.Components.Component.Destroy
+  commentId: M:Beryl.Scenes.Components.Component.Destroy
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Destroy
+  name: Destroy()
+  nameWithType: Component.Destroy()
+  fullName: Beryl.Scenes.Components.Component.Destroy()
+  spec.csharp:
+  - uid: Beryl.Scenes.Components.Component.Destroy
+    name: Destroy
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Destroy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Scenes.Components.Component.Destroy
+    name: Destroy
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Destroy
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Scenes.Components
+  commentId: N:Beryl.Scenes.Components
+  href: Beryl.html
+  name: Beryl.Scenes.Components
+  nameWithType: Beryl.Scenes.Components
+  fullName: Beryl.Scenes.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Components
+    name: Components
+    href: Beryl.Scenes.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Components
+    name: Components
+    href: Beryl.Scenes.Components.html
+- uid: Beryl.Rendering.Components.Camera.FOV*
+  commentId: Overload:Beryl.Rendering.Components.Camera.FOV
+  href: Beryl.Rendering.Components.Camera.html#Beryl_Rendering_Components_Camera_FOV
+  name: FOV
+  nameWithType: Camera.FOV
+  fullName: Beryl.Rendering.Components.Camera.FOV
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Beryl.Rendering.Components.Camera.AspectRatio*
+  commentId: Overload:Beryl.Rendering.Components.Camera.AspectRatio
+  href: Beryl.Rendering.Components.Camera.html#Beryl_Rendering_Components_Camera_AspectRatio
+  name: AspectRatio
+  nameWithType: Camera.AspectRatio
+  fullName: Beryl.Rendering.Components.Camera.AspectRatio
+- uid: Beryl.Rendering.Components.Camera.ZNear*
+  commentId: Overload:Beryl.Rendering.Components.Camera.ZNear
+  href: Beryl.Rendering.Components.Camera.html#Beryl_Rendering_Components_Camera_ZNear
+  name: ZNear
+  nameWithType: Camera.ZNear
+  fullName: Beryl.Rendering.Components.Camera.ZNear
+- uid: Beryl.Rendering.Components.Camera.ZFar*
+  commentId: Overload:Beryl.Rendering.Components.Camera.ZFar
+  href: Beryl.Rendering.Components.Camera.html#Beryl_Rendering_Components_Camera_ZFar
+  name: ZFar
+  nameWithType: Camera.ZFar
+  fullName: Beryl.Rendering.Components.Camera.ZFar
+- uid: Beryl.Rendering.Components.Camera.Target*
+  commentId: Overload:Beryl.Rendering.Components.Camera.Target
+  href: Beryl.Rendering.Components.Camera.html#Beryl_Rendering_Components_Camera_Target
+  name: Target
+  nameWithType: Camera.Target
+  fullName: Beryl.Rendering.Components.Camera.Target
+- uid: Beryl.Rendering.Resources.Texture
+  commentId: T:Beryl.Rendering.Resources.Texture
+  parent: Beryl.Rendering.Resources
+  href: Beryl.Rendering.Resources.Texture.html
+  name: Texture
+  nameWithType: Texture
+  fullName: Beryl.Rendering.Resources.Texture
+- uid: Beryl.Rendering.Resources
+  commentId: N:Beryl.Rendering.Resources
+  href: Beryl.html
+  name: Beryl.Rendering.Resources
+  nameWithType: Beryl.Rendering.Resources
+  fullName: Beryl.Rendering.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+- uid: Beryl.Rendering.Components.Camera.Main*
+  commentId: Overload:Beryl.Rendering.Components.Camera.Main
+  href: Beryl.Rendering.Components.Camera.html#Beryl_Rendering_Components_Camera_Main
+  name: Main
+  nameWithType: Camera.Main
+  fullName: Beryl.Rendering.Components.Camera.Main
+- uid: Beryl.Rendering.Components.Camera
+  commentId: T:Beryl.Rendering.Components.Camera
+  parent: Beryl.Rendering.Components
+  href: Beryl.Rendering.Components.Camera.html
+  name: Camera
+  nameWithType: Camera
+  fullName: Beryl.Rendering.Components.Camera
+- uid: Beryl.Math.Matrix4x4
+  commentId: T:Beryl.Math.Matrix4x4
+  parent: Beryl.Math
+  href: Beryl.Math.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Beryl.Math.Matrix4x4
+- uid: Beryl.Rendering.Components.Camera.ViewMatrix*
+  commentId: Overload:Beryl.Rendering.Components.Camera.ViewMatrix
+  href: Beryl.Rendering.Components.Camera.html#Beryl_Rendering_Components_Camera_ViewMatrix
+  name: ViewMatrix
+  nameWithType: Camera.ViewMatrix
+  fullName: Beryl.Rendering.Components.Camera.ViewMatrix
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: Beryl.Rendering.Components.Camera.ProjectionMatrix*
+  commentId: Overload:Beryl.Rendering.Components.Camera.ProjectionMatrix
+  href: Beryl.Rendering.Components.Camera.html#Beryl_Rendering_Components_Camera_ProjectionMatrix
+  name: ProjectionMatrix
+  nameWithType: Camera.ProjectionMatrix
+  fullName: Beryl.Rendering.Components.Camera.ProjectionMatrix
+- uid: Beryl.Rendering.Components.Camera.OrthographicMatrix*
+  commentId: Overload:Beryl.Rendering.Components.Camera.OrthographicMatrix
+  href: Beryl.Rendering.Components.Camera.html#Beryl_Rendering_Components_Camera_OrthographicMatrix
+  name: OrthographicMatrix
+  nameWithType: Camera.OrthographicMatrix
+  fullName: Beryl.Rendering.Components.Camera.OrthographicMatrix
+- uid: Beryl.Rendering.Components.Camera.#ctor*
+  commentId: Overload:Beryl.Rendering.Components.Camera.#ctor
+  href: Beryl.Rendering.Components.Camera.html#Beryl_Rendering_Components_Camera__ctor
+  name: Camera
+  nameWithType: Camera.Camera
+  fullName: Beryl.Rendering.Components.Camera.Camera
+  nameWithType.vb: Camera.New
+  fullName.vb: Beryl.Rendering.Components.Camera.New
+  name.vb: New

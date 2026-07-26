@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering
+  commentId: N:Beryl.Rendering
+  id: Rendering
+  parent: Beryl
+  children:
+  - Beryl.Rendering.CommandBufferExtensions
+  - Beryl.Rendering.CommandBufferPool
+  - Beryl.Rendering.Components
+  - Beryl.Rendering.Entities
+  - Beryl.Rendering.GPUBuffer
+  - Beryl.Rendering.GPUBuffer.AlignmentFormat
+  - Beryl.Rendering.GPUBufferPool
+  - Beryl.Rendering.IClientRenderable
+  - Beryl.Rendering.IShaderDefaultsProvider
+  - Beryl.Rendering.Pipelines
+  - Beryl.Rendering.RenderFrame
+  - Beryl.Rendering.Renderer
+  - Beryl.Rendering.RendererOptions
+  - Beryl.Rendering.RenderingModule
+  - Beryl.Rendering.Resources
+  - Beryl.Rendering.ShaderBaker
+  - Beryl.Rendering.ShaderDefaultsProvider
+  - Beryl.Rendering.SlangCompilationResult
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Rendering
+  nameWithType: Beryl.Rendering
+  fullName: Beryl.Rendering
+  type: Namespace
+  assemblies:
+  - Beryl.Rendering
+references:
+- uid: Beryl.Rendering.Components
+  commentId: N:Beryl.Rendering.Components
+  href: Beryl.html
+  name: Beryl.Rendering.Components
+  nameWithType: Beryl.Rendering.Components
+  fullName: Beryl.Rendering.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Components
+    name: Components
+    href: Beryl.Rendering.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Components
+    name: Components
+    href: Beryl.Rendering.Components.html
+- uid: Beryl.Rendering.Entities
+  commentId: N:Beryl.Rendering.Entities
+  href: Beryl.html
+  name: Beryl.Rendering.Entities
+  nameWithType: Beryl.Rendering.Entities
+  fullName: Beryl.Rendering.Entities
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Entities
+    name: Entities
+    href: Beryl.Rendering.Entities.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Entities
+    name: Entities
+    href: Beryl.Rendering.Entities.html
+- uid: Beryl.Rendering.Pipelines
+  commentId: N:Beryl.Rendering.Pipelines
+  href: Beryl.html
+  name: Beryl.Rendering.Pipelines
+  nameWithType: Beryl.Rendering.Pipelines
+  fullName: Beryl.Rendering.Pipelines
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Pipelines
+    name: Pipelines
+    href: Beryl.Rendering.Pipelines.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Pipelines
+    name: Pipelines
+    href: Beryl.Rendering.Pipelines.html
+- uid: Beryl.Rendering.Resources
+  commentId: N:Beryl.Rendering.Resources
+  href: Beryl.html
+  name: Beryl.Rendering.Resources
+  nameWithType: Beryl.Rendering.Resources
+  fullName: Beryl.Rendering.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+- uid: Beryl.Rendering.CommandBufferExtensions
+  commentId: T:Beryl.Rendering.CommandBufferExtensions
+  href: Beryl.Rendering.CommandBufferExtensions.html
+  name: CommandBufferExtensions
+  nameWithType: CommandBufferExtensions
+  fullName: Beryl.Rendering.CommandBufferExtensions
+- uid: Beryl.Rendering.CommandBufferPool
+  commentId: T:Beryl.Rendering.CommandBufferPool
+  href: Beryl.Rendering.CommandBufferPool.html
+  name: CommandBufferPool
+  nameWithType: CommandBufferPool
+  fullName: Beryl.Rendering.CommandBufferPool
+- uid: Beryl.Rendering.GPUBuffer
+  commentId: T:Beryl.Rendering.GPUBuffer
+  parent: Beryl.Rendering
+  href: Beryl.Rendering.GPUBuffer.html
+  name: GPUBuffer
+  nameWithType: GPUBuffer
+  fullName: Beryl.Rendering.GPUBuffer
+- uid: Beryl.Rendering.GPUBuffer.AlignmentFormat
+  commentId: T:Beryl.Rendering.GPUBuffer.AlignmentFormat
+  parent: Beryl.Rendering
+  href: Beryl.Rendering.GPUBuffer.html
+  name: GPUBuffer.AlignmentFormat
+  nameWithType: GPUBuffer.AlignmentFormat
+  fullName: Beryl.Rendering.GPUBuffer.AlignmentFormat
+  spec.csharp:
+  - uid: Beryl.Rendering.GPUBuffer
+    name: GPUBuffer
+    href: Beryl.Rendering.GPUBuffer.html
+  - name: .
+  - uid: Beryl.Rendering.GPUBuffer.AlignmentFormat
+    name: AlignmentFormat
+    href: Beryl.Rendering.GPUBuffer.AlignmentFormat.html
+  spec.vb:
+  - uid: Beryl.Rendering.GPUBuffer
+    name: GPUBuffer
+    href: Beryl.Rendering.GPUBuffer.html
+  - name: .
+  - uid: Beryl.Rendering.GPUBuffer.AlignmentFormat
+    name: AlignmentFormat
+    href: Beryl.Rendering.GPUBuffer.AlignmentFormat.html
+- uid: Beryl.Rendering.GPUBufferPool
+  commentId: T:Beryl.Rendering.GPUBufferPool
+  href: Beryl.Rendering.GPUBufferPool.html
+  name: GPUBufferPool
+  nameWithType: GPUBufferPool
+  fullName: Beryl.Rendering.GPUBufferPool
+- uid: Beryl.Rendering.IClientRenderable
+  commentId: T:Beryl.Rendering.IClientRenderable
+  parent: Beryl.Rendering
+  href: Beryl.Rendering.IClientRenderable.html
+  name: IClientRenderable
+  nameWithType: IClientRenderable
+  fullName: Beryl.Rendering.IClientRenderable
+- uid: Beryl.Rendering.IShaderDefaultsProvider
+  commentId: T:Beryl.Rendering.IShaderDefaultsProvider
+  parent: Beryl.Rendering
+  href: Beryl.Rendering.IShaderDefaultsProvider.html
+  name: IShaderDefaultsProvider
+  nameWithType: IShaderDefaultsProvider
+  fullName: Beryl.Rendering.IShaderDefaultsProvider
+- uid: Beryl.Rendering.RenderFrame
+  commentId: T:Beryl.Rendering.RenderFrame
+  parent: Beryl.Rendering
+  href: Beryl.Rendering.RenderFrame.html
+  name: RenderFrame
+  nameWithType: RenderFrame
+  fullName: Beryl.Rendering.RenderFrame
+- uid: Beryl.Rendering.Renderer
+  commentId: T:Beryl.Rendering.Renderer
+  href: Beryl.Rendering.Renderer.html
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Beryl.Rendering.Renderer
+- uid: Beryl.Rendering.RendererOptions
+  commentId: T:Beryl.Rendering.RendererOptions
+  parent: Beryl.Rendering
+  href: Beryl.Rendering.RendererOptions.html
+  name: RendererOptions
+  nameWithType: RendererOptions
+  fullName: Beryl.Rendering.RendererOptions
+- uid: Beryl.Rendering.RenderingModule
+  commentId: T:Beryl.Rendering.RenderingModule
+  href: Beryl.Rendering.RenderingModule.html
+  name: RenderingModule
+  nameWithType: RenderingModule
+  fullName: Beryl.Rendering.RenderingModule
+- uid: Beryl.Rendering.ShaderBaker
+  commentId: T:Beryl.Rendering.ShaderBaker
+  href: Beryl.Rendering.ShaderBaker.html
+  name: ShaderBaker
+  nameWithType: ShaderBaker
+  fullName: Beryl.Rendering.ShaderBaker
+- uid: Beryl.Rendering.ShaderDefaultsProvider
+  commentId: T:Beryl.Rendering.ShaderDefaultsProvider
+  href: Beryl.Rendering.ShaderDefaultsProvider.html
+  name: ShaderDefaultsProvider
+  nameWithType: ShaderDefaultsProvider
+  fullName: Beryl.Rendering.ShaderDefaultsProvider
+- uid: Beryl.Rendering.SlangCompilationResult
+  commentId: T:Beryl.Rendering.SlangCompilationResult
+  parent: Beryl.Rendering
+  href: Beryl.Rendering.SlangCompilationResult.html
+  name: SlangCompilationResult
+  nameWithType: SlangCompilationResult
+  fullName: Beryl.Rendering.SlangCompilationResult
+- uid: Beryl.Rendering
+  commentId: N:Beryl.Rendering
+  href: Beryl.html
+  name: Beryl.Rendering
+  nameWithType: Beryl.Rendering
+  fullName: Beryl.Rendering
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html

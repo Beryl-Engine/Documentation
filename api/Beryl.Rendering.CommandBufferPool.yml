@@ -1,0 +1,729 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.CommandBufferPool
+  commentId: T:Beryl.Rendering.CommandBufferPool
+  id: CommandBufferPool
+  parent: Beryl.Rendering
+  children:
+  - Beryl.Rendering.CommandBufferPool.CreateObject
+  langs:
+  - csharp
+  - vb
+  name: CommandBufferPool
+  nameWithType: CommandBufferPool
+  fullName: Beryl.Rendering.CommandBufferPool
+  type: Class
+  source:
+    id: CommandBufferPool
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\CommandBufferPool.cs
+    startLine: 8
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  syntax:
+    content: 'public class CommandBufferPool : ObjectPool<CommandBufferPool, ICommandBuffer>'
+    content.vb: Public Class CommandBufferPool Inherits ObjectPool(Of CommandBufferPool, ICommandBuffer)
+  inheritance:
+  - System.Object
+  - Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}
+  inheritedMembers:
+  - Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.MaxPoolSize
+  - Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Shared
+  - Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.CreateObject
+  - Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.ResetObject(Beryl.RHI.ICommandBuffer)
+  - Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Rent
+  - Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.RentAuto
+  - Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Return(Beryl.RHI.ICommandBuffer)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Rendering.CommandBufferPool.CreateObject
+  commentId: M:Beryl.Rendering.CommandBufferPool.CreateObject
+  id: CreateObject
+  parent: Beryl.Rendering.CommandBufferPool
+  langs:
+  - csharp
+  - vb
+  name: CreateObject()
+  nameWithType: CommandBufferPool.CreateObject()
+  fullName: Beryl.Rendering.CommandBufferPool.CreateObject()
+  type: Method
+  source:
+    id: CreateObject
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\CommandBufferPool.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering
+  summary: Creates a new instance of <xref href="Beryl.RHI.ICommandBuffer" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected override ICommandBuffer CreateObject()
+    return:
+      type: Beryl.RHI.ICommandBuffer
+    content.vb: Protected Overrides Function CreateObject() As ICommandBuffer
+  overridden: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.CreateObject
+  overload: Beryl.Rendering.CommandBufferPool.CreateObject*
+references:
+- uid: Beryl.Rendering
+  commentId: N:Beryl.Rendering
+  href: Beryl.html
+  name: Beryl.Rendering
+  nameWithType: Beryl.Rendering
+  fullName: Beryl.Rendering
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}
+  commentId: T:Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}
+  parent: Beryl.Common.Datatypes
+  definition: Beryl.Common.Datatypes.ObjectPool`2
+  href: Beryl.Common.Datatypes.ObjectPool-2.html
+  name: ObjectPool<CommandBufferPool, ICommandBuffer>
+  nameWithType: ObjectPool<CommandBufferPool, ICommandBuffer>
+  fullName: Beryl.Common.Datatypes.ObjectPool<Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer>
+  nameWithType.vb: ObjectPool(Of CommandBufferPool, ICommandBuffer)
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer)
+  name.vb: ObjectPool(Of CommandBufferPool, ICommandBuffer)
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2
+    name: ObjectPool
+    href: Beryl.Common.Datatypes.ObjectPool-2.html
+  - name: <
+  - uid: Beryl.Rendering.CommandBufferPool
+    name: CommandBufferPool
+    href: Beryl.Rendering.CommandBufferPool.html
+  - name: ','
+  - name: " "
+  - uid: Beryl.RHI.ICommandBuffer
+    name: ICommandBuffer
+    href: Beryl.RHI.ICommandBuffer.html
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2
+    name: ObjectPool
+    href: Beryl.Common.Datatypes.ObjectPool-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Rendering.CommandBufferPool
+    name: CommandBufferPool
+    href: Beryl.Rendering.CommandBufferPool.html
+  - name: ','
+  - name: " "
+  - uid: Beryl.RHI.ICommandBuffer
+    name: ICommandBuffer
+    href: Beryl.RHI.ICommandBuffer.html
+  - name: )
+- uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.MaxPoolSize
+  commentId: P:Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.MaxPoolSize
+  parent: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}
+  definition: Beryl.Common.Datatypes.ObjectPool`2.MaxPoolSize
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_MaxPoolSize
+  name: MaxPoolSize
+  nameWithType: ObjectPool<CommandBufferPool, ICommandBuffer>.MaxPoolSize
+  fullName: Beryl.Common.Datatypes.ObjectPool<Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer>.MaxPoolSize
+  nameWithType.vb: ObjectPool(Of CommandBufferPool, ICommandBuffer).MaxPoolSize
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer).MaxPoolSize
+- uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Shared
+  commentId: P:Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Shared
+  parent: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}
+  definition: Beryl.Common.Datatypes.ObjectPool`2.Shared
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Shared
+  name: Shared
+  nameWithType: ObjectPool<CommandBufferPool, ICommandBuffer>.Shared
+  fullName: Beryl.Common.Datatypes.ObjectPool<Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer>.Shared
+  nameWithType.vb: ObjectPool(Of CommandBufferPool, ICommandBuffer).Shared
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer).Shared
+- uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.CreateObject
+  commentId: M:Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.CreateObject
+  parent: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}
+  definition: Beryl.Common.Datatypes.ObjectPool`2.CreateObject
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_CreateObject
+  name: CreateObject()
+  nameWithType: ObjectPool<CommandBufferPool, ICommandBuffer>.CreateObject()
+  fullName: Beryl.Common.Datatypes.ObjectPool<Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer>.CreateObject()
+  nameWithType.vb: ObjectPool(Of CommandBufferPool, ICommandBuffer).CreateObject()
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer).CreateObject()
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.CreateObject
+    name: CreateObject
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_CreateObject
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.CreateObject
+    name: CreateObject
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_CreateObject
+  - name: (
+  - name: )
+- uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.ResetObject(Beryl.RHI.ICommandBuffer)
+  commentId: M:Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.ResetObject(Beryl.RHI.ICommandBuffer)
+  parent: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}
+  definition: Beryl.Common.Datatypes.ObjectPool`2.ResetObject(`1)
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_ResetObject__1_
+  name: ResetObject(ICommandBuffer)
+  nameWithType: ObjectPool<CommandBufferPool, ICommandBuffer>.ResetObject(ICommandBuffer)
+  fullName: Beryl.Common.Datatypes.ObjectPool<Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer>.ResetObject(Beryl.RHI.ICommandBuffer)
+  nameWithType.vb: ObjectPool(Of CommandBufferPool, ICommandBuffer).ResetObject(ICommandBuffer)
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer).ResetObject(Beryl.RHI.ICommandBuffer)
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.ResetObject(Beryl.RHI.ICommandBuffer)
+    name: ResetObject
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_ResetObject__1_
+  - name: (
+  - uid: Beryl.RHI.ICommandBuffer
+    name: ICommandBuffer
+    href: Beryl.RHI.ICommandBuffer.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.ResetObject(Beryl.RHI.ICommandBuffer)
+    name: ResetObject
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_ResetObject__1_
+  - name: (
+  - uid: Beryl.RHI.ICommandBuffer
+    name: ICommandBuffer
+    href: Beryl.RHI.ICommandBuffer.html
+  - name: )
+- uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Rent
+  commentId: M:Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Rent
+  parent: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}
+  definition: Beryl.Common.Datatypes.ObjectPool`2.Rent
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Rent
+  name: Rent()
+  nameWithType: ObjectPool<CommandBufferPool, ICommandBuffer>.Rent()
+  fullName: Beryl.Common.Datatypes.ObjectPool<Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer>.Rent()
+  nameWithType.vb: ObjectPool(Of CommandBufferPool, ICommandBuffer).Rent()
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer).Rent()
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Rent
+    name: Rent
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Rent
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Rent
+    name: Rent
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Rent
+  - name: (
+  - name: )
+- uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.RentAuto
+  commentId: M:Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.RentAuto
+  parent: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}
+  definition: Beryl.Common.Datatypes.ObjectPool`2.RentAuto
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_RentAuto
+  name: RentAuto()
+  nameWithType: ObjectPool<CommandBufferPool, ICommandBuffer>.RentAuto()
+  fullName: Beryl.Common.Datatypes.ObjectPool<Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer>.RentAuto()
+  nameWithType.vb: ObjectPool(Of CommandBufferPool, ICommandBuffer).RentAuto()
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer).RentAuto()
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.RentAuto
+    name: RentAuto
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_RentAuto
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.RentAuto
+    name: RentAuto
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_RentAuto
+  - name: (
+  - name: )
+- uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Return(Beryl.RHI.ICommandBuffer)
+  commentId: M:Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Return(Beryl.RHI.ICommandBuffer)
+  parent: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}
+  definition: Beryl.Common.Datatypes.ObjectPool`2.Return(`1)
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Return__1_
+  name: Return(ICommandBuffer)
+  nameWithType: ObjectPool<CommandBufferPool, ICommandBuffer>.Return(ICommandBuffer)
+  fullName: Beryl.Common.Datatypes.ObjectPool<Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer>.Return(Beryl.RHI.ICommandBuffer)
+  nameWithType.vb: ObjectPool(Of CommandBufferPool, ICommandBuffer).Return(ICommandBuffer)
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of Beryl.Rendering.CommandBufferPool, Beryl.RHI.ICommandBuffer).Return(Beryl.RHI.ICommandBuffer)
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Return(Beryl.RHI.ICommandBuffer)
+    name: Return
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Return__1_
+  - name: (
+  - uid: Beryl.RHI.ICommandBuffer
+    name: ICommandBuffer
+    href: Beryl.RHI.ICommandBuffer.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool{Beryl.Rendering.CommandBufferPool,Beryl.RHI.ICommandBuffer}.Return(Beryl.RHI.ICommandBuffer)
+    name: Return
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Return__1_
+  - name: (
+  - uid: Beryl.RHI.ICommandBuffer
+    name: ICommandBuffer
+    href: Beryl.RHI.ICommandBuffer.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Common.Datatypes.ObjectPool`2
+  commentId: T:Beryl.Common.Datatypes.ObjectPool`2
+  href: Beryl.Common.Datatypes.ObjectPool-2.html
+  name: ObjectPool<TSingletonOwner, TObject>
+  nameWithType: ObjectPool<TSingletonOwner, TObject>
+  fullName: Beryl.Common.Datatypes.ObjectPool<TSingletonOwner, TObject>
+  nameWithType.vb: ObjectPool(Of TSingletonOwner, TObject)
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of TSingletonOwner, TObject)
+  name.vb: ObjectPool(Of TSingletonOwner, TObject)
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2
+    name: ObjectPool
+    href: Beryl.Common.Datatypes.ObjectPool-2.html
+  - name: <
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TObject
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2
+    name: ObjectPool
+    href: Beryl.Common.Datatypes.ObjectPool-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TObject
+  - name: )
+- uid: Beryl.Common.Datatypes
+  commentId: N:Beryl.Common.Datatypes
+  href: Beryl.html
+  name: Beryl.Common.Datatypes
+  nameWithType: Beryl.Common.Datatypes
+  fullName: Beryl.Common.Datatypes
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Datatypes
+    name: Datatypes
+    href: Beryl.Common.Datatypes.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  - name: .
+  - uid: Beryl.Common.Datatypes
+    name: Datatypes
+    href: Beryl.Common.Datatypes.html
+- uid: Beryl.Common.Datatypes.ObjectPool`2.MaxPoolSize
+  commentId: P:Beryl.Common.Datatypes.ObjectPool`2.MaxPoolSize
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_MaxPoolSize
+  name: MaxPoolSize
+  nameWithType: ObjectPool<TSingletonOwner, TObject>.MaxPoolSize
+  fullName: Beryl.Common.Datatypes.ObjectPool<TSingletonOwner, TObject>.MaxPoolSize
+  nameWithType.vb: ObjectPool(Of TSingletonOwner, TObject).MaxPoolSize
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of TSingletonOwner, TObject).MaxPoolSize
+- uid: Beryl.Common.Datatypes.ObjectPool`2.Shared
+  commentId: P:Beryl.Common.Datatypes.ObjectPool`2.Shared
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Shared
+  name: Shared
+  nameWithType: ObjectPool<TSingletonOwner, TObject>.Shared
+  fullName: Beryl.Common.Datatypes.ObjectPool<TSingletonOwner, TObject>.Shared
+  nameWithType.vb: ObjectPool(Of TSingletonOwner, TObject).Shared
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of TSingletonOwner, TObject).Shared
+- uid: Beryl.Common.Datatypes.ObjectPool`2.CreateObject
+  commentId: M:Beryl.Common.Datatypes.ObjectPool`2.CreateObject
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_CreateObject
+  name: CreateObject()
+  nameWithType: ObjectPool<TSingletonOwner, TObject>.CreateObject()
+  fullName: Beryl.Common.Datatypes.ObjectPool<TSingletonOwner, TObject>.CreateObject()
+  nameWithType.vb: ObjectPool(Of TSingletonOwner, TObject).CreateObject()
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of TSingletonOwner, TObject).CreateObject()
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2.CreateObject
+    name: CreateObject
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_CreateObject
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2.CreateObject
+    name: CreateObject
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_CreateObject
+  - name: (
+  - name: )
+- uid: Beryl.Common.Datatypes.ObjectPool`2.ResetObject(`1)
+  commentId: M:Beryl.Common.Datatypes.ObjectPool`2.ResetObject(`1)
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_ResetObject__1_
+  name: ResetObject(TObject)
+  nameWithType: ObjectPool<TSingletonOwner, TObject>.ResetObject(TObject)
+  fullName: Beryl.Common.Datatypes.ObjectPool<TSingletonOwner, TObject>.ResetObject(TObject)
+  nameWithType.vb: ObjectPool(Of TSingletonOwner, TObject).ResetObject(TObject)
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of TSingletonOwner, TObject).ResetObject(TObject)
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2.ResetObject(`1)
+    name: ResetObject
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_ResetObject__1_
+  - name: (
+  - name: TObject
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2.ResetObject(`1)
+    name: ResetObject
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_ResetObject__1_
+  - name: (
+  - name: TObject
+  - name: )
+- uid: Beryl.Common.Datatypes.ObjectPool`2.Rent
+  commentId: M:Beryl.Common.Datatypes.ObjectPool`2.Rent
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Rent
+  name: Rent()
+  nameWithType: ObjectPool<TSingletonOwner, TObject>.Rent()
+  fullName: Beryl.Common.Datatypes.ObjectPool<TSingletonOwner, TObject>.Rent()
+  nameWithType.vb: ObjectPool(Of TSingletonOwner, TObject).Rent()
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of TSingletonOwner, TObject).Rent()
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2.Rent
+    name: Rent
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Rent
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2.Rent
+    name: Rent
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Rent
+  - name: (
+  - name: )
+- uid: Beryl.Common.Datatypes.ObjectPool`2.RentAuto
+  commentId: M:Beryl.Common.Datatypes.ObjectPool`2.RentAuto
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_RentAuto
+  name: RentAuto()
+  nameWithType: ObjectPool<TSingletonOwner, TObject>.RentAuto()
+  fullName: Beryl.Common.Datatypes.ObjectPool<TSingletonOwner, TObject>.RentAuto()
+  nameWithType.vb: ObjectPool(Of TSingletonOwner, TObject).RentAuto()
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of TSingletonOwner, TObject).RentAuto()
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2.RentAuto
+    name: RentAuto
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_RentAuto
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2.RentAuto
+    name: RentAuto
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_RentAuto
+  - name: (
+  - name: )
+- uid: Beryl.Common.Datatypes.ObjectPool`2.Return(`1)
+  commentId: M:Beryl.Common.Datatypes.ObjectPool`2.Return(`1)
+  href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Return__1_
+  name: Return(TObject)
+  nameWithType: ObjectPool<TSingletonOwner, TObject>.Return(TObject)
+  fullName: Beryl.Common.Datatypes.ObjectPool<TSingletonOwner, TObject>.Return(TObject)
+  nameWithType.vb: ObjectPool(Of TSingletonOwner, TObject).Return(TObject)
+  fullName.vb: Beryl.Common.Datatypes.ObjectPool(Of TSingletonOwner, TObject).Return(TObject)
+  spec.csharp:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2.Return(`1)
+    name: Return
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Return__1_
+  - name: (
+  - name: TObject
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.Datatypes.ObjectPool`2.Return(`1)
+    name: Return
+    href: Beryl.Common.Datatypes.ObjectPool-2.html#Beryl_Common_Datatypes_ObjectPool_2_Return__1_
+  - name: (
+  - name: TObject
+  - name: )
+- uid: Beryl.RHI.ICommandBuffer
+  commentId: T:Beryl.RHI.ICommandBuffer
+  parent: Beryl.RHI
+  href: Beryl.RHI.ICommandBuffer.html
+  name: ICommandBuffer
+  nameWithType: ICommandBuffer
+  fullName: Beryl.RHI.ICommandBuffer
+- uid: Beryl.Rendering.CommandBufferPool.CreateObject*
+  commentId: Overload:Beryl.Rendering.CommandBufferPool.CreateObject
+  href: Beryl.Rendering.CommandBufferPool.html#Beryl_Rendering_CommandBufferPool_CreateObject
+  name: CreateObject
+  nameWithType: CommandBufferPool.CreateObject
+  fullName: Beryl.Rendering.CommandBufferPool.CreateObject
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html

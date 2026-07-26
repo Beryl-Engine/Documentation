@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Pipelines.Forward
+  commentId: N:Beryl.Rendering.Pipelines.Forward
+  id: Forward
+  parent: Beryl.Rendering.Pipelines
+  children:
+  - Beryl.Rendering.Pipelines.Forward.ForwardRenderPipeline
+  - Beryl.Rendering.Pipelines.Forward.OpaquePass
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Rendering.Pipelines.Forward
+  nameWithType: Beryl.Rendering.Pipelines.Forward
+  fullName: Beryl.Rendering.Pipelines.Forward
+  type: Namespace
+  assemblies:
+  - Beryl.Rendering
+references:
+- uid: Beryl.Rendering.Pipelines.Forward.ForwardRenderPipeline
+  commentId: T:Beryl.Rendering.Pipelines.Forward.ForwardRenderPipeline
+  href: Beryl.Rendering.Pipelines.Forward.ForwardRenderPipeline.html
+  name: ForwardRenderPipeline
+  nameWithType: ForwardRenderPipeline
+  fullName: Beryl.Rendering.Pipelines.Forward.ForwardRenderPipeline
+- uid: Beryl.Rendering.Pipelines.Forward.OpaquePass
+  commentId: T:Beryl.Rendering.Pipelines.Forward.OpaquePass
+  href: Beryl.Rendering.Pipelines.Forward.OpaquePass.html
+  name: OpaquePass
+  nameWithType: OpaquePass
+  fullName: Beryl.Rendering.Pipelines.Forward.OpaquePass

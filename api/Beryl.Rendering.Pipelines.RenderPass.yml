@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Pipelines.RenderPass
+  commentId: T:Beryl.Rendering.Pipelines.RenderPass
+  id: RenderPass
+  parent: Beryl.Rendering.Pipelines
+  children:
+  - Beryl.Rendering.Pipelines.RenderPass.Execute(Beryl.Rendering.RenderFrame@)
+  - Beryl.Rendering.Pipelines.RenderPass.Pipeline
+  - Beryl.Rendering.Pipelines.RenderPass.Render(Beryl.Rendering.RenderFrame@,Beryl.RHI.ICommandBuffer)
+  - Beryl.Rendering.Pipelines.RenderPass.TargetBuffer
+  langs:
+  - csharp
+  - vb
+  name: RenderPass
+  nameWithType: RenderPass
+  fullName: Beryl.Rendering.Pipelines.RenderPass
+  type: Class
+  source:
+    id: RenderPass
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Pipelines\RenderPass.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Pipelines
+  summary: Render instructions for a step in the rendering pipeline.
+  example: []
+  syntax:
+    content: public abstract class RenderPass
+    content.vb: Public MustInherit Class RenderPass
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Beryl.Rendering.Pipelines.Forward.OpaquePass
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Rendering.Pipelines.RenderPass.Pipeline
+  commentId: P:Beryl.Rendering.Pipelines.RenderPass.Pipeline
+  id: Pipeline
+  parent: Beryl.Rendering.Pipelines.RenderPass
+  langs:
+  - csharp
+  - vb
+  name: Pipeline
+  nameWithType: RenderPass.Pipeline
+  fullName: Beryl.Rendering.Pipelines.RenderPass.Pipeline
+  type: Property
+  source:
+    id: Pipeline
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Pipelines\RenderPass.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Pipelines
+  summary: The <xref href="Beryl.Rendering.Pipelines.RenderPipeline" data-throw-if-not-resolved="false"></xref> that owns this <xref href="Beryl.Rendering.Pipelines.RenderPass" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public RenderPipeline Pipeline { get; init; }
+    parameters: []
+    return:
+      type: Beryl.Rendering.Pipelines.RenderPipeline
+    content.vb: Public Property Pipeline As RenderPipeline
+  overload: Beryl.Rendering.Pipelines.RenderPass.Pipeline*
+- uid: Beryl.Rendering.Pipelines.RenderPass.Execute(Beryl.Rendering.RenderFrame@)
+  commentId: M:Beryl.Rendering.Pipelines.RenderPass.Execute(Beryl.Rendering.RenderFrame@)
+  id: Execute(Beryl.Rendering.RenderFrame@)
+  parent: Beryl.Rendering.Pipelines.RenderPass
+  langs:
+  - csharp
+  - vb
+  name: Execute(in RenderFrame)
+  nameWithType: RenderPass.Execute(in RenderFrame)
+  fullName: Beryl.Rendering.Pipelines.RenderPass.Execute(in Beryl.Rendering.RenderFrame)
+  type: Method
+  source:
+    id: Execute
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Pipelines\RenderPass.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Pipelines
+  summary: Fully runs this <xref href="Beryl.Rendering.Pipelines.RenderPass" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void Execute(in RenderFrame frame)
+    parameters:
+    - id: frame
+      type: Beryl.Rendering.RenderFrame
+    content.vb: Public Sub Execute(frame As RenderFrame)
+  overload: Beryl.Rendering.Pipelines.RenderPass.Execute*
+  nameWithType.vb: RenderPass.Execute(RenderFrame)
+  fullName.vb: Beryl.Rendering.Pipelines.RenderPass.Execute(Beryl.Rendering.RenderFrame)
+  name.vb: Execute(RenderFrame)
+- uid: Beryl.Rendering.Pipelines.RenderPass.Render(Beryl.Rendering.RenderFrame@,Beryl.RHI.ICommandBuffer)
+  commentId: M:Beryl.Rendering.Pipelines.RenderPass.Render(Beryl.Rendering.RenderFrame@,Beryl.RHI.ICommandBuffer)
+  id: Render(Beryl.Rendering.RenderFrame@,Beryl.RHI.ICommandBuffer)
+  parent: Beryl.Rendering.Pipelines.RenderPass
+  langs:
+  - csharp
+  - vb
+  name: Render(in RenderFrame, ICommandBuffer)
+  nameWithType: RenderPass.Render(in RenderFrame, ICommandBuffer)
+  fullName: Beryl.Rendering.Pipelines.RenderPass.Render(in Beryl.Rendering.RenderFrame, Beryl.RHI.ICommandBuffer)
+  type: Method
+  source:
+    id: Render
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Pipelines\RenderPass.cs
+    startLine: 33
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Pipelines
+  summary: Performs rendering operations.
+  remarks: This method is called by <xref href="Beryl.Rendering.Pipelines.RenderPass.Execute(Beryl.Rendering.RenderFrame%40)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public abstract void Render(in RenderFrame frame, ICommandBuffer buffer)
+    parameters:
+    - id: frame
+      type: Beryl.Rendering.RenderFrame
+    - id: buffer
+      type: Beryl.RHI.ICommandBuffer
+    content.vb: Public MustOverride Sub Render(frame As RenderFrame, buffer As ICommandBuffer)
+  overload: Beryl.Rendering.Pipelines.RenderPass.Render*
+  nameWithType.vb: RenderPass.Render(RenderFrame, ICommandBuffer)
+  fullName.vb: Beryl.Rendering.Pipelines.RenderPass.Render(Beryl.Rendering.RenderFrame, Beryl.RHI.ICommandBuffer)
+  name.vb: Render(RenderFrame, ICommandBuffer)
+- uid: Beryl.Rendering.Pipelines.RenderPass.TargetBuffer
+  commentId: P:Beryl.Rendering.Pipelines.RenderPass.TargetBuffer
+  id: TargetBuffer
+  parent: Beryl.Rendering.Pipelines.RenderPass
+  langs:
+  - csharp
+  - vb
+  name: TargetBuffer
+  nameWithType: RenderPass.TargetBuffer
+  fullName: Beryl.Rendering.Pipelines.RenderPass.TargetBuffer
+  type: Property
+  source:
+    id: TargetBuffer
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Pipelines\RenderPass.cs
+    startLine: 36
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Pipelines
+  summary: The target <xref href="Beryl.RHI.Resources.IFramebuffer" data-throw-if-not-resolved="false"></xref> this pass is rendering to.
+  example: []
+  syntax:
+    content: protected virtual IFramebuffer TargetBuffer { get; }
+    parameters: []
+    return:
+      type: Beryl.RHI.Resources.IFramebuffer
+    content.vb: Protected Overridable ReadOnly Property TargetBuffer As IFramebuffer
+  overload: Beryl.Rendering.Pipelines.RenderPass.TargetBuffer*
+references:
+- uid: Beryl.Rendering.Pipelines
+  commentId: N:Beryl.Rendering.Pipelines
+  href: Beryl.html
+  name: Beryl.Rendering.Pipelines
+  nameWithType: Beryl.Rendering.Pipelines
+  fullName: Beryl.Rendering.Pipelines
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Pipelines
+    name: Pipelines
+    href: Beryl.Rendering.Pipelines.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Pipelines
+    name: Pipelines
+    href: Beryl.Rendering.Pipelines.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Rendering.Pipelines.RenderPipeline
+  commentId: T:Beryl.Rendering.Pipelines.RenderPipeline
+  parent: Beryl.Rendering.Pipelines
+  href: Beryl.Rendering.Pipelines.RenderPipeline.html
+  name: RenderPipeline
+  nameWithType: RenderPipeline
+  fullName: Beryl.Rendering.Pipelines.RenderPipeline
+- uid: Beryl.Rendering.Pipelines.RenderPass
+  commentId: T:Beryl.Rendering.Pipelines.RenderPass
+  parent: Beryl.Rendering.Pipelines
+  href: Beryl.Rendering.Pipelines.RenderPass.html
+  name: RenderPass
+  nameWithType: RenderPass
+  fullName: Beryl.Rendering.Pipelines.RenderPass
+- uid: Beryl.Rendering.Pipelines.RenderPass.Pipeline*
+  commentId: Overload:Beryl.Rendering.Pipelines.RenderPass.Pipeline
+  href: Beryl.Rendering.Pipelines.RenderPass.html#Beryl_Rendering_Pipelines_RenderPass_Pipeline
+  name: Pipeline
+  nameWithType: RenderPass.Pipeline
+  fullName: Beryl.Rendering.Pipelines.RenderPass.Pipeline
+- uid: Beryl.Rendering.Pipelines.RenderPass.Execute*
+  commentId: Overload:Beryl.Rendering.Pipelines.RenderPass.Execute
+  href: Beryl.Rendering.Pipelines.RenderPass.html#Beryl_Rendering_Pipelines_RenderPass_Execute_Beryl_Rendering_RenderFrame__
+  name: Execute
+  nameWithType: RenderPass.Execute
+  fullName: Beryl.Rendering.Pipelines.RenderPass.Execute
+- uid: Beryl.Rendering.RenderFrame
+  commentId: T:Beryl.Rendering.RenderFrame
+  parent: Beryl.Rendering
+  href: Beryl.Rendering.RenderFrame.html
+  name: RenderFrame
+  nameWithType: RenderFrame
+  fullName: Beryl.Rendering.RenderFrame
+- uid: Beryl.Rendering
+  commentId: N:Beryl.Rendering
+  href: Beryl.html
+  name: Beryl.Rendering
+  nameWithType: Beryl.Rendering
+  fullName: Beryl.Rendering
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+- uid: Beryl.Rendering.Pipelines.RenderPass.Execute(Beryl.Rendering.RenderFrame@)
+  commentId: M:Beryl.Rendering.Pipelines.RenderPass.Execute(Beryl.Rendering.RenderFrame@)
+  parent: Beryl.Rendering.Pipelines.RenderPass
+  href: Beryl.Rendering.Pipelines.RenderPass.html#Beryl_Rendering_Pipelines_RenderPass_Execute_Beryl_Rendering_RenderFrame__
+  name: Execute(in RenderFrame)
+  nameWithType: RenderPass.Execute(in RenderFrame)
+  fullName: Beryl.Rendering.Pipelines.RenderPass.Execute(in Beryl.Rendering.RenderFrame)
+  nameWithType.vb: RenderPass.Execute(RenderFrame)
+  fullName.vb: Beryl.Rendering.Pipelines.RenderPass.Execute(Beryl.Rendering.RenderFrame)
+  name.vb: Execute(RenderFrame)
+  spec.csharp:
+  - uid: Beryl.Rendering.Pipelines.RenderPass.Execute(Beryl.Rendering.RenderFrame@)
+    name: Execute
+    href: Beryl.Rendering.Pipelines.RenderPass.html#Beryl_Rendering_Pipelines_RenderPass_Execute_Beryl_Rendering_RenderFrame__
+  - name: (
+  - name: in
+  - name: " "
+  - uid: Beryl.Rendering.RenderFrame
+    name: RenderFrame
+    href: Beryl.Rendering.RenderFrame.html
+  - name: )
+  spec.vb:
+  - uid: Beryl.Rendering.Pipelines.RenderPass.Execute(Beryl.Rendering.RenderFrame@)
+    name: Execute
+    href: Beryl.Rendering.Pipelines.RenderPass.html#Beryl_Rendering_Pipelines_RenderPass_Execute_Beryl_Rendering_RenderFrame__
+  - name: (
+  - uid: Beryl.Rendering.RenderFrame
+    name: RenderFrame
+    href: Beryl.Rendering.RenderFrame.html
+  - name: )
+- uid: Beryl.Rendering.Pipelines.RenderPass.Render*
+  commentId: Overload:Beryl.Rendering.Pipelines.RenderPass.Render
+  href: Beryl.Rendering.Pipelines.RenderPass.html#Beryl_Rendering_Pipelines_RenderPass_Render_Beryl_Rendering_RenderFrame__Beryl_RHI_ICommandBuffer_
+  name: Render
+  nameWithType: RenderPass.Render
+  fullName: Beryl.Rendering.Pipelines.RenderPass.Render
+- uid: Beryl.RHI.ICommandBuffer
+  commentId: T:Beryl.RHI.ICommandBuffer
+  parent: Beryl.RHI
+  href: Beryl.RHI.ICommandBuffer.html
+  name: ICommandBuffer
+  nameWithType: ICommandBuffer
+  fullName: Beryl.RHI.ICommandBuffer
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+- uid: Beryl.RHI.Resources.IFramebuffer
+  commentId: T:Beryl.RHI.Resources.IFramebuffer
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IFramebuffer.html
+  name: IFramebuffer
+  nameWithType: IFramebuffer
+  fullName: Beryl.RHI.Resources.IFramebuffer
+- uid: Beryl.Rendering.Pipelines.RenderPass.TargetBuffer*
+  commentId: Overload:Beryl.Rendering.Pipelines.RenderPass.TargetBuffer
+  href: Beryl.Rendering.Pipelines.RenderPass.html#Beryl_Rendering_Pipelines_RenderPass_TargetBuffer
+  name: TargetBuffer
+  nameWithType: RenderPass.TargetBuffer
+  fullName: Beryl.Rendering.Pipelines.RenderPass.TargetBuffer
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html

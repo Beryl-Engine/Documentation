@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Entities
+  commentId: N:Beryl.Rendering.Entities
+  id: Entities
+  parent: Beryl.Rendering
+  children:
+  - Beryl.Rendering.Entities.DebugEntity
+  - Beryl.Rendering.Entities.FlyController
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Rendering.Entities
+  nameWithType: Beryl.Rendering.Entities
+  fullName: Beryl.Rendering.Entities
+  type: Namespace
+  assemblies:
+  - Beryl.Rendering
+references:
+- uid: Beryl.Rendering.Entities.DebugEntity
+  commentId: T:Beryl.Rendering.Entities.DebugEntity
+  href: Beryl.Rendering.Entities.DebugEntity.html
+  name: DebugEntity
+  nameWithType: DebugEntity
+  fullName: Beryl.Rendering.Entities.DebugEntity
+- uid: Beryl.Rendering.Entities.FlyController
+  commentId: T:Beryl.Rendering.Entities.FlyController
+  href: Beryl.Rendering.Entities.FlyController.html
+  name: FlyController
+  nameWithType: FlyController
+  fullName: Beryl.Rendering.Entities.FlyController

@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  id: RHI
+  parent: Beryl
+  children:
+  - Beryl.RHI.CullingMode
+  - Beryl.RHI.DeviceFeatures
+  - Beryl.RHI.GraphicsDeviceFactory
+  - Beryl.RHI.ICommandBuffer
+  - Beryl.RHI.IGraphicsDevice
+  - Beryl.RHI.IResourceFactory
+  - Beryl.RHI.RendererBackend
+  - Beryl.RHI.Resources
+  - Beryl.RHI.VulkanInfo
+  langs:
+  - csharp
+  - vb
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  type: Namespace
+  assemblies:
+  - Beryl.RHI
+references:
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.RHI.CullingMode
+  commentId: T:Beryl.RHI.CullingMode
+  parent: Beryl.RHI
+  href: Beryl.RHI.CullingMode.html
+  name: CullingMode
+  nameWithType: CullingMode
+  fullName: Beryl.RHI.CullingMode
+- uid: Beryl.RHI.DeviceFeatures
+  commentId: T:Beryl.RHI.DeviceFeatures
+  parent: Beryl.RHI
+  href: Beryl.RHI.DeviceFeatures.html
+  name: DeviceFeatures
+  nameWithType: DeviceFeatures
+  fullName: Beryl.RHI.DeviceFeatures
+- uid: Beryl.RHI.GraphicsDeviceFactory
+  commentId: T:Beryl.RHI.GraphicsDeviceFactory
+  href: Beryl.RHI.GraphicsDeviceFactory.html
+  name: GraphicsDeviceFactory
+  nameWithType: GraphicsDeviceFactory
+  fullName: Beryl.RHI.GraphicsDeviceFactory
+- uid: Beryl.RHI.ICommandBuffer
+  commentId: T:Beryl.RHI.ICommandBuffer
+  parent: Beryl.RHI
+  href: Beryl.RHI.ICommandBuffer.html
+  name: ICommandBuffer
+  nameWithType: ICommandBuffer
+  fullName: Beryl.RHI.ICommandBuffer
+- uid: Beryl.RHI.IGraphicsDevice
+  commentId: T:Beryl.RHI.IGraphicsDevice
+  parent: Beryl.RHI
+  href: Beryl.RHI.IGraphicsDevice.html
+  name: IGraphicsDevice
+  nameWithType: IGraphicsDevice
+  fullName: Beryl.RHI.IGraphicsDevice
+- uid: Beryl.RHI.IResourceFactory
+  commentId: T:Beryl.RHI.IResourceFactory
+  parent: Beryl.RHI
+  href: Beryl.RHI.IResourceFactory.html
+  name: IResourceFactory
+  nameWithType: IResourceFactory
+  fullName: Beryl.RHI.IResourceFactory
+- uid: Beryl.RHI.RendererBackend
+  commentId: T:Beryl.RHI.RendererBackend
+  parent: Beryl.RHI
+  href: Beryl.RHI.RendererBackend.html
+  name: RendererBackend
+  nameWithType: RendererBackend
+  fullName: Beryl.RHI.RendererBackend
+- uid: Beryl.RHI.VulkanInfo
+  commentId: T:Beryl.RHI.VulkanInfo
+  href: Beryl.RHI.VulkanInfo.html
+  name: VulkanInfo
+  nameWithType: VulkanInfo
+  fullName: Beryl.RHI.VulkanInfo
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html

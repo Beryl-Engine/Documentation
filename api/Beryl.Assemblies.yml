@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Assemblies
+  commentId: N:Beryl.Assemblies
+  id: Assemblies
+  parent: Beryl
+  children:
+  - Beryl.Assemblies.AssemblyModule
+  - Beryl.Assemblies.BerylAssembly
+  - Beryl.Assemblies.OnAssemblyLoadAttribute
+  - Beryl.Assemblies.Reflection
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Assemblies
+  nameWithType: Beryl.Assemblies
+  fullName: Beryl.Assemblies
+  type: Namespace
+  assemblies:
+  - Beryl.Assemblies
+references:
+- uid: Beryl.Assemblies.AssemblyModule
+  commentId: T:Beryl.Assemblies.AssemblyModule
+  href: Beryl.Assemblies.AssemblyModule.html
+  name: AssemblyModule
+  nameWithType: AssemblyModule
+  fullName: Beryl.Assemblies.AssemblyModule
+- uid: Beryl.Assemblies.BerylAssembly
+  commentId: T:Beryl.Assemblies.BerylAssembly
+  parent: Beryl.Assemblies
+  href: Beryl.Assemblies.BerylAssembly.html
+  name: BerylAssembly
+  nameWithType: BerylAssembly
+  fullName: Beryl.Assemblies.BerylAssembly
+- uid: Beryl.Assemblies.OnAssemblyLoadAttribute
+  commentId: T:Beryl.Assemblies.OnAssemblyLoadAttribute
+  href: Beryl.Assemblies.OnAssemblyLoadAttribute.html
+  name: OnAssemblyLoadAttribute
+  nameWithType: OnAssemblyLoadAttribute
+  fullName: Beryl.Assemblies.OnAssemblyLoadAttribute
+- uid: Beryl.Assemblies.Reflection
+  commentId: T:Beryl.Assemblies.Reflection
+  href: Beryl.Assemblies.Reflection.html
+  name: Reflection
+  nameWithType: Reflection
+  fullName: Beryl.Assemblies.Reflection
+- uid: Beryl.Assemblies
+  commentId: N:Beryl.Assemblies
+  href: Beryl.html
+  name: Beryl.Assemblies
+  nameWithType: Beryl.Assemblies
+  fullName: Beryl.Assemblies
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Assemblies
+    name: Assemblies
+    href: Beryl.Assemblies.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Assemblies
+    name: Assemblies
+    href: Beryl.Assemblies.html

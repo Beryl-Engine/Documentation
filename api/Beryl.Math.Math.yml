@@ -1,0 +1,899 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Math.Math
+  commentId: T:Beryl.Math.Math
+  id: Math
+  parent: Beryl.Math
+  children:
+  - Beryl.Math.Math.ATan2``1(``0,``0)
+  - Beryl.Math.Math.ATan``1(``0)
+  - Beryl.Math.Math.Abs``1(``0)
+  - Beryl.Math.Math.Asin``1(``0)
+  - Beryl.Math.Math.Clamp``1(``0,``0,``0)
+  - Beryl.Math.Math.CopySign``1(``0,``0)
+  - Beryl.Math.Math.Cos``1(``0)
+  - Beryl.Math.Math.ISqrt``1(``0)
+  - Beryl.Math.Math.Max``1(``0,``0)
+  - Beryl.Math.Math.Min``1(``0,``0)
+  - Beryl.Math.Math.PI
+  - Beryl.Math.Math.Sin``1(``0)
+  - Beryl.Math.Math.Sqrt``1(``0)
+  - Beryl.Math.Math.Tan``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: Math
+  nameWithType: Math
+  fullName: Beryl.Math.Math
+  type: Class
+  source:
+    id: Math
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Provides common math utility.
+  remarks: This is a generic math implementation.
+  example: []
+  syntax:
+    content: public static class Math
+    content.vb: Public Module Math
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Math.Math.PI
+  commentId: P:Beryl.Math.Math.PI
+  id: PI
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: PI
+  nameWithType: Math.PI
+  fullName: Beryl.Math.Math.PI
+  type: Property
+  source:
+    id: PI
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: The ratio of a circle's circumference to its diameter.
+  example: []
+  syntax:
+    content: public static float PI { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Property PI As Single
+  overload: Beryl.Math.Math.PI*
+- uid: Beryl.Math.Math.Min``1(``0,``0)
+  commentId: M:Beryl.Math.Math.Min``1(``0,``0)
+  id: Min``1(``0,``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: Min<T>(T, T)
+  nameWithType: Math.Min<T>(T, T)
+  fullName: Beryl.Math.Math.Min<T>(T, T)
+  type: Method
+  source:
+    id: Min
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 20
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the smaller of two values.
+  example: []
+  syntax:
+    content: 'public static T Min<T>(T a, T b) where T : IComparisonOperators<T, T, bool>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Min(Of T As IComparisonOperators(Of T, T, Boolean))(a As T, b As T) As T
+  overload: Beryl.Math.Math.Min*
+  nameWithType.vb: Math.Min(Of T)(T, T)
+  fullName.vb: Beryl.Math.Math.Min(Of T)(T, T)
+  name.vb: Min(Of T)(T, T)
+- uid: Beryl.Math.Math.Max``1(``0,``0)
+  commentId: M:Beryl.Math.Math.Max``1(``0,``0)
+  id: Max``1(``0,``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: Max<T>(T, T)
+  nameWithType: Math.Max<T>(T, T)
+  fullName: Beryl.Math.Math.Max<T>(T, T)
+  type: Method
+  source:
+    id: Max
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 24
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the greater of two values.
+  example: []
+  syntax:
+    content: 'public static T Max<T>(T a, T b) where T : IComparisonOperators<T, T, bool>'
+    parameters:
+    - id: a
+      type: '{T}'
+    - id: b
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Max(Of T As IComparisonOperators(Of T, T, Boolean))(a As T, b As T) As T
+  overload: Beryl.Math.Math.Max*
+  nameWithType.vb: Math.Max(Of T)(T, T)
+  fullName.vb: Beryl.Math.Math.Max(Of T)(T, T)
+  name.vb: Max(Of T)(T, T)
+- uid: Beryl.Math.Math.Abs``1(``0)
+  commentId: M:Beryl.Math.Math.Abs``1(``0)
+  id: Abs``1(``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: Abs<T>(T)
+  nameWithType: Math.Abs<T>(T)
+  fullName: Beryl.Math.Math.Abs<T>(T)
+  type: Method
+  source:
+    id: Abs
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 28
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the absolute value of the specified value.
+  example: []
+  syntax:
+    content: 'public static T Abs<T>(T value) where T : INumber<T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Abs(Of T As INumber(Of T))(value As T) As T
+  overload: Beryl.Math.Math.Abs*
+  nameWithType.vb: Math.Abs(Of T)(T)
+  fullName.vb: Beryl.Math.Math.Abs(Of T)(T)
+  name.vb: Abs(Of T)(T)
+- uid: Beryl.Math.Math.Clamp``1(``0,``0,``0)
+  commentId: M:Beryl.Math.Math.Clamp``1(``0,``0,``0)
+  id: Clamp``1(``0,``0,``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: Clamp<T>(T, T, T)
+  nameWithType: Math.Clamp<T>(T, T, T)
+  fullName: Beryl.Math.Math.Clamp<T>(T, T, T)
+  type: Method
+  source:
+    id: Clamp
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 32
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Restricts a value to the inclusive range defined by the minimum and maximum bounds.
+  example: []
+  syntax:
+    content: 'public static T Clamp<T>(T value, T min, T max) where T : IComparisonOperators<T, T, bool>'
+    parameters:
+    - id: value
+      type: '{T}'
+    - id: min
+      type: '{T}'
+    - id: max
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Clamp(Of T As IComparisonOperators(Of T, T, Boolean))(value As T, min As T, max As T) As T
+  overload: Beryl.Math.Math.Clamp*
+  nameWithType.vb: Math.Clamp(Of T)(T, T, T)
+  fullName.vb: Beryl.Math.Math.Clamp(Of T)(T, T, T)
+  name.vb: Clamp(Of T)(T, T, T)
+- uid: Beryl.Math.Math.Sin``1(``0)
+  commentId: M:Beryl.Math.Math.Sin``1(``0)
+  id: Sin``1(``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: Sin<T>(T)
+  nameWithType: Math.Sin<T>(T)
+  fullName: Beryl.Math.Math.Sin<T>(T)
+  type: Method
+  source:
+    id: Sin
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 36
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the sine of the specified angle in radians.
+  example: []
+  syntax:
+    content: 'public static T Sin<T>(T angle) where T : ITrigonometricFunctions<T>'
+    parameters:
+    - id: angle
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Sin(Of T As ITrigonometricFunctions(Of T))(angle As T) As T
+  overload: Beryl.Math.Math.Sin*
+  nameWithType.vb: Math.Sin(Of T)(T)
+  fullName.vb: Beryl.Math.Math.Sin(Of T)(T)
+  name.vb: Sin(Of T)(T)
+- uid: Beryl.Math.Math.Cos``1(``0)
+  commentId: M:Beryl.Math.Math.Cos``1(``0)
+  id: Cos``1(``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: Cos<T>(T)
+  nameWithType: Math.Cos<T>(T)
+  fullName: Beryl.Math.Math.Cos<T>(T)
+  type: Method
+  source:
+    id: Cos
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 40
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the cosine of the specified angle in radians.
+  example: []
+  syntax:
+    content: 'public static T Cos<T>(T angle) where T : ITrigonometricFunctions<T>'
+    parameters:
+    - id: angle
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Cos(Of T As ITrigonometricFunctions(Of T))(angle As T) As T
+  overload: Beryl.Math.Math.Cos*
+  nameWithType.vb: Math.Cos(Of T)(T)
+  fullName.vb: Beryl.Math.Math.Cos(Of T)(T)
+  name.vb: Cos(Of T)(T)
+- uid: Beryl.Math.Math.Tan``1(``0)
+  commentId: M:Beryl.Math.Math.Tan``1(``0)
+  id: Tan``1(``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: Tan<T>(T)
+  nameWithType: Math.Tan<T>(T)
+  fullName: Beryl.Math.Math.Tan<T>(T)
+  type: Method
+  source:
+    id: Tan
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 44
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the tangent of the specified angle in radians.
+  example: []
+  syntax:
+    content: 'public static T Tan<T>(T angle) where T : ITrigonometricFunctions<T>'
+    parameters:
+    - id: angle
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Tan(Of T As ITrigonometricFunctions(Of T))(angle As T) As T
+  overload: Beryl.Math.Math.Tan*
+  nameWithType.vb: Math.Tan(Of T)(T)
+  fullName.vb: Beryl.Math.Math.Tan(Of T)(T)
+  name.vb: Tan(Of T)(T)
+- uid: Beryl.Math.Math.ATan``1(``0)
+  commentId: M:Beryl.Math.Math.ATan``1(``0)
+  id: ATan``1(``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: ATan<T>(T)
+  nameWithType: Math.ATan<T>(T)
+  fullName: Beryl.Math.Math.ATan<T>(T)
+  type: Method
+  source:
+    id: ATan
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 48
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the inverse tangent of the specified value in radians.
+  example: []
+  syntax:
+    content: 'public static T ATan<T>(T value) where T : ITrigonometricFunctions<T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function ATan(Of T As ITrigonometricFunctions(Of T))(value As T) As T
+  overload: Beryl.Math.Math.ATan*
+  nameWithType.vb: Math.ATan(Of T)(T)
+  fullName.vb: Beryl.Math.Math.ATan(Of T)(T)
+  name.vb: ATan(Of T)(T)
+- uid: Beryl.Math.Math.ATan2``1(``0,``0)
+  commentId: M:Beryl.Math.Math.ATan2``1(``0,``0)
+  id: ATan2``1(``0,``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: ATan2<T>(T, T)
+  nameWithType: Math.ATan2<T>(T, T)
+  fullName: Beryl.Math.Math.ATan2<T>(T, T)
+  type: Method
+  source:
+    id: ATan2
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 53
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the angle in radians between the positive x-axis and the specified point.
+  remarks: The result is determined using the signs of both inputs to determine the correct quadrant.
+  example: []
+  syntax:
+    content: 'public static T ATan2<T>(T y, T x) where T : IFloatingPointIeee754<T>'
+    parameters:
+    - id: y
+      type: '{T}'
+    - id: x
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function ATan2(Of T As IFloatingPointIeee754(Of T))(y As T, x As T) As T
+  overload: Beryl.Math.Math.ATan2*
+  nameWithType.vb: Math.ATan2(Of T)(T, T)
+  fullName.vb: Beryl.Math.Math.ATan2(Of T)(T, T)
+  name.vb: ATan2(Of T)(T, T)
+- uid: Beryl.Math.Math.Sqrt``1(``0)
+  commentId: M:Beryl.Math.Math.Sqrt``1(``0)
+  id: Sqrt``1(``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: Sqrt<T>(T)
+  nameWithType: Math.Sqrt<T>(T)
+  fullName: Beryl.Math.Math.Sqrt<T>(T)
+  type: Method
+  source:
+    id: Sqrt
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 57
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the square root of the specified value.
+  example: []
+  syntax:
+    content: 'public static T Sqrt<T>(T value) where T : IRootFunctions<T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Sqrt(Of T As IRootFunctions(Of T))(value As T) As T
+  overload: Beryl.Math.Math.Sqrt*
+  nameWithType.vb: Math.Sqrt(Of T)(T)
+  fullName.vb: Beryl.Math.Math.Sqrt(Of T)(T)
+  name.vb: Sqrt(Of T)(T)
+- uid: Beryl.Math.Math.ISqrt``1(``0)
+  commentId: M:Beryl.Math.Math.ISqrt``1(``0)
+  id: ISqrt``1(``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: ISqrt<T>(T)
+  nameWithType: Math.ISqrt<T>(T)
+  fullName: Beryl.Math.Math.ISqrt<T>(T)
+  type: Method
+  source:
+    id: ISqrt
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 62
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the integer square root of the specified value.
+  remarks: The result is rounded down to the nearest integer.
+  example: []
+  syntax:
+    content: 'public static T ISqrt<T>(T value) where T : IBinaryInteger<T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function ISqrt(Of T As IBinaryInteger(Of T))(value As T) As T
+  overload: Beryl.Math.Math.ISqrt*
+  nameWithType.vb: Math.ISqrt(Of T)(T)
+  fullName.vb: Beryl.Math.Math.ISqrt(Of T)(T)
+  name.vb: ISqrt(Of T)(T)
+- uid: Beryl.Math.Math.Asin``1(``0)
+  commentId: M:Beryl.Math.Math.Asin``1(``0)
+  id: Asin``1(``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: Asin<T>(T)
+  nameWithType: Math.Asin<T>(T)
+  fullName: Beryl.Math.Math.Asin<T>(T)
+  type: Method
+  source:
+    id: Asin
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 82
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the inverse sine of the specified value in radians.
+  example: []
+  syntax:
+    content: 'public static T Asin<T>(T value) where T : ITrigonometricFunctions<T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Asin(Of T As ITrigonometricFunctions(Of T))(value As T) As T
+  overload: Beryl.Math.Math.Asin*
+  nameWithType.vb: Math.Asin(Of T)(T)
+  fullName.vb: Beryl.Math.Math.Asin(Of T)(T)
+  name.vb: Asin(Of T)(T)
+- uid: Beryl.Math.Math.CopySign``1(``0,``0)
+  commentId: M:Beryl.Math.Math.CopySign``1(``0,``0)
+  id: CopySign``1(``0,``0)
+  parent: Beryl.Math.Math
+  langs:
+  - csharp
+  - vb
+  name: CopySign<T>(T, T)
+  nameWithType: Math.CopySign<T>(T, T)
+  fullName: Beryl.Math.Math.CopySign<T>(T, T)
+  type: Method
+  source:
+    id: CopySign
+    path: E:\Beryl\Documentation\src\Beryl.Math\Math.cs
+    startLine: 86
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns a value with the magnitude of one value and the sign of another.
+  example: []
+  syntax:
+    content: 'public static T CopySign<T>(T value, T sign) where T : INumber<T>'
+    parameters:
+    - id: value
+      type: '{T}'
+    - id: sign
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function CopySign(Of T As INumber(Of T))(value As T, sign As T) As T
+  overload: Beryl.Math.Math.CopySign*
+  nameWithType.vb: Math.CopySign(Of T)(T, T)
+  fullName.vb: Beryl.Math.Math.CopySign(Of T)(T, T)
+  name.vb: CopySign(Of T)(T, T)
+references:
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Math.Math.PI*
+  commentId: Overload:Beryl.Math.Math.PI
+  href: Beryl.Math.Math.html#Beryl_Math_Math_PI
+  name: PI
+  nameWithType: Math.PI
+  fullName: Beryl.Math.Math.PI
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Beryl.Math.Math.Min*
+  commentId: Overload:Beryl.Math.Math.Min
+  href: Beryl.Math.Math.html#Beryl_Math_Math_Min__1___0___0_
+  name: Min
+  nameWithType: Math.Min
+  fullName: Beryl.Math.Math.Min
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Beryl.Math.Math.Max*
+  commentId: Overload:Beryl.Math.Math.Max
+  href: Beryl.Math.Math.html#Beryl_Math_Math_Max__1___0___0_
+  name: Max
+  nameWithType: Math.Max
+  fullName: Beryl.Math.Math.Max
+- uid: Beryl.Math.Math.Abs*
+  commentId: Overload:Beryl.Math.Math.Abs
+  href: Beryl.Math.Math.html#Beryl_Math_Math_Abs__1___0_
+  name: Abs
+  nameWithType: Math.Abs
+  fullName: Beryl.Math.Math.Abs
+- uid: Beryl.Math.Math.Clamp*
+  commentId: Overload:Beryl.Math.Math.Clamp
+  href: Beryl.Math.Math.html#Beryl_Math_Math_Clamp__1___0___0___0_
+  name: Clamp
+  nameWithType: Math.Clamp
+  fullName: Beryl.Math.Math.Clamp
+- uid: Beryl.Math.Math.Sin*
+  commentId: Overload:Beryl.Math.Math.Sin
+  href: Beryl.Math.Math.html#Beryl_Math_Math_Sin__1___0_
+  name: Sin
+  nameWithType: Math.Sin
+  fullName: Beryl.Math.Math.Sin
+- uid: Beryl.Math.Math.Cos*
+  commentId: Overload:Beryl.Math.Math.Cos
+  href: Beryl.Math.Math.html#Beryl_Math_Math_Cos__1___0_
+  name: Cos
+  nameWithType: Math.Cos
+  fullName: Beryl.Math.Math.Cos
+- uid: Beryl.Math.Math.Tan*
+  commentId: Overload:Beryl.Math.Math.Tan
+  href: Beryl.Math.Math.html#Beryl_Math_Math_Tan__1___0_
+  name: Tan
+  nameWithType: Math.Tan
+  fullName: Beryl.Math.Math.Tan
+- uid: Beryl.Math.Math.ATan*
+  commentId: Overload:Beryl.Math.Math.ATan
+  href: Beryl.Math.Math.html#Beryl_Math_Math_ATan__1___0_
+  name: ATan
+  nameWithType: Math.ATan
+  fullName: Beryl.Math.Math.ATan
+- uid: Beryl.Math.Math.ATan2*
+  commentId: Overload:Beryl.Math.Math.ATan2
+  href: Beryl.Math.Math.html#Beryl_Math_Math_ATan2__1___0___0_
+  name: ATan2
+  nameWithType: Math.ATan2
+  fullName: Beryl.Math.Math.ATan2
+- uid: Beryl.Math.Math.Sqrt*
+  commentId: Overload:Beryl.Math.Math.Sqrt
+  href: Beryl.Math.Math.html#Beryl_Math_Math_Sqrt__1___0_
+  name: Sqrt
+  nameWithType: Math.Sqrt
+  fullName: Beryl.Math.Math.Sqrt
+- uid: Beryl.Math.Math.ISqrt*
+  commentId: Overload:Beryl.Math.Math.ISqrt
+  href: Beryl.Math.Math.html#Beryl_Math_Math_ISqrt__1___0_
+  name: ISqrt
+  nameWithType: Math.ISqrt
+  fullName: Beryl.Math.Math.ISqrt
+- uid: Beryl.Math.Math.Asin*
+  commentId: Overload:Beryl.Math.Math.Asin
+  href: Beryl.Math.Math.html#Beryl_Math_Math_Asin__1___0_
+  name: Asin
+  nameWithType: Math.Asin
+  fullName: Beryl.Math.Math.Asin
+- uid: Beryl.Math.Math.CopySign*
+  commentId: Overload:Beryl.Math.Math.CopySign
+  href: Beryl.Math.Math.html#Beryl_Math_Math_CopySign__1___0___0_
+  name: CopySign
+  nameWithType: Math.CopySign
+  fullName: Beryl.Math.Math.CopySign

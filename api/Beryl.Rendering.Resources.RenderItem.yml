@@ -1,0 +1,620 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Resources.RenderItem
+  commentId: T:Beryl.Rendering.Resources.RenderItem
+  id: RenderItem
+  parent: Beryl.Rendering.Resources
+  children:
+  - Beryl.Rendering.Resources.RenderItem.#ctor(Beryl.RHI.Resources.IBuffer,Beryl.RHI.Resources.IBuffer,System.UInt32,Beryl.Rendering.Resources.FrameCountedResource{Beryl.RHI.Resources.IPipeline})
+  - Beryl.Rendering.Resources.RenderItem.Dispose
+  - Beryl.Rendering.Resources.RenderItem.IndexBuffer
+  - Beryl.Rendering.Resources.RenderItem.IndexCount
+  - Beryl.Rendering.Resources.RenderItem.Pipeline
+  - Beryl.Rendering.Resources.RenderItem.VertexBuffer
+  langs:
+  - csharp
+  - vb
+  name: RenderItem
+  nameWithType: RenderItem
+  fullName: Beryl.Rendering.Resources.RenderItem
+  type: Class
+  source:
+    id: RenderItem
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\RenderItem.cs
+    startLine: 10
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  summary: Low-Level representation of a rendered object.
+  example: []
+  syntax:
+    content: 'public sealed class RenderItem : IDisposable'
+    content.vb: Public NotInheritable Class RenderItem Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Rendering.Resources.RenderItem.VertexBuffer
+  commentId: P:Beryl.Rendering.Resources.RenderItem.VertexBuffer
+  id: VertexBuffer
+  parent: Beryl.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: VertexBuffer
+  nameWithType: RenderItem.VertexBuffer
+  fullName: Beryl.Rendering.Resources.RenderItem.VertexBuffer
+  type: Property
+  source:
+    id: VertexBuffer
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\RenderItem.cs
+    startLine: 12
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  syntax:
+    content: public IBuffer VertexBuffer { get; }
+    parameters: []
+    return:
+      type: Beryl.RHI.Resources.IBuffer
+    content.vb: Public ReadOnly Property VertexBuffer As IBuffer
+  overload: Beryl.Rendering.Resources.RenderItem.VertexBuffer*
+- uid: Beryl.Rendering.Resources.RenderItem.IndexBuffer
+  commentId: P:Beryl.Rendering.Resources.RenderItem.IndexBuffer
+  id: IndexBuffer
+  parent: Beryl.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: IndexBuffer
+  nameWithType: RenderItem.IndexBuffer
+  fullName: Beryl.Rendering.Resources.RenderItem.IndexBuffer
+  type: Property
+  source:
+    id: IndexBuffer
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\RenderItem.cs
+    startLine: 13
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  syntax:
+    content: public IBuffer IndexBuffer { get; }
+    parameters: []
+    return:
+      type: Beryl.RHI.Resources.IBuffer
+    content.vb: Public ReadOnly Property IndexBuffer As IBuffer
+  overload: Beryl.Rendering.Resources.RenderItem.IndexBuffer*
+- uid: Beryl.Rendering.Resources.RenderItem.IndexCount
+  commentId: P:Beryl.Rendering.Resources.RenderItem.IndexCount
+  id: IndexCount
+  parent: Beryl.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: IndexCount
+  nameWithType: RenderItem.IndexCount
+  fullName: Beryl.Rendering.Resources.RenderItem.IndexCount
+  type: Property
+  source:
+    id: IndexCount
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\RenderItem.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  syntax:
+    content: public uint IndexCount { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property IndexCount As UInteger
+  overload: Beryl.Rendering.Resources.RenderItem.IndexCount*
+- uid: Beryl.Rendering.Resources.RenderItem.Pipeline
+  commentId: P:Beryl.Rendering.Resources.RenderItem.Pipeline
+  id: Pipeline
+  parent: Beryl.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: Pipeline
+  nameWithType: RenderItem.Pipeline
+  fullName: Beryl.Rendering.Resources.RenderItem.Pipeline
+  type: Property
+  source:
+    id: Pipeline
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\RenderItem.cs
+    startLine: 15
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  syntax:
+    content: public FrameCountedResource<IPipeline> Pipeline { get; }
+    parameters: []
+    return:
+      type: Beryl.Rendering.Resources.FrameCountedResource{Beryl.RHI.Resources.IPipeline}
+    content.vb: Public ReadOnly Property Pipeline As FrameCountedResource(Of IPipeline)
+  overload: Beryl.Rendering.Resources.RenderItem.Pipeline*
+- uid: Beryl.Rendering.Resources.RenderItem.#ctor(Beryl.RHI.Resources.IBuffer,Beryl.RHI.Resources.IBuffer,System.UInt32,Beryl.Rendering.Resources.FrameCountedResource{Beryl.RHI.Resources.IPipeline})
+  commentId: M:Beryl.Rendering.Resources.RenderItem.#ctor(Beryl.RHI.Resources.IBuffer,Beryl.RHI.Resources.IBuffer,System.UInt32,Beryl.Rendering.Resources.FrameCountedResource{Beryl.RHI.Resources.IPipeline})
+  id: '#ctor(Beryl.RHI.Resources.IBuffer,Beryl.RHI.Resources.IBuffer,System.UInt32,Beryl.Rendering.Resources.FrameCountedResource{Beryl.RHI.Resources.IPipeline})'
+  parent: Beryl.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: RenderItem(IBuffer, IBuffer, uint, FrameCountedResource<IPipeline>)
+  nameWithType: RenderItem.RenderItem(IBuffer, IBuffer, uint, FrameCountedResource<IPipeline>)
+  fullName: Beryl.Rendering.Resources.RenderItem.RenderItem(Beryl.RHI.Resources.IBuffer, Beryl.RHI.Resources.IBuffer, uint, Beryl.Rendering.Resources.FrameCountedResource<Beryl.RHI.Resources.IPipeline>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\RenderItem.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  syntax:
+    content: public RenderItem(IBuffer vertexBuffer, IBuffer indexBuffer, uint indexCount, FrameCountedResource<IPipeline> pipeline)
+    parameters:
+    - id: vertexBuffer
+      type: Beryl.RHI.Resources.IBuffer
+    - id: indexBuffer
+      type: Beryl.RHI.Resources.IBuffer
+    - id: indexCount
+      type: System.UInt32
+    - id: pipeline
+      type: Beryl.Rendering.Resources.FrameCountedResource{Beryl.RHI.Resources.IPipeline}
+    content.vb: Public Sub New(vertexBuffer As IBuffer, indexBuffer As IBuffer, indexCount As UInteger, pipeline As FrameCountedResource(Of IPipeline))
+  overload: Beryl.Rendering.Resources.RenderItem.#ctor*
+  nameWithType.vb: RenderItem.New(IBuffer, IBuffer, UInteger, FrameCountedResource(Of IPipeline))
+  fullName.vb: Beryl.Rendering.Resources.RenderItem.New(Beryl.RHI.Resources.IBuffer, Beryl.RHI.Resources.IBuffer, UInteger, Beryl.Rendering.Resources.FrameCountedResource(Of Beryl.RHI.Resources.IPipeline))
+  name.vb: New(IBuffer, IBuffer, UInteger, FrameCountedResource(Of IPipeline))
+- uid: Beryl.Rendering.Resources.RenderItem.Dispose
+  commentId: M:Beryl.Rendering.Resources.RenderItem.Dispose
+  id: Dispose
+  parent: Beryl.Rendering.Resources.RenderItem
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: RenderItem.Dispose()
+  fullName: Beryl.Rendering.Resources.RenderItem.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Rendering\Resources\RenderItem.cs
+    startLine: 26
+  assemblies:
+  - Beryl.Rendering
+  namespace: Beryl.Rendering.Resources
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Beryl.Rendering.Resources.RenderItem.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: Beryl.Rendering.Resources
+  commentId: N:Beryl.Rendering.Resources
+  href: Beryl.html
+  name: Beryl.Rendering.Resources
+  nameWithType: Beryl.Rendering.Resources
+  fullName: Beryl.Rendering.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Rendering.Resources.RenderItem.VertexBuffer*
+  commentId: Overload:Beryl.Rendering.Resources.RenderItem.VertexBuffer
+  href: Beryl.Rendering.Resources.RenderItem.html#Beryl_Rendering_Resources_RenderItem_VertexBuffer
+  name: VertexBuffer
+  nameWithType: RenderItem.VertexBuffer
+  fullName: Beryl.Rendering.Resources.RenderItem.VertexBuffer
+- uid: Beryl.RHI.Resources.IBuffer
+  commentId: T:Beryl.RHI.Resources.IBuffer
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IBuffer.html
+  name: IBuffer
+  nameWithType: IBuffer
+  fullName: Beryl.RHI.Resources.IBuffer
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.Rendering.Resources.RenderItem.IndexBuffer*
+  commentId: Overload:Beryl.Rendering.Resources.RenderItem.IndexBuffer
+  href: Beryl.Rendering.Resources.RenderItem.html#Beryl_Rendering_Resources_RenderItem_IndexBuffer
+  name: IndexBuffer
+  nameWithType: RenderItem.IndexBuffer
+  fullName: Beryl.Rendering.Resources.RenderItem.IndexBuffer
+- uid: Beryl.Rendering.Resources.RenderItem.IndexCount*
+  commentId: Overload:Beryl.Rendering.Resources.RenderItem.IndexCount
+  href: Beryl.Rendering.Resources.RenderItem.html#Beryl_Rendering_Resources_RenderItem_IndexCount
+  name: IndexCount
+  nameWithType: RenderItem.IndexCount
+  fullName: Beryl.Rendering.Resources.RenderItem.IndexCount
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Beryl.Rendering.Resources.RenderItem.Pipeline*
+  commentId: Overload:Beryl.Rendering.Resources.RenderItem.Pipeline
+  href: Beryl.Rendering.Resources.RenderItem.html#Beryl_Rendering_Resources_RenderItem_Pipeline
+  name: Pipeline
+  nameWithType: RenderItem.Pipeline
+  fullName: Beryl.Rendering.Resources.RenderItem.Pipeline
+- uid: Beryl.Rendering.Resources.FrameCountedResource{Beryl.RHI.Resources.IPipeline}
+  commentId: T:Beryl.Rendering.Resources.FrameCountedResource{Beryl.RHI.Resources.IPipeline}
+  parent: Beryl.Rendering.Resources
+  definition: Beryl.Rendering.Resources.FrameCountedResource`1
+  href: Beryl.Rendering.Resources.FrameCountedResource-1.html
+  name: FrameCountedResource<IPipeline>
+  nameWithType: FrameCountedResource<IPipeline>
+  fullName: Beryl.Rendering.Resources.FrameCountedResource<Beryl.RHI.Resources.IPipeline>
+  nameWithType.vb: FrameCountedResource(Of IPipeline)
+  fullName.vb: Beryl.Rendering.Resources.FrameCountedResource(Of Beryl.RHI.Resources.IPipeline)
+  name.vb: FrameCountedResource(Of IPipeline)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.FrameCountedResource`1
+    name: FrameCountedResource
+    href: Beryl.Rendering.Resources.FrameCountedResource-1.html
+  - name: <
+  - uid: Beryl.RHI.Resources.IPipeline
+    name: IPipeline
+    href: Beryl.RHI.Resources.IPipeline.html
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.FrameCountedResource`1
+    name: FrameCountedResource
+    href: Beryl.Rendering.Resources.FrameCountedResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.RHI.Resources.IPipeline
+    name: IPipeline
+    href: Beryl.RHI.Resources.IPipeline.html
+  - name: )
+- uid: Beryl.Rendering.Resources.FrameCountedResource`1
+  commentId: T:Beryl.Rendering.Resources.FrameCountedResource`1
+  href: Beryl.Rendering.Resources.FrameCountedResource-1.html
+  name: FrameCountedResource<T>
+  nameWithType: FrameCountedResource<T>
+  fullName: Beryl.Rendering.Resources.FrameCountedResource<T>
+  nameWithType.vb: FrameCountedResource(Of T)
+  fullName.vb: Beryl.Rendering.Resources.FrameCountedResource(Of T)
+  name.vb: FrameCountedResource(Of T)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.FrameCountedResource`1
+    name: FrameCountedResource
+    href: Beryl.Rendering.Resources.FrameCountedResource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.FrameCountedResource`1
+    name: FrameCountedResource
+    href: Beryl.Rendering.Resources.FrameCountedResource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Beryl.Rendering.Resources.RenderItem.#ctor*
+  commentId: Overload:Beryl.Rendering.Resources.RenderItem.#ctor
+  href: Beryl.Rendering.Resources.RenderItem.html#Beryl_Rendering_Resources_RenderItem__ctor_Beryl_RHI_Resources_IBuffer_Beryl_RHI_Resources_IBuffer_System_UInt32_Beryl_Rendering_Resources_FrameCountedResource_Beryl_RHI_Resources_IPipeline__
+  name: RenderItem
+  nameWithType: RenderItem.RenderItem
+  fullName: Beryl.Rendering.Resources.RenderItem.RenderItem
+  nameWithType.vb: RenderItem.New
+  fullName.vb: Beryl.Rendering.Resources.RenderItem.New
+  name.vb: New
+- uid: Beryl.Rendering.Resources.RenderItem.Dispose*
+  commentId: Overload:Beryl.Rendering.Resources.RenderItem.Dispose
+  href: Beryl.Rendering.Resources.RenderItem.html#Beryl_Rendering_Resources_RenderItem_Dispose
+  name: Dispose
+  nameWithType: RenderItem.Dispose
+  fullName: Beryl.Rendering.Resources.RenderItem.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

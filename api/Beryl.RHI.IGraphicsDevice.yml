@@ -1,0 +1,673 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.IGraphicsDevice
+  commentId: T:Beryl.RHI.IGraphicsDevice
+  id: IGraphicsDevice
+  parent: Beryl.RHI
+  children:
+  - Beryl.RHI.IGraphicsDevice.CurrentFrame
+  - Beryl.RHI.IGraphicsDevice.Features
+  - Beryl.RHI.IGraphicsDevice.Initialize(Silk.NET.Windowing.IWindow)
+  - Beryl.RHI.IGraphicsDevice.ResizeSwapchain(System.UInt32,System.UInt32)
+  - Beryl.RHI.IGraphicsDevice.ResourceFactory
+  - Beryl.RHI.IGraphicsDevice.SubmitCommands(Beryl.RHI.ICommandBuffer)
+  - Beryl.RHI.IGraphicsDevice.SwapBuffers
+  - Beryl.RHI.IGraphicsDevice.SwapchainFramebuffer
+  - Beryl.RHI.IGraphicsDevice.UpdateBuffer``1(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{``0})
+  - Beryl.RHI.IGraphicsDevice.VulkanInfo
+  langs:
+  - csharp
+  - vb
+  name: IGraphicsDevice
+  nameWithType: IGraphicsDevice
+  fullName: Beryl.RHI.IGraphicsDevice
+  type: Interface
+  source:
+    id: IGraphicsDevice
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IGraphicsDevice.cs
+    startLine: 11
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Low-Level interface into the current Graphics API.
+  example: []
+  syntax:
+    content: 'public interface IGraphicsDevice : IDisposable'
+    content.vb: Public Interface IGraphicsDevice Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: Beryl.RHI.IGraphicsDevice.VulkanInfo
+  commentId: P:Beryl.RHI.IGraphicsDevice.VulkanInfo
+  id: VulkanInfo
+  parent: Beryl.RHI.IGraphicsDevice
+  langs:
+  - csharp
+  - vb
+  name: VulkanInfo
+  nameWithType: IGraphicsDevice.VulkanInfo
+  fullName: Beryl.RHI.IGraphicsDevice.VulkanInfo
+  type: Property
+  source:
+    id: VulkanInfo
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IGraphicsDevice.cs
+    startLine: 15
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Low-Level information about the Vulkan backend or null if not using Vulkan.
+  example: []
+  syntax:
+    content: VulkanInfo? VulkanInfo { get; }
+    parameters: []
+    return:
+      type: System.Nullable{Beryl.RHI.VulkanInfo}
+    content.vb: ReadOnly Property VulkanInfo As VulkanInfo?
+  overload: Beryl.RHI.IGraphicsDevice.VulkanInfo*
+- uid: Beryl.RHI.IGraphicsDevice.CurrentFrame
+  commentId: P:Beryl.RHI.IGraphicsDevice.CurrentFrame
+  id: CurrentFrame
+  parent: Beryl.RHI.IGraphicsDevice
+  langs:
+  - csharp
+  - vb
+  name: CurrentFrame
+  nameWithType: IGraphicsDevice.CurrentFrame
+  fullName: Beryl.RHI.IGraphicsDevice.CurrentFrame
+  type: Property
+  source:
+    id: CurrentFrame
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IGraphicsDevice.cs
+    startLine: 19
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: The current frame.
+  example: []
+  syntax:
+    content: ulong CurrentFrame { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Property CurrentFrame As ULong
+  overload: Beryl.RHI.IGraphicsDevice.CurrentFrame*
+- uid: Beryl.RHI.IGraphicsDevice.Features
+  commentId: P:Beryl.RHI.IGraphicsDevice.Features
+  id: Features
+  parent: Beryl.RHI.IGraphicsDevice
+  langs:
+  - csharp
+  - vb
+  name: Features
+  nameWithType: IGraphicsDevice.Features
+  fullName: Beryl.RHI.IGraphicsDevice.Features
+  type: Property
+  source:
+    id: Features
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IGraphicsDevice.cs
+    startLine: 22
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Unique features of this <xref href="Beryl.RHI.IGraphicsDevice" data-throw-if-not-resolved="false"></xref> implementation.
+  example: []
+  syntax:
+    content: DeviceFeatures Features { get; }
+    parameters: []
+    return:
+      type: Beryl.RHI.DeviceFeatures
+    content.vb: ReadOnly Property Features As DeviceFeatures
+  overload: Beryl.RHI.IGraphicsDevice.Features*
+- uid: Beryl.RHI.IGraphicsDevice.SwapchainFramebuffer
+  commentId: P:Beryl.RHI.IGraphicsDevice.SwapchainFramebuffer
+  id: SwapchainFramebuffer
+  parent: Beryl.RHI.IGraphicsDevice
+  langs:
+  - csharp
+  - vb
+  name: SwapchainFramebuffer
+  nameWithType: IGraphicsDevice.SwapchainFramebuffer
+  fullName: Beryl.RHI.IGraphicsDevice.SwapchainFramebuffer
+  type: Property
+  source:
+    id: SwapchainFramebuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IGraphicsDevice.cs
+    startLine: 25
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: The <xref href="Beryl.RHI.Resources.IFramebuffer" data-throw-if-not-resolved="false"></xref> used by the main swapchain.
+  example: []
+  syntax:
+    content: IFramebuffer SwapchainFramebuffer { get; }
+    parameters: []
+    return:
+      type: Beryl.RHI.Resources.IFramebuffer
+    content.vb: ReadOnly Property SwapchainFramebuffer As IFramebuffer
+  overload: Beryl.RHI.IGraphicsDevice.SwapchainFramebuffer*
+- uid: Beryl.RHI.IGraphicsDevice.ResourceFactory
+  commentId: P:Beryl.RHI.IGraphicsDevice.ResourceFactory
+  id: ResourceFactory
+  parent: Beryl.RHI.IGraphicsDevice
+  langs:
+  - csharp
+  - vb
+  name: ResourceFactory
+  nameWithType: IGraphicsDevice.ResourceFactory
+  fullName: Beryl.RHI.IGraphicsDevice.ResourceFactory
+  type: Property
+  source:
+    id: ResourceFactory
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IGraphicsDevice.cs
+    startLine: 28
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: The <xref href="Beryl.RHI.IResourceFactory" data-throw-if-not-resolved="false"></xref> used to create GPU resources.
+  example: []
+  syntax:
+    content: IResourceFactory ResourceFactory { get; }
+    parameters: []
+    return:
+      type: Beryl.RHI.IResourceFactory
+    content.vb: ReadOnly Property ResourceFactory As IResourceFactory
+  overload: Beryl.RHI.IGraphicsDevice.ResourceFactory*
+- uid: Beryl.RHI.IGraphicsDevice.Initialize(Silk.NET.Windowing.IWindow)
+  commentId: M:Beryl.RHI.IGraphicsDevice.Initialize(Silk.NET.Windowing.IWindow)
+  id: Initialize(Silk.NET.Windowing.IWindow)
+  parent: Beryl.RHI.IGraphicsDevice
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IWindow)
+  nameWithType: IGraphicsDevice.Initialize(IWindow)
+  fullName: Beryl.RHI.IGraphicsDevice.Initialize(Silk.NET.Windowing.IWindow)
+  type: Method
+  source:
+    id: Initialize
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IGraphicsDevice.cs
+    startLine: 31
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Initializes the <xref href="Beryl.RHI.IGraphicsDevice" data-throw-if-not-resolved="false"></xref> for <code class="paramref">window</code>.
+  example: []
+  syntax:
+    content: void Initialize(IWindow window)
+    parameters:
+    - id: window
+      type: Silk.NET.Windowing.IWindow
+    content.vb: Sub Initialize(window As IWindow)
+  overload: Beryl.RHI.IGraphicsDevice.Initialize*
+- uid: Beryl.RHI.IGraphicsDevice.SubmitCommands(Beryl.RHI.ICommandBuffer)
+  commentId: M:Beryl.RHI.IGraphicsDevice.SubmitCommands(Beryl.RHI.ICommandBuffer)
+  id: SubmitCommands(Beryl.RHI.ICommandBuffer)
+  parent: Beryl.RHI.IGraphicsDevice
+  langs:
+  - csharp
+  - vb
+  name: SubmitCommands(ICommandBuffer)
+  nameWithType: IGraphicsDevice.SubmitCommands(ICommandBuffer)
+  fullName: Beryl.RHI.IGraphicsDevice.SubmitCommands(Beryl.RHI.ICommandBuffer)
+  type: Method
+  source:
+    id: SubmitCommands
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IGraphicsDevice.cs
+    startLine: 34
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Submits <code class="paramref">buffer</code> for execution.
+  example: []
+  syntax:
+    content: void SubmitCommands(ICommandBuffer buffer)
+    parameters:
+    - id: buffer
+      type: Beryl.RHI.ICommandBuffer
+    content.vb: Sub SubmitCommands(buffer As ICommandBuffer)
+  overload: Beryl.RHI.IGraphicsDevice.SubmitCommands*
+- uid: Beryl.RHI.IGraphicsDevice.SwapBuffers
+  commentId: M:Beryl.RHI.IGraphicsDevice.SwapBuffers
+  id: SwapBuffers
+  parent: Beryl.RHI.IGraphicsDevice
+  langs:
+  - csharp
+  - vb
+  name: SwapBuffers()
+  nameWithType: IGraphicsDevice.SwapBuffers()
+  fullName: Beryl.RHI.IGraphicsDevice.SwapBuffers()
+  type: Method
+  source:
+    id: SwapBuffers
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IGraphicsDevice.cs
+    startLine: 37
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Swaps the front and back buffers.
+  example: []
+  syntax:
+    content: void SwapBuffers()
+    content.vb: Sub SwapBuffers()
+  overload: Beryl.RHI.IGraphicsDevice.SwapBuffers*
+- uid: Beryl.RHI.IGraphicsDevice.ResizeSwapchain(System.UInt32,System.UInt32)
+  commentId: M:Beryl.RHI.IGraphicsDevice.ResizeSwapchain(System.UInt32,System.UInt32)
+  id: ResizeSwapchain(System.UInt32,System.UInt32)
+  parent: Beryl.RHI.IGraphicsDevice
+  langs:
+  - csharp
+  - vb
+  name: ResizeSwapchain(uint, uint)
+  nameWithType: IGraphicsDevice.ResizeSwapchain(uint, uint)
+  fullName: Beryl.RHI.IGraphicsDevice.ResizeSwapchain(uint, uint)
+  type: Method
+  source:
+    id: ResizeSwapchain
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IGraphicsDevice.cs
+    startLine: 40
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Resizes the swapchain.
+  example: []
+  syntax:
+    content: void ResizeSwapchain(uint width, uint height)
+    parameters:
+    - id: width
+      type: System.UInt32
+    - id: height
+      type: System.UInt32
+    content.vb: Sub ResizeSwapchain(width As UInteger, height As UInteger)
+  overload: Beryl.RHI.IGraphicsDevice.ResizeSwapchain*
+  nameWithType.vb: IGraphicsDevice.ResizeSwapchain(UInteger, UInteger)
+  fullName.vb: Beryl.RHI.IGraphicsDevice.ResizeSwapchain(UInteger, UInteger)
+  name.vb: ResizeSwapchain(UInteger, UInteger)
+- uid: Beryl.RHI.IGraphicsDevice.UpdateBuffer``1(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{``0})
+  commentId: M:Beryl.RHI.IGraphicsDevice.UpdateBuffer``1(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{``0})
+  id: UpdateBuffer``1(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{``0})
+  parent: Beryl.RHI.IGraphicsDevice
+  langs:
+  - csharp
+  - vb
+  name: UpdateBuffer<T>(IBuffer, uint, ReadOnlySpan<T>)
+  nameWithType: IGraphicsDevice.UpdateBuffer<T>(IBuffer, uint, ReadOnlySpan<T>)
+  fullName: Beryl.RHI.IGraphicsDevice.UpdateBuffer<T>(Beryl.RHI.Resources.IBuffer, uint, System.ReadOnlySpan<T>)
+  type: Method
+  source:
+    id: UpdateBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IGraphicsDevice.cs
+    startLine: 43
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Updates <code class="paramref">buffer</code> with unmanaged <code class="paramref">data</code>.
+  example: []
+  syntax:
+    content: 'void UpdateBuffer<T>(IBuffer buffer, uint offset, ReadOnlySpan<T> data) where T : unmanaged'
+    parameters:
+    - id: buffer
+      type: Beryl.RHI.Resources.IBuffer
+    - id: offset
+      type: System.UInt32
+    - id: data
+      type: System.ReadOnlySpan{{T}}
+    typeParameters:
+    - id: T
+    content.vb: Sub UpdateBuffer(Of T As Structure)(buffer As IBuffer, offset As UInteger, data As ReadOnlySpan(Of T))
+  overload: Beryl.RHI.IGraphicsDevice.UpdateBuffer*
+  nameWithType.vb: IGraphicsDevice.UpdateBuffer(Of T)(IBuffer, UInteger, ReadOnlySpan(Of T))
+  fullName.vb: Beryl.RHI.IGraphicsDevice.UpdateBuffer(Of T)(Beryl.RHI.Resources.IBuffer, UInteger, System.ReadOnlySpan(Of T))
+  name.vb: UpdateBuffer(Of T)(IBuffer, UInteger, ReadOnlySpan(Of T))
+references:
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.RHI.IGraphicsDevice.VulkanInfo*
+  commentId: Overload:Beryl.RHI.IGraphicsDevice.VulkanInfo
+  href: Beryl.RHI.IGraphicsDevice.html#Beryl_RHI_IGraphicsDevice_VulkanInfo
+  name: VulkanInfo
+  nameWithType: IGraphicsDevice.VulkanInfo
+  fullName: Beryl.RHI.IGraphicsDevice.VulkanInfo
+- uid: System.Nullable{Beryl.RHI.VulkanInfo}
+  commentId: T:System.Nullable{Beryl.RHI.VulkanInfo}
+  parent: System
+  definition: System.Nullable`1
+  href: Beryl.RHI.VulkanInfo.html
+  name: VulkanInfo?
+  nameWithType: VulkanInfo?
+  fullName: Beryl.RHI.VulkanInfo?
+  spec.csharp:
+  - uid: Beryl.RHI.VulkanInfo
+    name: VulkanInfo
+    href: Beryl.RHI.VulkanInfo.html
+  - name: '?'
+  spec.vb:
+  - uid: Beryl.RHI.VulkanInfo
+    name: VulkanInfo
+    href: Beryl.RHI.VulkanInfo.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Beryl.RHI.IGraphicsDevice.CurrentFrame*
+  commentId: Overload:Beryl.RHI.IGraphicsDevice.CurrentFrame
+  href: Beryl.RHI.IGraphicsDevice.html#Beryl_RHI_IGraphicsDevice_CurrentFrame
+  name: CurrentFrame
+  nameWithType: IGraphicsDevice.CurrentFrame
+  fullName: Beryl.RHI.IGraphicsDevice.CurrentFrame
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: Beryl.RHI.IGraphicsDevice
+  commentId: T:Beryl.RHI.IGraphicsDevice
+  parent: Beryl.RHI
+  href: Beryl.RHI.IGraphicsDevice.html
+  name: IGraphicsDevice
+  nameWithType: IGraphicsDevice
+  fullName: Beryl.RHI.IGraphicsDevice
+- uid: Beryl.RHI.IGraphicsDevice.Features*
+  commentId: Overload:Beryl.RHI.IGraphicsDevice.Features
+  href: Beryl.RHI.IGraphicsDevice.html#Beryl_RHI_IGraphicsDevice_Features
+  name: Features
+  nameWithType: IGraphicsDevice.Features
+  fullName: Beryl.RHI.IGraphicsDevice.Features
+- uid: Beryl.RHI.DeviceFeatures
+  commentId: T:Beryl.RHI.DeviceFeatures
+  parent: Beryl.RHI
+  href: Beryl.RHI.DeviceFeatures.html
+  name: DeviceFeatures
+  nameWithType: DeviceFeatures
+  fullName: Beryl.RHI.DeviceFeatures
+- uid: Beryl.RHI.Resources.IFramebuffer
+  commentId: T:Beryl.RHI.Resources.IFramebuffer
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IFramebuffer.html
+  name: IFramebuffer
+  nameWithType: IFramebuffer
+  fullName: Beryl.RHI.Resources.IFramebuffer
+- uid: Beryl.RHI.IGraphicsDevice.SwapchainFramebuffer*
+  commentId: Overload:Beryl.RHI.IGraphicsDevice.SwapchainFramebuffer
+  href: Beryl.RHI.IGraphicsDevice.html#Beryl_RHI_IGraphicsDevice_SwapchainFramebuffer
+  name: SwapchainFramebuffer
+  nameWithType: IGraphicsDevice.SwapchainFramebuffer
+  fullName: Beryl.RHI.IGraphicsDevice.SwapchainFramebuffer
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.RHI.IResourceFactory
+  commentId: T:Beryl.RHI.IResourceFactory
+  parent: Beryl.RHI
+  href: Beryl.RHI.IResourceFactory.html
+  name: IResourceFactory
+  nameWithType: IResourceFactory
+  fullName: Beryl.RHI.IResourceFactory
+- uid: Beryl.RHI.IGraphicsDevice.ResourceFactory*
+  commentId: Overload:Beryl.RHI.IGraphicsDevice.ResourceFactory
+  href: Beryl.RHI.IGraphicsDevice.html#Beryl_RHI_IGraphicsDevice_ResourceFactory
+  name: ResourceFactory
+  nameWithType: IGraphicsDevice.ResourceFactory
+  fullName: Beryl.RHI.IGraphicsDevice.ResourceFactory
+- uid: Beryl.RHI.IGraphicsDevice.Initialize*
+  commentId: Overload:Beryl.RHI.IGraphicsDevice.Initialize
+  href: Beryl.RHI.IGraphicsDevice.html#Beryl_RHI_IGraphicsDevice_Initialize_Silk_NET_Windowing_IWindow_
+  name: Initialize
+  nameWithType: IGraphicsDevice.Initialize
+  fullName: Beryl.RHI.IGraphicsDevice.Initialize
+- uid: Silk.NET.Windowing.IWindow
+  commentId: T:Silk.NET.Windowing.IWindow
+  parent: Silk.NET.Windowing
+  isExternal: true
+  name: IWindow
+  nameWithType: IWindow
+  fullName: Silk.NET.Windowing.IWindow
+- uid: Silk.NET.Windowing
+  commentId: N:Silk.NET.Windowing
+  isExternal: true
+  name: Silk.NET.Windowing
+  nameWithType: Silk.NET.Windowing
+  fullName: Silk.NET.Windowing
+  spec.csharp:
+  - uid: Silk
+    name: Silk
+    isExternal: true
+  - name: .
+  - uid: Silk.NET
+    name: NET
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.Windowing
+    name: Windowing
+    isExternal: true
+  spec.vb:
+  - uid: Silk
+    name: Silk
+    isExternal: true
+  - name: .
+  - uid: Silk.NET
+    name: NET
+    isExternal: true
+  - name: .
+  - uid: Silk.NET.Windowing
+    name: Windowing
+    isExternal: true
+- uid: Beryl.RHI.IGraphicsDevice.SubmitCommands*
+  commentId: Overload:Beryl.RHI.IGraphicsDevice.SubmitCommands
+  href: Beryl.RHI.IGraphicsDevice.html#Beryl_RHI_IGraphicsDevice_SubmitCommands_Beryl_RHI_ICommandBuffer_
+  name: SubmitCommands
+  nameWithType: IGraphicsDevice.SubmitCommands
+  fullName: Beryl.RHI.IGraphicsDevice.SubmitCommands
+- uid: Beryl.RHI.ICommandBuffer
+  commentId: T:Beryl.RHI.ICommandBuffer
+  parent: Beryl.RHI
+  href: Beryl.RHI.ICommandBuffer.html
+  name: ICommandBuffer
+  nameWithType: ICommandBuffer
+  fullName: Beryl.RHI.ICommandBuffer
+- uid: Beryl.RHI.IGraphicsDevice.SwapBuffers*
+  commentId: Overload:Beryl.RHI.IGraphicsDevice.SwapBuffers
+  href: Beryl.RHI.IGraphicsDevice.html#Beryl_RHI_IGraphicsDevice_SwapBuffers
+  name: SwapBuffers
+  nameWithType: IGraphicsDevice.SwapBuffers
+  fullName: Beryl.RHI.IGraphicsDevice.SwapBuffers
+- uid: Beryl.RHI.IGraphicsDevice.ResizeSwapchain*
+  commentId: Overload:Beryl.RHI.IGraphicsDevice.ResizeSwapchain
+  href: Beryl.RHI.IGraphicsDevice.html#Beryl_RHI_IGraphicsDevice_ResizeSwapchain_System_UInt32_System_UInt32_
+  name: ResizeSwapchain
+  nameWithType: IGraphicsDevice.ResizeSwapchain
+  fullName: Beryl.RHI.IGraphicsDevice.ResizeSwapchain
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Beryl.RHI.IGraphicsDevice.UpdateBuffer*
+  commentId: Overload:Beryl.RHI.IGraphicsDevice.UpdateBuffer
+  href: Beryl.RHI.IGraphicsDevice.html#Beryl_RHI_IGraphicsDevice_UpdateBuffer__1_Beryl_RHI_Resources_IBuffer_System_UInt32_System_ReadOnlySpan___0__
+  name: UpdateBuffer
+  nameWithType: IGraphicsDevice.UpdateBuffer
+  fullName: Beryl.RHI.IGraphicsDevice.UpdateBuffer
+- uid: Beryl.RHI.Resources.IBuffer
+  commentId: T:Beryl.RHI.Resources.IBuffer
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IBuffer.html
+  name: IBuffer
+  nameWithType: IBuffer
+  fullName: Beryl.RHI.Resources.IBuffer
+- uid: System.ReadOnlySpan{{T}}
+  commentId: T:System.ReadOnlySpan{``0}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

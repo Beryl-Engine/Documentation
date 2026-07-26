@@ -1,0 +1,1655 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Math.Vector4
+  commentId: T:Beryl.Math.Vector4
+  id: Vector4
+  parent: Beryl.Math
+  children:
+  - Beryl.Math.Vector4.#ctor(System.Single,System.Single,System.Single,System.Single)
+  - Beryl.Math.Vector4.Dot(Beryl.Math.Vector4)
+  - Beryl.Math.Vector4.Dot(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  - Beryl.Math.Vector4.Equals(Beryl.Math.Vector4)
+  - Beryl.Math.Vector4.Equals(System.Object)
+  - Beryl.Math.Vector4.GetHashCode
+  - Beryl.Math.Vector4.Length
+  - Beryl.Math.Vector4.Normalize
+  - Beryl.Math.Vector4.Normalize(Beryl.Math.Vector4)
+  - Beryl.Math.Vector4.One
+  - Beryl.Math.Vector4.ToString
+  - Beryl.Math.Vector4.Transform(Beryl.Math.Vector4,Beryl.Math.Quaternion)
+  - Beryl.Math.Vector4.UnitW
+  - Beryl.Math.Vector4.UnitX
+  - Beryl.Math.Vector4.UnitY
+  - Beryl.Math.Vector4.UnitZ
+  - Beryl.Math.Vector4.W
+  - Beryl.Math.Vector4.X
+  - Beryl.Math.Vector4.Y
+  - Beryl.Math.Vector4.Z
+  - Beryl.Math.Vector4.Zero
+  - Beryl.Math.Vector4.op_Addition(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  - Beryl.Math.Vector4.op_Division(Beryl.Math.Vector4,System.Single)
+  - Beryl.Math.Vector4.op_Equality(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  - Beryl.Math.Vector4.op_Implicit(Beryl.Math.Vector4)~System.Numerics.Vector4
+  - Beryl.Math.Vector4.op_Implicit(System.Numerics.Vector4)~Beryl.Math.Vector4
+  - Beryl.Math.Vector4.op_Inequality(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  - Beryl.Math.Vector4.op_Multiply(Beryl.Math.Vector4,System.Single)
+  - Beryl.Math.Vector4.op_Multiply(System.Single,Beryl.Math.Vector4)
+  - Beryl.Math.Vector4.op_Subtraction(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  - Beryl.Math.Vector4.op_UnaryNegation(Beryl.Math.Vector4)
+  langs:
+  - csharp
+  - vb
+  name: Vector4
+  nameWithType: Vector4
+  fullName: Beryl.Math.Vector4
+  type: Struct
+  source:
+    id: Vector4
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 8
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Represents a four-dimensional point.
+  example: []
+  syntax:
+    content: 'public struct Vector4 : IEquatable<Vector4>'
+    content.vb: Public Structure Vector4 Implements IEquatable(Of Vector4)
+  implements:
+  - System.IEquatable{Beryl.Math.Vector4}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Beryl.Math.Vector4.X
+  commentId: P:Beryl.Math.Vector4.X
+  id: X
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Vector4.X
+  fullName: Beryl.Math.Vector4.X
+  type: Property
+  source:
+    id: X
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: The X component of the <xref href="Beryl.Math.Vector4" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public float X { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property X As Single
+  overload: Beryl.Math.Vector4.X*
+- uid: Beryl.Math.Vector4.Y
+  commentId: P:Beryl.Math.Vector4.Y
+  id: Y
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Vector4.Y
+  fullName: Beryl.Math.Vector4.Y
+  type: Property
+  source:
+    id: Y
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: The Y component of the <xref href="Beryl.Math.Vector4" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public float Y { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Y As Single
+  overload: Beryl.Math.Vector4.Y*
+- uid: Beryl.Math.Vector4.Z
+  commentId: P:Beryl.Math.Vector4.Z
+  id: Z
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: Vector4.Z
+  fullName: Beryl.Math.Vector4.Z
+  type: Property
+  source:
+    id: Z
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: The Z component of the <xref href="Beryl.Math.Vector4" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public float Z { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Z As Single
+  overload: Beryl.Math.Vector4.Z*
+- uid: Beryl.Math.Vector4.W
+  commentId: P:Beryl.Math.Vector4.W
+  id: W
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: Vector4.W
+  fullName: Beryl.Math.Vector4.W
+  type: Property
+  source:
+    id: W
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 20
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: The W component of the <xref href="Beryl.Math.Vector4" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public float W { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property W As Single
+  overload: Beryl.Math.Vector4.W*
+- uid: Beryl.Math.Vector4.Length
+  commentId: P:Beryl.Math.Vector4.Length
+  id: Length
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: Vector4.Length
+  fullName: Beryl.Math.Vector4.Length
+  type: Property
+  source:
+    id: Length
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 23
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: The length of the <xref href="Beryl.Math.Vector4" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public float Length { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Length As Single
+  overload: Beryl.Math.Vector4.Length*
+- uid: Beryl.Math.Vector4.#ctor(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Beryl.Math.Vector4.#ctor(System.Single,System.Single,System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single,System.Single,System.Single)'
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Vector4(float, float, float, float)
+  nameWithType: Vector4.Vector4(float, float, float, float)
+  fullName: Beryl.Math.Vector4.Vector4(float, float, float, float)
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 26
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a new instance of <xref href="Beryl.Math.Vector4" data-throw-if-not-resolved="false"></xref> with the specified components.
+  example: []
+  syntax:
+    content: public Vector4(float x, float y, float z, float w)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    - id: w
+      type: System.Single
+    content.vb: Public Sub New(x As Single, y As Single, z As Single, w As Single)
+  overload: Beryl.Math.Vector4.#ctor*
+  nameWithType.vb: Vector4.New(Single, Single, Single, Single)
+  fullName.vb: Beryl.Math.Vector4.New(Single, Single, Single, Single)
+  name.vb: New(Single, Single, Single, Single)
+- uid: Beryl.Math.Vector4.Zero
+  commentId: P:Beryl.Math.Vector4.Zero
+  id: Zero
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: Vector4.Zero
+  fullName: Beryl.Math.Vector4.Zero
+  type: Property
+  source:
+    id: Zero
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 35
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: A Vector with all components set to zero.
+  example: []
+  syntax:
+    content: public static Vector4 Zero { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared ReadOnly Property Zero As Vector4
+  overload: Beryl.Math.Vector4.Zero*
+- uid: Beryl.Math.Vector4.One
+  commentId: P:Beryl.Math.Vector4.One
+  id: One
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: One
+  nameWithType: Vector4.One
+  fullName: Beryl.Math.Vector4.One
+  type: Property
+  source:
+    id: One
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 38
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: A Vector with all components set to one.
+  example: []
+  syntax:
+    content: public static Vector4 One { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared ReadOnly Property One As Vector4
+  overload: Beryl.Math.Vector4.One*
+- uid: Beryl.Math.Vector4.UnitX
+  commentId: P:Beryl.Math.Vector4.UnitX
+  id: UnitX
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: UnitX
+  nameWithType: Vector4.UnitX
+  fullName: Beryl.Math.Vector4.UnitX
+  type: Property
+  source:
+    id: UnitX
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 41
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: A Vector with X set to one.
+  example: []
+  syntax:
+    content: public static Vector4 UnitX { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared ReadOnly Property UnitX As Vector4
+  overload: Beryl.Math.Vector4.UnitX*
+- uid: Beryl.Math.Vector4.UnitY
+  commentId: P:Beryl.Math.Vector4.UnitY
+  id: UnitY
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: UnitY
+  nameWithType: Vector4.UnitY
+  fullName: Beryl.Math.Vector4.UnitY
+  type: Property
+  source:
+    id: UnitY
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 44
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: A Vector with Y set to one.
+  example: []
+  syntax:
+    content: public static Vector4 UnitY { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared ReadOnly Property UnitY As Vector4
+  overload: Beryl.Math.Vector4.UnitY*
+- uid: Beryl.Math.Vector4.UnitZ
+  commentId: P:Beryl.Math.Vector4.UnitZ
+  id: UnitZ
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: UnitZ
+  nameWithType: Vector4.UnitZ
+  fullName: Beryl.Math.Vector4.UnitZ
+  type: Property
+  source:
+    id: UnitZ
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 47
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: A Vector with Z set to one.
+  example: []
+  syntax:
+    content: public static Vector4 UnitZ { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared ReadOnly Property UnitZ As Vector4
+  overload: Beryl.Math.Vector4.UnitZ*
+- uid: Beryl.Math.Vector4.UnitW
+  commentId: P:Beryl.Math.Vector4.UnitW
+  id: UnitW
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: UnitW
+  nameWithType: Vector4.UnitW
+  fullName: Beryl.Math.Vector4.UnitW
+  type: Property
+  source:
+    id: UnitW
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 50
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: A Vector with W set to one.
+  example: []
+  syntax:
+    content: public static Vector4 UnitW { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared ReadOnly Property UnitW As Vector4
+  overload: Beryl.Math.Vector4.UnitW*
+- uid: Beryl.Math.Vector4.Dot(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  commentId: M:Beryl.Math.Vector4.Dot(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  id: Dot(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Dot(Vector4, Vector4)
+  nameWithType: Vector4.Dot(Vector4, Vector4)
+  fullName: Beryl.Math.Vector4.Dot(Beryl.Math.Vector4, Beryl.Math.Vector4)
+  type: Method
+  source:
+    id: Dot
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 53
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the dot product of the two vectors.
+  example: []
+  syntax:
+    content: public static float Dot(Vector4 v1, Vector4 v2)
+    parameters:
+    - id: v1
+      type: Beryl.Math.Vector4
+    - id: v2
+      type: Beryl.Math.Vector4
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Dot(v1 As Vector4, v2 As Vector4) As Single
+  overload: Beryl.Math.Vector4.Dot*
+- uid: Beryl.Math.Vector4.Normalize(Beryl.Math.Vector4)
+  commentId: M:Beryl.Math.Vector4.Normalize(Beryl.Math.Vector4)
+  id: Normalize(Beryl.Math.Vector4)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Normalize(Vector4)
+  nameWithType: Vector4.Normalize(Vector4)
+  fullName: Beryl.Math.Vector4.Normalize(Beryl.Math.Vector4)
+  type: Method
+  source:
+    id: Normalize
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 56
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns a normalized version of the <xref href="Beryl.Math.Vector4" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static Vector4 Normalize(Vector4 v)
+    parameters:
+    - id: v
+      type: Beryl.Math.Vector4
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared Function Normalize(v As Vector4) As Vector4
+  overload: Beryl.Math.Vector4.Normalize*
+- uid: Beryl.Math.Vector4.Transform(Beryl.Math.Vector4,Beryl.Math.Quaternion)
+  commentId: M:Beryl.Math.Vector4.Transform(Beryl.Math.Vector4,Beryl.Math.Quaternion)
+  id: Transform(Beryl.Math.Vector4,Beryl.Math.Quaternion)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Transform(Vector4, Quaternion)
+  nameWithType: Vector4.Transform(Vector4, Quaternion)
+  fullName: Beryl.Math.Vector4.Transform(Beryl.Math.Vector4, Beryl.Math.Quaternion)
+  type: Method
+  source:
+    id: Transform
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 59
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Transforms a vector by a quaternion rotation.
+  example: []
+  syntax:
+    content: public static Vector4 Transform(Vector4 vector, Quaternion rotation)
+    parameters:
+    - id: vector
+      type: Beryl.Math.Vector4
+    - id: rotation
+      type: Beryl.Math.Quaternion
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared Function Transform(vector As Vector4, rotation As Quaternion) As Vector4
+  overload: Beryl.Math.Vector4.Transform*
+- uid: Beryl.Math.Vector4.Dot(Beryl.Math.Vector4)
+  commentId: M:Beryl.Math.Vector4.Dot(Beryl.Math.Vector4)
+  id: Dot(Beryl.Math.Vector4)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Dot(Vector4)
+  nameWithType: Vector4.Dot(Vector4)
+  fullName: Beryl.Math.Vector4.Dot(Beryl.Math.Vector4)
+  type: Method
+  source:
+    id: Dot
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 82
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the dot product of the two vectors.
+  example: []
+  syntax:
+    content: public float Dot(Vector4 v)
+    parameters:
+    - id: v
+      type: Beryl.Math.Vector4
+    return:
+      type: System.Single
+    content.vb: Public Function Dot(v As Vector4) As Single
+  overload: Beryl.Math.Vector4.Dot*
+- uid: Beryl.Math.Vector4.Normalize
+  commentId: M:Beryl.Math.Vector4.Normalize
+  id: Normalize
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Normalize()
+  nameWithType: Vector4.Normalize()
+  fullName: Beryl.Math.Vector4.Normalize()
+  type: Method
+  source:
+    id: Normalize
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 85
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns a normalized version of the <xref href="Beryl.Math.Vector4" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Vector4 Normalize()
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Function Normalize() As Vector4
+  overload: Beryl.Math.Vector4.Normalize*
+- uid: Beryl.Math.Vector4.Equals(System.Object)
+  commentId: M:Beryl.Math.Vector4.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Vector4.Equals(object?)
+  fullName: Beryl.Math.Vector4.Equals(object?)
+  type: Method
+  source:
+    id: Equals
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 88
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Beryl.Math.Vector4.Equals*
+  nameWithType.vb: Vector4.Equals(Object)
+  fullName.vb: Beryl.Math.Vector4.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Beryl.Math.Vector4.Equals(Beryl.Math.Vector4)
+  commentId: M:Beryl.Math.Vector4.Equals(Beryl.Math.Vector4)
+  id: Equals(Beryl.Math.Vector4)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: Equals(Vector4)
+  nameWithType: Vector4.Equals(Vector4)
+  fullName: Beryl.Math.Vector4.Equals(Beryl.Math.Vector4)
+  type: Method
+  source:
+    id: Equals
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 97
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Compares two <xref href="Beryl.Math.Vector4" data-throw-if-not-resolved="false"></xref>s for equality.
+  example: []
+  syntax:
+    content: public bool Equals(Vector4 other)
+    parameters:
+    - id: other
+      type: Beryl.Math.Vector4
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As Vector4) As Boolean
+  overload: Beryl.Math.Vector4.Equals*
+  implements:
+  - System.IEquatable{Beryl.Math.Vector4}.Equals(Beryl.Math.Vector4)
+- uid: Beryl.Math.Vector4.GetHashCode
+  commentId: M:Beryl.Math.Vector4.GetHashCode
+  id: GetHashCode
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Vector4.GetHashCode()
+  fullName: Beryl.Math.Vector4.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 100
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Beryl.Math.Vector4.GetHashCode*
+- uid: Beryl.Math.Vector4.ToString
+  commentId: M:Beryl.Math.Vector4.ToString
+  id: ToString
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Vector4.ToString()
+  fullName: Beryl.Math.Vector4.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 103
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the fully qualified type name of this instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The fully qualified type name.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: Beryl.Math.Vector4.ToString*
+- uid: Beryl.Math.Vector4.op_Implicit(Beryl.Math.Vector4)~System.Numerics.Vector4
+  commentId: M:Beryl.Math.Vector4.op_Implicit(Beryl.Math.Vector4)~System.Numerics.Vector4
+  id: op_Implicit(Beryl.Math.Vector4)~System.Numerics.Vector4
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Vector4(Vector4)
+  nameWithType: Vector4.implicit operator Vector4(Vector4)
+  fullName: Beryl.Math.Vector4.implicit operator System.Numerics.Vector4(Beryl.Math.Vector4)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 107
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static implicit operator Vector4(Vector4 v)
+    parameters:
+    - id: v
+      type: Beryl.Math.Vector4
+    return:
+      type: System.Numerics.Vector4
+    content.vb: Public Shared Widening Operator CType(v As Vector4) As Vector4
+  overload: Beryl.Math.Vector4.op_Implicit*
+  nameWithType.vb: Vector4.CType(Vector4)
+  fullName.vb: Beryl.Math.Vector4.CType(Beryl.Math.Vector4)
+  name.vb: CType(Vector4)
+- uid: Beryl.Math.Vector4.op_Implicit(System.Numerics.Vector4)~Beryl.Math.Vector4
+  commentId: M:Beryl.Math.Vector4.op_Implicit(System.Numerics.Vector4)~Beryl.Math.Vector4
+  id: op_Implicit(System.Numerics.Vector4)~Beryl.Math.Vector4
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Vector4(Vector4)
+  nameWithType: Vector4.implicit operator Vector4(Vector4)
+  fullName: Beryl.Math.Vector4.implicit operator Beryl.Math.Vector4(System.Numerics.Vector4)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 108
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static implicit operator Vector4(Vector4 v)
+    parameters:
+    - id: v
+      type: System.Numerics.Vector4
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared Widening Operator CType(v As Vector4) As Vector4
+  overload: Beryl.Math.Vector4.op_Implicit*
+  nameWithType.vb: Vector4.CType(Vector4)
+  fullName.vb: Beryl.Math.Vector4.CType(System.Numerics.Vector4)
+  name.vb: CType(Vector4)
+- uid: Beryl.Math.Vector4.op_Addition(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  commentId: M:Beryl.Math.Vector4.op_Addition(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  id: op_Addition(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: operator +(Vector4, Vector4)
+  nameWithType: Vector4.operator +(Vector4, Vector4)
+  fullName: Beryl.Math.Vector4.operator +(Beryl.Math.Vector4, Beryl.Math.Vector4)
+  type: Operator
+  source:
+    id: op_Addition
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 113
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Vector4 operator +(Vector4 a, Vector4 b)
+    parameters:
+    - id: a
+      type: Beryl.Math.Vector4
+    - id: b
+      type: Beryl.Math.Vector4
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared Operator +(a As Vector4, b As Vector4) As Vector4
+  overload: Beryl.Math.Vector4.op_Addition*
+  nameWithType.vb: Vector4.+(Vector4, Vector4)
+  fullName.vb: Beryl.Math.Vector4.+(Beryl.Math.Vector4, Beryl.Math.Vector4)
+  name.vb: +(Vector4, Vector4)
+- uid: Beryl.Math.Vector4.op_Subtraction(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  commentId: M:Beryl.Math.Vector4.op_Subtraction(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  id: op_Subtraction(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: operator -(Vector4, Vector4)
+  nameWithType: Vector4.operator -(Vector4, Vector4)
+  fullName: Beryl.Math.Vector4.operator -(Beryl.Math.Vector4, Beryl.Math.Vector4)
+  type: Operator
+  source:
+    id: op_Subtraction
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 116
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Vector4 operator -(Vector4 a, Vector4 b)
+    parameters:
+    - id: a
+      type: Beryl.Math.Vector4
+    - id: b
+      type: Beryl.Math.Vector4
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared Operator -(a As Vector4, b As Vector4) As Vector4
+  overload: Beryl.Math.Vector4.op_Subtraction*
+  nameWithType.vb: Vector4.-(Vector4, Vector4)
+  fullName.vb: Beryl.Math.Vector4.-(Beryl.Math.Vector4, Beryl.Math.Vector4)
+  name.vb: -(Vector4, Vector4)
+- uid: Beryl.Math.Vector4.op_UnaryNegation(Beryl.Math.Vector4)
+  commentId: M:Beryl.Math.Vector4.op_UnaryNegation(Beryl.Math.Vector4)
+  id: op_UnaryNegation(Beryl.Math.Vector4)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: operator -(Vector4)
+  nameWithType: Vector4.operator -(Vector4)
+  fullName: Beryl.Math.Vector4.operator -(Beryl.Math.Vector4)
+  type: Operator
+  source:
+    id: op_UnaryNegation
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 119
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Vector4 operator -(Vector4 v)
+    parameters:
+    - id: v
+      type: Beryl.Math.Vector4
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared Operator -(v As Vector4) As Vector4
+  overload: Beryl.Math.Vector4.op_UnaryNegation*
+  nameWithType.vb: Vector4.-(Vector4)
+  fullName.vb: Beryl.Math.Vector4.-(Beryl.Math.Vector4)
+  name.vb: -(Vector4)
+- uid: Beryl.Math.Vector4.op_Multiply(Beryl.Math.Vector4,System.Single)
+  commentId: M:Beryl.Math.Vector4.op_Multiply(Beryl.Math.Vector4,System.Single)
+  id: op_Multiply(Beryl.Math.Vector4,System.Single)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: operator *(Vector4, float)
+  nameWithType: Vector4.operator *(Vector4, float)
+  fullName: Beryl.Math.Vector4.operator *(Beryl.Math.Vector4, float)
+  type: Operator
+  source:
+    id: op_Multiply
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 122
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Vector4 operator *(Vector4 a, float scalar)
+    parameters:
+    - id: a
+      type: Beryl.Math.Vector4
+    - id: scalar
+      type: System.Single
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared Operator *(a As Vector4, scalar As Single) As Vector4
+  overload: Beryl.Math.Vector4.op_Multiply*
+  nameWithType.vb: Vector4.*(Vector4, Single)
+  fullName.vb: Beryl.Math.Vector4.*(Beryl.Math.Vector4, Single)
+  name.vb: '*(Vector4, Single)'
+- uid: Beryl.Math.Vector4.op_Multiply(System.Single,Beryl.Math.Vector4)
+  commentId: M:Beryl.Math.Vector4.op_Multiply(System.Single,Beryl.Math.Vector4)
+  id: op_Multiply(System.Single,Beryl.Math.Vector4)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: operator *(float, Vector4)
+  nameWithType: Vector4.operator *(float, Vector4)
+  fullName: Beryl.Math.Vector4.operator *(float, Beryl.Math.Vector4)
+  type: Operator
+  source:
+    id: op_Multiply
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 125
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Vector4 operator *(float scalar, Vector4 a)
+    parameters:
+    - id: scalar
+      type: System.Single
+    - id: a
+      type: Beryl.Math.Vector4
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared Operator *(scalar As Single, a As Vector4) As Vector4
+  overload: Beryl.Math.Vector4.op_Multiply*
+  nameWithType.vb: Vector4.*(Single, Vector4)
+  fullName.vb: Beryl.Math.Vector4.*(Single, Beryl.Math.Vector4)
+  name.vb: '*(Single, Vector4)'
+- uid: Beryl.Math.Vector4.op_Division(Beryl.Math.Vector4,System.Single)
+  commentId: M:Beryl.Math.Vector4.op_Division(Beryl.Math.Vector4,System.Single)
+  id: op_Division(Beryl.Math.Vector4,System.Single)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: operator /(Vector4, float)
+  nameWithType: Vector4.operator /(Vector4, float)
+  fullName: Beryl.Math.Vector4.operator /(Beryl.Math.Vector4, float)
+  type: Operator
+  source:
+    id: op_Division
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 128
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Vector4 operator /(Vector4 a, float scalar)
+    parameters:
+    - id: a
+      type: Beryl.Math.Vector4
+    - id: scalar
+      type: System.Single
+    return:
+      type: Beryl.Math.Vector4
+    content.vb: Public Shared Operator /(a As Vector4, scalar As Single) As Vector4
+  overload: Beryl.Math.Vector4.op_Division*
+  nameWithType.vb: Vector4./(Vector4, Single)
+  fullName.vb: Beryl.Math.Vector4./(Beryl.Math.Vector4, Single)
+  name.vb: /(Vector4, Single)
+- uid: Beryl.Math.Vector4.op_Equality(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  commentId: M:Beryl.Math.Vector4.op_Equality(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  id: op_Equality(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Vector4, Vector4)
+  nameWithType: Vector4.operator ==(Vector4, Vector4)
+  fullName: Beryl.Math.Vector4.operator ==(Beryl.Math.Vector4, Beryl.Math.Vector4)
+  type: Operator
+  source:
+    id: op_Equality
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 131
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static bool operator ==(Vector4 a, Vector4 b)
+    parameters:
+    - id: a
+      type: Beryl.Math.Vector4
+    - id: b
+      type: Beryl.Math.Vector4
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As Vector4, b As Vector4) As Boolean
+  overload: Beryl.Math.Vector4.op_Equality*
+  nameWithType.vb: Vector4.=(Vector4, Vector4)
+  fullName.vb: Beryl.Math.Vector4.=(Beryl.Math.Vector4, Beryl.Math.Vector4)
+  name.vb: =(Vector4, Vector4)
+- uid: Beryl.Math.Vector4.op_Inequality(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  commentId: M:Beryl.Math.Vector4.op_Inequality(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  id: op_Inequality(Beryl.Math.Vector4,Beryl.Math.Vector4)
+  parent: Beryl.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Vector4, Vector4)
+  nameWithType: Vector4.operator !=(Vector4, Vector4)
+  fullName: Beryl.Math.Vector4.operator !=(Beryl.Math.Vector4, Beryl.Math.Vector4)
+  type: Operator
+  source:
+    id: op_Inequality
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector4.cs
+    startLine: 134
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static bool operator !=(Vector4 a, Vector4 b)
+    parameters:
+    - id: a
+      type: Beryl.Math.Vector4
+    - id: b
+      type: Beryl.Math.Vector4
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As Vector4, b As Vector4) As Boolean
+  overload: Beryl.Math.Vector4.op_Inequality*
+  nameWithType.vb: Vector4.<>(Vector4, Vector4)
+  fullName.vb: Beryl.Math.Vector4.<>(Beryl.Math.Vector4, Beryl.Math.Vector4)
+  name.vb: <>(Vector4, Vector4)
+references:
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: System.IEquatable{Beryl.Math.Vector4}
+  commentId: T:System.IEquatable{Beryl.Math.Vector4}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Vector4>
+  nameWithType: IEquatable<Vector4>
+  fullName: System.IEquatable<Beryl.Math.Vector4>
+  nameWithType.vb: IEquatable(Of Vector4)
+  fullName.vb: System.IEquatable(Of Beryl.Math.Vector4)
+  name.vb: IEquatable(Of Vector4)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Beryl.Math.Vector4
+    name: Vector4
+    href: Beryl.Math.Vector4.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Math.Vector4
+    name: Vector4
+    href: Beryl.Math.Vector4.html
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Math.Vector4
+  commentId: T:Beryl.Math.Vector4
+  parent: Beryl.Math
+  href: Beryl.Math.Vector4.html
+  name: Vector4
+  nameWithType: Vector4
+  fullName: Beryl.Math.Vector4
+- uid: Beryl.Math.Vector4.X*
+  commentId: Overload:Beryl.Math.Vector4.X
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_X
+  name: X
+  nameWithType: Vector4.X
+  fullName: Beryl.Math.Vector4.X
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Beryl.Math.Vector4.Y*
+  commentId: Overload:Beryl.Math.Vector4.Y
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_Y
+  name: Y
+  nameWithType: Vector4.Y
+  fullName: Beryl.Math.Vector4.Y
+- uid: Beryl.Math.Vector4.Z*
+  commentId: Overload:Beryl.Math.Vector4.Z
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_Z
+  name: Z
+  nameWithType: Vector4.Z
+  fullName: Beryl.Math.Vector4.Z
+- uid: Beryl.Math.Vector4.W*
+  commentId: Overload:Beryl.Math.Vector4.W
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_W
+  name: W
+  nameWithType: Vector4.W
+  fullName: Beryl.Math.Vector4.W
+- uid: Beryl.Math.Vector4.Length*
+  commentId: Overload:Beryl.Math.Vector4.Length
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_Length
+  name: Length
+  nameWithType: Vector4.Length
+  fullName: Beryl.Math.Vector4.Length
+- uid: Beryl.Math.Vector4.#ctor*
+  commentId: Overload:Beryl.Math.Vector4.#ctor
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4__ctor_System_Single_System_Single_System_Single_System_Single_
+  name: Vector4
+  nameWithType: Vector4.Vector4
+  fullName: Beryl.Math.Vector4.Vector4
+  nameWithType.vb: Vector4.New
+  fullName.vb: Beryl.Math.Vector4.New
+  name.vb: New
+- uid: Beryl.Math.Vector4.Zero*
+  commentId: Overload:Beryl.Math.Vector4.Zero
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_Zero
+  name: Zero
+  nameWithType: Vector4.Zero
+  fullName: Beryl.Math.Vector4.Zero
+- uid: Beryl.Math.Vector4.One*
+  commentId: Overload:Beryl.Math.Vector4.One
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_One
+  name: One
+  nameWithType: Vector4.One
+  fullName: Beryl.Math.Vector4.One
+- uid: Beryl.Math.Vector4.UnitX*
+  commentId: Overload:Beryl.Math.Vector4.UnitX
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_UnitX
+  name: UnitX
+  nameWithType: Vector4.UnitX
+  fullName: Beryl.Math.Vector4.UnitX
+- uid: Beryl.Math.Vector4.UnitY*
+  commentId: Overload:Beryl.Math.Vector4.UnitY
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_UnitY
+  name: UnitY
+  nameWithType: Vector4.UnitY
+  fullName: Beryl.Math.Vector4.UnitY
+- uid: Beryl.Math.Vector4.UnitZ*
+  commentId: Overload:Beryl.Math.Vector4.UnitZ
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_UnitZ
+  name: UnitZ
+  nameWithType: Vector4.UnitZ
+  fullName: Beryl.Math.Vector4.UnitZ
+- uid: Beryl.Math.Vector4.UnitW*
+  commentId: Overload:Beryl.Math.Vector4.UnitW
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_UnitW
+  name: UnitW
+  nameWithType: Vector4.UnitW
+  fullName: Beryl.Math.Vector4.UnitW
+- uid: Beryl.Math.Vector4.Dot*
+  commentId: Overload:Beryl.Math.Vector4.Dot
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_Dot_Beryl_Math_Vector4_Beryl_Math_Vector4_
+  name: Dot
+  nameWithType: Vector4.Dot
+  fullName: Beryl.Math.Vector4.Dot
+- uid: Beryl.Math.Vector4.Normalize*
+  commentId: Overload:Beryl.Math.Vector4.Normalize
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_Normalize_Beryl_Math_Vector4_
+  name: Normalize
+  nameWithType: Vector4.Normalize
+  fullName: Beryl.Math.Vector4.Normalize
+- uid: Beryl.Math.Vector4.Transform*
+  commentId: Overload:Beryl.Math.Vector4.Transform
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_Transform_Beryl_Math_Vector4_Beryl_Math_Quaternion_
+  name: Transform
+  nameWithType: Vector4.Transform
+  fullName: Beryl.Math.Vector4.Transform
+- uid: Beryl.Math.Quaternion
+  commentId: T:Beryl.Math.Quaternion
+  parent: Beryl.Math
+  href: Beryl.Math.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Beryl.Math.Quaternion
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Beryl.Math.Vector4.Equals*
+  commentId: Overload:Beryl.Math.Vector4.Equals
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_Equals_System_Object_
+  name: Equals
+  nameWithType: Vector4.Equals
+  fullName: Beryl.Math.Vector4.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.IEquatable{Beryl.Math.Vector4}.Equals(Beryl.Math.Vector4)
+  commentId: M:System.IEquatable{Beryl.Math.Vector4}.Equals(Beryl.Math.Vector4)
+  parent: System.IEquatable{Beryl.Math.Vector4}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Vector4)
+  nameWithType: IEquatable<Vector4>.Equals(Vector4)
+  fullName: System.IEquatable<Beryl.Math.Vector4>.Equals(Beryl.Math.Vector4)
+  nameWithType.vb: IEquatable(Of Vector4).Equals(Vector4)
+  fullName.vb: System.IEquatable(Of Beryl.Math.Vector4).Equals(Beryl.Math.Vector4)
+  spec.csharp:
+  - uid: System.IEquatable{Beryl.Math.Vector4}.Equals(Beryl.Math.Vector4)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Beryl.Math.Vector4
+    name: Vector4
+    href: Beryl.Math.Vector4.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Beryl.Math.Vector4}.Equals(Beryl.Math.Vector4)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Beryl.Math.Vector4
+    name: Vector4
+    href: Beryl.Math.Vector4.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Beryl.Math.Vector4.GetHashCode*
+  commentId: Overload:Beryl.Math.Vector4.GetHashCode
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_GetHashCode
+  name: GetHashCode
+  nameWithType: Vector4.GetHashCode
+  fullName: Beryl.Math.Vector4.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: Beryl.Math.Vector4.ToString*
+  commentId: Overload:Beryl.Math.Vector4.ToString
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_ToString
+  name: ToString
+  nameWithType: Vector4.ToString
+  fullName: Beryl.Math.Vector4.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Beryl.Math.Vector4.op_Implicit*
+  commentId: Overload:Beryl.Math.Vector4.op_Implicit
+  name: implicit operator
+  nameWithType: Vector4.implicit operator
+  fullName: Beryl.Math.Vector4.implicit operator
+  nameWithType.vb: Vector4.CType
+  fullName.vb: Beryl.Math.Vector4.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: System.Numerics.Vector4
+  commentId: T:System.Numerics.Vector4
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  name: Vector4
+  nameWithType: Vector4
+  fullName: System.Numerics.Vector4
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Beryl.Math.Vector4.op_Addition*
+  commentId: Overload:Beryl.Math.Vector4.op_Addition
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Addition_Beryl_Math_Vector4_Beryl_Math_Vector4_
+  name: operator +
+  nameWithType: Vector4.operator +
+  fullName: Beryl.Math.Vector4.operator +
+  nameWithType.vb: Vector4.+
+  fullName.vb: Beryl.Math.Vector4.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector4.op_Addition*
+    name: +
+    href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Addition_Beryl_Math_Vector4_Beryl_Math_Vector4_
+- uid: Beryl.Math.Vector4.op_Subtraction*
+  commentId: Overload:Beryl.Math.Vector4.op_Subtraction
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Subtraction_Beryl_Math_Vector4_Beryl_Math_Vector4_
+  name: operator -
+  nameWithType: Vector4.operator -
+  fullName: Beryl.Math.Vector4.operator -
+  nameWithType.vb: Vector4.-
+  fullName.vb: Beryl.Math.Vector4.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector4.op_Subtraction*
+    name: '-'
+    href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Subtraction_Beryl_Math_Vector4_Beryl_Math_Vector4_
+- uid: Beryl.Math.Vector4.op_UnaryNegation*
+  commentId: Overload:Beryl.Math.Vector4.op_UnaryNegation
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_UnaryNegation_Beryl_Math_Vector4_
+  name: operator -
+  nameWithType: Vector4.operator -
+  fullName: Beryl.Math.Vector4.operator -
+  nameWithType.vb: Vector4.-
+  fullName.vb: Beryl.Math.Vector4.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector4.op_UnaryNegation*
+    name: '-'
+    href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_UnaryNegation_Beryl_Math_Vector4_
+- uid: Beryl.Math.Vector4.op_Multiply*
+  commentId: Overload:Beryl.Math.Vector4.op_Multiply
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Multiply_Beryl_Math_Vector4_System_Single_
+  name: operator *
+  nameWithType: Vector4.operator *
+  fullName: Beryl.Math.Vector4.operator *
+  nameWithType.vb: Vector4.*
+  fullName.vb: Beryl.Math.Vector4.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector4.op_Multiply*
+    name: '*'
+    href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Multiply_Beryl_Math_Vector4_System_Single_
+- uid: Beryl.Math.Vector4.op_Division*
+  commentId: Overload:Beryl.Math.Vector4.op_Division
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Division_Beryl_Math_Vector4_System_Single_
+  name: operator /
+  nameWithType: Vector4.operator /
+  fullName: Beryl.Math.Vector4.operator /
+  nameWithType.vb: Vector4./
+  fullName.vb: Beryl.Math.Vector4./
+  name.vb: /
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector4.op_Division*
+    name: /
+    href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Division_Beryl_Math_Vector4_System_Single_
+- uid: Beryl.Math.Vector4.op_Equality*
+  commentId: Overload:Beryl.Math.Vector4.op_Equality
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Equality_Beryl_Math_Vector4_Beryl_Math_Vector4_
+  name: operator ==
+  nameWithType: Vector4.operator ==
+  fullName: Beryl.Math.Vector4.operator ==
+  nameWithType.vb: Vector4.=
+  fullName.vb: Beryl.Math.Vector4.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector4.op_Equality*
+    name: ==
+    href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Equality_Beryl_Math_Vector4_Beryl_Math_Vector4_
+- uid: Beryl.Math.Vector4.op_Inequality*
+  commentId: Overload:Beryl.Math.Vector4.op_Inequality
+  href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Inequality_Beryl_Math_Vector4_Beryl_Math_Vector4_
+  name: operator !=
+  nameWithType: Vector4.operator !=
+  fullName: Beryl.Math.Vector4.operator !=
+  nameWithType.vb: Vector4.<>
+  fullName.vb: Beryl.Math.Vector4.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector4.op_Inequality*
+    name: '!='
+    href: Beryl.Math.Vector4.html#Beryl_Math_Vector4_op_Inequality_Beryl_Math_Vector4_Beryl_Math_Vector4_

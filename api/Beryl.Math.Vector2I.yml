@@ -1,0 +1,1284 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Math.Vector2I
+  commentId: T:Beryl.Math.Vector2I
+  id: Vector2I
+  parent: Beryl.Math
+  children:
+  - Beryl.Math.Vector2I.#ctor(System.Int32,System.Int32)
+  - Beryl.Math.Vector2I.Dot(Beryl.Math.Vector2I)
+  - Beryl.Math.Vector2I.Dot(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  - Beryl.Math.Vector2I.Equals(Beryl.Math.Vector2I)
+  - Beryl.Math.Vector2I.Equals(System.Object)
+  - Beryl.Math.Vector2I.GetHashCode
+  - Beryl.Math.Vector2I.Length
+  - Beryl.Math.Vector2I.One
+  - Beryl.Math.Vector2I.ToString
+  - Beryl.Math.Vector2I.UnitX
+  - Beryl.Math.Vector2I.UnitY
+  - Beryl.Math.Vector2I.Up
+  - Beryl.Math.Vector2I.X
+  - Beryl.Math.Vector2I.Y
+  - Beryl.Math.Vector2I.Zero
+  - Beryl.Math.Vector2I.op_Addition(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  - Beryl.Math.Vector2I.op_Equality(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  - Beryl.Math.Vector2I.op_Inequality(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  - Beryl.Math.Vector2I.op_Multiply(Beryl.Math.Vector2I,System.Int32)
+  - Beryl.Math.Vector2I.op_Multiply(System.Int32,Beryl.Math.Vector2I)
+  - Beryl.Math.Vector2I.op_Subtraction(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  - Beryl.Math.Vector2I.op_UnaryNegation(Beryl.Math.Vector2I)
+  langs:
+  - csharp
+  - vb
+  name: Vector2I
+  nameWithType: Vector2I
+  fullName: Beryl.Math.Vector2I
+  type: Struct
+  source:
+    id: Vector2I
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 8
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Represents a two-dimensional integer point.
+  example: []
+  syntax:
+    content: 'public struct Vector2I : IEquatable<Vector2I>'
+    content.vb: Public Structure Vector2I Implements IEquatable(Of Vector2I)
+  implements:
+  - System.IEquatable{Beryl.Math.Vector2I}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Beryl.Math.Vector2I.X
+  commentId: P:Beryl.Math.Vector2I.X
+  id: X
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Vector2I.X
+  fullName: Beryl.Math.Vector2I.X
+  type: Property
+  source:
+    id: X
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 11
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: The X component of the <xref href="Beryl.Math.Vector2I" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public int X { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property X As Integer
+  overload: Beryl.Math.Vector2I.X*
+- uid: Beryl.Math.Vector2I.Y
+  commentId: P:Beryl.Math.Vector2I.Y
+  id: Y
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Vector2I.Y
+  fullName: Beryl.Math.Vector2I.Y
+  type: Property
+  source:
+    id: Y
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 14
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: The Y component of the <xref href="Beryl.Math.Vector2I" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public int Y { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Y As Integer
+  overload: Beryl.Math.Vector2I.Y*
+- uid: Beryl.Math.Vector2I.Length
+  commentId: P:Beryl.Math.Vector2I.Length
+  id: Length
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: Vector2I.Length
+  fullName: Beryl.Math.Vector2I.Length
+  type: Property
+  source:
+    id: Length
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 17
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: The length of the <xref href="Beryl.Math.Vector2I" data-throw-if-not-resolved="false"></xref> as a float.
+  example: []
+  syntax:
+    content: public float Length { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Length As Single
+  overload: Beryl.Math.Vector2I.Length*
+- uid: Beryl.Math.Vector2I.#ctor(System.Int32,System.Int32)
+  commentId: M:Beryl.Math.Vector2I.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: Vector2I(int, int)
+  nameWithType: Vector2I.Vector2I(int, int)
+  fullName: Beryl.Math.Vector2I.Vector2I(int, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 20
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Creates a new instance of <xref href="Beryl.Math.Vector2I" data-throw-if-not-resolved="false"></xref> with the specified components.
+  example: []
+  syntax:
+    content: public Vector2I(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    content.vb: Public Sub New(x As Integer, y As Integer)
+  overload: Beryl.Math.Vector2I.#ctor*
+  nameWithType.vb: Vector2I.New(Integer, Integer)
+  fullName.vb: Beryl.Math.Vector2I.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+- uid: Beryl.Math.Vector2I.Zero
+  commentId: P:Beryl.Math.Vector2I.Zero
+  id: Zero
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: Vector2I.Zero
+  fullName: Beryl.Math.Vector2I.Zero
+  type: Property
+  source:
+    id: Zero
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 27
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: A Vector with all components set to zero.
+  example: []
+  syntax:
+    content: public static Vector2I Zero { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public Shared ReadOnly Property Zero As Vector2I
+  overload: Beryl.Math.Vector2I.Zero*
+- uid: Beryl.Math.Vector2I.One
+  commentId: P:Beryl.Math.Vector2I.One
+  id: One
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: One
+  nameWithType: Vector2I.One
+  fullName: Beryl.Math.Vector2I.One
+  type: Property
+  source:
+    id: One
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 30
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: A Vector with all components set to one.
+  example: []
+  syntax:
+    content: public static Vector2I One { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public Shared ReadOnly Property One As Vector2I
+  overload: Beryl.Math.Vector2I.One*
+- uid: Beryl.Math.Vector2I.Up
+  commentId: P:Beryl.Math.Vector2I.Up
+  id: Up
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: Vector2I.Up
+  fullName: Beryl.Math.Vector2I.Up
+  type: Property
+  source:
+    id: Up
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 33
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: A Vector set to the world's up direction.
+  example: []
+  syntax:
+    content: public static Vector2I Up { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public Shared ReadOnly Property Up As Vector2I
+  overload: Beryl.Math.Vector2I.Up*
+- uid: Beryl.Math.Vector2I.UnitX
+  commentId: P:Beryl.Math.Vector2I.UnitX
+  id: UnitX
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: UnitX
+  nameWithType: Vector2I.UnitX
+  fullName: Beryl.Math.Vector2I.UnitX
+  type: Property
+  source:
+    id: UnitX
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 36
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: A Vector with X set to 1.
+  example: []
+  syntax:
+    content: public static Vector2I UnitX { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public Shared ReadOnly Property UnitX As Vector2I
+  overload: Beryl.Math.Vector2I.UnitX*
+- uid: Beryl.Math.Vector2I.UnitY
+  commentId: P:Beryl.Math.Vector2I.UnitY
+  id: UnitY
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: UnitY
+  nameWithType: Vector2I.UnitY
+  fullName: Beryl.Math.Vector2I.UnitY
+  type: Property
+  source:
+    id: UnitY
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 39
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: A Vector with Y set to 1.
+  example: []
+  syntax:
+    content: public static Vector2I UnitY { get; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public Shared ReadOnly Property UnitY As Vector2I
+  overload: Beryl.Math.Vector2I.UnitY*
+- uid: Beryl.Math.Vector2I.Dot(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  commentId: M:Beryl.Math.Vector2I.Dot(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  id: Dot(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: Dot(Vector2I, Vector2I)
+  nameWithType: Vector2I.Dot(Vector2I, Vector2I)
+  fullName: Beryl.Math.Vector2I.Dot(Beryl.Math.Vector2I, Beryl.Math.Vector2I)
+  type: Method
+  source:
+    id: Dot
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 42
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the dot product of the two vectors.
+  example: []
+  syntax:
+    content: public static int Dot(Vector2I v1, Vector2I v2)
+    parameters:
+    - id: v1
+      type: Beryl.Math.Vector2I
+    - id: v2
+      type: Beryl.Math.Vector2I
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function Dot(v1 As Vector2I, v2 As Vector2I) As Integer
+  overload: Beryl.Math.Vector2I.Dot*
+- uid: Beryl.Math.Vector2I.Dot(Beryl.Math.Vector2I)
+  commentId: M:Beryl.Math.Vector2I.Dot(Beryl.Math.Vector2I)
+  id: Dot(Beryl.Math.Vector2I)
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: Dot(Vector2I)
+  nameWithType: Vector2I.Dot(Vector2I)
+  fullName: Beryl.Math.Vector2I.Dot(Beryl.Math.Vector2I)
+  type: Method
+  source:
+    id: Dot
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 45
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the dot product of the two vectors.
+  example: []
+  syntax:
+    content: public int Dot(Vector2I v)
+    parameters:
+    - id: v
+      type: Beryl.Math.Vector2I
+    return:
+      type: System.Int32
+    content.vb: Public Function Dot(v As Vector2I) As Integer
+  overload: Beryl.Math.Vector2I.Dot*
+- uid: Beryl.Math.Vector2I.Equals(System.Object)
+  commentId: M:Beryl.Math.Vector2I.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Vector2I.Equals(object?)
+  fullName: Beryl.Math.Vector2I.Equals(object?)
+  type: Method
+  source:
+    id: Equals
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 48
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Beryl.Math.Vector2I.Equals*
+  nameWithType.vb: Vector2I.Equals(Object)
+  fullName.vb: Beryl.Math.Vector2I.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Beryl.Math.Vector2I.Equals(Beryl.Math.Vector2I)
+  commentId: M:Beryl.Math.Vector2I.Equals(Beryl.Math.Vector2I)
+  id: Equals(Beryl.Math.Vector2I)
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: Equals(Vector2I)
+  nameWithType: Vector2I.Equals(Vector2I)
+  fullName: Beryl.Math.Vector2I.Equals(Beryl.Math.Vector2I)
+  type: Method
+  source:
+    id: Equals
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 57
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Compares two <xref href="Beryl.Math.Vector2I" data-throw-if-not-resolved="false"></xref>s for equality.
+  example: []
+  syntax:
+    content: public bool Equals(Vector2I other)
+    parameters:
+    - id: other
+      type: Beryl.Math.Vector2I
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As Vector2I) As Boolean
+  overload: Beryl.Math.Vector2I.Equals*
+  implements:
+  - System.IEquatable{Beryl.Math.Vector2I}.Equals(Beryl.Math.Vector2I)
+- uid: Beryl.Math.Vector2I.GetHashCode
+  commentId: M:Beryl.Math.Vector2I.GetHashCode
+  id: GetHashCode
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Vector2I.GetHashCode()
+  fullName: Beryl.Math.Vector2I.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 60
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Beryl.Math.Vector2I.GetHashCode*
+- uid: Beryl.Math.Vector2I.ToString
+  commentId: M:Beryl.Math.Vector2I.ToString
+  id: ToString
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Vector2I.ToString()
+  fullName: Beryl.Math.Vector2I.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 63
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  summary: Returns the fully qualified type name of this instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The fully qualified type name.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: Beryl.Math.Vector2I.ToString*
+- uid: Beryl.Math.Vector2I.op_Addition(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  commentId: M:Beryl.Math.Vector2I.op_Addition(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  id: op_Addition(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: operator +(Vector2I, Vector2I)
+  nameWithType: Vector2I.operator +(Vector2I, Vector2I)
+  fullName: Beryl.Math.Vector2I.operator +(Beryl.Math.Vector2I, Beryl.Math.Vector2I)
+  type: Operator
+  source:
+    id: op_Addition
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 66
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Vector2I operator +(Vector2I a, Vector2I b)
+    parameters:
+    - id: a
+      type: Beryl.Math.Vector2I
+    - id: b
+      type: Beryl.Math.Vector2I
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public Shared Operator +(a As Vector2I, b As Vector2I) As Vector2I
+  overload: Beryl.Math.Vector2I.op_Addition*
+  nameWithType.vb: Vector2I.+(Vector2I, Vector2I)
+  fullName.vb: Beryl.Math.Vector2I.+(Beryl.Math.Vector2I, Beryl.Math.Vector2I)
+  name.vb: +(Vector2I, Vector2I)
+- uid: Beryl.Math.Vector2I.op_Subtraction(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  commentId: M:Beryl.Math.Vector2I.op_Subtraction(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  id: op_Subtraction(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: operator -(Vector2I, Vector2I)
+  nameWithType: Vector2I.operator -(Vector2I, Vector2I)
+  fullName: Beryl.Math.Vector2I.operator -(Beryl.Math.Vector2I, Beryl.Math.Vector2I)
+  type: Operator
+  source:
+    id: op_Subtraction
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 69
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Vector2I operator -(Vector2I a, Vector2I b)
+    parameters:
+    - id: a
+      type: Beryl.Math.Vector2I
+    - id: b
+      type: Beryl.Math.Vector2I
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public Shared Operator -(a As Vector2I, b As Vector2I) As Vector2I
+  overload: Beryl.Math.Vector2I.op_Subtraction*
+  nameWithType.vb: Vector2I.-(Vector2I, Vector2I)
+  fullName.vb: Beryl.Math.Vector2I.-(Beryl.Math.Vector2I, Beryl.Math.Vector2I)
+  name.vb: -(Vector2I, Vector2I)
+- uid: Beryl.Math.Vector2I.op_UnaryNegation(Beryl.Math.Vector2I)
+  commentId: M:Beryl.Math.Vector2I.op_UnaryNegation(Beryl.Math.Vector2I)
+  id: op_UnaryNegation(Beryl.Math.Vector2I)
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: operator -(Vector2I)
+  nameWithType: Vector2I.operator -(Vector2I)
+  fullName: Beryl.Math.Vector2I.operator -(Beryl.Math.Vector2I)
+  type: Operator
+  source:
+    id: op_UnaryNegation
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 72
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Vector2I operator -(Vector2I v)
+    parameters:
+    - id: v
+      type: Beryl.Math.Vector2I
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public Shared Operator -(v As Vector2I) As Vector2I
+  overload: Beryl.Math.Vector2I.op_UnaryNegation*
+  nameWithType.vb: Vector2I.-(Vector2I)
+  fullName.vb: Beryl.Math.Vector2I.-(Beryl.Math.Vector2I)
+  name.vb: -(Vector2I)
+- uid: Beryl.Math.Vector2I.op_Multiply(Beryl.Math.Vector2I,System.Int32)
+  commentId: M:Beryl.Math.Vector2I.op_Multiply(Beryl.Math.Vector2I,System.Int32)
+  id: op_Multiply(Beryl.Math.Vector2I,System.Int32)
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: operator *(Vector2I, int)
+  nameWithType: Vector2I.operator *(Vector2I, int)
+  fullName: Beryl.Math.Vector2I.operator *(Beryl.Math.Vector2I, int)
+  type: Operator
+  source:
+    id: op_Multiply
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 75
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Vector2I operator *(Vector2I a, int scalar)
+    parameters:
+    - id: a
+      type: Beryl.Math.Vector2I
+    - id: scalar
+      type: System.Int32
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public Shared Operator *(a As Vector2I, scalar As Integer) As Vector2I
+  overload: Beryl.Math.Vector2I.op_Multiply*
+  nameWithType.vb: Vector2I.*(Vector2I, Integer)
+  fullName.vb: Beryl.Math.Vector2I.*(Beryl.Math.Vector2I, Integer)
+  name.vb: '*(Vector2I, Integer)'
+- uid: Beryl.Math.Vector2I.op_Multiply(System.Int32,Beryl.Math.Vector2I)
+  commentId: M:Beryl.Math.Vector2I.op_Multiply(System.Int32,Beryl.Math.Vector2I)
+  id: op_Multiply(System.Int32,Beryl.Math.Vector2I)
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: operator *(int, Vector2I)
+  nameWithType: Vector2I.operator *(int, Vector2I)
+  fullName: Beryl.Math.Vector2I.operator *(int, Beryl.Math.Vector2I)
+  type: Operator
+  source:
+    id: op_Multiply
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 78
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static Vector2I operator *(int scalar, Vector2I a)
+    parameters:
+    - id: scalar
+      type: System.Int32
+    - id: a
+      type: Beryl.Math.Vector2I
+    return:
+      type: Beryl.Math.Vector2I
+    content.vb: Public Shared Operator *(scalar As Integer, a As Vector2I) As Vector2I
+  overload: Beryl.Math.Vector2I.op_Multiply*
+  nameWithType.vb: Vector2I.*(Integer, Vector2I)
+  fullName.vb: Beryl.Math.Vector2I.*(Integer, Beryl.Math.Vector2I)
+  name.vb: '*(Integer, Vector2I)'
+- uid: Beryl.Math.Vector2I.op_Equality(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  commentId: M:Beryl.Math.Vector2I.op_Equality(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  id: op_Equality(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Vector2I, Vector2I)
+  nameWithType: Vector2I.operator ==(Vector2I, Vector2I)
+  fullName: Beryl.Math.Vector2I.operator ==(Beryl.Math.Vector2I, Beryl.Math.Vector2I)
+  type: Operator
+  source:
+    id: op_Equality
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 81
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static bool operator ==(Vector2I a, Vector2I b)
+    parameters:
+    - id: a
+      type: Beryl.Math.Vector2I
+    - id: b
+      type: Beryl.Math.Vector2I
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As Vector2I, b As Vector2I) As Boolean
+  overload: Beryl.Math.Vector2I.op_Equality*
+  nameWithType.vb: Vector2I.=(Vector2I, Vector2I)
+  fullName.vb: Beryl.Math.Vector2I.=(Beryl.Math.Vector2I, Beryl.Math.Vector2I)
+  name.vb: =(Vector2I, Vector2I)
+- uid: Beryl.Math.Vector2I.op_Inequality(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  commentId: M:Beryl.Math.Vector2I.op_Inequality(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  id: op_Inequality(Beryl.Math.Vector2I,Beryl.Math.Vector2I)
+  parent: Beryl.Math.Vector2I
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Vector2I, Vector2I)
+  nameWithType: Vector2I.operator !=(Vector2I, Vector2I)
+  fullName: Beryl.Math.Vector2I.operator !=(Beryl.Math.Vector2I, Beryl.Math.Vector2I)
+  type: Operator
+  source:
+    id: op_Inequality
+    path: E:\Beryl\Documentation\src\Beryl.Math\Vectors\Vector2I.cs
+    startLine: 84
+  assemblies:
+  - Beryl.Math
+  namespace: Beryl.Math
+  syntax:
+    content: public static bool operator !=(Vector2I a, Vector2I b)
+    parameters:
+    - id: a
+      type: Beryl.Math.Vector2I
+    - id: b
+      type: Beryl.Math.Vector2I
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As Vector2I, b As Vector2I) As Boolean
+  overload: Beryl.Math.Vector2I.op_Inequality*
+  nameWithType.vb: Vector2I.<>(Vector2I, Vector2I)
+  fullName.vb: Beryl.Math.Vector2I.<>(Beryl.Math.Vector2I, Beryl.Math.Vector2I)
+  name.vb: <>(Vector2I, Vector2I)
+references:
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: System.IEquatable{Beryl.Math.Vector2I}
+  commentId: T:System.IEquatable{Beryl.Math.Vector2I}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Vector2I>
+  nameWithType: IEquatable<Vector2I>
+  fullName: System.IEquatable<Beryl.Math.Vector2I>
+  nameWithType.vb: IEquatable(Of Vector2I)
+  fullName.vb: System.IEquatable(Of Beryl.Math.Vector2I)
+  name.vb: IEquatable(Of Vector2I)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Beryl.Math.Vector2I
+    name: Vector2I
+    href: Beryl.Math.Vector2I.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Math.Vector2I
+    name: Vector2I
+    href: Beryl.Math.Vector2I.html
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Math.Vector2I
+  commentId: T:Beryl.Math.Vector2I
+  parent: Beryl.Math
+  href: Beryl.Math.Vector2I.html
+  name: Vector2I
+  nameWithType: Vector2I
+  fullName: Beryl.Math.Vector2I
+- uid: Beryl.Math.Vector2I.X*
+  commentId: Overload:Beryl.Math.Vector2I.X
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_X
+  name: X
+  nameWithType: Vector2I.X
+  fullName: Beryl.Math.Vector2I.X
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Beryl.Math.Vector2I.Y*
+  commentId: Overload:Beryl.Math.Vector2I.Y
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_Y
+  name: Y
+  nameWithType: Vector2I.Y
+  fullName: Beryl.Math.Vector2I.Y
+- uid: Beryl.Math.Vector2I.Length*
+  commentId: Overload:Beryl.Math.Vector2I.Length
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_Length
+  name: Length
+  nameWithType: Vector2I.Length
+  fullName: Beryl.Math.Vector2I.Length
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Beryl.Math.Vector2I.#ctor*
+  commentId: Overload:Beryl.Math.Vector2I.#ctor
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I__ctor_System_Int32_System_Int32_
+  name: Vector2I
+  nameWithType: Vector2I.Vector2I
+  fullName: Beryl.Math.Vector2I.Vector2I
+  nameWithType.vb: Vector2I.New
+  fullName.vb: Beryl.Math.Vector2I.New
+  name.vb: New
+- uid: Beryl.Math.Vector2I.Zero*
+  commentId: Overload:Beryl.Math.Vector2I.Zero
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_Zero
+  name: Zero
+  nameWithType: Vector2I.Zero
+  fullName: Beryl.Math.Vector2I.Zero
+- uid: Beryl.Math.Vector2I.One*
+  commentId: Overload:Beryl.Math.Vector2I.One
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_One
+  name: One
+  nameWithType: Vector2I.One
+  fullName: Beryl.Math.Vector2I.One
+- uid: Beryl.Math.Vector2I.Up*
+  commentId: Overload:Beryl.Math.Vector2I.Up
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_Up
+  name: Up
+  nameWithType: Vector2I.Up
+  fullName: Beryl.Math.Vector2I.Up
+- uid: Beryl.Math.Vector2I.UnitX*
+  commentId: Overload:Beryl.Math.Vector2I.UnitX
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_UnitX
+  name: UnitX
+  nameWithType: Vector2I.UnitX
+  fullName: Beryl.Math.Vector2I.UnitX
+- uid: Beryl.Math.Vector2I.UnitY*
+  commentId: Overload:Beryl.Math.Vector2I.UnitY
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_UnitY
+  name: UnitY
+  nameWithType: Vector2I.UnitY
+  fullName: Beryl.Math.Vector2I.UnitY
+- uid: Beryl.Math.Vector2I.Dot*
+  commentId: Overload:Beryl.Math.Vector2I.Dot
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_Dot_Beryl_Math_Vector2I_Beryl_Math_Vector2I_
+  name: Dot
+  nameWithType: Vector2I.Dot
+  fullName: Beryl.Math.Vector2I.Dot
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Beryl.Math.Vector2I.Equals*
+  commentId: Overload:Beryl.Math.Vector2I.Equals
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_Equals_System_Object_
+  name: Equals
+  nameWithType: Vector2I.Equals
+  fullName: Beryl.Math.Vector2I.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.IEquatable{Beryl.Math.Vector2I}.Equals(Beryl.Math.Vector2I)
+  commentId: M:System.IEquatable{Beryl.Math.Vector2I}.Equals(Beryl.Math.Vector2I)
+  parent: System.IEquatable{Beryl.Math.Vector2I}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Vector2I)
+  nameWithType: IEquatable<Vector2I>.Equals(Vector2I)
+  fullName: System.IEquatable<Beryl.Math.Vector2I>.Equals(Beryl.Math.Vector2I)
+  nameWithType.vb: IEquatable(Of Vector2I).Equals(Vector2I)
+  fullName.vb: System.IEquatable(Of Beryl.Math.Vector2I).Equals(Beryl.Math.Vector2I)
+  spec.csharp:
+  - uid: System.IEquatable{Beryl.Math.Vector2I}.Equals(Beryl.Math.Vector2I)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Beryl.Math.Vector2I
+    name: Vector2I
+    href: Beryl.Math.Vector2I.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Beryl.Math.Vector2I}.Equals(Beryl.Math.Vector2I)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Beryl.Math.Vector2I
+    name: Vector2I
+    href: Beryl.Math.Vector2I.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Beryl.Math.Vector2I.GetHashCode*
+  commentId: Overload:Beryl.Math.Vector2I.GetHashCode
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_GetHashCode
+  name: GetHashCode
+  nameWithType: Vector2I.GetHashCode
+  fullName: Beryl.Math.Vector2I.GetHashCode
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: Beryl.Math.Vector2I.ToString*
+  commentId: Overload:Beryl.Math.Vector2I.ToString
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_ToString
+  name: ToString
+  nameWithType: Vector2I.ToString
+  fullName: Beryl.Math.Vector2I.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Beryl.Math.Vector2I.op_Addition*
+  commentId: Overload:Beryl.Math.Vector2I.op_Addition
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_Addition_Beryl_Math_Vector2I_Beryl_Math_Vector2I_
+  name: operator +
+  nameWithType: Vector2I.operator +
+  fullName: Beryl.Math.Vector2I.operator +
+  nameWithType.vb: Vector2I.+
+  fullName.vb: Beryl.Math.Vector2I.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector2I.op_Addition*
+    name: +
+    href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_Addition_Beryl_Math_Vector2I_Beryl_Math_Vector2I_
+- uid: Beryl.Math.Vector2I.op_Subtraction*
+  commentId: Overload:Beryl.Math.Vector2I.op_Subtraction
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_Subtraction_Beryl_Math_Vector2I_Beryl_Math_Vector2I_
+  name: operator -
+  nameWithType: Vector2I.operator -
+  fullName: Beryl.Math.Vector2I.operator -
+  nameWithType.vb: Vector2I.-
+  fullName.vb: Beryl.Math.Vector2I.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector2I.op_Subtraction*
+    name: '-'
+    href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_Subtraction_Beryl_Math_Vector2I_Beryl_Math_Vector2I_
+- uid: Beryl.Math.Vector2I.op_UnaryNegation*
+  commentId: Overload:Beryl.Math.Vector2I.op_UnaryNegation
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_UnaryNegation_Beryl_Math_Vector2I_
+  name: operator -
+  nameWithType: Vector2I.operator -
+  fullName: Beryl.Math.Vector2I.operator -
+  nameWithType.vb: Vector2I.-
+  fullName.vb: Beryl.Math.Vector2I.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector2I.op_UnaryNegation*
+    name: '-'
+    href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_UnaryNegation_Beryl_Math_Vector2I_
+- uid: Beryl.Math.Vector2I.op_Multiply*
+  commentId: Overload:Beryl.Math.Vector2I.op_Multiply
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_Multiply_Beryl_Math_Vector2I_System_Int32_
+  name: operator *
+  nameWithType: Vector2I.operator *
+  fullName: Beryl.Math.Vector2I.operator *
+  nameWithType.vb: Vector2I.*
+  fullName.vb: Beryl.Math.Vector2I.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector2I.op_Multiply*
+    name: '*'
+    href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_Multiply_Beryl_Math_Vector2I_System_Int32_
+- uid: Beryl.Math.Vector2I.op_Equality*
+  commentId: Overload:Beryl.Math.Vector2I.op_Equality
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_Equality_Beryl_Math_Vector2I_Beryl_Math_Vector2I_
+  name: operator ==
+  nameWithType: Vector2I.operator ==
+  fullName: Beryl.Math.Vector2I.operator ==
+  nameWithType.vb: Vector2I.=
+  fullName.vb: Beryl.Math.Vector2I.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector2I.op_Equality*
+    name: ==
+    href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_Equality_Beryl_Math_Vector2I_Beryl_Math_Vector2I_
+- uid: Beryl.Math.Vector2I.op_Inequality*
+  commentId: Overload:Beryl.Math.Vector2I.op_Inequality
+  href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_Inequality_Beryl_Math_Vector2I_Beryl_Math_Vector2I_
+  name: operator !=
+  nameWithType: Vector2I.operator !=
+  fullName: Beryl.Math.Vector2I.operator !=
+  nameWithType.vb: Vector2I.<>
+  fullName.vb: Beryl.Math.Vector2I.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Beryl.Math.Vector2I.op_Inequality*
+    name: '!='
+    href: Beryl.Math.Vector2I.html#Beryl_Math_Vector2I_op_Inequality_Beryl_Math_Vector2I_Beryl_Math_Vector2I_

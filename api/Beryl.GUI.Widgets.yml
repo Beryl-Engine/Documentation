@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.GUI.Widgets
+  commentId: N:Beryl.GUI.Widgets
+  id: Widgets
+  parent: Beryl.GUI
+  children:
+  - Beryl.GUI.Widgets.Widget
+  langs:
+  - csharp
+  - vb
+  name: Beryl.GUI.Widgets
+  nameWithType: Beryl.GUI.Widgets
+  fullName: Beryl.GUI.Widgets
+  type: Namespace
+  assemblies:
+  - Beryl.GUI
+references:
+- uid: Beryl.GUI.Widgets.Widget
+  commentId: T:Beryl.GUI.Widgets.Widget
+  parent: Beryl.GUI.Widgets
+  href: Beryl.GUI.Widgets.Widget.html
+  name: Widget
+  nameWithType: Widget
+  fullName: Beryl.GUI.Widgets.Widget
+- uid: Beryl.GUI.Widgets
+  commentId: N:Beryl.GUI.Widgets
+  href: Beryl.html
+  name: Beryl.GUI.Widgets
+  nameWithType: Beryl.GUI.Widgets
+  fullName: Beryl.GUI.Widgets
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.GUI
+    name: GUI
+    href: Beryl.GUI.html
+  - name: .
+  - uid: Beryl.GUI.Widgets
+    name: Widgets
+    href: Beryl.GUI.Widgets.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.GUI
+    name: GUI
+    href: Beryl.GUI.html
+  - name: .
+  - uid: Beryl.GUI.Widgets
+    name: Widgets
+    href: Beryl.GUI.Widgets.html

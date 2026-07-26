@@ -1,0 +1,842 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Input.InputModule
+  commentId: T:Beryl.Input.InputModule
+  id: InputModule
+  parent: Beryl.Input
+  children:
+  - Beryl.Input.InputModule.AddDevice(Beryl.Input.Devices.IInputDevice)
+  - Beryl.Input.InputModule.Devices
+  - Beryl.Input.InputModule.Dispose
+  - Beryl.Input.InputModule.Initialize
+  - Beryl.Input.InputModule.PrimaryGamepad
+  - Beryl.Input.InputModule.PrimaryKeyboard
+  - Beryl.Input.InputModule.PrimaryMouse
+  - Beryl.Input.InputModule.Update
+  langs:
+  - csharp
+  - vb
+  name: InputModule
+  nameWithType: InputModule
+  fullName: Beryl.Input.InputModule
+  type: Class
+  source:
+    id: InputModule
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\InputModule.cs
+    startLine: 13
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input
+  summary: Module responsible for handling user input.
+  example: []
+  syntax:
+    content: 'public class InputModule : BaseModule, IDisposable'
+    content.vb: Public Class InputModule Inherits BaseModule Implements IDisposable
+  inheritance:
+  - System.Object
+  - Beryl.Common.BaseModule
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - Beryl.Common.BaseModule.IsInitialized
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Input.InputModule.Devices
+  commentId: P:Beryl.Input.InputModule.Devices
+  id: Devices
+  parent: Beryl.Input.InputModule
+  langs:
+  - csharp
+  - vb
+  name: Devices
+  nameWithType: InputModule.Devices
+  fullName: Beryl.Input.InputModule.Devices
+  type: Property
+  source:
+    id: Devices
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\InputModule.cs
+    startLine: 16
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input
+  summary: All currently connected input devices.
+  example: []
+  syntax:
+    content: public IReadOnlyList<IInputDevice> Devices { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Beryl.Input.Devices.IInputDevice}
+    content.vb: Public ReadOnly Property Devices As IReadOnlyList(Of IInputDevice)
+  overload: Beryl.Input.InputModule.Devices*
+- uid: Beryl.Input.InputModule.PrimaryKeyboard
+  commentId: P:Beryl.Input.InputModule.PrimaryKeyboard
+  id: PrimaryKeyboard
+  parent: Beryl.Input.InputModule
+  langs:
+  - csharp
+  - vb
+  name: PrimaryKeyboard
+  nameWithType: InputModule.PrimaryKeyboard
+  fullName: Beryl.Input.InputModule.PrimaryKeyboard
+  type: Property
+  source:
+    id: PrimaryKeyboard
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\InputModule.cs
+    startLine: 19
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input
+  summary: The primary (first connected) <xref href="Beryl.Input.Devices.Keyboard" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Keyboard? PrimaryKeyboard { get; }
+    parameters: []
+    return:
+      type: Beryl.Input.Devices.Keyboard
+    content.vb: Public Property PrimaryKeyboard As Keyboard
+  overload: Beryl.Input.InputModule.PrimaryKeyboard*
+- uid: Beryl.Input.InputModule.PrimaryMouse
+  commentId: P:Beryl.Input.InputModule.PrimaryMouse
+  id: PrimaryMouse
+  parent: Beryl.Input.InputModule
+  langs:
+  - csharp
+  - vb
+  name: PrimaryMouse
+  nameWithType: InputModule.PrimaryMouse
+  fullName: Beryl.Input.InputModule.PrimaryMouse
+  type: Property
+  source:
+    id: PrimaryMouse
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\InputModule.cs
+    startLine: 22
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input
+  summary: The primary (first connected) <xref href="Beryl.Input.Devices.Mouse" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Mouse? PrimaryMouse { get; }
+    parameters: []
+    return:
+      type: Beryl.Input.Devices.Mouse
+    content.vb: Public Property PrimaryMouse As Mouse
+  overload: Beryl.Input.InputModule.PrimaryMouse*
+- uid: Beryl.Input.InputModule.PrimaryGamepad
+  commentId: P:Beryl.Input.InputModule.PrimaryGamepad
+  id: PrimaryGamepad
+  parent: Beryl.Input.InputModule
+  langs:
+  - csharp
+  - vb
+  name: PrimaryGamepad
+  nameWithType: InputModule.PrimaryGamepad
+  fullName: Beryl.Input.InputModule.PrimaryGamepad
+  type: Property
+  source:
+    id: PrimaryGamepad
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\InputModule.cs
+    startLine: 25
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input
+  summary: The primary (first connected) <xref href="Beryl.Input.Devices.Gamepad" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Gamepad? PrimaryGamepad { get; }
+    parameters: []
+    return:
+      type: Beryl.Input.Devices.Gamepad
+    content.vb: Public Property PrimaryGamepad As Gamepad
+  overload: Beryl.Input.InputModule.PrimaryGamepad*
+- uid: Beryl.Input.InputModule.AddDevice(Beryl.Input.Devices.IInputDevice)
+  commentId: M:Beryl.Input.InputModule.AddDevice(Beryl.Input.Devices.IInputDevice)
+  id: AddDevice(Beryl.Input.Devices.IInputDevice)
+  parent: Beryl.Input.InputModule
+  langs:
+  - csharp
+  - vb
+  name: AddDevice(IInputDevice)
+  nameWithType: InputModule.AddDevice(IInputDevice)
+  fullName: Beryl.Input.InputModule.AddDevice(Beryl.Input.Devices.IInputDevice)
+  type: Method
+  source:
+    id: AddDevice
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\InputModule.cs
+    startLine: 31
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input
+  syntax:
+    content: public void AddDevice(IInputDevice device)
+    parameters:
+    - id: device
+      type: Beryl.Input.Devices.IInputDevice
+    content.vb: Public Sub AddDevice(device As IInputDevice)
+  overload: Beryl.Input.InputModule.AddDevice*
+- uid: Beryl.Input.InputModule.Initialize
+  commentId: M:Beryl.Input.InputModule.Initialize
+  id: Initialize
+  parent: Beryl.Input.InputModule
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: InputModule.Initialize()
+  fullName: Beryl.Input.InputModule.Initialize()
+  type: Method
+  source:
+    id: Initialize
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\InputModule.cs
+    startLine: 34
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input
+  summary: Runs when <xref href="Beryl.Common.ModuleManager.InitializeAll" data-throw-if-not-resolved="false"></xref> is called.
+  example: []
+  syntax:
+    content: public override void Initialize()
+    content.vb: Public Overrides Sub Initialize()
+  overridden: Beryl.Common.BaseModule.Initialize
+  overload: Beryl.Input.InputModule.Initialize*
+- uid: Beryl.Input.InputModule.Dispose
+  commentId: M:Beryl.Input.InputModule.Dispose
+  id: Dispose
+  parent: Beryl.Input.InputModule
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: InputModule.Dispose()
+  fullName: Beryl.Input.InputModule.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\InputModule.cs
+    startLine: 55
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input
+  summary: Runs when <xref href="Beryl.Common.ModuleManager.DisposeAll" data-throw-if-not-resolved="false"></xref> is called.
+  remarks: The default implementation unregisters this <xref href="Beryl.Common.BaseModule" data-throw-if-not-resolved="false"></xref> from <xref href="Beryl.Common.ModuleManager" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose()
+  overridden: Beryl.Common.BaseModule.Dispose
+  overload: Beryl.Input.InputModule.Dispose*
+- uid: Beryl.Input.InputModule.Update
+  commentId: M:Beryl.Input.InputModule.Update
+  id: Update
+  parent: Beryl.Input.InputModule
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: InputModule.Update()
+  fullName: Beryl.Input.InputModule.Update()
+  type: Method
+  source:
+    id: Update
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Input\InputModule.cs
+    startLine: 64
+  assemblies:
+  - Beryl.Input
+  namespace: Beryl.Input
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update()
+  overload: Beryl.Input.InputModule.Update*
+references:
+- uid: Beryl.Input
+  commentId: N:Beryl.Input
+  href: Beryl.html
+  name: Beryl.Input
+  nameWithType: Beryl.Input
+  fullName: Beryl.Input
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Common.BaseModule
+  commentId: T:Beryl.Common.BaseModule
+  parent: Beryl.Common
+  href: Beryl.Common.BaseModule.html
+  name: BaseModule
+  nameWithType: BaseModule
+  fullName: Beryl.Common.BaseModule
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Beryl.Common.BaseModule.IsInitialized
+  commentId: P:Beryl.Common.BaseModule.IsInitialized
+  parent: Beryl.Common.BaseModule
+  href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_IsInitialized
+  name: IsInitialized
+  nameWithType: BaseModule.IsInitialized
+  fullName: Beryl.Common.BaseModule.IsInitialized
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Common
+  commentId: N:Beryl.Common
+  href: Beryl.html
+  name: Beryl.Common
+  nameWithType: Beryl.Common
+  fullName: Beryl.Common
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Common
+    name: Common
+    href: Beryl.Common.html
+- uid: Beryl.Input.InputModule.Devices*
+  commentId: Overload:Beryl.Input.InputModule.Devices
+  href: Beryl.Input.InputModule.html#Beryl_Input_InputModule_Devices
+  name: Devices
+  nameWithType: InputModule.Devices
+  fullName: Beryl.Input.InputModule.Devices
+- uid: System.Collections.Generic.IReadOnlyList{Beryl.Input.Devices.IInputDevice}
+  commentId: T:System.Collections.Generic.IReadOnlyList{Beryl.Input.Devices.IInputDevice}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<IInputDevice>
+  nameWithType: IReadOnlyList<IInputDevice>
+  fullName: System.Collections.Generic.IReadOnlyList<Beryl.Input.Devices.IInputDevice>
+  nameWithType.vb: IReadOnlyList(Of IInputDevice)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Beryl.Input.Devices.IInputDevice)
+  name.vb: IReadOnlyList(Of IInputDevice)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: Beryl.Input.Devices.IInputDevice
+    name: IInputDevice
+    href: Beryl.Input.Devices.IInputDevice.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Input.Devices.IInputDevice
+    name: IInputDevice
+    href: Beryl.Input.Devices.IInputDevice.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Beryl.Input.Devices.Keyboard
+  commentId: T:Beryl.Input.Devices.Keyboard
+  parent: Beryl.Input.Devices
+  href: Beryl.Input.Devices.Keyboard.html
+  name: Keyboard
+  nameWithType: Keyboard
+  fullName: Beryl.Input.Devices.Keyboard
+- uid: Beryl.Input.InputModule.PrimaryKeyboard*
+  commentId: Overload:Beryl.Input.InputModule.PrimaryKeyboard
+  href: Beryl.Input.InputModule.html#Beryl_Input_InputModule_PrimaryKeyboard
+  name: PrimaryKeyboard
+  nameWithType: InputModule.PrimaryKeyboard
+  fullName: Beryl.Input.InputModule.PrimaryKeyboard
+- uid: Beryl.Input.Devices
+  commentId: N:Beryl.Input.Devices
+  href: Beryl.html
+  name: Beryl.Input.Devices
+  nameWithType: Beryl.Input.Devices
+  fullName: Beryl.Input.Devices
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Input
+    name: Input
+    href: Beryl.Input.html
+  - name: .
+  - uid: Beryl.Input.Devices
+    name: Devices
+    href: Beryl.Input.Devices.html
+- uid: Beryl.Input.Devices.Mouse
+  commentId: T:Beryl.Input.Devices.Mouse
+  parent: Beryl.Input.Devices
+  href: Beryl.Input.Devices.Mouse.html
+  name: Mouse
+  nameWithType: Mouse
+  fullName: Beryl.Input.Devices.Mouse
+- uid: Beryl.Input.InputModule.PrimaryMouse*
+  commentId: Overload:Beryl.Input.InputModule.PrimaryMouse
+  href: Beryl.Input.InputModule.html#Beryl_Input_InputModule_PrimaryMouse
+  name: PrimaryMouse
+  nameWithType: InputModule.PrimaryMouse
+  fullName: Beryl.Input.InputModule.PrimaryMouse
+- uid: Beryl.Input.Devices.Gamepad
+  commentId: T:Beryl.Input.Devices.Gamepad
+  parent: Beryl.Input.Devices
+  href: Beryl.Input.Devices.Gamepad.html
+  name: Gamepad
+  nameWithType: Gamepad
+  fullName: Beryl.Input.Devices.Gamepad
+- uid: Beryl.Input.InputModule.PrimaryGamepad*
+  commentId: Overload:Beryl.Input.InputModule.PrimaryGamepad
+  href: Beryl.Input.InputModule.html#Beryl_Input_InputModule_PrimaryGamepad
+  name: PrimaryGamepad
+  nameWithType: InputModule.PrimaryGamepad
+  fullName: Beryl.Input.InputModule.PrimaryGamepad
+- uid: Beryl.Input.InputModule.AddDevice*
+  commentId: Overload:Beryl.Input.InputModule.AddDevice
+  href: Beryl.Input.InputModule.html#Beryl_Input_InputModule_AddDevice_Beryl_Input_Devices_IInputDevice_
+  name: AddDevice
+  nameWithType: InputModule.AddDevice
+  fullName: Beryl.Input.InputModule.AddDevice
+- uid: Beryl.Input.Devices.IInputDevice
+  commentId: T:Beryl.Input.Devices.IInputDevice
+  parent: Beryl.Input.Devices
+  href: Beryl.Input.Devices.IInputDevice.html
+  name: IInputDevice
+  nameWithType: IInputDevice
+  fullName: Beryl.Input.Devices.IInputDevice
+- uid: Beryl.Common.ModuleManager.InitializeAll
+  commentId: M:Beryl.Common.ModuleManager.InitializeAll
+  href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_InitializeAll
+  name: InitializeAll()
+  nameWithType: ModuleManager.InitializeAll()
+  fullName: Beryl.Common.ModuleManager.InitializeAll()
+  spec.csharp:
+  - uid: Beryl.Common.ModuleManager.InitializeAll
+    name: InitializeAll
+    href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_InitializeAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.ModuleManager.InitializeAll
+    name: InitializeAll
+    href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_InitializeAll
+  - name: (
+  - name: )
+- uid: Beryl.Common.BaseModule.Initialize
+  commentId: M:Beryl.Common.BaseModule.Initialize
+  parent: Beryl.Common.BaseModule
+  href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Initialize
+  name: Initialize()
+  nameWithType: BaseModule.Initialize()
+  fullName: Beryl.Common.BaseModule.Initialize()
+  spec.csharp:
+  - uid: Beryl.Common.BaseModule.Initialize
+    name: Initialize
+    href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Initialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.BaseModule.Initialize
+    name: Initialize
+    href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Initialize
+  - name: (
+  - name: )
+- uid: Beryl.Input.InputModule.Initialize*
+  commentId: Overload:Beryl.Input.InputModule.Initialize
+  href: Beryl.Input.InputModule.html#Beryl_Input_InputModule_Initialize
+  name: Initialize
+  nameWithType: InputModule.Initialize
+  fullName: Beryl.Input.InputModule.Initialize
+- uid: Beryl.Common.ModuleManager.DisposeAll
+  commentId: M:Beryl.Common.ModuleManager.DisposeAll
+  href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_DisposeAll
+  name: DisposeAll()
+  nameWithType: ModuleManager.DisposeAll()
+  fullName: Beryl.Common.ModuleManager.DisposeAll()
+  spec.csharp:
+  - uid: Beryl.Common.ModuleManager.DisposeAll
+    name: DisposeAll
+    href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_DisposeAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.ModuleManager.DisposeAll
+    name: DisposeAll
+    href: Beryl.Common.ModuleManager.html#Beryl_Common_ModuleManager_DisposeAll
+  - name: (
+  - name: )
+- uid: Beryl.Common.ModuleManager
+  commentId: T:Beryl.Common.ModuleManager
+  href: Beryl.Common.ModuleManager.html
+  name: ModuleManager
+  nameWithType: ModuleManager
+  fullName: Beryl.Common.ModuleManager
+- uid: Beryl.Common.BaseModule.Dispose
+  commentId: M:Beryl.Common.BaseModule.Dispose
+  parent: Beryl.Common.BaseModule
+  href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Dispose
+  name: Dispose()
+  nameWithType: BaseModule.Dispose()
+  fullName: Beryl.Common.BaseModule.Dispose()
+  spec.csharp:
+  - uid: Beryl.Common.BaseModule.Dispose
+    name: Dispose
+    href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Common.BaseModule.Dispose
+    name: Dispose
+    href: Beryl.Common.BaseModule.html#Beryl_Common_BaseModule_Dispose
+  - name: (
+  - name: )
+- uid: Beryl.Input.InputModule.Dispose*
+  commentId: Overload:Beryl.Input.InputModule.Dispose
+  href: Beryl.Input.InputModule.html#Beryl_Input_InputModule_Dispose
+  name: Dispose
+  nameWithType: InputModule.Dispose
+  fullName: Beryl.Input.InputModule.Dispose
+- uid: Beryl.Input.InputModule.Update*
+  commentId: Overload:Beryl.Input.InputModule.Update
+  href: Beryl.Input.InputModule.html#Beryl_Input_InputModule_Update
+  name: Update
+  nameWithType: InputModule.Update
+  fullName: Beryl.Input.InputModule.Update

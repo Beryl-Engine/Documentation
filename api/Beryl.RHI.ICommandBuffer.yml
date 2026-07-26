@@ -1,0 +1,685 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.ICommandBuffer
+  commentId: T:Beryl.RHI.ICommandBuffer
+  id: ICommandBuffer
+  parent: Beryl.RHI
+  children:
+  - Beryl.RHI.ICommandBuffer.Begin
+  - Beryl.RHI.ICommandBuffer.ClearColor(Beryl.Math.Color)
+  - Beryl.RHI.ICommandBuffer.ClearDepth(System.Single)
+  - Beryl.RHI.ICommandBuffer.CurrentFramebuffer
+  - Beryl.RHI.ICommandBuffer.DrawIndexed(System.UInt32)
+  - Beryl.RHI.ICommandBuffer.End
+  - Beryl.RHI.ICommandBuffer.SetFrameBuffer(Beryl.RHI.Resources.IFramebuffer)
+  - Beryl.RHI.ICommandBuffer.SetGraphicsResourceSet(System.UInt32,Beryl.RHI.Resources.IResourceSet)
+  - Beryl.RHI.ICommandBuffer.SetIndexBuffer(Beryl.RHI.Resources.IBuffer)
+  - Beryl.RHI.ICommandBuffer.SetPipeline(Beryl.RHI.Resources.IPipeline)
+  - Beryl.RHI.ICommandBuffer.SetVertexBuffer(System.UInt32,Beryl.RHI.Resources.IBuffer)
+  - Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+  langs:
+  - csharp
+  - vb
+  name: ICommandBuffer
+  nameWithType: ICommandBuffer
+  fullName: Beryl.RHI.ICommandBuffer
+  type: Interface
+  source:
+    id: ICommandBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 11
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Low-level buffer of GPU commands to be submitted.
+  example: []
+  syntax:
+    content: 'public interface ICommandBuffer : IDisposable'
+    content.vb: Public Interface ICommandBuffer Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: Beryl.RHI.ICommandBuffer.Begin
+  commentId: M:Beryl.RHI.ICommandBuffer.Begin
+  id: Begin
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: Begin()
+  nameWithType: ICommandBuffer.Begin()
+  fullName: Beryl.RHI.ICommandBuffer.Begin()
+  type: Method
+  source:
+    id: Begin
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 15
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Begins recording GPU commands.
+  example: []
+  syntax:
+    content: void Begin()
+    content.vb: Sub Begin()
+  overload: Beryl.RHI.ICommandBuffer.Begin*
+- uid: Beryl.RHI.ICommandBuffer.End
+  commentId: M:Beryl.RHI.ICommandBuffer.End
+  id: End
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: End()
+  nameWithType: ICommandBuffer.End()
+  fullName: Beryl.RHI.ICommandBuffer.End()
+  type: Method
+  source:
+    id: End
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 18
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Ends recording GPU commands.
+  example: []
+  syntax:
+    content: void End()
+    content.vb: Sub [End]()
+  overload: Beryl.RHI.ICommandBuffer.End*
+- uid: Beryl.RHI.ICommandBuffer.SetFrameBuffer(Beryl.RHI.Resources.IFramebuffer)
+  commentId: M:Beryl.RHI.ICommandBuffer.SetFrameBuffer(Beryl.RHI.Resources.IFramebuffer)
+  id: SetFrameBuffer(Beryl.RHI.Resources.IFramebuffer)
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetFrameBuffer(IFramebuffer)
+  nameWithType: ICommandBuffer.SetFrameBuffer(IFramebuffer)
+  fullName: Beryl.RHI.ICommandBuffer.SetFrameBuffer(Beryl.RHI.Resources.IFramebuffer)
+  type: Method
+  source:
+    id: SetFrameBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 23
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Sets the <xref href="Beryl.RHI.Resources.IFramebuffer" data-throw-if-not-resolved="false"></xref> to render commands to.
+  example: []
+  syntax:
+    content: void SetFrameBuffer(IFramebuffer frameBuffer)
+    parameters:
+    - id: frameBuffer
+      type: Beryl.RHI.Resources.IFramebuffer
+    content.vb: Sub SetFrameBuffer(frameBuffer As IFramebuffer)
+  overload: Beryl.RHI.ICommandBuffer.SetFrameBuffer*
+- uid: Beryl.RHI.ICommandBuffer.CurrentFramebuffer
+  commentId: P:Beryl.RHI.ICommandBuffer.CurrentFramebuffer
+  id: CurrentFramebuffer
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: CurrentFramebuffer
+  nameWithType: ICommandBuffer.CurrentFramebuffer
+  fullName: Beryl.RHI.ICommandBuffer.CurrentFramebuffer
+  type: Property
+  source:
+    id: CurrentFramebuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 26
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: The currently set framebuffer target.
+  example: []
+  syntax:
+    content: IFramebuffer? CurrentFramebuffer { get; }
+    parameters: []
+    return:
+      type: Beryl.RHI.Resources.IFramebuffer
+    content.vb: ReadOnly Property CurrentFramebuffer As IFramebuffer
+  overload: Beryl.RHI.ICommandBuffer.CurrentFramebuffer*
+- uid: Beryl.RHI.ICommandBuffer.SetPipeline(Beryl.RHI.Resources.IPipeline)
+  commentId: M:Beryl.RHI.ICommandBuffer.SetPipeline(Beryl.RHI.Resources.IPipeline)
+  id: SetPipeline(Beryl.RHI.Resources.IPipeline)
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetPipeline(IPipeline)
+  nameWithType: ICommandBuffer.SetPipeline(IPipeline)
+  fullName: Beryl.RHI.ICommandBuffer.SetPipeline(Beryl.RHI.Resources.IPipeline)
+  type: Method
+  source:
+    id: SetPipeline
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 31
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Sets the active pipeline.
+  example: []
+  syntax:
+    content: void SetPipeline(IPipeline pipeline)
+    parameters:
+    - id: pipeline
+      type: Beryl.RHI.Resources.IPipeline
+    content.vb: Sub SetPipeline(pipeline As IPipeline)
+  overload: Beryl.RHI.ICommandBuffer.SetPipeline*
+- uid: Beryl.RHI.ICommandBuffer.SetVertexBuffer(System.UInt32,Beryl.RHI.Resources.IBuffer)
+  commentId: M:Beryl.RHI.ICommandBuffer.SetVertexBuffer(System.UInt32,Beryl.RHI.Resources.IBuffer)
+  id: SetVertexBuffer(System.UInt32,Beryl.RHI.Resources.IBuffer)
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetVertexBuffer(uint, IBuffer)
+  nameWithType: ICommandBuffer.SetVertexBuffer(uint, IBuffer)
+  fullName: Beryl.RHI.ICommandBuffer.SetVertexBuffer(uint, Beryl.RHI.Resources.IBuffer)
+  type: Method
+  source:
+    id: SetVertexBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 34
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Sets a vertex buffer at the given slot.
+  example: []
+  syntax:
+    content: void SetVertexBuffer(uint slot, IBuffer buffer)
+    parameters:
+    - id: slot
+      type: System.UInt32
+    - id: buffer
+      type: Beryl.RHI.Resources.IBuffer
+    content.vb: Sub SetVertexBuffer(slot As UInteger, buffer As IBuffer)
+  overload: Beryl.RHI.ICommandBuffer.SetVertexBuffer*
+  nameWithType.vb: ICommandBuffer.SetVertexBuffer(UInteger, IBuffer)
+  fullName.vb: Beryl.RHI.ICommandBuffer.SetVertexBuffer(UInteger, Beryl.RHI.Resources.IBuffer)
+  name.vb: SetVertexBuffer(UInteger, IBuffer)
+- uid: Beryl.RHI.ICommandBuffer.SetIndexBuffer(Beryl.RHI.Resources.IBuffer)
+  commentId: M:Beryl.RHI.ICommandBuffer.SetIndexBuffer(Beryl.RHI.Resources.IBuffer)
+  id: SetIndexBuffer(Beryl.RHI.Resources.IBuffer)
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetIndexBuffer(IBuffer)
+  nameWithType: ICommandBuffer.SetIndexBuffer(IBuffer)
+  fullName: Beryl.RHI.ICommandBuffer.SetIndexBuffer(Beryl.RHI.Resources.IBuffer)
+  type: Method
+  source:
+    id: SetIndexBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 37
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Sets the index buffer.
+  example: []
+  syntax:
+    content: void SetIndexBuffer(IBuffer buffer)
+    parameters:
+    - id: buffer
+      type: Beryl.RHI.Resources.IBuffer
+    content.vb: Sub SetIndexBuffer(buffer As IBuffer)
+  overload: Beryl.RHI.ICommandBuffer.SetIndexBuffer*
+- uid: Beryl.RHI.ICommandBuffer.SetGraphicsResourceSet(System.UInt32,Beryl.RHI.Resources.IResourceSet)
+  commentId: M:Beryl.RHI.ICommandBuffer.SetGraphicsResourceSet(System.UInt32,Beryl.RHI.Resources.IResourceSet)
+  id: SetGraphicsResourceSet(System.UInt32,Beryl.RHI.Resources.IResourceSet)
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetGraphicsResourceSet(uint, IResourceSet)
+  nameWithType: ICommandBuffer.SetGraphicsResourceSet(uint, IResourceSet)
+  fullName: Beryl.RHI.ICommandBuffer.SetGraphicsResourceSet(uint, Beryl.RHI.Resources.IResourceSet)
+  type: Method
+  source:
+    id: SetGraphicsResourceSet
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 40
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Binds a graphics resource set to the given slot.
+  example: []
+  syntax:
+    content: void SetGraphicsResourceSet(uint slot, IResourceSet resourceSet)
+    parameters:
+    - id: slot
+      type: System.UInt32
+    - id: resourceSet
+      type: Beryl.RHI.Resources.IResourceSet
+    content.vb: Sub SetGraphicsResourceSet(slot As UInteger, resourceSet As IResourceSet)
+  overload: Beryl.RHI.ICommandBuffer.SetGraphicsResourceSet*
+  nameWithType.vb: ICommandBuffer.SetGraphicsResourceSet(UInteger, IResourceSet)
+  fullName.vb: Beryl.RHI.ICommandBuffer.SetGraphicsResourceSet(UInteger, Beryl.RHI.Resources.IResourceSet)
+  name.vb: SetGraphicsResourceSet(UInteger, IResourceSet)
+- uid: Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+  commentId: M:Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+  id: UpdateBuffer(Beryl.RHI.Resources.IBuffer,System.UInt32,System.ReadOnlySpan{System.Byte})
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: UpdateBuffer(IBuffer, uint, ReadOnlySpan<byte>)
+  nameWithType: ICommandBuffer.UpdateBuffer(IBuffer, uint, ReadOnlySpan<byte>)
+  fullName: Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer, uint, System.ReadOnlySpan<byte>)
+  type: Method
+  source:
+    id: UpdateBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 45
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Updates a buffer with new data.
+  example: []
+  syntax:
+    content: void UpdateBuffer(IBuffer buffer, uint offset, ReadOnlySpan<byte> data)
+    parameters:
+    - id: buffer
+      type: Beryl.RHI.Resources.IBuffer
+    - id: offset
+      type: System.UInt32
+    - id: data
+      type: System.ReadOnlySpan{System.Byte}
+    content.vb: Sub UpdateBuffer(buffer As IBuffer, offset As UInteger, data As ReadOnlySpan(Of Byte))
+  overload: Beryl.RHI.ICommandBuffer.UpdateBuffer*
+  nameWithType.vb: ICommandBuffer.UpdateBuffer(IBuffer, UInteger, ReadOnlySpan(Of Byte))
+  fullName.vb: Beryl.RHI.ICommandBuffer.UpdateBuffer(Beryl.RHI.Resources.IBuffer, UInteger, System.ReadOnlySpan(Of Byte))
+  name.vb: UpdateBuffer(IBuffer, UInteger, ReadOnlySpan(Of Byte))
+- uid: Beryl.RHI.ICommandBuffer.DrawIndexed(System.UInt32)
+  commentId: M:Beryl.RHI.ICommandBuffer.DrawIndexed(System.UInt32)
+  id: DrawIndexed(System.UInt32)
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: DrawIndexed(uint)
+  nameWithType: ICommandBuffer.DrawIndexed(uint)
+  fullName: Beryl.RHI.ICommandBuffer.DrawIndexed(uint)
+  type: Method
+  source:
+    id: DrawIndexed
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 50
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Draws indexed primitives.
+  example: []
+  syntax:
+    content: void DrawIndexed(uint indexCount)
+    parameters:
+    - id: indexCount
+      type: System.UInt32
+    content.vb: Sub DrawIndexed(indexCount As UInteger)
+  overload: Beryl.RHI.ICommandBuffer.DrawIndexed*
+  nameWithType.vb: ICommandBuffer.DrawIndexed(UInteger)
+  fullName.vb: Beryl.RHI.ICommandBuffer.DrawIndexed(UInteger)
+  name.vb: DrawIndexed(UInteger)
+- uid: Beryl.RHI.ICommandBuffer.ClearDepth(System.Single)
+  commentId: M:Beryl.RHI.ICommandBuffer.ClearDepth(System.Single)
+  id: ClearDepth(System.Single)
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: ClearDepth(float)
+  nameWithType: ICommandBuffer.ClearDepth(float)
+  fullName: Beryl.RHI.ICommandBuffer.ClearDepth(float)
+  type: Method
+  source:
+    id: ClearDepth
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 55
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Clears the depth stencil to <code class="paramref">depth</code>.
+  example: []
+  syntax:
+    content: void ClearDepth(float depth)
+    parameters:
+    - id: depth
+      type: System.Single
+    content.vb: Sub ClearDepth(depth As Single)
+  overload: Beryl.RHI.ICommandBuffer.ClearDepth*
+  nameWithType.vb: ICommandBuffer.ClearDepth(Single)
+  fullName.vb: Beryl.RHI.ICommandBuffer.ClearDepth(Single)
+  name.vb: ClearDepth(Single)
+- uid: Beryl.RHI.ICommandBuffer.ClearColor(Beryl.Math.Color)
+  commentId: M:Beryl.RHI.ICommandBuffer.ClearColor(Beryl.Math.Color)
+  id: ClearColor(Beryl.Math.Color)
+  parent: Beryl.RHI.ICommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: ClearColor(Color)
+  nameWithType: ICommandBuffer.ClearColor(Color)
+  fullName: Beryl.RHI.ICommandBuffer.ClearColor(Beryl.Math.Color)
+  type: Method
+  source:
+    id: ClearColor
+    path: E:\Beryl\Documentation\src\Beryl.RHI\ICommandBuffer.cs
+    startLine: 58
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Clears the color buffer to <code class="paramref">color</code>.
+  example: []
+  syntax:
+    content: void ClearColor(Color color)
+    parameters:
+    - id: color
+      type: Beryl.Math.Color
+    content.vb: Sub ClearColor(color As Color)
+  overload: Beryl.RHI.ICommandBuffer.ClearColor*
+references:
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.RHI.ICommandBuffer.Begin*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.Begin
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_Begin
+  name: Begin
+  nameWithType: ICommandBuffer.Begin
+  fullName: Beryl.RHI.ICommandBuffer.Begin
+- uid: Beryl.RHI.ICommandBuffer.End*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.End
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_End
+  name: End
+  nameWithType: ICommandBuffer.End
+  fullName: Beryl.RHI.ICommandBuffer.End
+- uid: Beryl.RHI.Resources.IFramebuffer
+  commentId: T:Beryl.RHI.Resources.IFramebuffer
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IFramebuffer.html
+  name: IFramebuffer
+  nameWithType: IFramebuffer
+  fullName: Beryl.RHI.Resources.IFramebuffer
+- uid: Beryl.RHI.ICommandBuffer.SetFrameBuffer*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.SetFrameBuffer
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_SetFrameBuffer_Beryl_RHI_Resources_IFramebuffer_
+  name: SetFrameBuffer
+  nameWithType: ICommandBuffer.SetFrameBuffer
+  fullName: Beryl.RHI.ICommandBuffer.SetFrameBuffer
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.RHI.ICommandBuffer.CurrentFramebuffer*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.CurrentFramebuffer
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_CurrentFramebuffer
+  name: CurrentFramebuffer
+  nameWithType: ICommandBuffer.CurrentFramebuffer
+  fullName: Beryl.RHI.ICommandBuffer.CurrentFramebuffer
+- uid: Beryl.RHI.ICommandBuffer.SetPipeline*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.SetPipeline
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_SetPipeline_Beryl_RHI_Resources_IPipeline_
+  name: SetPipeline
+  nameWithType: ICommandBuffer.SetPipeline
+  fullName: Beryl.RHI.ICommandBuffer.SetPipeline
+- uid: Beryl.RHI.Resources.IPipeline
+  commentId: T:Beryl.RHI.Resources.IPipeline
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IPipeline.html
+  name: IPipeline
+  nameWithType: IPipeline
+  fullName: Beryl.RHI.Resources.IPipeline
+- uid: Beryl.RHI.ICommandBuffer.SetVertexBuffer*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.SetVertexBuffer
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_SetVertexBuffer_System_UInt32_Beryl_RHI_Resources_IBuffer_
+  name: SetVertexBuffer
+  nameWithType: ICommandBuffer.SetVertexBuffer
+  fullName: Beryl.RHI.ICommandBuffer.SetVertexBuffer
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Beryl.RHI.Resources.IBuffer
+  commentId: T:Beryl.RHI.Resources.IBuffer
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IBuffer.html
+  name: IBuffer
+  nameWithType: IBuffer
+  fullName: Beryl.RHI.Resources.IBuffer
+- uid: Beryl.RHI.ICommandBuffer.SetIndexBuffer*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.SetIndexBuffer
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_SetIndexBuffer_Beryl_RHI_Resources_IBuffer_
+  name: SetIndexBuffer
+  nameWithType: ICommandBuffer.SetIndexBuffer
+  fullName: Beryl.RHI.ICommandBuffer.SetIndexBuffer
+- uid: Beryl.RHI.ICommandBuffer.SetGraphicsResourceSet*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.SetGraphicsResourceSet
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_SetGraphicsResourceSet_System_UInt32_Beryl_RHI_Resources_IResourceSet_
+  name: SetGraphicsResourceSet
+  nameWithType: ICommandBuffer.SetGraphicsResourceSet
+  fullName: Beryl.RHI.ICommandBuffer.SetGraphicsResourceSet
+- uid: Beryl.RHI.Resources.IResourceSet
+  commentId: T:Beryl.RHI.Resources.IResourceSet
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IResourceSet.html
+  name: IResourceSet
+  nameWithType: IResourceSet
+  fullName: Beryl.RHI.Resources.IResourceSet
+- uid: Beryl.RHI.ICommandBuffer.UpdateBuffer*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.UpdateBuffer
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_UpdateBuffer_Beryl_RHI_Resources_IBuffer_System_UInt32_System_ReadOnlySpan_System_Byte__
+  name: UpdateBuffer
+  nameWithType: ICommandBuffer.UpdateBuffer
+  fullName: Beryl.RHI.ICommandBuffer.UpdateBuffer
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Beryl.RHI.ICommandBuffer.DrawIndexed*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.DrawIndexed
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_DrawIndexed_System_UInt32_
+  name: DrawIndexed
+  nameWithType: ICommandBuffer.DrawIndexed
+  fullName: Beryl.RHI.ICommandBuffer.DrawIndexed
+- uid: Beryl.RHI.ICommandBuffer.ClearDepth*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.ClearDepth
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_ClearDepth_System_Single_
+  name: ClearDepth
+  nameWithType: ICommandBuffer.ClearDepth
+  fullName: Beryl.RHI.ICommandBuffer.ClearDepth
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Beryl.RHI.ICommandBuffer.ClearColor*
+  commentId: Overload:Beryl.RHI.ICommandBuffer.ClearColor
+  href: Beryl.RHI.ICommandBuffer.html#Beryl_RHI_ICommandBuffer_ClearColor_Beryl_Math_Color_
+  name: ClearColor
+  nameWithType: ICommandBuffer.ClearColor
+  fullName: Beryl.RHI.ICommandBuffer.ClearColor
+- uid: Beryl.Math.Color
+  commentId: T:Beryl.Math.Color
+  parent: Beryl.Math
+  href: Beryl.Math.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Beryl.Math.Color
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html

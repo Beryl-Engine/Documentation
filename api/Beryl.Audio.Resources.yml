@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Audio.Resources
+  commentId: N:Beryl.Audio.Resources
+  id: Resources
+  parent: Beryl.Audio
+  children:
+  - Beryl.Audio.Resources.AudioClip
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Audio.Resources
+  nameWithType: Beryl.Audio.Resources
+  fullName: Beryl.Audio.Resources
+  type: Namespace
+  assemblies:
+  - Beryl.Audio
+references:
+- uid: Beryl.Audio.Resources.AudioClip
+  commentId: T:Beryl.Audio.Resources.AudioClip
+  parent: Beryl.Audio.Resources
+  href: Beryl.Audio.Resources.AudioClip.html
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: Beryl.Audio.Resources.AudioClip
+- uid: Beryl.Audio.Resources
+  commentId: N:Beryl.Audio.Resources
+  href: Beryl.html
+  name: Beryl.Audio.Resources
+  nameWithType: Beryl.Audio.Resources
+  fullName: Beryl.Audio.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Resources
+    name: Resources
+    href: Beryl.Audio.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Audio
+    name: Audio
+    href: Beryl.Audio.html
+  - name: .
+  - uid: Beryl.Audio.Resources
+    name: Resources
+    href: Beryl.Audio.Resources.html

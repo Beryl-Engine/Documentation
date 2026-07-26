@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Audio.Engines.OpenAL
+  commentId: N:Beryl.Audio.Engines.OpenAL
+  id: Engines.OpenAL
+  parent: Beryl.Audio
+  children:
+  - Beryl.Audio.Engines.OpenAL.OpenALContext
+  - Beryl.Audio.Engines.OpenAL.OpenALListener
+  - Beryl.Audio.Engines.OpenAL.OpenALSource
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Audio.Engines.OpenAL
+  nameWithType: Beryl.Audio.Engines.OpenAL
+  fullName: Beryl.Audio.Engines.OpenAL
+  type: Namespace
+  assemblies:
+  - Beryl.Audio
+references:
+- uid: Beryl.Audio.Engines.OpenAL.OpenALContext
+  commentId: T:Beryl.Audio.Engines.OpenAL.OpenALContext
+  href: Beryl.Audio.Engines.OpenAL.OpenALContext.html
+  name: OpenALContext
+  nameWithType: OpenALContext
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALContext
+- uid: Beryl.Audio.Engines.OpenAL.OpenALListener
+  commentId: T:Beryl.Audio.Engines.OpenAL.OpenALListener
+  href: Beryl.Audio.Engines.OpenAL.OpenALListener.html
+  name: OpenALListener
+  nameWithType: OpenALListener
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALListener
+- uid: Beryl.Audio.Engines.OpenAL.OpenALSource
+  commentId: T:Beryl.Audio.Engines.OpenAL.OpenALSource
+  href: Beryl.Audio.Engines.OpenAL.OpenALSource.html
+  name: OpenALSource
+  nameWithType: OpenALSource
+  fullName: Beryl.Audio.Engines.OpenAL.OpenALSource

@@ -1,0 +1,393 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.GraphicsDeviceFactory
+  commentId: T:Beryl.RHI.GraphicsDeviceFactory
+  id: GraphicsDeviceFactory
+  parent: Beryl.RHI
+  children:
+  - Beryl.RHI.GraphicsDeviceFactory.Create(Beryl.RHI.RendererBackend)
+  - Beryl.RHI.GraphicsDeviceFactory.IsBackendSupported(Beryl.RHI.RendererBackend)
+  langs:
+  - csharp
+  - vb
+  name: GraphicsDeviceFactory
+  nameWithType: GraphicsDeviceFactory
+  fullName: Beryl.RHI.GraphicsDeviceFactory
+  type: Class
+  source:
+    id: GraphicsDeviceFactory
+    path: E:\Beryl\Documentation\src\Beryl.RHI\GraphicsDeviceFactory.cs
+    startLine: 10
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Creates graphics devices for the configured rendering backend.
+  example: []
+  syntax:
+    content: public static class GraphicsDeviceFactory
+    content.vb: Public Module GraphicsDeviceFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.RHI.GraphicsDeviceFactory.IsBackendSupported(Beryl.RHI.RendererBackend)
+  commentId: M:Beryl.RHI.GraphicsDeviceFactory.IsBackendSupported(Beryl.RHI.RendererBackend)
+  id: IsBackendSupported(Beryl.RHI.RendererBackend)
+  parent: Beryl.RHI.GraphicsDeviceFactory
+  langs:
+  - csharp
+  - vb
+  name: IsBackendSupported(RendererBackend)
+  nameWithType: GraphicsDeviceFactory.IsBackendSupported(RendererBackend)
+  fullName: Beryl.RHI.GraphicsDeviceFactory.IsBackendSupported(Beryl.RHI.RendererBackend)
+  type: Method
+  source:
+    id: IsBackendSupported
+    path: E:\Beryl\Documentation\src\Beryl.RHI\GraphicsDeviceFactory.cs
+    startLine: 13
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Determines whether <code class="paramref">backend</code> is supported.
+  example: []
+  syntax:
+    content: public static bool IsBackendSupported(RendererBackend backend)
+    parameters:
+    - id: backend
+      type: Beryl.RHI.RendererBackend
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsBackendSupported(backend As RendererBackend) As Boolean
+  overload: Beryl.RHI.GraphicsDeviceFactory.IsBackendSupported*
+- uid: Beryl.RHI.GraphicsDeviceFactory.Create(Beryl.RHI.RendererBackend)
+  commentId: M:Beryl.RHI.GraphicsDeviceFactory.Create(Beryl.RHI.RendererBackend)
+  id: Create(Beryl.RHI.RendererBackend)
+  parent: Beryl.RHI.GraphicsDeviceFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(RendererBackend)
+  nameWithType: GraphicsDeviceFactory.Create(RendererBackend)
+  fullName: Beryl.RHI.GraphicsDeviceFactory.Create(Beryl.RHI.RendererBackend)
+  type: Method
+  source:
+    id: Create
+    path: E:\Beryl\Documentation\src\Beryl.RHI\GraphicsDeviceFactory.cs
+    startLine: 21
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Creates a graphics device for <code class="paramref">backend</code>.
+  example: []
+  syntax:
+    content: public static IGraphicsDevice Create(RendererBackend backend)
+    parameters:
+    - id: backend
+      type: Beryl.RHI.RendererBackend
+    return:
+      type: Beryl.RHI.IGraphicsDevice
+    content.vb: Public Shared Function Create(backend As RendererBackend) As IGraphicsDevice
+  overload: Beryl.RHI.GraphicsDeviceFactory.Create*
+references:
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.RHI.GraphicsDeviceFactory.IsBackendSupported*
+  commentId: Overload:Beryl.RHI.GraphicsDeviceFactory.IsBackendSupported
+  href: Beryl.RHI.GraphicsDeviceFactory.html#Beryl_RHI_GraphicsDeviceFactory_IsBackendSupported_Beryl_RHI_RendererBackend_
+  name: IsBackendSupported
+  nameWithType: GraphicsDeviceFactory.IsBackendSupported
+  fullName: Beryl.RHI.GraphicsDeviceFactory.IsBackendSupported
+- uid: Beryl.RHI.RendererBackend
+  commentId: T:Beryl.RHI.RendererBackend
+  parent: Beryl.RHI
+  href: Beryl.RHI.RendererBackend.html
+  name: RendererBackend
+  nameWithType: RendererBackend
+  fullName: Beryl.RHI.RendererBackend
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Beryl.RHI.GraphicsDeviceFactory.Create*
+  commentId: Overload:Beryl.RHI.GraphicsDeviceFactory.Create
+  href: Beryl.RHI.GraphicsDeviceFactory.html#Beryl_RHI_GraphicsDeviceFactory_Create_Beryl_RHI_RendererBackend_
+  name: Create
+  nameWithType: GraphicsDeviceFactory.Create
+  fullName: Beryl.RHI.GraphicsDeviceFactory.Create
+- uid: Beryl.RHI.IGraphicsDevice
+  commentId: T:Beryl.RHI.IGraphicsDevice
+  parent: Beryl.RHI
+  href: Beryl.RHI.IGraphicsDevice.html
+  name: IGraphicsDevice
+  nameWithType: IGraphicsDevice
+  fullName: Beryl.RHI.IGraphicsDevice

@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Serialization
+  commentId: N:Beryl.Serialization
+  id: Serialization
+  parent: Beryl
+  children:
+  - Beryl.Serialization.Attributes
+  - Beryl.Serialization.Conversion
+  - Beryl.Serialization.Serialization
+  - Beryl.Serialization.SerializationType
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Serialization
+  nameWithType: Beryl.Serialization
+  fullName: Beryl.Serialization
+  type: Namespace
+  assemblies:
+  - Beryl.Serialization
+references:
+- uid: Beryl.Serialization.Attributes
+  commentId: N:Beryl.Serialization.Attributes
+  href: Beryl.html
+  name: Beryl.Serialization.Attributes
+  nameWithType: Beryl.Serialization.Attributes
+  fullName: Beryl.Serialization.Attributes
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Serialization
+    name: Serialization
+    href: Beryl.Serialization.html
+  - name: .
+  - uid: Beryl.Serialization.Attributes
+    name: Attributes
+    href: Beryl.Serialization.Attributes.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Serialization
+    name: Serialization
+    href: Beryl.Serialization.html
+  - name: .
+  - uid: Beryl.Serialization.Attributes
+    name: Attributes
+    href: Beryl.Serialization.Attributes.html
+- uid: Beryl.Serialization.Conversion
+  commentId: N:Beryl.Serialization.Conversion
+  href: Beryl.html
+  name: Beryl.Serialization.Conversion
+  nameWithType: Beryl.Serialization.Conversion
+  fullName: Beryl.Serialization.Conversion
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Serialization
+    name: Serialization
+    href: Beryl.Serialization.html
+  - name: .
+  - uid: Beryl.Serialization.Conversion
+    name: Conversion
+    href: Beryl.Serialization.Conversion.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Serialization
+    name: Serialization
+    href: Beryl.Serialization.html
+  - name: .
+  - uid: Beryl.Serialization.Conversion
+    name: Conversion
+    href: Beryl.Serialization.Conversion.html
+- uid: Beryl.Serialization.Serialization
+  commentId: T:Beryl.Serialization.Serialization
+  href: Beryl.Serialization.Serialization.html
+  name: Serialization
+  nameWithType: Serialization
+  fullName: Beryl.Serialization.Serialization
+- uid: Beryl.Serialization.SerializationType
+  commentId: T:Beryl.Serialization.SerializationType
+  parent: Beryl.Serialization
+  href: Beryl.Serialization.SerializationType.html
+  name: SerializationType
+  nameWithType: SerializationType
+  fullName: Beryl.Serialization.SerializationType
+- uid: Beryl.Serialization
+  commentId: N:Beryl.Serialization
+  href: Beryl.html
+  name: Beryl.Serialization
+  nameWithType: Beryl.Serialization
+  fullName: Beryl.Serialization
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Serialization
+    name: Serialization
+    href: Beryl.Serialization.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Serialization
+    name: Serialization
+    href: Beryl.Serialization.html

@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Scenes.Entities
+  commentId: N:Beryl.Scenes.Entities
+  id: Entities
+  parent: Beryl.Scenes
+  children:
+  - Beryl.Scenes.Entities.Entity
+  - Beryl.Scenes.Entities.EntityAttribute
+  - Beryl.Scenes.Entities.EntityRegistry
+  - Beryl.Scenes.Entities.ImplicitComponentAttribute
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Scenes.Entities
+  nameWithType: Beryl.Scenes.Entities
+  fullName: Beryl.Scenes.Entities
+  type: Namespace
+  assemblies:
+  - Beryl.Scenes
+references:
+- uid: Beryl.Scenes.Entities.Entity
+  commentId: T:Beryl.Scenes.Entities.Entity
+  parent: Beryl.Scenes.Entities
+  href: Beryl.Scenes.Entities.Entity.html
+  name: Entity
+  nameWithType: Entity
+  fullName: Beryl.Scenes.Entities.Entity
+- uid: Beryl.Scenes.Entities.EntityAttribute
+  commentId: T:Beryl.Scenes.Entities.EntityAttribute
+  parent: Beryl.Scenes.Entities
+  href: Beryl.Scenes.Entities.EntityAttribute.html
+  name: EntityAttribute
+  nameWithType: EntityAttribute
+  fullName: Beryl.Scenes.Entities.EntityAttribute
+- uid: Beryl.Scenes.Entities.EntityRegistry
+  commentId: T:Beryl.Scenes.Entities.EntityRegistry
+  href: Beryl.Scenes.Entities.EntityRegistry.html
+  name: EntityRegistry
+  nameWithType: EntityRegistry
+  fullName: Beryl.Scenes.Entities.EntityRegistry
+- uid: Beryl.Scenes.Entities.ImplicitComponentAttribute
+  commentId: T:Beryl.Scenes.Entities.ImplicitComponentAttribute
+  href: Beryl.Scenes.Entities.ImplicitComponentAttribute.html
+  name: ImplicitComponentAttribute
+  nameWithType: ImplicitComponentAttribute
+  fullName: Beryl.Scenes.Entities.ImplicitComponentAttribute
+- uid: Beryl.Scenes.Entities
+  commentId: N:Beryl.Scenes.Entities
+  href: Beryl.html
+  name: Beryl.Scenes.Entities
+  nameWithType: Beryl.Scenes.Entities
+  fullName: Beryl.Scenes.Entities
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Entities
+    name: Entities
+    href: Beryl.Scenes.Entities.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Entities
+    name: Entities
+    href: Beryl.Scenes.Entities.html

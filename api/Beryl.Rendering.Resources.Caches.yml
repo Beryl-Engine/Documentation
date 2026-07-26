@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Rendering.Resources.Caches
+  commentId: N:Beryl.Rendering.Resources.Caches
+  id: Caches
+  parent: Beryl.Rendering.Resources
+  children:
+  - Beryl.Rendering.Resources.Caches.NamedBufferCache
+  - Beryl.Rendering.Resources.Caches.PipelineCache
+  - Beryl.Rendering.Resources.Caches.RenderItemCache
+  - Beryl.Rendering.Resources.Caches.RenderItemKey
+  - Beryl.Rendering.Resources.Caches.ResourceCache`3
+  - Beryl.Rendering.Resources.Caches.ResourceLayoutCache
+  - Beryl.Rendering.Resources.Caches.ResourceSetCache
+  - Beryl.Rendering.Resources.Caches.SamplerCache
+  - Beryl.Rendering.Resources.Caches.TextureCache
+  - Beryl.Rendering.Resources.Caches.TextureViewCache
+  langs:
+  - csharp
+  - vb
+  name: Beryl.Rendering.Resources.Caches
+  nameWithType: Beryl.Rendering.Resources.Caches
+  fullName: Beryl.Rendering.Resources.Caches
+  type: Namespace
+  assemblies:
+  - Beryl.Rendering
+references:
+- uid: Beryl.Rendering.Resources.Caches.NamedBufferCache
+  commentId: T:Beryl.Rendering.Resources.Caches.NamedBufferCache
+  href: Beryl.Rendering.Resources.Caches.NamedBufferCache.html
+  name: NamedBufferCache
+  nameWithType: NamedBufferCache
+  fullName: Beryl.Rendering.Resources.Caches.NamedBufferCache
+- uid: Beryl.Rendering.Resources.Caches.PipelineCache
+  commentId: T:Beryl.Rendering.Resources.Caches.PipelineCache
+  href: Beryl.Rendering.Resources.Caches.PipelineCache.html
+  name: PipelineCache
+  nameWithType: PipelineCache
+  fullName: Beryl.Rendering.Resources.Caches.PipelineCache
+- uid: Beryl.Rendering.Resources.Caches.RenderItemCache
+  commentId: T:Beryl.Rendering.Resources.Caches.RenderItemCache
+  href: Beryl.Rendering.Resources.Caches.RenderItemCache.html
+  name: RenderItemCache
+  nameWithType: RenderItemCache
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemCache
+- uid: Beryl.Rendering.Resources.Caches.RenderItemKey
+  commentId: T:Beryl.Rendering.Resources.Caches.RenderItemKey
+  parent: Beryl.Rendering.Resources.Caches
+  href: Beryl.Rendering.Resources.Caches.RenderItemKey.html
+  name: RenderItemKey
+  nameWithType: RenderItemKey
+  fullName: Beryl.Rendering.Resources.Caches.RenderItemKey
+- uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+  commentId: T:Beryl.Rendering.Resources.Caches.ResourceCache`3
+  href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  name: ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType: ResourceCache<TSingletonOwner, TKey, TResource>
+  fullName: Beryl.Rendering.Resources.Caches.ResourceCache<TSingletonOwner, TKey, TResource>
+  nameWithType.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  fullName.vb: Beryl.Rendering.Resources.Caches.ResourceCache(Of TSingletonOwner, TKey, TResource)
+  name.vb: ResourceCache(Of TSingletonOwner, TKey, TResource)
+  spec.csharp:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: <
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: '>'
+  spec.vb:
+  - uid: Beryl.Rendering.Resources.Caches.ResourceCache`3
+    name: ResourceCache
+    href: Beryl.Rendering.Resources.Caches.ResourceCache-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSingletonOwner
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TResource
+  - name: )
+- uid: Beryl.Rendering.Resources.Caches.ResourceLayoutCache
+  commentId: T:Beryl.Rendering.Resources.Caches.ResourceLayoutCache
+  href: Beryl.Rendering.Resources.Caches.ResourceLayoutCache.html
+  name: ResourceLayoutCache
+  nameWithType: ResourceLayoutCache
+  fullName: Beryl.Rendering.Resources.Caches.ResourceLayoutCache
+- uid: Beryl.Rendering.Resources.Caches.ResourceSetCache
+  commentId: T:Beryl.Rendering.Resources.Caches.ResourceSetCache
+  href: Beryl.Rendering.Resources.Caches.ResourceSetCache.html
+  name: ResourceSetCache
+  nameWithType: ResourceSetCache
+  fullName: Beryl.Rendering.Resources.Caches.ResourceSetCache
+- uid: Beryl.Rendering.Resources.Caches.SamplerCache
+  commentId: T:Beryl.Rendering.Resources.Caches.SamplerCache
+  href: Beryl.Rendering.Resources.Caches.SamplerCache.html
+  name: SamplerCache
+  nameWithType: SamplerCache
+  fullName: Beryl.Rendering.Resources.Caches.SamplerCache
+- uid: Beryl.Rendering.Resources.Caches.TextureCache
+  commentId: T:Beryl.Rendering.Resources.Caches.TextureCache
+  href: Beryl.Rendering.Resources.Caches.TextureCache.html
+  name: TextureCache
+  nameWithType: TextureCache
+  fullName: Beryl.Rendering.Resources.Caches.TextureCache
+- uid: Beryl.Rendering.Resources.Caches.TextureViewCache
+  commentId: T:Beryl.Rendering.Resources.Caches.TextureViewCache
+  href: Beryl.Rendering.Resources.Caches.TextureViewCache.html
+  name: TextureViewCache
+  nameWithType: TextureViewCache
+  fullName: Beryl.Rendering.Resources.Caches.TextureViewCache
+- uid: Beryl.Rendering.Resources.Caches
+  commentId: N:Beryl.Rendering.Resources.Caches
+  href: Beryl.html
+  name: Beryl.Rendering.Resources.Caches
+  nameWithType: Beryl.Rendering.Resources.Caches
+  fullName: Beryl.Rendering.Resources.Caches
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  - name: .
+  - uid: Beryl.Rendering.Resources.Caches
+    name: Caches
+    href: Beryl.Rendering.Resources.Caches.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Rendering
+    name: Rendering
+    href: Beryl.Rendering.html
+  - name: .
+  - uid: Beryl.Rendering.Resources
+    name: Resources
+    href: Beryl.Rendering.Resources.html
+  - name: .
+  - uid: Beryl.Rendering.Resources.Caches
+    name: Caches
+    href: Beryl.Rendering.Resources.Caches.html

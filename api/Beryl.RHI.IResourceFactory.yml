@@ -1,0 +1,526 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.IResourceFactory
+  commentId: T:Beryl.RHI.IResourceFactory
+  id: IResourceFactory
+  parent: Beryl.RHI
+  children:
+  - Beryl.RHI.IResourceFactory.CreateBuffer(Beryl.RHI.Resources.BufferDescriptor)
+  - Beryl.RHI.IResourceFactory.CreateCommandBuffer
+  - Beryl.RHI.IResourceFactory.CreateGraphicsPipeline(Beryl.RHI.Resources.PipelineDescriptor)
+  - Beryl.RHI.IResourceFactory.CreateResourceLayout(Beryl.RHI.Resources.ResourceLayoutDescriptor)
+  - Beryl.RHI.IResourceFactory.CreateResourceSet(Beryl.RHI.Resources.ResourceDescriptor)
+  - Beryl.RHI.IResourceFactory.CreateSampler(Beryl.RHI.Resources.SamplerDescriptor)
+  - Beryl.RHI.IResourceFactory.CreateShader(Beryl.RHI.Resources.ShaderDescriptor)
+  - Beryl.RHI.IResourceFactory.CreateTexture(Beryl.RHI.Resources.TextureDescriptor)
+  - Beryl.RHI.IResourceFactory.CreateTextureView(Beryl.RHI.Resources.TextureViewDescriptor)
+  langs:
+  - csharp
+  - vb
+  name: IResourceFactory
+  nameWithType: IResourceFactory
+  fullName: Beryl.RHI.IResourceFactory
+  type: Interface
+  source:
+    id: IResourceFactory
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IResourceFactory.cs
+    startLine: 10
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Defines how an <xref href="Beryl.RHI.IGraphicsDevice" data-throw-if-not-resolved="false"></xref> creates GPU resources.
+  example: []
+  syntax:
+    content: public interface IResourceFactory
+    content.vb: Public Interface IResourceFactory
+- uid: Beryl.RHI.IResourceFactory.CreateCommandBuffer
+  commentId: M:Beryl.RHI.IResourceFactory.CreateCommandBuffer
+  id: CreateCommandBuffer
+  parent: Beryl.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateCommandBuffer()
+  nameWithType: IResourceFactory.CreateCommandBuffer()
+  fullName: Beryl.RHI.IResourceFactory.CreateCommandBuffer()
+  type: Method
+  source:
+    id: CreateCommandBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IResourceFactory.cs
+    startLine: 13
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Creates a new <xref href="Beryl.RHI.ICommandBuffer" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: ICommandBuffer CreateCommandBuffer()
+    return:
+      type: Beryl.RHI.ICommandBuffer
+    content.vb: Function CreateCommandBuffer() As ICommandBuffer
+  overload: Beryl.RHI.IResourceFactory.CreateCommandBuffer*
+- uid: Beryl.RHI.IResourceFactory.CreateShader(Beryl.RHI.Resources.ShaderDescriptor)
+  commentId: M:Beryl.RHI.IResourceFactory.CreateShader(Beryl.RHI.Resources.ShaderDescriptor)
+  id: CreateShader(Beryl.RHI.Resources.ShaderDescriptor)
+  parent: Beryl.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateShader(ShaderDescriptor)
+  nameWithType: IResourceFactory.CreateShader(ShaderDescriptor)
+  fullName: Beryl.RHI.IResourceFactory.CreateShader(Beryl.RHI.Resources.ShaderDescriptor)
+  type: Method
+  source:
+    id: CreateShader
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IResourceFactory.cs
+    startLine: 16
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Creates a new <xref href="Beryl.RHI.Resources.IShader" data-throw-if-not-resolved="false"></xref> using the given <xref href="Beryl.RHI.Resources.ShaderDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: IShader CreateShader(ShaderDescriptor key)
+    parameters:
+    - id: key
+      type: Beryl.RHI.Resources.ShaderDescriptor
+    return:
+      type: Beryl.RHI.Resources.IShader
+    content.vb: Function CreateShader(key As ShaderDescriptor) As IShader
+  overload: Beryl.RHI.IResourceFactory.CreateShader*
+- uid: Beryl.RHI.IResourceFactory.CreateBuffer(Beryl.RHI.Resources.BufferDescriptor)
+  commentId: M:Beryl.RHI.IResourceFactory.CreateBuffer(Beryl.RHI.Resources.BufferDescriptor)
+  id: CreateBuffer(Beryl.RHI.Resources.BufferDescriptor)
+  parent: Beryl.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateBuffer(BufferDescriptor)
+  nameWithType: IResourceFactory.CreateBuffer(BufferDescriptor)
+  fullName: Beryl.RHI.IResourceFactory.CreateBuffer(Beryl.RHI.Resources.BufferDescriptor)
+  type: Method
+  source:
+    id: CreateBuffer
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IResourceFactory.cs
+    startLine: 19
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Creates a new <xref href="Beryl.RHI.Resources.IBuffer" data-throw-if-not-resolved="false"></xref> using the given <xref href="Beryl.RHI.Resources.BufferDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: IBuffer CreateBuffer(BufferDescriptor key)
+    parameters:
+    - id: key
+      type: Beryl.RHI.Resources.BufferDescriptor
+    return:
+      type: Beryl.RHI.Resources.IBuffer
+    content.vb: Function CreateBuffer(key As BufferDescriptor) As IBuffer
+  overload: Beryl.RHI.IResourceFactory.CreateBuffer*
+- uid: Beryl.RHI.IResourceFactory.CreateTexture(Beryl.RHI.Resources.TextureDescriptor)
+  commentId: M:Beryl.RHI.IResourceFactory.CreateTexture(Beryl.RHI.Resources.TextureDescriptor)
+  id: CreateTexture(Beryl.RHI.Resources.TextureDescriptor)
+  parent: Beryl.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateTexture(TextureDescriptor)
+  nameWithType: IResourceFactory.CreateTexture(TextureDescriptor)
+  fullName: Beryl.RHI.IResourceFactory.CreateTexture(Beryl.RHI.Resources.TextureDescriptor)
+  type: Method
+  source:
+    id: CreateTexture
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IResourceFactory.cs
+    startLine: 22
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Creates a new <xref href="Beryl.RHI.Resources.ITexture" data-throw-if-not-resolved="false"></xref> using the given <xref href="Beryl.RHI.Resources.TextureDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: ITexture CreateTexture(TextureDescriptor key)
+    parameters:
+    - id: key
+      type: Beryl.RHI.Resources.TextureDescriptor
+    return:
+      type: Beryl.RHI.Resources.ITexture
+    content.vb: Function CreateTexture(key As TextureDescriptor) As ITexture
+  overload: Beryl.RHI.IResourceFactory.CreateTexture*
+- uid: Beryl.RHI.IResourceFactory.CreateTextureView(Beryl.RHI.Resources.TextureViewDescriptor)
+  commentId: M:Beryl.RHI.IResourceFactory.CreateTextureView(Beryl.RHI.Resources.TextureViewDescriptor)
+  id: CreateTextureView(Beryl.RHI.Resources.TextureViewDescriptor)
+  parent: Beryl.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateTextureView(TextureViewDescriptor)
+  nameWithType: IResourceFactory.CreateTextureView(TextureViewDescriptor)
+  fullName: Beryl.RHI.IResourceFactory.CreateTextureView(Beryl.RHI.Resources.TextureViewDescriptor)
+  type: Method
+  source:
+    id: CreateTextureView
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IResourceFactory.cs
+    startLine: 25
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Creates a new <xref href="Beryl.RHI.Resources.ITextureView" data-throw-if-not-resolved="false"></xref> using the given <xref href="Beryl.RHI.Resources.TextureViewDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: ITextureView CreateTextureView(TextureViewDescriptor key)
+    parameters:
+    - id: key
+      type: Beryl.RHI.Resources.TextureViewDescriptor
+    return:
+      type: Beryl.RHI.Resources.ITextureView
+    content.vb: Function CreateTextureView(key As TextureViewDescriptor) As ITextureView
+  overload: Beryl.RHI.IResourceFactory.CreateTextureView*
+- uid: Beryl.RHI.IResourceFactory.CreateSampler(Beryl.RHI.Resources.SamplerDescriptor)
+  commentId: M:Beryl.RHI.IResourceFactory.CreateSampler(Beryl.RHI.Resources.SamplerDescriptor)
+  id: CreateSampler(Beryl.RHI.Resources.SamplerDescriptor)
+  parent: Beryl.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateSampler(SamplerDescriptor)
+  nameWithType: IResourceFactory.CreateSampler(SamplerDescriptor)
+  fullName: Beryl.RHI.IResourceFactory.CreateSampler(Beryl.RHI.Resources.SamplerDescriptor)
+  type: Method
+  source:
+    id: CreateSampler
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IResourceFactory.cs
+    startLine: 28
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Creates a new <xref href="Beryl.RHI.Resources.ISampler" data-throw-if-not-resolved="false"></xref> using the given <xref href="Beryl.RHI.Resources.SamplerDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: ISampler CreateSampler(SamplerDescriptor key)
+    parameters:
+    - id: key
+      type: Beryl.RHI.Resources.SamplerDescriptor
+    return:
+      type: Beryl.RHI.Resources.ISampler
+    content.vb: Function CreateSampler(key As SamplerDescriptor) As ISampler
+  overload: Beryl.RHI.IResourceFactory.CreateSampler*
+- uid: Beryl.RHI.IResourceFactory.CreateResourceLayout(Beryl.RHI.Resources.ResourceLayoutDescriptor)
+  commentId: M:Beryl.RHI.IResourceFactory.CreateResourceLayout(Beryl.RHI.Resources.ResourceLayoutDescriptor)
+  id: CreateResourceLayout(Beryl.RHI.Resources.ResourceLayoutDescriptor)
+  parent: Beryl.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateResourceLayout(ResourceLayoutDescriptor)
+  nameWithType: IResourceFactory.CreateResourceLayout(ResourceLayoutDescriptor)
+  fullName: Beryl.RHI.IResourceFactory.CreateResourceLayout(Beryl.RHI.Resources.ResourceLayoutDescriptor)
+  type: Method
+  source:
+    id: CreateResourceLayout
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IResourceFactory.cs
+    startLine: 31
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Creates a new <xref href="Beryl.RHI.Resources.IResourceLayout" data-throw-if-not-resolved="false"></xref> using the given <xref href="Beryl.RHI.Resources.ResourceLayoutDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: IResourceLayout CreateResourceLayout(ResourceLayoutDescriptor key)
+    parameters:
+    - id: key
+      type: Beryl.RHI.Resources.ResourceLayoutDescriptor
+    return:
+      type: Beryl.RHI.Resources.IResourceLayout
+    content.vb: Function CreateResourceLayout(key As ResourceLayoutDescriptor) As IResourceLayout
+  overload: Beryl.RHI.IResourceFactory.CreateResourceLayout*
+- uid: Beryl.RHI.IResourceFactory.CreateResourceSet(Beryl.RHI.Resources.ResourceDescriptor)
+  commentId: M:Beryl.RHI.IResourceFactory.CreateResourceSet(Beryl.RHI.Resources.ResourceDescriptor)
+  id: CreateResourceSet(Beryl.RHI.Resources.ResourceDescriptor)
+  parent: Beryl.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateResourceSet(ResourceDescriptor)
+  nameWithType: IResourceFactory.CreateResourceSet(ResourceDescriptor)
+  fullName: Beryl.RHI.IResourceFactory.CreateResourceSet(Beryl.RHI.Resources.ResourceDescriptor)
+  type: Method
+  source:
+    id: CreateResourceSet
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IResourceFactory.cs
+    startLine: 34
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Creates a new <xref href="Beryl.RHI.Resources.IResourceSet" data-throw-if-not-resolved="false"></xref> using the given <xref href="Beryl.RHI.Resources.ResourceDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: IResourceSet CreateResourceSet(ResourceDescriptor key)
+    parameters:
+    - id: key
+      type: Beryl.RHI.Resources.ResourceDescriptor
+    return:
+      type: Beryl.RHI.Resources.IResourceSet
+    content.vb: Function CreateResourceSet(key As ResourceDescriptor) As IResourceSet
+  overload: Beryl.RHI.IResourceFactory.CreateResourceSet*
+- uid: Beryl.RHI.IResourceFactory.CreateGraphicsPipeline(Beryl.RHI.Resources.PipelineDescriptor)
+  commentId: M:Beryl.RHI.IResourceFactory.CreateGraphicsPipeline(Beryl.RHI.Resources.PipelineDescriptor)
+  id: CreateGraphicsPipeline(Beryl.RHI.Resources.PipelineDescriptor)
+  parent: Beryl.RHI.IResourceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateGraphicsPipeline(PipelineDescriptor)
+  nameWithType: IResourceFactory.CreateGraphicsPipeline(PipelineDescriptor)
+  fullName: Beryl.RHI.IResourceFactory.CreateGraphicsPipeline(Beryl.RHI.Resources.PipelineDescriptor)
+  type: Method
+  source:
+    id: CreateGraphicsPipeline
+    path: E:\Beryl\Documentation\src\Beryl.RHI\IResourceFactory.cs
+    startLine: 37
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: Creates a new <xref href="Beryl.RHI.Resources.IPipeline" data-throw-if-not-resolved="false"></xref> using the given <xref href="Beryl.RHI.Resources.PipelineDescriptor" data-throw-if-not-resolved="false"></xref> information.
+  example: []
+  syntax:
+    content: IPipeline CreateGraphicsPipeline(PipelineDescriptor key)
+    parameters:
+    - id: key
+      type: Beryl.RHI.Resources.PipelineDescriptor
+    return:
+      type: Beryl.RHI.Resources.IPipeline
+    content.vb: Function CreateGraphicsPipeline(key As PipelineDescriptor) As IPipeline
+  overload: Beryl.RHI.IResourceFactory.CreateGraphicsPipeline*
+references:
+- uid: Beryl.RHI.IGraphicsDevice
+  commentId: T:Beryl.RHI.IGraphicsDevice
+  parent: Beryl.RHI
+  href: Beryl.RHI.IGraphicsDevice.html
+  name: IGraphicsDevice
+  nameWithType: IGraphicsDevice
+  fullName: Beryl.RHI.IGraphicsDevice
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+- uid: Beryl.RHI.ICommandBuffer
+  commentId: T:Beryl.RHI.ICommandBuffer
+  parent: Beryl.RHI
+  href: Beryl.RHI.ICommandBuffer.html
+  name: ICommandBuffer
+  nameWithType: ICommandBuffer
+  fullName: Beryl.RHI.ICommandBuffer
+- uid: Beryl.RHI.IResourceFactory.CreateCommandBuffer*
+  commentId: Overload:Beryl.RHI.IResourceFactory.CreateCommandBuffer
+  href: Beryl.RHI.IResourceFactory.html#Beryl_RHI_IResourceFactory_CreateCommandBuffer
+  name: CreateCommandBuffer
+  nameWithType: IResourceFactory.CreateCommandBuffer
+  fullName: Beryl.RHI.IResourceFactory.CreateCommandBuffer
+- uid: Beryl.RHI.Resources.IShader
+  commentId: T:Beryl.RHI.Resources.IShader
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IShader.html
+  name: IShader
+  nameWithType: IShader
+  fullName: Beryl.RHI.Resources.IShader
+- uid: Beryl.RHI.Resources.ShaderDescriptor
+  commentId: T:Beryl.RHI.Resources.ShaderDescriptor
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.ShaderDescriptor.html
+  name: ShaderDescriptor
+  nameWithType: ShaderDescriptor
+  fullName: Beryl.RHI.Resources.ShaderDescriptor
+- uid: Beryl.RHI.IResourceFactory.CreateShader*
+  commentId: Overload:Beryl.RHI.IResourceFactory.CreateShader
+  href: Beryl.RHI.IResourceFactory.html#Beryl_RHI_IResourceFactory_CreateShader_Beryl_RHI_Resources_ShaderDescriptor_
+  name: CreateShader
+  nameWithType: IResourceFactory.CreateShader
+  fullName: Beryl.RHI.IResourceFactory.CreateShader
+- uid: Beryl.RHI.Resources
+  commentId: N:Beryl.RHI.Resources
+  href: Beryl.html
+  name: Beryl.RHI.Resources
+  nameWithType: Beryl.RHI.Resources
+  fullName: Beryl.RHI.Resources
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  - name: .
+  - uid: Beryl.RHI.Resources
+    name: Resources
+    href: Beryl.RHI.Resources.html
+- uid: Beryl.RHI.Resources.IBuffer
+  commentId: T:Beryl.RHI.Resources.IBuffer
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IBuffer.html
+  name: IBuffer
+  nameWithType: IBuffer
+  fullName: Beryl.RHI.Resources.IBuffer
+- uid: Beryl.RHI.Resources.BufferDescriptor
+  commentId: T:Beryl.RHI.Resources.BufferDescriptor
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.BufferDescriptor.html
+  name: BufferDescriptor
+  nameWithType: BufferDescriptor
+  fullName: Beryl.RHI.Resources.BufferDescriptor
+- uid: Beryl.RHI.IResourceFactory.CreateBuffer*
+  commentId: Overload:Beryl.RHI.IResourceFactory.CreateBuffer
+  href: Beryl.RHI.IResourceFactory.html#Beryl_RHI_IResourceFactory_CreateBuffer_Beryl_RHI_Resources_BufferDescriptor_
+  name: CreateBuffer
+  nameWithType: IResourceFactory.CreateBuffer
+  fullName: Beryl.RHI.IResourceFactory.CreateBuffer
+- uid: Beryl.RHI.Resources.ITexture
+  commentId: T:Beryl.RHI.Resources.ITexture
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.ITexture.html
+  name: ITexture
+  nameWithType: ITexture
+  fullName: Beryl.RHI.Resources.ITexture
+- uid: Beryl.RHI.Resources.TextureDescriptor
+  commentId: T:Beryl.RHI.Resources.TextureDescriptor
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.TextureDescriptor.html
+  name: TextureDescriptor
+  nameWithType: TextureDescriptor
+  fullName: Beryl.RHI.Resources.TextureDescriptor
+- uid: Beryl.RHI.IResourceFactory.CreateTexture*
+  commentId: Overload:Beryl.RHI.IResourceFactory.CreateTexture
+  href: Beryl.RHI.IResourceFactory.html#Beryl_RHI_IResourceFactory_CreateTexture_Beryl_RHI_Resources_TextureDescriptor_
+  name: CreateTexture
+  nameWithType: IResourceFactory.CreateTexture
+  fullName: Beryl.RHI.IResourceFactory.CreateTexture
+- uid: Beryl.RHI.Resources.ITextureView
+  commentId: T:Beryl.RHI.Resources.ITextureView
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.ITextureView.html
+  name: ITextureView
+  nameWithType: ITextureView
+  fullName: Beryl.RHI.Resources.ITextureView
+- uid: Beryl.RHI.Resources.TextureViewDescriptor
+  commentId: T:Beryl.RHI.Resources.TextureViewDescriptor
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.TextureViewDescriptor.html
+  name: TextureViewDescriptor
+  nameWithType: TextureViewDescriptor
+  fullName: Beryl.RHI.Resources.TextureViewDescriptor
+- uid: Beryl.RHI.IResourceFactory.CreateTextureView*
+  commentId: Overload:Beryl.RHI.IResourceFactory.CreateTextureView
+  href: Beryl.RHI.IResourceFactory.html#Beryl_RHI_IResourceFactory_CreateTextureView_Beryl_RHI_Resources_TextureViewDescriptor_
+  name: CreateTextureView
+  nameWithType: IResourceFactory.CreateTextureView
+  fullName: Beryl.RHI.IResourceFactory.CreateTextureView
+- uid: Beryl.RHI.Resources.ISampler
+  commentId: T:Beryl.RHI.Resources.ISampler
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.ISampler.html
+  name: ISampler
+  nameWithType: ISampler
+  fullName: Beryl.RHI.Resources.ISampler
+- uid: Beryl.RHI.Resources.SamplerDescriptor
+  commentId: T:Beryl.RHI.Resources.SamplerDescriptor
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.SamplerDescriptor.html
+  name: SamplerDescriptor
+  nameWithType: SamplerDescriptor
+  fullName: Beryl.RHI.Resources.SamplerDescriptor
+- uid: Beryl.RHI.IResourceFactory.CreateSampler*
+  commentId: Overload:Beryl.RHI.IResourceFactory.CreateSampler
+  href: Beryl.RHI.IResourceFactory.html#Beryl_RHI_IResourceFactory_CreateSampler_Beryl_RHI_Resources_SamplerDescriptor_
+  name: CreateSampler
+  nameWithType: IResourceFactory.CreateSampler
+  fullName: Beryl.RHI.IResourceFactory.CreateSampler
+- uid: Beryl.RHI.Resources.IResourceLayout
+  commentId: T:Beryl.RHI.Resources.IResourceLayout
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IResourceLayout.html
+  name: IResourceLayout
+  nameWithType: IResourceLayout
+  fullName: Beryl.RHI.Resources.IResourceLayout
+- uid: Beryl.RHI.Resources.ResourceLayoutDescriptor
+  commentId: T:Beryl.RHI.Resources.ResourceLayoutDescriptor
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.ResourceLayoutDescriptor.html
+  name: ResourceLayoutDescriptor
+  nameWithType: ResourceLayoutDescriptor
+  fullName: Beryl.RHI.Resources.ResourceLayoutDescriptor
+- uid: Beryl.RHI.IResourceFactory.CreateResourceLayout*
+  commentId: Overload:Beryl.RHI.IResourceFactory.CreateResourceLayout
+  href: Beryl.RHI.IResourceFactory.html#Beryl_RHI_IResourceFactory_CreateResourceLayout_Beryl_RHI_Resources_ResourceLayoutDescriptor_
+  name: CreateResourceLayout
+  nameWithType: IResourceFactory.CreateResourceLayout
+  fullName: Beryl.RHI.IResourceFactory.CreateResourceLayout
+- uid: Beryl.RHI.Resources.IResourceSet
+  commentId: T:Beryl.RHI.Resources.IResourceSet
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IResourceSet.html
+  name: IResourceSet
+  nameWithType: IResourceSet
+  fullName: Beryl.RHI.Resources.IResourceSet
+- uid: Beryl.RHI.Resources.ResourceDescriptor
+  commentId: T:Beryl.RHI.Resources.ResourceDescriptor
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.ResourceDescriptor.html
+  name: ResourceDescriptor
+  nameWithType: ResourceDescriptor
+  fullName: Beryl.RHI.Resources.ResourceDescriptor
+- uid: Beryl.RHI.IResourceFactory.CreateResourceSet*
+  commentId: Overload:Beryl.RHI.IResourceFactory.CreateResourceSet
+  href: Beryl.RHI.IResourceFactory.html#Beryl_RHI_IResourceFactory_CreateResourceSet_Beryl_RHI_Resources_ResourceDescriptor_
+  name: CreateResourceSet
+  nameWithType: IResourceFactory.CreateResourceSet
+  fullName: Beryl.RHI.IResourceFactory.CreateResourceSet
+- uid: Beryl.RHI.Resources.IPipeline
+  commentId: T:Beryl.RHI.Resources.IPipeline
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.IPipeline.html
+  name: IPipeline
+  nameWithType: IPipeline
+  fullName: Beryl.RHI.Resources.IPipeline
+- uid: Beryl.RHI.Resources.PipelineDescriptor
+  commentId: T:Beryl.RHI.Resources.PipelineDescriptor
+  parent: Beryl.RHI.Resources
+  href: Beryl.RHI.Resources.PipelineDescriptor.html
+  name: PipelineDescriptor
+  nameWithType: PipelineDescriptor
+  fullName: Beryl.RHI.Resources.PipelineDescriptor
+- uid: Beryl.RHI.IResourceFactory.CreateGraphicsPipeline*
+  commentId: Overload:Beryl.RHI.IResourceFactory.CreateGraphicsPipeline
+  href: Beryl.RHI.IResourceFactory.html#Beryl_RHI_IResourceFactory_CreateGraphicsPipeline_Beryl_RHI_Resources_PipelineDescriptor_
+  name: CreateGraphicsPipeline
+  nameWithType: IResourceFactory.CreateGraphicsPipeline
+  fullName: Beryl.RHI.IResourceFactory.CreateGraphicsPipeline

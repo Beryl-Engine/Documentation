@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.RHI.RendererBackend
+  commentId: T:Beryl.RHI.RendererBackend
+  id: RendererBackend
+  parent: Beryl.RHI
+  children:
+  - Beryl.RHI.RendererBackend.Direct3D12
+  - Beryl.RHI.RendererBackend.Vulkan
+  langs:
+  - csharp
+  - vb
+  name: RendererBackend
+  nameWithType: RendererBackend
+  fullName: Beryl.RHI.RendererBackend
+  type: Enum
+  source:
+    id: RendererBackend
+    path: E:\Beryl\Documentation\src\Beryl.RHI\RendererBackend.cs
+    startLine: 8
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  summary: The graphics API backend used by the renderer.
+  example: []
+  syntax:
+    content: public enum RendererBackend
+    content.vb: Public Enum RendererBackend
+- uid: Beryl.RHI.RendererBackend.Vulkan
+  commentId: F:Beryl.RHI.RendererBackend.Vulkan
+  id: Vulkan
+  parent: Beryl.RHI.RendererBackend
+  langs:
+  - csharp
+  - vb
+  name: Vulkan
+  nameWithType: RendererBackend.Vulkan
+  fullName: Beryl.RHI.RendererBackend.Vulkan
+  type: Field
+  source:
+    id: Vulkan
+    path: E:\Beryl\Documentation\src\Beryl.RHI\RendererBackend.cs
+    startLine: 10
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  syntax:
+    content: Vulkan = 0
+    return:
+      type: Beryl.RHI.RendererBackend
+- uid: Beryl.RHI.RendererBackend.Direct3D12
+  commentId: F:Beryl.RHI.RendererBackend.Direct3D12
+  id: Direct3D12
+  parent: Beryl.RHI.RendererBackend
+  langs:
+  - csharp
+  - vb
+  name: Direct3D12
+  nameWithType: RendererBackend.Direct3D12
+  fullName: Beryl.RHI.RendererBackend.Direct3D12
+  type: Field
+  source:
+    id: Direct3D12
+    path: E:\Beryl\Documentation\src\Beryl.RHI\RendererBackend.cs
+    startLine: 11
+  assemblies:
+  - Beryl.RHI
+  namespace: Beryl.RHI
+  syntax:
+    content: Direct3D12 = 1
+    return:
+      type: Beryl.RHI.RendererBackend
+references:
+- uid: Beryl.RHI
+  commentId: N:Beryl.RHI
+  href: Beryl.html
+  name: Beryl.RHI
+  nameWithType: Beryl.RHI
+  fullName: Beryl.RHI
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.RHI
+    name: RHI
+    href: Beryl.RHI.html
+- uid: Beryl.RHI.RendererBackend
+  commentId: T:Beryl.RHI.RendererBackend
+  parent: Beryl.RHI
+  href: Beryl.RHI.RendererBackend.html
+  name: RendererBackend
+  nameWithType: RendererBackend
+  fullName: Beryl.RHI.RendererBackend

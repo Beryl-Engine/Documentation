@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.VirtualReality.VirtualRealityController.HandType
+  commentId: T:Beryl.VirtualReality.VirtualRealityController.HandType
+  id: VirtualRealityController.HandType
+  parent: Beryl.VirtualReality
+  children:
+  - Beryl.VirtualReality.VirtualRealityController.HandType.Left
+  - Beryl.VirtualReality.VirtualRealityController.HandType.Right
+  langs:
+  - csharp
+  - vb
+  name: VirtualRealityController.HandType
+  nameWithType: VirtualRealityController.HandType
+  fullName: Beryl.VirtualReality.VirtualRealityController.HandType
+  type: Enum
+  source:
+    id: HandType
+    path: E:\Beryl\Documentation\src\Modules\Beryl.VirtualReality\VirtualRealityController.cs
+    startLine: 24
+  assemblies:
+  - Beryl.VirtualReality
+  namespace: Beryl.VirtualReality
+  syntax:
+    content: public enum VirtualRealityController.HandType
+    content.vb: Public Enum VirtualRealityController.HandType
+- uid: Beryl.VirtualReality.VirtualRealityController.HandType.Left
+  commentId: F:Beryl.VirtualReality.VirtualRealityController.HandType.Left
+  id: Left
+  parent: Beryl.VirtualReality.VirtualRealityController.HandType
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: VirtualRealityController.HandType.Left
+  fullName: Beryl.VirtualReality.VirtualRealityController.HandType.Left
+  type: Field
+  source:
+    id: Left
+    path: E:\Beryl\Documentation\src\Modules\Beryl.VirtualReality\VirtualRealityController.cs
+    startLine: 26
+  assemblies:
+  - Beryl.VirtualReality
+  namespace: Beryl.VirtualReality
+  syntax:
+    content: Left = 0
+    return:
+      type: Beryl.VirtualReality.VirtualRealityController.HandType
+- uid: Beryl.VirtualReality.VirtualRealityController.HandType.Right
+  commentId: F:Beryl.VirtualReality.VirtualRealityController.HandType.Right
+  id: Right
+  parent: Beryl.VirtualReality.VirtualRealityController.HandType
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: VirtualRealityController.HandType.Right
+  fullName: Beryl.VirtualReality.VirtualRealityController.HandType.Right
+  type: Field
+  source:
+    id: Right
+    path: E:\Beryl\Documentation\src\Modules\Beryl.VirtualReality\VirtualRealityController.cs
+    startLine: 27
+  assemblies:
+  - Beryl.VirtualReality
+  namespace: Beryl.VirtualReality
+  syntax:
+    content: Right = 1
+    return:
+      type: Beryl.VirtualReality.VirtualRealityController.HandType
+references:
+- uid: Beryl.VirtualReality
+  commentId: N:Beryl.VirtualReality
+  href: Beryl.html
+  name: Beryl.VirtualReality
+  nameWithType: Beryl.VirtualReality
+  fullName: Beryl.VirtualReality
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.VirtualReality
+    name: VirtualReality
+    href: Beryl.VirtualReality.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.VirtualReality
+    name: VirtualReality
+    href: Beryl.VirtualReality.html
+- uid: Beryl.VirtualReality.VirtualRealityController.HandType
+  commentId: T:Beryl.VirtualReality.VirtualRealityController.HandType
+  parent: Beryl.VirtualReality
+  href: Beryl.VirtualReality.VirtualRealityController.html
+  name: VirtualRealityController.HandType
+  nameWithType: VirtualRealityController.HandType
+  fullName: Beryl.VirtualReality.VirtualRealityController.HandType
+  spec.csharp:
+  - uid: Beryl.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Beryl.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Beryl.VirtualReality.VirtualRealityController.HandType
+    name: HandType
+    href: Beryl.VirtualReality.VirtualRealityController.HandType.html
+  spec.vb:
+  - uid: Beryl.VirtualReality.VirtualRealityController
+    name: VirtualRealityController
+    href: Beryl.VirtualReality.VirtualRealityController.html
+  - name: .
+  - uid: Beryl.VirtualReality.VirtualRealityController.HandType
+    name: HandType
+    href: Beryl.VirtualReality.VirtualRealityController.HandType.html

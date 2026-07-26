@@ -1,0 +1,1214 @@
+### YamlMime:ManagedReference
+items:
+- uid: Beryl.Physics.Components.RigidBody
+  commentId: T:Beryl.Physics.Components.RigidBody
+  id: RigidBody
+  parent: Beryl.Physics.Components
+  children:
+  - Beryl.Physics.Components.RigidBody.AddBoxCollider(System.Single,System.Single,System.Single)
+  - Beryl.Physics.Components.RigidBody.AddForce(Beryl.Math.Vector3)
+  - Beryl.Physics.Components.RigidBody.AddSphereCollider(System.Single)
+  - Beryl.Physics.Components.RigidBody.AffectedByGravity
+  - Beryl.Physics.Components.RigidBody.AngularVelocity
+  - Beryl.Physics.Components.RigidBody.Damping
+  - Beryl.Physics.Components.RigidBody.Destroy
+  - Beryl.Physics.Components.RigidBody.Friction
+  - Beryl.Physics.Components.RigidBody.IsStatic
+  - Beryl.Physics.Components.RigidBody.Mass
+  - Beryl.Physics.Components.RigidBody.OnCollisionEnter
+  - Beryl.Physics.Components.RigidBody.OnCollisionExit
+  - Beryl.Physics.Components.RigidBody.Orientation
+  - Beryl.Physics.Components.RigidBody.Position
+  - Beryl.Physics.Components.RigidBody.RemoveCollider(System.Int32)
+  - Beryl.Physics.Components.RigidBody.Restitution
+  - Beryl.Physics.Components.RigidBody.Start
+  - Beryl.Physics.Components.RigidBody.Update
+  - Beryl.Physics.Components.RigidBody.Velocity
+  langs:
+  - csharp
+  - vb
+  name: RigidBody
+  nameWithType: RigidBody
+  fullName: Beryl.Physics.Components.RigidBody
+  type: Class
+  source:
+    id: RigidBody
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 13
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  summary: Represents a physics rigid body that enables simulation of physical interactions for an <xref href="Beryl.Scenes.Entities.Entity" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public class RigidBody : Component'
+    content.vb: Public Class RigidBody Inherits Component
+  inheritance:
+  - System.Object
+  - Beryl.Scenes.Components.Component
+  inheritedMembers:
+  - Beryl.Scenes.Components.Component.Enabled
+  - Beryl.Scenes.Components.Component.Entity
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Beryl.Physics.Components.RigidBody.IsStatic
+  commentId: P:Beryl.Physics.Components.RigidBody.IsStatic
+  id: IsStatic
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: IsStatic
+  nameWithType: RigidBody.IsStatic
+  fullName: Beryl.Physics.Components.RigidBody.IsStatic
+  type: Property
+  source:
+    id: IsStatic
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 18
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public bool IsStatic { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsStatic As Boolean
+  overload: Beryl.Physics.Components.RigidBody.IsStatic*
+- uid: Beryl.Physics.Components.RigidBody.AffectedByGravity
+  commentId: P:Beryl.Physics.Components.RigidBody.AffectedByGravity
+  id: AffectedByGravity
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: AffectedByGravity
+  nameWithType: RigidBody.AffectedByGravity
+  fullName: Beryl.Physics.Components.RigidBody.AffectedByGravity
+  type: Property
+  source:
+    id: AffectedByGravity
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 25
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public bool AffectedByGravity { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AffectedByGravity As Boolean
+  overload: Beryl.Physics.Components.RigidBody.AffectedByGravity*
+- uid: Beryl.Physics.Components.RigidBody.Mass
+  commentId: P:Beryl.Physics.Components.RigidBody.Mass
+  id: Mass
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Mass
+  nameWithType: RigidBody.Mass
+  fullName: Beryl.Physics.Components.RigidBody.Mass
+  type: Property
+  source:
+    id: Mass
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 32
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public float Mass { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Mass As Single
+  overload: Beryl.Physics.Components.RigidBody.Mass*
+- uid: Beryl.Physics.Components.RigidBody.Friction
+  commentId: P:Beryl.Physics.Components.RigidBody.Friction
+  id: Friction
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Friction
+  nameWithType: RigidBody.Friction
+  fullName: Beryl.Physics.Components.RigidBody.Friction
+  type: Property
+  source:
+    id: Friction
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 39
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public float Friction { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Friction As Single
+  overload: Beryl.Physics.Components.RigidBody.Friction*
+- uid: Beryl.Physics.Components.RigidBody.Restitution
+  commentId: P:Beryl.Physics.Components.RigidBody.Restitution
+  id: Restitution
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Restitution
+  nameWithType: RigidBody.Restitution
+  fullName: Beryl.Physics.Components.RigidBody.Restitution
+  type: Property
+  source:
+    id: Restitution
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 46
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public float Restitution { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Restitution As Single
+  overload: Beryl.Physics.Components.RigidBody.Restitution*
+- uid: Beryl.Physics.Components.RigidBody.Position
+  commentId: P:Beryl.Physics.Components.RigidBody.Position
+  id: Position
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: RigidBody.Position
+  fullName: Beryl.Physics.Components.RigidBody.Position
+  type: Property
+  source:
+    id: Position
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 53
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public Vector3 Position { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Public Property Position As Vector3
+  overload: Beryl.Physics.Components.RigidBody.Position*
+- uid: Beryl.Physics.Components.RigidBody.Orientation
+  commentId: P:Beryl.Physics.Components.RigidBody.Orientation
+  id: Orientation
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Orientation
+  nameWithType: RigidBody.Orientation
+  fullName: Beryl.Physics.Components.RigidBody.Orientation
+  type: Property
+  source:
+    id: Orientation
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 60
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public Quaternion Orientation { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Quaternion
+    content.vb: Public Property Orientation As Quaternion
+  overload: Beryl.Physics.Components.RigidBody.Orientation*
+- uid: Beryl.Physics.Components.RigidBody.Velocity
+  commentId: P:Beryl.Physics.Components.RigidBody.Velocity
+  id: Velocity
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Velocity
+  nameWithType: RigidBody.Velocity
+  fullName: Beryl.Physics.Components.RigidBody.Velocity
+  type: Property
+  source:
+    id: Velocity
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 67
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public Vector3 Velocity { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Public Property Velocity As Vector3
+  overload: Beryl.Physics.Components.RigidBody.Velocity*
+- uid: Beryl.Physics.Components.RigidBody.AngularVelocity
+  commentId: P:Beryl.Physics.Components.RigidBody.AngularVelocity
+  id: AngularVelocity
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: AngularVelocity
+  nameWithType: RigidBody.AngularVelocity
+  fullName: Beryl.Physics.Components.RigidBody.AngularVelocity
+  type: Property
+  source:
+    id: AngularVelocity
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 74
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public Vector3 AngularVelocity { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector3
+    content.vb: Public Property AngularVelocity As Vector3
+  overload: Beryl.Physics.Components.RigidBody.AngularVelocity*
+- uid: Beryl.Physics.Components.RigidBody.Damping
+  commentId: P:Beryl.Physics.Components.RigidBody.Damping
+  id: Damping
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Damping
+  nameWithType: RigidBody.Damping
+  fullName: Beryl.Physics.Components.RigidBody.Damping
+  type: Property
+  source:
+    id: Damping
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 81
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public Vector2 Damping { get; set; }
+    parameters: []
+    return:
+      type: Beryl.Math.Vector2
+    content.vb: Public Property Damping As Vector2
+  overload: Beryl.Physics.Components.RigidBody.Damping*
+- uid: Beryl.Physics.Components.RigidBody.Start
+  commentId: M:Beryl.Physics.Components.RigidBody.Start
+  id: Start
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: RigidBody.Start()
+  fullName: Beryl.Physics.Components.RigidBody.Start()
+  type: Method
+  source:
+    id: Start
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 88
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  summary: Called when the component is enabled.
+  example: []
+  syntax:
+    content: public override void Start()
+    content.vb: Public Overrides Sub Start()
+  overridden: Beryl.Scenes.Components.Component.Start
+  overload: Beryl.Physics.Components.RigidBody.Start*
+- uid: Beryl.Physics.Components.RigidBody.Update
+  commentId: M:Beryl.Physics.Components.RigidBody.Update
+  id: Update
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: RigidBody.Update()
+  fullName: Beryl.Physics.Components.RigidBody.Update()
+  type: Method
+  source:
+    id: Update
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 98
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  summary: Called every frame.
+  example: []
+  syntax:
+    content: public override void Update()
+    content.vb: Public Overrides Sub Update()
+  overridden: Beryl.Scenes.Components.Component.Update
+  overload: Beryl.Physics.Components.RigidBody.Update*
+- uid: Beryl.Physics.Components.RigidBody.Destroy
+  commentId: M:Beryl.Physics.Components.RigidBody.Destroy
+  id: Destroy
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: RigidBody.Destroy()
+  fullName: Beryl.Physics.Components.RigidBody.Destroy()
+  type: Method
+  source:
+    id: Destroy
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 108
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  summary: Called when the component is destroyed.
+  example: []
+  syntax:
+    content: public override void Destroy()
+    content.vb: Public Overrides Sub Destroy()
+  overridden: Beryl.Scenes.Components.Component.Destroy
+  overload: Beryl.Physics.Components.RigidBody.Destroy*
+- uid: Beryl.Physics.Components.RigidBody.AddBoxCollider(System.Single,System.Single,System.Single)
+  commentId: M:Beryl.Physics.Components.RigidBody.AddBoxCollider(System.Single,System.Single,System.Single)
+  id: AddBoxCollider(System.Single,System.Single,System.Single)
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: AddBoxCollider(float, float, float)
+  nameWithType: RigidBody.AddBoxCollider(float, float, float)
+  fullName: Beryl.Physics.Components.RigidBody.AddBoxCollider(float, float, float)
+  type: Method
+  source:
+    id: AddBoxCollider
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 118
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public int AddBoxCollider(float width, float height, float depth)
+    parameters:
+    - id: width
+      type: System.Single
+    - id: height
+      type: System.Single
+    - id: depth
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Public Function AddBoxCollider(width As Single, height As Single, depth As Single) As Integer
+  overload: Beryl.Physics.Components.RigidBody.AddBoxCollider*
+  nameWithType.vb: RigidBody.AddBoxCollider(Single, Single, Single)
+  fullName.vb: Beryl.Physics.Components.RigidBody.AddBoxCollider(Single, Single, Single)
+  name.vb: AddBoxCollider(Single, Single, Single)
+- uid: Beryl.Physics.Components.RigidBody.AddSphereCollider(System.Single)
+  commentId: M:Beryl.Physics.Components.RigidBody.AddSphereCollider(System.Single)
+  id: AddSphereCollider(System.Single)
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: AddSphereCollider(float)
+  nameWithType: RigidBody.AddSphereCollider(float)
+  fullName: Beryl.Physics.Components.RigidBody.AddSphereCollider(float)
+  type: Method
+  source:
+    id: AddSphereCollider
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 132
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public int AddSphereCollider(float radius)
+    parameters:
+    - id: radius
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Public Function AddSphereCollider(radius As Single) As Integer
+  overload: Beryl.Physics.Components.RigidBody.AddSphereCollider*
+  nameWithType.vb: RigidBody.AddSphereCollider(Single)
+  fullName.vb: Beryl.Physics.Components.RigidBody.AddSphereCollider(Single)
+  name.vb: AddSphereCollider(Single)
+- uid: Beryl.Physics.Components.RigidBody.RemoveCollider(System.Int32)
+  commentId: M:Beryl.Physics.Components.RigidBody.RemoveCollider(System.Int32)
+  id: RemoveCollider(System.Int32)
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: RemoveCollider(int)
+  nameWithType: RigidBody.RemoveCollider(int)
+  fullName: Beryl.Physics.Components.RigidBody.RemoveCollider(int)
+  type: Method
+  source:
+    id: RemoveCollider
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 146
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public void RemoveCollider(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    content.vb: Public Sub RemoveCollider(id As Integer)
+  overload: Beryl.Physics.Components.RigidBody.RemoveCollider*
+  nameWithType.vb: RigidBody.RemoveCollider(Integer)
+  fullName.vb: Beryl.Physics.Components.RigidBody.RemoveCollider(Integer)
+  name.vb: RemoveCollider(Integer)
+- uid: Beryl.Physics.Components.RigidBody.AddForce(Beryl.Math.Vector3)
+  commentId: M:Beryl.Physics.Components.RigidBody.AddForce(Beryl.Math.Vector3)
+  id: AddForce(Beryl.Math.Vector3)
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: AddForce(Vector3)
+  nameWithType: RigidBody.AddForce(Vector3)
+  fullName: Beryl.Physics.Components.RigidBody.AddForce(Beryl.Math.Vector3)
+  type: Method
+  source:
+    id: AddForce
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 149
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public void AddForce(Vector3 force)
+    parameters:
+    - id: force
+      type: Beryl.Math.Vector3
+    content.vb: Public Sub AddForce(force As Vector3)
+  overload: Beryl.Physics.Components.RigidBody.AddForce*
+- uid: Beryl.Physics.Components.RigidBody.OnCollisionEnter
+  commentId: E:Beryl.Physics.Components.RigidBody.OnCollisionEnter
+  id: OnCollisionEnter
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: OnCollisionEnter
+  nameWithType: RigidBody.OnCollisionEnter
+  fullName: Beryl.Physics.Components.RigidBody.OnCollisionEnter
+  type: Event
+  source:
+    id: OnCollisionEnter
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 152
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public event Action<IPhysicsBody>? OnCollisionEnter
+    return:
+      type: System.Action{Beryl.Physics.IPhysicsBody}
+    content.vb: Public Event OnCollisionEnter As Action(Of IPhysicsBody)
+- uid: Beryl.Physics.Components.RigidBody.OnCollisionExit
+  commentId: E:Beryl.Physics.Components.RigidBody.OnCollisionExit
+  id: OnCollisionExit
+  parent: Beryl.Physics.Components.RigidBody
+  langs:
+  - csharp
+  - vb
+  name: OnCollisionExit
+  nameWithType: RigidBody.OnCollisionExit
+  fullName: Beryl.Physics.Components.RigidBody.OnCollisionExit
+  type: Event
+  source:
+    id: OnCollisionExit
+    path: E:\Beryl\Documentation\src\Modules\Beryl.Physics\Components\RigidBody.cs
+    startLine: 159
+  assemblies:
+  - Beryl.Physics
+  namespace: Beryl.Physics.Components
+  example: []
+  syntax:
+    content: public event Action<IPhysicsBody>? OnCollisionExit
+    return:
+      type: System.Action{Beryl.Physics.IPhysicsBody}
+    content.vb: Public Event OnCollisionExit As Action(Of IPhysicsBody)
+references:
+- uid: Beryl.Scenes.Entities.Entity
+  commentId: T:Beryl.Scenes.Entities.Entity
+  parent: Beryl.Scenes.Entities
+  href: Beryl.Scenes.Entities.Entity.html
+  name: Entity
+  nameWithType: Entity
+  fullName: Beryl.Scenes.Entities.Entity
+- uid: Beryl.Physics.Components
+  commentId: N:Beryl.Physics.Components
+  href: Beryl.html
+  name: Beryl.Physics.Components
+  nameWithType: Beryl.Physics.Components
+  fullName: Beryl.Physics.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Physics
+    name: Physics
+    href: Beryl.Physics.html
+  - name: .
+  - uid: Beryl.Physics.Components
+    name: Components
+    href: Beryl.Physics.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Beryl.Scenes.Components.Component
+  commentId: T:Beryl.Scenes.Components.Component
+  parent: Beryl.Scenes.Components
+  href: Beryl.Scenes.Components.Component.html
+  name: Component
+  nameWithType: Component
+  fullName: Beryl.Scenes.Components.Component
+- uid: Beryl.Scenes.Components.Component.Enabled
+  commentId: P:Beryl.Scenes.Components.Component.Enabled
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Enabled
+  name: Enabled
+  nameWithType: Component.Enabled
+  fullName: Beryl.Scenes.Components.Component.Enabled
+- uid: Beryl.Scenes.Components.Component.Entity
+  commentId: P:Beryl.Scenes.Components.Component.Entity
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Entity
+  name: Entity
+  nameWithType: Component.Entity
+  fullName: Beryl.Scenes.Components.Component.Entity
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Beryl.Scenes.Entities
+  commentId: N:Beryl.Scenes.Entities
+  href: Beryl.html
+  name: Beryl.Scenes.Entities
+  nameWithType: Beryl.Scenes.Entities
+  fullName: Beryl.Scenes.Entities
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Entities
+    name: Entities
+    href: Beryl.Scenes.Entities.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Entities
+    name: Entities
+    href: Beryl.Scenes.Entities.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Beryl.Scenes.Components
+  commentId: N:Beryl.Scenes.Components
+  href: Beryl.html
+  name: Beryl.Scenes.Components
+  nameWithType: Beryl.Scenes.Components
+  fullName: Beryl.Scenes.Components
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Components
+    name: Components
+    href: Beryl.Scenes.Components.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Scenes
+    name: Scenes
+    href: Beryl.Scenes.html
+  - name: .
+  - uid: Beryl.Scenes.Components
+    name: Components
+    href: Beryl.Scenes.Components.html
+- uid: Beryl.Physics.Components.RigidBody.IsStatic*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.IsStatic
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_IsStatic
+  name: IsStatic
+  nameWithType: RigidBody.IsStatic
+  fullName: Beryl.Physics.Components.RigidBody.IsStatic
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Beryl.Physics.Components.RigidBody.AffectedByGravity*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.AffectedByGravity
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_AffectedByGravity
+  name: AffectedByGravity
+  nameWithType: RigidBody.AffectedByGravity
+  fullName: Beryl.Physics.Components.RigidBody.AffectedByGravity
+- uid: Beryl.Physics.Components.RigidBody.Mass*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.Mass
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_Mass
+  name: Mass
+  nameWithType: RigidBody.Mass
+  fullName: Beryl.Physics.Components.RigidBody.Mass
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Beryl.Physics.Components.RigidBody.Friction*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.Friction
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_Friction
+  name: Friction
+  nameWithType: RigidBody.Friction
+  fullName: Beryl.Physics.Components.RigidBody.Friction
+- uid: Beryl.Physics.Components.RigidBody.Restitution*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.Restitution
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_Restitution
+  name: Restitution
+  nameWithType: RigidBody.Restitution
+  fullName: Beryl.Physics.Components.RigidBody.Restitution
+- uid: Beryl.Physics.Components.RigidBody.Position*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.Position
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_Position
+  name: Position
+  nameWithType: RigidBody.Position
+  fullName: Beryl.Physics.Components.RigidBody.Position
+- uid: Beryl.Math.Vector3
+  commentId: T:Beryl.Math.Vector3
+  parent: Beryl.Math
+  href: Beryl.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Beryl.Math.Vector3
+- uid: Beryl.Math
+  commentId: N:Beryl.Math
+  href: Beryl.html
+  name: Beryl.Math
+  nameWithType: Beryl.Math
+  fullName: Beryl.Math
+  spec.csharp:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+  spec.vb:
+  - uid: Beryl
+    name: Beryl
+    href: Beryl.html
+  - name: .
+  - uid: Beryl.Math
+    name: Math
+    href: Beryl.Math.html
+- uid: Beryl.Physics.Components.RigidBody.Orientation*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.Orientation
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_Orientation
+  name: Orientation
+  nameWithType: RigidBody.Orientation
+  fullName: Beryl.Physics.Components.RigidBody.Orientation
+- uid: Beryl.Math.Quaternion
+  commentId: T:Beryl.Math.Quaternion
+  parent: Beryl.Math
+  href: Beryl.Math.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Beryl.Math.Quaternion
+- uid: Beryl.Physics.Components.RigidBody.Velocity*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.Velocity
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_Velocity
+  name: Velocity
+  nameWithType: RigidBody.Velocity
+  fullName: Beryl.Physics.Components.RigidBody.Velocity
+- uid: Beryl.Physics.Components.RigidBody.AngularVelocity*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.AngularVelocity
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_AngularVelocity
+  name: AngularVelocity
+  nameWithType: RigidBody.AngularVelocity
+  fullName: Beryl.Physics.Components.RigidBody.AngularVelocity
+- uid: Beryl.Physics.Components.RigidBody.Damping*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.Damping
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_Damping
+  name: Damping
+  nameWithType: RigidBody.Damping
+  fullName: Beryl.Physics.Components.RigidBody.Damping
+- uid: Beryl.Math.Vector2
+  commentId: T:Beryl.Math.Vector2
+  parent: Beryl.Math
+  href: Beryl.Math.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Beryl.Math.Vector2
+- uid: Beryl.Scenes.Components.Component.Start
+  commentId: M:Beryl.Scenes.Components.Component.Start
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Start
+  name: Start()
+  nameWithType: Component.Start()
+  fullName: Beryl.Scenes.Components.Component.Start()
+  spec.csharp:
+  - uid: Beryl.Scenes.Components.Component.Start
+    name: Start
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Scenes.Components.Component.Start
+    name: Start
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Start
+  - name: (
+  - name: )
+- uid: Beryl.Physics.Components.RigidBody.Start*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.Start
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_Start
+  name: Start
+  nameWithType: RigidBody.Start
+  fullName: Beryl.Physics.Components.RigidBody.Start
+- uid: Beryl.Scenes.Components.Component.Update
+  commentId: M:Beryl.Scenes.Components.Component.Update
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Update
+  name: Update()
+  nameWithType: Component.Update()
+  fullName: Beryl.Scenes.Components.Component.Update()
+  spec.csharp:
+  - uid: Beryl.Scenes.Components.Component.Update
+    name: Update
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Scenes.Components.Component.Update
+    name: Update
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Update
+  - name: (
+  - name: )
+- uid: Beryl.Physics.Components.RigidBody.Update*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.Update
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_Update
+  name: Update
+  nameWithType: RigidBody.Update
+  fullName: Beryl.Physics.Components.RigidBody.Update
+- uid: Beryl.Scenes.Components.Component.Destroy
+  commentId: M:Beryl.Scenes.Components.Component.Destroy
+  parent: Beryl.Scenes.Components.Component
+  href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Destroy
+  name: Destroy()
+  nameWithType: Component.Destroy()
+  fullName: Beryl.Scenes.Components.Component.Destroy()
+  spec.csharp:
+  - uid: Beryl.Scenes.Components.Component.Destroy
+    name: Destroy
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Destroy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Beryl.Scenes.Components.Component.Destroy
+    name: Destroy
+    href: Beryl.Scenes.Components.Component.html#Beryl_Scenes_Components_Component_Destroy
+  - name: (
+  - name: )
+- uid: Beryl.Physics.Components.RigidBody.Destroy*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.Destroy
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_Destroy
+  name: Destroy
+  nameWithType: RigidBody.Destroy
+  fullName: Beryl.Physics.Components.RigidBody.Destroy
+- uid: Beryl.Physics.Components.RigidBody.AddBoxCollider*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.AddBoxCollider
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_AddBoxCollider_System_Single_System_Single_System_Single_
+  name: AddBoxCollider
+  nameWithType: RigidBody.AddBoxCollider
+  fullName: Beryl.Physics.Components.RigidBody.AddBoxCollider
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Beryl.Physics.Components.RigidBody.AddSphereCollider*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.AddSphereCollider
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_AddSphereCollider_System_Single_
+  name: AddSphereCollider
+  nameWithType: RigidBody.AddSphereCollider
+  fullName: Beryl.Physics.Components.RigidBody.AddSphereCollider
+- uid: Beryl.Physics.Components.RigidBody.RemoveCollider*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.RemoveCollider
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_RemoveCollider_System_Int32_
+  name: RemoveCollider
+  nameWithType: RigidBody.RemoveCollider
+  fullName: Beryl.Physics.Components.RigidBody.RemoveCollider
+- uid: Beryl.Physics.Components.RigidBody.AddForce*
+  commentId: Overload:Beryl.Physics.Components.RigidBody.AddForce
+  href: Beryl.Physics.Components.RigidBody.html#Beryl_Physics_Components_RigidBody_AddForce_Beryl_Math_Vector3_
+  name: AddForce
+  nameWithType: RigidBody.AddForce
+  fullName: Beryl.Physics.Components.RigidBody.AddForce
+- uid: System.Action{Beryl.Physics.IPhysicsBody}
+  commentId: T:System.Action{Beryl.Physics.IPhysicsBody}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IPhysicsBody>
+  nameWithType: Action<IPhysicsBody>
+  fullName: System.Action<Beryl.Physics.IPhysicsBody>
+  nameWithType.vb: Action(Of IPhysicsBody)
+  fullName.vb: System.Action(Of Beryl.Physics.IPhysicsBody)
+  name.vb: Action(Of IPhysicsBody)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: Beryl.Physics.IPhysicsBody
+    name: IPhysicsBody
+    href: Beryl.Physics.IPhysicsBody.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Beryl.Physics.IPhysicsBody
+    name: IPhysicsBody
+    href: Beryl.Physics.IPhysicsBody.html
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
