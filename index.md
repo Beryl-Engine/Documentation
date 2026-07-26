@@ -1,16 +1,16 @@
----
+﻿---
 _layout: landing
 ---
 
 <div class="hero">
 
-<h1><b>Orama Engine</b></h1>
+<h1><b>Beryl Engine</b></h1>
 <p class="hero-subtitle">
 A Free & Open Source Game Engine built for lovers of modern C#.
 </p>
 
 <div class="hero-actions">
-  <a class="btn btn-github" href="https://github.com/Orama-Engine/Orama" role="button">
+  <a class="btn btn-github" href="https://github.com/Beryl-Engine/Beryl" role="button">
     <i class="bi bi-github"></i>
     GitHub
   </a>

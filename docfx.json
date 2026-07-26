@@ -1,4 +1,4 @@
-{
+﻿{
   "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
   "metadata": [
     {
@@ -36,7 +36,7 @@
     "template": [
       "default",
       "modern",
-      "orama-template"
+      "beryl-template"
     ],
     "globalMetadata": {
       "_appName": "Beryl Engine",

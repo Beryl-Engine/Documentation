@@ -1,5 +1,5 @@
-# Entities & Components
-Orama structures gameplay logic around two main base classes: <xref:Orama.Scenes.Entities.Entity> and <xref:Orama.Scenes.Components.Component>, each playing a unique role in building logic.
+﻿# Entities & Components
+Beryl structures gameplay logic around two main base classes: <xref:Beryl.Scenes.Entities.Entity> and <xref:Beryl.Scenes.Components.Component>, each playing a unique role in building logic.
 
 ## Components
 **Components** are isolated building blocks for logic. Ideally, a component handles a single-responsiblity, such as rendering a mesh, playing an audio clip, or detecting collision. Components operate independently and don't know about other components.
@@ -13,13 +13,13 @@ public class MyComponent : Component
 	{
 		base.Start();
 
-		OramaConsole.Log("Hello, World!");
+		BerylConsole.Log("Hello, World!");
 	}
 }
 ```
 
 ## Entities
-When you need logic that uses multiple components, **Entities** come into play. The job of an Entity is to orchestrate multiple components and tell them how to work together. A `Box` entity would contain a <xref:Orama.Rendering.Components.MeshRenderer> that draws a box primitive, a <xref:Orama.Physics.Components.RigidBody> that provides Physics, and a <xref:Orama.Physics.Components.Colliders.BoxCollider> that provides collision.
+When you need logic that uses multiple components, **Entities** come into play. The job of an Entity is to orchestrate multiple components and tell them how to work together. A `Box` entity would contain a <xref:Beryl.Rendering.Components.MeshRenderer> that draws a box primitive, a <xref:Beryl.Physics.Components.RigidBody> that provides Physics, and a <xref:Beryl.Physics.Components.Colliders.BoxCollider> that provides collision.
 
 ```csharp
 // Basic Entity that acts as a static box with collision.
