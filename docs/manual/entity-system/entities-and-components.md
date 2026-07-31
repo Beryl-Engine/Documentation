@@ -26,13 +26,13 @@ When you need logic that uses multiple components, **Entities** come into play. 
 public class Box : Entity
 {
 	[ImplicitComponent]
-	public MeshRenderer Renderer { get; }
+	protected MeshRenderer Renderer { get; }
 
 	[ImplicitComponent]
-	public RigidBody RigidBody { get; }
+	protected RigidBody RigidBody { get; }
 
 	[ImplicitComponent]	
-	public BoxCollider Collider { get; }
+	protected BoxCollider Collider { get; }
 
 	/// <inheritdoc/>
 	public override void Start()
