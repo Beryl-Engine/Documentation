@@ -4,7 +4,10 @@ _layout: landing
 
 <div class="hero">
 
-<h1><b>Beryl Engine</b></h1>
+<h1>
+  <img src="https://raw.githubusercontent.com/Beryl-Engine/Branding/4f55de947cd525491a4893054119a5654cfce66d/logo/banner/banner-full-colored.svg" alt="Beryl Banner" width="400">
+</h1>
+
 <p class="hero-subtitle">
 A Free & Open Source Game Engine built for lovers of modern C#.
 </p>

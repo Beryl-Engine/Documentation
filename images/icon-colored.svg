@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="StemDraft_01.svg"
+   xml:space="preserve"
+   inkscape:export-filename="StemDraft_01.png"
+   inkscape:export-xdpi="127"
+   inkscape:export-ydpi="127"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.5121316"
+     inkscape:cx="32.218281"
+     inkscape:cy="567.23701"
+     inkscape:window-width="1904"
+     inkscape:window-height="993"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:116.767px;line-height:0;font-family:'Baloo 2';-inkscape-font-specification:'Baloo 2 Bold';text-align:end;letter-spacing:3.04079px;text-anchor:end;display:inline;fill:#292929;fill-opacity:1;stroke:#ffffff;stroke-width:3.44783;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       x="85.024071"
+       y="85.995956"
+       id="text1"
+       inkscape:label="B"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:116.767px;font-family:'Baloo 2';-inkscape-font-specification:'Baloo 2 Bold';fill:#292929;fill-opacity:1;stroke-width:3.44783;stroke-dasharray:none"
+         x="88.064865"
+         y="85.995956">B</tspan></text><path
+       style="opacity:1;fill:#65a661;fill-opacity:1;stroke:#ffffff;stroke-width:5.09195;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 22.577567,6.4301994 1.114373,5.1986446 2.509829,4.959349 4.212845,-4.243825 2.284807,-1.373312 2.79489,-4.6377968 1.152118,1.9893231 -0.671594,2.9908367 3.314063,-2.3074716 5.751845,-2.0453262 1.865986,-1.4134219 -0.421892,4.6785877 -2.860585,3.85696 -7.898557,2.499542 3.470674,1.565912 4.33752,-0.201378 -2.688737,3.887762 -5.484181,1.568939 -5.370417,-1.10239 -0.09798,5.785365 -4.455274,7.031919 -2.575873,0.656961 0.598634,-8.247521 -3.863688,5.527359 -3.415899,3.048188 -2.546229,0.784964 -2.574535,-0.427853 2.74497,-2.625871 3.134978,-5.976389 1.021334,-1.316016 -2.630315,0.192749 -2.482784,-1.528675 4.078386,-1.086806 4.70679,-4.225209 3.121532,-1.852573 -3.573751,-5.534573 -1.6515,-5.3648305 z"
+       id="path1"
+       inkscape:label="Stem"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccc" /></g></svg>
