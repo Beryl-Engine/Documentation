@@ -5,7 +5,7 @@ _layout: landing
 <div class="hero">
 
 <h1>
-  <img src="https://raw.githubusercontent.com/Beryl-Engine/Branding/4f55de947cd525491a4893054119a5654cfce66d/logo/banner/banner-full-colored.svg" alt="Beryl Banner" width="400">
+  <img src="http://github.com/Beryl-Engine/Branding/blob/main/logo/banner/banner-full-colored.svg?raw=true" alt="Beryl Banner" width="400">
 </h1>
 
 <p class="hero-subtitle">
