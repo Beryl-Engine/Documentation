@@ -33,8 +33,8 @@ Aswell as defining stage functions, Shaders can define asset-level metadata usin
 
 SHADER_ATTRIBUTES(
     [ShaderPass("Opaque")]
-    [CullMode("None")]
-    [DepthTest("None")]
+    [CullMode(CullingMode::Front)]
+    [DepthTest(DepthTestMode::Never)]
 )
 ```
 
